@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coskeletal hypercover effective | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/entry/coskeletal-hypercover-effective/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,12 +20,12 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <link rel="stylesheet" href="../../_assets/entry-links.css">
 <script defer src="../../_assets/entry-links.js"></script>
 </head>
-<body class="entry-page has-context-nav" data-record-id="coskeletal-hypercover-effective" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="entry-page has-context-nav" data-record-id="coskeletal-hypercover-effective" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -34,8 +34,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -69,12 +69,12 @@
 </header>
   <main class="reader-layout">
     <button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
-      <span aria-hidden="true">☰</span> Nearby entries
+      <span aria-hidden="true">☰</span> Navigation
     </button>
-    <article class="notes-page">
+    <article class="notes-page"><nav class="entry-context" aria-label="Result navigation"><a class="entry-context-step entry-context-previous" rel="prev" href="../constant-simplicial-object-hypercover/index.html" aria-label="Previous result: Lemma 6.47, Constant simplicial object hypercover" title="Constant simplicial object hypercover">← <span class="entry-context-name">Lemma 6.47</span></a><a class="entry-context-section" href="../../section/hypercovers/index.html#lem:Coskeletal_Hypercover_Effective">↩ Read in context: Section 6.3</a><a class="entry-context-step entry-context-next" rel="next" href="../truncated-comparison-connectivity/index.html" aria-label="Next result: Lemma 6.49, Truncated comparison connectivity" title="Truncated comparison connectivity"><span class="entry-context-name">Lemma 6.49</span> →</a></nav>
       
-<section class="theorem lemma" id="lem:Coskeletal_Hypercover_Effective">
-  <p class="theorem-heading"><span>Lemma 6.48.</span> (<span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Lemma 6.5.3.9</a>]</span>)</p>
+<section class="theorem lemma theorem-plain" id="lem:Coskeletal_Hypercover_Effective">
+  <p class="theorem-heading"><span>Lemma 6.48.</span> (<span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Lemma 6.5.3.9</a>]</span>)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(X\)</span> be an object of a topos <span class="math-inline">\(T\)</span>. If <span class="math-inline">\(U_\bullet\to X\)</span> is an augmented hypercover which is <span class="math-inline">\(n\)</span>-coskeletal in <span class="math-inline">\(T_{/X}\)</span>, then its augmentation <span class="math-inline">\(\abs{U_\bullet}\to X\)</span> is an isomorphism.</p></div>
 </section>
 
@@ -82,45 +82,111 @@
   <summary>Proof</summary>
   <div class="proof-body">Work in the slice over <span class="math-inline">\(X\)</span>, and write <span class="math-inline">\(U=U_\bullet\)</span>. We may compute a simplicial realization using only injective maps in <span class="math-inline">\(\simp\)</span>. For each <span class="math-inline">\([m]\)</span>, the comma category in the finality criterion is the opposite of the category of strings in <span class="math-inline">\([m]\)</span> and face inclusions. Appending <span class="math-inline">\(m\)</span> gives an endofunctor receiving natural maps from the identity and from the constant string <span class="math-inline">\((m)\)</span>. Thus its nerve is contractible. Moreover the semisimplicial restriction of an <span class="math-inline">\(n\)</span>-coskeleton is still an <span class="math-inline">\(n\)</span>-coskeleton. In degree <span class="math-inline">\(k\)</span> the right Kan extension is computed on the poset of faces of <span class="math-inline">\([k]\)</span> of dimension at most <span class="math-inline">\(n\)</span>: factoring each simplex through its image exhibits the inclusion of faces as final in the indexing category before passing to opposites.<div class="proof-paragraph-break" aria-hidden="true"></div>For <span class="math-inline">\(n=0\)</span> it is the Čech nerve of the effective epimorphism <span class="math-inline">\(U_0\to *\)</span>. For <span class="math-inline">\(n&gt;0\)</span> put <span class="math-inline">\(V=\cosk_{n-1}U\)</span>. This is again a hypercover, with invertible matching maps from degree <span class="math-inline">\(n\)</span> onwards. Inductively <span class="math-inline">\(\abs V\simeq *\)</span>. The map <span class="math-inline">\(U_k\to V_k\)</span> is an isomorphism for <span class="math-inline">\(k&lt;n\)</span>. For <span class="math-inline">\(k\geq n\)</span>, extending boundary data on the <span class="math-inline">\((n-1)\)</span>-skeleton of <span class="math-inline">\([k]\)</span> to its <span class="math-inline">\(n\)</span>-skeleton amounts to choosing, for each nondegenerate <span class="math-inline">\(n\)</span>-face, a lift along <span class="math-inline">\(U_n\to V_n\)</span> of its boundary. Distinct <span class="math-inline">\(n\)</span>-faces meet in lower dimensions. The resulting map is therefore a finite composite of base changes of this effective epimorphism. Higher degrees are determined by coskeletality.<div class="proof-paragraph-break" aria-hidden="true"></div>Form the bisimplicial object <span class="math-inline">\(W_{p,q}=U_q^{\times_{V_q}(p+1)}\)</span>. Its realization in the first variable is <span class="math-inline">\(V_q\)</span> by effectiveness. The diagonal <span class="math-inline">\(D_k=W_{k,k}\)</span> thus realizes to <span class="math-inline">\(\abs V\)</span>, since its diagonal is final by <a class="citation" href="https://animarium.org/tag/10NJ/">[SCT, Proposition 10.4.6]</a> and colimits commute. Repeating each entry gives a simplicial map <span class="math-inline">\(U\to D\)</span>. We construct a retraction after forgetting degeneracies.<div class="proof-paragraph-break" aria-hidden="true"></div>Below degree <span class="math-inline">\(n\)</span>, both semisimplicial diagrams identify with <span class="math-inline">\(V\)</span> and the map is the identity. In degree <span class="math-inline">\(n\)</span> they map to the same matching object <span class="math-inline">\(V_n\)</span>. To extend a map on lower degrees to degree <span class="math-inline">\(n\)</span> is exactly to give a map over this matching object: the only nonidentity arrows out of degree <span class="math-inline">\(n\)</span> are its faces and their composites. In that slice the map is the diagonal <span class="math-inline">\(U_n\to U_n^{\times_{V_n}(n+1)}\)</span>. Projection onto the first factor retracts it. Right Kan extension into the <span class="math-inline">\(n\)</span>-coskeletal target <span class="math-inline">\(U\)</span> now gives a map <span class="math-inline">\(D\to U\)</span> of semisimplicial objects whose composite on <span class="math-inline">\(U\)</span> is the identity, since it is the identity through degree <span class="math-inline">\(n\)</span>. Consequently <span class="math-inline">\(\abs U\)</span> is a retract of the terminal object <span class="math-inline">\(\abs D\)</span> and is terminal.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li>
-<li id="bib-CCW_SCT">Denis-Charles Cisinski, Bastiaan Cnossen, Tashi Walde. <em>Synthetic category theory</em>. Vol. 1. 2026.</li></ol></section>
+<span id="bib-lurie2009HTT" data-legacy-reference="../../references/index.html#bib-lurie2009HTT" hidden></span><span id="bib-CCW_SCT" data-legacy-reference="../../references/index.html#bib-CCW_SCT" hidden></span>
     </article>
-      <aside class="context-nav" id="context-navigation" data-context-nav aria-label="Nearby entries">
-      <button class="context-nav-collapse" type="button" data-context-nav-collapse data-collapsed-label="Nearby entries" aria-controls="context-navigation" aria-expanded="true" aria-label="Hide Nearby entries">
-      <span aria-hidden="true">›</span>
-    </button>
-      <p class="context-chapter-link"><a href="../../chapter/topics-in-topos-theory/index.html">Topics in topos theory</a></p>
-      <p class="context-nav-kicker">Section 6.3</p>
-      <h2><a href="../../section/hypercovers/index.html">Hypercovers</a></h2>
-      <p class="context-nav-description"><a href="../../section/hypercovers/index.html#lem:Coskeletal_Hypercover_Effective">Read this result in the continuous section</a></p>
-      <ol class="context-entry-list context-entry-list-nearby">
-        <li><a href="../hypercover-in-hypercompletion/index.html">
-          <span class="context-entry-heading">Corollary 6.46</span>
-          <span class="context-entry-title">Hypercover in hypercompletion</span>
+      <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../chapter/introduction/index.html">
+          <span class="context-entry-heading">Chapter 1</span>
+          <span class="context-entry-title">Introduction</span>
         </a></li>
-<li><a href="../constant-simplicial-object-hypercover/index.html">
-          <span class="context-entry-heading">Lemma 6.47</span>
-          <span class="context-entry-title">Constant simplicial object hypercover</span>
+<li><a href="../../chapter/foundations/index.html">
+          <span class="context-entry-heading">Chapter 2</span>
+          <span class="context-entry-title">Foundations</span>
         </a></li>
-<li><a href="#lem:Coskeletal_Hypercover_Effective" aria-current="page">
-          <span class="context-entry-heading">Lemma 6.48</span>
-          <span class="context-entry-title">Coskeletal hypercover effective</span>
+<li><a href="../../chapter/truncation-connectivity/index.html">
+          <span class="context-entry-heading">Chapter 3</span>
+          <span class="context-entry-title">Truncation and connectivity</span>
         </a></li>
-<li><a href="../truncated-comparison-connectivity/index.html">
-          <span class="context-entry-heading">Lemma 6.49</span>
-          <span class="context-entry-title">Truncated comparison connectivity</span>
+<li><a href="../../chapter/topoi-logoi/index.html">
+          <span class="context-entry-heading">Chapter 4</span>
+          <span class="context-entry-title">The categories of topoi and logoi</span>
         </a></li>
-<li><a href="../hypercover-infty-connected/index.html">
-          <span class="context-entry-heading">Lemma 6.50</span>
-          <span class="context-entry-title">Hypercover infinity connected</span>
+<li><a href="../../chapter/modalities/index.html">
+          <span class="context-entry-heading">Chapter 5</span>
+          <span class="context-entry-title">Modalities</span>
         </a></li>
-      </ol>
-      <nav class="context-step-links" aria-label="Previous and next entries"><a rel="prev" href="../constant-simplicial-object-hypercover/index.html"><span>Previous</span>Constant simplicial object hypercover</a>
-<a rel="next" href="../truncated-comparison-connectivity/index.html"><span>Next</span>Truncated comparison connectivity</a></nav>
-    </aside>
+<li><a href="../../chapter/topics-in-topos-theory/index.html" aria-current="location">
+          <span class="context-entry-heading">Chapter 6</span>
+          <span class="context-entry-title">Topics in topos theory</span>
+        </a></li>
+<li><a href="../../chapter/geometry/index.html">
+          <span class="context-entry-heading">Chapter 7</span>
+          <span class="context-entry-title">Geometry</span>
+        </a></li>
+<li><a href="../../chapter/factorization-systems-and-saturated-classes/index.html">
+          <span class="context-entry-heading">Appendix A</span>
+          <span class="context-entry-title">Factorization systems and saturated classes</span>
+        </a></li>
+<li><a href="../../chapter/limits-and-colimits-in-categories-of-sections/index.html">
+          <span class="context-entry-heading">Appendix B</span>
+          <span class="context-entry-title">Limits and colimits in categories of sections</span>
+        </a></li>
+<li><a href="../../chapter/dense-subcategories-closed-under-finite-limits/index.html">
+          <span class="context-entry-heading">Appendix C</span>
+          <span class="context-entry-title">Dense subcategories closed under finite limits</span>
+        </a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../section/sheaf-topoi/index.html">
+          <span class="context-entry-heading">Section 6.1</span>
+          <span class="context-entry-title">Sheaf topoi</span>
+        </a></li>
+<li><a href="../../section/groupoid-actions-and-principal-bundles/index.html">
+          <span class="context-entry-heading">Section 6.2</span>
+          <span class="context-entry-title">Groupoid actions and principal bundles</span>
+        </a></li>
+<li><a href="../../section/hypercovers/index.html" aria-current="page">
+          <span class="context-entry-heading">Section 6.3</span>
+          <span class="context-entry-title">Hypercovers</span>
+        </a></li>
+<li><a href="../../section/localic-topoi-postnikov-completeness-and-boundedness/index.html">
+          <span class="context-entry-heading">Section 6.4</span>
+          <span class="context-entry-title">Localic topoi, Postnikov-completeness, and boundedness</span>
+        </a></li>
+<li><a href="../../section/dimension-theory/index.html">
+          <span class="context-entry-heading">Section 6.5</span>
+          <span class="context-entry-title">Dimension theory</span>
+        </a></li>
+<li><a href="../../section/essential-morphisms-and-shape-theory/index.html">
+          <span class="context-entry-heading">Section 6.6</span>
+          <span class="context-entry-title">Essential morphisms and shape theory</span>
+        </a></li>
+<li><a href="../../section/coherence/index.html">
+          <span class="context-entry-heading">Section 6.7</span>
+          <span class="context-entry-title">Coherence</span>
+        </a></li>
+<li><a href="../../section/pretopoi/index.html">
+          <span class="context-entry-heading">Section 6.8</span>
+          <span class="context-entry-title">Pretopoi</span>
+        </a></li>
+<li><a href="../../section/makkai-completeness/index.html">
+          <span class="context-entry-heading">Section 6.9</span>
+          <span class="context-entry-title">Makkai completeness</span>
+        </a></li>
+<li><a href="../../section/compactly-assembled-categories-and-exponentiability/index.html">
+          <span class="context-entry-heading">Section 6.10</span>
+          <span class="context-entry-title">Compactly assembled categories and exponentiability</span>
+        </a></li>
+<li><a href="../../section/topoi-of-parametrized-objects/index.html">
+          <span class="context-entry-heading">Section 6.11</span>
+          <span class="context-entry-title">Topoi of parametrized objects</span>
+        </a></li></ol>
+    </nav>
+  </section></div>
+  </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

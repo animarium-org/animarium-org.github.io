@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Homotopy group objects | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/homotopy-group-objects/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="homotopy-group-objects" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="homotopy-group-objects" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -66,7 +66,7 @@
       
 <h2 id="sec:Homotopy_Group_Objects"><span>3.3.</span> Homotopy group objects</h2>
 <p>The recursive definition of truncatedness has a complementary form for connectedness: an <span class="math-inline">\(n\)</span>-connected morphism is an effective epimorphism whose diagonal is <span class="math-inline">\((n-1)\)</span>-connected. Our goal is to prove this characterization. It is not a formal consequence of the definitions, since one must first recognize connectedness from the vanishing of relative homotopy group objects. We therefore begin by constructing these objects and their long exact sequence, and then use them to establish the required detection results.</p>
-<section class="theorem theorem" id="thm:Characterization_n_Connected">
+<section class="theorem theorem theorem-plain" id="thm:Characterization_n_Connected">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/characterizing-connected-morphisms-by-diagonals/index.html">Theorem 3.22.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(n \geq 0\)</span>. Then a morphism <span class="math-inline">\(f\colon X \to Y\)</span> is <span class="math-inline">\(n\)</span>-connected if and only if it is an effective epimorphism and <span class="math-inline">\(\Delta_f\colon X \to X \times_Y X\)</span> is <span class="math-inline">\((n-1)\)</span>-connected.</p></div>
 </section>
@@ -87,7 +87,7 @@
   <div class="theorem-statement"><p>Since <span class="math-inline">\(X^{S^0} = X \times X\)</span>, we see that <span class="math-inline">\(\pi_0(X) \cong \tau_0 X \times X \in T_{/X}\)</span>. It becomes a pointed object via the canonical section <span class="math-inline">\(X \xrightarrow{\Delta} X \times X \to \tau_0 X \times X\)</span>.</p></div>
 </section>
 
-<section class="theorem lemma" id="lem:Functor_Preserves_Homotopy_Group_Objects">
+<section class="theorem lemma theorem-plain" id="lem:Functor_Preserves_Homotopy_Group_Objects">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/functors-preserving-homotopy-group-objects/index.html">Lemma 3.25.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(F\colon T \to T'\)</span> be a functor preserving colimits and finite limits. Then <span class="math-inline">\(F\)</span> preserves homotopy groups: for all <span class="math-inline">\(X \in T\)</span> we have a natural isomorphism</p>
 <div class="math-display">\[F(\pi_n(X)) \cong \pi_n(F(X)) \qin T_{/F(X)}.\]</div></div>
@@ -100,7 +100,7 @@
 
 <h3 id="subsec:Universal_Infinity_Connected_Object"><span>3.3.2.</span> The universal <span class="math-inline">\(\infty\)</span>-connected object and parametrized spectra</h3>
 
-<section class="theorem lemma" id="lem:Homotopy_Group_Objects_Preserve_Products">
+<section class="theorem lemma theorem-plain" id="lem:Homotopy_Group_Objects_Preserve_Products">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/homotopy-group-objects-preserve-products/index.html">Lemma 3.26.</a></span></p>
   <div class="theorem-statement"><p>The functor <span class="math-inline">\(\pi_n \colon T \to T\)</span> preserves finite products.</p></div>
 </section>
@@ -129,7 +129,7 @@
   <div class="theorem-statement"><p>Show that every subgroup of <span class="math-inline">\(\pi_1(X)\)</span> is normal.</p></div>
 </section>
 
-<section class="theorem proposition" id="prop:Long_Exact_Sequence_Homotopy_Group_Objects">
+<section class="theorem proposition theorem-plain" id="prop:Long_Exact_Sequence_Homotopy_Group_Objects">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/long-exact-sequence-of-homotopy-group-objects/index.html">Proposition 3.30.</a></span></p>
   <div class="theorem-statement"><p>Given a morphism <span class="math-inline">\(f\colon X \to Y\)</span>, there is a long exact sequence of pointed objects in <span class="math-inline">\((T_{/X})_{\leq 0}\)</span> of the form</p>
 <div class="math-display">\[\dots \to \pi_n(f) \to \pi_n(X) \to f^*\pi_n(Y) \to \pi_{n-1}(f) \to \dots .\]</div>
@@ -138,10 +138,10 @@
 
 <details class="proof-shell" id="proof-prop:Long_Exact_Sequence_Homotopy_Group_Objects-main" data-owner-entry="long-exact-sequence-of-homotopy-group-objects" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">When <span class="math-inline">\(T = \An\)</span>, this is the usual long exact sequence of a homotopy fiber, including its group action on <span class="math-inline">\(\pi_0\)</span> in the final nonabelian degree. The claim follows pointwise for any presheaf topos <span class="math-inline">\(\PSh(C)=\Fun(C\catop,\An)\)</span>. By <a href="../../entry/giraud-characterizations-of-topoi/index.html">Theorem 2.42</a>, an arbitrary topos is a left exact localization of a presheaf topos. The localization preserves the finite limits, colimits, and homotopy group objects used in the construction, by <a href="#lem:Functor_Preserves_Homotopy_Group_Objects">Lemma 3.25</a>, so it carries the pointwise long exact sequence to the asserted sequence in <span class="math-inline">\(T\)</span>. This is the argument of <span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Remark 6.5.1.5</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">When <span class="math-inline">\(T = \An\)</span>, this is the usual long exact sequence of a homotopy fiber, including its group action on <span class="math-inline">\(\pi_0\)</span> in the final nonabelian degree. The claim follows pointwise for any presheaf topos <span class="math-inline">\(\PSh(C)=\Fun(C\catop,\An)\)</span>. By <a href="../../entry/giraud-characterizations-of-topoi/index.html">Theorem 2.42</a>, an arbitrary topos is a left exact localization of a presheaf topos. The localization preserves the finite limits, colimits, and homotopy group objects used in the construction, by <a href="#lem:Functor_Preserves_Homotopy_Group_Objects">Lemma 3.25</a>, so it carries the pointwise long exact sequence to the asserted sequence in <span class="math-inline">\(T\)</span>. This is the argument of <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Remark 6.5.1.5</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem lemma" id="lem:Truncation_Preserves_Lower_Homotopy_Groups">
+<section class="theorem lemma theorem-plain" id="lem:Truncation_Preserves_Lower_Homotopy_Groups">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/truncation-preserves-lower-homotopy-groups/index.html">Lemma 3.31.</a></span></p>
   <div class="theorem-statement"><p>Suppose that <span class="math-inline">\(p\colon X\to Y\)</span> exhibits <span class="math-inline">\(Y\)</span> as the <span class="math-inline">\(n\)</span>-truncation of <span class="math-inline">\(X\)</span>. Then, for every <span class="math-inline">\(k\leq n\)</span>, the induced morphism</p>
 <div class="math-display">\[\pi_k(X) \longrightarrow p^*\pi_k(Y)\]</div>
@@ -150,12 +150,12 @@
 
 <details class="proof-shell" id="proof-lem:Truncation_Preserves_Lower_Homotopy_Groups-main" data-owner-entry="truncation-preserves-lower-homotopy-groups" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">Choose a left exact localization <span class="math-inline">\(L\colon \PSh(C)\to T\)</span> with fully faithful right adjoint <span class="math-inline">\(R\)</span>. Form the <span class="math-inline">\(n\)</span>-truncation <span class="math-inline">\(R(X)\to\tau_n^{\mathrm{pre}}R(X)\)</span> in <span class="math-inline">\(\PSh(C)\)</span>. Truncations and homotopy group objects in the presheaf topos are computed pointwise, so classical homotopy theory gives isomorphisms on <span class="math-inline">\(\pi_k\)</span> for <span class="math-inline">\(k\leq n\)</span>. Applying <span class="math-inline">\(L\)</span> preserves these homotopy group objects by <a href="#lem:Functor_Preserves_Homotopy_Group_Objects">Lemma 3.25</a>. It also identifies <span class="math-inline">\(L\tau_n^{\mathrm{pre}}R(X)\)</span> with <span class="math-inline">\(\tau_nX\cong Y\)</span> by <a href="../../entry/functors-commuting-with-truncation/index.html">Lemma 3.8</a>. The resulting isomorphisms are precisely those in the statement. See also <span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Lemma 6.5.1.9</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">Choose a left exact localization <span class="math-inline">\(L\colon \PSh(C)\to T\)</span> with fully faithful right adjoint <span class="math-inline">\(R\)</span>. Form the <span class="math-inline">\(n\)</span>-truncation <span class="math-inline">\(R(X)\to\tau_n^{\mathrm{pre}}R(X)\)</span> in <span class="math-inline">\(\PSh(C)\)</span>. Truncations and homotopy group objects in the presheaf topos are computed pointwise, so classical homotopy theory gives isomorphisms on <span class="math-inline">\(\pi_k\)</span> for <span class="math-inline">\(k\leq n\)</span>. Applying <span class="math-inline">\(L\)</span> preserves these homotopy group objects by <a href="#lem:Functor_Preserves_Homotopy_Group_Objects">Lemma 3.25</a>. It also identifies <span class="math-inline">\(L\tau_n^{\mathrm{pre}}R(X)\)</span> with <span class="math-inline">\(\tau_nX\cong Y\)</span> by <a href="../../entry/functors-commuting-with-truncation/index.html">Lemma 3.8</a>. The resulting isomorphisms are precisely those in the statement. See also <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Lemma 6.5.1.9</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
 <h3 id="subsec:Detection_And_Diagonal_Criterion"><span>3.3.3.</span> Detection and the diagonal criterion</h3>
 <p>For a morphism known to be truncated in some finite degree, its remaining truncation level is detected by the vanishing of its homotopy group objects. Together with the preceding lemma, this also characterizes connectedness.</p>
-<section class="theorem proposition" id="prop:Homotopy_Group_Objects_Detect_Truncation_Connectivity">
+<section class="theorem proposition theorem-plain" id="prop:Homotopy_Group_Objects_Detect_Truncation_Connectivity">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/homotopy-group-objects-detect-truncation-connectivity/index.html">Proposition 3.32.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(n \geq -1\)</span>.</p>
 <ol><li><p>If <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-truncated, then <span class="math-inline">\(\pi_k(f) = *\)</span> for <span class="math-inline">\(k &gt; n\)</span>. Conversely, if <span class="math-inline">\(f\)</span> is <span class="math-inline">\(m\)</span>-truncated for some <span class="math-inline">\(m\)</span> and <span class="math-inline">\(\pi_k(f)=*\)</span> for every <span class="math-inline">\(k&gt;n\)</span>, then <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-truncated.</p></li><li><p>A morphism <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected if and only if it is an effective epimorphism and <span class="math-inline">\(\pi_k(f) = *\)</span> for all <span class="math-inline">\(k \leq n\)</span>.</p></li></ol></div>
@@ -171,7 +171,7 @@
   <div class="proof-body">We must show that <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected if and only if it is an effective epimorphism and <span class="math-inline">\(\Delta_f\)</span> is <span class="math-inline">\((n-1)\)</span>-connected.<div class="proof-paragraph-break" aria-hidden="true"></div>By the proposition, <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected if and only if it is an effective epimorphism and <span class="math-inline">\(\pi_k(f)=*\)</span> for <span class="math-inline">\(0\leq k\leq n\)</span>. Similarly, <span class="math-inline">\(\Delta_f\)</span> is <span class="math-inline">\((n-1)\)</span>-connected if and only if it is an effective epimorphism and <span class="math-inline">\(\pi_k(\Delta_f)=*\)</span> for <span class="math-inline">\(0\leq k\leq n-1\)</span>. By <a href="#rem:Relative_Homotopy_Group_Object_Diagonal">Remark 3.28</a>, the latter vanishing condition is equivalent to <span class="math-inline">\(\pi_k(f)=*\)</span> for <span class="math-inline">\(1\leq k\leq n\)</span>. It remains to compare the two conditions in degree zero.<div class="proof-paragraph-break" aria-hidden="true"></div>Work in the slice topos <span class="math-inline">\(T_{/Y}\)</span>, write <span class="math-inline">\(Z\)</span> for the object corresponding to <span class="math-inline">\(f\)</span>, and let <span class="math-inline">\(U=\tau_0Z\)</span>. Suppose that <span class="math-inline">\(f\)</span>, or equivalently <span class="math-inline">\(Z\to *\)</span>, is an effective epimorphism. Then <span class="math-inline">\(U\to *\)</span> is an effective epimorphism by <a href="../../entry/effective-epimorphisms-detected-on-zero-truncation/index.html">Lemma 3.13</a>. By the description of <span class="math-inline">\(\pi_0\)</span> in <a href="#ex:Zeroth_Homotopy_Object">Example 3.24</a>, the morphism <span class="math-inline">\(\pi_0(f)\to Z\)</span> is the pullback of <span class="math-inline">\(U\to *\)</span> along <span class="math-inline">\(Z\to *\)</span>. Since pullback along the effective epimorphism <span class="math-inline">\(Z\to *\)</span> is conservative by <a href="../../entry/pullback-along-effective-epimorphisms/index.html">Lemma 2.29</a>, we have <span class="math-inline">\(\pi_0(f)=*\)</span> if and only if <span class="math-inline">\(U\to *\)</span> is an isomorphism.<div class="proof-paragraph-break" aria-hidden="true"></div>On the other hand, <a href="../../entry/effective-epimorphisms-detected-on-zero-truncation/index.html">Lemma 3.13</a> and <a href="../../entry/truncation-preserves-finite-products/index.html">Lemma 3.9</a> show that <span class="math-inline">\(\Delta_f\)</span> is an effective epimorphism if and only if the diagonal <span class="math-inline">\(\Delta_U\colon U\to U\times U\)</span> is an effective epimorphism. Since <span class="math-inline">\(U\)</span> is <span class="math-inline">\(0\)</span>-truncated, <span class="math-inline">\(\Delta_U\)</span> is a monomorphism. Consequently, if <span class="math-inline">\(\Delta_U\)</span> is an effective epimorphism, it is an isomorphism, so <span class="math-inline">\(U\to *\)</span> is a monomorphism. Together with the effective epimorphism <span class="math-inline">\(U\to *\)</span>, this makes <span class="math-inline">\(U\)</span> terminal. The converse is immediate. We have therefore proved, under the effective-epimorphism hypothesis on <span class="math-inline">\(f\)</span>, that <div class="math-display">\[\pi_0(f)=* \quad\Longleftrightarrow\quad \Delta_f\text{ is an effective epimorphism}.\]</div> Combining this equivalence with the higher homotopy-group conditions proves the theorem.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 <p>This theorem has various useful consequences.</p>
-<section class="theorem corollary" id="cor:Cancellation_Connected_Maps">
+<section class="theorem corollary theorem-plain" id="cor:Cancellation_Connected_Maps">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/cancellation-for-connected-morphisms/index.html">Corollary 3.33.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(f\colon X \to Y\)</span> and <span class="math-inline">\(g\colon Y \to Z\)</span> be maps. If <span class="math-inline">\(gf\)</span> is <span class="math-inline">\(n\)</span>-connected and <span class="math-inline">\(g\)</span> is <span class="math-inline">\((n+1)\)</span>-connected, then <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected.</p></div>
 </section>
@@ -181,7 +181,7 @@
   <div class="proof-body">Dual to the proof of <a href="../../entry/cancellation-for-truncated-morphisms/index.html">Lemma 3.7</a>(2), we may factor <span class="math-inline">\(f\)</span> as <span class="math-inline">\(X \xrightarrow{(\id_X,f)} X \times_Z Y \xrightarrow{\pr_Y} Y\)</span>, where the first map is a base change of <span class="math-inline">\(\Delta_g\)</span>, hence <span class="math-inline">\(n\)</span>-connected by the theorem, and the second map is a base change of <span class="math-inline">\(gf\)</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Connectedness_In_Terms_Of_Loop_Space">
+<section class="theorem corollary theorem-plain" id="cor:Connectedness_In_Terms_Of_Loop_Space">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/looping-detects-connectivity-and-truncation/index.html">Corollary 3.34.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(n\geq0\)</span>, and consider a <span class="math-inline">\(0\)</span>-connected pointed object <span class="math-inline">\(X \in T_*^{\geq 1}\)</span>. Then <span class="math-inline">\(X\)</span> is <span class="math-inline">\(n\)</span>-connected if and only if <span class="math-inline">\(\Omega X\)</span> is <span class="math-inline">\((n-1)\)</span>-connected. Similarly, <span class="math-inline">\(X\)</span> is <span class="math-inline">\(n\)</span>-truncated if and only if <span class="math-inline">\(\Omega X\)</span> is <span class="math-inline">\((n-1)\)</span>-truncated.</p></div>
 </section>
@@ -191,7 +191,7 @@
   <div class="proof-body">By the theorem, <span class="math-inline">\(X\)</span> is <span class="math-inline">\(n\)</span>-connected if and only if <span class="math-inline">\(\Delta\colon X \to X \times X\)</span> is <span class="math-inline">\((n-1)\)</span>-connected. Given a base point <span class="math-inline">\(x\colon * \to X\)</span>, it follows from <span class="math-inline">\(0\)</span>-connectedness and <a href="#cor:Cancellation_Connected_Maps">Corollary 3.33</a> that <span class="math-inline">\(x\)</span> is <span class="math-inline">\((-1)\)</span>-connected. Hence <span class="math-inline">\((x,x)\colon * \to X \times X\)</span> is an effective epimorphism. By <a href="../../entry/locality-of-truncated-and-connected-morphisms/index.html">Lemma 3.19</a>, the diagonal <span class="math-inline">\(\Delta\)</span> is <span class="math-inline">\((n-1)\)</span>-connected if and only if its base change <span class="math-inline">\(\Omega X \to *\)</span> is <span class="math-inline">\((n-1)\)</span>-connected.<div class="proof-paragraph-break" aria-hidden="true"></div>For truncatedness, <span class="math-inline">\(X\)</span> is <span class="math-inline">\(n\)</span>-truncated if and only if <span class="math-inline">\(\Delta\)</span> is <span class="math-inline">\((n-1)\)</span>-truncated. The same locality lemma identifies this with <span class="math-inline">\((n-1)\)</span>-truncatedness of <span class="math-inline">\(\Omega X\to *\)</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Connected_Map_Induces_Equivalence_On_Truncated_Objects">
+<section class="theorem corollary theorem-plain" id="cor:Connected_Map_Induces_Equivalence_On_Truncated_Objects">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/connected-morphisms-and-truncated-objects/index.html">Corollary 3.35.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(n\geq0\)</span> and let <span class="math-inline">\(f\colon X \to Y\)</span> be <span class="math-inline">\(n\)</span>-connected. Then the functor <span class="math-inline">\(f^*\colon (T_{/Y})_{\leq n-1} \to (T_{/X})_{\leq n-1}\)</span> is an equivalence.</p></div>
 </section>
@@ -200,7 +200,7 @@
   <summary>Proof</summary>
   <div class="proof-body">Full faithfulness of <span class="math-inline">\(f^*\)</span> was proved in <a href="../../entry/connected-truncated-factorization-system/index.html">Proposition 3.18</a>.<div class="proof-paragraph-break" aria-hidden="true"></div>For essential surjectivity, we may replace <span class="math-inline">\(T\)</span> by <span class="math-inline">\(T_{/Y}\)</span> and assume <span class="math-inline">\(Y = *\)</span>. Given an <span class="math-inline">\((n-1)\)</span>-truncated morphism <span class="math-inline">\(U \to X\)</span>, we must show that it is in the image of the functor <span class="math-inline">\((-) \times X\colon T_{\leq n-1} \to (T_{/X})_{\leq n-1}\)</span>. We claim that the map <span class="math-inline">\(U \to \tau_{n-1} U \times X\)</span> is an isomorphism. By the factorization system from <a href="../../entry/connected-truncated-factorization-system/index.html">Proposition 3.18</a>, it suffices to show it is both <span class="math-inline">\((n-1)\)</span>-truncated and <span class="math-inline">\((n-1)\)</span>-connected. <ul class="proof-list"><li>The map is <span class="math-inline">\((n-1)\)</span>-truncated since it lives over <span class="math-inline">\(X\)</span>, and both maps to <span class="math-inline">\(X\)</span> are <span class="math-inline">\((n-1)\)</span>-truncated. The claim follows by left cancellation.</li><li>To see it is <span class="math-inline">\((n-1)\)</span>-connected, note that it factors as <div class="math-display">\[U \longrightarrow U \times X \longrightarrow \tau_{n-1} U \times X.\]</div> The first map is <span class="math-inline">\((n-1)\)</span>-connected, as it is a base change of the diagonal <span class="math-inline">\(X \to X \times X\)</span>, which is <span class="math-inline">\((n-1)\)</span>-connected by the theorem. The second map is <span class="math-inline">\((n-1)\)</span>-connected since it is a base change of the map <span class="math-inline">\(U \to \tau_{n-1} U\)</span>.</li></ul><span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li></ol></section>
+<span id="bib-lurie2009HTT" data-legacy-reference="../../references/index.html#bib-lurie2009HTT" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -275,77 +275,12 @@
           <span class="context-entry-title">Gerbes</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 3.3</p>
-      <p class="context-nav-description">Homotopy group objects</p>
-      <ol class="context-entry-list">
-        <li><a href="#thm:Characterization_n_Connected" data-section-target="thm:Characterization_n_Connected">
-          <span class="context-entry-heading">Theorem 3.22</span>
-          <span class="context-entry-title">Characterizing connected morphisms by diagonals</span>
-        </a></li>
-<li><a href="#def:Homotopy_Group_Objects" data-section-target="def:Homotopy_Group_Objects">
-          <span class="context-entry-heading">Definition 3.23</span>
-          <span class="context-entry-title">Homotopy group objects</span>
-        </a></li>
-<li><a href="#ex:Zeroth_Homotopy_Object" data-section-target="ex:Zeroth_Homotopy_Object">
-          <span class="context-entry-heading">Example 3.24</span>
-          <span class="context-entry-title">The zeroth homotopy object</span>
-        </a></li>
-<li><a href="#lem:Functor_Preserves_Homotopy_Group_Objects" data-section-target="lem:Functor_Preserves_Homotopy_Group_Objects">
-          <span class="context-entry-heading">Lemma 3.25</span>
-          <span class="context-entry-title">Functors preserving homotopy group objects</span>
-        </a></li>
-<li><a href="#lem:Homotopy_Group_Objects_Preserve_Products" data-section-target="lem:Homotopy_Group_Objects_Preserve_Products">
-          <span class="context-entry-heading">Lemma 3.26</span>
-          <span class="context-entry-title">Homotopy group objects preserve products</span>
-        </a></li>
-<li><a href="#not:Relative_Homotopy_Group_Object" data-section-target="not:Relative_Homotopy_Group_Object">
-          <span class="context-entry-heading">Notation 3.27</span>
-          <span class="context-entry-title">Relative homotopy group objects</span>
-        </a></li>
-<li><a href="#rem:Relative_Homotopy_Group_Object_Diagonal" data-section-target="rem:Relative_Homotopy_Group_Object_Diagonal">
-          <span class="context-entry-heading">Remark 3.28</span>
-          <span class="context-entry-title">Relative homotopy groups and diagonals</span>
-        </a></li>
-<li><a href="#ex:Subgroups_Of_Fundamental_Group_Object_Are_Normal" data-section-target="ex:Subgroups_Of_Fundamental_Group_Object_Are_Normal">
-          <span class="context-entry-heading">Exercise 3.29</span>
-          <span class="context-entry-title">Normal subgroups of fundamental group objects</span>
-        </a></li>
-<li><a href="#prop:Long_Exact_Sequence_Homotopy_Group_Objects" data-section-target="prop:Long_Exact_Sequence_Homotopy_Group_Objects">
-          <span class="context-entry-heading">Proposition 3.30</span>
-          <span class="context-entry-title">The long exact sequence of homotopy group objects</span>
-        </a></li>
-<li><a href="#lem:Truncation_Preserves_Lower_Homotopy_Groups" data-section-target="lem:Truncation_Preserves_Lower_Homotopy_Groups">
-          <span class="context-entry-heading">Lemma 3.31</span>
-          <span class="context-entry-title">Truncation preserves lower homotopy groups</span>
-        </a></li>
-<li><a href="#prop:Homotopy_Group_Objects_Detect_Truncation_Connectivity" data-section-target="prop:Homotopy_Group_Objects_Detect_Truncation_Connectivity">
-          <span class="context-entry-heading">Proposition 3.32</span>
-          <span class="context-entry-title">Homotopy group objects detect truncation and connectivity</span>
-        </a></li>
-<li><a href="#cor:Cancellation_Connected_Maps" data-section-target="cor:Cancellation_Connected_Maps">
-          <span class="context-entry-heading">Corollary 3.33</span>
-          <span class="context-entry-title">Cancellation for connected morphisms</span>
-        </a></li>
-<li><a href="#cor:Connectedness_In_Terms_Of_Loop_Space" data-section-target="cor:Connectedness_In_Terms_Of_Loop_Space">
-          <span class="context-entry-heading">Corollary 3.34</span>
-          <span class="context-entry-title">Looping detects connectivity and truncation</span>
-        </a></li>
-<li><a href="#cor:Connected_Map_Induces_Equivalence_On_Truncated_Objects" data-section-target="cor:Connected_Map_Induces_Equivalence_On_Truncated_Objects">
-          <span class="context-entry-heading">Corollary 3.35</span>
-          <span class="context-entry-title">Connected morphisms and truncated objects</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

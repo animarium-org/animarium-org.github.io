@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Analytic stacks | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/analytic-stacks/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,7 +20,7 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <style>
     .publication-fragment-notice { margin: 2rem 0; padding: 1rem; border: 1px solid #b6aa91; background: #faf7ef; }
@@ -34,7 +34,7 @@
     })();
   </script>
 </head>
-<body class="section-page has-context-nav" data-record-id="analytic-stacks" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="analytic-stacks" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -43,8 +43,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -92,7 +92,7 @@
 
 <section class="theorem example" id="ex:Analytic_Rings_From_Topological_Rings">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/analytic-rings-from-topological-rings/index.html">Example 7.38.</a></span></p>
-  <div class="theorem-statement"><p>The basic examples arise from complete topological rings, in particular from Huber pairs. The analytic ring structure remembers which condensed modules are complete for the chosen topology; it is therefore strictly more information than the underlying condensed ring <span class="math-inline">\(A^{\triangleright}\)</span>. See <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Six_Functors">2025, Lecture IX</a>]</span> for the constructions used below.</p></div>
+  <div class="theorem-statement"><p>The basic examples arise from complete topological rings, in particular from Huber pairs. The analytic ring structure remembers which condensed modules are complete for the chosen topology; it is therefore strictly more information than the underlying condensed ring <span class="math-inline">\(A^{\triangleright}\)</span>. See <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Six_Functors">2025, Lecture IX</a>]</span> for the constructions used below.</p></div>
 </section>
 
 <section class="theorem remark" id="rmk:Analytic_Rings_Light_Setting">
@@ -121,17 +121,17 @@
 <p>is an open immersion.</p></li></ul></div>
 </section>
 
-<section class="theorem lemma" id="lem:Shriekable_Factorization">
+<section class="theorem lemma theorem-plain" id="lem:Shriekable_Factorization">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/shriekable-factorization/index.html">Lemma 7.42.</a></span></p>
   <div class="theorem-statement"><p>A map <span class="math-inline">\(f\)</span> is <span class="math-inline">\(!\)</span>-able if and only if it factors as a proper map followed by an open immersion.</p></div>
 </section>
 
 <details class="proof-shell" id="proof-lem:Shriekable_Factorization-main" data-owner-entry="shriekable-factorization" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">For a map <span class="math-inline">\(A\to B\)</span>, equip <span class="math-inline">\(B^{\triangleright}\)</span> first with the analytic structure induced from <span class="math-inline">\(A\)</span>. The map from <span class="math-inline">\(A\)</span> to this induced analytic ring is proper by definition, while the comparison from the induced analytic ring to <span class="math-inline">\(B\)</span> is an open immersion precisely when <span class="math-inline">\(A\to B\)</span> is <span class="math-inline">\(!\)</span>-able. Conversely, any factorization of this form satisfies the defining condition. See <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Six_Functors">2025, Definition 9.16</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">For a map <span class="math-inline">\(A\to B\)</span>, equip <span class="math-inline">\(B^{\triangleright}\)</span> first with the analytic structure induced from <span class="math-inline">\(A\)</span>. The map from <span class="math-inline">\(A\)</span> to this induced analytic ring is proper by definition, while the comparison from the induced analytic ring to <span class="math-inline">\(B\)</span> is an open immersion precisely when <span class="math-inline">\(A\to B\)</span> is <span class="math-inline">\(!\)</span>-able. Conversely, any factorization of this form satisfies the defining condition. See <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Six_Functors">2025, Definition 9.16</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem proposition" id="prop:Six_Functor_Analytic_Rings">
+<section class="theorem proposition theorem-plain" id="prop:Six_Functor_Analytic_Rings">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/six-functor-formalism-on-analytic-rings/index.html">Proposition 7.43.</a></span></p>
   <div class="theorem-statement"><p>There is a presentable six-functor formalism</p>
 <div class="math-display">\[D\colon \Span(\AnRing\catop, \AnRing^{!,\op}) \to \Pr, \qquad A \mapsto \Mod_A.\]</div></div>
@@ -139,7 +139,7 @@
 
 <details class="proof-shell" id="proof-prop:Six_Functor_Analytic_Rings-main" data-owner-entry="six-functor-formalism-on-analytic-rings" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">The proper and open classes above satisfy the compactification, base-change, and projection-formula hypotheses, and every <span class="math-inline">\(!\)</span>-able map has the factorization of <a href="#lem:Shriekable_Factorization">Lemma 7.42</a>. The resulting analytic six-functor formalism is constructed in <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Six_Functors">2025, Lecture IX</a>]</span>. The formal assembly of the coherent span-valued functor may also be expressed using <span class="citation-group">[Cnossen et al. <a class="citation" href="#bib-CLL_Span2">2025</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">The proper and open classes above satisfy the compactification, base-change, and projection-formula hypotheses, and every <span class="math-inline">\(!\)</span>-able map has the factorization of <a href="#lem:Shriekable_Factorization">Lemma 7.42</a>. The resulting analytic six-functor formalism is constructed in <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Six_Functors">2025, Lecture IX</a>]</span>. The formal assembly of the coherent span-valued functor may also be expressed using <span class="citation-group">[Cnossen et al. <a class="citation" href="../../references/index.html#bib-CLL_Span2">2025</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
 <section class="theorem definition" id="def:Analytic_Stacks">
@@ -148,8 +148,7 @@
 <div class="math-display">\[\AnStck := \Shv^+_{\tau_D}(\AnRing\catop).\]</div>
 <p>Here the superscript <span class="math-inline">\(+\)</span> denotes the further congruence localization of <a href="../../entry/sigma-d-localization/index.html">Construction 7.32</a>, not merely sheafification for the <span class="math-inline">\(D\)</span>-topology. In the light setting all sites and colimit constructions are understood with the corresponding countability restrictions.</p></div>
 </section>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-Scholze_Six_Functors">Peter Scholze. <em>Six-Functor Formalisms</em>. 2025.</li>
-<li id="bib-CLL_Span2">Bastiaan Cnossen, Tobias Lenz, Sil Linskens. <em>Universality of span 2-categories and the construction of 6-functor formalisms</em>. 2025.</li></ol></section>
+<span id="bib-Scholze_Six_Functors" data-legacy-reference="../../references/index.html#bib-Scholze_Six_Functors" hidden></span><span id="bib-CLL_Span2" data-legacy-reference="../../references/index.html#bib-CLL_Span2" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -228,58 +227,13 @@
           <span class="context-entry-title">Gestalten</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 7.5</p>
-      <p class="context-nav-description">Analytic stacks</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Condensed_Anima" data-section-target="def:Condensed_Anima">
-          <span class="context-entry-heading">Definition 7.36</span>
-          <span class="context-entry-title">Condensed anima</span>
-        </a></li>
-<li><a href="#def:Analytic_Ring" data-section-target="def:Analytic_Ring">
-          <span class="context-entry-heading">Definition 7.37</span>
-          <span class="context-entry-title">Analytic ring</span>
-        </a></li>
-<li><a href="#ex:Analytic_Rings_From_Topological_Rings" data-section-target="ex:Analytic_Rings_From_Topological_Rings">
-          <span class="context-entry-heading">Example 7.38</span>
-          <span class="context-entry-title">Analytic rings from topological rings</span>
-        </a></li>
-<li><a href="#rmk:Analytic_Rings_Light_Setting" data-section-target="rmk:Analytic_Rings_Light_Setting">
-          <span class="context-entry-heading">Remark 7.39</span>
-          <span class="context-entry-title">Analytic rings in the light setting</span>
-        </a></li>
-<li><a href="#def:Map_Analytic_Rings" data-section-target="def:Map_Analytic_Rings">
-          <span class="context-entry-heading">Definition 7.40</span>
-          <span class="context-entry-title">Maps of analytic rings</span>
-        </a></li>
-<li><a href="#def:Proper_Open_Shriekable" data-section-target="def:Proper_Open_Shriekable">
-          <span class="context-entry-heading">Definition 7.41</span>
-          <span class="context-entry-title">Proper, open, and shriekable morphisms</span>
-        </a></li>
-<li><a href="#lem:Shriekable_Factorization" data-section-target="lem:Shriekable_Factorization">
-          <span class="context-entry-heading">Lemma 7.42</span>
-          <span class="context-entry-title">Shriekable factorization</span>
-        </a></li>
-<li><a href="#prop:Six_Functor_Analytic_Rings" data-section-target="prop:Six_Functor_Analytic_Rings">
-          <span class="context-entry-heading">Proposition 7.43</span>
-          <span class="context-entry-title">Six-functor formalism on analytic rings</span>
-        </a></li>
-<li><a href="#def:Analytic_Stacks" data-section-target="def:Analytic_Stacks">
-          <span class="context-entry-heading">Definition 7.44</span>
-          <span class="context-entry-title">Analytic stacks</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   <aside class="publication-fragment-notice" id="rmk:Corrected_Definition_Analytic_Stacks"><strong>Retired fragment.</strong> The correction was incorporated into the definition of analytic stacks. It now appears at <a href="./#def:Analytic_Stacks">this address</a>.</aside>
 </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

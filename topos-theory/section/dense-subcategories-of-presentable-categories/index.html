@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Presentable categories | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/dense-subcategories-of-presentable-categories/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="dense-subcategories-of-presentable-categories" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="dense-subcategories-of-presentable-categories" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -66,7 +66,7 @@
       
 <h2 id="sec:Dense_Subcategories_Of_Presentable_Categories"><span>C.3.</span> Presentable categories</h2>
 
-<section class="theorem proposition" id="prop:Dense_Subcategory_Closed_Under_Finite_Limits">
+<section class="theorem proposition theorem-plain" id="prop:Dense_Subcategory_Closed_Under_Finite_Limits">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/existence-of-dense-subcategories-closed-under-finite-limits/index.html">Proposition C.5.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(T\)</span> be a presentable category, and let <span class="math-inline">\(A \subseteq T\)</span> be an essentially small full subcategory. Then there exists an essentially small full subcategory <span class="math-inline">\(C \subseteq T\)</span> which contains <span class="math-inline">\(A\)</span>, is closed under finite limits, and is dense in <span class="math-inline">\(T\)</span>.</p></div>
 </section>
@@ -76,7 +76,7 @@
   <div class="proof-body">Choose a regular cardinal <span class="math-inline">\(\kappa\)</span> such that <span class="math-inline">\(T\)</span> is <span class="math-inline">\(\kappa\)</span>-accessible. Choose a small full subcategory of <span class="math-inline">\(\kappa\)</span>-compact generators under <span class="math-inline">\(\kappa\)</span>-filtered colimits. Any <span class="math-inline">\(\kappa\)</span>-compact object is a retract of one of these generators: its identity factors through a stage of such a presentation. Thus <span class="math-inline">\(T^\kappa\)</span> is essentially small. The extension <span class="math-inline">\(\Ind_\kappa(T^\kappa)\to T\)</span> is essentially surjective by generation. It is fully faithful since mapping out of a colimit gives a limit and mapping out of a generator preserves <span class="math-inline">\(\kappa\)</span>-filtered colimits. This is the cardinal form of the recognition argument in <a class="citation" href="https://animarium.org/tag/110S/">[SCT, Theorem 17.2.24]</a>. Under this equivalence, the restricted Yoneda functor <span class="math-inline">\(T \to \PSh(T^{\kappa})\)</span> corresponds to the inclusion <span class="math-inline">\(\Ind_{\kappa}(T^{\kappa}) \subseteq \PSh(T^{\kappa})\)</span>: for <span class="math-inline">\(F \in \Ind_{\kappa}(T^{\kappa})\)</span> with image <span class="math-inline">\(X \in T\)</span> and <span class="math-inline">\(c \in T^{\kappa}\)</span>, we have <span class="math-inline">\(\Hom_T(c,X) \simeq \Hom_{\Ind_{\kappa}(T^{\kappa})}(h(c),F) \simeq F(c)\)</span> by the Yoneda lemma. Hence <span class="math-inline">\(T^{\kappa}\)</span> is dense in <span class="math-inline">\(T\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>A presentable category admits all small limits <a class="citation" href="https://animarium.org/tag/110X/">[SCT, Corollary 17.2.28]</a>. Let <span class="math-inline">\(C\)</span> be the smallest full subcategory of <span class="math-inline">\(T\)</span> which contains <span class="math-inline">\(T^{\kappa} \cup A\)</span> and is closed under finite limits. It is essentially small by <a href="../../entry/finite-limit-closure-is-essentially-small/index.html">Lemma C.4</a>, and dense by <a href="../../entry/enlarging-dense-subcategories/index.html">Lemma C.3</a>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Presentable_Left_Exact_Presentation">
+<section class="theorem corollary theorem-plain" id="cor:Presentable_Left_Exact_Presentation">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/presheaf-presentations-of-presentable-categories/index.html">Corollary C.6.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(T\)</span> be a presentable category, and let <span class="math-inline">\(C \subseteq T\)</span> be as in <a href="#prop:Dense_Subcategory_Closed_Under_Finite_Limits">Proposition C.5</a>. Let <span class="math-inline">\(i\colon C \hookrightarrow T\)</span> denote the inclusion. Then <span class="math-inline">\(C\)</span> admits finite limits, <span class="math-inline">\(i\)</span> is left exact, and the colimit-preserving extension <span class="math-inline">\(i_!\colon \PSh(C) \to T\)</span> is a localization whose right adjoint <span class="math-inline">\(i^*\)</span> is fully faithful. If <span class="math-inline">\(T\)</span> satisfies the Giraud axioms, then <span class="math-inline">\(i_!\)</span> is left exact.</p></div>
 </section>
@@ -92,7 +92,7 @@
 <p>For suitable regular cardinals <span class="math-inline">\(\tau\)</span> one may take <span class="math-inline">\(C=T^\tau\)</span>, simultaneously for a small diagram of logoi, by the following lemma.</p></div>
 </section>
 
-<section class="theorem lemma" id="lem:Common_Compactness_Bound">
+<section class="theorem lemma theorem-plain" id="lem:Common_Compactness_Bound">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/common-compactness-bound/index.html">Lemma C.8.</a></span></p>
   <div class="theorem-statement"><p>For a small family of presentable categories and accessible functors between them there are arbitrarily large uncountable regular cardinals <span class="math-inline">\(\tau\)</span> such that each category is <span class="math-inline">\(\tau\)</span>-accessible, its <span class="math-inline">\(\tau\)</span>-compact objects are closed under finite limits, and every specified functor preserves <span class="math-inline">\(\tau\)</span>-compact objects.</p></div>
 </section>
@@ -101,8 +101,7 @@
   <summary>Proof</summary>
   <div class="proof-body">First consider only accessibility and preservation of compact objects. In each category choose a small collection of <span class="math-inline">\(\lambda\)</span>-compact generators under <span class="math-inline">\(\lambda\)</span>-filtered colimits, for a regular cardinal <span class="math-inline">\(\lambda\)</span> depending on the category, using accessibility. Choose a common uncountable regular <span class="math-inline">\(\kappa\)</span> such that the generators are <span class="math-inline">\(\kappa\)</span>-compact and the specified functors preserve <span class="math-inline">\(\kappa\)</span>-filtered colimits. Every object is a colimit of a diagram of the chosen generators.<div class="proof-paragraph-break" aria-hidden="true"></div>For the size calculation, represent indexing diagrams by simplicial sets and measure size by the number of nondegenerate simplices. There is only a set of colimits of diagrams of size less than <span class="math-inline">\(\kappa\)</span> in the chosen generators, up to isomorphism. Choose an infinite cardinal <span class="math-inline">\(\mu\geq\kappa\)</span> large enough that all their images under the specified functors are <span class="math-inline">\(\mu^+\)</span>-compact. Such a bound exists: any object is a small colimit of compact generators, and for a sufficiently large regular cardinal its indexing limit of Hom animae commutes with filtered colimits of that cardinality. Put <span class="math-inline">\(\tau=(2^\mu)^+\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Any diagram is the union of its simplicial subsets of size less than <span class="math-inline">\(\tau\)</span>, ordered by inclusion. This poset is <span class="math-inline">\(\tau\)</span>-filtered, and the colimit of the diagram is the colimit of the corresponding partial colimits, by the universal property of cones. Partial colimits of diagrams of generators of size less than <span class="math-inline">\(\tau\)</span> are <span class="math-inline">\(\tau\)</span>-compact, since <span class="math-inline">\(\tau\)</span>-filtered colimits in animae commute with limits of size less than <span class="math-inline">\(\tau\)</span>. They form an essentially small collection and generate under <span class="math-inline">\(\tau\)</span>-filtered colimits. Every <span class="math-inline">\(\tau\)</span>-compact object is consequently a retract of one of them.<div class="proof-paragraph-break" aria-hidden="true"></div>If a diagram has size less than <span class="math-inline">\(\tau\)</span>, its poset of simplicial subsets of size less than <span class="math-inline">\(\kappa\)</span> is <span class="math-inline">\(\kappa\)</span>-filtered and has at most <span class="math-inline">\((2^\mu)^{&lt;\kappa}=2^\mu\)</span> elements. Its nerve also has size less than <span class="math-inline">\(\tau\)</span>. An accessible functor in the family therefore sends the colimit of this diagram of generators to a colimit of size less than <span class="math-inline">\(\tau\)</span> of <span class="math-inline">\(\mu^+\)</span>-compact objects. The latter is <span class="math-inline">\(\tau\)</span>-compact. Passing to retracts proves the required preservation.<div class="proof-paragraph-break" aria-hidden="true"></div>To obtain finite-limit closure, include the terminal-object functors and the pullback functors from the categories of cospans in the family. These diagram categories are presentable by <a class="citation" href="https://animarium.org/tag/01B6/">[SHT, Theorem 23.2.2]</a>. Pullback is accessible: mapping out of a small family of compact generators jointly detects isomorphisms and reduces commutation with sufficiently filtered colimits to the corresponding assertion in animae. A cospan of <span class="math-inline">\(\tau\)</span>-compact objects is <span class="math-inline">\(\tau\)</span>-compact in the cospan category, since the anima of maps out of it is a finite limit of Hom animae and filtered colimits there are pointwise. The terminal objects and pullbacks of <span class="math-inline">\(\tau\)</span>-compact objects are therefore <span class="math-inline">\(\tau\)</span>-compact. The finite-limit criterion <a class="citation" href="https://animarium.org/tag/00A1/">[SHT, Theorem 4.2.25]</a> finishes the proof.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<p>[heading=bibintoc]</p><section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-CCW_SCT">Denis-Charles Cisinski, Bastiaan Cnossen, Tashi Walde. <em>Synthetic category theory</em>. Vol. 1. 2026.</li>
-<li id="bib-Cnossen_StableHomotopy">Bastiaan Cnossen. <em>Stable homotopy theory and higher algebra</em>. Cambridge University Press. .</li></ol></section>
+<p>[heading=bibintoc]</p><span id="bib-CCW_SCT" data-legacy-reference="../../references/index.html#bib-CCW_SCT" hidden></span><span id="bib-Cnossen_StableHomotopy" data-legacy-reference="../../references/index.html#bib-Cnossen_StableHomotopy" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -169,37 +168,12 @@
           <span class="context-entry-title">Presentable categories</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section C.3</p>
-      <p class="context-nav-description">Presentable categories</p>
-      <ol class="context-entry-list">
-        <li><a href="#prop:Dense_Subcategory_Closed_Under_Finite_Limits" data-section-target="prop:Dense_Subcategory_Closed_Under_Finite_Limits">
-          <span class="context-entry-heading">Proposition C.5</span>
-          <span class="context-entry-title">Existence of dense subcategories closed under finite limits</span>
-        </a></li>
-<li><a href="#cor:Presentable_Left_Exact_Presentation" data-section-target="cor:Presentable_Left_Exact_Presentation">
-          <span class="context-entry-heading">Corollary C.6</span>
-          <span class="context-entry-title">Presheaf presentations of presentable categories</span>
-        </a></li>
-<li><a href="#rem:Comparison_With_HTT_5_4_7_4" data-section-target="rem:Comparison_With_HTT_5_4_7_4">
-          <span class="context-entry-heading">Remark C.7</span>
-          <span class="context-entry-title">Dense subcategories and compact objects</span>
-        </a></li>
-<li><a href="#lem:Common_Compactness_Bound" data-section-target="lem:Common_Compactness_Bound">
-          <span class="context-entry-heading">Lemma C.8</span>
-          <span class="context-entry-title">A common compactness bound</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

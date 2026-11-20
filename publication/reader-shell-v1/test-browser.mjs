@@ -21,6 +21,14 @@ function fixture(work) {
     ${renderReaderHeader({ workTitle: "Test notes", title: "Reader fixture" })}
     <main class="reader-layout">${renderContextNavigationToggle({ label: "Navigation" })}
     <article class="notes-page"><p id="outside">Mathematical text</p><mjx-container tabindex="0"><mjx-math data-latex="\\pair{\\Alias}{X}">Formula</mjx-math></mjx-container><figure class="diagram"><img alt="Test diagram" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M0 0L20 20' stroke='black'/%3E%3C/svg%3E"></figure></article>
+    <div class="notes-page" id="content-fixtures">
+      <section class="theorem"><p class="theorem-heading"><span>Lemma</span></p><p>Topos result</p></section>
+      <div class="newtheorem"><p><span class="head"><span>Lemma</span></span> TeX4ht result</p></div>
+      <div class="theorem-block"><p><span class="theorem-name">Lemma</span> SCT result</p></div>
+      <details class="proof-shell" open><summary>Proof</summary><div class="proof-body">Topos proof</div></details>
+      <div class="proof"><button class="proof-toggle">Proof</button><div class="proof-content">TeX4ht proof</div></div>
+      <details class="proof" open><summary>Proof</summary><div class="proof-content">SCT proof</div></details>
+    </div>
     ${renderContextNavigation({ ledgers: [
       { key: "chapters", title: "Chapters", content: '<a href="#outside">Chapter</a>', collapsed: true },
       { key: "sections", title: "Sections", content: '<a href="#outside">Section</a>' }
@@ -52,6 +60,21 @@ try {
   await navigate(`${origin}/fixture-first`);
   await run("localStorage.clear()");
   await navigate(`${origin}/fixture-first?fresh`);
+  // The different converters share one visual contract for mathematical blocks.
+  for (const theme of ["light", "dark"]) {
+    const cards = await run(`document.documentElement.dataset.theme=${JSON.stringify(theme)};
+      const sample = (selector) => [...document.querySelectorAll('#content-fixtures ' + selector)].map(element => {
+        const s = getComputedStyle(element);
+        return [s.backgroundColor, s.borderLeftWidth, s.borderLeftColor, s.padding];
+      });
+      return {results: sample('.theorem, .newtheorem, .theorem-block'), proofs: sample('.proof, .proof-shell'), controls: sample('summary, .proof-toggle')};`);
+    for (const group of Object.values(cards)) {
+      assert.equal(group.length, 3);
+      group.forEach((style) => assert.deepEqual(style, group[0]));
+    }
+    assert.notEqual(cards.results[0][0], "rgba(0, 0, 0, 0)");
+  }
+  await run(`delete document.documentElement.dataset.theme`);
   assert.deepEqual(await run(`return [...document.querySelectorAll('[data-contents-toggle]')].map(b => b.getAttribute('aria-expanded'))`), ["false", "true"]);
 
   // Pinned open, pinned closed while still hovered, outside click, keyboard focus.
@@ -191,13 +214,22 @@ try {
       assert.equal(await run(`return document.querySelector('[data-step="next-section"]').disabled`), true);
       await navigate(`${origin}/edition${proofEntry.Path}`);
     }
-    const collapsed = await run(`const b=document.querySelector('[data-proof-mode="collapsed"], [data-detail-level="-1"]'); b.click(); const p=document.querySelector('.proof-shell, .proof'); return p.matches('details') ? !p.open : p.dataset.collapsed === 'true';`);
+    const references = contract.Routes.find((route) => route.Kind === "references");
+    if (references) {
+      await viewport(390, true);
+      await navigate(`${origin}/edition${references.Path}`);
+      await evaluate("window.MathJax.startup.promise");
+      assert.equal(await run(`return document.documentElement.scrollWidth <= document.documentElement.clientWidth;`), true, "Bibliography URLs must wrap within a phone screen.");
+      await viewport(1440);
+      await navigate(`${origin}/edition${proofEntry.Path}`);
+    }
+    const collapsed = await run(`const b=document.querySelector('button[data-proof-mode="collapsed"], button[data-detail-level="-1"]'); b.click(); const p=document.querySelector('.proof-shell, .proof'); return p.matches('details') ? !p.open : p.dataset.collapsed === 'true';`);
     assert.equal(collapsed, true);
     const independentlyOpened = await run(`const p=document.querySelector('.proof-shell, .proof'); p.querySelector('summary, [data-proof-toggle]').click(); return p.matches('details') ? p.open : p.dataset.collapsed === 'false';`);
     assert.equal(independentlyOpened, true);
     await navigate(`${origin}/edition${proofEntry.Path}?persisted`);
     assert.equal(await run(`const p=document.querySelector('.proof-shell, .proof'); return p.matches('details') ? !p.open : p.dataset.collapsed === 'true'`), true);
-    assert.equal(await run(`document.querySelector('[data-proof-mode="displayed"], [data-detail-level="1"]').click(); const p=document.querySelector('.proof-shell, .proof'); return p.matches('details') ? p.open : p.dataset.collapsed === 'false';`), true);
+    assert.equal(await run(`document.querySelector('button[data-proof-mode="displayed"], button[data-detail-level="1"]').click(); const p=document.querySelector('.proof-shell, .proof'); return p.matches('details') ? p.open : p.dataset.collapsed === 'false';`), true);
     await evaluate("window.MathJax.startup.promise");
     assert.equal(await run(`window.copied=[]; Object.defineProperty(navigator,'clipboard',{value:{writeText:async text=>window.copied.push(text)}}); const f=document.querySelector('mjx-container'); f.dispatchEvent(new MouseEvent('contextmenu',{bubbles:true,cancelable:true,clientX:30,clientY:30})); return !!document.querySelector('.latex-copy-menu');`), true);
     await run(`document.querySelector('.latex-copy-menu button').click()`);

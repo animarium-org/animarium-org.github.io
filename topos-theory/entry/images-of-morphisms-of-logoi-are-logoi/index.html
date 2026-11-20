@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Images of morphisms of logoi are logoi | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/entry/images-of-morphisms-of-logoi-are-logoi/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,12 +20,12 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <link rel="stylesheet" href="../../_assets/entry-links.css">
 <script defer src="../../_assets/entry-links.js"></script>
 </head>
-<body class="entry-page has-context-nav" data-record-id="images-of-morphisms-of-logoi-are-logoi" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="entry-page has-context-nav" data-record-id="images-of-morphisms-of-logoi-are-logoi" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -34,8 +34,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -69,11 +69,11 @@
 </header>
   <main class="reader-layout">
     <button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
-      <span aria-hidden="true">☰</span> Nearby entries
+      <span aria-hidden="true">☰</span> Navigation
     </button>
-    <article class="notes-page">
+    <article class="notes-page"><nav class="entry-context" aria-label="Result navigation"><a class="entry-context-step entry-context-previous" rel="prev" href="../image-of-a-morphism-of-logoi/index.html" aria-label="Previous result: Construction 5.69, The image of a morphism of logoi" title="The image of a morphism of logoi">← <span class="entry-context-name">Construction 5.69</span></a><a class="entry-context-section" href="../../section/structure-theory-for-topoi/index.html#prop:Image_Of_Logoi_Morphism_Is_Logos">↩ Read in context: Section 5.5</a><a class="entry-context-step entry-context-next" rel="next" href="../structure-theory-of-topoi/index.html" aria-label="Next result: Remark 5.71, The structure theory of topoi" title="The structure theory of topoi"><span class="entry-context-name">Remark 5.71</span> →</a></nav>
       
-<section class="theorem proposition" id="prop:Image_Of_Logoi_Morphism_Is_Logos">
+<section class="theorem proposition theorem-plain" id="prop:Image_Of_Logoi_Morphism_Is_Logos">
   <p class="theorem-heading"><span>Proposition 5.70.</span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(\varphi\colon T \to S\)</span> be a morphism of logoi. Then <span class="math-inline">\(\lra{\varphi(T)}\)</span> is a logos, and the inclusion <span class="math-inline">\(\lra{\varphi(T)} \hookrightarrow S\)</span> is a morphism of logoi. In particular, <span class="math-inline">\(\varphi\)</span> admits a factorization in <span class="math-inline">\(\Logos\)</span> as</p>
 <div class="math-display">\[T \longrightarrow \lra{\varphi(T)} \lhook\joinrel\longrightarrow S,\]</div>
@@ -84,44 +84,95 @@
   <summary>Proof</summary>
   <div class="proof-body">Choose a small set of objects generating <span class="math-inline">\(T\)</span> under colimits. By <a href="../common-compactness-bound/index.html#lem:Common_Compactness_Bound">Lemma C.8</a> choose an uncountable regular <span class="math-inline">\(\tau\)</span> such that <span class="math-inline">\(S^\tau\)</span> is closed under finite limits and contains their images. Let <span class="math-inline">\(A\)</span> be the full subcategory of <span class="math-inline">\(S^\tau\)</span> generated by these images under finite limits and colimits of size less than <span class="math-inline">\(\tau\)</span>. The latter exist in <span class="math-inline">\(S^\tau\)</span> since such colimits preserve <span class="math-inline">\(\tau\)</span>-compactness. Thus <span class="math-inline">\(A\)</span> is essentially small. The functor <span class="math-inline">\(\Ind_\tau(A)\to S\)</span> extending the inclusion is fully faithful by <span class="math-inline">\(\tau\)</span>-compactness and the formula for maps between filtered colimits of representables. The inclusion of this image has a right adjoint. Indeed <span class="math-inline">\(\Hom_S(-,Y)|_A\)</span> carries colimits of size less than <span class="math-inline">\(\tau\)</span> to limits and hence lies in <span class="math-inline">\(\Ind_\tau(A)\)</span>: its category of elements is <span class="math-inline">\(\tau\)</span>-filtered since a diagram of size less than <span class="math-inline">\(\tau\)</span> there has a cone given by its colimit in <span class="math-inline">\(A\)</span> with the induced element. The Yoneda formula gives the adjunction first on <span class="math-inline">\(A\)</span> and then on <span class="math-inline">\(\tau\)</span>-filtered colimits. Since <span class="math-inline">\(A\)</span> admits colimits of size less than <span class="math-inline">\(\tau\)</span>, <span class="math-inline">\(\Ind_\tau(A)\)</span> admits all colimits by the free cocompletion with these relations (equivalently it is the localization of <span class="math-inline">\(\PSh(A)\)</span> at the small set of maps from such colimits of representables to the representables of the colimits, by <a class="citation" href="https://animarium.org/tag/01B6/">[SHT, Theorem 23.2.2]</a>). Hence its image is closed under all colimits in <span class="math-inline">\(S\)</span>. The extension is left exact as well: the colimit extension <span class="math-inline">\(\PSh(A)\to S\)</span> is left exact by <a href="../left-exactness-tested-on-representables/index.html#prop:Left_Exactness_Tested_On_Representables">Proposition 2.43</a>, and <span class="math-inline">\(\Ind_\tau(A)\)</span> is closed under limits in <span class="math-inline">\(\PSh(A)\)</span> by the same continuity criterion. Its image therefore contains <span class="math-inline">\(\lra{\varphi(T)}\)</span>. Conversely <span class="math-inline">\(\lra{\varphi(T)}\)</span> contains <span class="math-inline">\(A\)</span> and all its <span class="math-inline">\(\tau\)</span>-filtered colimits. This identifies the image with the presentable category <span class="math-inline">\(\Ind_\tau(A)\)</span> (it has all colimits and is <span class="math-inline">\(\tau\)</span>-accessible). By construction, the inclusion <span class="math-inline">\(\lra{\varphi(T)}\hookrightarrow S\)</span> preserves all colimits and finite limits. Consequently, colimits in the image are universal, coproducts are disjoint, and groupoid objects are effective because the corresponding statements hold in <span class="math-inline">\(S\)</span> and the inclusion preserves and reflects the diagrams involved. Thus the Giraud conditions of <a href="../giraud-characterizations-of-topoi/index.html#thm:Characterizations_Topoi">Theorem 2.42</a> hold in <span class="math-inline">\(\lra{\varphi(T)}\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>The inclusion is therefore a morphism of logoi. Since it is fully faithful, it is a monomorphism in <span class="math-inline">\(\Logos\)</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-Cnossen_StableHomotopy">Bastiaan Cnossen. <em>Stable homotopy theory and higher algebra</em>. Cambridge University Press. .</li></ol></section>
+<span id="bib-Cnossen_StableHomotopy" data-legacy-reference="../../references/index.html#bib-Cnossen_StableHomotopy" hidden></span>
     </article>
-      <aside class="context-nav" id="context-navigation" data-context-nav aria-label="Nearby entries">
-      <button class="context-nav-collapse" type="button" data-context-nav-collapse data-collapsed-label="Nearby entries" aria-controls="context-navigation" aria-expanded="true" aria-label="Hide Nearby entries">
-      <span aria-hidden="true">›</span>
-    </button>
-      <p class="context-chapter-link"><a href="../../chapter/modalities/index.html">Modalities</a></p>
-      <p class="context-nav-kicker">Section 5.5</p>
-      <h2><a href="../../section/structure-theory-for-topoi/index.html">Structure theory for topoi</a></h2>
-      <p class="context-nav-description"><a href="../../section/structure-theory-for-topoi/index.html#prop:Image_Of_Logoi_Morphism_Is_Logos">Read this result in the continuous section</a></p>
-      <ol class="context-entry-list context-entry-list-nearby">
-        <li><a href="../epigenic-quotients-and-hypercompletion/index.html">
-          <span class="context-entry-heading">Lemma 5.67</span>
-          <span class="context-entry-title">Epigenic quotients induce equivalences on hypercompletions</span>
+      <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../chapter/introduction/index.html">
+          <span class="context-entry-heading">Chapter 1</span>
+          <span class="context-entry-title">Introduction</span>
         </a></li>
-<li><a href="../hypercompletion-preserves-the-monogenic-part/index.html">
-          <span class="context-entry-heading">Lemma 5.68</span>
-          <span class="context-entry-title">Hypercompletion preserves the monogenic part</span>
+<li><a href="../../chapter/foundations/index.html">
+          <span class="context-entry-heading">Chapter 2</span>
+          <span class="context-entry-title">Foundations</span>
         </a></li>
-<li><a href="../image-of-a-morphism-of-logoi/index.html">
-          <span class="context-entry-heading">Construction 5.69</span>
-          <span class="context-entry-title">The image of a morphism of logoi</span>
+<li><a href="../../chapter/truncation-connectivity/index.html">
+          <span class="context-entry-heading">Chapter 3</span>
+          <span class="context-entry-title">Truncation and connectivity</span>
         </a></li>
-<li><a href="#prop:Image_Of_Logoi_Morphism_Is_Logos" aria-current="page">
-          <span class="context-entry-heading">Proposition 5.70</span>
-          <span class="context-entry-title">Images of morphisms of logoi are logoi</span>
+<li><a href="../../chapter/topoi-logoi/index.html">
+          <span class="context-entry-heading">Chapter 4</span>
+          <span class="context-entry-title">The categories of topoi and logoi</span>
         </a></li>
-<li><a href="../structure-theory-of-topoi/index.html">
-          <span class="context-entry-heading">Remark 5.71</span>
-          <span class="context-entry-title">The structure theory of topoi</span>
+<li><a href="../../chapter/modalities/index.html" aria-current="location">
+          <span class="context-entry-heading">Chapter 5</span>
+          <span class="context-entry-title">Modalities</span>
         </a></li>
-      </ol>
-      <nav class="context-step-links" aria-label="Previous and next entries"><a rel="prev" href="../image-of-a-morphism-of-logoi/index.html"><span>Previous</span>The image of a morphism of logoi</a>
-<a rel="next" href="../structure-theory-of-topoi/index.html"><span>Next</span>The structure theory of topoi</a></nav>
-    </aside>
+<li><a href="../../chapter/topics-in-topos-theory/index.html">
+          <span class="context-entry-heading">Chapter 6</span>
+          <span class="context-entry-title">Topics in topos theory</span>
+        </a></li>
+<li><a href="../../chapter/geometry/index.html">
+          <span class="context-entry-heading">Chapter 7</span>
+          <span class="context-entry-title">Geometry</span>
+        </a></li>
+<li><a href="../../chapter/factorization-systems-and-saturated-classes/index.html">
+          <span class="context-entry-heading">Appendix A</span>
+          <span class="context-entry-title">Factorization systems and saturated classes</span>
+        </a></li>
+<li><a href="../../chapter/limits-and-colimits-in-categories-of-sections/index.html">
+          <span class="context-entry-heading">Appendix B</span>
+          <span class="context-entry-title">Limits and colimits in categories of sections</span>
+        </a></li>
+<li><a href="../../chapter/dense-subcategories-closed-under-finite-limits/index.html">
+          <span class="context-entry-heading">Appendix C</span>
+          <span class="context-entry-title">Dense subcategories closed under finite limits</span>
+        </a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../section/epimorphisms-and-acyclic-maps/index.html">
+          <span class="context-entry-heading">Section 5.1</span>
+          <span class="context-entry-title">Epimorphisms and acyclic maps</span>
+        </a></li>
+<li><a href="../../section/blakers-massey/index.html">
+          <span class="context-entry-heading">Section 5.2</span>
+          <span class="context-entry-title">The Blakers–Massey theorem</span>
+        </a></li>
+<li><a href="../../section/congruences-modalities-and-saturated-classes/index.html">
+          <span class="context-entry-heading">Section 5.3</span>
+          <span class="context-entry-title">Congruences, modalities, and saturated classes</span>
+        </a></li>
+<li><a href="../../section/open-and-closed-immersions/index.html">
+          <span class="context-entry-heading">Section 5.4</span>
+          <span class="context-entry-title">Open and closed immersions</span>
+        </a></li>
+<li><a href="../../section/structure-theory-for-topoi/index.html" aria-current="page">
+          <span class="context-entry-heading">Section 5.5</span>
+          <span class="context-entry-title">Structure theory for topoi</span>
+        </a></li>
+<li><a href="../../section/products-of-modalities/index.html">
+          <span class="context-entry-heading">Section 5.6</span>
+          <span class="context-entry-title">Products of modalities</span>
+        </a></li>
+<li><a href="../../section/goodwillie-tower/index.html">
+          <span class="context-entry-heading">Section 5.7</span>
+          <span class="context-entry-title">The Goodwillie tower of a topos</span>
+        </a></li></ol>
+    </nav>
+  </section></div>
+  </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>From top to topos | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/entry/from-top-to-topos/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,12 +20,12 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <link rel="stylesheet" href="../../_assets/entry-links.css">
 <script defer src="../../_assets/entry-links.js"></script>
 </head>
-<body class="entry-page has-context-nav" data-record-id="from-top-to-topos" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="entry-page has-context-nav" data-record-id="from-top-to-topos" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -34,8 +34,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -69,9 +69,9 @@
 </header>
   <main class="reader-layout">
     <button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
-      <span aria-hidden="true">☰</span> Nearby entries
+      <span aria-hidden="true">☰</span> Navigation
     </button>
-    <article class="notes-page">
+    <article class="notes-page"><nav class="entry-context" aria-label="Result navigation"><a class="entry-context-step entry-context-previous" rel="prev" href="../left-exact-continuous-functor-defines-morphism-of-sites/index.html" aria-label="Previous result: Corollary 6.21, Left exact continuous functor defines morphism of sites" title="Left exact continuous functor defines morphism of sites">← <span class="entry-context-name">Corollary 6.21</span></a><a class="entry-context-section" href="../../section/sheaf-topoi/index.html#ex:From_Top_To_Topos">↩ Read in context: Section 6.1</a><a class="entry-context-step entry-context-next" rel="next" href="../cocontinuous-morphism-of-sites/index.html" aria-label="Next result: Definition 6.23, Cocontinuous morphism of sites" title="Cocontinuous morphism of sites"><span class="entry-context-name">Definition 6.23</span> →</a></nav>
       
 <section class="theorem example" id="ex:From_Top_To_Topos">
   <p class="theorem-heading"><span>Example 6.22.</span></p>
@@ -80,42 +80,109 @@
 </section>
 
     </article>
-      <aside class="context-nav" id="context-navigation" data-context-nav aria-label="Nearby entries">
-      <button class="context-nav-collapse" type="button" data-context-nav-collapse data-collapsed-label="Nearby entries" aria-controls="context-navigation" aria-expanded="true" aria-label="Hide Nearby entries">
-      <span aria-hidden="true">›</span>
-    </button>
-      <p class="context-chapter-link"><a href="../../chapter/topics-in-topos-theory/index.html">Topics in topos theory</a></p>
-      <p class="context-nav-kicker">Section 6.1</p>
-      <h2><a href="../../section/sheaf-topoi/index.html">Sheaf topoi</a></h2>
-      <p class="context-nav-description"><a href="../../section/sheaf-topoi/index.html#ex:From_Top_To_Topos">Read this result in the continuous section</a></p>
-      <ol class="context-entry-list context-entry-list-nearby">
-        <li><a href="../criterion-continuous-functor/index.html">
-          <span class="context-entry-heading">Lemma 6.20</span>
-          <span class="context-entry-title">Criterion continuous functor</span>
+      <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../chapter/introduction/index.html">
+          <span class="context-entry-heading">Chapter 1</span>
+          <span class="context-entry-title">Introduction</span>
         </a></li>
-<li><a href="../left-exact-continuous-functor-defines-morphism-of-sites/index.html">
-          <span class="context-entry-heading">Corollary 6.21</span>
-          <span class="context-entry-title">Left exact continuous functor defines morphism of sites</span>
+<li><a href="../../chapter/foundations/index.html">
+          <span class="context-entry-heading">Chapter 2</span>
+          <span class="context-entry-title">Foundations</span>
         </a></li>
-<li><a href="#ex:From_Top_To_Topos" aria-current="page">
-          <span class="context-entry-heading">Example 6.22</span>
-          <span class="context-entry-title">From top to topos</span>
+<li><a href="../../chapter/truncation-connectivity/index.html">
+          <span class="context-entry-heading">Chapter 3</span>
+          <span class="context-entry-title">Truncation and connectivity</span>
         </a></li>
-<li><a href="../cocontinuous-morphism-of-sites/index.html">
-          <span class="context-entry-heading">Definition 6.23</span>
-          <span class="context-entry-title">Cocontinuous morphism of sites</span>
+<li><a href="../../chapter/topoi-logoi/index.html">
+          <span class="context-entry-heading">Chapter 4</span>
+          <span class="context-entry-title">The categories of topoi and logoi</span>
         </a></li>
-<li><a href="../pullback-of-sieve-along-functor/index.html">
-          <span class="context-entry-heading">Notation 6.24</span>
-          <span class="context-entry-title">Pullback of sieve along functor</span>
+<li><a href="../../chapter/modalities/index.html">
+          <span class="context-entry-heading">Chapter 5</span>
+          <span class="context-entry-title">Modalities</span>
         </a></li>
-      </ol>
-      <nav class="context-step-links" aria-label="Previous and next entries"><a rel="prev" href="../left-exact-continuous-functor-defines-morphism-of-sites/index.html"><span>Previous</span>Left exact continuous functor defines morphism of sites</a>
-<a rel="next" href="../cocontinuous-morphism-of-sites/index.html"><span>Next</span>Cocontinuous morphism of sites</a></nav>
-    </aside>
+<li><a href="../../chapter/topics-in-topos-theory/index.html" aria-current="location">
+          <span class="context-entry-heading">Chapter 6</span>
+          <span class="context-entry-title">Topics in topos theory</span>
+        </a></li>
+<li><a href="../../chapter/geometry/index.html">
+          <span class="context-entry-heading">Chapter 7</span>
+          <span class="context-entry-title">Geometry</span>
+        </a></li>
+<li><a href="../../chapter/factorization-systems-and-saturated-classes/index.html">
+          <span class="context-entry-heading">Appendix A</span>
+          <span class="context-entry-title">Factorization systems and saturated classes</span>
+        </a></li>
+<li><a href="../../chapter/limits-and-colimits-in-categories-of-sections/index.html">
+          <span class="context-entry-heading">Appendix B</span>
+          <span class="context-entry-title">Limits and colimits in categories of sections</span>
+        </a></li>
+<li><a href="../../chapter/dense-subcategories-closed-under-finite-limits/index.html">
+          <span class="context-entry-heading">Appendix C</span>
+          <span class="context-entry-title">Dense subcategories closed under finite limits</span>
+        </a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../section/sheaf-topoi/index.html" aria-current="page">
+          <span class="context-entry-heading">Section 6.1</span>
+          <span class="context-entry-title">Sheaf topoi</span>
+        </a></li>
+<li><a href="../../section/groupoid-actions-and-principal-bundles/index.html">
+          <span class="context-entry-heading">Section 6.2</span>
+          <span class="context-entry-title">Groupoid actions and principal bundles</span>
+        </a></li>
+<li><a href="../../section/hypercovers/index.html">
+          <span class="context-entry-heading">Section 6.3</span>
+          <span class="context-entry-title">Hypercovers</span>
+        </a></li>
+<li><a href="../../section/localic-topoi-postnikov-completeness-and-boundedness/index.html">
+          <span class="context-entry-heading">Section 6.4</span>
+          <span class="context-entry-title">Localic topoi, Postnikov-completeness, and boundedness</span>
+        </a></li>
+<li><a href="../../section/dimension-theory/index.html">
+          <span class="context-entry-heading">Section 6.5</span>
+          <span class="context-entry-title">Dimension theory</span>
+        </a></li>
+<li><a href="../../section/essential-morphisms-and-shape-theory/index.html">
+          <span class="context-entry-heading">Section 6.6</span>
+          <span class="context-entry-title">Essential morphisms and shape theory</span>
+        </a></li>
+<li><a href="../../section/coherence/index.html">
+          <span class="context-entry-heading">Section 6.7</span>
+          <span class="context-entry-title">Coherence</span>
+        </a></li>
+<li><a href="../../section/pretopoi/index.html">
+          <span class="context-entry-heading">Section 6.8</span>
+          <span class="context-entry-title">Pretopoi</span>
+        </a></li>
+<li><a href="../../section/makkai-completeness/index.html">
+          <span class="context-entry-heading">Section 6.9</span>
+          <span class="context-entry-title">Makkai completeness</span>
+        </a></li>
+<li><a href="../../section/compactly-assembled-categories-and-exponentiability/index.html">
+          <span class="context-entry-heading">Section 6.10</span>
+          <span class="context-entry-title">Compactly assembled categories and exponentiability</span>
+        </a></li>
+<li><a href="../../section/topoi-of-parametrized-objects/index.html">
+          <span class="context-entry-heading">Section 6.11</span>
+          <span class="context-entry-title">Topoi of parametrized objects</span>
+        </a></li></ol>
+    </nav>
+  </section></div>
+  </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

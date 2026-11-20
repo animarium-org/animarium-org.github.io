@@ -16,7 +16,7 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <style>
     .publication-fragment-notice { margin: 2rem 0; padding: 1rem; border: 1px solid #b6aa91; background: #faf7ef; }
@@ -39,8 +39,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -71,7 +71,7 @@
     <article class="notes-page chapter-landing">
       <section class="chapter-introduction" id="chap:Limits_And_Colimits_Of_Sections" data-source-label="chap:Limits_And_Colimits_Of_Sections" aria-label="Appendix introduction">
         <p>A category of sections is assembled from the fibers of a cartesian or cocartesian fibration. Its limits and colimits are therefore often computed fiberwise, but the required hypotheses depend on the variance. Colimits of sections of a cocartesian fibration require cocartesian transport to preserve the colimits in question, whereas limits require no preservation hypothesis. Dually, limits of sections of a cartesian fibration require preservation by cartesian transport, whereas colimits do not. The following proposition records all four cases. It is used in the analysis of filtered limits of topoi in <a href="../../section/limits-and-colimits-of-topoi/index.html">Section 4.3</a>.</p>
-<section class="theorem proposition" id="prop:Pointwise_Limits_And_Colimits_In_Sections">
+<section class="theorem proposition theorem-plain" id="prop:Pointwise_Limits_And_Colimits_In_Sections">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/pointwise-limits-and-colimits-in-sections/index.html">Proposition B.1.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(K\)</span> and <span class="math-inline">\(I\)</span> be categories, let <span class="math-inline">\(F\colon I\to\Cat\)</span>, and let <span class="math-inline">\(G\colon I\catop\to\Cat\)</span>. Write</p>
 <div class="math-display">\[p\colon \int^{\cc}_I F\longrightarrow I
@@ -149,6 +149,7 @@
 </main>
   <footer class="edition-footer">
   <p class="source-note">This static web edition is generated from the same LaTeX source as the PDFs.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

@@ -1,9 +1,9 @@
 {
   "SchemaVersion": 1,
   "ReaderShell": "reader-shell-v1",
-  "Revision": "reader-shell-v1-28664c2c2f6fbdba",
+  "Revision": "reader-shell-v1-4cccde114cd963c1",
   "Assets": {
     "_assets/reader-v1/reader.js": "20eacf70037a5d1a519f730e6921e549448ba80c0143dac441a76ad3f8059e12",
-    "_assets/reader-v1/style.css": "f0e8958f825df4ff27184b1341880a9b0f09b44ec9919e11879d7381f24ee821"
+    "_assets/reader-v1/style.css": "766d95fa918c4de59eebf587739619a199d53d1c33ec7b14685cbcccf9204643"
   }
 }

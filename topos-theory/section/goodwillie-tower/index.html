@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Goodwillie tower of a topos | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/goodwillie-tower/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,7 +20,7 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <style>
     .publication-fragment-notice { margin: 2rem 0; padding: 1rem; border: 1px solid #b6aa91; background: #faf7ef; }
@@ -34,7 +34,7 @@
     })();
   </script>
 </head>
-<body class="section-page has-context-nav" data-record-id="goodwillie-tower" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="goodwillie-tower" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -43,8 +43,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -76,7 +76,7 @@
     <article class="notes-page">
       
 <h2 id="sec:Goodwillie_Tower"><span>5.7.</span> The Goodwillie tower of a topos</h2>
-<p>The acyclic product allows us to form powers of a congruence, just as one forms powers of an ideal in a commutative ring. The corresponding tower of quotients is a completion tower. Its successive layers already exhibit a stable phenomenon, and the special case associated with the <span class="math-inline">\(\infty\)</span>-connected maps recovers Goodwillie's tower of excisive approximations. The results of this section are due to Anel, Biedermann, Finster, and Joyal, principally <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Goodwillie">2018</a>, <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025</a>]</span>.</p>
+<p>The acyclic product allows us to form powers of a congruence, just as one forms powers of an ideal in a commutative ring. The corresponding tower of quotients is a completion tower. Its successive layers already exhibit a stable phenomenon, and the special case associated with the <span class="math-inline">\(\infty\)</span>-connected maps recovers Goodwillie's tower of excisive approximations. The results of this section are due to Anel, Biedermann, Finster, and Joyal, principally <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Goodwillie">2018</a>, <a class="citation" href="../../references/index.html#bib-ABFJ_Acyclic_Product">2025</a>]</span>.</p>
 <h3 id="subsec:Adic_Filtrations_And_Layers"><span>5.7.1.</span> Adic filtrations and their layers</h3>
 
 <section class="theorem construction" id="con:K_Adic_Filtration">
@@ -97,8 +97,8 @@
   <div class="theorem-statement"><p>A category is <em>pre-stable</em> if it admits pullbacks and pushouts and a commutative square is cartesian if and only if it is cocartesian.</p></div>
 </section>
 
-<section class="theorem proposition" id="prop:Associated_Graded_Of_K_Adic_Filtration_Is_Stable">
-  <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/associated-graded-of-the-k-adic-filtration/index.html">Proposition 5.89.</a></span> (<span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025, Theorem 4.2.11</a>]</span>)</p>
+<section class="theorem proposition theorem-plain" id="prop:Associated_Graded_Of_K_Adic_Filtration_Is_Stable">
+  <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/associated-graded-of-the-k-adic-filtration/index.html">Proposition 5.89.</a></span> (<span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Acyclic_Product">2025, Theorem 4.2.11</a>]</span>)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(n \geq 1\)</span> and <span class="math-inline">\(X \in T\)</span>. The layer <span class="math-inline">\((K^n/K^{n+1})_X\)</span> is pre-stable and has a terminal object. Its category of pointed objects is stable.</p></div>
 </section>
 
@@ -146,7 +146,7 @@
   <div class="theorem-statement"><p>For <span class="math-inline">\(n = 0\)</span>, we see that a <span class="math-inline">\(0\)</span>-excisive functor <span class="math-inline">\(F\)</span> is one that sends any map <span class="math-inline">\(X \to Y\)</span> in <span class="math-inline">\(C\)</span> to a diagram <span class="math-inline">\(F(X) \to F(Y)\)</span> exhibiting <span class="math-inline">\(F(X)\)</span> as the limit of <span class="math-inline">\(\{F(Y)\}\)</span>. This is precisely saying that <span class="math-inline">\(F\)</span> is a constant functor.</p></div>
 </section>
 
-<section class="theorem theorem" id="thm:Goodwillie_Tower_From_Adic_Filtration">
+<section class="theorem theorem theorem-plain" id="thm:Goodwillie_Tower_From_Adic_Filtration">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/goodwillie-tower-from-an-adic-filtration/index.html">Theorem 5.94.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(K\)</span> be the kernel of the colimit functor <span class="math-inline">\(\colim \colon \Fun(C,T) \to T\)</span>. Then there is an equivalence</p>
 <div class="math-display">\[\Fun(C,T)/K^{n+1} \simeq \Exc^n(C,T).\]</div>
@@ -155,10 +155,10 @@
 
 <details class="proof-shell" id="proof-thm:Goodwillie_Tower_From_Adic_Filtration-main" data-owner-entry="goodwillie-tower-from-an-adic-filtration" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">We use the set <span class="math-inline">\(\Sigma_T\)</span> from <a href="#con:Sheaf_Topos_From_Colimit_Quotient">Construction 5.91</a>. Since <span class="math-inline">\(K=\Sigma_T^{ss}\)</span> is the kernel of a morphism of logoi, it is a congruence. It follows from the two universal properties that <div class="math-display">\[K=\Sigma_T^c:\]</div> the inclusion <span class="math-inline">\(\Sigma_T^c\subseteq K\)</span> holds because <span class="math-inline">\(K\)</span> is a congruence containing <span class="math-inline">\(\Sigma_T\)</span>, while <span class="math-inline">\(K\subseteq\Sigma_T^c\)</span> holds because <span class="math-inline">\(\Sigma_T^c\)</span> is strongly saturated. Moreover, <span class="math-inline">\(\Sigma_T\)</span> is closed under diagonals up to isomorphisms. Indeed, the diagonal of <span class="math-inline">\(y_G(f)\)</span> is obtained by applying <span class="math-inline">\(y_G\)</span> to the codiagonal of <span class="math-inline">\(f\)</span>, since <span class="math-inline">\(C\)</span> has pushouts; the same description applies to every iterated diagonal. The ABFJ formula now gives <div class="math-display">\[K=\Sigma_T^c=\Sigma_T^m.\]</div> By <a href="../../entry/generators-for-products-of-modalities/index.html">Lemma 5.75</a>, the power <span class="math-inline">\(K^{n+1}\)</span> is generated as an acyclic class by the <span class="math-inline">\((n+1)\)</span>-fold pushout products of maps in <span class="math-inline">\(\Sigma_T\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>For maps <span class="math-inline">\(f_i\colon A_i\to B_i\)</span> in <span class="math-inline">\(C\)</span>, let <div class="math-display">\[f_0\boxplus\dots\boxplus f_n\colon[1]^{n+1}\longrightarrow C\]</div> be their external coproduct cube. It is strongly cocartesian. The iterated pushout product of the corresponding opposite Yoneda maps is the cocartesian gap map of the Yoneda image of this cube. Every strongly cocartesian cube in <span class="math-inline">\(C\)</span> is a cobase change of such a free cocartesian cube, and base changes of its Yoneda gap map correspond to such cobase changes. Consequently, locality with respect to the <span class="math-inline">\((n+1)\)</span>-fold pushout products is equivalent to carrying every strongly cocartesian <span class="math-inline">\((n+1)\)</span>-cube to a cartesian cube. This is the content of <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025, Lemmas 4.4.2--4.4.4</a>]</span>; tensoring with the generators <span class="math-inline">\(G\in\mathcal G\)</span> makes the same argument detect cartesian cubes in <span class="math-inline">\(T\)</span>. Thus the <span class="math-inline">\(K^{n+1}\)</span>-local objects are precisely the <span class="math-inline">\(n\)</span>-excisive functors, proving the first equivalence.<div class="proof-paragraph-break" aria-hidden="true"></div>Now suppose that <span class="math-inline">\(T\)</span> is hypercomplete, and put <span class="math-inline">\(E:=\Shv(C\catop;T)=\Fun(C,T)/K^{\mono}\)</span>. Since <span class="math-inline">\(\Fun(C,T)/K\iso T\)</span> is hypercomplete, <a href="../../entry/hypercompletion-preserves-the-monogenic-part/index.html">Lemma 5.68</a> gives <div class="math-display">\[K=(K^{\mono})^{\hyp}.\]</div> It follows that the image of <span class="math-inline">\(K\)</span> in <span class="math-inline">\(E\)</span> is precisely the congruence <span class="math-inline">\(\Conn_\infty(E)\)</span>. Quotient functors preserve acyclic products, see <a href="../../entry/quotients-preserve-acyclic-products/index.html">Corollary 5.76</a>, so the image of <span class="math-inline">\(K^{n+1}\)</span> is <span class="math-inline">\(\Conn_\infty(E)^{n+1}\)</span>. The first part now identifies <div class="math-display">\[E^{(n)}=E/\Conn_\infty(E)^{n+1}\iso\Exc^n(C,T).\]</div><span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">We use the set <span class="math-inline">\(\Sigma_T\)</span> from <a href="#con:Sheaf_Topos_From_Colimit_Quotient">Construction 5.91</a>. Since <span class="math-inline">\(K=\Sigma_T^{ss}\)</span> is the kernel of a morphism of logoi, it is a congruence. It follows from the two universal properties that <div class="math-display">\[K=\Sigma_T^c:\]</div> the inclusion <span class="math-inline">\(\Sigma_T^c\subseteq K\)</span> holds because <span class="math-inline">\(K\)</span> is a congruence containing <span class="math-inline">\(\Sigma_T\)</span>, while <span class="math-inline">\(K\subseteq\Sigma_T^c\)</span> holds because <span class="math-inline">\(\Sigma_T^c\)</span> is strongly saturated. Moreover, <span class="math-inline">\(\Sigma_T\)</span> is closed under diagonals up to isomorphisms. Indeed, the diagonal of <span class="math-inline">\(y_G(f)\)</span> is obtained by applying <span class="math-inline">\(y_G\)</span> to the codiagonal of <span class="math-inline">\(f\)</span>, since <span class="math-inline">\(C\)</span> has pushouts; the same description applies to every iterated diagonal. The ABFJ formula now gives <div class="math-display">\[K=\Sigma_T^c=\Sigma_T^m.\]</div> By <a href="../../entry/generators-for-products-of-modalities/index.html">Lemma 5.75</a>, the power <span class="math-inline">\(K^{n+1}\)</span> is generated as an acyclic class by the <span class="math-inline">\((n+1)\)</span>-fold pushout products of maps in <span class="math-inline">\(\Sigma_T\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>For maps <span class="math-inline">\(f_i\colon A_i\to B_i\)</span> in <span class="math-inline">\(C\)</span>, let <div class="math-display">\[f_0\boxplus\dots\boxplus f_n\colon[1]^{n+1}\longrightarrow C\]</div> be their external coproduct cube. It is strongly cocartesian. The iterated pushout product of the corresponding opposite Yoneda maps is the cocartesian gap map of the Yoneda image of this cube. Every strongly cocartesian cube in <span class="math-inline">\(C\)</span> is a cobase change of such a free cocartesian cube, and base changes of its Yoneda gap map correspond to such cobase changes. Consequently, locality with respect to the <span class="math-inline">\((n+1)\)</span>-fold pushout products is equivalent to carrying every strongly cocartesian <span class="math-inline">\((n+1)\)</span>-cube to a cartesian cube. This is the content of <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Acyclic_Product">2025, Lemmas 4.4.2--4.4.4</a>]</span>; tensoring with the generators <span class="math-inline">\(G\in\mathcal G\)</span> makes the same argument detect cartesian cubes in <span class="math-inline">\(T\)</span>. Thus the <span class="math-inline">\(K^{n+1}\)</span>-local objects are precisely the <span class="math-inline">\(n\)</span>-excisive functors, proving the first equivalence.<div class="proof-paragraph-break" aria-hidden="true"></div>Now suppose that <span class="math-inline">\(T\)</span> is hypercomplete, and put <span class="math-inline">\(E:=\Shv(C\catop;T)=\Fun(C,T)/K^{\mono}\)</span>. Since <span class="math-inline">\(\Fun(C,T)/K\iso T\)</span> is hypercomplete, <a href="../../entry/hypercompletion-preserves-the-monogenic-part/index.html">Lemma 5.68</a> gives <div class="math-display">\[K=(K^{\mono})^{\hyp}.\]</div> It follows that the image of <span class="math-inline">\(K\)</span> in <span class="math-inline">\(E\)</span> is precisely the congruence <span class="math-inline">\(\Conn_\infty(E)\)</span>. Quotient functors preserve acyclic products, see <a href="../../entry/quotients-preserve-acyclic-products/index.html">Corollary 5.76</a>, so the image of <span class="math-inline">\(K^{n+1}\)</span> is <span class="math-inline">\(\Conn_\infty(E)^{n+1}\)</span>. The first part now identifies <div class="math-display">\[E^{(n)}=E/\Conn_\infty(E)^{n+1}\iso\Exc^n(C,T).\]</div><span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem lemma" id="lem:Classifying_Topos_For_Infinity_Connected_Objects">
+<section class="theorem lemma theorem-plain" id="lem:Classifying_Topos_For_Infinity_Connected_Objects">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/classifying-topos-for-infinity-connected-objects/index.html">Lemma 5.95.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(C = \An^{\fin}\)</span> be the category of finite animae. Then the inclusion <span class="math-inline">\(i\colon \An^{\fin} \hookrightarrow \An\)</span> defines an <span class="math-inline">\(\infty\)</span>-connected object in the topos <span class="math-inline">\(\Shv(\An^{\fin,\op})\)</span>. Moreover, it exhibits <span class="math-inline">\(\Shv(\An^{\fin,\op})\)</span> as the classifying topos for <span class="math-inline">\(\infty\)</span>-connected objects: for every topos <span class="math-inline">\(T\)</span>, evaluation at <span class="math-inline">\(i\)</span> induces an equivalence of categories</p>
 <div class="math-display">\[\Geom(T,\Shv(\An^{\fin,\op})) \iso T^{\geq \infty}, \qquad \varphi \mapsto \varphi^*(i).\]</div></div>
@@ -166,7 +166,7 @@
 
 <details class="proof-shell" id="proof-lem:Classifying_Topos_For_Infinity_Connected_Objects-main" data-owner-entry="classifying-topos-for-infinity-connected-objects" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">Every object <span class="math-inline">\(X \in T\)</span> determines a morphism of logoi <span class="math-inline">\(\PSh(\An^{\fin,\op}) \to T\)</span> given on generators by <span class="math-inline">\(A \mapsto X^A\)</span>. The object <span class="math-inline">\(X\)</span> is <span class="math-inline">\(\infty\)</span>-connected if and only if, for every morphism <span class="math-inline">\(f\colon A\to B\)</span> of finite animae, the induced map <div class="math-display">\[X^B\longrightarrow X^A\]</div> is an effective epimorphism. One direction follows by building finite animae from finitely many cells and using stability of effective epimorphisms under base change and composition. Conversely, the maps between finite spheres include the tests asserting that every iterated diagonal of <span class="math-inline">\(X\to *\)</span> is an effective epimorphism. This criterion is also recorded in <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025, Example 2.1.16(g)</a>]</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Let <span class="math-inline">\(K\)</span> be the kernel of <span class="math-inline">\(\colim\colon\Fun(\An^{\fin},\An)\to\An\)</span>. By <a href="../../entry/monogenic-parts-via-images/index.html">Lemma 5.56</a>, its monogenic part is generated by the monomorphisms <span class="math-inline">\(\im(y(f))\)</span> for maps <span class="math-inline">\(f\)</span> of finite animae. A morphism of logoi preserves epi–mono factorizations, so the morphism classified by <span class="math-inline">\(X\)</span> sends <span class="math-inline">\(\im(y(f))\)</span> to an isomorphism if and only if it sends <span class="math-inline">\(y(f)\)</span> to an effective epimorphism, which is precisely the condition above. Thus the free morphism classified by <span class="math-inline">\(X\)</span> factors through <span class="math-inline">\(\Fun(\An^{\fin},\An)/K^{\mono}\)</span> exactly when <span class="math-inline">\(X\)</span> is <span class="math-inline">\(\infty\)</span>-connected. The universal property of the free logos therefore restricts from <div class="math-display">\[\Fun_{\bbLog}(\PSh(\An^{\fin,\op}), T) \iso T, \qquad \varphi \mapsto \varphi(i)\]</div> to the desired equivalence <div class="math-display">\[\Fun_{\bbLog}(\Shv(\An^{\fin,\op}), T) \iso T^{\geq \infty}.\]</div><span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">Every object <span class="math-inline">\(X \in T\)</span> determines a morphism of logoi <span class="math-inline">\(\PSh(\An^{\fin,\op}) \to T\)</span> given on generators by <span class="math-inline">\(A \mapsto X^A\)</span>. The object <span class="math-inline">\(X\)</span> is <span class="math-inline">\(\infty\)</span>-connected if and only if, for every morphism <span class="math-inline">\(f\colon A\to B\)</span> of finite animae, the induced map <div class="math-display">\[X^B\longrightarrow X^A\]</div> is an effective epimorphism. One direction follows by building finite animae from finitely many cells and using stability of effective epimorphisms under base change and composition. Conversely, the maps between finite spheres include the tests asserting that every iterated diagonal of <span class="math-inline">\(X\to *\)</span> is an effective epimorphism. This criterion is also recorded in <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Acyclic_Product">2025, Example 2.1.16(g)</a>]</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Let <span class="math-inline">\(K\)</span> be the kernel of <span class="math-inline">\(\colim\colon\Fun(\An^{\fin},\An)\to\An\)</span>. By <a href="../../entry/monogenic-parts-via-images/index.html">Lemma 5.56</a>, its monogenic part is generated by the monomorphisms <span class="math-inline">\(\im(y(f))\)</span> for maps <span class="math-inline">\(f\)</span> of finite animae. A morphism of logoi preserves epi–mono factorizations, so the morphism classified by <span class="math-inline">\(X\)</span> sends <span class="math-inline">\(\im(y(f))\)</span> to an isomorphism if and only if it sends <span class="math-inline">\(y(f)\)</span> to an effective epimorphism, which is precisely the condition above. Thus the free morphism classified by <span class="math-inline">\(X\)</span> factors through <span class="math-inline">\(\Fun(\An^{\fin},\An)/K^{\mono}\)</span> exactly when <span class="math-inline">\(X\)</span> is <span class="math-inline">\(\infty\)</span>-connected. The universal property of the free logos therefore restricts from <div class="math-display">\[\Fun_{\bbLog}(\PSh(\An^{\fin,\op}), T) \iso T, \qquad \varphi \mapsto \varphi(i)\]</div> to the desired equivalence <div class="math-display">\[\Fun_{\bbLog}(\Shv(\An^{\fin,\op}), T) \iso T^{\geq \infty}.\]</div><span class="qed" aria-label="End of proof"></span></div>
 </details>
 
 <section class="theorem remark" id="rem:Classifying_Topos_For_Pointed_Infinity_Connected_Objects">
@@ -174,7 +174,7 @@
   <div class="theorem-statement"><p>In the same way, one can show that <span class="math-inline">\(\Shv(\An^{\fin,\op}_*)\)</span> classifies <em>pointed</em> <span class="math-inline">\(\infty\)</span>-connected objects.</p></div>
 </section>
 <p>This classification allows us to identify the layers of the Goodwillie tower with known categories of spectra.</p>
-<section class="theorem proposition" id="prop:Linear_Excisive_Functors_As_Parametrized_Spectra">
+<section class="theorem proposition theorem-plain" id="prop:Linear_Excisive_Functors_As_Parametrized_Spectra">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/linear-excisive-functors-as-parametrized-spectra/index.html">Proposition 5.97.</a></span></p>
   <div class="theorem-statement"><p>The category <span class="math-inline">\(\Exc^1(\An_*^{\fin},T)\)</span> is equivalent to the total category of <span class="math-inline">\(T\)</span>-parametrized spectra:</p>
 <div class="math-display">\[\int_{X\in T}\Sp(T_{/X}).\]</div></div>
@@ -182,10 +182,10 @@
 
 <details class="proof-shell" id="proof-prop:Linear_Excisive_Functors_As_Parametrized_Spectra-main" data-owner-entry="linear-excisive-functors-as-parametrized-spectra" data-proof-id="main">
   <summary>Proof idea</summary>
-  <div class="proof-body">A <span class="math-inline">\(1\)</span>-excisive functor on finite pointed animae determines its base object <span class="math-inline">\(X\)</span> by evaluation at the zero object. Its reduced part is an excisive reduced functor in the slice <span class="math-inline">\(T_{/X}\)</span>, hence a spectrum object of that slice. Conversely, a spectrum object in <span class="math-inline">\(T_{/X}\)</span> determines such a reduced excisive functor, and adjoining the base <span class="math-inline">\(X\)</span> recovers the original functor. These constructions are inverse and natural in <span class="math-inline">\(X\)</span>. This is the internal version of Goodwillie's classification of <span class="math-inline">\(1\)</span>-excisive functors; see <span class="citation-group">[Goodwillie <a class="citation" href="#bib-GoodwillieIII">2003, Section 5</a>]</span> and <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025, Section 4.3</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">A <span class="math-inline">\(1\)</span>-excisive functor on finite pointed animae determines its base object <span class="math-inline">\(X\)</span> by evaluation at the zero object. Its reduced part is an excisive reduced functor in the slice <span class="math-inline">\(T_{/X}\)</span>, hence a spectrum object of that slice. Conversely, a spectrum object in <span class="math-inline">\(T_{/X}\)</span> determines such a reduced excisive functor, and adjoining the base <span class="math-inline">\(X\)</span> recovers the original functor. These constructions are inverse and natural in <span class="math-inline">\(X\)</span>. This is the internal version of Goodwillie's classification of <span class="math-inline">\(1\)</span>-excisive functors; see <span class="citation-group">[Goodwillie <a class="citation" href="../../references/index.html#bib-GoodwillieIII">2003, Section 5</a>]</span> and <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Acyclic_Product">2025, Section 4.3</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem proposition" id="prop:Linear_Excisive_Functors_As_Parametrized_Spectral_Torsors">
+<section class="theorem proposition theorem-plain" id="prop:Linear_Excisive_Functors_As_Parametrized_Spectral_Torsors">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/linear-excisive-functors-as-parametrized-spectral-torsors/index.html">Proposition 5.98.</a></span></p>
   <div class="theorem-statement"><p>The category <span class="math-inline">\(\Exc^1(\An^{\fin},T)\)</span> is equivalent to the total category of <span class="math-inline">\(T\)</span>-parametrized spectral torsors:</p>
 <div class="math-display">\[\{(X,E,s) \mid X \in T, E \in \Sp(T_{/X}), s \in \Gamma(X,E)\}.\]</div>
@@ -201,7 +201,7 @@
 <p>We conclude by translating the multiplicative properties of the adic filtration into familiar results about the Goodwillie tower. Let</p>
 <div class="math-display">\[P_n\colon \Fun(C,T) \longrightarrow \Exc^n(C,T)\]</div>
 <p>be the left adjoint to the inclusion. By <a href="#thm:Goodwillie_Tower_From_Adic_Filtration">Theorem 5.94</a>, this is localization at <span class="math-inline">\(K^{n+1}\)</span>, where <span class="math-inline">\(K:=\ker(\colim\colon\Fun(C,T)\to T)\)</span>. Thus a morphism is a <span class="math-inline">\(P_n\)</span>-equivalence precisely when it belongs to <span class="math-inline">\(K^{n+1}\)</span>. Notice that this is a statement about the class inverted by <span class="math-inline">\(P_n\)</span>, not about the right class of <span class="math-inline">\(P_n\)</span>-local morphisms.</p>
-<section class="theorem corollary" id="cor:Products_Of_Goodwillie_Equivalences">
+<section class="theorem corollary theorem-plain" id="cor:Products_Of_Goodwillie_Equivalences">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/products-of-goodwillie-equivalences/index.html">Corollary 5.99.</a></span></p>
   <div class="theorem-statement"><p>We have</p>
 <div class="math-display">\[(P_n\textup{-equiv})(P_m\textup{-equiv})
@@ -211,10 +211,10 @@
 
 <details class="proof-shell" id="proof-cor:Products_Of_Goodwillie_Equivalences-main" data-owner-entry="products-of-goodwillie-equivalences" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">Under the identification above, this is the equality <div class="math-display">\[K^{n+1}K^{m+1}=K^{n+m+2}.\]</div> See also <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Goodwillie">2018, Theorem 3.3.4(4)</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">Under the identification above, this is the equality <div class="math-display">\[K^{n+1}K^{m+1}=K^{n+m+2}.\]</div> See also <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Goodwillie">2018, Theorem 3.3.4(4)</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 <p>The generalized Blakers–Massey theorem now gives the corresponding excision estimate.</p>
-<section class="theorem corollary" id="cor:Blakers_Massey_For_Goodwillie_Equivalences">
+<section class="theorem corollary theorem-plain" id="cor:Blakers_Massey_For_Goodwillie_Equivalences">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/blakers-massey-for-goodwillie-equivalences/index.html">Corollary 5.100.</a></span></p>
   <div class="theorem-statement"><p>Consider a pushout square in <span class="math-inline">\(\Fun(C,T)\)</span> of the form</p>
 <figure class="diagram"><img src="diagrams/tikzcd-ce557b3c249d.svg" alt="Commutative diagram generated from the LaTeX source"></figure>
@@ -223,7 +223,7 @@
 
 <details class="proof-shell" id="proof-cor:Blakers_Massey_For_Goodwillie_Equivalences-main" data-owner-entry="blakers-massey-for-goodwillie-equivalences" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">The two maps belong to <span class="math-inline">\(K^{n+1}\)</span> and <span class="math-inline">\(K^{m+1}\)</span>, respectively. The generalized Blakers–Massey theorem places the gap map in their acyclic product, which is <span class="math-inline">\(K^{n+m+2}\)</span>. This is the class of <span class="math-inline">\(P_{n+m+1}\)</span>-equivalences. Compare <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Goodwillie">2018, Theorem 3.4.1</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">The two maps belong to <span class="math-inline">\(K^{n+1}\)</span> and <span class="math-inline">\(K^{m+1}\)</span>, respectively. The generalized Blakers–Massey theorem places the gap map in their acyclic product, which is <span class="math-inline">\(K^{n+m+2}\)</span>. This is the class of <span class="math-inline">\(P_{n+m+1}\)</span>-equivalences. Compare <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Goodwillie">2018, Theorem 3.4.1</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
 <section class="theorem definition" id="def:Reduced_Functor">
@@ -232,7 +232,7 @@
 <p>An <span class="math-inline">\(n\)</span>-excisive and <span class="math-inline">\(n\)</span>-reduced functor is called <em><span class="math-inline">\(n\)</span>-homogeneous</em>.</p></div>
 </section>
 <p>The shift in this definition is essential: <span class="math-inline">\(n\)</span>-reduced means that all polynomial information of degree at most <span class="math-inline">\(n-1\)</span> vanishes.</p>
-<section class="theorem corollary" id="cor:Goodwillie_Structure_Theorem">
+<section class="theorem corollary theorem-plain" id="cor:Goodwillie_Structure_Theorem">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/goodwillie-structure-theorem/index.html">Corollary 5.102.</a></span> (Goodwillie's structure theorem)</p>
   <div class="theorem-statement"><p>Consider a functor <span class="math-inline">\(F\colon C \to T\)</span>, and define <span class="math-inline">\(G\)</span> via the following pushout square:</p>
 <figure class="diagram"><img src="diagrams/tikzcd-c849c39855ed.svg" alt="Commutative diagram generated from the LaTeX source"></figure>
@@ -241,11 +241,11 @@
 
 <details class="proof-shell" id="proof-cor:Goodwillie_Structure_Theorem-main" data-owner-entry="goodwillie-structure-theorem" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">The map <span class="math-inline">\(P_nF\to P_{n-1}F\)</span> is a <span class="math-inline">\(P_{n-1}\)</span>-equivalence. Its cobase change <span class="math-inline">\(P_0F\to G\)</span> is therefore a <span class="math-inline">\(P_{n-1}\)</span>-equivalence, and so is the induced map <span class="math-inline">\(G\to P_0F\)</span>, by three-for-two. This proves the first assertion.<div class="proof-paragraph-break" aria-hidden="true"></div>The maps <span class="math-inline">\(P_nF\to P_{n-1}F\)</span> and <span class="math-inline">\(P_nF\to P_0F\)</span> are a <span class="math-inline">\(P_{n-1}\)</span>-equivalence and a <span class="math-inline">\(P_0\)</span>-equivalence, respectively. By <a href="#cor:Blakers_Massey_For_Goodwillie_Equivalences">Corollary 5.100</a>, the gap map <div class="math-display">\[P_nF\longrightarrow P_{n-1}F\times_G P_0F\]</div> is a <span class="math-inline">\(P_n\)</span>-equivalence. After applying <span class="math-inline">\(P_n\)</span>, it becomes an isomorphism, which is precisely the second assertion. This argument is the cartesian part of <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Goodwillie">2018, Theorem 3.5.2</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">The map <span class="math-inline">\(P_nF\to P_{n-1}F\)</span> is a <span class="math-inline">\(P_{n-1}\)</span>-equivalence. Its cobase change <span class="math-inline">\(P_0F\to G\)</span> is therefore a <span class="math-inline">\(P_{n-1}\)</span>-equivalence, and so is the induced map <span class="math-inline">\(G\to P_0F\)</span>, by three-for-two. This proves the first assertion.<div class="proof-paragraph-break" aria-hidden="true"></div>The maps <span class="math-inline">\(P_nF\to P_{n-1}F\)</span> and <span class="math-inline">\(P_nF\to P_0F\)</span> are a <span class="math-inline">\(P_{n-1}\)</span>-equivalence and a <span class="math-inline">\(P_0\)</span>-equivalence, respectively. By <a href="#cor:Blakers_Massey_For_Goodwillie_Equivalences">Corollary 5.100</a>, the gap map <div class="math-display">\[P_nF\longrightarrow P_{n-1}F\times_G P_0F\]</div> is a <span class="math-inline">\(P_n\)</span>-equivalence. After applying <span class="math-inline">\(P_n\)</span>, it becomes an isomorphism, which is precisely the second assertion. This argument is the cartesian part of <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Goodwillie">2018, Theorem 3.5.2</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 <p>Suppose now that <span class="math-inline">\(C\)</span> is pointed. The zero object then gives natural maps <span class="math-inline">\(P_0F\to F\to P_nF\)</span>. Define the <em><span class="math-inline">\(n\)</span>-th homogeneous layer</em> <span class="math-inline">\(D_nF\)</span> by the pullback square</p>
 <figure class="diagram"><img src="diagrams/tikzcd-b6df04837305.svg" alt="Commutative diagram generated from the LaTeX source"></figure>
-<section class="theorem corollary" id="cor:Goodwillie_Layer_Delooping">
+<section class="theorem corollary theorem-plain" id="cor:Goodwillie_Layer_Delooping">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/goodwillie-layer-delooping/index.html">Corollary 5.103.</a></span></p>
   <div class="theorem-statement"><p>There is a canonical isomorphism</p>
 <div class="math-display">\[D_nF\iso\Omega_{P_0F}P_nG\]</div>
@@ -254,21 +254,19 @@
 
 <details class="proof-shell" id="proof-cor:Goodwillie_Layer_Delooping-main" data-owner-entry="goodwillie-layer-delooping" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">By <a href="#cor:Goodwillie_Structure_Theorem">Corollary 5.102</a>, applying <span class="math-inline">\(P_n\)</span> to the defining pushout square for <span class="math-inline">\(G\)</span> gives a pullback square <figure class="diagram"><img src="diagrams/tikzcd-fab6219f6823.svg" alt="Commutative diagram generated from the LaTeX source"></figure> The lower horizontal map points <span class="math-inline">\(P_nG\)</span> in the slice over <span class="math-inline">\(P_0F\)</span>. Pulling this square back along the canonical point <span class="math-inline">\(P_0F\to P_{n-1}F\)</span> identifies the defining pullback for <span class="math-inline">\(D_nF\)</span> with the relative loop object of <span class="math-inline">\(P_nG\)</span>. See also <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Goodwillie">2018, Corollary 3.5.3</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">By <a href="#cor:Goodwillie_Structure_Theorem">Corollary 5.102</a>, applying <span class="math-inline">\(P_n\)</span> to the defining pushout square for <span class="math-inline">\(G\)</span> gives a pullback square <figure class="diagram"><img src="diagrams/tikzcd-fab6219f6823.svg" alt="Commutative diagram generated from the LaTeX source"></figure> The lower horizontal map points <span class="math-inline">\(P_nG\)</span> in the slice over <span class="math-inline">\(P_0F\)</span>. Pulling this square back along the canonical point <span class="math-inline">\(P_0F\to P_{n-1}F\)</span> identifies the defining pullback for <span class="math-inline">\(D_nF\)</span> with the relative loop object of <span class="math-inline">\(P_nG\)</span>. See also <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Goodwillie">2018, Corollary 3.5.3</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Stability_Of_Homogeneous_Functors">
+<section class="theorem corollary theorem-plain" id="cor:Stability_Of_Homogeneous_Functors">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/stability-of-homogeneous-functors/index.html">Corollary 5.104.</a></span></p>
   <div class="theorem-statement"><p>If <span class="math-inline">\(C\)</span> is pointed, the category of <span class="math-inline">\(n\)</span>-homogeneous functors <span class="math-inline">\(C\to T\)</span> is stable.</p></div>
 </section>
 
 <details class="proof-shell" id="proof-cor:Stability_Of_Homogeneous_Functors-main" data-owner-entry="stability-of-homogeneous-functors" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">An <span class="math-inline">\(n\)</span>-homogeneous functor is a <span class="math-inline">\(K^{n+1}\)</span>-local object whose map to the terminal object belongs to <span class="math-inline">\(K^n\)</span>. Hence these functors form the layer <span class="math-inline">\((K^n/K^{n+1})_*\)</span>. Since <span class="math-inline">\(C\)</span> is pointed, an <span class="math-inline">\(n\)</span>-reduced functor has a canonical point: the map <span class="math-inline">\(P_0F\to F\)</span> identifies with <span class="math-inline">\(*\to F\)</span>. Thus the category of <span class="math-inline">\(n\)</span>-homogeneous functors identifies with the category of pointed objects in this layer. It is stable by <a href="#prop:Associated_Graded_Of_K_Adic_Filtration_Is_Stable">Proposition 5.89</a>; compare <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025, Corollary 4.3.5</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">An <span class="math-inline">\(n\)</span>-homogeneous functor is a <span class="math-inline">\(K^{n+1}\)</span>-local object whose map to the terminal object belongs to <span class="math-inline">\(K^n\)</span>. Hence these functors form the layer <span class="math-inline">\((K^n/K^{n+1})_*\)</span>. Since <span class="math-inline">\(C\)</span> is pointed, an <span class="math-inline">\(n\)</span>-reduced functor has a canonical point: the map <span class="math-inline">\(P_0F\to F\)</span> identifies with <span class="math-inline">\(*\to F\)</span>. Thus the category of <span class="math-inline">\(n\)</span>-homogeneous functors identifies with the category of pointed objects in this layer. It is stable by <a href="#prop:Associated_Graded_Of_K_Adic_Filtration_Is_Stable">Proposition 5.89</a>; compare <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Acyclic_Product">2025, Corollary 4.3.5</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-ABFJ_Goodwillie">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>Goodwillie's calculus of functors and higher topos theory</em>. J. Topol., 11 (4), 1100–1132. 2018.</li>
-<li id="bib-ABFJ_Acyclic_Product">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>Left-exact localizations of $\infty$-topoi III: The acyclic product</em>. 2025.</li>
-<li id="bib-GoodwillieIII">Thomas\bibnamedelima G. Goodwillie. <em>Calculus. III: Taylor series</em>. Geom. Topol., 7, 645–711. 2003.</li></ol></section>
+<span id="bib-ABFJ_Goodwillie" data-legacy-reference="../../references/index.html#bib-ABFJ_Goodwillie" hidden></span><span id="bib-ABFJ_Acyclic_Product" data-legacy-reference="../../references/index.html#bib-ABFJ_Acyclic_Product" hidden></span><span id="bib-GoodwillieIII" data-legacy-reference="../../references/index.html#bib-GoodwillieIII" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -353,85 +351,17 @@
     </nav>
   </section><section class="contents-ledger" data-contents-ledger data-open="true">
     <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
+      <span>In this section</span><span class="contents-chevron" aria-hidden="true"></span>
     </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 5.7</p>
-      <p class="context-nav-description">The Goodwillie tower of a topos</p>
-      <ol class="context-entry-list">
-        <li><a href="#con:K_Adic_Filtration" data-section-target="con:K_Adic_Filtration">
-          <span class="context-entry-heading">Construction 5.87</span>
-          <span class="context-entry-title">The K-adic filtration</span>
-        </a></li>
-<li><a href="#def:Prestable_Category" data-section-target="def:Prestable_Category">
-          <span class="context-entry-heading">Definition 5.88</span>
-          <span class="context-entry-title">Pre-stable categories</span>
-        </a></li>
-<li><a href="#prop:Associated_Graded_Of_K_Adic_Filtration_Is_Stable" data-section-target="prop:Associated_Graded_Of_K_Adic_Filtration_Is_Stable">
+    <nav class="contents" id="contents-section-contents" aria-label="In this section" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
+      <ol class="context-entry-list"><li><a href="#prop:Associated_Graded_Of_K_Adic_Filtration_Is_Stable" data-section-target="prop:Associated_Graded_Of_K_Adic_Filtration_Is_Stable">
           <span class="context-entry-heading">Proposition 5.89</span>
-          <span class="context-entry-title">The associated graded of the K-adic filtration</span>
-        </a></li>
-<li><a href="#def:Goodwillie_Approximation_Of_Topos" data-section-target="def:Goodwillie_Approximation_Of_Topos">
-          <span class="context-entry-heading">Definition 5.90</span>
-          <span class="context-entry-title">Goodwillie approximation of a topos</span>
-        </a></li>
-<li><a href="#con:Sheaf_Topos_From_Colimit_Quotient" data-section-target="con:Sheaf_Topos_From_Colimit_Quotient">
-          <span class="context-entry-heading">Construction 5.91</span>
-          <span class="context-entry-title">A sheaf topos from a colimit quotient</span>
-        </a></li>
-<li><a href="#def:Excisive_Functor" data-section-target="def:Excisive_Functor">
-          <span class="context-entry-heading">Definition 5.92</span>
-          <span class="context-entry-title">Excisive functors</span>
-        </a></li>
-<li><a href="#rem:Zero_Excisive_Functors_Are_Constant" data-section-target="rem:Zero_Excisive_Functors_Are_Constant">
-          <span class="context-entry-heading">Remark 5.93</span>
-          <span class="context-entry-title">Zero-excisive functors are constant</span>
-        </a></li>
-<li><a href="#thm:Goodwillie_Tower_From_Adic_Filtration" data-section-target="thm:Goodwillie_Tower_From_Adic_Filtration">
-          <span class="context-entry-heading">Theorem 5.94</span>
-          <span class="context-entry-title">The Goodwillie tower from an adic filtration</span>
-        </a></li>
-<li><a href="#lem:Classifying_Topos_For_Infinity_Connected_Objects" data-section-target="lem:Classifying_Topos_For_Infinity_Connected_Objects">
-          <span class="context-entry-heading">Lemma 5.95</span>
-          <span class="context-entry-title">The classifying topos for infinity-connected objects</span>
-        </a></li>
-<li><a href="#rem:Classifying_Topos_For_Pointed_Infinity_Connected_Objects" data-section-target="rem:Classifying_Topos_For_Pointed_Infinity_Connected_Objects">
-          <span class="context-entry-heading">Remark 5.96</span>
-          <span class="context-entry-title">The classifying topos for pointed infinity-connected objects</span>
-        </a></li>
-<li><a href="#prop:Linear_Excisive_Functors_As_Parametrized_Spectra" data-section-target="prop:Linear_Excisive_Functors_As_Parametrized_Spectra">
-          <span class="context-entry-heading">Proposition 5.97</span>
-          <span class="context-entry-title">Linear excisive functors as parametrized spectra</span>
-        </a></li>
-<li><a href="#prop:Linear_Excisive_Functors_As_Parametrized_Spectral_Torsors" data-section-target="prop:Linear_Excisive_Functors_As_Parametrized_Spectral_Torsors">
-          <span class="context-entry-heading">Proposition 5.98</span>
-          <span class="context-entry-title">Linear excisive functors as parametrized spectral torsors</span>
-        </a></li>
-<li><a href="#cor:Products_Of_Goodwillie_Equivalences" data-section-target="cor:Products_Of_Goodwillie_Equivalences">
-          <span class="context-entry-heading">Corollary 5.99</span>
-          <span class="context-entry-title">Products of Goodwillie equivalences</span>
-        </a></li>
-<li><a href="#cor:Blakers_Massey_For_Goodwillie_Equivalences" data-section-target="cor:Blakers_Massey_For_Goodwillie_Equivalences">
-          <span class="context-entry-heading">Corollary 5.100</span>
-          <span class="context-entry-title">Blakers–Massey for Goodwillie equivalences</span>
-        </a></li>
-<li><a href="#def:Reduced_Functor" data-section-target="def:Reduced_Functor">
-          <span class="context-entry-heading">Definition 5.101</span>
-          <span class="context-entry-title">Reduced functors</span>
+          <span class="context-entry-title"><span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Acyclic_Product">2025, Theorem 4.2.11</a>]</span></span>
         </a></li>
 <li><a href="#cor:Goodwillie_Structure_Theorem" data-section-target="cor:Goodwillie_Structure_Theorem">
           <span class="context-entry-heading">Corollary 5.102</span>
-          <span class="context-entry-title">The Goodwillie structure theorem</span>
-        </a></li>
-<li><a href="#cor:Goodwillie_Layer_Delooping" data-section-target="cor:Goodwillie_Layer_Delooping">
-          <span class="context-entry-heading">Corollary 5.103</span>
-          <span class="context-entry-title">Delooping of Goodwillie layers</span>
-        </a></li>
-<li><a href="#cor:Stability_Of_Homogeneous_Functors" data-section-target="cor:Stability_Of_Homogeneous_Functors">
-          <span class="context-entry-heading">Corollary 5.104</span>
-          <span class="context-entry-title">Stability of homogeneous functors</span>
-        </a></li>
-      </ol>
+          <span class="context-entry-title">Goodwillie's structure theorem</span>
+        </a></li></ol>
     </nav>
   </section></div>
   </aside>
@@ -440,7 +370,8 @@
 <aside class="publication-fragment-notice" id="rem:Differentiable_Categories_And_Goodwillie_Tower"><strong>Retired fragment.</strong> The provenance remark was incorporated into the section introduction. It now appears at <a href="./#sec:Goodwillie_Tower">this address</a>.</aside>
 </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

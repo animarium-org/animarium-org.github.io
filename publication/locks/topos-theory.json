@@ -2,7 +2,7 @@
   "SchemaVersion": 1,
   "WorkId": "topos-theory",
   "PublicBase": "/topos-theory/",
-  "CandidateContractSha256": "bc7610e9d37ac6c685bc75844229da21792d36a72a1105e8c85611c0aa35cada",
+  "CandidateContractSha256": "aea1d323c1f08136689382fb2087c9640da78a709190d03488dd86385a987db0",
   "Routes": [
     {
       "Path": "/topos-theory/",
@@ -8182,6 +8182,183 @@
       ]
     },
     {
+      "Path": "/topos-theory/references/",
+      "Kind": "references",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "bib-ABFJ_Acyclic_Product",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-ABFJ_Goodwillie",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-ABFJ_Grothendieck_Topologies",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-ABFJ_Higher_Sheaves",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-ABFJ2020GeneralizedBlakersMassey",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Adamek_Free_Algebras_Automata",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-AizenbudCarmeli2021Nash",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Anel_Joyal_Topologie",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Anel_Lejay_Exponentiable_Higher_Toposes",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-BachmannHoyois2021Norms",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Barwick_Glasman_Haine_Exodromy",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-CCW_SCT",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Clausen_Mathew_Hyperdescent",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-CLL_Span2",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Cnossen_StableHomotopy",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Elmanto_Hoyois_Iwasa_Kelly_Cdh_Descent",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-GoodwillieIII",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Hoyois_Plus_Construction",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Hoyois_Topoi_Parametrized",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Lurie_DAG_V",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Lurie_Ultracategories",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-lurie2009HTT",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-lurie2016HA",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-mann2022sixFunctor",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-McLarty_History_Topos_Theory",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-NSS2015Principal",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Rezk_Free_Cocompletions",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-SAG",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-satiSchreiber2021equivariant",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Sattler_Warn_Confluent",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Scholze_Gestalten",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Scholze_Six_Functors",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Uemura_Colimits_Topoi_Etale",
+          "Kind": "bibliography",
+          "Status": "live"
+        },
+        {
+          "Id": "bib-Warn_Path_Spaces",
+          "Kind": "bibliography",
+          "Status": "live"
+        }
+      ]
+    },
+    {
       "Path": "/topos-theory/section/analytic-stacks/",
       "Kind": "section",
       "Status": "live",
@@ -12862,8 +13039,8 @@
       ]
     }
   ],
-  "SourceBundleSha256": "213f2f6a7dd8f0b900fe19bf2bf6cd60fe23f0136ba813de0b55fce68305e5ed",
+  "SourceBundleSha256": "00a2183d7fef65c796e6850b45301e67e54dc4f92bddcdf8e9cb3ba65a871ea1",
   "SourcePdfSha256": "2a43c4abb655e1dc2ab593f795f10e3f6b4ef206f20bac39d35886bfcd657dac",
-  "PublishedBundleSha256": "0fee3aa4c8bfec68a807a686b568909c76fe9c88770654025bb32c0f842ffcb1",
+  "PublishedBundleSha256": "d4b14e24284cc840783958abaa9c548504bbc45530dee2ac92e41ece5d4a9041",
   "PublishedPdfSha256": "2a43c4abb655e1dc2ab593f795f10e3f6b4ef206f20bac39d35886bfcd657dac"
 }

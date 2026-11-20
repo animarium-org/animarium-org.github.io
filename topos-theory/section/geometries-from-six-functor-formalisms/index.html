@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Geometries from six-functor formalisms | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/geometries-from-six-functor-formalisms/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,7 +20,7 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <style>
     .publication-fragment-notice { margin: 2rem 0; padding: 1rem; border: 1px solid #b6aa91; background: #faf7ef; }
@@ -34,7 +34,7 @@
     })();
   </script>
 </head>
-<body class="section-page has-context-nav" data-record-id="geometries-from-six-functor-formalisms" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="geometries-from-six-functor-formalisms" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -43,8 +43,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -76,7 +76,7 @@
     <article class="notes-page">
       
 <h2 id="sec:Six_Functor_Formalisms"><span>7.4.</span> Geometries from six-functor formalisms</h2>
-<p>Six-functor formalisms, developed systematically in <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Six_Functors">2025</a>]</span>, provide a categorification of classical cohomology theories. The key insight relevant to our discussion is that every six-functor formalism on a category with an admissibility structure canonically determines a topology, the <span class="math-inline">\(D\)</span>-topology, and hence gives rise to a geometric site and a fractured topos.</p>
+<p>Six-functor formalisms, developed systematically in <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Six_Functors">2025</a>]</span>, provide a categorification of classical cohomology theories. The key insight relevant to our discussion is that every six-functor formalism on a category with an admissibility structure canonically determines a topology, the <span class="math-inline">\(D\)</span>-topology, and hence gives rise to a geometric site and a fractured topos.</p>
 <h3 id="subsec:D_Topology"><span>7.4.1.</span> The D-topology</h3>
 
 <section class="theorem definition" id="def:Presentable_Six_Functor_Formalism">
@@ -90,17 +90,17 @@
   <div class="theorem-statement"><p>A family <span class="math-inline">\((X_i\to X)_i\)</span> in <span class="math-inline">\(C^{\ad}\)</span> is a <em><span class="math-inline">\(D\)</span>-cover</em> if it is a covering family for the canonical topology on <span class="math-inline">\(C\)</span> and satisfies universal <span class="math-inline">\(!\)</span>-descent: after every base change <span class="math-inline">\(Y\to X\)</span>, the resulting family <span class="math-inline">\((X_i\times_XY\to Y)_i\)</span> satisfies descent for <span class="math-inline">\(D^!\)</span>. The <em><span class="math-inline">\(D\)</span>-topology</em> <span class="math-inline">\(\tau_D\)</span> is the topology whose covering families are the <span class="math-inline">\(D\)</span>-covers.</p></div>
 </section>
 
-<section class="theorem proposition" id="prop:D_Topology_Geometric_Site">
+<section class="theorem proposition theorem-plain" id="prop:D_Topology_Geometric_Site">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/d-topology-gives-geometric-site/index.html">Proposition 7.27.</a></span></p>
   <div class="theorem-statement"><p>The triple <span class="math-inline">\((C,C^{\ad},\tau_D)\)</span> is a geometric site.</p></div>
 </section>
 
 <details class="proof-shell" id="proof-prop:D_Topology_Geometric_Site-main" data-owner-entry="d-topology-gives-geometric-site" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">The canonical-cover condition is stable under base change and composition, and universal <span class="math-inline">\(!\)</span>-descent has the same stability properties. Since every <span class="math-inline">\(D\)</span>-cover consists of admissible morphisms, the resulting topology is compatible with <span class="math-inline">\(C^{\ad}\)</span>. See <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Six_Functors">2025, Definition 5.13</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">The canonical-cover condition is stable under base change and composition, and universal <span class="math-inline">\(!\)</span>-descent has the same stability properties. Since every <span class="math-inline">\(D\)</span>-cover consists of admissible morphisms, the resulting topology is compatible with <span class="math-inline">\(C^{\ad}\)</span>. See <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Six_Functors">2025, Definition 5.13</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:D_Topology_Fractured_Topos">
+<section class="theorem corollary theorem-plain" id="cor:D_Topology_Fractured_Topos">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/d-topology-gives-fractured-topos/index.html">Corollary 7.28.</a></span></p>
   <div class="theorem-statement"><p>The functor</p>
 <div class="math-display">\[\Shv_{\tau_D^{\ad}}(C^{\ad})\longrightarrow \Shv_{\tau_D}(C)\]</div>
@@ -114,21 +114,21 @@
   <div class="theorem-statement"><p>A map <span class="math-inline">\(f\colon Y\to X\)</span> in <span class="math-inline">\(\widetilde C\)</span> is <em>representably admissible</em> if, for every map <span class="math-inline">\(h_U\to X\)</span> from a representable sheaf, the pullback <span class="math-inline">\(Y\times_Xh_U\)</span> is representable and the induced morphism to <span class="math-inline">\(h_U\)</span> comes from a morphism in <span class="math-inline">\(C^{\ad}\)</span>. We write <span class="math-inline">\(\widetilde C^{\ad}_0\)</span> for the resulting admissibility structure.</p></div>
 </section>
 
-<section class="theorem proposition" id="prop:Six_Functor_Extension">
+<section class="theorem proposition theorem-plain" id="prop:Six_Functor_Extension">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/six-functor-extension/index.html">Proposition 7.30.</a></span> (Mann–Scholze)</p>
   <div class="theorem-statement"><p>The six-functor formalism <span class="math-inline">\(D\)</span> extends uniquely from <span class="math-inline">\((C,C^{\ad})\)</span> to <span class="math-inline">\((\widetilde C,\widetilde C^{\ad}_0)\)</span>.</p></div>
 </section>
 
 <details class="proof-shell" id="proof-prop:Six_Functor_Extension-main" data-owner-entry="six-functor-extension" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">See <span class="citation-group">[Mann <a class="citation" href="#bib-mann2022sixFunctor">2022, Proposition A.5.16</a>]</span> and <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Six_Functors">2025, Proposition 5.16</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">See <span class="citation-group">[Mann <a class="citation" href="../../references/index.html#bib-mann2022sixFunctor">2022, Proposition A.5.16</a>]</span> and <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Six_Functors">2025, Proposition 5.16</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
 <section class="theorem remark" id="rmk:Stronger_Six_Functor_Extension_Lecture">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/scope-of-the-six-functor-extension/index.html">Remark 7.31.</a></span></p>
   <div class="theorem-statement"><p>Marc stated in the lectures that <span class="math-inline">\(D\)</span> extends to the entire fracture-derived admissibility structure <span class="math-inline">\(\Shv_{\tau_D}(C)^{\ad}\)</span> of <a href="#cor:D_Topology_Fractured_Topos">Corollary 7.28</a>. No proof was given. The cited results establish the extension first for the representably admissible class <span class="math-inline">\(\widetilde C_0^{\ad}\)</span> and then for Scholze's minimal local enlargement <span class="math-inline">\(\widetilde C_D^{\ad}\)</span>; they do not identify either class with <span class="math-inline">\(\Shv_{\tau_D}(C)^{\ad}\)</span>.</p></div>
 </section>
-<p>Scholze constructs the further enlargement mentioned in the remark. More precisely, there is a minimal class <span class="math-inline">\(\widetilde C_D^{\ad}\)</span> containing <span class="math-inline">\(\widetilde C_0^{\ad}\)</span> which is stable under disjoint unions, local on the target, local on the source, and tame. The formalism extends to <span class="math-inline">\((\widetilde C,\widetilde C_D^{\ad})\)</span>; see <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Six_Functors">2025, Theorem 5.19</a>]</span>.</p>
+<p>Scholze constructs the further enlargement mentioned in the remark. More precisely, there is a minimal class <span class="math-inline">\(\widetilde C_D^{\ad}\)</span> containing <span class="math-inline">\(\widetilde C_0^{\ad}\)</span> which is stable under disjoint unions, local on the target, local on the source, and tame. The formalism extends to <span class="math-inline">\((\widetilde C,\widetilde C_D^{\ad})\)</span>; see <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Six_Functors">2025, Theorem 5.19</a>]</span>.</p>
 <h3 id="subsec:Further_Congruence_Localization"><span>7.4.3.</span> A further congruence localization</h3>
 <p>The <span class="math-inline">\(D\)</span>-topology imposes descent along covering families. One may localize further by all morphisms which are universally invisible to <span class="math-inline">\(D^!\)</span>. This second step need not arise from a Grothendieck topology.</p>
 <section class="theorem construction" id="con:Sigma_D_Localization">
@@ -150,7 +150,7 @@
   <div class="theorem-statement"><p>There is a general formalism of <em>fractured localization</em>, in which a compatible localization of the corporeal topos induces a localization of the ambient topos and a new fracture. The preceding construction is an instance of this formalism.</p></div>
 </section>
 
-<section class="theorem lemma" id="lem:Six_Functor_Descends">
+<section class="theorem lemma theorem-plain" id="lem:Six_Functor_Descends">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/six-functor-formalism-descends/index.html">Lemma 7.34.</a></span></p>
   <div class="theorem-statement"><p>The six-functor formalism descends further to a functor</p>
 <div class="math-display">\[D\colon \Span\left(\Shv_{\tau_D}^+(C), \Shv_{\tau_D^{\ad}}(C^{\ad})[\Sigma^{-1}_D]\right) \to \PrL.\]</div></div>
@@ -165,8 +165,7 @@
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/d-shriek-isomorphisms-imply-d-star-isomorphisms/index.html">Remark 7.35.</a></span></p>
   <div class="theorem-statement"><p>The self-duality used in the proof is also the reason that universal <span class="math-inline">\(!\)</span>-descent implies universal <span class="math-inline">\(*\)</span>-descent. It is important here that descent is required after every base change: this makes the class compatible with composition of spans.</p></div>
 </section>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-Scholze_Six_Functors">Peter Scholze. <em>Six-Functor Formalisms</em>. 2025.</li>
-<li id="bib-mann2022sixFunctor">Lucas Mann. <em>A $p$-Adic 6-Functor Formalism in Rigid-Analytic Geometry</em>. arXiv preprint arXiv:2206.02022. 2022.</li></ol></section>
+<span id="bib-Scholze_Six_Functors" data-legacy-reference="../../references/index.html#bib-Scholze_Six_Functors" hidden></span><span id="bib-mann2022sixFunctor" data-legacy-reference="../../references/index.html#bib-mann2022sixFunctor" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -247,64 +246,21 @@
     </nav>
   </section><section class="contents-ledger" data-contents-ledger data-open="true">
     <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
+      <span>In this section</span><span class="contents-chevron" aria-hidden="true"></span>
     </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 7.4</p>
-      <p class="context-nav-description">Geometries from six-functor formalisms</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Presentable_Six_Functor_Formalism" data-section-target="def:Presentable_Six_Functor_Formalism">
-          <span class="context-entry-heading">Definition 7.25</span>
-          <span class="context-entry-title">Presentable six-functor formalism</span>
-        </a></li>
-<li><a href="#def:D_Topology" data-section-target="def:D_Topology">
-          <span class="context-entry-heading">Definition 7.26</span>
-          <span class="context-entry-title">The D-topology</span>
-        </a></li>
-<li><a href="#prop:D_Topology_Geometric_Site" data-section-target="prop:D_Topology_Geometric_Site">
-          <span class="context-entry-heading">Proposition 7.27</span>
-          <span class="context-entry-title">The D-topology gives a geometric site</span>
-        </a></li>
-<li><a href="#cor:D_Topology_Fractured_Topos" data-section-target="cor:D_Topology_Fractured_Topos">
-          <span class="context-entry-heading">Corollary 7.28</span>
-          <span class="context-entry-title">The D-topology gives a fractured topos</span>
-        </a></li>
-<li><a href="#def:Representably_Admissible_Sheaf_Map" data-section-target="def:Representably_Admissible_Sheaf_Map">
-          <span class="context-entry-heading">Definition 7.29</span>
-          <span class="context-entry-title">Representably admissible sheaf maps</span>
-        </a></li>
-<li><a href="#prop:Six_Functor_Extension" data-section-target="prop:Six_Functor_Extension">
+    <nav class="contents" id="contents-section-contents" aria-label="In this section" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
+      <ol class="context-entry-list"><li><a href="#prop:Six_Functor_Extension" data-section-target="prop:Six_Functor_Extension">
           <span class="context-entry-heading">Proposition 7.30</span>
-          <span class="context-entry-title">Extension of a six-functor formalism</span>
-        </a></li>
-<li><a href="#rmk:Stronger_Six_Functor_Extension_Lecture" data-section-target="rmk:Stronger_Six_Functor_Extension_Lecture">
-          <span class="context-entry-heading">Remark 7.31</span>
-          <span class="context-entry-title">Scope of the six-functor extension</span>
-        </a></li>
-<li><a href="#con:Sigma_D_Localization" data-section-target="con:Sigma_D_Localization">
-          <span class="context-entry-heading">Construction 7.32</span>
-          <span class="context-entry-title">The Sigma D localization</span>
-        </a></li>
-<li><a href="#rmk:Fractured_Localization" data-section-target="rmk:Fractured_Localization">
-          <span class="context-entry-heading">Remark 7.33</span>
-          <span class="context-entry-title">Fractured localization</span>
-        </a></li>
-<li><a href="#lem:Six_Functor_Descends" data-section-target="lem:Six_Functor_Descends">
-          <span class="context-entry-heading">Lemma 7.34</span>
-          <span class="context-entry-title">The six-functor formalism descends</span>
-        </a></li>
-<li><a href="#rmk:D_Shriek_Iso_Implies_D_Star_Iso" data-section-target="rmk:D_Shriek_Iso_Implies_D_Star_Iso">
-          <span class="context-entry-heading">Remark 7.35</span>
-          <span class="context-entry-title">D-shriek isomorphisms imply D-star isomorphisms</span>
-        </a></li>
-      </ol>
+          <span class="context-entry-title">Mann–Scholze</span>
+        </a></li></ol>
     </nav>
   </section></div>
   </aside>
   <aside class="publication-fragment-notice" id="ex:Admissible_Maps_D_Topology"><strong>Retired fragment.</strong> The former example was replaced by the precise definition of representably admissible maps. It now appears at <a href="./#def:Representably_Admissible_Sheaf_Map">this address</a>.</aside>
 </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

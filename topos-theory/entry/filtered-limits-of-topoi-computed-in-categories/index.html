@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Filtered limits of topoi are computed in categories | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/entry/filtered-limits-of-topoi-computed-in-categories/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,12 +20,12 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <link rel="stylesheet" href="../../_assets/entry-links.css">
 <script defer src="../../_assets/entry-links.js"></script>
 </head>
-<body class="entry-page has-context-nav" data-record-id="filtered-limits-of-topoi-computed-in-categories" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="entry-page has-context-nav" data-record-id="filtered-limits-of-topoi-computed-in-categories" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -34,8 +34,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -69,58 +69,100 @@
 </header>
   <main class="reader-layout">
     <button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
-      <span aria-hidden="true">☰</span> Nearby entries
+      <span aria-hidden="true">☰</span> Navigation
     </button>
-    <article class="notes-page">
+    <article class="notes-page"><nav class="entry-context" aria-label="Result navigation"><a class="entry-context-step entry-context-previous" rel="prev" href="../colimits-of-logoi-exist/index.html" aria-label="Previous result: Proposition 4.31, Colimits of logoi exist" title="Colimits of logoi exist">← <span class="entry-context-name">Proposition 4.31</span></a><a class="entry-context-section" href="../../section/limits-and-colimits-of-topoi/index.html#prop:Filtered_Limits_Of_Topoi_Computed_In_Categories">↩ Read in context: Section 4.3</a><a class="entry-context-step entry-context-next" rel="next" href="../products-of-topoi-as-tensor-products/index.html" aria-label="Next result: Proposition 4.33, Products of topoi as tensor products" title="Products of topoi as tensor products"><span class="entry-context-name">Proposition 4.33</span> →</a></nav>
       
-<section class="theorem proposition" id="prop:Filtered_Limits_Of_Topoi_Computed_In_Categories">
+<section class="theorem proposition theorem-plain" id="prop:Filtered_Limits_Of_Topoi_Computed_In_Categories">
   <p class="theorem-heading"><span>Proposition 4.32.</span></p>
   <div class="theorem-statement"><p>The inclusion <span class="math-inline">\(\Topos\hookrightarrow\Cat\)</span>, <span class="math-inline">\(\varphi\mapsto\varphi_*\)</span>, preserves limits indexed by <span class="math-inline">\(I\catop\)</span> for every small filtered category <span class="math-inline">\(I\)</span>.</p></div>
 </section>
 
 <details class="proof-shell" id="proof-prop:Filtered_Limits_Of_Topoi_Computed_In_Categories-main" data-owner-entry="filtered-limits-of-topoi-computed-in-categories" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">We follow the cartesian-section construction of <span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Section 6.3.3</a>]</span>. Write the diagram as <span class="math-inline">\(I\catop\to\Topos\)</span>. We may replace <span class="math-inline">\(I\)</span> by a final directed poset, by <span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Proposition 5.3.1.18</a>]</span>, since its opposite is initial for both limits. For <span class="math-inline">\(i\le j\)</span>, write <span class="math-inline">\(r_{ij}\colon T_j\to T_i\)</span> for direct image and <span class="math-inline">\(l_{ij}\)</span> for its left adjoint. Let <span class="math-inline">\(p\)</span> be the cartesian fibration over <span class="math-inline">\(I\)</span> with these pullback functors. It is also cocartesian with transport <span class="math-inline">\(l_{ij}\)</span>. Write <span class="math-inline">\(H\)</span> for its category of sections and <span class="math-inline">\(D\)</span> for its full subcategory of cartesian sections. Straightening identifies <span class="math-inline">\(D\)</span> with <span class="math-inline">\(\lim_{I\catop}T_i\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>We first show that <span class="math-inline">\(H\)</span> is a logos. Its colimits and finite limits are pointwise by <a href="../pointwise-limits-and-colimits-in-sections/index.html#prop:Pointwise_Limits_And_Colimits_In_Sections">Proposition B.1</a>, so the Giraud axioms other than presentability can be checked in the fibers. For presentability, express the base as the colimit of its simplices and take the corresponding limit of section categories. Over an edge <span class="math-inline">\(i\to j\)</span> the category of sections is <span class="math-inline">\(T_i\times_{T_j}\Ar(T_j)\)</span>, using <span class="math-inline">\(l_{ij}\)</span> and source evaluation. Over a string of edges it is the iterated pullback of these categories over their common fibers, by composition in a category. All the functors in the pullbacks and all restriction functors preserve colimits. Thus <a class="citation" href="https://animarium.org/tag/01B6/">[SHT, Theorem 23.2.2]</a> and <a class="citation" href="https://animarium.org/tag/01B7/">[SHT, Theorem 23.2.3]</a> give presentability over each simplex and then over <span class="math-inline">\(I\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>For <span class="math-inline">\(j\in I\)</span> let <span class="math-inline">\(I_j=\{k\mid k\geq j\}\)</span>. Restriction of sections to <span class="math-inline">\(I_j\)</span> has fully faithful right adjoint given at <span class="math-inline">\(i\)</span> by the limit of <span class="math-inline">\(r_{ik}X_k\)</span> over <span class="math-inline">\(k\geq i,j\)</span>, with arrows induced by the section. This is the right Kan extension formula, since maps into these limits are precisely compatible cones. Limits here are indexed in the forward direction. This reflector onto the right Kan extensions preserves finite limits by pointwise computation. It is accessible: restriction preserves colimits and its right adjoint, between presentable categories, is accessible. A cartesian section is a right Kan extension from every <span class="math-inline">\(I_j\)</span>, since the diagram in the formula is then constant at <span class="math-inline">\(X_i\)</span> and the directed indexing poset is weakly contractible. Conversely, for <span class="math-inline">\(i\leq j\)</span> the poset <span class="math-inline">\(k\geq i,j\)</span> has initial object <span class="math-inline">\(j\)</span>, so right extension from <span class="math-inline">\(I_j\)</span> identifies <span class="math-inline">\(X_i\to r_{ij}X_j\)</span> as an isomorphism. Thus <a href="../intersection-of-left-exact-localizations/index.html#prop:Intersection_Of_Left_Exact_Localizations">Proposition A.16</a> exhibits <span class="math-inline">\(D\)</span> as an accessible left exact localization of <span class="math-inline">\(H\)</span>, and <a href="../left-exact-localizations-of-topoi/index.html#cor:Lex_Localization_Of_Topos">Corollary 2.17</a> makes <span class="math-inline">\(D\)</span> a logos.<div class="proof-paragraph-break" aria-hidden="true"></div>Evaluation <span class="math-inline">\(e_i\colon D\to T_i\)</span> has a left exact left adjoint. Indeed restriction induces an equivalence on cartesian sections over <span class="math-inline">\(I\)</span> and <span class="math-inline">\(I_i\)</span> by finality of <span class="math-inline">\(I_i\to I\)</span>. Over <span class="math-inline">\(I_i\)</span>, first send <span class="math-inline">\(A\in T_i\)</span> to the section <span class="math-inline">\(j\mapsto l_{ij}A\)</span>, then reflect into cartesian sections by the preceding construction for <span class="math-inline">\(I_i\)</span>. The first functor is left adjoint to evaluation on all sections by cocartesian transport from the initial object <span class="math-inline">\(i\)</span>. Both steps preserve finite limits.<div class="proof-paragraph-break" aria-hidden="true"></div>Finally let <span class="math-inline">\(h\colon S\to D\)</span> have components <span class="math-inline">\(h_i=e_i h\)</span> which are morphisms of topoi, with left adjoints <span class="math-inline">\(a_i\)</span>. Its left adjoint is <div class="math-display">\[X\longmapsto\colim_{i\in I} a_i X_i .\]</div> The arrows are induced by <span class="math-inline">\(l_{ij}X_i\to X_j\)</span> and <span class="math-inline">\(a_jl_{ij}\simeq a_i\)</span>. Mapping the colimit into <span class="math-inline">\(Y\in S\)</span> gives the limit over <span class="math-inline">\(I\catop\)</span> of <span class="math-inline">\(\Hom_{T_i}(X_i,h_iY)\)</span>, which is <span class="math-inline">\(\Hom_D(X,hY)\)</span> by the description of <span class="math-inline">\(D\)</span> as a limit. Each <span class="math-inline">\(a_ie_i\)</span> preserves finite limits and filtered colimits in <span class="math-inline">\(S\)</span> commute with finite limits, so the left adjoint is left exact. Conversely every morphism of topoi into <span class="math-inline">\(D\)</span> has geometric components by the assertion about evaluation. This proves the universal property in <span class="math-inline">\(\Topos\)</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">We follow the cartesian-section construction of <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Section 6.3.3</a>]</span>. Write the diagram as <span class="math-inline">\(I\catop\to\Topos\)</span>. We may replace <span class="math-inline">\(I\)</span> by a final directed poset, by <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Proposition 5.3.1.18</a>]</span>, since its opposite is initial for both limits. For <span class="math-inline">\(i\le j\)</span>, write <span class="math-inline">\(r_{ij}\colon T_j\to T_i\)</span> for direct image and <span class="math-inline">\(l_{ij}\)</span> for its left adjoint. Let <span class="math-inline">\(p\)</span> be the cartesian fibration over <span class="math-inline">\(I\)</span> with these pullback functors. It is also cocartesian with transport <span class="math-inline">\(l_{ij}\)</span>. Write <span class="math-inline">\(H\)</span> for its category of sections and <span class="math-inline">\(D\)</span> for its full subcategory of cartesian sections. Straightening identifies <span class="math-inline">\(D\)</span> with <span class="math-inline">\(\lim_{I\catop}T_i\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>We first show that <span class="math-inline">\(H\)</span> is a logos. Its colimits and finite limits are pointwise by <a href="../pointwise-limits-and-colimits-in-sections/index.html#prop:Pointwise_Limits_And_Colimits_In_Sections">Proposition B.1</a>, so the Giraud axioms other than presentability can be checked in the fibers. For presentability, express the base as the colimit of its simplices and take the corresponding limit of section categories. Over an edge <span class="math-inline">\(i\to j\)</span> the category of sections is <span class="math-inline">\(T_i\times_{T_j}\Ar(T_j)\)</span>, using <span class="math-inline">\(l_{ij}\)</span> and source evaluation. Over a string of edges it is the iterated pullback of these categories over their common fibers, by composition in a category. All the functors in the pullbacks and all restriction functors preserve colimits. Thus <a class="citation" href="https://animarium.org/tag/01B6/">[SHT, Theorem 23.2.2]</a> and <a class="citation" href="https://animarium.org/tag/01B7/">[SHT, Theorem 23.2.3]</a> give presentability over each simplex and then over <span class="math-inline">\(I\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>For <span class="math-inline">\(j\in I\)</span> let <span class="math-inline">\(I_j=\{k\mid k\geq j\}\)</span>. Restriction of sections to <span class="math-inline">\(I_j\)</span> has fully faithful right adjoint given at <span class="math-inline">\(i\)</span> by the limit of <span class="math-inline">\(r_{ik}X_k\)</span> over <span class="math-inline">\(k\geq i,j\)</span>, with arrows induced by the section. This is the right Kan extension formula, since maps into these limits are precisely compatible cones. Limits here are indexed in the forward direction. This reflector onto the right Kan extensions preserves finite limits by pointwise computation. It is accessible: restriction preserves colimits and its right adjoint, between presentable categories, is accessible. A cartesian section is a right Kan extension from every <span class="math-inline">\(I_j\)</span>, since the diagram in the formula is then constant at <span class="math-inline">\(X_i\)</span> and the directed indexing poset is weakly contractible. Conversely, for <span class="math-inline">\(i\leq j\)</span> the poset <span class="math-inline">\(k\geq i,j\)</span> has initial object <span class="math-inline">\(j\)</span>, so right extension from <span class="math-inline">\(I_j\)</span> identifies <span class="math-inline">\(X_i\to r_{ij}X_j\)</span> as an isomorphism. Thus <a href="../intersection-of-left-exact-localizations/index.html#prop:Intersection_Of_Left_Exact_Localizations">Proposition A.16</a> exhibits <span class="math-inline">\(D\)</span> as an accessible left exact localization of <span class="math-inline">\(H\)</span>, and <a href="../left-exact-localizations-of-topoi/index.html#cor:Lex_Localization_Of_Topos">Corollary 2.17</a> makes <span class="math-inline">\(D\)</span> a logos.<div class="proof-paragraph-break" aria-hidden="true"></div>Evaluation <span class="math-inline">\(e_i\colon D\to T_i\)</span> has a left exact left adjoint. Indeed restriction induces an equivalence on cartesian sections over <span class="math-inline">\(I\)</span> and <span class="math-inline">\(I_i\)</span> by finality of <span class="math-inline">\(I_i\to I\)</span>. Over <span class="math-inline">\(I_i\)</span>, first send <span class="math-inline">\(A\in T_i\)</span> to the section <span class="math-inline">\(j\mapsto l_{ij}A\)</span>, then reflect into cartesian sections by the preceding construction for <span class="math-inline">\(I_i\)</span>. The first functor is left adjoint to evaluation on all sections by cocartesian transport from the initial object <span class="math-inline">\(i\)</span>. Both steps preserve finite limits.<div class="proof-paragraph-break" aria-hidden="true"></div>Finally let <span class="math-inline">\(h\colon S\to D\)</span> have components <span class="math-inline">\(h_i=e_i h\)</span> which are morphisms of topoi, with left adjoints <span class="math-inline">\(a_i\)</span>. Its left adjoint is <div class="math-display">\[X\longmapsto\colim_{i\in I} a_i X_i .\]</div> The arrows are induced by <span class="math-inline">\(l_{ij}X_i\to X_j\)</span> and <span class="math-inline">\(a_jl_{ij}\simeq a_i\)</span>. Mapping the colimit into <span class="math-inline">\(Y\in S\)</span> gives the limit over <span class="math-inline">\(I\catop\)</span> of <span class="math-inline">\(\Hom_{T_i}(X_i,h_iY)\)</span>, which is <span class="math-inline">\(\Hom_D(X,hY)\)</span> by the description of <span class="math-inline">\(D\)</span> as a limit. Each <span class="math-inline">\(a_ie_i\)</span> preserves finite limits and filtered colimits in <span class="math-inline">\(S\)</span> commute with finite limits, so the left adjoint is left exact. Conversely every morphism of topoi into <span class="math-inline">\(D\)</span> has geometric components by the assertion about evaluation. This proves the universal property in <span class="math-inline">\(\Topos\)</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li>
-<li id="bib-Cnossen_StableHomotopy">Bastiaan Cnossen. <em>Stable homotopy theory and higher algebra</em>. Cambridge University Press. .</li></ol></section>
+<span id="bib-lurie2009HTT" data-legacy-reference="../../references/index.html#bib-lurie2009HTT" hidden></span><span id="bib-Cnossen_StableHomotopy" data-legacy-reference="../../references/index.html#bib-Cnossen_StableHomotopy" hidden></span>
     </article>
-      <aside class="context-nav" id="context-navigation" data-context-nav aria-label="Nearby entries">
-      <button class="context-nav-collapse" type="button" data-context-nav-collapse data-collapsed-label="Nearby entries" aria-controls="context-navigation" aria-expanded="true" aria-label="Hide Nearby entries">
-      <span aria-hidden="true">›</span>
-    </button>
-      <p class="context-chapter-link"><a href="../../chapter/topoi-logoi/index.html">The categories of topoi and logoi</a></p>
-      <p class="context-nav-kicker">Section 4.3</p>
-      <h2><a href="../../section/limits-and-colimits-of-topoi/index.html">Limits and colimits of topoi</a></h2>
-      <p class="context-nav-description"><a href="../../section/limits-and-colimits-of-topoi/index.html#prop:Filtered_Limits_Of_Topoi_Computed_In_Categories">Read this result in the continuous section</a></p>
-      <ol class="context-entry-list context-entry-list-nearby">
-        <li><a href="../limits-of-logoi-computed-in-categories/index.html">
-          <span class="context-entry-heading">Proposition 4.30</span>
-          <span class="context-entry-title">Limits of logoi are computed in categories</span>
+      <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../chapter/introduction/index.html">
+          <span class="context-entry-heading">Chapter 1</span>
+          <span class="context-entry-title">Introduction</span>
         </a></li>
-<li><a href="../colimits-of-logoi-exist/index.html">
-          <span class="context-entry-heading">Proposition 4.31</span>
-          <span class="context-entry-title">Colimits of logoi exist</span>
+<li><a href="../../chapter/foundations/index.html">
+          <span class="context-entry-heading">Chapter 2</span>
+          <span class="context-entry-title">Foundations</span>
         </a></li>
-<li><a href="#prop:Filtered_Limits_Of_Topoi_Computed_In_Categories" aria-current="page">
-          <span class="context-entry-heading">Proposition 4.32</span>
-          <span class="context-entry-title">Filtered limits of topoi are computed in categories</span>
+<li><a href="../../chapter/truncation-connectivity/index.html">
+          <span class="context-entry-heading">Chapter 3</span>
+          <span class="context-entry-title">Truncation and connectivity</span>
         </a></li>
-<li><a href="../products-of-topoi-as-tensor-products/index.html">
-          <span class="context-entry-heading">Proposition 4.33</span>
-          <span class="context-entry-title">Products of topoi as tensor products</span>
+<li><a href="../../chapter/topoi-logoi/index.html" aria-current="location">
+          <span class="context-entry-heading">Chapter 4</span>
+          <span class="context-entry-title">The categories of topoi and logoi</span>
         </a></li>
-<li><a href="../tensors-and-cotensors-of-topoi/index.html">
-          <span class="context-entry-heading">Exercise 4.34</span>
-          <span class="context-entry-title">Tensors and cotensors of topoi</span>
+<li><a href="../../chapter/modalities/index.html">
+          <span class="context-entry-heading">Chapter 5</span>
+          <span class="context-entry-title">Modalities</span>
         </a></li>
-      </ol>
-      <nav class="context-step-links" aria-label="Previous and next entries"><a rel="prev" href="../colimits-of-logoi-exist/index.html"><span>Previous</span>Colimits of logoi exist</a>
-<a rel="next" href="../products-of-topoi-as-tensor-products/index.html"><span>Next</span>Products of topoi as tensor products</a></nav>
-    </aside>
+<li><a href="../../chapter/topics-in-topos-theory/index.html">
+          <span class="context-entry-heading">Chapter 6</span>
+          <span class="context-entry-title">Topics in topos theory</span>
+        </a></li>
+<li><a href="../../chapter/geometry/index.html">
+          <span class="context-entry-heading">Chapter 7</span>
+          <span class="context-entry-title">Geometry</span>
+        </a></li>
+<li><a href="../../chapter/factorization-systems-and-saturated-classes/index.html">
+          <span class="context-entry-heading">Appendix A</span>
+          <span class="context-entry-title">Factorization systems and saturated classes</span>
+        </a></li>
+<li><a href="../../chapter/limits-and-colimits-in-categories-of-sections/index.html">
+          <span class="context-entry-heading">Appendix B</span>
+          <span class="context-entry-title">Limits and colimits in categories of sections</span>
+        </a></li>
+<li><a href="../../chapter/dense-subcategories-closed-under-finite-limits/index.html">
+          <span class="context-entry-heading">Appendix C</span>
+          <span class="context-entry-title">Dense subcategories closed under finite limits</span>
+        </a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../section/topoi-and-logoi/index.html">
+          <span class="context-entry-heading">Section 4.1</span>
+          <span class="context-entry-title">Topoi and logoi</span>
+        </a></li>
+<li><a href="../../section/presentations-of-logoi/index.html">
+          <span class="context-entry-heading">Section 4.2</span>
+          <span class="context-entry-title">Presentations of logoi</span>
+        </a></li>
+<li><a href="../../section/limits-and-colimits-of-topoi/index.html" aria-current="page">
+          <span class="context-entry-heading">Section 4.3</span>
+          <span class="context-entry-title">Limits and colimits of topoi</span>
+        </a></li>
+<li><a href="../../section/etale-morphisms/index.html">
+          <span class="context-entry-heading">Section 4.4</span>
+          <span class="context-entry-title">Étale morphisms</span>
+        </a></li>
+<li><a href="../../section/colimits-of-topoi-along-etale-morphisms/index.html">
+          <span class="context-entry-heading">Section 4.5</span>
+          <span class="context-entry-title">Colimits of topoi along étale morphisms</span>
+        </a></li></ol>
+    </nav>
+  </section></div>
+  </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

@@ -1,7 +1,7 @@
 # Reader shell v1
 
 This directory is the canonical source for the reader interface shared by static
-mathematics web editions on this Website.
+mathematics web editions on Animarium.
 
 It owns:
 
@@ -12,16 +12,19 @@ It owns:
 3. `reader.js`: settings hover/click/keyboard behavior, responsive navigation,
    work-scoped saved preferences, active-position highlighting, and an accessible
    formula-copy menu. It reads each edition's own MathJax macro configuration.
-4. The stable `reader-shell-v1` interface consumed at build time by manuscript
+4. The common appearance of theorem-like results, proof cards and controls,
+   result navigation bars, and bibliography lists. The CSS accepts the markup
+   emitted by the Topos, TeX4ht and SCT converters.
+5. The stable `reader-shell-v1` interface consumed at build time by manuscript
    repositories.
 
-It does not own theorem rendering, proof-detail behavior, mathematical macros,
+It does not own theorem parsing, proof-detail behavior, mathematical macros,
 or manuscript-specific navigation contents. Each manuscript generator supplies
 those layers and copies this shell into its own static output bundle. Deployed
 pages therefore have no runtime dependency on this repository.
 
 The default source location can be overridden with the environment variable
-`NOTES_READER_SHELL_ROOT`. This supports checkouts in which the Website and
+`NOTES_READER_SHELL_ROOT`. This supports checkouts in which Animarium and the
 manuscript repositories are not siblings under the same GitHub directory.
 
 Colours are defined as custom properties on `:root`. Dark mode follows the

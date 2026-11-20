@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Étale morphisms | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/etale-morphisms/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,7 +20,7 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <style>
     .publication-fragment-notice { margin: 2rem 0; padding: 1rem; border: 1px solid #b6aa91; background: #faf7ef; }
@@ -34,7 +34,7 @@
     })();
   </script>
 </head>
-<body class="section-page has-context-nav" data-record-id="etale-morphisms" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="etale-morphisms" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -43,8 +43,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -91,7 +91,7 @@
   <div class="theorem-statement"><p>As we will see below in <a href="../../entry/from-top-to-topos/index.html">Example 6.22</a>, every continuous map of topological spaces <span class="math-inline">\(f\colon X \to Y\)</span> gives rise to a morphism of topoi <span class="math-inline">\(f_*\colon \Shv(X) \to \Shv(Y)\)</span> between their <em>sheaf categories</em>. One can show that <span class="math-inline">\(f\)</span> is an étale morphism of topological spaces (that is, a local homeomorphism) if and only if <span class="math-inline">\(f_*\)</span> is an étale morphism of topoi, justifying the terminology.</p></div>
 </section>
 <p>For an étale morphism <span class="math-inline">\(\phi^*\)</span>, its further left adjoint is commonly denoted <span class="math-inline">\(\phi_!\)</span>. We instead write <span class="math-inline">\(\phi_{\sharp}\)</span>, in order to distinguish this adjoint from the lower shriek in a six-functor formalism.</p>
-<section class="theorem proposition" id="prop:Characterization_Etale_Morphisms_By_Left_Adjoint">
+<section class="theorem proposition theorem-plain" id="prop:Characterization_Etale_Morphisms_By_Left_Adjoint">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/characterizing-etale-morphisms-by-left-adjoints/index.html">Proposition 4.37.</a></span></p>
   <div class="theorem-statement"><p>A morphism of logoi <span class="math-inline">\(\phi^*\colon T \to T'\)</span> is étale if and only if:</p>
 <ol><li><p>The functor <span class="math-inline">\(\phi^*\)</span> admits a left adjoint <span class="math-inline">\(\phi_{\sharp}\)</span>.</p></li><li><p>The functor <span class="math-inline">\(\phi_{\sharp}\)</span> is conservative.</p></li><li><p>For every morphism <span class="math-inline">\(X\to Y\)</span> in <span class="math-inline">\(T\)</span> and every morphism <span class="math-inline">\(Z\to\phi^*Y\)</span> in <span class="math-inline">\(T'\)</span>, the canonical map</p>
@@ -104,7 +104,7 @@
   <div class="proof-body">If <span class="math-inline">\(\phi^*\)</span> is étale, choose <span class="math-inline">\(A\in T\)</span> and an identification <span class="math-inline">\(T'\simeq T_{/A}\)</span> under which <span class="math-inline">\(\phi^*\)</span> is the functor <span class="math-inline">\(U\mapsto U\times A\)</span>. Its left adjoint <span class="math-inline">\(\phi_{\sharp}\)</span> is the forgetful functor <span class="math-inline">\(T_{/A}\to T\)</span>. It is conservative, and the projection formula follows by composing pullback squares in <span class="math-inline">\(T\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Conversely, suppose that <span class="math-inline">\(\phi^*\)</span> admits a conservative left adjoint <span class="math-inline">\(\phi_{\sharp}\)</span> satisfying the projection formula, and set <span class="math-inline">\(A:=\phi_{\sharp}(*)\)</span>. Consider the functor <div class="math-display">\[F\colon T' \longrightarrow T_{/A}, \qquad W \longmapsto \bigl(\phi_{\sharp}(W)\to A\bigr).\]</div> It admits a right adjoint <div class="math-display">\[G(Y\to A):=\phi^*(Y)\times_{\phi^*A}*.\]</div> For <span class="math-inline">\(Y\to A\)</span>, the projection formula identifies the underlying morphism of the counit <span class="math-inline">\(FG(Y)\to Y\)</span> with an isomorphism, so the counit is an isomorphism in <span class="math-inline">\(T_{/A}\)</span>. Let <span class="math-inline">\(W\to GFW\)</span> be the unit. By the triangle identity, its image under <span class="math-inline">\(F\)</span> is an isomorphism because the counit is. In particular, <span class="math-inline">\(\phi_{\sharp}\)</span> sends the unit to an isomorphism. Since <span class="math-inline">\(\phi_{\sharp}\)</span> is conservative, the unit itself is an isomorphism. Thus <span class="math-inline">\(F\)</span> is an equivalence. Under this equivalence, <span class="math-inline">\(\phi^*\)</span> sends <span class="math-inline">\(Y\)</span> to the projection <span class="math-inline">\(Y\times A\to A\)</span>, as required.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem proposition" id="prop:Etale_Morphisms_Over_Topos">
+<section class="theorem proposition theorem-plain" id="prop:Etale_Morphisms_Over_Topos">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/etale-morphisms-over-a-topos/index.html">Proposition 4.38.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(T\)</span> be a topos.</p>
 <ol><li><p>There is an equivalence of <span class="math-inline">\(2\)</span>-categories</p>
@@ -119,7 +119,7 @@
   <div class="proof-body">Given a morphism of topoi <span class="math-inline">\(\phi\colon S \to T\)</span> and an object <span class="math-inline">\(X \in T\)</span>, we claim there is a natural equivalence <div class="math-display">\[\Geom_{/T}(S, T_{/X}) \;\simeq\; \Hom_S(*, \phi^*X).\]</div> This immediately gives (2), and it gives (1) by taking <span class="math-inline">\(S = T_{/Y}\)</span> and noticing that <span class="math-inline">\(\Hom_{T_{/Y}}(Y,X \times Y) \simeq \Hom_T(Y,X)\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>To prove the claim, we will start by producing a natural equivalence <div class="math-display">\[\Fun^{\lex}_{T/}(T_{/X}, S) \;\simeq \; \Hom_S(*,\phi^*X).\]</div> <ul class="proof-list"><li>Given <span class="math-inline">\(F\colon T_{/X} \to S\)</span> in <span class="math-inline">\(\Fun^{\lex}_{T/}\)</span>, consider the morphism <div class="math-display">\[f_F := F(\Delta)\colon F(X) \longrightarrow F(X \times X)\]</div> induced by the diagonal <span class="math-inline">\(\Delta\colon X \to X \times X\)</span>, viewed as a morphism in <span class="math-inline">\(T_{/X}\)</span>. Since <span class="math-inline">\((X,\id_X)\)</span> is terminal in <span class="math-inline">\(T_{/X}\)</span>, we have <span class="math-inline">\(F(X) \simeq *\)</span>. Moreover, because <span class="math-inline">\(F\)</span> is a functor under <span class="math-inline">\(T\)</span>, we identify <span class="math-inline">\(F(X \times X)\)</span> with <span class="math-inline">\(\phi^*X\)</span>. So <span class="math-inline">\(f_F\)</span> is a point in <span class="math-inline">\(\Hom_S(*,\phi^*X)\)</span>.</li><li>Conversely, given a morphism <span class="math-inline">\(f\colon * \to \phi^*X\)</span>, define <span class="math-inline">\(F_f\colon T_{/X} \to S\)</span> by sending <span class="math-inline">\(U \to X\)</span> to the pullback <figure class="diagram"><img src="diagrams/tikzcd-23ca9db51697.svg" alt="Commutative diagram generated from the LaTeX source"></figure> The functor <span class="math-inline">\(F_f\)</span> preserves finite limits because it is the composite of <span class="math-inline">\(\phi^*\colon T_{/X}\to S_{/\phi^*X}\)</span> with pullback along <span class="math-inline">\(f\)</span>. It also preserves colimits: the first functor does so objectwise, while the second does so by descent in <span class="math-inline">\(S\)</span>. When <span class="math-inline">\(U=X\times Y\)</span> for some <span class="math-inline">\(Y\in T\)</span>, we have <span class="math-inline">\(F_f(U)\simeq\phi^*(Y)\)</span>, showing that <span class="math-inline">\(F_f\)</span> is a functor under <span class="math-inline">\(T\)</span>.</li></ul><div class="proof-paragraph-break" aria-hidden="true"></div>Now, applying <span class="math-inline">\(F_{f}\)</span> to the diagonal map <span class="math-inline">\(\Delta\colon X \to X \times X\)</span> reproduces the original map <span class="math-inline">\(f\)</span>. Conversely, given any left exact functor <span class="math-inline">\(F\colon T_{/X} \to S\)</span> under <span class="math-inline">\(T\)</span> and any <span class="math-inline">\(U \in T_{/X}\)</span>, we may always write <span class="math-inline">\(U\)</span> as the pullback in <span class="math-inline">\(T_{/X}\)</span> of the diagram <figure class="diagram"><img src="diagrams/tikzcd-99409cd94be7.svg" alt="Commutative diagram generated from the LaTeX source"></figure> and thus we get a pullback square <figure class="diagram"><img src="diagrams/tikzcd-3f0b3004ee29.svg" alt="Commutative diagram generated from the LaTeX source"></figure> showing that <span class="math-inline">\(F\)</span> is naturally equivalent to <span class="math-inline">\(F_{f_F}\)</span>. This constructs the equivalence <span class="math-inline">\(\Fun^{\lex}_{T/}(T_{/X}, S) \simeq \Hom_S(*,\phi^*X)\)</span>. The preceding description of <span class="math-inline">\(F_f\)</span> also shows that every such left exact functor preserves colimits. Hence the forgetful functor <div class="math-display">\[\Geom_{/T}(S,T_{/X}) \to \Fun^{\lex}_{T/}(T_{/X},S)\]</div> is an equivalence. This finishes the proof.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 <p>By part (2) of the proposition, étale morphisms are closed under base change in <span class="math-inline">\(\Topos\)</span>. In particular, given a morphism of topoi <span class="math-inline">\(\phi\colon S \to T\)</span>, pullback along <span class="math-inline">\(\phi\)</span> defines a functor <span class="math-inline">\(\phi^*\colon \Topos^{\et}_{/T} \to \Topos^{\et}_{/S}\)</span>.</p>
-<section class="theorem corollary" id="cor:Slices_Of_Top_Etale_Coherently">
+<section class="theorem corollary theorem-plain" id="cor:Slices_Of_Top_Etale_Coherently">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/slices-of-etale-topoi/index.html">Corollary 4.39.</a></span></p>
   <div class="theorem-statement"><p>The functor <span class="math-inline">\(\Topos\catop \to \widehat{\Cat}, T \mapsto \Topos^{\et}_{/T}\)</span> is equivalent to the composite <span class="math-inline">\(\Topos\catop \simeq \Logos \hookrightarrow \Cat \hookrightarrow \widehat{\Cat}\)</span>.</p></div>
 </section>
@@ -129,7 +129,7 @@
   <div class="proof-body">For each topos <span class="math-inline">\(T\)</span>, consider the functors <div class="math-display">\[\Topos^{\et}_{/T}\longrightarrow T,\qquad (\phi\colon T'\to T)\longmapsto\phi_{\sharp}(*)\]</div> and <span class="math-inline">\(T\to\Topos^{\et}_{/T}\)</span>, <span class="math-inline">\(X\mapsto T_{/X}\)</span>. The classification in <a href="#prop:Etale_Morphisms_Over_Topos">Proposition 4.38</a> supplies inverse equivalences. These equivalences are natural in <span class="math-inline">\(T\)</span>: for a pullback square <figure class="diagram"><img src="diagrams/tikzcd-15b5675f5627.svg" alt="Commutative diagram generated from the LaTeX source"></figure> we have a canonical isomorphism <span class="math-inline">\(\psi^*\phi_{\sharp}(*) \simeq \phi'_{\sharp}(*)\)</span>. These base-change isomorphisms are compatible with pasting, since both sides classify the same iterated pullback of the étale morphism <span class="math-inline">\(\phi\)</span>. Thus the objectwise equivalences assemble into the asserted equivalence of functors.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Cancellation_Etale_Morphisms_Topoi">
+<section class="theorem corollary theorem-plain" id="cor:Cancellation_Etale_Morphisms_Topoi">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/cancellation-for-etale-morphisms-of-topoi/index.html">Corollary 4.40.</a></span></p>
   <div class="theorem-statement"><p>Consider morphisms of topoi <span class="math-inline">\(T \xrightarrow{\phi} T' \xrightarrow{\psi} S\)</span>. If <span class="math-inline">\(\psi\)</span> and <span class="math-inline">\(\psi\phi\)</span> are étale morphisms, then so is <span class="math-inline">\(\phi\)</span>.</p></div>
 </section>
@@ -213,40 +213,6 @@
           <span class="context-entry-title">Colimits of topoi along étale morphisms</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 4.4</p>
-      <p class="context-nav-description">Étale morphisms</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Etale_Morphism" data-section-target="def:Etale_Morphism">
-          <span class="context-entry-heading">Definition 4.35</span>
-          <span class="context-entry-title">Étale morphisms</span>
-        </a></li>
-<li><a href="#rem:Etale_Maps_Of_Spaces_And_Topoi" data-section-target="rem:Etale_Maps_Of_Spaces_And_Topoi">
-          <span class="context-entry-heading">Remark 4.36</span>
-          <span class="context-entry-title">Étale maps of spaces and topoi</span>
-        </a></li>
-<li><a href="#prop:Characterization_Etale_Morphisms_By_Left_Adjoint" data-section-target="prop:Characterization_Etale_Morphisms_By_Left_Adjoint">
-          <span class="context-entry-heading">Proposition 4.37</span>
-          <span class="context-entry-title">Characterizing étale morphisms by left adjoints</span>
-        </a></li>
-<li><a href="#prop:Etale_Morphisms_Over_Topos" data-section-target="prop:Etale_Morphisms_Over_Topos">
-          <span class="context-entry-heading">Proposition 4.38</span>
-          <span class="context-entry-title">Étale morphisms over a topos</span>
-        </a></li>
-<li><a href="#cor:Slices_Of_Top_Etale_Coherently" data-section-target="cor:Slices_Of_Top_Etale_Coherently">
-          <span class="context-entry-heading">Corollary 4.39</span>
-          <span class="context-entry-title">Slices of étale topoi</span>
-        </a></li>
-<li><a href="#cor:Cancellation_Etale_Morphisms_Topoi" data-section-target="cor:Cancellation_Etale_Morphisms_Topoi">
-          <span class="context-entry-heading">Corollary 4.40</span>
-          <span class="context-entry-title">Cancellation for étale morphisms of topoi</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   <aside class="publication-fragment-notice" id="lem:Cancellation_Etale_Morphisms_Topoi"><strong>Retired fragment.</strong> The result is now a corollary in the authoritative source. It now appears at <a href="./#cor:Cancellation_Etale_Morphisms_Topoi">this address</a>.</aside>
@@ -255,7 +221,8 @@
 <aside class="publication-fragment-notice" id="thm:Etale_Morphisms_Over_Topos"><strong>Retired fragment.</strong> The result is now a proposition in the authoritative source. It now appears at <a href="./#prop:Etale_Morphisms_Over_Topos">this address</a>.</aside>
 </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

@@ -16,7 +16,7 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
 <body class="work-page chapter-page has-context-nav">
@@ -28,8 +28,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -60,7 +60,7 @@
     <article class="notes-page chapter-landing">
       <section class="chapter-introduction" id="chap:Modalities_And_Congruences" data-source-label="chap:Modalities_And_Congruences" aria-label="Chapter introduction">
         <p>The factorization systems constructed in <a href="../truncation-connectivity/index.html">Chapter 3</a> are not isolated constructions. For every <span class="math-inline">\(-2 \leq n \leq \infty\)</span>, the factorization into an <span class="math-inline">\(n\)</span>-connected map followed by an <span class="math-inline">\(n\)</span>-truncated map is preserved by base change and therefore behaves uniformly in every slice of the topos. This raises a general question: which factorization systems on a topos have this fiberwise stability, and what additional structure follows from it?</p>
-<p>A <em>modality</em> is a factorization system <span class="math-inline">\((L,R)\)</span> whose left class is stable under base change. Modalities were developed systematically in a series of articles by <span class="citation-group">Anel et al. (<a class="citation" href="#bib-ABFJ_Goodwillie">2018</a>, <a class="citation" href="#bib-ABFJ2020GeneralizedBlakersMassey">2020</a>, <a class="citation" href="#bib-ABFJ_Higher_Sheaves">2022</a>, <a class="citation" href="#bib-ABFJ_Grothendieck_Topologies">2024</a>, <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025</a>)</span>. They provide a common language for factorization, descent, localization, and excision phenomena in topoi.</p>
+<p>A <em>modality</em> is a factorization system <span class="math-inline">\((L,R)\)</span> whose left class is stable under base change. Modalities were developed systematically in a series of articles by <span class="citation-group">Anel et al. (<a class="citation" href="../../references/index.html#bib-ABFJ_Goodwillie">2018</a>, <a class="citation" href="../../references/index.html#bib-ABFJ2020GeneralizedBlakersMassey">2020</a>, <a class="citation" href="../../references/index.html#bib-ABFJ_Higher_Sheaves">2022</a>, <a class="citation" href="../../references/index.html#bib-ABFJ_Grothendieck_Topologies">2024</a>, <a class="citation" href="../../references/index.html#bib-ABFJ_Acyclic_Product">2025</a>)</span>. They provide a common language for factorization, descent, localization, and excision phenomena in topoi.</p>
 <p>We begin with a basic but less familiar example of a modality. In <a href="../../section/epimorphisms-and-acyclic-maps/index.html">Section 5.1</a>, we show that the epimorphisms form a modality and identify the epimorphisms in <span class="math-inline">\(\An\)</span> with the acyclic maps; the associated reflection recovers Quillen's plus construction. We then turn to excision. In <a href="../../section/blakers-massey/index.html">Section 5.2</a>, we prove a generalized Blakers–Massey theorem for an arbitrary modality. It gives a condition on the pushout product of the diagonals of two maps which ensures that the gap map of their pushout square lies in the left class of the modality. Its proof rests on a modal form of descent.</p>
 <p>The next part of the chapter connects fiberwise closure properties to localizations of topoi. An <em>acyclic class</em> is a saturated class stable under base change, while a <em>congruence</em> is an acyclic class satisfying 2-out-of-3. Small generation upgrades the former to a modality and identifies the latter with the class inverted by a left exact localization. The decisive relation, proved in <a href="../../section/congruences-modalities-and-saturated-classes/index.html">Section 5.3</a>, is that the congruence generated by a set <span class="math-inline">\(\Sigma\)</span> is the acyclic class generated by all iterated diagonals of maps in <span class="math-inline">\(\Sigma\)</span>:</p>
 <div class="math-display">\[\Sigma^c = (\Sigma^{\Delta})^m.\]</div>
@@ -81,7 +81,7 @@
   <div class="theorem-statement"><p>Recall from <a href="../../entry/closure-properties-of-factorization-systems/index.html#prop:FS_Closure_Properties">Proposition A.3</a> that the morphisms in <span class="math-inline">\(R\)</span> are precisely those that are right orthogonal to the morphisms in <span class="math-inline">\(L\)</span>. In particular, a modality is completely determined by the class <span class="math-inline">\(L\)</span>. In what follows, we may sometimes refer to a class of morphisms <span class="math-inline">\(L\)</span> as a <em>modality</em> if the pair <span class="math-inline">\((L,L^{\perp})\)</span> is a modality.</p></div>
 </section>
 
-<section class="theorem lemma" id="lem:Classes_In_Modality_Local">
+<section class="theorem lemma theorem-plain" id="lem:Classes_In_Modality_Local">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/classes-in-a-modality-are-local/index.html">Lemma 5.4.</a></span></p>
   <div class="theorem-statement"><p>Every acyclic class in <span class="math-inline">\(T\)</span> is local, in the sense of <a href="../../entry/local-classes/index.html#def:Local_Class">Definition 2.46</a>. In a modality <span class="math-inline">\((L,R)\)</span> on <span class="math-inline">\(T\)</span>, the right class <span class="math-inline">\(R\)</span> is local as well.</p></div>
 </section>
@@ -90,11 +90,7 @@
   <summary>Proof</summary>
   <div class="proof-body">Let <span class="math-inline">\(L\)</span> be an acyclic class, let <span class="math-inline">\(f\colon X \to Z\)</span> be a morphism, and let <span class="math-inline">\(p\colon Z' \to Z\)</span> be an effective epimorphism such that the base change <span class="math-inline">\(f'\colon X \times_Z Z' \to Z'\)</span> lies in <span class="math-inline">\(L\)</span>. Form the Čech nerve <span class="math-inline">\(Z'_{\bullet}\to Z\)</span> of <span class="math-inline">\(p\)</span>. Every level of the induced morphism <div class="math-display">\[X\times_Z Z'_{\bullet}\longrightarrow Z'_{\bullet}\]</div> is a base change of <span class="math-inline">\(f'\)</span>, hence lies in <span class="math-inline">\(L\)</span>. Since <span class="math-inline">\(p\)</span> is an effective epimorphism, the colimit of this morphism in <span class="math-inline">\(\Ar(T)\)</span> is <span class="math-inline">\(f\)</span>. The class <span class="math-inline">\(L\)</span> is saturated and therefore closed under colimits, so <span class="math-inline">\(f\in L\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Now let <span class="math-inline">\((L,R)\)</span> be a modality and assume instead that <span class="math-inline">\(f'\in R\)</span>. Factor <span class="math-inline">\(f\)</span> as <span class="math-inline">\(X\xrightarrow{l}Y\xrightarrow{r}Z\)</span> with <span class="math-inline">\(l\in L\)</span> and <span class="math-inline">\(r\in R\)</span>. After base change along <span class="math-inline">\(p\)</span>, this is an <span class="math-inline">\((L,R)\)</span>-factorization of <span class="math-inline">\(f'\)</span>. Hence the base change of <span class="math-inline">\(l\)</span> is an isomorphism. Since pullback along an effective epimorphism is conservative, <span class="math-inline">\(l\)</span> is an isomorphism and <span class="math-inline">\(f\in R\)</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-ABFJ_Goodwillie">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>Goodwillie's calculus of functors and higher topos theory</em>. J. Topol., 11 (4), 1100–1132. 2018.</li>
-<li id="bib-ABFJ2020GeneralizedBlakersMassey">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>A generalized Blakers-Massey theorem</em>. J. Topol., 13 (4), 1521–1553. 2020.</li>
-<li id="bib-ABFJ_Higher_Sheaves">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>Left-exact localizations of ∞-topoi. I: Higher sheaves</em>. Adv. Math., 400, 64. 2022.</li>
-<li id="bib-ABFJ_Grothendieck_Topologies">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>Left-exact localizations of ∞-topoi. II: Grothendieck topologies</em>. J. Pure Appl. Algebra, 228 (3), 63. 2024.</li>
-<li id="bib-ABFJ_Acyclic_Product">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>Left-exact localizations of $\infty$-topoi III: The acyclic product</em>. 2025.</li></ol></section>
+<span id="bib-ABFJ_Goodwillie" data-legacy-reference="../../references/index.html#bib-ABFJ_Goodwillie" hidden></span><span id="bib-ABFJ2020GeneralizedBlakersMassey" data-legacy-reference="../../references/index.html#bib-ABFJ2020GeneralizedBlakersMassey" hidden></span><span id="bib-ABFJ_Higher_Sheaves" data-legacy-reference="../../references/index.html#bib-ABFJ_Higher_Sheaves" hidden></span><span id="bib-ABFJ_Grothendieck_Topologies" data-legacy-reference="../../references/index.html#bib-ABFJ_Grothendieck_Topologies" hidden></span><span id="bib-ABFJ_Acyclic_Product" data-legacy-reference="../../references/index.html#bib-ABFJ_Acyclic_Product" hidden></span>
       </section>
       
       <section class="available-sections" aria-labelledby="chapter-sections-heading">
@@ -231,6 +227,7 @@
   </main>
   <footer class="edition-footer">
   <p class="source-note">This static web edition is generated from the same LaTeX source as the PDFs.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

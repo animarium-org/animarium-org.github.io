@@ -1453,3 +1453,110 @@ footer {
     box-shadow: none;
   }
 }
+
+/* Mathematical content uses the same cards in every manuscript renderer. */
+:root {
+  --result-rule: #a8b9b8;
+  --result-background: rgb(255 255 255 / 62%);
+  --result-heading: #263e40;
+  --proof-background: #f4f5f0;
+  --proof-card-rule: #c9cdc2;
+  --proof-card-hover: rgb(255 255 255 / 45%);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --result-rule: #4f6a66;
+    --result-background: rgb(255 255 255 / 3%);
+    --result-heading: #b9d6cf;
+    --proof-background: #202522;
+    --proof-card-rule: #3c463f;
+    --proof-card-hover: rgb(255 255 255 / 4%);
+  }
+}
+:root[data-theme="dark"] {
+  --result-rule: #4f6a66;
+  --result-background: rgb(255 255 255 / 3%);
+  --result-heading: #b9d6cf;
+  --proof-background: #202522;
+  --proof-card-rule: #3c463f;
+  --proof-card-hover: rgb(255 255 255 / 4%);
+}
+.notes-page :is(.theorem, .newtheorem, .theorem-block) {
+  position: relative;
+  margin: 1.45rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 3px solid var(--result-rule);
+  background: var(--result-background);
+  scroll-margin-top: 1rem;
+}
+.notes-page :is(.theorem, .newtheorem, .theorem-block) :is(.theorem, .newtheorem, .theorem-block) {
+  background: transparent;
+}
+.notes-page .framed > .theorem-block { border-left: 0; background: transparent; padding-left: 0; }
+.notes-page :is(.theorem-heading > span, .newtheorem .head > span, .newtheorem .entry-heading-link > span, .theorem-name) {
+  color: var(--result-heading);
+}
+.notes-page .theorem-plain > .theorem-statement { font-style: italic; }
+.notes-page .theorem-heading { display: inline; margin-right: 0.35em; }
+.notes-page .theorem-statement { display: contents; }
+.notes-page .theorem-statement > p:first-child { display: inline; }
+.notes-page .theorem-statement > :last-child { margin-bottom: 0; }
+.notes-page :is(.proof, .proof-shell) {
+  margin: 1rem 0 1.65rem;
+  padding: 0;
+  overflow: hidden;
+  border-left: 2px solid var(--proof-card-rule);
+  background: var(--proof-background);
+}
+.notes-page :is(.proof-toggle, .proof > summary, .proof-shell > summary) {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0.8rem 1rem;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font: italic 1rem Georgia, "Times New Roman", serif;
+  letter-spacing: normal;
+  text-transform: none;
+  text-align: left;
+  list-style: none;
+  cursor: pointer;
+}
+.notes-page :is(.proof > summary, .proof-shell > summary)::-webkit-details-marker { display: none; }
+.notes-page :is(.proof > summary, .proof-shell > summary)::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
+}
+.notes-page :is(.proof, .proof-shell)[open] > summary::after { transform: rotate(45deg) translateY(-0.15rem); }
+.notes-page :is(.proof-toggle, .proof > summary, .proof-shell > summary):is(:hover, :focus-visible) { background: var(--proof-card-hover); }
+.notes-page :is(.proof-content, .proof-body) { padding: 0 1rem 0.85rem; }
+.notes-page :is(.proof-content, .proof-body) > p:first-child { margin-top: 0; }
+
+/* The bibliography is a shared reading component too. */
+.reference-list { margin: 2rem 0 0; padding: 0; list-style: none; }
+.reference-list > li {
+  display: grid;
+  grid-template-columns: 6.2rem minmax(0, 1fr);
+  gap: 0.9rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 1.5rem;
+}
+.reference-list > li:target { background: var(--accent-pale); box-shadow: -0.75rem 0 0 var(--accent-pale), 0.75rem 0 0 var(--accent-pale); }
+.reference-label { color: var(--accent); font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.8rem; font-weight: 650; padding-top: 0.2rem; }
+.reference-authors { font-variant: small-caps; }
+.reference-body { min-width: 0; overflow-wrap: anywhere; }
+.reference-links, .reference-cited-in { display: block; margin-top: 0.3rem; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.78rem; }
+.reference-cited-in { color: var(--muted); }
+@media (max-width: 620px) {
+  .reference-list > li { grid-template-columns: 1fr; gap: 0.2rem; }
+}

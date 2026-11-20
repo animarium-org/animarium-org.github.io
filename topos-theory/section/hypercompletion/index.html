@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hypercompletion | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/hypercompletion/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="hypercompletion" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="hypercompletion" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -78,10 +78,10 @@
 
 <section class="theorem remark" id="rem:Hypercompleteness_Terminology">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/hypercompleteness-terminology/index.html">Remark 3.38.</a></span></p>
-  <div class="theorem-statement"><p>The term “hypercomplete” is historical but slightly misleading: hypercompleteness is a separation condition rather than a completeness condition. “Postnikov separated” might have been a better term. In <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025</a>]</span>, the authors use the term “hyperreduced” instead.</p></div>
+  <div class="theorem-statement"><p>The term “hypercomplete” is historical but slightly misleading: hypercompleteness is a separation condition rather than a completeness condition. “Postnikov separated” might have been a better term. In <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Acyclic_Product">2025</a>]</span>, the authors use the term “hyperreduced” instead.</p></div>
 </section>
 
-<section class="theorem proposition" id="prop:Infinity_Connected_Maps">
+<section class="theorem proposition theorem-plain" id="prop:Infinity_Connected_Maps">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/infinity-connected-factorization-system/index.html">Proposition 3.39.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(T\)</span> be a topos.</p>
 <ol><li><p>The <span class="math-inline">\(\infty\)</span>-connected maps form a strongly saturated class of small generation, stable under base change and diagonals.</p></li><li><p>The inclusion <span class="math-inline">\(T_{\leq \infty} \hookrightarrow T\)</span> admits a left adjoint <span class="math-inline">\(\tau_{\infty}\colon T \to T_{\leq \infty}\)</span>.</p></li><li><p>The pair <em>(<span class="math-inline">\(\infty\)</span>-connected, <span class="math-inline">\(\infty\)</span>-truncated)</em> is a factorization system on <span class="math-inline">\(T\)</span>.</p></li></ol></div>
@@ -89,10 +89,10 @@
 
 <details class="proof-shell" id="proof-prop:Infinity_Connected_Maps-main" data-owner-entry="infinity-connected-factorization-system" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">(1) The <span class="math-inline">\(n\)</span>-connected maps form a saturated class (i.e. closed under pushouts and closed under colimits in <span class="math-inline">\(\Ar(T)\)</span>), by the factorization system from <a href="../../entry/connected-truncated-factorization-system/index.html">Proposition 3.18</a>. In particular, the <span class="math-inline">\(\infty\)</span>-connected maps form a saturated class.<div class="proof-paragraph-break" aria-hidden="true"></div>For the 2-out-of-3 property, it remains to check left cancellation. If <span class="math-inline">\(gf\)</span> and <span class="math-inline">\(g\)</span> are <span class="math-inline">\(\infty\)</span>-connected, then for every <span class="math-inline">\(n\)</span> the map <span class="math-inline">\(gf\)</span> is <span class="math-inline">\(n\)</span>-connected and <span class="math-inline">\(g\)</span> is <span class="math-inline">\((n+1)\)</span>-connected, so <a href="../../entry/cancellation-for-connected-morphisms/index.html">Corollary 3.33</a> shows that <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected. Thus <span class="math-inline">\(f\)</span> is <span class="math-inline">\(\infty\)</span>-connected. Closure under base change follows from part (2) of <a href="../../entry/connected-truncated-factorization-system/index.html">Proposition 3.18</a>. Closure under diagonals follows from <a href="../../entry/characterizing-connected-morphisms-by-diagonals/index.html">Theorem 3.22</a>: if <span class="math-inline">\(f\)</span> is <span class="math-inline">\(\infty\)</span>-connected, then for every <span class="math-inline">\(n\)</span> it is <span class="math-inline">\((n+1)\)</span>-connected, and hence <span class="math-inline">\(\Delta_f\)</span> is <span class="math-inline">\(n\)</span>-connected.<div class="proof-paragraph-break" aria-hidden="true"></div>Small generation is the additional accessibility input. The full subcategory of <span class="math-inline">\(\Ar(T)\)</span> spanned by the <span class="math-inline">\(\infty\)</span>-connected morphisms is accessible, and therefore the resulting strongly saturated class is of small generation. We refer to <span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Proposition 6.5.2.8</a>]</span> for this argument.<div class="proof-paragraph-break" aria-hidden="true"></div>(2) The <span class="math-inline">\(\infty\)</span>-truncated objects are precisely the local objects with respect to this strongly saturated class of small generation. The existence and accessibility of the reflector <span class="math-inline">\(\tau_{\infty}\)</span> therefore follow from <a href="../../entry/strongly-saturated-class-gives-localization/index.html">Proposition A.15</a>.<div class="proof-paragraph-break" aria-hidden="true"></div>For (3), it remains to show that any morphism <span class="math-inline">\(f\colon X \to Y\)</span> can be factored into an <span class="math-inline">\(\infty\)</span>-connected morphism followed by an <span class="math-inline">\(\infty\)</span>-truncated one. The same argument as in part (1) of <a href="../../entry/connected-truncated-factorization-system/index.html">Proposition 3.18</a> shows that the map <span class="math-inline">\(X \to \tau_{\infty}(X/Y)\)</span> provides such a factorization.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">(1) The <span class="math-inline">\(n\)</span>-connected maps form a saturated class (i.e. closed under pushouts and closed under colimits in <span class="math-inline">\(\Ar(T)\)</span>), by the factorization system from <a href="../../entry/connected-truncated-factorization-system/index.html">Proposition 3.18</a>. In particular, the <span class="math-inline">\(\infty\)</span>-connected maps form a saturated class.<div class="proof-paragraph-break" aria-hidden="true"></div>For the 2-out-of-3 property, it remains to check left cancellation. If <span class="math-inline">\(gf\)</span> and <span class="math-inline">\(g\)</span> are <span class="math-inline">\(\infty\)</span>-connected, then for every <span class="math-inline">\(n\)</span> the map <span class="math-inline">\(gf\)</span> is <span class="math-inline">\(n\)</span>-connected and <span class="math-inline">\(g\)</span> is <span class="math-inline">\((n+1)\)</span>-connected, so <a href="../../entry/cancellation-for-connected-morphisms/index.html">Corollary 3.33</a> shows that <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected. Thus <span class="math-inline">\(f\)</span> is <span class="math-inline">\(\infty\)</span>-connected. Closure under base change follows from part (2) of <a href="../../entry/connected-truncated-factorization-system/index.html">Proposition 3.18</a>. Closure under diagonals follows from <a href="../../entry/characterizing-connected-morphisms-by-diagonals/index.html">Theorem 3.22</a>: if <span class="math-inline">\(f\)</span> is <span class="math-inline">\(\infty\)</span>-connected, then for every <span class="math-inline">\(n\)</span> it is <span class="math-inline">\((n+1)\)</span>-connected, and hence <span class="math-inline">\(\Delta_f\)</span> is <span class="math-inline">\(n\)</span>-connected.<div class="proof-paragraph-break" aria-hidden="true"></div>Small generation is the additional accessibility input. The full subcategory of <span class="math-inline">\(\Ar(T)\)</span> spanned by the <span class="math-inline">\(\infty\)</span>-connected morphisms is accessible, and therefore the resulting strongly saturated class is of small generation. We refer to <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Proposition 6.5.2.8</a>]</span> for this argument.<div class="proof-paragraph-break" aria-hidden="true"></div>(2) The <span class="math-inline">\(\infty\)</span>-truncated objects are precisely the local objects with respect to this strongly saturated class of small generation. The existence and accessibility of the reflector <span class="math-inline">\(\tau_{\infty}\)</span> therefore follow from <a href="../../entry/strongly-saturated-class-gives-localization/index.html">Proposition A.15</a>.<div class="proof-paragraph-break" aria-hidden="true"></div>For (3), it remains to show that any morphism <span class="math-inline">\(f\colon X \to Y\)</span> can be factored into an <span class="math-inline">\(\infty\)</span>-connected morphism followed by an <span class="math-inline">\(\infty\)</span>-truncated one. The same argument as in part (1) of <a href="../../entry/connected-truncated-factorization-system/index.html">Proposition 3.18</a> shows that the map <span class="math-inline">\(X \to \tau_{\infty}(X/Y)\)</span> provides such a factorization.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Hypercompletion_Is_Left_Exact">
+<section class="theorem corollary theorem-plain" id="cor:Hypercompletion_Is_Left_Exact">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/hypercompletion-is-left-exact/index.html">Corollary 3.40.</a></span></p>
   <div class="theorem-statement"><p>The left adjoint <span class="math-inline">\(\tau_{\infty}\colon T \to T_{\leq \infty}\)</span> is left exact. In particular, <span class="math-inline">\(T_{\leq \infty}\)</span> is again a topos.</p></div>
 </section>
@@ -101,8 +101,7 @@
   <summary>Proof</summary>
   <div class="proof-body">We first explain why the <span class="math-inline">\(\infty\)</span>-connected maps are closed under finite limits in <span class="math-inline">\(\Ar(T)\)</span>. They contain the terminal object. For pullbacks, consider a morphism between cospans whose three component maps are <span class="math-inline">\(\infty\)</span>-connected. The induced map between their pullbacks factors as <div class="math-display">\[X\times_ZY \longrightarrow X\times_{Z'}Y \longrightarrow X'\times_{Z'}Y \longrightarrow X'\times_{Z'}Y'.\]</div> The last two maps are base changes of <span class="math-inline">\(X\to X'\)</span> and <span class="math-inline">\(Y\to Y'\)</span>, while the first is a base change of the diagonal of <span class="math-inline">\(Z\to Z'\)</span>. Each factor is therefore <span class="math-inline">\(\infty\)</span>-connected by <a href="#prop:Infinity_Connected_Maps">Proposition 3.39</a>, and so is their composite. This is the same three-factor argument used in the proof of <a href="../../entry/characterization-of-left-exact-localizations/index.html">Lemma 4.15</a>.<div class="proof-paragraph-break" aria-hidden="true"></div>For a finite diagram <span class="math-inline">\(\{X_i\}_{i \in I}\)</span> in <span class="math-inline">\(T\)</span>, it follows that the map <span class="math-inline">\(\lim_i X_i \to \lim_i \tau_{\infty}X_i\)</span> is <span class="math-inline">\(\infty\)</span>-connected. Since <span class="math-inline">\(\infty\)</span>-truncated objects are local objects for a class of morphisms, they are closed under limits, so the target is <span class="math-inline">\(\infty\)</span>-truncated. The map therefore exhibits the target as the hypercompletion of <span class="math-inline">\(\lim_iX_i\)</span>, giving an isomorphism <div class="math-display">\[\tau_{\infty}(\lim_i X_i) \iso \lim_i \tau_{\infty}X_i.\]</div><span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-ABFJ_Acyclic_Product">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>Left-exact localizations of $\infty$-topoi III: The acyclic product</em>. 2025.</li>
-<li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li></ol></section>
+<span id="bib-ABFJ_Acyclic_Product" data-legacy-reference="../../references/index.html#bib-ABFJ_Acyclic_Product" hidden></span><span id="bib-lurie2009HTT" data-legacy-reference="../../references/index.html#bib-lurie2009HTT" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -177,41 +176,12 @@
           <span class="context-entry-title">Gerbes</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 3.4</p>
-      <p class="context-nav-description">Hypercompletion</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Infinity_Connected_And_Truncated_Morphisms" data-section-target="def:Infinity_Connected_And_Truncated_Morphisms">
-          <span class="context-entry-heading">Definition 3.36</span>
-          <span class="context-entry-title">Infinity-connected and hypercomplete morphisms</span>
-        </a></li>
-<li><a href="#def:Hypercomplete_Topos" data-section-target="def:Hypercomplete_Topos">
-          <span class="context-entry-heading">Definition 3.37</span>
-          <span class="context-entry-title">Hypercomplete topoi</span>
-        </a></li>
-<li><a href="#rem:Hypercompleteness_Terminology" data-section-target="rem:Hypercompleteness_Terminology">
-          <span class="context-entry-heading">Remark 3.38</span>
-          <span class="context-entry-title">The terminology of hypercompleteness</span>
-        </a></li>
-<li><a href="#prop:Infinity_Connected_Maps" data-section-target="prop:Infinity_Connected_Maps">
-          <span class="context-entry-heading">Proposition 3.39</span>
-          <span class="context-entry-title">The infinity-connected factorization system</span>
-        </a></li>
-<li><a href="#cor:Hypercompletion_Is_Left_Exact" data-section-target="cor:Hypercompletion_Is_Left_Exact">
-          <span class="context-entry-heading">Corollary 3.40</span>
-          <span class="context-entry-title">Hypercompletion is left exact</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

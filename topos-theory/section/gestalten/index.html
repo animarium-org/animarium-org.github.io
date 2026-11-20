@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gestalten | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/gestalten/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="gestalten" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="gestalten" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -65,7 +65,7 @@
     <article class="notes-page">
       
 <h2 id="sec:Gestalten"><span>7.6.</span> Gestalten</h2>
-<p>We finish the lecture course with the recent framework of <em>Gestalten</em>, developed by Scholze and Stefanich <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Gestalten">2026</a>]</span>. Its purpose is to regard all the categorical layers attached to a geometric object as a single ring-like invariant. The construction from a six-functor formalism and its finite-limit and descent properties are precise. The ambient category of all Gestalten, however, is too large to be a topos. The actual topos theorem applies after fixing a base and a finite étaleness level, and after restricting to countable colimits.</p>
+<p>We finish the lecture course with the recent framework of <em>Gestalten</em>, developed by Scholze and Stefanich <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Gestalten">2026</a>]</span>. Its purpose is to regard all the categorical layers attached to a geometric object as a single ring-like invariant. The construction from a six-functor formalism and its finite-limit and descent properties are precise. The ambient category of all Gestalten, however, is too large to be a topos. The actual topos theorem applies after fixing a base and a finite étaleness level, and after restricting to countable colimits.</p>
 <section class="theorem construction" id="con:Higher_Pr">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/higher-presentable-categories/index.html">Construction 7.45.</a></span></p>
   <div class="theorem-statement"><p>There are presentably symmetric monoidal categories <span class="math-inline">\(n\Pr\)</span> for all <span class="math-inline">\(n\geq 0\)</span>, with</p>
@@ -91,7 +91,7 @@
 <div class="math-display">\[\Gest := \StRing\catop.\]</div></div>
 </section>
 
-<section class="theorem theorem" id="thm:Gestalten_Topos">
+<section class="theorem theorem theorem-plain" id="thm:Gestalten_Topos">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/gestalten-form-a-topos/index.html">Theorem 7.48.</a></span> (Scholze–Stefanich)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(A\)</span> be a Stefanich ring and let <span class="math-inline">\(n\geq 0\)</span>. The opposite of the category <span class="math-inline">\(\StRing^{n\text{-}\et}_{A/}\)</span> of <span class="math-inline">\(n\)</span>-étale Stefanich <span class="math-inline">\(A\)</span>-algebras is a countable topos. More precisely,</p>
 <div class="math-display">\[\Ind_{\aleph_1}\!\left(\bigl(\StRing^{n\text{-}\et}_{A/}\bigr)\catop\right)\]</div>
@@ -100,7 +100,7 @@
 
 <details class="proof-shell" id="proof-thm:Gestalten_Topos-main" data-owner-entry="gestalten-form-a-topos" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">This is <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Gestalten">2026, Theorem 7.1</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">This is <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Gestalten">2026, Theorem 7.1</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 <p>Thus one should not say that the entire category <span class="math-inline">\(\Gest\)</span> is a topos. In applications one works in a countable topos of <span class="math-inline">\(n\)</span>-étale Gestalten over a fixed base. The restriction to a finite <span class="math-inline">\(n\)</span> is substantive, although many geometric examples are already <span class="math-inline">\(1\)</span>- or <span class="math-inline">\(2\)</span>-étale.</p>
 <section class="theorem construction" id="con:n_Affine_Embedding">
@@ -159,10 +159,10 @@
 <p>Analogous relative comparisons in every slice identify <span class="math-inline">\(K_D(X)\)</span> with <span class="math-inline">\(\Mod_{D(X)}(1\Pr)\)</span> and make <span class="math-inline">\([X]_D\)</span> <span class="math-inline">\(1\)</span>-affine. No identification of all higher kernel categories is automatic from the first comparison alone.</p>
 <section class="theorem example" id="ex:Analytic_Rings_Kunneth">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/analytic-rings-satisfy-kunneth/index.html">Example 7.54.</a></span></p>
-  <div class="theorem-statement"><p>The six-functor formalism <span class="math-inline">\(D\)</span> on <span class="math-inline">\(\AnRing\catop\)</span> constructed above satisfies Künneth; see <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Gestalten">2026, Lecture IX</a>]</span>.</p></div>
+  <div class="theorem-statement"><p>The six-functor formalism <span class="math-inline">\(D\)</span> on <span class="math-inline">\(\AnRing\catop\)</span> constructed above satisfies Künneth; see <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Gestalten">2026, Lecture IX</a>]</span>.</p></div>
 </section>
 
-<section class="theorem proposition" id="prop:Gestalt_Functor_Pullbacks">
+<section class="theorem proposition theorem-plain" id="prop:Gestalt_Functor_Pullbacks">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/gestalt-functor-preserves-pullbacks/index.html">Proposition 7.55.</a></span></p>
   <div class="theorem-statement"><p>The functor</p>
 <div class="math-display">\[[-]_D\colon C\longrightarrow\Gest_{/\Gest(A_D)}\]</div>
@@ -171,10 +171,10 @@
 
 <details class="proof-shell" id="proof-prop:Gestalt_Functor_Pullbacks-main" data-owner-entry="gestalt-functor-preserves-pullbacks" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">See <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Gestalten">2026, Proposition 9.5</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">See <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Gestalten">2026, Proposition 9.5</a>]</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem proposition" id="prop:D_Cover_Effective_Epi">
+<section class="theorem proposition theorem-plain" id="prop:D_Cover_Effective_Epi">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/d-covers-as-effective-epimorphisms/index.html">Proposition 7.56.</a></span></p>
   <div class="theorem-statement"><p>If a family <span class="math-inline">\((X_i\to X)_i\)</span> satisfies universal <span class="math-inline">\(!\)</span>-descent, then the map</p>
 <div class="math-display">\[\bigsqcup_i[X_i]_D\longrightarrow[X]_D\]</div>
@@ -183,22 +183,22 @@
 
 <details class="proof-shell" id="proof-prop:D_Cover_Effective_Epi-main" data-owner-entry="d-covers-as-effective-epimorphisms" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">This is <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Gestalten">2026, Proposition 9.7</a>]</span>. The converse is not asserted there.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">This is <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Gestalten">2026, Proposition 9.7</a>]</span>. The converse is not asserted there.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 <p>Combining finite-limit preservation with the preceding descent statement gives the following extension. Let <span class="math-inline">\(\Shv_D(C)_{\mathrm{ctbl}}\)</span> denote the countable-colimit completion of the representables inside the <span class="math-inline">\(D\)</span>-sheaf topos. Then <span class="math-inline">\([-]_D\)</span> extends to a functor</p>
 <div class="math-display">\[F\colon \Shv_D(C)_{\mathrm{ctbl}}\longrightarrow \Gest^{1\text{-}\et}_{/\Gest(A_D)}\]</div>
-<p>which preserves countable colimits and finite limits; see <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Gestalten">2026, Corollary 9.8</a>]</span>.</p>
+<p>which preserves countable colimits and finite limits; see <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Gestalten">2026, Corollary 9.8</a>]</span>.</p>
 <p>Applying the same construction to the admissible site gives a functor <span class="math-inline">\(F^{\ad}\)</span> on the countable part of <span class="math-inline">\(\Shv_{\tau_D^{\ad}}(C^{\ad})\)</span>. Its kernel congruence satisfies</p>
 <div class="math-display">\[(F^{\ad})^{-1}(\Iso)\subseteq\Sigma_D.\]</div>
 <p>This inclusion does <em>not</em> by itself imply that <span class="math-inline">\(F^{\ad}\)</span> factors through the localization at <span class="math-inline">\(\Sigma_D\)</span>: such a factorization requires the opposite inclusion <span class="math-inline">\(\Sigma_D\subseteq(F^{\ad})^{-1}(\Iso)\)</span>.</p>
 <section class="theorem remark" id="rmk:Sigma_D_Equality">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/equality-for-sigma-d/index.html">Remark 7.57.</a></span></p>
-  <div class="theorem-statement"><p>For analytic rings, Scholze states that the two congruences are equal; see <span class="citation-group">[Scholze <a class="citation" href="#bib-Scholze_Gestalten">2026, Lecture IX</a>]</span>. Under this additional assertion, the Gestalt-valued functor does factor through the further localization used to define analytic stacks. Marc expects the equality to hold more generally, but the preceding argument proves only the displayed inclusion.</p></div>
+  <div class="theorem-statement"><p>For analytic rings, Scholze states that the two congruences are equal; see <span class="citation-group">[Scholze <a class="citation" href="../../references/index.html#bib-Scholze_Gestalten">2026, Lecture IX</a>]</span>. Under this additional assertion, the Gestalt-valued functor does factor through the further localization used to define analytic stacks. Marc expects the equality to hold more generally, but the preceding argument proves only the displayed inclusion.</p></div>
 </section>
 <p>The chapter has therefore passed through three increasingly global encodings of geometry. A geometry specifies affine tests and admissible covers; a fractured topos records their local behavior intrinsically; a six-functor formalism can generate such a geometry and, after transmutation, a Gestalt-valued invariant. The last step is promising precisely because it remembers every categorical level at once, but its strongest descent and comparison statements remain part of an active theory.</p>
 <p>\appendix</p>
 <p>\titleformat{\chapter}{\normalfont\huge\bfseries}{\Alph{chapter}}{20pt}{\Huge} \titleformat{\section}{\Large\bfseries}{\Alph{chapter}.\arabic{section}}{10pt}{\Large} \titleformat{\subsection}{\large\normalfont}{\Alph{chapter}.\arabic{section}.\arabic{subsection}}{6pt}{\large} \titleformat{\subsubsection}{\large\bfseries}{}{6pt}{\large}</p>
-<p>\renewcommand{\thechapter}{\Alph{chapter}} \renewcommand{\thesection}{\Alph{chapter}.\arabic{section}} \renewcommand{\thesubsection}{\Alph{chapter}.\arabic{section}.\arabic{subsection}} \renewcommand{\thetheorem}{\Alph{chapter}.\arabic{theorem}}</p><section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-Scholze_Gestalten">Peter Scholze. <em>Geometry and Higher Category Theory</em>. 2026.</li></ol></section>
+<p>\renewcommand{\thechapter}{\Alph{chapter}} \renewcommand{\thesection}{\Alph{chapter}.\arabic{section}} \renewcommand{\thesubsection}{\Alph{chapter}.\arabic{section}.\arabic{subsection}} \renewcommand{\thetheorem}{\Alph{chapter}.\arabic{theorem}}</p><span id="bib-Scholze_Gestalten" data-legacy-reference="../../references/index.html#bib-Scholze_Gestalten" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -279,71 +279,20 @@
     </nav>
   </section><section class="contents-ledger" data-contents-ledger data-open="true">
     <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
+      <span>In this section</span><span class="contents-chevron" aria-hidden="true"></span>
     </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 7.6</p>
-      <p class="context-nav-description">Gestalten</p>
-      <ol class="context-entry-list">
-        <li><a href="#con:Higher_Pr" data-section-target="con:Higher_Pr">
-          <span class="context-entry-heading">Construction 7.45</span>
-          <span class="context-entry-title">Higher presentable categories</span>
-        </a></li>
-<li><a href="#def:Stefanich_Ring" data-section-target="def:Stefanich_Ring">
-          <span class="context-entry-heading">Definition 7.46</span>
-          <span class="context-entry-title">Stefanich ring</span>
-        </a></li>
-<li><a href="#def:Gestalten" data-section-target="def:Gestalten">
-          <span class="context-entry-heading">Definition 7.47</span>
-          <span class="context-entry-title">Gestalten</span>
-        </a></li>
-<li><a href="#thm:Gestalten_Topos" data-section-target="thm:Gestalten_Topos">
+    <nav class="contents" id="contents-section-contents" aria-label="In this section" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
+      <ol class="context-entry-list"><li><a href="#thm:Gestalten_Topos" data-section-target="thm:Gestalten_Topos">
           <span class="context-entry-heading">Theorem 7.48</span>
-          <span class="context-entry-title">Gestalten form a topos</span>
-        </a></li>
-<li><a href="#con:n_Affine_Embedding" data-section-target="con:n_Affine_Embedding">
-          <span class="context-entry-heading">Construction 7.49</span>
-          <span class="context-entry-title">The n-affine embedding</span>
-        </a></li>
-<li><a href="#def:n_Affine_Gestalt" data-section-target="def:n_Affine_Gestalt">
-          <span class="context-entry-heading">Definition 7.50</span>
-          <span class="context-entry-title">n-affine Gestalt</span>
-        </a></li>
-<li><a href="#ex:0_Affine_Gestalten" data-section-target="ex:0_Affine_Gestalten">
-          <span class="context-entry-heading">Example 7.51</span>
-          <span class="context-entry-title">Zero-affine Gestalten</span>
-        </a></li>
-<li><a href="#rmk:Relative_Affine_Gestalten" data-section-target="rmk:Relative_Affine_Gestalten">
-          <span class="context-entry-heading">Remark 7.52</span>
-          <span class="context-entry-title">Relative affine Gestalten</span>
-        </a></li>
-<li><a href="#def:Kunneth" data-section-target="def:Kunneth">
-          <span class="context-entry-heading">Definition 7.53</span>
-          <span class="context-entry-title">Künneth condition</span>
-        </a></li>
-<li><a href="#ex:Analytic_Rings_Kunneth" data-section-target="ex:Analytic_Rings_Kunneth">
-          <span class="context-entry-heading">Example 7.54</span>
-          <span class="context-entry-title">Analytic rings satisfy Künneth</span>
-        </a></li>
-<li><a href="#prop:Gestalt_Functor_Pullbacks" data-section-target="prop:Gestalt_Functor_Pullbacks">
-          <span class="context-entry-heading">Proposition 7.55</span>
-          <span class="context-entry-title">The Gestalt functor preserves pullbacks</span>
-        </a></li>
-<li><a href="#prop:D_Cover_Effective_Epi" data-section-target="prop:D_Cover_Effective_Epi">
-          <span class="context-entry-heading">Proposition 7.56</span>
-          <span class="context-entry-title">D-covers as effective epimorphisms</span>
-        </a></li>
-<li><a href="#rmk:Sigma_D_Equality" data-section-target="rmk:Sigma_D_Equality">
-          <span class="context-entry-heading">Remark 7.57</span>
-          <span class="context-entry-title">Equality for Sigma D</span>
-        </a></li>
-      </ol>
+          <span class="context-entry-title">Scholze–Stefanich</span>
+        </a></li></ol>
     </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

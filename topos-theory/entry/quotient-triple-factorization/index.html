@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Quotient triple factorization | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/entry/quotient-triple-factorization/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,12 +20,12 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <link rel="stylesheet" href="../../_assets/entry-links.css">
 <script defer src="../../_assets/entry-links.js"></script>
 </head>
-<body class="entry-page has-context-nav" data-record-id="quotient-triple-factorization" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="entry-page has-context-nav" data-record-id="quotient-triple-factorization" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -34,8 +34,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -69,11 +69,11 @@
 </header>
   <main class="reader-layout">
     <button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
-      <span aria-hidden="true">☰</span> Nearby entries
+      <span aria-hidden="true">☰</span> Navigation
     </button>
-    <article class="notes-page">
+    <article class="notes-page"><nav class="entry-context" aria-label="Result navigation"><a class="entry-context-step entry-context-previous" rel="prev" href="../quotient-triple-factorization-notation/index.html" aria-label="Previous result: Notation 5.63, Quotient triple factorization notation" title="Quotient triple factorization notation">← <span class="entry-context-name">Notation 5.63</span></a><a class="entry-context-section" href="../../section/structure-theory-for-topoi/index.html#prop:Quotient_Triple_Factorization">↩ Read in context: Section 5.5</a><a class="entry-context-step entry-context-next" rel="next" href="../analogy-for-the-triple-factorization/index.html" aria-label="Next result: Remark 5.65, An analogy for the triple factorization" title="An analogy for the triple factorization"><span class="entry-context-name">Remark 5.65</span> →</a></nav>
       
-<section class="theorem proposition" id="prop:Quotient_Triple_Factorization">
+<section class="theorem proposition theorem-plain" id="prop:Quotient_Triple_Factorization">
   <p class="theorem-heading"><span>Proposition 5.64.</span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(\varphi\colon T \to S\)</span> be a morphism of logoi.</p>
 <ol><li><p>The morphisms <span class="math-inline">\(\varphi^{\mono}\)</span>, <span class="math-inline">\(\varphi^{\epi}\)</span>, <span class="math-inline">\(\varphi^{\cons}\)</span>, <span class="math-inline">\(\varphi^{\quottext}\)</span> and <span class="math-inline">\(\varphi^{\wcons}\)</span> are, respectively, a monogenic quotient, an epigenic quotient, conservative, a quotient map, and weakly conservative;</p></li><li><p>The decomposition <span class="math-inline">\(\varphi = \varphi^{\cons} \circ \varphi^{\quottext}\)</span> is the unique decomposition of <span class="math-inline">\(\varphi\)</span> into a quotient map followed by a conservative map;</p></li><li><p>The decomposition <span class="math-inline">\(\varphi = \varphi^{\wcons} \circ \varphi^{\mono}\)</span> is the unique decomposition of <span class="math-inline">\(\varphi\)</span> into a monogenic quotient followed by a weakly conservative map;</p></li><li><p>The decomposition <span class="math-inline">\(\varphi = \varphi^{\cons} \circ \varphi^{\epi} \circ \varphi^{\mono}\)</span> is the unique decomposition of <span class="math-inline">\(\varphi\)</span> into a monogenic quotient followed by an epigenic quotient followed by a conservative map.</p></li></ol></div>
@@ -85,42 +85,93 @@
 </details>
 
     </article>
-      <aside class="context-nav" id="context-navigation" data-context-nav aria-label="Nearby entries">
-      <button class="context-nav-collapse" type="button" data-context-nav-collapse data-collapsed-label="Nearby entries" aria-controls="context-navigation" aria-expanded="true" aria-label="Hide Nearby entries">
-      <span aria-hidden="true">›</span>
-    </button>
-      <p class="context-chapter-link"><a href="../../chapter/modalities/index.html">Modalities</a></p>
-      <p class="context-nav-kicker">Section 5.5</p>
-      <h2><a href="../../section/structure-theory-for-topoi/index.html">Structure theory for topoi</a></h2>
-      <p class="context-nav-description"><a href="../../section/structure-theory-for-topoi/index.html#prop:Quotient_Triple_Factorization">Read this result in the continuous section</a></p>
-      <ol class="context-entry-list context-entry-list-nearby">
-        <li><a href="../quotient-triple-factorization-classes/index.html">
-          <span class="context-entry-heading">Definition 5.62</span>
-          <span class="context-entry-title">Quotient triple factorization classes</span>
+      <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../chapter/introduction/index.html">
+          <span class="context-entry-heading">Chapter 1</span>
+          <span class="context-entry-title">Introduction</span>
         </a></li>
-<li><a href="../quotient-triple-factorization-notation/index.html">
-          <span class="context-entry-heading">Notation 5.63</span>
-          <span class="context-entry-title">Quotient triple factorization notation</span>
+<li><a href="../../chapter/foundations/index.html">
+          <span class="context-entry-heading">Chapter 2</span>
+          <span class="context-entry-title">Foundations</span>
         </a></li>
-<li><a href="#prop:Quotient_Triple_Factorization" aria-current="page">
-          <span class="context-entry-heading">Proposition 5.64</span>
-          <span class="context-entry-title">Quotient triple factorization</span>
+<li><a href="../../chapter/truncation-connectivity/index.html">
+          <span class="context-entry-heading">Chapter 3</span>
+          <span class="context-entry-title">Truncation and connectivity</span>
         </a></li>
-<li><a href="../analogy-for-the-triple-factorization/index.html">
-          <span class="context-entry-heading">Remark 5.65</span>
-          <span class="context-entry-title">An analogy for the triple factorization</span>
+<li><a href="../../chapter/topoi-logoi/index.html">
+          <span class="context-entry-heading">Chapter 4</span>
+          <span class="context-entry-title">The categories of topoi and logoi</span>
         </a></li>
-<li><a href="../hypercompletion-of-a-congruence/index.html">
-          <span class="context-entry-heading">Definition 5.66</span>
-          <span class="context-entry-title">Hypercompletion of a congruence</span>
+<li><a href="../../chapter/modalities/index.html" aria-current="location">
+          <span class="context-entry-heading">Chapter 5</span>
+          <span class="context-entry-title">Modalities</span>
         </a></li>
-      </ol>
-      <nav class="context-step-links" aria-label="Previous and next entries"><a rel="prev" href="../quotient-triple-factorization-notation/index.html"><span>Previous</span>Quotient triple factorization notation</a>
-<a rel="next" href="../analogy-for-the-triple-factorization/index.html"><span>Next</span>An analogy for the triple factorization</a></nav>
-    </aside>
+<li><a href="../../chapter/topics-in-topos-theory/index.html">
+          <span class="context-entry-heading">Chapter 6</span>
+          <span class="context-entry-title">Topics in topos theory</span>
+        </a></li>
+<li><a href="../../chapter/geometry/index.html">
+          <span class="context-entry-heading">Chapter 7</span>
+          <span class="context-entry-title">Geometry</span>
+        </a></li>
+<li><a href="../../chapter/factorization-systems-and-saturated-classes/index.html">
+          <span class="context-entry-heading">Appendix A</span>
+          <span class="context-entry-title">Factorization systems and saturated classes</span>
+        </a></li>
+<li><a href="../../chapter/limits-and-colimits-in-categories-of-sections/index.html">
+          <span class="context-entry-heading">Appendix B</span>
+          <span class="context-entry-title">Limits and colimits in categories of sections</span>
+        </a></li>
+<li><a href="../../chapter/dense-subcategories-closed-under-finite-limits/index.html">
+          <span class="context-entry-heading">Appendix C</span>
+          <span class="context-entry-title">Dense subcategories closed under finite limits</span>
+        </a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../section/epimorphisms-and-acyclic-maps/index.html">
+          <span class="context-entry-heading">Section 5.1</span>
+          <span class="context-entry-title">Epimorphisms and acyclic maps</span>
+        </a></li>
+<li><a href="../../section/blakers-massey/index.html">
+          <span class="context-entry-heading">Section 5.2</span>
+          <span class="context-entry-title">The Blakers–Massey theorem</span>
+        </a></li>
+<li><a href="../../section/congruences-modalities-and-saturated-classes/index.html">
+          <span class="context-entry-heading">Section 5.3</span>
+          <span class="context-entry-title">Congruences, modalities, and saturated classes</span>
+        </a></li>
+<li><a href="../../section/open-and-closed-immersions/index.html">
+          <span class="context-entry-heading">Section 5.4</span>
+          <span class="context-entry-title">Open and closed immersions</span>
+        </a></li>
+<li><a href="../../section/structure-theory-for-topoi/index.html" aria-current="page">
+          <span class="context-entry-heading">Section 5.5</span>
+          <span class="context-entry-title">Structure theory for topoi</span>
+        </a></li>
+<li><a href="../../section/products-of-modalities/index.html">
+          <span class="context-entry-heading">Section 5.6</span>
+          <span class="context-entry-title">Products of modalities</span>
+        </a></li>
+<li><a href="../../section/goodwillie-tower/index.html">
+          <span class="context-entry-heading">Section 5.7</span>
+          <span class="context-entry-title">The Goodwillie tower of a topos</span>
+        </a></li></ol>
+    </nav>
+  </section></div>
+  </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

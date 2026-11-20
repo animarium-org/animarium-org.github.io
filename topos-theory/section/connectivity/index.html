@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Connectivity | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/connectivity/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="connectivity" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="connectivity" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -82,7 +82,7 @@
 <p>where <span class="math-inline">\(g\)</span> is <span class="math-inline">\(n\)</span>-truncated, the anima of diagonal fillers is contractible. Indeed, this anima is the fiber of</p>
 <div class="math-display">\[\Hom_{/Y}(Y,U) \longrightarrow \Hom_{/Y}(X,U)\]</div>
 <p>over the given map <span class="math-inline">\(X \to U\)</span>. Since <span class="math-inline">\(U \to Y\)</span> is <span class="math-inline">\(n\)</span>-truncated, the universal property of <span class="math-inline">\(\tau_n(X/Y)\)</span> identifies the target with <span class="math-inline">\(\Hom_{/Y}(\tau_n(X/Y),U)\)</span>. Thus the filler animae are contractible for all such <span class="math-inline">\(U\)</span> precisely when the map <span class="math-inline">\(\tau_n(X/Y) \to Y\)</span> induces equivalences into every <span class="math-inline">\(n\)</span>-truncated object. Since both its source and target are <span class="math-inline">\(n\)</span>-truncated in <span class="math-inline">\(T_{/Y}\)</span>, Yoneda identifies this condition with <span class="math-inline">\(\tau_n(X/Y) \iso Y\)</span>.</p>
-<section class="theorem proposition" id="prop:Factorization_System_Connected_Truncated">
+<section class="theorem proposition theorem-plain" id="prop:Factorization_System_Connected_Truncated">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/connected-truncated-factorization-system/index.html">Proposition 3.18.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(T\)</span> be a topos.</p>
 <ol><li><p>The pair <em>(<span class="math-inline">\(n\)</span>-connected, <span class="math-inline">\(n\)</span>-truncated)</em> forms a factorization system on <span class="math-inline">\(T\)</span>.</p></li><li><p>The <span class="math-inline">\(n\)</span>-connected maps are stable under base change.</p></li><li><p>A map <span class="math-inline">\(f\colon X \to Y\)</span> is <span class="math-inline">\(n\)</span>-connected if and only if the functor <span class="math-inline">\(f^*\colon (T_{/Y})_{\leq n} \to (T_{/X})_{\leq n}\)</span> is fully faithful.</p></li></ol></div>
@@ -93,7 +93,7 @@
   <div class="proof-body">(1) We first show that any map <span class="math-inline">\(f\colon X \to Y\)</span> factors as an <span class="math-inline">\(n\)</span>-connected map followed by an <span class="math-inline">\(n\)</span>-truncated map. Let <span class="math-inline">\(X_n := \tau_n(X/Y)\)</span> be the <span class="math-inline">\(n\)</span>-truncation of <span class="math-inline">\(X \in T_{/Y}\)</span>. The map <span class="math-inline">\(X_n \to Y\)</span> is <span class="math-inline">\(n\)</span>-truncated by definition.<div class="proof-paragraph-break" aria-hidden="true"></div>To show that <span class="math-inline">\(X \to X_n\)</span> is <span class="math-inline">\(n\)</span>-connected, consider any <span class="math-inline">\(n\)</span>-truncated morphism <span class="math-inline">\(U \to X_n\)</span>. We must show that the map <div class="math-display">\[\Hom_{/X_n}(X_n,U) \to \Hom_{/X_n}(X,U)\]</div> is an equivalence. Since <span class="math-inline">\(T_{/X_n} \simeq (T_{/Y})_{/X_n}\)</span>, this map is induced on vertical fibers in the following diagram of Hom animae in <span class="math-inline">\(T_{/Y}\)</span>: <figure class="diagram"><img src="diagrams/tikzcd-be8b1b122b3c.svg" alt="Commutative diagram generated from the LaTeX source"></figure> Since <span class="math-inline">\(U\)</span> and <span class="math-inline">\(X_n\)</span> are <span class="math-inline">\(n\)</span>-truncated objects in <span class="math-inline">\(T_{/Y}\)</span>, the universal property of <span class="math-inline">\(X_n = \tau_n(X/Y) \in T_{/Y}\)</span> guarantees that both horizontal maps are equivalences. Thus the induced map on fibers is also an equivalence.<div class="proof-paragraph-break" aria-hidden="true"></div>Next, we show that any <span class="math-inline">\(n\)</span>-connected map <span class="math-inline">\(f\colon X \to Y\)</span> is left orthogonal to any <span class="math-inline">\(n\)</span>-truncated map <span class="math-inline">\(g\colon W \to Z\)</span>. We must show that the anima of diagonal fillers in any commutative square <figure class="diagram"><img src="diagrams/tikzcd-a7e1567a3167.svg" alt="Commutative diagram generated from the LaTeX source"></figure> is contractible. Since <span class="math-inline">\(n\)</span>-truncated maps are closed under base change, we may replace <span class="math-inline">\(g\)</span> by the projection <span class="math-inline">\(W \times_Z Y \to Y\)</span>. This reduces the problem to finding diagonal fillers in the commutative square: <figure class="diagram"><img src="diagrams/tikzcd-34936de9aad5.svg" alt="Commutative diagram generated from the LaTeX source"></figure> The anima of such diagonal fillers is contractible by <span class="math-inline">\(n\)</span>-connectedness of <span class="math-inline">\(f\)</span>. We have therefore constructed the required factorization and proved orthogonality, which are exactly the two conditions in <a href="../../entry/factorization-system/index.html">Definition A.2</a>.<div class="proof-paragraph-break" aria-hidden="true"></div>(2) Consider a pullback square <figure class="diagram"><img src="diagrams/tikzcd-aa6311921aec.svg" alt="Commutative diagram generated from the LaTeX source"></figure> By <a href="../../entry/pullback-commutes-with-truncation/index.html">Corollary 3.10</a>, we have <span class="math-inline">\(\tau_n(X'/Y') \cong g^*\tau_n(X/Y)\)</span>. If <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected, then <span class="math-inline">\(\tau_n(X/Y) = Y\)</span>, so <span class="math-inline">\(\tau_n(X'/Y') = Y'\)</span>. Hence <span class="math-inline">\(f'\)</span> is also <span class="math-inline">\(n\)</span>-connected.<div class="proof-paragraph-break" aria-hidden="true"></div>(3) We need to show that <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected if and only if for each two <span class="math-inline">\(n\)</span>-truncated maps <span class="math-inline">\(Z \to Y\)</span> and <span class="math-inline">\(Z' \to Y\)</span>, the induced map <div class="math-display">\[f^*\colon \Hom_{/Y}(Z,Z') \to \Hom_{/X}(X \times_Y Z, X \times_Y Z')\]</div> is an equivalence. By the universal property of <span class="math-inline">\(X \times_Y Z'\)</span>, the latter is equivalent to the condition that composition with the projection <span class="math-inline">\(X \times_Y Z \to Z\)</span> induces an equivalence <div class="math-display">\[\Hom_{/Y}(Z,Z') \iso \Hom_{/Y}(X \times_Y Z, Z').\]</div> In other words, we have to show that <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected if and only if the map <span class="math-inline">\(X \times_Y Z \to Z\)</span> is left orthogonal to every <span class="math-inline">\(n\)</span>-truncated map <span class="math-inline">\(Z' \to Y\)</span>. If <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected, this follows from parts (1) and (2), since <span class="math-inline">\(X \times_Y Z \to Z\)</span> is a base change of <span class="math-inline">\(f\)</span>. Conversely, take <span class="math-inline">\(Z=Y\)</span>. The resulting orthogonality condition says that <span class="math-inline">\(f\)</span> is left orthogonal to every <span class="math-inline">\(n\)</span>-truncated map over <span class="math-inline">\(Y\)</span>, which is equivalent to <span class="math-inline">\(n\)</span>-connectedness by the characterization above.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem lemma" id="lem:Truncated_And_Connected_Morphisms_Local">
+<section class="theorem lemma theorem-plain" id="lem:Truncated_And_Connected_Morphisms_Local">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/locality-of-truncated-and-connected-morphisms/index.html">Lemma 3.19.</a></span></p>
   <div class="theorem-statement"><p>Consider a pullback square in a topos</p>
 <figure class="diagram"><img src="diagrams/tikzcd-8f5a38c67771.svg" alt="Commutative diagram generated from the LaTeX source"></figure>
@@ -105,7 +105,7 @@
   <div class="proof-body">Both properties are preserved by arbitrary base change, by <a href="../../entry/truncated-morphisms-are-stable-under-base-change/index.html">Lemma 3.5</a> and <a href="#prop:Factorization_System_Connected_Truncated">Proposition 3.18</a>. We prove the converses.<div class="proof-paragraph-break" aria-hidden="true"></div>For truncatedness, argue by induction on <span class="math-inline">\(n\)</span>. If <span class="math-inline">\(n=-2\)</span>, the claim says that an isomorphism can be detected after pullback along an effective epimorphism, which follows from <a href="../../entry/pullback-along-effective-epimorphisms/index.html">Lemma 2.29</a>. For <span class="math-inline">\(n\geq -1\)</span>, the diagonal of <span class="math-inline">\(f'\)</span> is obtained from the diagonal of <span class="math-inline">\(f\)</span> by base change along the effective epimorphism <div class="math-display">\[X'\times_{Y'}X' \longrightarrow X\times_YX.\]</div> The induction hypothesis therefore shows that <span class="math-inline">\(\Delta_f\)</span> is <span class="math-inline">\((n-1)\)</span>-truncated whenever <span class="math-inline">\(\Delta_{f'}\)</span> is.<div class="proof-paragraph-break" aria-hidden="true"></div>For connectedness, <a href="../../entry/pullback-commutes-with-truncation/index.html">Corollary 3.10</a> gives an isomorphism <div class="math-display">\[\tau_n(X'/Y') \cong g^*\tau_n(X/Y).\]</div> If <span class="math-inline">\(f'\)</span> is <span class="math-inline">\(n\)</span>-connected, the pullback of <span class="math-inline">\(\tau_n(X/Y)\to Y\)</span> along <span class="math-inline">\(g\)</span> is therefore an isomorphism. Pullback along <span class="math-inline">\(g\)</span> is conservative by <a href="../../entry/pullback-along-effective-epimorphisms/index.html">Lemma 2.29</a>, so <span class="math-inline">\(\tau_n(X/Y)\to Y\)</span> is itself an isomorphism. Thus <span class="math-inline">\(f\)</span> is <span class="math-inline">\(n\)</span>-connected.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Minus_One_Connected_Iff_Effective_Epimorphism">
+<section class="theorem corollary theorem-plain" id="cor:Minus_One_Connected_Iff_Effective_Epimorphism">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/minus-one-connected-morphisms/index.html">Corollary 3.20.</a></span></p>
   <div class="theorem-statement"><p>A morphism is <span class="math-inline">\((-1)\)</span>-connected if and only if it is an effective epimorphism.</p></div>
 </section>
@@ -115,7 +115,7 @@
   <div class="proof-body">Both the <span class="math-inline">\((-1)\)</span>-connected maps as well as the effective epimorphisms are characterized as the morphisms that are left orthogonal to the monomorphisms/(-1)-truncated maps.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Pointed_Object_-1_Connected">
+<section class="theorem corollary theorem-plain" id="cor:Pointed_Object_-1_Connected">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/pointed-objects-are-minus-one-connected/index.html">Corollary 3.21.</a></span></p>
   <div class="theorem-statement"><p>Every pointed object <span class="math-inline">\(X \in T_*\)</span> is <span class="math-inline">\((-1)\)</span>-connected.</p></div>
 </section>
@@ -199,45 +199,12 @@
           <span class="context-entry-title">Gerbes</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 3.2</p>
-      <p class="context-nav-description">Connectivity</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Connectivity" data-section-target="def:Connectivity">
-          <span class="context-entry-heading">Definition 3.16</span>
-          <span class="context-entry-title">Connected objects and morphisms</span>
-        </a></li>
-<li><a href="#warn:Shift_Terminology_Connectivity" data-section-target="warn:Shift_Terminology_Connectivity">
-          <span class="context-entry-heading">Warning 3.17</span>
-          <span class="context-entry-title">The terminology shift for connectivity</span>
-        </a></li>
-<li><a href="#prop:Factorization_System_Connected_Truncated" data-section-target="prop:Factorization_System_Connected_Truncated">
-          <span class="context-entry-heading">Proposition 3.18</span>
-          <span class="context-entry-title">The connected–truncated factorization system</span>
-        </a></li>
-<li><a href="#lem:Truncated_And_Connected_Morphisms_Local" data-section-target="lem:Truncated_And_Connected_Morphisms_Local">
-          <span class="context-entry-heading">Lemma 3.19</span>
-          <span class="context-entry-title">Locality of truncated and connected morphisms</span>
-        </a></li>
-<li><a href="#cor:Minus_One_Connected_Iff_Effective_Epimorphism" data-section-target="cor:Minus_One_Connected_Iff_Effective_Epimorphism">
-          <span class="context-entry-heading">Corollary 3.20</span>
-          <span class="context-entry-title">Minus-one-connected morphisms</span>
-        </a></li>
-<li><a href="#cor:Pointed_Object_-1_Connected" data-section-target="cor:Pointed_Object_-1_Connected">
-          <span class="context-entry-heading">Corollary 3.21</span>
-          <span class="context-entry-title">Pointed objects are minus-one-connected</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

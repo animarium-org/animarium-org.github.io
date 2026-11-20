@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Saturated classes | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/saturated-classes/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="saturated-classes" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="saturated-classes" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -81,8 +81,8 @@
   <div class="theorem-statement"><p>Let <span class="math-inline">\(\Sigma\)</span> be a class of morphisms in <span class="math-inline">\(C\)</span>. The <em>saturation</em> of <span class="math-inline">\(\Sigma\)</span>, denoted <span class="math-inline">\(\Sigma^s\)</span>, is the smallest saturated class containing <span class="math-inline">\(\Sigma\)</span>. We say that a saturated class <span class="math-inline">\(L\)</span> is <em>of small generation</em> if <span class="math-inline">\(L = \Sigma^s\)</span> for some <em>set</em> of morphisms <span class="math-inline">\(\Sigma\)</span>.</p></div>
 </section>
 <p>The following proposition provides the bridge between saturated classes and factorization systems.</p>
-<section class="theorem proposition" id="prop:Saturated_Class_Gives_Factorization_System">
-  <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/saturated-class-gives-factorization-system/index.html">Proposition A.11.</a></span> (<span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Proposition 5.5.5.7</a>]</span>)</p>
+<section class="theorem proposition theorem-plain" id="prop:Saturated_Class_Gives_Factorization_System">
+  <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/saturated-class-gives-factorization-system/index.html">Proposition A.11.</a></span> (<span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Proposition 5.5.5.7</a>]</span>)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(C\)</span> be a presentable category and let <span class="math-inline">\(L\)</span> be a saturated class of small generation. Then the pair <span class="math-inline">\((L,L^{\perp})\)</span> forms a factorization system on <span class="math-inline">\(C\)</span>.</p></div>
 </section>
 
@@ -91,8 +91,7 @@
   <div class="proof-body">Write <span class="math-inline">\(L=S^s\)</span> for a set <span class="math-inline">\(S\)</span>. For <span class="math-inline">\(u\colon A\to B\)</span> in <span class="math-inline">\(S\)</span> and <span class="math-inline">\(m\geq 0\)</span>, form the map <div class="math-display">\[(B\otimes\partial\Delta^m)\amalg_{A\otimes\partial\Delta^m}(A\otimes\Delta^m)
 			\longrightarrow B\otimes\Delta^m .\]</div> Here tensoring uses the anima of the indicated simplicial set, with empty boundary for <span class="math-inline">\(m=0\)</span>. These maps belong to <span class="math-inline">\(L\)</span>: the first is <span class="math-inline">\(u\)</span>, and each successive one is the fold of the preceding map, by decomposing a sphere as two disks along their boundary. For any <span class="math-inline">\(v\colon P\to Q\)</span> its fold <span class="math-inline">\(Q\amalg_P Q\to Q\)</span> is the pushout in <span class="math-inline">\(\Ar(C)\)</span> of <span class="math-inline">\(\id_Q\leftarrow v\to\id_Q\)</span>. Denote the resulting set by <span class="math-inline">\(S'\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Factor <span class="math-inline">\(X\to Y\)</span> as follows. Start at <span class="math-inline">\(X_0=X\)</span>. At each successor stage attach a copy of the codomain of <span class="math-inline">\(v\)</span> along its domain for every square from <span class="math-inline">\(v\in S'\)</span> to <span class="math-inline">\(X_\alpha\to Y\)</span>, choosing one square in each component of the anima of squares. Take colimits at limit ordinals. Choose an infinite regular cardinal <span class="math-inline">\(\lambda\)</span> for which the domains of <span class="math-inline">\(S'\)</span> are <span class="math-inline">\(\lambda\)</span>-compact. Every square against <span class="math-inline">\(X_\lambda\to Y\)</span> comes from some stage, since the anima of such squares is a pullback of Hom animae and filtered colimits commute with finite limits in <span class="math-inline">\(\An\)</span>. Hence it admits a filler. For a fixed square against <span class="math-inline">\(u\in S\)</span>, the tests for <span class="math-inline">\(m=0,1,\ldots\)</span> say exactly that its anima of fillers is nonempty and every map from a sphere into it extends over the disk. This follows by tensor-Hom adjunction applied to the displayed map. Thus the filler anima is contractible and <span class="math-inline">\(X_\lambda\to Y\)</span> lies in <span class="math-inline">\(S^\perp=L^\perp\)</span>, the equality following from <a class="citation" href="https://animarium.org/tag/0163/">[SHT, Proposition 19.1.5]</a>.<div class="proof-paragraph-break" aria-hidden="true"></div>The map <span class="math-inline">\(X\to X_\lambda\)</span> belongs to <span class="math-inline">\(L\)</span>: successor maps are cobase changes of coproducts of maps of <span class="math-inline">\(S'\)</span>, and at a limit stage the map from <span class="math-inline">\(X\)</span> is the colimit of the preceding maps from <span class="math-inline">\(X\)</span>. This gives the required factorization. Orthogonality gives uniqueness and hence a factorization system.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li>
-<li id="bib-Cnossen_StableHomotopy">Bastiaan Cnossen. <em>Stable homotopy theory and higher algebra</em>. Cambridge University Press. .</li></ol></section>
+<span id="bib-lurie2009HTT" data-legacy-reference="../../references/index.html#bib-lurie2009HTT" hidden></span><span id="bib-Cnossen_StableHomotopy" data-legacy-reference="../../references/index.html#bib-Cnossen_StableHomotopy" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -161,35 +160,20 @@
     </nav>
   </section><section class="contents-ledger" data-contents-ledger data-open="true">
     <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
+      <span>In this section</span><span class="contents-chevron" aria-hidden="true"></span>
     </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section A.2</p>
-      <p class="context-nav-description">Saturated classes</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Saturated" data-section-target="def:Saturated">
-          <span class="context-entry-heading">Definition A.8</span>
-          <span class="context-entry-title">Saturated class</span>
-        </a></li>
-<li><a href="#rmk:Factorization_System_Left_Class_Saturated" data-section-target="rmk:Factorization_System_Left_Class_Saturated">
-          <span class="context-entry-heading">Remark A.9</span>
-          <span class="context-entry-title">The left class of a factorization system is saturated</span>
-        </a></li>
-<li><a href="#def:Saturation" data-section-target="def:Saturation">
-          <span class="context-entry-heading">Definition A.10</span>
-          <span class="context-entry-title">Saturation and small generation</span>
-        </a></li>
-<li><a href="#prop:Saturated_Class_Gives_Factorization_System" data-section-target="prop:Saturated_Class_Gives_Factorization_System">
+    <nav class="contents" id="contents-section-contents" aria-label="In this section" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
+      <ol class="context-entry-list"><li><a href="#prop:Saturated_Class_Gives_Factorization_System" data-section-target="prop:Saturated_Class_Gives_Factorization_System">
           <span class="context-entry-heading">Proposition A.11</span>
-          <span class="context-entry-title">A saturated class gives a factorization system</span>
-        </a></li>
-      </ol>
+          <span class="context-entry-title"><span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Proposition 5.5.5.7</a>]</span></span>
+        </a></li></ol>
     </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

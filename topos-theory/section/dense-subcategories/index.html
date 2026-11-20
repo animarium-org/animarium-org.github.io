@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dense subcategories | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/dense-subcategories/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="dense-subcategories" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="dense-subcategories" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -78,7 +78,7 @@
   <div class="theorem-statement"><p>If <span class="math-inline">\(T\)</span> admits small colimits, then <span class="math-inline">\(i^*\)</span> admits a left adjoint <span class="math-inline">\(i_!\colon \PSh(C) \to T\)</span>, the colimit-preserving extension of <span class="math-inline">\(i\)</span>. In this case <span class="math-inline">\(C\)</span> is dense if and only if the counit <span class="math-inline">\(i_!i^*X \to X\)</span> is an isomorphism for every <span class="math-inline">\(X \in T\)</span>, i.e. if and only if every object <span class="math-inline">\(X\)</span> is the colimit of the canonical diagram <span class="math-inline">\(C_{/X} \to C \hookrightarrow T\)</span>. Density is condition (1) of <a href="../../entry/dense-subcategory-characterization/index.html">Lemma 6.57</a>.</p></div>
 </section>
 
-<section class="theorem lemma" id="lem:Enlarging_Dense_Subcategories">
+<section class="theorem lemma theorem-plain" id="lem:Enlarging_Dense_Subcategories">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/enlarging-dense-subcategories/index.html">Lemma C.3.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(T\)</span> be a locally small category, and let <span class="math-inline">\(D \subseteq C \subseteq T\)</span> be essentially small full subcategories. If <span class="math-inline">\(D\)</span> is dense in <span class="math-inline">\(T\)</span>, then so is <span class="math-inline">\(C\)</span>.</p></div>
 </section>
@@ -154,33 +154,12 @@
           <span class="context-entry-title">Presentable categories</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section C.1</p>
-      <p class="context-nav-description">Dense subcategories</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Dense_Subcategory" data-section-target="def:Dense_Subcategory">
-          <span class="context-entry-heading">Definition C.1</span>
-          <span class="context-entry-title">Dense subcategory</span>
-        </a></li>
-<li><a href="#rem:Dense_Subcategory_Counit" data-section-target="rem:Dense_Subcategory_Counit">
-          <span class="context-entry-heading">Remark C.2</span>
-          <span class="context-entry-title">Density and the restricted Yoneda counit</span>
-        </a></li>
-<li><a href="#lem:Enlarging_Dense_Subcategories" data-section-target="lem:Enlarging_Dense_Subcategories">
-          <span class="context-entry-heading">Lemma C.3</span>
-          <span class="context-entry-title">Enlarging dense subcategories</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

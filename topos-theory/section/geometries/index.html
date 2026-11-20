@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Geometries | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/geometries/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="geometries" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="geometries" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -65,7 +65,7 @@
     <article class="notes-page">
       
 <h2 id="sec:Geometries"><span>7.2.</span> Geometries</h2>
-<p>Classical algebraic geometry is built from affine schemes, basic open immersions, and covers by basic opens. Lurie's notion of a geometry abstracts exactly this pattern; see <span class="citation-group">[Lurie <a class="citation" href="#bib-Lurie_DAG_V">2011</a>]</span>:</p>
+<p>Classical algebraic geometry is built from affine schemes, basic open immersions, and covers by basic opens. Lurie's notion of a geometry abstracts exactly this pattern; see <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-Lurie_DAG_V">2011</a>]</span>:</p>
 <div class="math-display">\[\begin{array}{rcl}
 		\text{affine test objects} &amp; \rightsquigarrow &amp; \text{objects of a category } C, \\
 		\text{basic open immersions} &amp; \rightsquigarrow &amp; \text{admissible morphisms}, \\
@@ -97,7 +97,7 @@
 <p>A finite family</p>
 <div class="math-display">\[\{R \to R[f_i^{-1}]\}_{i \in I}\]</div>
 <p>generates a covering sieve precisely when the elements <span class="math-inline">\(f_i\)</span> generate the unit ideal in <span class="math-inline">\(R\)</span>.</p>
-<section class="theorem lemma" id="lem:Classical_Zariski_Geometry">
+<section class="theorem lemma theorem-plain" id="lem:Classical_Zariski_Geometry">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/classical-zariski-geometry/index.html">Lemma 7.11.</a></span></p>
   <div class="theorem-statement"><p>The preceding data define a geometry <span class="math-inline">\(\GZar^{\mathrm{cl}}\)</span>.</p></div>
 </section>
@@ -151,7 +151,7 @@
 <p>is a pullback square in <span class="math-inline">\(T\)</span>.</p>
 <p>For the classical Zariski geometry and <span class="math-inline">\(T=\An\)</span>, this recovers the usual notion of a local homomorphism. A map of Zariski structures corresponds to a map of local rings <span class="math-inline">\(A \to B\)</span>. Testing locality on an admissible map <span class="math-inline">\(S \to S[f^{-1}]\)</span> says that the square</p>
 <figure class="diagram"><img src="diagrams/tikzcd-14343ac2648b.svg" alt="Commutative diagram generated from the LaTeX source"></figure>
-<p>is a pullback. In other words, an element of <span class="math-inline">\(A\)</span> is invertible if and only if its image in <span class="math-inline">\(B\)</span> is invertible. For local rings this is equivalent to the classical condition that the preimage of the maximal ideal of <span class="math-inline">\(B\)</span> is the maximal ideal of <span class="math-inline">\(A\)</span>. The spectral case is identical after passing to <span class="math-inline">\(\pi_0\)</span>: a map <span class="math-inline">\(R \to R'\)</span> of local commutative <span class="math-inline">\(\Einf\)</span>-rings is local precisely when <span class="math-inline">\(\pi_0(R) \to \pi_0(R')\)</span> is local in the classical sense.</p><section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-Lurie_DAG_V">Jacob Lurie. <em>Derived algebraic geometry V: Structured spaces</em>. 2011.</li></ol></section>
+<p>is a pullback. In other words, an element of <span class="math-inline">\(A\)</span> is invertible if and only if its image in <span class="math-inline">\(B\)</span> is invertible. For local rings this is equivalent to the classical condition that the preimage of the maximal ideal of <span class="math-inline">\(B\)</span> is the maximal ideal of <span class="math-inline">\(A\)</span>. The spectral case is identical after passing to <span class="math-inline">\(\pi_0\)</span>: a map <span class="math-inline">\(R \to R'\)</span> of local commutative <span class="math-inline">\(\Einf\)</span>-rings is local precisely when <span class="math-inline">\(\pi_0(R) \to \pi_0(R')\)</span> is local in the classical sense.</p><span id="bib-Lurie_DAG_V" data-legacy-reference="../../references/index.html#bib-Lurie_DAG_V" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -230,33 +230,12 @@
           <span class="context-entry-title">Gestalten</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 7.2</p>
-      <p class="context-nav-description">Geometries</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Admissibility_Structure" data-section-target="def:Admissibility_Structure">
-          <span class="context-entry-heading">Definition 7.9</span>
-          <span class="context-entry-title">Admissibility structure</span>
-        </a></li>
-<li><a href="#def:Geometric_Site" data-section-target="def:Geometric_Site">
-          <span class="context-entry-heading">Definition 7.10</span>
-          <span class="context-entry-title">Geometric site</span>
-        </a></li>
-<li><a href="#lem:Classical_Zariski_Geometry" data-section-target="lem:Classical_Zariski_Geometry">
-          <span class="context-entry-heading">Lemma 7.11</span>
-          <span class="context-entry-title">The classical Zariski geometry</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

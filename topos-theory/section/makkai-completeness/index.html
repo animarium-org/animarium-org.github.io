@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Makkai completeness | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/makkai-completeness/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="makkai-completeness" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="makkai-completeness" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -79,7 +79,7 @@
 <ul><li><p>We have <span class="math-inline">\(F(\beta I) \simeq \prod_I F(*)\)</span>.</p></li><li><p>Given <span class="math-inline">\(f\colon \beta I \to \beta J\)</span> and <span class="math-inline">\(g\colon \beta J \to \beta K\)</span>, if <span class="math-inline">\(f\)</span> is induced by a map <span class="math-inline">\(I \to J\)</span>, then <span class="math-inline">\(f^* \circ g^* \simeq (g \circ f)^*\)</span>.</p></li></ul></div>
 </section>
 
-<section class="theorem theorem" id="thm:Makkai_Completeness">
+<section class="theorem theorem theorem-plain" id="thm:Makkai_Completeness">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/makkai-completeness/index.html">Theorem 6.136.</a></span> (Makkai completeness)</p>
   <div class="theorem-statement"><p>The <span class="math-inline">\(2\)</span>-functor</p>
 <div class="math-display">\[\Topos^{\coh,\flat} \longrightarrow \Cat^{\ultra},
@@ -89,7 +89,7 @@
 
 <section class="theorem warning" id="warn:Makkai_Reference_Classical">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/makkai-reference-classical/index.html">Warning 6.137.</a></span></p>
-  <div class="theorem-statement"><p>The higher-categorical formulation in <a href="#thm:Makkai_Completeness">Theorem 6.136</a> is the version stated in the lectures. The available reference <span class="citation-group">[Lurie <a class="citation" href="#bib-Lurie_Ultracategories">2018, Theorem 2.3.1 and Corollary 2.3.3</a>]</span> proves strong conceptual completeness and Makkai duality for small classical pretopoi, classical coherent topoi, and ordinary categories of set-valued models. In particular, that reference proves the restriction of the theorem to classical topoi and classical categories, but it does not by itself supply a proof of the displayed higher-categorical extension. We do not know a counterexample to the extension.</p></div>
+  <div class="theorem-statement"><p>The higher-categorical formulation in <a href="#thm:Makkai_Completeness">Theorem 6.136</a> is the version stated in the lectures. The available reference <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-Lurie_Ultracategories">2018, Theorem 2.3.1 and Corollary 2.3.3</a>]</span> proves strong conceptual completeness and Makkai duality for small classical pretopoi, classical coherent topoi, and ordinary categories of set-valued models. In particular, that reference proves the restriction of the theorem to classical topoi and classical categories, but it does not by itself supply a proof of the displayed higher-categorical extension. We do not know a counterexample to the extension.</p></div>
 </section>
 
 <section class="theorem remark" id="rmk:Condensed_And_Ultra">
@@ -98,7 +98,7 @@
 <figure class="diagram"><img src="diagrams/tikzcd-384b655cab12.svg" alt="Commutative diagram generated from the LaTeX source"></figure>
 <p>For <span class="math-inline">\(\An\)</span>, every lax functor occurring here is automatically strict.</p></div>
 </section>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-Lurie_Ultracategories">Jacob Lurie. <em>Ultracategories</em>. 2018.</li></ol></section>
+<span id="bib-Lurie_Ultracategories" data-legacy-reference="../../references/index.html#bib-Lurie_Ultracategories" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -199,39 +199,20 @@
     </nav>
   </section><section class="contents-ledger" data-contents-ledger data-open="true">
     <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
+      <span>In this section</span><span class="contents-chevron" aria-hidden="true"></span>
     </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 6.9</p>
-      <p class="context-nav-description">Makkai completeness</p>
-      <ol class="context-entry-list">
-        <li><a href="#quest:Recover_Topos_From_Category_Of_Points" data-section-target="quest:Recover_Topos_From_Category_Of_Points">
-          <span class="context-entry-heading">Question 6.134</span>
-          <span class="context-entry-title">Recover topos from category of points</span>
-        </a></li>
-<li><a href="#def:Ultracategory" data-section-target="def:Ultracategory">
-          <span class="context-entry-heading">Definition 6.135</span>
-          <span class="context-entry-title">Ultracategory</span>
-        </a></li>
-<li><a href="#thm:Makkai_Completeness" data-section-target="thm:Makkai_Completeness">
+    <nav class="contents" id="contents-section-contents" aria-label="In this section" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
+      <ol class="context-entry-list"><li><a href="#thm:Makkai_Completeness" data-section-target="thm:Makkai_Completeness">
           <span class="context-entry-heading">Theorem 6.136</span>
           <span class="context-entry-title">Makkai completeness</span>
-        </a></li>
-<li><a href="#warn:Makkai_Reference_Classical" data-section-target="warn:Makkai_Reference_Classical">
-          <span class="context-entry-heading">Warning 6.137</span>
-          <span class="context-entry-title">The reference for Makkai completeness is classical</span>
-        </a></li>
-<li><a href="#rmk:Condensed_And_Ultra" data-section-target="rmk:Condensed_And_Ultra">
-          <span class="context-entry-heading">Remark 6.138</span>
-          <span class="context-entry-title">Condensed and ultra</span>
-        </a></li>
-      </ol>
+        </a></li></ol>
     </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

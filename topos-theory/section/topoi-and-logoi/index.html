@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Topoi and logoi | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/topoi-and-logoi/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="topoi-and-logoi" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="topoi-and-logoi" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -65,7 +65,7 @@
     <article class="notes-page">
       
 <h2 id="sec:Topoi_And_Logoi"><span>4.1.</span> Topoi and logoi</h2>
-<p>Following <span class="citation-group">Anel and Joyal (<a class="citation" href="#bib-Anel_Joyal_Topologie">2021</a>)</span>, we use separate words for the two directions of the adjunction underlying a geometric morphism: <em>topos</em> for the geometric direction and <em>logos</em> for the algebraic direction. Their terminology emphasizes a duality analogous to that between affine schemes and commutative rings. It is not yet common, and Marc did not use it in his lectures, but it makes the variance of the constructions below more transparent.</p>
+<p>Following <span class="citation-group">Anel and Joyal (<a class="citation" href="../../references/index.html#bib-Anel_Joyal_Topologie">2021</a>)</span>, we use separate words for the two directions of the adjunction underlying a geometric morphism: <em>topos</em> for the geometric direction and <em>logos</em> for the algebraic direction. Their terminology emphasizes a duality analogous to that between affine schemes and commutative rings. It is not yet common, and Marc did not use it in his lectures, but it makes the variance of the constructions below more transparent.</p>
 <section class="theorem definition" id="def:Morphism_Of_Topoi">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/morphisms-of-topoi/index.html">Definition 4.1.</a></span></p>
   <div class="theorem-statement"><p>Given two topoi <span class="math-inline">\(S\)</span> and <span class="math-inline">\(T\)</span>, a <em>morphism of topoi</em> (or <em>geometric morphism</em>) from <span class="math-inline">\(S\)</span> to <span class="math-inline">\(T\)</span> is a functor <span class="math-inline">\(\phi_*\colon S \to T\)</span> which admits a left exact colimit-preserving left adjoint <span class="math-inline">\(\phi^*\colon T \to S\)</span>. We denote by</p>
@@ -75,7 +75,7 @@
 
 <section class="theorem definition" id="def:Logos_And_Morphism_Of_Logoi">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/logoi-and-morphisms-of-logoi/index.html">Definition 4.2.</a></span></p>
-  <div class="theorem-statement"><p>A category <span class="math-inline">\(T\)</span> is called a <em>logos</em> if it is a topos, i.e. if it is presentable and satisfies descent for all colimits. Given two logoi <span class="math-inline">\(S\)</span> and <span class="math-inline">\(T\)</span>, a <em>morphism of logoi</em> (sometimes called <em>algebraic morphism</em>\footnote{We warn the reader that this terminology clashes with the notion of `algebraic morphism' used by <span class="citation-group">Lurie (<a class="citation" href="#bib-lurie2009HTT">2009, Definition 6.3.6.1</a>)</span>.}) from <span class="math-inline">\(S\)</span> to <span class="math-inline">\(T\)</span> is a left exact colimit-preserving functor <span class="math-inline">\(\phi^*\colon S \longrightarrow T\)</span>. We denote by</p>
+  <div class="theorem-statement"><p>A category <span class="math-inline">\(T\)</span> is called a <em>logos</em> if it is a topos, i.e. if it is presentable and satisfies descent for all colimits. Given two logoi <span class="math-inline">\(S\)</span> and <span class="math-inline">\(T\)</span>, a <em>morphism of logoi</em> (sometimes called <em>algebraic morphism</em>\footnote{We warn the reader that this terminology clashes with the notion of `algebraic morphism' used by <span class="citation-group">Lurie (<a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Definition 6.3.6.1</a>)</span>.}) from <span class="math-inline">\(S\)</span> to <span class="math-inline">\(T\)</span> is a left exact colimit-preserving functor <span class="math-inline">\(\phi^*\colon S \longrightarrow T\)</span>. We denote by</p>
 <div class="math-display">\[\Logos \quad \subseteq \quad \Cat\]</div>
 <p>the subcategory spanned by the logoi and the morphisms of logoi.</p></div>
 </section>
@@ -89,7 +89,7 @@
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/duality-between-topoi-and-logoi/index.html">Remark 4.4.</a></span></p>
   <div class="theorem-statement"><p>By the adjoint functor theorem, every morphism of logoi <span class="math-inline">\(\phi^*\colon S \to T\)</span> admits a right adjoint <span class="math-inline">\(\phi_*\colon T \to S\)</span>, which is then a morphism of topoi. This assignment can be made functorial: there is an equivalence of categories</p>
 <div class="math-display">\[\Topos \quad \simeq \quad \Logos\catop, \qquad T \mapsto T, \qquad \phi_* \mapsto \phi^*.\]</div>
-<p>More precisely, consider composable strings of adjunctions between presentable categories. Forgetting the right adjoints identifies the anima of such strings with the anima of strings of left adjoints: the choices of adjunction data extending each left adjoint form a contractible anima. Forgetting the left adjoints gives the same description for the reversed strings of right adjoints. These identifications respect identities and composition by pasting adjunctions. On the nerves they give <span class="math-inline">\(\PrR\simeq(\PrL)\catop\)</span>, which restricts as asserted. See also <span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Corollary 5.5.3.4</a>]</span>.</p></div>
+<p>More precisely, consider composable strings of adjunctions between presentable categories. Forgetting the right adjoints identifies the anima of such strings with the anima of strings of left adjoints: the choices of adjunction data extending each left adjoint form a contractible anima. Forgetting the left adjoints gives the same description for the reversed strings of right adjoints. These identifications respect identities and composition by pasting adjunctions. On the nerves they give <span class="math-inline">\(\PrR\simeq(\PrL)\catop\)</span>, which restricts as asserted. See also <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Corollary 5.5.3.4</a>]</span>.</p></div>
 </section>
 <p>We now upgrade <span class="math-inline">\(\Logos\)</span> and <span class="math-inline">\(\Topos\)</span> to 2-categories.</p>
 <section class="theorem construction" id="con:Two_Categories_Of_Topoi_And_Logoi">
@@ -124,8 +124,7 @@
 <div class="math-display">\[\PSh(C) \to \An, \qquad F \longmapsto \colim_i F(X_i)\]</div>
 <p>inverts all morphisms in <span class="math-inline">\(\Sigma\)</span>. Here we use the standard correspondence between pro-objects of <span class="math-inline">\(C\)</span> and left exact colimit-preserving functors <span class="math-inline">\(\PSh(C)\to\An\)</span>: a pro-object <span class="math-inline">\((X_i)_i\)</span> determines the displayed functor, and every such functor arises uniquely in this way.</p></div>
 </section>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-Anel_Joyal_Topologie">Mathieu Anel, André Joyal. <em>Topo-logie</em>. In New spaces in mathematics. Formal and conceptual reflections, 155–257, Cambridge: Cambridge University Press. 2021.</li>
-<li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li></ol></section>
+<span id="bib-Anel_Joyal_Topologie" data-legacy-reference="../../references/index.html#bib-Anel_Joyal_Topologie" hidden></span><span id="bib-lurie2009HTT" data-legacy-reference="../../references/index.html#bib-lurie2009HTT" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -200,53 +199,12 @@
           <span class="context-entry-title">Colimits of topoi along étale morphisms</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 4.1</p>
-      <p class="context-nav-description">Topoi and logoi</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Morphism_Of_Topoi" data-section-target="def:Morphism_Of_Topoi">
-          <span class="context-entry-heading">Definition 4.1</span>
-          <span class="context-entry-title">Morphisms of topoi</span>
-        </a></li>
-<li><a href="#def:Logos_And_Morphism_Of_Logoi" data-section-target="def:Logos_And_Morphism_Of_Logoi">
-          <span class="context-entry-heading">Definition 4.2</span>
-          <span class="context-entry-title">Logoi and morphisms of logoi</span>
-        </a></li>
-<li><a href="#rem:Logos_Morphisms_Preserve_Truncations" data-section-target="rem:Logos_Morphisms_Preserve_Truncations">
-          <span class="context-entry-heading">Remark 4.3</span>
-          <span class="context-entry-title">Logos morphisms and truncations</span>
-        </a></li>
-<li><a href="#rem:Duality_Topoi_Logoi" data-section-target="rem:Duality_Topoi_Logoi">
-          <span class="context-entry-heading">Remark 4.4</span>
-          <span class="context-entry-title">Duality between topoi and logoi</span>
-        </a></li>
-<li><a href="#con:Two_Categories_Of_Topoi_And_Logoi" data-section-target="con:Two_Categories_Of_Topoi_And_Logoi">
-          <span class="context-entry-heading">Construction 4.5</span>
-          <span class="context-entry-title">The 2-categories of topoi and logoi</span>
-        </a></li>
-<li><a href="#rem:Notation_For_Two_Categories_Of_Topoi" data-section-target="rem:Notation_For_Two_Categories_Of_Topoi">
-          <span class="context-entry-heading">Remark 4.6</span>
-          <span class="context-entry-title">Notation for the 2-categories of topoi</span>
-        </a></li>
-<li><a href="#def:Point_Of_Topos" data-section-target="def:Point_Of_Topos">
-          <span class="context-entry-heading">Definition 4.7</span>
-          <span class="context-entry-title">Points of a topos</span>
-        </a></li>
-<li><a href="#ex:Points_Of_Presheaf_Localizations" data-section-target="ex:Points_Of_Presheaf_Localizations">
-          <span class="context-entry-heading">Example 4.8</span>
-          <span class="context-entry-title">Points of presheaf localizations</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

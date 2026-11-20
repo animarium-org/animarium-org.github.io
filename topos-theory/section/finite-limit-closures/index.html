@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Finite-limit closures | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/finite-limit-closures/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="finite-limit-closures" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="finite-limit-closures" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -66,7 +66,7 @@
       
 <h2 id="sec:Finite_Limit_Closures"><span>C.2.</span> Finite-limit closures</h2>
 
-<section class="theorem lemma" id="lem:Finite_Limit_Closure_Is_Small">
+<section class="theorem lemma theorem-plain" id="lem:Finite_Limit_Closure_Is_Small">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/finite-limit-closure-is-essentially-small/index.html">Lemma C.4.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(T\)</span> be a locally small category which admits finite limits, and let <span class="math-inline">\(A \subseteq T\)</span> be an essentially small full subcategory. Then the smallest full subcategory of <span class="math-inline">\(T\)</span> which contains <span class="math-inline">\(A\)</span> and is closed under finite limits is essentially small.</p></div>
 </section>
@@ -75,7 +75,7 @@
   <summary>Proof</summary>
   <div class="proof-body">Define full subcategories <span class="math-inline">\(A_0 \subseteq A_1 \subseteq \cdots\)</span> of <span class="math-inline">\(T\)</span> inductively: <span class="math-inline">\(A_0 := A\)</span>, and <span class="math-inline">\(A_{n+1}\)</span> is spanned by the objects of <span class="math-inline">\(A_n\)</span>, a terminal object of <span class="math-inline">\(T\)</span>, and the pullbacks in <span class="math-inline">\(T\)</span> of all cospans in <span class="math-inline">\(A_n\)</span>. Since <span class="math-inline">\(T\)</span> is locally small and <span class="math-inline">\(A_n\)</span> is essentially small, there is only a small set of equivalence classes of cospans in <span class="math-inline">\(A_n\)</span>. Hence every <span class="math-inline">\(A_n\)</span> is essentially small, and so is <span class="math-inline">\(A_\omega := \bigcup_n A_n\)</span>. Every cospan in <span class="math-inline">\(A_\omega\)</span> lies in some <span class="math-inline">\(A_n\)</span>, so <span class="math-inline">\(A_\omega\)</span> is closed under pullbacks, and it contains a terminal object. The terminal-object and pullback criterion applied first to <span class="math-inline">\(A_\omega\)</span> and then to its inclusion in <span class="math-inline">\(T\)</span> shows that this inclusion preserves all finite limits, see <a class="citation" href="https://animarium.org/tag/00A1/">[SHT, Theorem 4.2.25]</a>. Explicitly, attach the finitely many nondegenerate simplices of a finite indexing simplicial set in order of dimension. The cone anima after a simplex attachment is the pullback of the two cone animae over the cone anima for its boundary. For the empty diagram it is represented by the terminal object, and for a simplex by the value at its initial vertex. Induction therefore represents every such cone functor by an iterated pullback in <span class="math-inline">\(A_\omega\)</span>. Thus <span class="math-inline">\(A_\omega\)</span> is the smallest full subcategory containing <span class="math-inline">\(A\)</span> and closed under finite limits.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-Cnossen_StableHomotopy">Bastiaan Cnossen. <em>Stable homotopy theory and higher algebra</em>. Cambridge University Press. .</li></ol></section>
+<span id="bib-Cnossen_StableHomotopy" data-legacy-reference="../../references/index.html#bib-Cnossen_StableHomotopy" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -142,25 +142,12 @@
           <span class="context-entry-title">Presentable categories</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section C.2</p>
-      <p class="context-nav-description">Finite-limit closures</p>
-      <ol class="context-entry-list">
-        <li><a href="#lem:Finite_Limit_Closure_Is_Small" data-section-target="lem:Finite_Limit_Closure_Is_Small">
-          <span class="context-entry-heading">Lemma C.4</span>
-          <span class="context-entry-title">Finite-limit closures are essentially small</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

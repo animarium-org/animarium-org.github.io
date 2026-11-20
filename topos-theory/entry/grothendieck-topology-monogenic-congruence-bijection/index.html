@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Grothendieck topology monogenic congruence bijection | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/entry/grothendieck-topology-monogenic-congruence-bijection/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,12 +20,12 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <link rel="stylesheet" href="../../_assets/entry-links.css">
 <script defer src="../../_assets/entry-links.js"></script>
 </head>
-<body class="entry-page has-context-nav" data-record-id="grothendieck-topology-monogenic-congruence-bijection" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="entry-page has-context-nav" data-record-id="grothendieck-topology-monogenic-congruence-bijection" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -34,8 +34,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -69,12 +69,12 @@
 </header>
   <main class="reader-layout">
     <button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
-      <span aria-hidden="true">☰</span> Nearby entries
+      <span aria-hidden="true">☰</span> Navigation
     </button>
-    <article class="notes-page">
+    <article class="notes-page"><nav class="entry-context" aria-label="Result navigation"><a class="entry-context-step entry-context-previous" rel="prev" href="../grothendieck-topologies-on-category-and-presheaf-topos/index.html" aria-label="Previous result: Lemma 6.8, Grothendieck topologies on category and presheaf topos" title="Grothendieck topologies on category and presheaf topos">← <span class="entry-context-name">Lemma 6.8</span></a><a class="entry-context-section" href="../../section/sheaf-topoi/index.html#prop:Grothendieck_Topology_Monogenic_Congruence_Bijection">↩ Read in context: Section 6.1</a><a class="entry-context-step entry-context-next" rel="next" href="../sheaf-topos/index.html" aria-label="Next result: Definition 6.10, Sheaf topos" title="Sheaf topos"><span class="entry-context-name">Definition 6.10</span> →</a></nav>
       
-<section class="theorem proposition" id="prop:Grothendieck_Topology_Monogenic_Congruence_Bijection">
-  <p class="theorem-heading"><span>Proposition 6.9.</span> (<span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Grothendieck_Topologies">2024, Proposition 3.1.10</a>]</span>)</p>
+<section class="theorem proposition theorem-plain" id="prop:Grothendieck_Topology_Monogenic_Congruence_Bijection">
+  <p class="theorem-heading"><span>Proposition 6.9.</span> (<span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Grothendieck_Topologies">2024, Proposition 3.1.10</a>]</span>)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(T\)</span> be a topos. There is a bijection</p>
 <div class="math-display">\[\left\{\textup{Grothendieck topologies on }T\right\}
 			\xleftrightarrow[\;K \cap \Mono \mathrel{\rotatebox[origin=c]{180}{$\mapsto$}} K\;]{\;\tau \mapsto \tau^c\;}
@@ -83,46 +83,113 @@
 
 <details class="proof-shell" id="proof-prop:Grothendieck_Topology_Monogenic_Congruence_Bijection-main" data-owner-entry="grothendieck-topology-monogenic-congruence-bijection" data-proof-id="main">
   <summary>Proof</summary>
-  <div class="proof-body">First let <span class="math-inline">\(\tau\)</span> be a Grothendieck topology on <span class="math-inline">\(T\)</span>. The congruence <span class="math-inline">\(\tau^c\)</span> is monogenic, since <span class="math-inline">\(\tau \subseteq \Mono\)</span> gives <span class="math-inline">\(\tau^c = \tau^m = (\tau \cap \Mono)^m\)</span>, where the first equality uses <a href="../modalities-generated-by-monomorphisms-are-congruences/index.html#cor:Modality_Generated_By_Monomorphisms_Is_Congruence">Corollary 5.43</a>. Moreover, the saturation <span class="math-inline">\(\tau^s\)</span> is stable under base change: base-change functors preserve colimits, and a base change of a composite of covering monomorphisms is again such a composite. Hence <span class="math-inline">\(\tau^m=\tau^s\)</span>, and therefore <span class="math-inline">\(\tau^c=\tau^s\)</span>. In particular, <span class="math-inline">\(\tau^c\)</span> is of small generation. We claim that <span class="math-inline">\(\tau^c \cap \Mono = \tau\)</span>. Since <span class="math-inline">\(\tau\)</span> consists of monomorphisms, it suffices to show <span class="math-inline">\(\tau^c \cap \Mono \subseteq \tau\)</span>. Let <div class="math-display">\[E := \{f \in \Ar(T)\mid \im(f)\in\tau\}\]</div> be the class of <em><span class="math-inline">\(\tau\)</span>-coverings</em> (cf. <span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Grothendieck_Topologies">2024, Proposition 3.1.10</a>]</span>). We claim that <span class="math-inline">\(E\)</span> is saturated and contains <span class="math-inline">\(\tau\)</span>, hence <span class="math-inline">\(\tau^s\subseteq E\)</span>. Clearly <span class="math-inline">\(E\)</span> contains all isomorphisms, and <span class="math-inline">\(\tau \subseteq E\)</span> since <span class="math-inline">\(\im(m) = m\)</span> for every monomorphism <span class="math-inline">\(m\)</span>. Let us verify the remaining conditions.<div class="proof-paragraph-break" aria-hidden="true"></div><em>Base change.</em> Since the epi-mono factorization is stable under base change and <span class="math-inline">\(\tau\)</span> is closed under base change, <span class="math-inline">\(E\)</span> is closed under base change.<div class="proof-paragraph-break" aria-hidden="true"></div><em>Composition.</em> Let <span class="math-inline">\(f\colon X \to Y\)</span> and <span class="math-inline">\(g\colon Y \to Z\)</span> be morphisms in <span class="math-inline">\(E\)</span>, with epi-mono factorizations <div class="math-display">\[X \overset{\coim(f)}{\twoheadrightarrow} \Im(f) \xhookrightarrow{\im(f)} Y \overset{\coim(g)}{\twoheadrightarrow} \Im(g) \xhookrightarrow{\im(g)} Z,\]</div> so that <span class="math-inline">\(\im(f), \im(g) \in \tau\)</span>. Let <span class="math-inline">\(q\colon \Im(f) \to \Im(g)\)</span> be the composite <span class="math-inline">\(\coim(g) \circ \im(f)\)</span>, with epi-mono factorization <span class="math-inline">\(q = j \circ e_q\)</span> through some <span class="math-inline">\(J\)</span>: <figure class="diagram"><img src="diagrams/tikzcd-3fd41e26b210.svg" alt="Commutative diagram generated from the LaTeX source"></figure> Then <span class="math-inline">\(\im(gf) = \im(g) \circ j\)</span>, so it suffices to show <span class="math-inline">\(j \in \tau\)</span>. Pull back <span class="math-inline">\(j\)</span> along the effective epimorphism <span class="math-inline">\(\coim(g)\colon Y \twoheadrightarrow \Im(g)\)</span> to obtain <span class="math-inline">\(\pi\colon M := Y \times_{\Im(g)} J \hookrightarrow Y\)</span>. Since <span class="math-inline">\(\im(f)\)</span> factors through <span class="math-inline">\(\pi\)</span> (via the map <span class="math-inline">\(\Im(f) \to J\)</span> and the inclusion <span class="math-inline">\(\Im(f) \hookrightarrow Y\)</span>), the composite <span class="math-inline">\(\Im(f) \hookrightarrow M \xhookrightarrow{\pi} Y\)</span> equals <span class="math-inline">\(\im(f) \in \tau\)</span>. By axiom (d), it follows that <span class="math-inline">\(\pi \in \tau\)</span>. Since <span class="math-inline">\(\pi\)</span> is the pullback of <span class="math-inline">\(j\)</span> along an effective epimorphism and <span class="math-inline">\(\tau\)</span> is a local class, we conclude <span class="math-inline">\(j \in \tau\)</span>. Finally, <span class="math-inline">\(\im(gf) = \im(g) \circ j \in \tau\)</span> by axiom (c).<div class="proof-paragraph-break" aria-hidden="true"></div><em>Colimits.</em> First, <span class="math-inline">\(E\)</span> is closed under coproducts: since images commute with coproducts (as both the class of monomorphisms and the class of effective epimorphisms are closed under coproducts), we have <span class="math-inline">\(\im(\coprod f_i) = \coprod \im(f_i)\)</span>, and <span class="math-inline">\(\tau\)</span> is closed under coproducts by locality. For a general colimit <span class="math-inline">\(f'\colon A' \to B'\)</span> of a diagram <span class="math-inline">\(\{f_i\colon A_i \to B_i\}_{i \in I}\)</span> in <span class="math-inline">\(\Ar(T)\)</span>, let <span class="math-inline">\(f\colon A \to B\)</span> be the coproduct <span class="math-inline">\(\coprod_{i \in I} f_i\)</span>, so that <span class="math-inline">\(f \in E\)</span>. The canonical maps <span class="math-inline">\(a\colon A \twoheadrightarrow A'\)</span> and <span class="math-inline">\(b\colon B \twoheadrightarrow B'\)</span> are effective epimorphisms, and <span class="math-inline">\(f'a = bf\)</span>. Since <span class="math-inline">\(b\)</span> is an effective epimorphism (hence in <span class="math-inline">\(E\)</span>) and <span class="math-inline">\(f \in E\)</span>, the composition <span class="math-inline">\(bf = f'a\)</span> lies in <span class="math-inline">\(E\)</span> by the above. Since <span class="math-inline">\(a\)</span> is an effective epimorphism, <span class="math-inline">\(\im(f'a) = \im(f')\)</span>, so <span class="math-inline">\(f' \in E\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>This establishes that <span class="math-inline">\(E\)</span> is saturated. If <span class="math-inline">\(m\in\tau^s\cap\Mono\)</span>, then <span class="math-inline">\(m\in E\)</span>, so <span class="math-inline">\(\im(m)=m\)</span> lies in <span class="math-inline">\(\tau\)</span>. Thus <span class="math-inline">\(\tau^c\cap\Mono = \tau^s\cap\Mono\subseteq\tau\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Conversely, let <span class="math-inline">\(K\)</span> be a monogenic congruence of small generation and set <span class="math-inline">\(\tau_K := K \cap \Mono\)</span>. The congruence generated by <span class="math-inline">\(\tau_K\)</span> is <div class="math-display">\[\tau_K^c = \tau_K^m = (K \cap \Mono)^m = K,\]</div> where the first equality uses <a href="../modalities-generated-by-monomorphisms-are-congruences/index.html#cor:Modality_Generated_By_Monomorphisms_Is_Congruence">Corollary 5.43</a>, and the last is the monogenicity of <span class="math-inline">\(K\)</span>. We now verify that <span class="math-inline">\(\tau_K\)</span> is a Grothendieck topology.<div class="proof-paragraph-break" aria-hidden="true"></div>(a) The class <span class="math-inline">\(\tau_K\)</span> contains all isomorphisms. Since <span class="math-inline">\(K\)</span> is monogenic and of small generation, <a href="../monogenic-parts-via-images/index.html#lem:Monogenic_Part_Via_Images">Lemma 5.56</a> provides a set <span class="math-inline">\(\Sigma\subseteq\tau_K\)</span> of monomorphisms which generates <span class="math-inline">\(K\)</span> as an acyclic class. Choose a set of generators of <span class="math-inline">\(T\)</span> and let <span class="math-inline">\(\Sigma^{bc}\)</span> be the corresponding set of base changes. Since <span class="math-inline">\(\tau_K\)</span> is closed under base change, we have <span class="math-inline">\(\Sigma^{bc}\subseteq\tau_K\)</span>. Hence <div class="math-display">\[K=\Sigma^m=(\Sigma^{bc})^s\subseteq\tau_K^s\subseteq K,\]</div> where the second equality is <a href="../generated-modalities-as-saturations-of-base-changes/index.html#prop:Generated_Modality_Is_Saturation_Of_Base_Changes">Proposition 5.32</a>. Thus <span class="math-inline">\(\tau_K^s=K\)</span>, so <span class="math-inline">\(\tau_K^s\)</span> is of small generation.<div class="proof-paragraph-break" aria-hidden="true"></div>(b) The class <span class="math-inline">\(\tau_K\)</span> is local: <ul class="proof-list"><li>Closure under base change is immediate from base-change stability of <span class="math-inline">\(K\)</span> and <span class="math-inline">\(\Mono\)</span>.</li><li>Closure under small coproducts follows since <span class="math-inline">\(K\)</span> is saturated (hence closed under coproducts in <span class="math-inline">\(\Ar(T)\)</span>), and coproducts of monomorphisms are monomorphisms in a topos.</li><li>For descent along effective epimorphisms, consider a pullback square as in <a href="../local-classes/index.html#def:Local_Class">Definition 2.46</a> with <span class="math-inline">\(f' \in \tau_K\)</span>. Then <span class="math-inline">\(f' \in K\)</span>, so <span class="math-inline">\(f \in K\)</span> by locality of <span class="math-inline">\(K\)</span>. Also, since pullback along an effective epimorphism is conservative and preserves monomorphisms, <span class="math-inline">\(f\)</span> is monic. Hence <span class="math-inline">\(f \in K \cap \Mono = \tau_K\)</span>.</li></ul><div class="proof-paragraph-break" aria-hidden="true"></div>(c) If <span class="math-inline">\(f,g \in \tau_K\)</span>, then <span class="math-inline">\(f,g \in K\)</span> and <span class="math-inline">\(f,g\)</span> are monomorphisms. Since <span class="math-inline">\(K\)</span> is saturated, <span class="math-inline">\(gf \in K\)</span>, and since monomorphisms are closed under composition, <span class="math-inline">\(gf \in \Mono\)</span>. Thus <span class="math-inline">\(gf \in \tau_K\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>(d) Let <span class="math-inline">\(V \xhookrightarrow{f} U \xhookrightarrow{g} X\)</span> be monomorphisms with <span class="math-inline">\(gf\in\tau_K\)</span>. Since <span class="math-inline">\(gf\in K\)</span>, the image of <span class="math-inline">\(gf\)</span> in the quotient <span class="math-inline">\(q\colon T\to T/K\)</span> is an isomorphism, and thus <span class="math-inline">\(q(g)\)</span> admits a section. As <span class="math-inline">\(q\)</span> is left exact, <span class="math-inline">\(q(g)\)</span> is a monomorphism, hence an isomorphism, so <span class="math-inline">\(g \in K\)</span>. Since <span class="math-inline">\(g\)</span> is monic, <span class="math-inline">\(g\in K\cap\Mono=\tau_K\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Hence <span class="math-inline">\(\tau_K\)</span> is a Grothendieck topology. Together with <span class="math-inline">\(\tau_K^c=K\)</span> and <span class="math-inline">\(\tau^c \cap\Mono=\tau\)</span>, this shows the two assignments are inverse.<span class="qed" aria-label="End of proof"></span></div>
+  <div class="proof-body">First let <span class="math-inline">\(\tau\)</span> be a Grothendieck topology on <span class="math-inline">\(T\)</span>. The congruence <span class="math-inline">\(\tau^c\)</span> is monogenic, since <span class="math-inline">\(\tau \subseteq \Mono\)</span> gives <span class="math-inline">\(\tau^c = \tau^m = (\tau \cap \Mono)^m\)</span>, where the first equality uses <a href="../modalities-generated-by-monomorphisms-are-congruences/index.html#cor:Modality_Generated_By_Monomorphisms_Is_Congruence">Corollary 5.43</a>. Moreover, the saturation <span class="math-inline">\(\tau^s\)</span> is stable under base change: base-change functors preserve colimits, and a base change of a composite of covering monomorphisms is again such a composite. Hence <span class="math-inline">\(\tau^m=\tau^s\)</span>, and therefore <span class="math-inline">\(\tau^c=\tau^s\)</span>. In particular, <span class="math-inline">\(\tau^c\)</span> is of small generation. We claim that <span class="math-inline">\(\tau^c \cap \Mono = \tau\)</span>. Since <span class="math-inline">\(\tau\)</span> consists of monomorphisms, it suffices to show <span class="math-inline">\(\tau^c \cap \Mono \subseteq \tau\)</span>. Let <div class="math-display">\[E := \{f \in \Ar(T)\mid \im(f)\in\tau\}\]</div> be the class of <em><span class="math-inline">\(\tau\)</span>-coverings</em> (cf. <span class="citation-group">[Anel et al. <a class="citation" href="../../references/index.html#bib-ABFJ_Grothendieck_Topologies">2024, Proposition 3.1.10</a>]</span>). We claim that <span class="math-inline">\(E\)</span> is saturated and contains <span class="math-inline">\(\tau\)</span>, hence <span class="math-inline">\(\tau^s\subseteq E\)</span>. Clearly <span class="math-inline">\(E\)</span> contains all isomorphisms, and <span class="math-inline">\(\tau \subseteq E\)</span> since <span class="math-inline">\(\im(m) = m\)</span> for every monomorphism <span class="math-inline">\(m\)</span>. Let us verify the remaining conditions.<div class="proof-paragraph-break" aria-hidden="true"></div><em>Base change.</em> Since the epi-mono factorization is stable under base change and <span class="math-inline">\(\tau\)</span> is closed under base change, <span class="math-inline">\(E\)</span> is closed under base change.<div class="proof-paragraph-break" aria-hidden="true"></div><em>Composition.</em> Let <span class="math-inline">\(f\colon X \to Y\)</span> and <span class="math-inline">\(g\colon Y \to Z\)</span> be morphisms in <span class="math-inline">\(E\)</span>, with epi-mono factorizations <div class="math-display">\[X \overset{\coim(f)}{\twoheadrightarrow} \Im(f) \xhookrightarrow{\im(f)} Y \overset{\coim(g)}{\twoheadrightarrow} \Im(g) \xhookrightarrow{\im(g)} Z,\]</div> so that <span class="math-inline">\(\im(f), \im(g) \in \tau\)</span>. Let <span class="math-inline">\(q\colon \Im(f) \to \Im(g)\)</span> be the composite <span class="math-inline">\(\coim(g) \circ \im(f)\)</span>, with epi-mono factorization <span class="math-inline">\(q = j \circ e_q\)</span> through some <span class="math-inline">\(J\)</span>: <figure class="diagram"><img src="diagrams/tikzcd-3fd41e26b210.svg" alt="Commutative diagram generated from the LaTeX source"></figure> Then <span class="math-inline">\(\im(gf) = \im(g) \circ j\)</span>, so it suffices to show <span class="math-inline">\(j \in \tau\)</span>. Pull back <span class="math-inline">\(j\)</span> along the effective epimorphism <span class="math-inline">\(\coim(g)\colon Y \twoheadrightarrow \Im(g)\)</span> to obtain <span class="math-inline">\(\pi\colon M := Y \times_{\Im(g)} J \hookrightarrow Y\)</span>. Since <span class="math-inline">\(\im(f)\)</span> factors through <span class="math-inline">\(\pi\)</span> (via the map <span class="math-inline">\(\Im(f) \to J\)</span> and the inclusion <span class="math-inline">\(\Im(f) \hookrightarrow Y\)</span>), the composite <span class="math-inline">\(\Im(f) \hookrightarrow M \xhookrightarrow{\pi} Y\)</span> equals <span class="math-inline">\(\im(f) \in \tau\)</span>. By axiom (d), it follows that <span class="math-inline">\(\pi \in \tau\)</span>. Since <span class="math-inline">\(\pi\)</span> is the pullback of <span class="math-inline">\(j\)</span> along an effective epimorphism and <span class="math-inline">\(\tau\)</span> is a local class, we conclude <span class="math-inline">\(j \in \tau\)</span>. Finally, <span class="math-inline">\(\im(gf) = \im(g) \circ j \in \tau\)</span> by axiom (c).<div class="proof-paragraph-break" aria-hidden="true"></div><em>Colimits.</em> First, <span class="math-inline">\(E\)</span> is closed under coproducts: since images commute with coproducts (as both the class of monomorphisms and the class of effective epimorphisms are closed under coproducts), we have <span class="math-inline">\(\im(\coprod f_i) = \coprod \im(f_i)\)</span>, and <span class="math-inline">\(\tau\)</span> is closed under coproducts by locality. For a general colimit <span class="math-inline">\(f'\colon A' \to B'\)</span> of a diagram <span class="math-inline">\(\{f_i\colon A_i \to B_i\}_{i \in I}\)</span> in <span class="math-inline">\(\Ar(T)\)</span>, let <span class="math-inline">\(f\colon A \to B\)</span> be the coproduct <span class="math-inline">\(\coprod_{i \in I} f_i\)</span>, so that <span class="math-inline">\(f \in E\)</span>. The canonical maps <span class="math-inline">\(a\colon A \twoheadrightarrow A'\)</span> and <span class="math-inline">\(b\colon B \twoheadrightarrow B'\)</span> are effective epimorphisms, and <span class="math-inline">\(f'a = bf\)</span>. Since <span class="math-inline">\(b\)</span> is an effective epimorphism (hence in <span class="math-inline">\(E\)</span>) and <span class="math-inline">\(f \in E\)</span>, the composition <span class="math-inline">\(bf = f'a\)</span> lies in <span class="math-inline">\(E\)</span> by the above. Since <span class="math-inline">\(a\)</span> is an effective epimorphism, <span class="math-inline">\(\im(f'a) = \im(f')\)</span>, so <span class="math-inline">\(f' \in E\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>This establishes that <span class="math-inline">\(E\)</span> is saturated. If <span class="math-inline">\(m\in\tau^s\cap\Mono\)</span>, then <span class="math-inline">\(m\in E\)</span>, so <span class="math-inline">\(\im(m)=m\)</span> lies in <span class="math-inline">\(\tau\)</span>. Thus <span class="math-inline">\(\tau^c\cap\Mono = \tau^s\cap\Mono\subseteq\tau\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Conversely, let <span class="math-inline">\(K\)</span> be a monogenic congruence of small generation and set <span class="math-inline">\(\tau_K := K \cap \Mono\)</span>. The congruence generated by <span class="math-inline">\(\tau_K\)</span> is <div class="math-display">\[\tau_K^c = \tau_K^m = (K \cap \Mono)^m = K,\]</div> where the first equality uses <a href="../modalities-generated-by-monomorphisms-are-congruences/index.html#cor:Modality_Generated_By_Monomorphisms_Is_Congruence">Corollary 5.43</a>, and the last is the monogenicity of <span class="math-inline">\(K\)</span>. We now verify that <span class="math-inline">\(\tau_K\)</span> is a Grothendieck topology.<div class="proof-paragraph-break" aria-hidden="true"></div>(a) The class <span class="math-inline">\(\tau_K\)</span> contains all isomorphisms. Since <span class="math-inline">\(K\)</span> is monogenic and of small generation, <a href="../monogenic-parts-via-images/index.html#lem:Monogenic_Part_Via_Images">Lemma 5.56</a> provides a set <span class="math-inline">\(\Sigma\subseteq\tau_K\)</span> of monomorphisms which generates <span class="math-inline">\(K\)</span> as an acyclic class. Choose a set of generators of <span class="math-inline">\(T\)</span> and let <span class="math-inline">\(\Sigma^{bc}\)</span> be the corresponding set of base changes. Since <span class="math-inline">\(\tau_K\)</span> is closed under base change, we have <span class="math-inline">\(\Sigma^{bc}\subseteq\tau_K\)</span>. Hence <div class="math-display">\[K=\Sigma^m=(\Sigma^{bc})^s\subseteq\tau_K^s\subseteq K,\]</div> where the second equality is <a href="../generated-modalities-as-saturations-of-base-changes/index.html#prop:Generated_Modality_Is_Saturation_Of_Base_Changes">Proposition 5.32</a>. Thus <span class="math-inline">\(\tau_K^s=K\)</span>, so <span class="math-inline">\(\tau_K^s\)</span> is of small generation.<div class="proof-paragraph-break" aria-hidden="true"></div>(b) The class <span class="math-inline">\(\tau_K\)</span> is local: <ul class="proof-list"><li>Closure under base change is immediate from base-change stability of <span class="math-inline">\(K\)</span> and <span class="math-inline">\(\Mono\)</span>.</li><li>Closure under small coproducts follows since <span class="math-inline">\(K\)</span> is saturated (hence closed under coproducts in <span class="math-inline">\(\Ar(T)\)</span>), and coproducts of monomorphisms are monomorphisms in a topos.</li><li>For descent along effective epimorphisms, consider a pullback square as in <a href="../local-classes/index.html#def:Local_Class">Definition 2.46</a> with <span class="math-inline">\(f' \in \tau_K\)</span>. Then <span class="math-inline">\(f' \in K\)</span>, so <span class="math-inline">\(f \in K\)</span> by locality of <span class="math-inline">\(K\)</span>. Also, since pullback along an effective epimorphism is conservative and preserves monomorphisms, <span class="math-inline">\(f\)</span> is monic. Hence <span class="math-inline">\(f \in K \cap \Mono = \tau_K\)</span>.</li></ul><div class="proof-paragraph-break" aria-hidden="true"></div>(c) If <span class="math-inline">\(f,g \in \tau_K\)</span>, then <span class="math-inline">\(f,g \in K\)</span> and <span class="math-inline">\(f,g\)</span> are monomorphisms. Since <span class="math-inline">\(K\)</span> is saturated, <span class="math-inline">\(gf \in K\)</span>, and since monomorphisms are closed under composition, <span class="math-inline">\(gf \in \Mono\)</span>. Thus <span class="math-inline">\(gf \in \tau_K\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>(d) Let <span class="math-inline">\(V \xhookrightarrow{f} U \xhookrightarrow{g} X\)</span> be monomorphisms with <span class="math-inline">\(gf\in\tau_K\)</span>. Since <span class="math-inline">\(gf\in K\)</span>, the image of <span class="math-inline">\(gf\)</span> in the quotient <span class="math-inline">\(q\colon T\to T/K\)</span> is an isomorphism, and thus <span class="math-inline">\(q(g)\)</span> admits a section. As <span class="math-inline">\(q\)</span> is left exact, <span class="math-inline">\(q(g)\)</span> is a monomorphism, hence an isomorphism, so <span class="math-inline">\(g \in K\)</span>. Since <span class="math-inline">\(g\)</span> is monic, <span class="math-inline">\(g\in K\cap\Mono=\tau_K\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Hence <span class="math-inline">\(\tau_K\)</span> is a Grothendieck topology. Together with <span class="math-inline">\(\tau_K^c=K\)</span> and <span class="math-inline">\(\tau^c \cap\Mono=\tau\)</span>, this shows the two assignments are inverse.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-ABFJ_Grothendieck_Topologies">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>Left-exact localizations of ∞-topoi. II: Grothendieck topologies</em>. J. Pure Appl. Algebra, 228 (3), 63. 2024.</li></ol></section>
+<span id="bib-ABFJ_Grothendieck_Topologies" data-legacy-reference="../../references/index.html#bib-ABFJ_Grothendieck_Topologies" hidden></span>
     </article>
-      <aside class="context-nav" id="context-navigation" data-context-nav aria-label="Nearby entries">
-      <button class="context-nav-collapse" type="button" data-context-nav-collapse data-collapsed-label="Nearby entries" aria-controls="context-navigation" aria-expanded="true" aria-label="Hide Nearby entries">
-      <span aria-hidden="true">›</span>
-    </button>
-      <p class="context-chapter-link"><a href="../../chapter/topics-in-topos-theory/index.html">Topics in topos theory</a></p>
-      <p class="context-nav-kicker">Section 6.1</p>
-      <h2><a href="../../section/sheaf-topoi/index.html">Sheaf topoi</a></h2>
-      <p class="context-nav-description"><a href="../../section/sheaf-topoi/index.html#prop:Grothendieck_Topology_Monogenic_Congruence_Bijection">Read this result in the continuous section</a></p>
-      <ol class="context-entry-list context-entry-list-nearby">
-        <li><a href="../grothendieck-topology-site/index.html">
-          <span class="context-entry-heading">Definition 6.7</span>
-          <span class="context-entry-title">Grothendieck topology site</span>
+      <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../chapter/introduction/index.html">
+          <span class="context-entry-heading">Chapter 1</span>
+          <span class="context-entry-title">Introduction</span>
         </a></li>
-<li><a href="../grothendieck-topologies-on-category-and-presheaf-topos/index.html">
-          <span class="context-entry-heading">Lemma 6.8</span>
-          <span class="context-entry-title">Grothendieck topologies on category and presheaf topos</span>
+<li><a href="../../chapter/foundations/index.html">
+          <span class="context-entry-heading">Chapter 2</span>
+          <span class="context-entry-title">Foundations</span>
         </a></li>
-<li><a href="#prop:Grothendieck_Topology_Monogenic_Congruence_Bijection" aria-current="page">
-          <span class="context-entry-heading">Proposition 6.9</span>
-          <span class="context-entry-title">Grothendieck topology monogenic congruence bijection</span>
+<li><a href="../../chapter/truncation-connectivity/index.html">
+          <span class="context-entry-heading">Chapter 3</span>
+          <span class="context-entry-title">Truncation and connectivity</span>
         </a></li>
-<li><a href="../sheaf-topos/index.html">
-          <span class="context-entry-heading">Definition 6.10</span>
-          <span class="context-entry-title">Sheaf topos</span>
+<li><a href="../../chapter/topoi-logoi/index.html">
+          <span class="context-entry-heading">Chapter 4</span>
+          <span class="context-entry-title">The categories of topoi and logoi</span>
         </a></li>
-<li><a href="../open-covering-topology/index.html">
-          <span class="context-entry-heading">Example 6.11</span>
-          <span class="context-entry-title">Open covering topology</span>
+<li><a href="../../chapter/modalities/index.html">
+          <span class="context-entry-heading">Chapter 5</span>
+          <span class="context-entry-title">Modalities</span>
         </a></li>
-      </ol>
-      <nav class="context-step-links" aria-label="Previous and next entries"><a rel="prev" href="../grothendieck-topologies-on-category-and-presheaf-topos/index.html"><span>Previous</span>Grothendieck topologies on category and presheaf topos</a>
-<a rel="next" href="../sheaf-topos/index.html"><span>Next</span>Sheaf topos</a></nav>
-    </aside>
+<li><a href="../../chapter/topics-in-topos-theory/index.html" aria-current="location">
+          <span class="context-entry-heading">Chapter 6</span>
+          <span class="context-entry-title">Topics in topos theory</span>
+        </a></li>
+<li><a href="../../chapter/geometry/index.html">
+          <span class="context-entry-heading">Chapter 7</span>
+          <span class="context-entry-title">Geometry</span>
+        </a></li>
+<li><a href="../../chapter/factorization-systems-and-saturated-classes/index.html">
+          <span class="context-entry-heading">Appendix A</span>
+          <span class="context-entry-title">Factorization systems and saturated classes</span>
+        </a></li>
+<li><a href="../../chapter/limits-and-colimits-in-categories-of-sections/index.html">
+          <span class="context-entry-heading">Appendix B</span>
+          <span class="context-entry-title">Limits and colimits in categories of sections</span>
+        </a></li>
+<li><a href="../../chapter/dense-subcategories-closed-under-finite-limits/index.html">
+          <span class="context-entry-heading">Appendix C</span>
+          <span class="context-entry-title">Dense subcategories closed under finite limits</span>
+        </a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../section/sheaf-topoi/index.html" aria-current="page">
+          <span class="context-entry-heading">Section 6.1</span>
+          <span class="context-entry-title">Sheaf topoi</span>
+        </a></li>
+<li><a href="../../section/groupoid-actions-and-principal-bundles/index.html">
+          <span class="context-entry-heading">Section 6.2</span>
+          <span class="context-entry-title">Groupoid actions and principal bundles</span>
+        </a></li>
+<li><a href="../../section/hypercovers/index.html">
+          <span class="context-entry-heading">Section 6.3</span>
+          <span class="context-entry-title">Hypercovers</span>
+        </a></li>
+<li><a href="../../section/localic-topoi-postnikov-completeness-and-boundedness/index.html">
+          <span class="context-entry-heading">Section 6.4</span>
+          <span class="context-entry-title">Localic topoi, Postnikov-completeness, and boundedness</span>
+        </a></li>
+<li><a href="../../section/dimension-theory/index.html">
+          <span class="context-entry-heading">Section 6.5</span>
+          <span class="context-entry-title">Dimension theory</span>
+        </a></li>
+<li><a href="../../section/essential-morphisms-and-shape-theory/index.html">
+          <span class="context-entry-heading">Section 6.6</span>
+          <span class="context-entry-title">Essential morphisms and shape theory</span>
+        </a></li>
+<li><a href="../../section/coherence/index.html">
+          <span class="context-entry-heading">Section 6.7</span>
+          <span class="context-entry-title">Coherence</span>
+        </a></li>
+<li><a href="../../section/pretopoi/index.html">
+          <span class="context-entry-heading">Section 6.8</span>
+          <span class="context-entry-title">Pretopoi</span>
+        </a></li>
+<li><a href="../../section/makkai-completeness/index.html">
+          <span class="context-entry-heading">Section 6.9</span>
+          <span class="context-entry-title">Makkai completeness</span>
+        </a></li>
+<li><a href="../../section/compactly-assembled-categories-and-exponentiability/index.html">
+          <span class="context-entry-heading">Section 6.10</span>
+          <span class="context-entry-title">Compactly assembled categories and exponentiability</span>
+        </a></li>
+<li><a href="../../section/topoi-of-parametrized-objects/index.html">
+          <span class="context-entry-heading">Section 6.11</span>
+          <span class="context-entry-title">Topoi of parametrized objects</span>
+        </a></li></ol>
+    </nav>
+  </section></div>
+  </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

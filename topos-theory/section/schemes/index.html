@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Schemes | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/schemes/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,10 +20,10 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 </head>
-<body class="section-page has-context-nav" data-record-id="schemes" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="schemes" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -32,8 +32,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -94,7 +94,7 @@
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/etale-schemes-and-deligne-mumford-stacks/index.html">Remark 7.5.</a></span></p>
   <div class="theorem-statement"><p>Étale schemes are also called <em>Deligne–Mumford <span class="math-inline">\(\infty\)</span>-stacks</em>.</p></div>
 </section>
-<p>The following are standard facts from scheme theory, translated into the language of structured topoi; see <span class="citation-group">[Lurie <a class="citation" href="#bib-Lurie_DAG_V">2011, Sections 2 and 3</a>]</span> for this formalism.</p>
+<p>The following are standard facts from scheme theory, translated into the language of structured topoi; see <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-Lurie_DAG_V">2011, Sections 2 and 3</a>]</span> for this formalism.</p>
 <ul><li><p>The global section functor</p>
 <div class="math-display">\[\mathrm{LocRingTopos} \to \CRing\catop, \qquad (T,\Oo) \mapsto \Oo(T)\]</div>
 <p>admits a fully faithful right adjoint</p>
@@ -110,7 +110,7 @@
 </section>
 <p>We denote the resulting wide subcategory of <span class="math-inline">\(\Sch_{\Zar}\)</span> by</p>
 <div class="math-display">\[\Sch_{\Zar}^{\et} := \Sch_{\Zar} \times_{\Topos} \Topos^{\et} \subseteq \Sch_{\Zar}.\]</div>
-<section class="theorem proposition" id="prop:Etale_Schemes_Is_Topos">
+<section class="theorem proposition theorem-plain" id="prop:Etale_Schemes_Is_Topos">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/etale-schemes-form-a-topos/index.html">Proposition 7.7.</a></span></p>
   <div class="theorem-statement"><p>The category <span class="math-inline">\(\Sch_{\Zar}^{\et}\)</span> is (up to size issues) a topos. In fact, there is an equivalence</p>
 <div class="math-display">\[\Sch_{\Zar}^{\et} \simeq \Shv_{\Zar}(\CRing^{\ad,\op}),\]</div>
@@ -132,7 +132,7 @@
 <div class="math-display">\[(\Topos_{//E})^{\loc} \subseteq \Topos_{//E}\]</div>
 <p>consisting of the <em>local</em> morphisms of ringed topoi.</p></li></ol>
 <p>The guiding point is that these four structures are different manifestations of the same geometry. The theory below makes precise the relation between corporeal objects and admissible morphisms, and then explains how local morphisms recover the corresponding notion of scheme.</p>
-<p>In the next two sections we will consider abstract versions of this story: Lurie's notion of a <em>geometry</em> which encapsulates the idea of having affine test objects with morphisms playing the role of open inclusions and the covers they generate, and the resulting notion of a <em>fractured topos</em>.</p><section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-Lurie_DAG_V">Jacob Lurie. <em>Derived algebraic geometry V: Structured spaces</em>. 2011.</li></ol></section>
+<p>In the next two sections we will consider abstract versions of this story: Lurie's notion of a <em>geometry</em> which encapsulates the idea of having affine test objects with morphisms playing the role of open inclusions and the covers they generate, and the resulting notion of a <em>fractured topos</em>.</p><span id="bib-Lurie_DAG_V" data-legacy-reference="../../references/index.html#bib-Lurie_DAG_V" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -211,53 +211,12 @@
           <span class="context-entry-title">Gestalten</span>
         </a></li></ol>
     </nav>
-  </section><section class="contents-ledger" data-contents-ledger data-open="true">
-    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
-    </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 7.1</p>
-      <p class="context-nav-description">Schemes</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Ringed_Topos" data-section-target="def:Ringed_Topos">
-          <span class="context-entry-heading">Definition 7.1</span>
-          <span class="context-entry-title">Ringed topos</span>
-        </a></li>
-<li><a href="#def:Zariski_Scheme" data-section-target="def:Zariski_Scheme">
-          <span class="context-entry-heading">Definition 7.2</span>
-          <span class="context-entry-title">Zariski scheme</span>
-        </a></li>
-<li><a href="#def:Etale_Scheme" data-section-target="def:Etale_Scheme">
-          <span class="context-entry-heading">Definition 7.3</span>
-          <span class="context-entry-title">Étale scheme</span>
-        </a></li>
-<li><a href="#ex:Schemes" data-section-target="ex:Schemes">
-          <span class="context-entry-heading">Example 7.4</span>
-          <span class="context-entry-title">Examples of schemes</span>
-        </a></li>
-<li><a href="#rmk:Etale_Schemes_DM_Stacks" data-section-target="rmk:Etale_Schemes_DM_Stacks">
-          <span class="context-entry-heading">Remark 7.5</span>
-          <span class="context-entry-title">Étale schemes and Deligne–Mumford stacks</span>
-        </a></li>
-<li><a href="#def:Etale_Morphism_Schemes" data-section-target="def:Etale_Morphism_Schemes">
-          <span class="context-entry-heading">Definition 7.6</span>
-          <span class="context-entry-title">Étale morphisms of schemes</span>
-        </a></li>
-<li><a href="#prop:Etale_Schemes_Is_Topos" data-section-target="prop:Etale_Schemes_Is_Topos">
-          <span class="context-entry-heading">Proposition 7.7</span>
-          <span class="context-entry-title">Étale schemes form a topos</span>
-        </a></li>
-<li><a href="#obs:Factorization_In_Rings" data-section-target="obs:Factorization_In_Rings">
-          <span class="context-entry-heading">Observation 7.8</span>
-          <span class="context-entry-title">Factorization in rings</span>
-        </a></li>
-      </ol>
-    </nav>
   </section></div>
   </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

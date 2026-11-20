@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Essential morphisms and shape theory | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/section/essential-morphisms-and-shape-theory/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,7 +20,7 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <style>
     .publication-fragment-notice { margin: 2rem 0; padding: 1rem; border: 1px solid #b6aa91; background: #faf7ef; }
@@ -34,7 +34,7 @@
     })();
   </script>
 </head>
-<body class="section-page has-context-nav" data-record-id="essential-morphisms-and-shape-theory" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="section-page has-context-nav" data-record-id="essential-morphisms-and-shape-theory" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -43,8 +43,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -76,7 +76,7 @@
     <article class="notes-page">
       
 <h2 id="sec:Essential_Morphisms_Shape"><span>6.6.</span> Essential morphisms and shape theory</h2>
-<p>Shape theory extracts a pro-object which records how a topos sees constant objects. For an arbitrary morphism of topoi, this construction naturally takes values in a pro-category. It is represented by an ordinary object precisely when the inverse image functor admits a further left adjoint. We first discuss these <em>essential</em> morphisms, then construct relative shape using pro-left adjoints, and finally characterize essentiality by the local representability of relative shape. We closely follow <span class="citation-group">Aizenbud and Carmeli (<a class="citation" href="#bib-AizenbudCarmeli2021Nash">2021, Section 3.1</a>)</span>.</p>
+<p>Shape theory extracts a pro-object which records how a topos sees constant objects. For an arbitrary morphism of topoi, this construction naturally takes values in a pro-category. It is represented by an ordinary object precisely when the inverse image functor admits a further left adjoint. We first discuss these <em>essential</em> morphisms, then construct relative shape using pro-left adjoints, and finally characterize essentiality by the local representability of relative shape. We closely follow <span class="citation-group">Aizenbud and Carmeli (<a class="citation" href="../../references/index.html#bib-AizenbudCarmeli2021Nash">2021, Section 3.1</a>)</span>.</p>
 <h3 id="subsec:Essential_Morphisms"><span>6.6.1.</span> Essential morphisms</h3>
 
 <section class="theorem definition" id="def:Essential_Morphism">
@@ -101,7 +101,7 @@
 <p>For a general morphism of topoi <span class="math-inline">\(\phi_*\)</span>, the inverse image functor <span class="math-inline">\(\phi^*\)</span> need not admit a left adjoint. It does acquire one after passage to pro-categories. For a presentable category <span class="math-inline">\(C\)</span> which admits finite limits, we use the large pro-category</p>
 <div class="math-display">\[\Pro(C) \quad:=\quad \Fun^{\lex,\acc}(C,\An)\catop,\]</div>
 <p>where the superscript indicates the accessible left exact functors. For a small category <span class="math-inline">\(C\)</span>, this agrees with <span class="math-inline">\(\Ind(C\catop)\catop\)</span>. There is a fully faithful embedding <span class="math-inline">\(C \hookrightarrow \Pro(C)\)</span> given by <span class="math-inline">\(X \mapsto \Hom_C(X,-)\)</span>. An object of <span class="math-inline">\(\Pro(C)\)</span> is called <em>pro-constant</em>, or <em>corepresentable</em>, if it lies in the essential image of this embedding.</p>
-<section class="theorem proposition" id="prop:Pro_Left_Adjoint">
+<section class="theorem proposition theorem-plain" id="prop:Pro_Left_Adjoint">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/pro-left-adjoint/index.html">Proposition 6.80.</a></span> (Pro-left adjoint)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(\phi_*\colon T \to S\)</span> be a morphism of topoi. The induced functor</p>
 <div class="math-display">\[\Pro(\phi^*)\colon \Pro(S) \longrightarrow \Pro(T)\]</div>
@@ -145,7 +145,7 @@
 
 <section class="theorem example" id="ex:Shape_Of_Sheaf_Topos">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/shape-of-sheaf-topos/index.html">Example 6.84.</a></span></p>
-  <div class="theorem-statement"><p>Let <span class="math-inline">\(X\)</span> be a paracompact, locally contractible topological space. Then <span class="math-inline">\(\Shv(X)\)</span> is essential and its shape is represented by the singular anima <span class="math-inline">\(\Pi_\infty X\)</span>. Without a local contractibility hypothesis, the shape need not be represented by the weak homotopy type of <span class="math-inline">\(X\)</span>; the pro-object can retain information which the singular anima loses. See <span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2016HA">2017, Appendix A</a>]</span>.</p></div>
+  <div class="theorem-statement"><p>Let <span class="math-inline">\(X\)</span> be a paracompact, locally contractible topological space. Then <span class="math-inline">\(\Shv(X)\)</span> is essential and its shape is represented by the singular anima <span class="math-inline">\(\Pi_\infty X\)</span>. Without a local contractibility hypothesis, the shape need not be represented by the weak homotopy type of <span class="math-inline">\(X\)</span>; the pro-object can retain information which the singular anima loses. See <span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2016HA">2017, Appendix A</a>]</span>.</p></div>
 </section>
 
 <h3 id="subsec:Local_Constancy_And_Essentialness"><span>6.6.3.</span> Local constancy and essentiality</h3>
@@ -159,8 +159,8 @@
 <p>A topos <span class="math-inline">\(T\)</span> is <em>locally of constant shape</em> if the terminal morphism <span class="math-inline">\(\Gamma_*\colon T \to \An\)</span> is locally of constant shape.</p></div>
 </section>
 <p>The following proposition provides a key characterization of essential morphisms:</p>
-<section class="theorem proposition" id="prop:Essential_Vs_Locally_Constant_Shape">
-  <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/essential-vs-locally-constant-shape/index.html">Proposition 6.86.</a></span> (<span class="citation-group">Aizenbud and Carmeli (<a class="citation" href="#bib-AizenbudCarmeli2021Nash">2021, Proposition 3.1.5</a>)</span>)</p>
+<section class="theorem proposition theorem-plain" id="prop:Essential_Vs_Locally_Constant_Shape">
+  <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/essential-vs-locally-constant-shape/index.html">Proposition 6.86.</a></span> (<span class="citation-group">Aizenbud and Carmeli (<a class="citation" href="../../references/index.html#bib-AizenbudCarmeli2021Nash">2021, Proposition 3.1.5</a>)</span>)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(\phi_* \colon T \to S\)</span> be a morphism of topoi and let <span class="math-inline">\(\{U_i\}_{i \in I}\)</span> be a collection of objects which generates <span class="math-inline">\(T\)</span> under colimits. Then the following conditions are equivalent:</p>
 <ol><li><p>The morphism <span class="math-inline">\(\phi_*\)</span> is essential;</p></li><li><p>Every object <span class="math-inline">\(U_i\)</span> has constant shape relative to <span class="math-inline">\(\phi_*\)</span>.</p></li></ol></div>
 </section>
@@ -170,12 +170,12 @@
   <div class="proof-body">Recall from <a href="#ex:Etale_Morphisms_Are_Essential">Example 6.78</a> that the étale morphism <span class="math-inline">\(j_*\colon T_{/U} \to T\)</span> is essential. Pro-left adjoints compose, so the relative shape of the composite <span class="math-inline">\(\phi_* \circ j_*\colon T_{/U} \to S\)</span> is the image of the terminal object of <span class="math-inline">\(T_{/U}\)</span> under the composite <div class="math-display">\[T_{/U} \xrightarrow{j_\sharp} T \xrightarrow{\phi_\sharp} \Pro(S).\]</div> Since <span class="math-inline">\(j_\sharp\)</span> is the forgetful functor sending <span class="math-inline">\((V \to U)\)</span> to <span class="math-inline">\(V\)</span>, we see that the relative shape of <span class="math-inline">\(\phi_* \circ j_*\)</span> is equivalent to <span class="math-inline">\(\phi_\sharp(U) \in \Pro(S)\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>If <span class="math-inline">\(\phi_*\)</span> is essential, then <span class="math-inline">\(\phi_\sharp\)</span> factors through <span class="math-inline">\(S\)</span>, so <span class="math-inline">\(\phi_\sharp(U)\)</span> is pro-constant for all <span class="math-inline">\(U \in T\)</span>, and in particular for all <span class="math-inline">\(U_i\)</span>.<div class="proof-paragraph-break" aria-hidden="true"></div>Conversely, assume that <span class="math-inline">\(\phi_\sharp(U_i)\)</span> is pro-constant for all <span class="math-inline">\(i \in I\)</span>. The embedding <span class="math-inline">\(S\hookrightarrow\Pro(S)\)</span> and the functor <span class="math-inline">\(\phi_\sharp\colon T\to\Pro(S)\)</span> both preserve colimits. Since the collection <span class="math-inline">\(\{U_i\}\)</span> generates <span class="math-inline">\(T\)</span> under colimits, it follows that <span class="math-inline">\(\phi_\sharp\)</span> factors through <span class="math-inline">\(S\)</span>. By <a href="#prop:Pro_Left_Adjoint">Proposition 6.80</a>, this means that <span class="math-inline">\(\phi_*\)</span> is essential.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Essential_Iff_Locally_Constant_Shape">
-  <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/essential-iff-locally-constant-shape/index.html">Corollary 6.87.</a></span> (<span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2016HA">2017, Proposition A.1.8</a>]</span>)</p>
+<section class="theorem corollary theorem-plain" id="cor:Essential_Iff_Locally_Constant_Shape">
+  <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/essential-iff-locally-constant-shape/index.html">Corollary 6.87.</a></span> (<span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2016HA">2017, Proposition A.1.8</a>]</span>)</p>
   <div class="theorem-statement"><p>A topos <span class="math-inline">\(T\)</span> is essential if and only if it is locally of constant shape. <span class="qed" aria-label="End of proof"></span></p></div>
 </section>
 <p>Essential morphisms interact well with objects of constant shape:</p>
-<section class="theorem lemma" id="lem:Essential_Preserves_Constant_Shape">
+<section class="theorem lemma theorem-plain" id="lem:Essential_Preserves_Constant_Shape">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/essential-preserves-constant-shape/index.html">Lemma 6.88.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(\phi_*\colon T_1 \to T_2\)</span> and <span class="math-inline">\(\psi_*\colon T_2 \to T_3\)</span> be morphisms of topoi and assume that <span class="math-inline">\(\phi_*\)</span> is essential. Let <span class="math-inline">\(U \in T_1\)</span> be an object which has constant shape relative to the composite <span class="math-inline">\(\psi_* \circ \phi_* \colon T_1 \to T_3\)</span>. Then the object <span class="math-inline">\(\phi_\sharp(U) \in T_2\)</span> has constant shape relative to <span class="math-inline">\(\psi_*\)</span>.</p></div>
 </section>
@@ -185,12 +185,11 @@
   <div class="proof-body">The shape of <span class="math-inline">\(\phi_\sharp(U) \in T_2\)</span> relative to <span class="math-inline">\(\psi_*\)</span> is <span class="math-inline">\(\psi_\sharp(\phi_\sharp(U)) \in \Pro(T_3)\)</span>. Since <span class="math-inline">\(\phi_*\)</span> is essential, we have <span class="math-inline">\(\phi_\sharp(U) \in T_2\)</span>, and the shape of <span class="math-inline">\(U\)</span> relative to <span class="math-inline">\(\psi_* \circ \phi_*\)</span> is <div class="math-display">\[(\psi \circ \phi)_\sharp(U) \;\simeq\; \psi_\sharp(\phi_\sharp(U)).\]</div> By assumption, this is pro-constant, so <span class="math-inline">\(\phi_\sharp(U)\)</span> has constant shape relative to <span class="math-inline">\(\psi_*\)</span>.<span class="qed" aria-label="End of proof"></span></div>
 </details>
 
-<section class="theorem corollary" id="cor:Essential_Preserves_Constant_Shape">
+<section class="theorem corollary theorem-plain" id="cor:Essential_Preserves_Constant_Shape">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/constant-shape-preserved-by-essential-morphism/index.html">Corollary 6.89.</a></span></p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(\phi_*\colon T_1 \to T_2\)</span> be an essential morphism of topoi. Then <span class="math-inline">\(\phi_\sharp\colon T_1 \to T_2\)</span> sends objects of constant shape in <span class="math-inline">\(T_1\)</span> to objects of constant shape in <span class="math-inline">\(T_2\)</span>. <span class="qed" aria-label="End of proof"></span></p></div>
 </section>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-AizenbudCarmeli2021Nash">Avraham Aizenbud, Shachar Carmeli. <em>Relative de Rham theory on Nash manifolds</em>. arXiv preprint arXiv:2105.12417. 2021.</li>
-<li id="bib-lurie2016HA">Jacob Lurie. <em>Higher algebra</em>. https://www.math.ias.edu/~lurie/papers/HA.pdf. 2017.</li></ol></section>
+<span id="bib-AizenbudCarmeli2021Nash" data-legacy-reference="../../references/index.html#bib-AizenbudCarmeli2021Nash" hidden></span><span id="bib-lurie2016HA" data-legacy-reference="../../references/index.html#bib-lurie2016HA" hidden></span>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -291,27 +290,16 @@
     </nav>
   </section><section class="contents-ledger" data-contents-ledger data-open="true">
     <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-section-contents" aria-expanded="true">
-      <span>Section contents</span><span class="contents-chevron" aria-hidden="true"></span>
+      <span>In this section</span><span class="contents-chevron" aria-hidden="true"></span>
     </button></h2>
-    <nav class="contents" id="contents-section-contents" aria-label="Section contents" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
-      <p class="context-nav-kicker">Section 6.6</p>
-      <p class="context-nav-description">Essential morphisms and shape theory</p>
-      <ol class="context-entry-list">
-        <li><a href="#def:Essential_Morphism" data-section-target="def:Essential_Morphism">
+    <nav class="contents" id="contents-section-contents" aria-label="In this section" data-ledger-key="section-contents" data-default-collapsed="false" data-collapsed="false">
+      <ol class="context-entry-list"><li><a href="#def:Essential_Morphism" data-section-target="def:Essential_Morphism">
           <span class="context-entry-heading">Definition 6.77</span>
           <span class="context-entry-title">Essential morphism</span>
         </a></li>
-<li><a href="#ex:Etale_Morphisms_Are_Essential" data-section-target="ex:Etale_Morphisms_Are_Essential">
-          <span class="context-entry-heading">Example 6.78</span>
-          <span class="context-entry-title">Étale morphisms are essential</span>
-        </a></li>
-<li><a href="#ex:Presheaf_Topos_Essential" data-section-target="ex:Presheaf_Topos_Essential">
-          <span class="context-entry-heading">Example 6.79</span>
-          <span class="context-entry-title">Presheaf topos essential</span>
-        </a></li>
 <li><a href="#prop:Pro_Left_Adjoint" data-section-target="prop:Pro_Left_Adjoint">
           <span class="context-entry-heading">Proposition 6.80</span>
-          <span class="context-entry-title">Pro left adjoint</span>
+          <span class="context-entry-title">Pro-left adjoint</span>
         </a></li>
 <li><a href="#def:Relative_Shape" data-section-target="def:Relative_Shape">
           <span class="context-entry-heading">Definition 6.81</span>
@@ -321,35 +309,18 @@
           <span class="context-entry-heading">Definition 6.82</span>
           <span class="context-entry-title">Shape</span>
         </a></li>
-<li><a href="#ex:Shape_Presheaf_Topos" data-section-target="ex:Shape_Presheaf_Topos">
-          <span class="context-entry-heading">Example 6.83</span>
-          <span class="context-entry-title">Shape presheaf topos</span>
-        </a></li>
-<li><a href="#ex:Shape_Of_Sheaf_Topos" data-section-target="ex:Shape_Of_Sheaf_Topos">
-          <span class="context-entry-heading">Example 6.84</span>
-          <span class="context-entry-title">Shape of sheaf topos</span>
-        </a></li>
 <li><a href="#def:Locally_Constant_Shape" data-section-target="def:Locally_Constant_Shape">
           <span class="context-entry-heading">Definition 6.85</span>
-          <span class="context-entry-title">Locally constant shape</span>
+          <span class="context-entry-title">Locally of constant shape</span>
         </a></li>
 <li><a href="#prop:Essential_Vs_Locally_Constant_Shape" data-section-target="prop:Essential_Vs_Locally_Constant_Shape">
           <span class="context-entry-heading">Proposition 6.86</span>
-          <span class="context-entry-title">Essential versus locally constant shape</span>
+          <span class="context-entry-title"><span class="citation-group">Aizenbud and Carmeli (<a class="citation" href="../../references/index.html#bib-AizenbudCarmeli2021Nash">2021, Proposition 3.1.5</a>)</span></span>
         </a></li>
 <li><a href="#cor:Essential_Iff_Locally_Constant_Shape" data-section-target="cor:Essential_Iff_Locally_Constant_Shape">
           <span class="context-entry-heading">Corollary 6.87</span>
-          <span class="context-entry-title">Essential if and only if locally constant shape</span>
-        </a></li>
-<li><a href="#lem:Essential_Preserves_Constant_Shape" data-section-target="lem:Essential_Preserves_Constant_Shape">
-          <span class="context-entry-heading">Lemma 6.88</span>
-          <span class="context-entry-title">Essential preserves constant shape</span>
-        </a></li>
-<li><a href="#cor:Essential_Preserves_Constant_Shape" data-section-target="cor:Essential_Preserves_Constant_Shape">
-          <span class="context-entry-heading">Corollary 6.89</span>
-          <span class="context-entry-title">Constant shape under essential morphisms</span>
-        </a></li>
-      </ol>
+          <span class="context-entry-title"><span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2016HA">2017, Proposition A.1.8</a>]</span></span>
+        </a></li></ol>
     </nav>
   </section></div>
   </aside>
@@ -358,7 +329,8 @@
 <aside class="publication-fragment-notice" id="proof-lem:Pro_Left_Adjoint_Properties-main"><strong>Retired fragment.</strong> The proof now belongs to the consolidated pro-left-adjoint proposition. It now appears at <a href="./#proof-prop:Pro_Left_Adjoint-main">this address</a>.</aside>
 </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>

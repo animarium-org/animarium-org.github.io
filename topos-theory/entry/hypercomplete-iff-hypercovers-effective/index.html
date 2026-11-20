@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hypercomplete if and only if hypercovers effective | Higher Topos Theory notes</title>
-  <meta name="description" content="Generated from the authoritative Higher Topos Theory notes, with expandable layers of mathematical detail.">
+  <meta name="description" content="Higher topos theory: statements, proofs, cross-references, and bibliography.">
   <link rel="canonical" href="https://animarium.org/topos-theory/entry/hypercomplete-iff-hypercovers-effective/">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_assets/reader-v1/style.css">
@@ -20,12 +20,12 @@
     };
   </script>
   <script defer src="../../_assets/reader-v1/mathjax/tex-chtml.js"></script>
-  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
+  <script defer src="../../_assets/reader-v1/reader.js" data-notes-reader="topos-theory" data-reader-revision="reader-shell-v1-4cccde114cd963c1" data-legacy-navigation="layered-notes-context-navigation-visible-v1" data-legacy-contents="layered-notes-contents-collapsed-v2" data-legacy-rail="layered-notes-context-navigation-collapsed-v1"></script>
 <script defer src="../../_assets/reader-v1/script.js"></script>
 <link rel="stylesheet" href="../../_assets/entry-links.css">
 <script defer src="../../_assets/entry-links.js"></script>
 </head>
-<body class="entry-page has-context-nav" data-record-id="hypercomplete-iff-hypercovers-effective" data-default-detail="1" data-default-presentation="compact" data-detail-level="1" data-presentation="compact">
+<body class="entry-page has-context-nav" data-record-id="hypercomplete-iff-hypercovers-effective" data-presentation="seamless">
   <aside class="utility-dock" aria-label="Page tools">
     <div class="utility-item settings-item" data-utility-item data-open="false">
       <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
@@ -34,8 +34,8 @@
       <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
         <h2 id="display-settings-heading">Proof display</h2>
         <div class="preset-group" role="group" aria-label="Default proof display">
-          <button type="button" data-detail-level="1">Full text</button>
-          <button type="button" data-detail-level="-1">Statements only</button>
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
         </div>
         <h2>Page layout</h2>
         <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
@@ -69,12 +69,12 @@
 </header>
   <main class="reader-layout">
     <button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
-      <span aria-hidden="true">☰</span> Nearby entries
+      <span aria-hidden="true">☰</span> Navigation
     </button>
-    <article class="notes-page">
+    <article class="notes-page"><nav class="entry-context" aria-label="Result navigation"><a class="entry-context-step entry-context-previous" rel="prev" href="../principal-bundles-form-groupoid/index.html" aria-label="Previous result: Corollary 6.39, Principal bundles form groupoid" title="Principal bundles form groupoid">← <span class="entry-context-name">Corollary 6.39</span></a><a class="entry-context-section" href="../../section/hypercovers/index.html#thm:Hypercomplete_Iff_Hypercovers_Effective">↩ Read in context: Section 6.3</a><a class="entry-context-step entry-context-next" rel="next" href="../skeleta-and-coskeleta/index.html" aria-label="Next result: Notation 6.41, Skeleta and coskeleta" title="Skeleta and coskeleta"><span class="entry-context-name">Notation 6.41</span> →</a></nav>
       
-<section class="theorem theorem" id="thm:Hypercomplete_Iff_Hypercovers_Effective">
-  <p class="theorem-heading"><span>Theorem 6.40.</span> (<span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Theorem 6.5.3.12</a>]</span>)</p>
+<section class="theorem theorem theorem-plain" id="thm:Hypercomplete_Iff_Hypercovers_Effective">
+  <p class="theorem-heading"><span>Theorem 6.40.</span> (<span class="citation-group">[Lurie <a class="citation" href="../../references/index.html#bib-lurie2009HTT">2009, Theorem 6.5.3.12</a>]</span>)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(T\)</span> be a topos. The following conditions are equivalent:</p>
 <ol><li><p>The topos <span class="math-inline">\(T\)</span> is hypercomplete.</p></li><li><p>For every object <span class="math-inline">\(X \in T\)</span>, every hypercover of <span class="math-inline">\(X\)</span> is effective.</p></li></ol></div>
 </section>
@@ -83,43 +83,111 @@
   <summary>Proof</summary>
   <div class="proof-body"><span class="math-inline">\((1) \Rightarrow (2)\)</span>: Let <span class="math-inline">\(U_\bullet\)</span> be a hypercover in <span class="math-inline">\(T_{/X}\)</span>, or equivalently a hypercover of <span class="math-inline">\(X\)</span>. By <a href="../hypercover-infty-connected/index.html#lem:Hypercover_Infty_Connected">Lemma 6.50</a>, the canonical map <span class="math-inline">\(\abs{U_\bullet} \to X\)</span> is <span class="math-inline">\(\infty\)</span>-connected. Since <span class="math-inline">\(T\)</span> is hypercomplete, so is <span class="math-inline">\(T_{/X}\)</span>, hence this map is an isomorphism. Thus <span class="math-inline">\(U_\bullet\)</span> is effective.<div class="proof-paragraph-break" aria-hidden="true"></div><span class="math-inline">\((2) \Rightarrow (1)\)</span>: Let <span class="math-inline">\(f\colon U \to X\)</span> be an <span class="math-inline">\(\infty\)</span>-connected morphism in <span class="math-inline">\(T\)</span>. Consider <span class="math-inline">\(f\)</span> as an object of <span class="math-inline">\(T_{/X}\)</span> and let <span class="math-inline">\(f_\bullet\)</span> be the constant simplicial object with value <span class="math-inline">\(f\)</span>. By <a href="../constant-simplicial-object-hypercover/index.html#lem:Constant_Simplicial_Object_Hypercover">Lemma 6.47</a>, <span class="math-inline">\(f_\bullet\)</span> is a hypercover in <span class="math-inline">\(T_{/X}\)</span>. By assumption, <span class="math-inline">\(f_\bullet\)</span> is effective, so its realization is the terminal object <span class="math-inline">\(\id_X\)</span> of <span class="math-inline">\(T_{/X}\)</span>. On the other hand, the realization of a constant simplicial object is its constant value, so <span class="math-inline">\(\abs{f_\bullet}\iso f\)</span>. Hence <span class="math-inline">\(f\)</span> is an isomorphism, showing that <span class="math-inline">\(T\)</span> is hypercomplete.<span class="qed" aria-label="End of proof"></span></div>
 </details>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li></ol></section>
+<span id="bib-lurie2009HTT" data-legacy-reference="../../references/index.html#bib-lurie2009HTT" hidden></span>
     </article>
-      <aside class="context-nav" id="context-navigation" data-context-nav aria-label="Nearby entries">
-      <button class="context-nav-collapse" type="button" data-context-nav-collapse data-collapsed-label="Nearby entries" aria-controls="context-navigation" aria-expanded="true" aria-label="Hide Nearby entries">
-      <span aria-hidden="true">›</span>
-    </button>
-      <p class="context-chapter-link"><a href="../../chapter/topics-in-topos-theory/index.html">Topics in topos theory</a></p>
-      <p class="context-nav-kicker">Section 6.3</p>
-      <h2><a href="../../section/hypercovers/index.html">Hypercovers</a></h2>
-      <p class="context-nav-description"><a href="../../section/hypercovers/index.html#thm:Hypercomplete_Iff_Hypercovers_Effective">Read this result in the continuous section</a></p>
-      <ol class="context-entry-list context-entry-list-nearby">
-        <li><a href="#thm:Hypercomplete_Iff_Hypercovers_Effective" aria-current="page">
-          <span class="context-entry-heading">Theorem 6.40</span>
-          <span class="context-entry-title">Hypercomplete if and only if hypercovers effective</span>
+      <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../chapter/introduction/index.html">
+          <span class="context-entry-heading">Chapter 1</span>
+          <span class="context-entry-title">Introduction</span>
         </a></li>
-<li><a href="../skeleta-and-coskeleta/index.html">
-          <span class="context-entry-heading">Notation 6.41</span>
-          <span class="context-entry-title">Skeleta and coskeleta</span>
+<li><a href="../../chapter/foundations/index.html">
+          <span class="context-entry-heading">Chapter 2</span>
+          <span class="context-entry-title">Foundations</span>
         </a></li>
-<li><a href="../hypercover/index.html">
-          <span class="context-entry-heading">Definition 6.42</span>
-          <span class="context-entry-title">Hypercover</span>
+<li><a href="../../chapter/truncation-connectivity/index.html">
+          <span class="context-entry-heading">Chapter 3</span>
+          <span class="context-entry-title">Truncation and connectivity</span>
         </a></li>
-<li><a href="../matching-object-finite-limit/index.html">
-          <span class="context-entry-heading">Remark 6.43</span>
-          <span class="context-entry-title">Matching object finite limit</span>
+<li><a href="../../chapter/topoi-logoi/index.html">
+          <span class="context-entry-heading">Chapter 4</span>
+          <span class="context-entry-title">The categories of topoi and logoi</span>
         </a></li>
-<li><a href="../cech-nerve-is-hypercover/index.html">
-          <span class="context-entry-heading">Example 6.44</span>
-          <span class="context-entry-title">Čech nerve is hypercover</span>
+<li><a href="../../chapter/modalities/index.html">
+          <span class="context-entry-heading">Chapter 5</span>
+          <span class="context-entry-title">Modalities</span>
         </a></li>
-      </ol>
-      <nav class="context-step-links" aria-label="Previous and next entries"><a rel="next" href="../skeleta-and-coskeleta/index.html"><span>Next</span>Skeleta and coskeleta</a></nav>
-    </aside>
+<li><a href="../../chapter/topics-in-topos-theory/index.html" aria-current="location">
+          <span class="context-entry-heading">Chapter 6</span>
+          <span class="context-entry-title">Topics in topos theory</span>
+        </a></li>
+<li><a href="../../chapter/geometry/index.html">
+          <span class="context-entry-heading">Chapter 7</span>
+          <span class="context-entry-title">Geometry</span>
+        </a></li>
+<li><a href="../../chapter/factorization-systems-and-saturated-classes/index.html">
+          <span class="context-entry-heading">Appendix A</span>
+          <span class="context-entry-title">Factorization systems and saturated classes</span>
+        </a></li>
+<li><a href="../../chapter/limits-and-colimits-in-categories-of-sections/index.html">
+          <span class="context-entry-heading">Appendix B</span>
+          <span class="context-entry-title">Limits and colimits in categories of sections</span>
+        </a></li>
+<li><a href="../../chapter/dense-subcategories-closed-under-finite-limits/index.html">
+          <span class="context-entry-heading">Appendix C</span>
+          <span class="context-entry-title">Dense subcategories closed under finite limits</span>
+        </a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../section/sheaf-topoi/index.html">
+          <span class="context-entry-heading">Section 6.1</span>
+          <span class="context-entry-title">Sheaf topoi</span>
+        </a></li>
+<li><a href="../../section/groupoid-actions-and-principal-bundles/index.html">
+          <span class="context-entry-heading">Section 6.2</span>
+          <span class="context-entry-title">Groupoid actions and principal bundles</span>
+        </a></li>
+<li><a href="../../section/hypercovers/index.html" aria-current="page">
+          <span class="context-entry-heading">Section 6.3</span>
+          <span class="context-entry-title">Hypercovers</span>
+        </a></li>
+<li><a href="../../section/localic-topoi-postnikov-completeness-and-boundedness/index.html">
+          <span class="context-entry-heading">Section 6.4</span>
+          <span class="context-entry-title">Localic topoi, Postnikov-completeness, and boundedness</span>
+        </a></li>
+<li><a href="../../section/dimension-theory/index.html">
+          <span class="context-entry-heading">Section 6.5</span>
+          <span class="context-entry-title">Dimension theory</span>
+        </a></li>
+<li><a href="../../section/essential-morphisms-and-shape-theory/index.html">
+          <span class="context-entry-heading">Section 6.6</span>
+          <span class="context-entry-title">Essential morphisms and shape theory</span>
+        </a></li>
+<li><a href="../../section/coherence/index.html">
+          <span class="context-entry-heading">Section 6.7</span>
+          <span class="context-entry-title">Coherence</span>
+        </a></li>
+<li><a href="../../section/pretopoi/index.html">
+          <span class="context-entry-heading">Section 6.8</span>
+          <span class="context-entry-title">Pretopoi</span>
+        </a></li>
+<li><a href="../../section/makkai-completeness/index.html">
+          <span class="context-entry-heading">Section 6.9</span>
+          <span class="context-entry-title">Makkai completeness</span>
+        </a></li>
+<li><a href="../../section/compactly-assembled-categories-and-exponentiability/index.html">
+          <span class="context-entry-heading">Section 6.10</span>
+          <span class="context-entry-title">Compactly assembled categories and exponentiability</span>
+        </a></li>
+<li><a href="../../section/topoi-of-parametrized-objects/index.html">
+          <span class="context-entry-heading">Section 6.11</span>
+          <span class="context-entry-title">Topoi of parametrized objects</span>
+        </a></li></ol>
+    </nav>
+  </section></div>
+  </aside>
   </main>
   <footer class="edition-footer">
-  <p class="source-note">Generated from the authoritative LaTeX source, including numbered results, cross-references, bibliography, diagrams, and nested proof details.</p>
+  <p class="source-note">Generated from the authoritative LaTeX source.</p>
+<a href="../../references/index.html">References</a>
 </footer>
 </body>
 </html>
