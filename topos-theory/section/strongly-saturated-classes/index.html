@@ -82,6 +82,11 @@
   <div class="theorem-statement"><p>Let <span class="math-inline">\(\varphi\colon C \to D\)</span> be a cocontinuous functor between presentable categories. Then <span class="math-inline">\(\ker(\varphi)\)</span> is strongly saturated and of small generation.</p></div>
 </section>
 
+<details class="proof-shell" id="proof-prop:Class_Of_Inverted_Maps_Strongly_Saturated-main" data-owner-entry="inverted-maps-form-strongly-saturated-class" data-proof-id="main">
+  <summary>Proof</summary>
+  <div class="proof-body">The class contains the isomorphisms and satisfies 2-out-of-3. Its full subcategory in <span class="math-inline">\(\Ar(C)\)</span> is the pullback of <span class="math-inline">\(\Ar(C)\to\Ar(D)\)</span> along the identity-arrow functor <span class="math-inline">\(D\to\Ar(D)\)</span>, since the latter identifies <span class="math-inline">\(D\)</span> with the full subcategory of isomorphisms. Both functors preserve colimits, and the arrow categories are presentable by <a class="citation" href="https://animarium.org/tag/01B6/">[SHT, Theorem 23.2.2]</a>. By <a class="citation" href="https://animarium.org/tag/01B7/">[SHT, Theorem 23.2.3]</a> this pullback is presentable and its inclusion preserves colimits. Thus the kernel is closed under colimits of arrows, and any small set of colimit generators of the pullback generates the kernel as a strongly saturated class.<span class="qed" aria-label="End of proof"></span></div>
+</details>
+
 <section class="theorem proposition" id="prop:Strongly_Saturated_Is_Localization">
   <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/strongly-saturated-class-gives-localization/index.html">Proposition A.15.</a></span> (<span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Propositions 5.2.7.12 and 5.5.4.15</a>]</span>)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(C\)</span> be a presentable category and let <span class="math-inline">\(\Sigma\)</span> be a strongly saturated class of small generation.</p>
@@ -89,7 +94,24 @@
 <div class="math-display">\[\Fun(\Loc_{\Sigma}(C),E)\longrightarrow\Fun(C,E)\]</div>
 <p>whose essential image consists of the functors that invert every morphism in <span class="math-inline">\(\Sigma\)</span>.</p></li></ol></div>
 </section>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li></ol></section>
+
+<details class="proof-shell" id="proof-prop:Strongly_Saturated_Is_Localization-main" data-owner-entry="strongly-saturated-class-gives-localization" data-proof-id="main">
+  <summary>Proof</summary>
+  <div class="proof-body">Let <span class="math-inline">\(S\)</span> be a small set generating <span class="math-inline">\(\Sigma\)</span> under strong saturation. For each object <span class="math-inline">\(Z\)</span>, the arrows <span class="math-inline">\(a\)</span> for which <span class="math-inline">\(\Hom_C(a,Z)\)</span> is an isomorphism form a strongly saturated class. Thus <span class="math-inline">\(S\)</span> and <span class="math-inline">\(\Sigma\)</span> have the same local objects. By <a class="citation" href="https://animarium.org/tag/01B6/">[SHT, Theorem 23.2.2]</a>, part (4), these form a presentable reflective subcategory. The reflector, being a left adjoint, preserves colimits.<div class="proof-paragraph-break" aria-hidden="true"></div>Apply <a href="../../entry/saturated-class-gives-factorization-system/index.html">Proposition A.11</a> to the ordinary saturation <span class="math-inline">\(S^s\)</span>. Factoring <span class="math-inline">\(X\to *\)</span> gives <span class="math-inline">\(X\to X'\to *\)</span> with the first map in <span class="math-inline">\(S^s\)</span> and <span class="math-inline">\(X'\)</span> local. For local <span class="math-inline">\(Z\)</span>, mapping the first map into <span class="math-inline">\(Z\)</span> gives an isomorphism. It is therefore the unit <span class="math-inline">\(X\to LX\)</span>, and belongs to <span class="math-inline">\(\Sigma\)</span>. The kernel of <span class="math-inline">\(L\)</span> contains <span class="math-inline">\(S\)</span> and is strongly saturated, so contains <span class="math-inline">\(\Sigma\)</span>. Conversely, if <span class="math-inline">\(Lf\)</span> is invertible, naturality of the unit and 2-out-of-3 give <span class="math-inline">\(f\in\Sigma\)</span>. Finally the unit identifies every functor inverting <span class="math-inline">\(\Sigma\)</span> with its restriction to the local objects composed with <span class="math-inline">\(L\)</span>. The counit identifies the other composite with the identity, also on natural transformations.<span class="qed" aria-label="End of proof"></span></div>
+</details>
+
+<section class="theorem proposition" id="prop:Intersection_Of_Left_Exact_Localizations">
+  <p class="theorem-heading"><span><a class="entry-permalink" href="../../entry/intersection-of-left-exact-localizations/index.html">Proposition A.16.</a></span></p>
+  <div class="theorem-statement"><p>In a logos <span class="math-inline">\(T\)</span>, the intersection of a small family of accessible left exact reflective subcategories is again an accessible left exact reflective subcategory.</p></div>
+</section>
+
+<details class="proof-shell" id="proof-prop:Intersection_Of_Left_Exact_Localizations-main" data-owner-entry="intersection-of-left-exact-localizations" data-proof-id="main">
+  <summary>Proof</summary>
+  <div class="proof-body">Write <span class="math-inline">\(P_a\)</span> for the corresponding endofunctors with their units. Choose an infinite regular <span class="math-inline">\(\kappa\)</span> such that all <span class="math-inline">\(P_a\)</span> preserve <span class="math-inline">\(\kappa\)</span>-filtered colimits. The empty intersection is <span class="math-inline">\(T\)</span>. Otherwise well-order the family and apply its reflectors in that order, repeating the entire list <span class="math-inline">\(\kappa\)</span> times. At each limit ordinal take the colimit of the preceding stages. This defines a functor <span class="math-inline">\(X\mapsto PX\)</span> with a unit <span class="math-inline">\(X\to PX\)</span>. For each <span class="math-inline">\(a\)</span> the stages immediately following an application of <span class="math-inline">\(P_a\)</span> form a cofinal <span class="math-inline">\(\kappa\)</span>-filtered chain. Their colimit is <span class="math-inline">\(P_a\)</span>-local since <span class="math-inline">\(P_a\)</span> preserves it. For <span class="math-inline">\(Z\)</span> local for all <span class="math-inline">\(a\)</span>, mapping the chain into <span class="math-inline">\(Z\)</span> gives a diagram in which every stage maps isomorphically to <span class="math-inline">\(\Hom_T(X,Z)\)</span>, by the adjunctions and the colimit formula at limit stages. Thus <span class="math-inline">\(P\)</span> reflects into the intersection. Each stage preserves finite limits: this holds at successor stages by composition and at limit stages because filtered colimits commute with finite limits in a logos (apply a left exact presheaf presentation and <a class="citation" href="https://animarium.org/tag/10YF/">[SCT, Theorem 16.2.9]</a>). Each stage preserves <span class="math-inline">\(\kappa\)</span>-filtered colimits as well, by commutation of colimits. Hence <span class="math-inline">\(P\)</span> is accessible and left exact. The intersection is presentable by <a href="#prop:Strongly_Saturated_Is_Localization">Proposition A.15</a>, since its local objects are specified by the union of the small generating sets of the kernels, supplied by <a href="#prop:Class_Of_Inverted_Maps_Strongly_Saturated">Proposition A.14</a>.<span class="qed" aria-label="End of proof"></span></div>
+</details>
+<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li>
+<li id="bib-Cnossen_StableHomotopy">Bastiaan Cnossen. <em>Stable homotopy theory and higher algebra</em>. Cambridge University Press. .</li>
+<li id="bib-CCW_SCT">Denis-Charles Cisinski, Bastiaan Cnossen, Tashi Walde. <em>Synthetic category theory</em>. Vol. 1. 2026.</li></ol></section>
     </article>
       <aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Section navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
@@ -179,6 +201,10 @@
 <li><a href="#prop:Strongly_Saturated_Is_Localization" data-section-target="prop:Strongly_Saturated_Is_Localization">
           <span class="context-entry-heading">Proposition A.15</span>
           <span class="context-entry-title">A strongly saturated class gives a localization</span>
+        </a></li>
+<li><a href="#prop:Intersection_Of_Left_Exact_Localizations" data-section-target="prop:Intersection_Of_Left_Exact_Localizations">
+          <span class="context-entry-heading">Proposition A.16</span>
+          <span class="context-entry-title">Intersections of accessible left exact localizations</span>
         </a></li>
       </ol>
     </nav>

@@ -77,7 +77,13 @@
   <p class="theorem-heading"><span>Proposition A.14.</span> (<span class="citation-group">[Lurie <a class="citation" href="#bib-lurie2009HTT">2009, Proposition 5.5.4.16</a>]</span>)</p>
   <div class="theorem-statement"><p>Let <span class="math-inline">\(\varphi\colon C \to D\)</span> be a cocontinuous functor between presentable categories. Then <span class="math-inline">\(\ker(\varphi)\)</span> is strongly saturated and of small generation.</p></div>
 </section>
-<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li></ol></section>
+
+<details class="proof-shell" id="proof-prop:Class_Of_Inverted_Maps_Strongly_Saturated-main" data-owner-entry="inverted-maps-form-strongly-saturated-class" data-proof-id="main">
+  <summary>Proof</summary>
+  <div class="proof-body">The class contains the isomorphisms and satisfies 2-out-of-3. Its full subcategory in <span class="math-inline">\(\Ar(C)\)</span> is the pullback of <span class="math-inline">\(\Ar(C)\to\Ar(D)\)</span> along the identity-arrow functor <span class="math-inline">\(D\to\Ar(D)\)</span>, since the latter identifies <span class="math-inline">\(D\)</span> with the full subcategory of isomorphisms. Both functors preserve colimits, and the arrow categories are presentable by <a class="citation" href="https://animarium.org/tag/01B6/">[SHT, Theorem 23.2.2]</a>. By <a class="citation" href="https://animarium.org/tag/01B7/">[SHT, Theorem 23.2.3]</a> this pullback is presentable and its inclusion preserves colimits. Thus the kernel is closed under colimits of arrows, and any small set of colimit generators of the pullback generates the kernel as a strongly saturated class.<span class="qed" aria-label="End of proof"></span></div>
+</details>
+<section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-lurie2009HTT">Jacob Lurie. <em>Higher topos theory</em>. Ann. Math. Stud. 170, Princeton, NJ: Princeton University Press. 2009.</li>
+<li id="bib-Cnossen_StableHomotopy">Bastiaan Cnossen. <em>Stable homotopy theory and higher algebra</em>. Cambridge University Press. .</li></ol></section>
     </article>
       <aside class="context-nav" id="context-navigation" data-context-nav aria-label="Nearby entries">
       <button class="context-nav-collapse" type="button" data-context-nav-collapse data-collapsed-label="Nearby entries" aria-controls="context-navigation" aria-expanded="true" aria-label="Hide Nearby entries">
@@ -103,6 +109,10 @@
 <li><a href="../strongly-saturated-class-gives-localization/index.html">
           <span class="context-entry-heading">Proposition A.15</span>
           <span class="context-entry-title">A strongly saturated class gives a localization</span>
+        </a></li>
+<li><a href="../intersection-of-left-exact-localizations/index.html">
+          <span class="context-entry-heading">Proposition A.16</span>
+          <span class="context-entry-title">Intersections of accessible left exact localizations</span>
         </a></li>
       </ol>
       <nav class="context-step-links" aria-label="Previous and next entries"><a rel="prev" href="../kernel-of-cocontinuous-functor/index.html"><span>Previous</span>Kernel of a cocontinuous functor</a>

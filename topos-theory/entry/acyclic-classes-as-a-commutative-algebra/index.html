@@ -85,9 +85,14 @@
     <article class="notes-page">
       
 <section class="theorem proposition" id="prop:Acyclic_Classes_Form_Commutative_Algebra">
-  <p class="theorem-heading"><span>Proposition 5.75.</span> (<span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025, Theorem 3.2.2</a>]</span>)</p>
+  <p class="theorem-heading"><span>Proposition 5.77.</span> (<span class="citation-group">[Anel et al. <a class="citation" href="#bib-ABFJ_Acyclic_Product">2025, Theorem 3.2.2</a>]</span>)</p>
   <div class="theorem-statement"><p>This product turns <span class="math-inline">\(\Acyc(T)\)</span> into a commutative algebra object in the category <span class="math-inline">\(\Pos^{\cocompl}\)</span> of cocomplete posets. Its unit is the acyclic class <span class="math-inline">\(\All\)</span> of all morphisms.</p></div>
 </section>
+
+<details class="proof-shell" id="proof-prop:Acyclic_Classes_Form_Commutative_Algebra-main" data-owner-entry="acyclic-classes-as-a-commutative-algebra" data-proof-id="main">
+  <summary>Proof</summary>
+  <div class="proof-body">By <a href="../generators-for-products-of-modalities/index.html#lem:Generators_Of_Product_Of_Modalities">Lemma 5.75</a> one can take acyclic closure after multiplying the generators. Since a join is the acyclic closure of a union, the product preserves joins separately. Symmetry and associativity follow from the corresponding properties of the pushout product: in either bracketing the source for three factors is the colimit of the punctured product cube. Finally the pushout product with <span class="math-inline">\(\emptyset\to *\)</span> gives the original arrow, so <span class="math-inline">\(\All L\)</span> contains <span class="math-inline">\(L\)</span>. The reverse inclusion is <a href="../products-of-modalities-lie-in-the-intersection/index.html#lem:Product_Of_Modalities_Contained_In_Intersection">Lemma 5.74</a>.<span class="qed" aria-label="End of proof"></span></div>
+</details>
 <section class="bibliography" id="bibliography"><h2>References</h2><ol><li id="bib-ABFJ_Acyclic_Product">Mathieu Anel, Georg Biedermann, Eric Finster, André Joyal. <em>Left-exact localizations of $\infty$-topoi III: The acyclic product</em>. 2025.</li></ol></section>
     </article>
       <aside class="context-nav" id="context-navigation" data-context-nav aria-label="Nearby entries">
@@ -99,28 +104,28 @@
       <h2><a href="../../section/products-of-modalities/index.html">Products of modalities</a></h2>
       <p class="context-nav-description"><a href="../../section/products-of-modalities/index.html#prop:Acyclic_Classes_Form_Commutative_Algebra">Read this result in the continuous section</a></p>
       <ol class="context-entry-list context-entry-list-nearby">
-        <li><a href="../products-of-modalities-lie-in-the-intersection/index.html">
-          <span class="context-entry-heading">Lemma 5.73</span>
-          <span class="context-entry-title">Products of modalities lie in the intersection</span>
-        </a></li>
-<li><a href="../generators-for-products-of-modalities/index.html">
-          <span class="context-entry-heading">Lemma 5.74</span>
+        <li><a href="../generators-for-products-of-modalities/index.html">
+          <span class="context-entry-heading">Lemma 5.75</span>
           <span class="context-entry-title">Generators for products of modalities</span>
         </a></li>
+<li><a href="../quotients-preserve-acyclic-products/index.html">
+          <span class="context-entry-heading">Corollary 5.76</span>
+          <span class="context-entry-title">Quotients preserve acyclic products</span>
+        </a></li>
 <li><a href="#prop:Acyclic_Classes_Form_Commutative_Algebra" aria-current="page">
-          <span class="context-entry-heading">Proposition 5.75</span>
+          <span class="context-entry-heading">Proposition 5.77</span>
           <span class="context-entry-title">Acyclic classes as a commutative algebra</span>
         </a></li>
 <li><a href="../products-of-monogenic-modalities/index.html">
-          <span class="context-entry-heading">Corollary 5.76</span>
+          <span class="context-entry-heading">Corollary 5.78</span>
           <span class="context-entry-title">Products of monogenic modalities</span>
         </a></li>
 <li><a href="../monogenic-modalities-are-idempotent/index.html">
-          <span class="context-entry-heading">Corollary 5.77</span>
+          <span class="context-entry-heading">Corollary 5.79</span>
           <span class="context-entry-title">Monogenic modalities are idempotent</span>
         </a></li>
       </ol>
-      <nav class="context-step-links" aria-label="Previous and next entries"><a rel="prev" href="../generators-for-products-of-modalities/index.html"><span>Previous</span>Generators for products of modalities</a>
+      <nav class="context-step-links" aria-label="Previous and next entries"><a rel="prev" href="../quotients-preserve-acyclic-products/index.html"><span>Previous</span>Quotients preserve acyclic products</a>
 <a rel="next" href="../products-of-monogenic-modalities/index.html"><span>Next</span>Products of monogenic modalities</a></nav>
     </aside>
   <aside class="publication-fragment-notice" id="rem:Acyclic_Classes_Form_Commutative_Algebra"><strong>Retired fragment.</strong> The result is now a proposition in the authoritative source. It now appears at <a href="./#prop:Acyclic_Classes_Form_Commutative_Algebra">this address</a>.</aside>

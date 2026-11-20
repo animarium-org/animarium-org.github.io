@@ -2,7 +2,7 @@
   "SchemaVersion": 1,
   "WorkId": "topos-theory",
   "PublicBase": "/topos-theory/",
-  "CandidateContractSha256": "1ee83c9cfab7e60fae836d443339241a45f653760e12c7d19bb50410f99b3b33",
+  "CandidateContractSha256": "bc7610e9d37ac6c685bc75844229da21792d36a72a1105e8c85611c0aa35cada",
   "Routes": [
     {
       "Path": "/topos-theory/",
@@ -198,6 +198,11 @@
       "Kind": "entry",
       "Status": "live",
       "Fragments": [
+        {
+          "Id": "proof-prop:Acyclic_Classes_Form_Commutative_Algebra-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
         {
           "Id": "prop:Acyclic_Classes_Form_Commutative_Algebra",
           "Kind": "latex-label",
@@ -1567,6 +1572,23 @@
       ]
     },
     {
+      "Path": "/topos-theory/entry/common-compactness-bound/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Common_Compactness_Bound",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "proof-lem:Common_Compactness_Bound-main",
+          "Kind": "proof",
+          "Status": "live"
+        }
+      ]
+    },
+    {
       "Path": "/topos-theory/entry/compact-assembly-and-tensor-products/",
       "Kind": "entry",
       "Status": "live",
@@ -2802,6 +2824,23 @@
         },
         {
           "Id": "proof-cor:Epigenic_Part_Is_Modality-main",
+          "Kind": "proof",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/topos-theory/entry/epigenic-quotients-and-hypercompletion/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Epigenic_Quotients_Induce_Equivalence_On_Hypercompletions",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "proof-lem:Epigenic_Quotients_Induce_Equivalence_On_Hypercompletions-main",
           "Kind": "proof",
           "Status": "live"
         }
@@ -4586,10 +4625,32 @@
       ]
     },
     {
+      "Path": "/topos-theory/entry/intersection-of-left-exact-localizations/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "proof-prop:Intersection_Of_Left_Exact_Localizations-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Intersection_Of_Left_Exact_Localizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
       "Path": "/topos-theory/entry/inverted-maps-form-strongly-saturated-class/",
       "Kind": "entry",
       "Status": "live",
       "Fragments": [
+        {
+          "Id": "proof-prop:Class_Of_Inverted_Maps_Strongly_Saturated-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
         {
           "Id": "prop:Class_Of_Inverted_Maps_Strongly_Saturated",
           "Kind": "latex-label",
@@ -6699,6 +6760,23 @@
       ]
     },
     {
+      "Path": "/topos-theory/entry/quotients-preserve-acyclic-products/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Quotients_Preserve_Acyclic_Products",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "proof-cor:Quotients_Preserve_Acyclic_Products-main",
+          "Kind": "proof",
+          "Status": "live"
+        }
+      ]
+    },
+    {
       "Path": "/topos-theory/entry/recollement-from-a-left-exact-functor/",
       "Kind": "entry",
       "Status": "live",
@@ -6939,6 +7017,11 @@
       "Kind": "entry",
       "Status": "live",
       "Fragments": [
+        {
+          "Id": "proof-prop:Saturated_Class_Gives_Factorization_System-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
         {
           "Id": "prop:Saturated_Class_Gives_Factorization_System",
           "Kind": "latex-label",
@@ -7412,6 +7495,11 @@
       "Kind": "entry",
       "Status": "live",
       "Fragments": [
+        {
+          "Id": "proof-prop:Strongly_Saturated_Is_Localization-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
         {
           "Id": "prop:Strongly_Saturated_Is_Localization",
           "Kind": "latex-label",
@@ -9308,7 +9396,17 @@
           "Status": "live"
         },
         {
+          "Id": "lem:Common_Compactness_Bound",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
           "Id": "proof-cor:Presentable_Left_Exact_Presentation-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
+        {
+          "Id": "proof-lem:Common_Compactness_Bound-main",
           "Kind": "proof",
           "Status": "live"
         },
@@ -11546,6 +11644,11 @@
           "Status": "live"
         },
         {
+          "Id": "cor:Quotients_Preserve_Acyclic_Products",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
           "Id": "def:Product_Of_Modalities",
           "Kind": "latex-label",
           "Status": "live"
@@ -11601,6 +11704,11 @@
           "Status": "live"
         },
         {
+          "Id": "proof-cor:Quotients_Preserve_Acyclic_Products-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
+        {
           "Id": "proof-lem:Generators_Of_Product_Of_Modalities-main",
           "Kind": "proof",
           "Status": "live"
@@ -11612,6 +11720,11 @@
         },
         {
           "Id": "proof-lem:Product_Of_Modalities_Contained_In_Intersection-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
+        {
+          "Id": "proof-prop:Acyclic_Classes_Form_Commutative_Algebra-main",
           "Kind": "proof",
           "Status": "live"
         },
@@ -11658,6 +11771,11 @@
         {
           "Id": "def:Saturation",
           "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "proof-prop:Saturated_Class_Gives_Factorization_System-main",
+          "Kind": "proof",
           "Status": "live"
         },
         {
@@ -11927,7 +12045,27 @@
           "Status": "live"
         },
         {
+          "Id": "proof-prop:Class_Of_Inverted_Maps_Strongly_Saturated-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
+        {
+          "Id": "proof-prop:Intersection_Of_Left_Exact_Localizations-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
+        {
+          "Id": "proof-prop:Strongly_Saturated_Is_Localization-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
+        {
           "Id": "prop:Class_Of_Inverted_Maps_Strongly_Saturated",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Intersection_Of_Left_Exact_Localizations",
           "Kind": "latex-label",
           "Status": "live"
         },
@@ -11989,6 +12127,11 @@
           "Status": "live"
         },
         {
+          "Id": "lem:Epigenic_Quotients_Induce_Equivalence_On_Hypercompletions",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
           "Id": "lem:Hypercompletion_Preserves_Monogenic_Part",
           "Kind": "latex-label",
           "Status": "live"
@@ -12035,6 +12178,11 @@
         },
         {
           "Id": "proof-lem:Epigenic_Congruences_Are_Infinity_Connected-main",
+          "Kind": "proof",
+          "Status": "live"
+        },
+        {
+          "Id": "proof-lem:Epigenic_Quotients_Induce_Equivalence_On_Hypercompletions-main",
           "Kind": "proof",
           "Status": "live"
         },
@@ -12714,8 +12862,8 @@
       ]
     }
   ],
-  "SourceBundleSha256": "fbc7239ac0d0732f24287bf5144100fafec8c87058a7acaf706feec291e3a002",
-  "SourcePdfSha256": "2436479c919eb131f09a2251e3a0e58cda9ec853fb5bd407f4b9a8fe1ad80fe6",
-  "PublishedBundleSha256": "dae1fe5d578283a7248a7c7e303499184d8a000a0f78a403026031e33e611d7b",
-  "PublishedPdfSha256": "2436479c919eb131f09a2251e3a0e58cda9ec853fb5bd407f4b9a8fe1ad80fe6"
+  "SourceBundleSha256": "213f2f6a7dd8f0b900fe19bf2bf6cd60fe23f0136ba813de0b55fce68305e5ed",
+  "SourcePdfSha256": "2a43c4abb655e1dc2ab593f795f10e3f6b4ef206f20bac39d35886bfcd657dac",
+  "PublishedBundleSha256": "0fee3aa4c8bfec68a807a686b568909c76fe9c88770654025bb32c0f842ffcb1",
+  "PublishedPdfSha256": "2a43c4abb655e1dc2ab593f795f10e3f6b4ef206f20bac39d35886bfcd657dac"
 }

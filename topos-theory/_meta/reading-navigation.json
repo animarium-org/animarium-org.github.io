@@ -1485,6 +1485,11 @@
       "sectionId": "structure-theory-for-topoi"
     },
     {
+      "page": "entry/epigenic-quotients-and-hypercompletion/index.html",
+      "chapterId": "modalities",
+      "sectionId": "structure-theory-for-topoi"
+    },
+    {
       "page": "entry/hypercompletion-preserves-the-monogenic-part/index.html",
       "chapterId": "modalities",
       "sectionId": "structure-theory-for-topoi"
@@ -1521,6 +1526,11 @@
     },
     {
       "page": "entry/generators-for-products-of-modalities/index.html",
+      "chapterId": "modalities",
+      "sectionId": "products-of-modalities"
+    },
+    {
+      "page": "entry/quotients-preserve-acyclic-products/index.html",
       "chapterId": "modalities",
       "sectionId": "products-of-modalities"
     },
@@ -2950,6 +2960,11 @@
       "sectionId": "strongly-saturated-classes"
     },
     {
+      "page": "entry/intersection-of-left-exact-localizations/index.html",
+      "chapterId": "factorization-systems-and-saturated-classes",
+      "sectionId": "strongly-saturated-classes"
+    },
+    {
       "page": "entry/pointwise-limits-and-colimits-in-sections/index.html",
       "chapterId": "limits-and-colimits-in-categories-of-sections"
     },
@@ -2985,6 +3000,11 @@
     },
     {
       "page": "entry/dense-subcategories-and-compact-objects/index.html",
+      "chapterId": "dense-subcategories-closed-under-finite-limits",
+      "sectionId": "dense-subcategories-of-presentable-categories"
+    },
+    {
+      "page": "entry/common-compactness-bound/index.html",
       "chapterId": "dense-subcategories-closed-under-finite-limits",
       "sectionId": "dense-subcategories-of-presentable-categories"
     }

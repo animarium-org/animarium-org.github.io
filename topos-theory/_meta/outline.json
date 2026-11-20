@@ -23,4063 +23,4087 @@
       "Id": "chap:Foundations",
       "LabelType": "chapter",
       "SourceLine": 96,
-      "SourceOffset": 10600
+      "SourceOffset": 10709
     },
     {
       "Id": "sec:Topoi_And_Descent",
       "LabelType": "section",
       "SourceLine": 111,
-      "SourceOffset": 12960
+      "SourceOffset": 13069
     },
     {
       "Id": "def:Descent",
       "LabelType": "definition",
       "SourceLine": 116,
-      "SourceOffset": 13096
+      "SourceOffset": 13205
     },
     {
       "Id": "def:Topos",
       "LabelType": "definition",
       "SourceLine": 129,
-      "SourceOffset": 13752
+      "SourceOffset": 13861
     },
     {
       "Id": "def:Cartesian_Natural_Transformation",
       "LabelType": "definition",
       "SourceLine": 138,
-      "SourceOffset": 14486
+      "SourceOffset": 14595
     },
     {
       "Id": "lem:Limit_Of_Slices_Vs_Cartesian_Transformations",
       "LabelType": "lemma",
       "SourceLine": 152,
-      "SourceOffset": 15446
+      "SourceOffset": 15555
     },
     {
       "Id": "lem:Map_To_Limit_Of_Slices_Admits_Left_Adjoint",
       "LabelType": "lemma",
       "SourceLine": 172,
-      "SourceOffset": 17418
+      "SourceOffset": 17527
     },
     {
       "Id": "def:Effective_Colimits",
       "LabelType": "definition",
       "SourceLine": 202,
-      "SourceOffset": 20278
+      "SourceOffset": 20473
     },
     {
       "Id": "def:Universal_Colimits",
       "LabelType": "definition",
       "SourceLine": 214,
-      "SourceOffset": 20961
+      "SourceOffset": 21156
     },
     {
       "Id": "lem:Universality_Of_Colimits",
       "LabelType": "lemma",
       "SourceLine": 219,
-      "SourceOffset": 21297
+      "SourceOffset": 21492
     },
     {
       "Id": "cor:Descent_Iff_Colimits_Effective_And_Universal",
       "LabelType": "corollary",
       "SourceLine": 245,
-      "SourceOffset": 22770
+      "SourceOffset": 22965
     },
     {
       "Id": "cor:Topos_Iff_Effective_And_Universal_Colimits",
       "LabelType": "corollary",
       "SourceLine": 251,
-      "SourceOffset": 23100
+      "SourceOffset": 23295
     },
     {
       "Id": "subsec:Examples_Of_Descent",
       "LabelType": "subsection",
       "SourceLine": 256,
-      "SourceOffset": 23379
+      "SourceOffset": 23574
     },
     {
       "Id": "ex:Strictly_Initial_Object",
       "LabelType": "example",
       "SourceLine": 260,
-      "SourceOffset": 23533
+      "SourceOffset": 23728
     },
     {
       "Id": "ex:Disjoint_Coproducts",
       "LabelType": "example",
       "SourceLine": 267,
-      "SourceOffset": 24243
+      "SourceOffset": 24438
     },
     {
       "Id": "ex:Group_Actions",
       "LabelType": "example",
       "SourceLine": 288,
-      "SourceOffset": 25416
+      "SourceOffset": 25611
     },
     {
       "Id": "ex:Grothendieck_Construction",
       "LabelType": "example",
       "SourceLine": 310,
-      "SourceOffset": 27121
+      "SourceOffset": 27316
     },
     {
       "Id": "ex:Van_Kampen_Colimits",
       "LabelType": "exercise",
       "SourceLine": 319,
-      "SourceOffset": 27444
+      "SourceOffset": 27639
     },
     {
       "Id": "subsec:Descent_Via_Pullback_Squares",
       "LabelType": "subsection",
       "SourceLine": 329,
-      "SourceOffset": 27837
+      "SourceOffset": 28032
     },
     {
       "Id": "prop:Descent_Via_Pullback_Squares",
       "LabelType": "proposition",
       "SourceLine": 334,
-      "SourceOffset": 28153
+      "SourceOffset": 28348
     },
     {
       "Id": "cor:Lex_Localization_Of_Topos",
       "LabelType": "corollary",
       "SourceLine": 371,
-      "SourceOffset": 30435
+      "SourceOffset": 30630
     },
     {
       "Id": "sec:Effective_Epimorphisms",
       "LabelType": "section",
       "SourceLine": 388,
-      "SourceOffset": 31301
+      "SourceOffset": 31496
     },
     {
       "Id": "subsec:Groupoid_Objects",
       "LabelType": "subsection",
       "SourceLine": 400,
-      "SourceOffset": 32262
+      "SourceOffset": 32457
     },
     {
       "Id": "def:GroupoidObject",
       "LabelType": "definition",
       "SourceLine": 407,
-      "SourceOffset": 32820
+      "SourceOffset": 33015
     },
     {
       "Id": "ex:Groupoid_Objects_In_Sets",
       "LabelType": "exercise",
       "SourceLine": 423,
-      "SourceOffset": 33587
+      "SourceOffset": 33782
     },
     {
       "Id": "lem:Characterization_Check_Nerves",
       "LabelType": "lemma",
       "SourceLine": 432,
-      "SourceOffset": 34945
+      "SourceOffset": 35140
     },
     {
       "Id": "def:Effective_Groupoids",
       "LabelType": "definition",
       "SourceLine": 468,
-      "SourceOffset": 37038
+      "SourceOffset": 37233
     },
     {
       "Id": "lem:Descent_For_Groupoid_Colimits",
       "LabelType": "lemma",
       "SourceLine": 485,
-      "SourceOffset": 37958
+      "SourceOffset": 38153
     },
     {
       "Id": "lem:Groupoids_Effective_In_Topos",
       "LabelType": "corollary",
       "SourceLine": 494,
-      "SourceOffset": 38383
+      "SourceOffset": 38578
     },
     {
       "Id": "subsec:Effective_Epimorphisms_Cech_Nerves",
       "LabelType": "subsection",
       "SourceLine": 499,
-      "SourceOffset": 38568
+      "SourceOffset": 38763
     },
     {
       "Id": "con:Cech_Nerve",
       "LabelType": "construction",
       "SourceLine": 505,
-      "SourceOffset": 39306
+      "SourceOffset": 39501
     },
     {
       "Id": "not:Augmented_Cech_Nerve",
       "LabelType": "notation",
       "SourceLine": 518,
-      "SourceOffset": 40422
+      "SourceOffset": 40617
     },
     {
       "Id": "lem:Cech_Nerve_Is_Groupoid_Object",
       "LabelType": "lemma",
       "SourceLine": 523,
-      "SourceOffset": 40930
+      "SourceOffset": 41125
     },
     {
       "Id": "def:Effective_Epimorphism",
       "LabelType": "definition",
       "SourceLine": 532,
-      "SourceOffset": 41460
+      "SourceOffset": 41655
     },
     {
       "Id": "warn:Terminology_Effective_Epimorphism",
       "LabelType": "warning",
       "SourceLine": 541,
-      "SourceOffset": 41947
+      "SourceOffset": 42142
     },
     {
       "Id": "lem:Pullback_Along_Effective_Epimorphism_Conservative",
       "LabelType": "lemma",
       "SourceLine": 546,
-      "SourceOffset": 42388
+      "SourceOffset": 42583
     },
     {
       "Id": "it:Pullback_Along_Effective_Epimorphism_Conservative",
       "LabelType": null,
       "SourceLine": 549,
-      "SourceOffset": 42601
+      "SourceOffset": 42796
     },
     {
       "Id": "it:Base_Change_Of_Effective_Epimorphism",
       "LabelType": null,
       "SourceLine": 551,
-      "SourceOffset": 42814
+      "SourceOffset": 43009
     },
     {
       "Id": "cor:Right_Cancellation_Pullback_Squares",
       "LabelType": "corollary",
       "SourceLine": 571,
-      "SourceOffset": 44621
+      "SourceOffset": 44816
     },
     {
       "Id": "lem:Check_Nerve_Has_Left_Adjoint",
       "LabelType": "lemma",
       "SourceLine": 595,
-      "SourceOffset": 45971
+      "SourceOffset": 46166
     },
     {
       "Id": "lem:Characterizations_Effective_Groupoids",
       "LabelType": "lemma",
       "SourceLine": 609,
-      "SourceOffset": 46919
+      "SourceOffset": 47114
     },
     {
       "Id": "lem:Groupoids_VS_Effective_Epimorphisms",
       "LabelType": "lemma",
       "SourceLine": 648,
-      "SourceOffset": 50006
+      "SourceOffset": 50201
     },
     {
       "Id": "def:Pointed_Connected_Object",
       "LabelType": "definition",
       "SourceLine": 670,
-      "SourceOffset": 51212
+      "SourceOffset": 51407
     },
     {
       "Id": "prop:Delooping_Principle",
       "LabelType": "proposition",
       "SourceLine": 675,
-      "SourceOffset": 51556
+      "SourceOffset": 51751
     },
     {
       "Id": "subsec:Epi_Mono_Factorization_System",
       "LabelType": "subsection",
       "SourceLine": 694,
-      "SourceOffset": 52253
+      "SourceOffset": 52448
     },
     {
       "Id": "prop:Epi_Mono_Factorization_System",
       "LabelType": "proposition",
       "SourceLine": 699,
-      "SourceOffset": 52601
+      "SourceOffset": 52796
     },
     {
       "Id": "subsec:Properties_Of_Effective_Epimorphisms",
       "LabelType": "subsection",
       "SourceLine": 729,
-      "SourceOffset": 55376
+      "SourceOffset": 55571
     },
     {
       "Id": "lem:Composites_Of_Effective_Epis",
       "LabelType": "lemma",
       "SourceLine": 733,
-      "SourceOffset": 55624
+      "SourceOffset": 55819
     },
     {
       "Id": "lem:Section_Implies_Effective_Epi",
       "LabelType": "lemma",
       "SourceLine": 742,
-      "SourceOffset": 55989
+      "SourceOffset": 56184
     },
     {
       "Id": "lem:Mono_With_Section_Is_Iso",
       "LabelType": "corollary",
       "SourceLine": 751,
-      "SourceOffset": 56428
+      "SourceOffset": 56623
     },
     {
       "Id": "lem:Cancellation_Effective_Epi",
       "LabelType": "lemma",
       "SourceLine": 760,
-      "SourceOffset": 57073
+      "SourceOffset": 57268
     },
     {
       "Id": "sec:Characterizations_Of_Topoi",
       "LabelType": "section",
       "SourceLine": 780,
-      "SourceOffset": 58099
+      "SourceOffset": 58294
     },
     {
       "Id": "subsec:Characterizations_Of_Topoi",
       "LabelType": "subsection",
       "SourceLine": 784,
-      "SourceOffset": 58570
+      "SourceOffset": 58765
     },
     {
       "Id": "def:Object_Classifier",
       "LabelType": "definition",
       "SourceLine": 788,
-      "SourceOffset": 58776
+      "SourceOffset": 58971
     },
     {
       "Id": "thm:Characterizations_Topoi",
       "LabelType": "theorem",
       "SourceLine": 793,
-      "SourceOffset": 59139
+      "SourceOffset": 59334
     },
     {
       "Id": "prop:Left_Exactness_Tested_On_Representables",
       "LabelType": "proposition",
       "SourceLine": 840,
-      "SourceOffset": 62133
+      "SourceOffset": 62328
     },
     {
       "Id": "eq:Good_Object_Preserves_Lifted_Base_Change",
       "LabelType": null,
       "SourceLine": 874,
-      "SourceOffset": 64774
+      "SourceOffset": 64969
     },
     {
       "Id": "rem:Direct_Giraud_Proof",
       "LabelType": "remark",
       "SourceLine": 891,
-      "SourceOffset": 65772
+      "SourceOffset": 65967
     },
     {
       "Id": "subsec:Exactness_In_Topoi",
       "LabelType": "subsection",
       "SourceLine": 896,
-      "SourceOffset": 66053
+      "SourceOffset": 66248
     },
     {
       "Id": "prop:Exactness_In_Topoi",
       "LabelType": "proposition",
       "SourceLine": 899,
-      "SourceOffset": 66472
+      "SourceOffset": 66667
     },
     {
       "Id": "subsec:Subobject_Classifier",
       "LabelType": "subsection",
       "SourceLine": 956,
-      "SourceOffset": 70802
+      "SourceOffset": 70997
     },
     {
       "Id": "def:Local_Class",
       "LabelType": "definition",
       "SourceLine": 961,
-      "SourceOffset": 71299
+      "SourceOffset": 71494
     },
     {
       "Id": "prop:Characterization_Local_Class",
       "LabelType": "proposition",
       "SourceLine": 978,
-      "SourceOffset": 71955
+      "SourceOffset": 72150
     },
     {
       "Id": "eq:Local_Class_Colimit_Detection",
       "LabelType": null,
       "SourceLine": 1002,
-      "SourceOffset": 73949
+      "SourceOffset": 74144
     },
     {
       "Id": "def:Classifying_Object",
       "LabelType": "definition",
       "SourceLine": 1022,
-      "SourceOffset": 76185
+      "SourceOffset": 76380
     },
     {
       "Id": "cor:Existence_Of_Classifying_Objects",
       "LabelType": "corollary",
       "SourceLine": 1033,
-      "SourceOffset": 76810
+      "SourceOffset": 77005
     },
     {
       "Id": "def:Subobject_Classifier",
       "LabelType": "definition",
       "SourceLine": 1046,
-      "SourceOffset": 78269
+      "SourceOffset": 78464
     },
     {
       "Id": "lem:Subobject_Classifier_Zero_Truncated",
       "LabelType": "lemma",
       "SourceLine": 1051,
-      "SourceOffset": 78497
+      "SourceOffset": 78692
     },
     {
       "Id": "lem:Universal_Monomorphism_Has_Terminal_Source",
       "LabelType": "lemma",
       "SourceLine": 1060,
-      "SourceOffset": 79133
+      "SourceOffset": 79328
     },
     {
       "Id": "chap:Truncation_and_Connectivity",
       "LabelType": "chapter",
       "SourceLine": 1094,
-      "SourceOffset": 80976
+      "SourceOffset": 81171
     },
     {
       "Id": "sec:Truncation",
       "LabelType": "section",
       "SourceLine": 1111,
-      "SourceOffset": 83484
+      "SourceOffset": 83679
     },
     {
       "Id": "def:Truncated_Morphisms",
       "LabelType": "definition",
       "SourceLine": 1116,
-      "SourceOffset": 84021
+      "SourceOffset": 84216
     },
     {
       "Id": "rem:Minus_One_Truncated_Morphisms_Are_Monomorphisms",
       "LabelType": "remark",
       "SourceLine": 1127,
-      "SourceOffset": 84642
+      "SourceOffset": 84837
     },
     {
       "Id": "rmk:Existence_Truncation_Functor",
       "LabelType": "remark",
       "SourceLine": 1132,
-      "SourceOffset": 84811
+      "SourceOffset": 85006
     },
     {
       "Id": "ex:Stable_Categories_Have_No_Nonzero_Truncated_Objects",
       "LabelType": "exercise",
       "SourceLine": 1145,
-      "SourceOffset": 86156
+      "SourceOffset": 86351
     },
     {
       "Id": "Closure_Properties_Truncated_Maps",
       "LabelType": "lemma",
       "SourceLine": 1152,
-      "SourceOffset": 86411
+      "SourceOffset": 86606
     },
     {
       "Id": "lem:Detecting_Truncated_Morphisms_On_Mapping_Animae",
       "LabelType": "lemma",
       "SourceLine": 1161,
-      "SourceOffset": 86705
+      "SourceOffset": 86900
     },
     {
       "Id": "lem:Cancellation_Truncated_Maps",
       "LabelType": "lemma",
       "SourceLine": 1170,
-      "SourceOffset": 87154
+      "SourceOffset": 87349
     },
     {
       "Id": "lem:Commutation_With_Truncation",
       "LabelType": "lemma",
       "SourceLine": 1198,
-      "SourceOffset": 88523
+      "SourceOffset": 88718
     },
     {
       "Id": "lem:Truncation_Preserves_Finite_Products",
       "LabelType": "lemma",
       "SourceLine": 1217,
-      "SourceOffset": 89355
+      "SourceOffset": 89550
     },
     {
       "Id": "cor:Pullback_Commutes_With_Truncation",
       "LabelType": "corollary",
       "SourceLine": 1226,
-      "SourceOffset": 90173
+      "SourceOffset": 90368
     },
     {
       "Id": "prop:Pushout_Of_Mono_Is_Mono",
       "LabelType": "proposition",
       "SourceLine": 1235,
-      "SourceOffset": 90921
+      "SourceOffset": 91116
     },
     {
       "Id": "lem:Pi0_Of_Mono",
       "LabelType": "lemma",
       "SourceLine": 1261,
-      "SourceOffset": 92243
+      "SourceOffset": 92438
     },
     {
       "Id": "lem:Key_Lemma_Eff_Epi_Pi0",
       "LabelType": "lemma",
       "SourceLine": 1290,
-      "SourceOffset": 93920
+      "SourceOffset": 94115
     },
     {
       "Id": "rem:Circularity_In_HTT_Effective_Epimorphism_Proof",
       "LabelType": "remark",
       "SourceLine": 1299,
-      "SourceOffset": 94288
+      "SourceOffset": 94483
     },
     {
       "Id": "cor:Eff_Epi_Iff_Pi0_Terminal",
       "LabelType": "corollary",
       "SourceLine": 1369,
-      "SourceOffset": 100748
+      "SourceOffset": 100943
     },
     {
       "Id": "sec:Connectivity",
       "LabelType": "section",
       "SourceLine": 1374,
-      "SourceOffset": 100967
+      "SourceOffset": 101162
     },
     {
       "Id": "def:Connectivity",
       "LabelType": "definition",
       "SourceLine": 1379,
-      "SourceOffset": 101402
+      "SourceOffset": 101597
     },
     {
       "Id": "warn:Shift_Terminology_Connectivity",
       "LabelType": "warning",
       "SourceLine": 1389,
-      "SourceOffset": 101830
+      "SourceOffset": 102025
     },
     {
       "Id": "prop:Factorization_System_Connected_Truncated",
       "LabelType": "proposition",
       "SourceLine": 1407,
-      "SourceOffset": 103218
+      "SourceOffset": 103513
     },
     {
       "Id": "lem:Truncated_And_Connected_Morphisms_Local",
       "LabelType": "lemma",
       "SourceLine": 1470,
-      "SourceOffset": 107018
+      "SourceOffset": 107313
     },
     {
       "Id": "cor:Minus_One_Connected_Iff_Effective_Epimorphism",
       "LabelType": "corollary",
       "SourceLine": 1498,
-      "SourceOffset": 108704
+      "SourceOffset": 108999
     },
     {
       "Id": "cor:Pointed_Object_-1_Connected",
       "LabelType": "corollary",
       "SourceLine": 1507,
-      "SourceOffset": 109166
+      "SourceOffset": 109461
     },
     {
       "Id": "sec:Homotopy_Group_Objects",
       "LabelType": "section",
       "SourceLine": 1516,
-      "SourceOffset": 109610
+      "SourceOffset": 109905
     },
     {
       "Id": "thm:Characterization_n_Connected",
       "LabelType": "theorem",
       "SourceLine": 1521,
-      "SourceOffset": 110197
+      "SourceOffset": 110492
     },
     {
       "Id": "subsec:Homotopy_Group_Objects_And_Exact_Sequences",
       "LabelType": "subsection",
       "SourceLine": 1526,
-      "SourceOffset": 110504
+      "SourceOffset": 110799
     },
     {
       "Id": "def:Homotopy_Group_Objects",
       "LabelType": "definition",
       "SourceLine": 1531,
-      "SourceOffset": 110729
+      "SourceOffset": 111024
     },
     {
       "Id": "ex:Zeroth_Homotopy_Object",
       "LabelType": "example",
       "SourceLine": 1546,
-      "SourceOffset": 111633
+      "SourceOffset": 111928
     },
     {
       "Id": "lem:Functor_Preserves_Homotopy_Group_Objects",
       "LabelType": "lemma",
       "SourceLine": 1551,
-      "SourceOffset": 111919
+      "SourceOffset": 112214
     },
     {
       "Id": "subsec:Universal_Infinity_Connected_Object",
       "LabelType": "subsection",
       "SourceLine": 1563,
-      "SourceOffset": 112735
+      "SourceOffset": 113030
     },
     {
       "Id": "lem:Homotopy_Group_Objects_Preserve_Products",
       "LabelType": "lemma",
       "SourceLine": 1566,
-      "SourceOffset": 112819
+      "SourceOffset": 113114
     },
     {
       "Id": "not:Relative_Homotopy_Group_Object",
       "LabelType": "notation",
       "SourceLine": 1578,
-      "SourceOffset": 113338
+      "SourceOffset": 113633
     },
     {
       "Id": "rem:Relative_Homotopy_Group_Object_Diagonal",
       "LabelType": "remark",
       "SourceLine": 1587,
-      "SourceOffset": 113705
+      "SourceOffset": 114000
     },
     {
       "Id": "ex:Subgroups_Of_Fundamental_Group_Object_Are_Normal",
       "LabelType": "exercise",
       "SourceLine": 1596,
-      "SourceOffset": 113896
+      "SourceOffset": 114191
     },
     {
       "Id": "prop:Long_Exact_Sequence_Homotopy_Group_Objects",
       "LabelType": "proposition",
       "SourceLine": 1601,
-      "SourceOffset": 114063
+      "SourceOffset": 114358
     },
     {
       "Id": "lem:Truncation_Preserves_Lower_Homotopy_Groups",
       "LabelType": "lemma",
       "SourceLine": 1614,
-      "SourceOffset": 115470
+      "SourceOffset": 115765
     },
     {
       "Id": "subsec:Detection_And_Diagonal_Criterion",
       "LabelType": "subsection",
       "SourceLine": 1627,
-      "SourceOffset": 116565
+      "SourceOffset": 116860
     },
     {
       "Id": "prop:Homotopy_Group_Objects_Detect_Truncation_Connectivity",
       "LabelType": "proposition",
       "SourceLine": 1632,
-      "SourceOffset": 116882
+      "SourceOffset": 117177
     },
     {
       "Id": "cor:Cancellation_Connected_Maps",
       "LabelType": "corollary",
       "SourceLine": 1689,
-      "SourceOffset": 122653
+      "SourceOffset": 122948
     },
     {
       "Id": "cor:Connectedness_In_Terms_Of_Loop_Space",
       "LabelType": "corollary",
       "SourceLine": 1698,
-      "SourceOffset": 123247
+      "SourceOffset": 123542
     },
     {
       "Id": "cor:Connected_Map_Induces_Equivalence_On_Truncated_Objects",
       "LabelType": "corollary",
       "SourceLine": 1709,
-      "SourceOffset": 124339
+      "SourceOffset": 124634
     },
     {
       "Id": "sec:Hypercompletion",
       "LabelType": "section",
       "SourceLine": 1728,
-      "SourceOffset": 125875
+      "SourceOffset": 126170
     },
     {
       "Id": "def:Infinity_Connected_And_Truncated_Morphisms",
       "LabelType": "definition",
       "SourceLine": 1733,
-      "SourceOffset": 126342
+      "SourceOffset": 126637
     },
     {
       "Id": "def:Hypercomplete_Topos",
       "LabelType": "definition",
       "SourceLine": 1738,
-      "SourceOffset": 126700
+      "SourceOffset": 126995
     },
     {
       "Id": "rem:Hypercompleteness_Terminology",
       "LabelType": "remark",
       "SourceLine": 1743,
-      "SourceOffset": 127016
+      "SourceOffset": 127311
     },
     {
       "Id": "prop:Infinity_Connected_Maps",
       "LabelType": "proposition",
       "SourceLine": 1748,
-      "SourceOffset": 127399
+      "SourceOffset": 127694
     },
     {
       "Id": "cor:Hypercompletion_Is_Left_Exact",
       "LabelType": "corollary",
       "SourceLine": 1770,
-      "SourceOffset": 129829
+      "SourceOffset": 130060
     },
     {
       "Id": "sec:Gerbes",
       "LabelType": "section",
       "SourceLine": 1788,
-      "SourceOffset": 131347
+      "SourceOffset": 131578
     },
     {
       "Id": "subsec:Gerbes_And_Eilenberg_MacLane_Objects",
       "LabelType": "subsection",
       "SourceLine": 1791,
-      "SourceOffset": 131432
+      "SourceOffset": 131663
     },
     {
       "Id": "def:Gerbes_And_Eilenberg_MacLane_Objects",
       "LabelType": "definition",
       "SourceLine": 1800,
-      "SourceOffset": 131939
+      "SourceOffset": 132170
     },
     {
       "Id": "ex:n_Gerbe_From_n_Plus_One_Gerbe",
       "LabelType": "example",
       "SourceLine": 1809,
-      "SourceOffset": 132515
+      "SourceOffset": 132746
     },
     {
       "Id": "def:Iterated_Group_Objects",
       "LabelType": "definition",
       "SourceLine": 1823,
-      "SourceOffset": 133417
+      "SourceOffset": 133648
     },
     {
       "Id": "prop:Iterated_Delooping_Principle",
       "LabelType": "proposition",
       "SourceLine": 1831,
-      "SourceOffset": 133784
+      "SourceOffset": 134015
     },
     {
       "Id": "cor:Classification_Of_Eilenberg_MacLane_Objects",
       "LabelType": "corollary",
       "SourceLine": 1856,
-      "SourceOffset": 135257
+      "SourceOffset": 135488
     },
     {
       "Id": "subsec:Banded_Gerbes_And_Cohomology",
       "LabelType": "subsection",
       "SourceLine": 1872,
-      "SourceOffset": 136156
+      "SourceOffset": 136387
     },
     {
       "Id": "lem:Homotopy_Group_Object_Of_Gerbe_Is_Constant",
       "LabelType": "lemma",
       "SourceLine": 1884,
-      "SourceOffset": 136864
+      "SourceOffset": 137095
     },
     {
       "Id": "rem:Band_Of_One_Gerbe",
       "LabelType": "remark",
       "SourceLine": 1893,
-      "SourceOffset": 137584
+      "SourceOffset": 137815
     },
     {
       "Id": "def:Banded_Gerbe",
       "LabelType": "definition",
       "SourceLine": 1898,
-      "SourceOffset": 137757
+      "SourceOffset": 137988
     },
     {
       "Id": "lem:EM_Banded_By_A",
       "LabelType": "lemma",
       "SourceLine": 1907,
-      "SourceOffset": 138273
+      "SourceOffset": 138504
     },
     {
       "Id": "thm:Classification_Of_Banded_Gerbes",
       "LabelType": "theorem",
       "SourceLine": 1922,
-      "SourceOffset": 139755
+      "SourceOffset": 139986
     },
     {
       "Id": "rem:Torsors_As_Maps_To_Delooping",
       "LabelType": "remark",
       "SourceLine": 1957,
-      "SourceOffset": 143123
+      "SourceOffset": 143354
     },
     {
       "Id": "def:Cohomology_With_Coefficients",
       "LabelType": "definition",
       "SourceLine": 1978,
-      "SourceOffset": 144439
+      "SourceOffset": 144670
     },
     {
       "Id": "chap:Category_Of_Topoi",
       "LabelType": "chapter",
       "SourceLine": 1986,
-      "SourceOffset": 144773
+      "SourceOffset": 145004
     },
     {
       "Id": "sec:Topoi_And_Logoi",
       "LabelType": "section",
       "SourceLine": 2001,
-      "SourceOffset": 147235
+      "SourceOffset": 147466
     },
     {
       "Id": "def:Morphism_Of_Topoi",
       "LabelType": "definition",
       "SourceLine": 2006,
-      "SourceOffset": 147764
+      "SourceOffset": 147995
     },
     {
       "Id": "def:Logos_And_Morphism_Of_Logoi",
       "LabelType": "definition",
       "SourceLine": 2015,
-      "SourceOffset": 148206
+      "SourceOffset": 148437
     },
     {
       "Id": "rem:Logos_Morphisms_Preserve_Truncations",
       "LabelType": "remark",
       "SourceLine": 2024,
-      "SourceOffset": 148904
+      "SourceOffset": 149135
     },
     {
       "Id": "rem:Duality_Topoi_Logoi",
       "LabelType": "remark",
       "SourceLine": 2029,
-      "SourceOffset": 149148
+      "SourceOffset": 149379
     },
     {
       "Id": "con:Two_Categories_Of_Topoi_And_Logoi",
       "LabelType": "construction",
       "SourceLine": 2040,
-      "SourceOffset": 149787
+      "SourceOffset": 150467
     },
     {
       "Id": "rem:Notation_For_Two_Categories_Of_Topoi",
       "LabelType": "remark",
       "SourceLine": 2059,
-      "SourceOffset": 150914
+      "SourceOffset": 151594
     },
     {
       "Id": "def:Point_Of_Topos",
       "LabelType": "definition",
       "SourceLine": 2066,
-      "SourceOffset": 151488
+      "SourceOffset": 152168
     },
     {
       "Id": "ex:Points_Of_Presheaf_Localizations",
       "LabelType": "example",
       "SourceLine": 2075,
-      "SourceOffset": 151739
+      "SourceOffset": 152419
     },
     {
       "Id": "sec:Presentations_Of_Logoi",
       "LabelType": "section",
       "SourceLine": 2089,
-      "SourceOffset": 152592
+      "SourceOffset": 153272
     },
     {
       "Id": "subsec:Free_Logoi",
       "LabelType": "subsection",
       "SourceLine": 2099,
-      "SourceOffset": 153710
+      "SourceOffset": 154390
     },
     {
       "Id": "con:Free_Logos",
       "LabelType": "construction",
       "SourceLine": 2104,
-      "SourceOffset": 153841
+      "SourceOffset": 154521
     },
     {
       "Id": "prop:Universal_Property_Free_Logos",
       "LabelType": "proposition",
       "SourceLine": 2116,
-      "SourceOffset": 154344
+      "SourceOffset": 155024
     },
     {
       "Id": "rem:Free_Logos_As_Categorified_Polynomial_Ring",
       "LabelType": "remark",
       "SourceLine": 2139,
-      "SourceOffset": 155825
+      "SourceOffset": 157298
     },
     {
       "Id": "ex:An_Terminal_Topos",
       "LabelType": "example",
       "SourceLine": 2144,
-      "SourceOffset": 156097
+      "SourceOffset": 157570
     },
     {
       "Id": "ex:Free_Logos_On_One_Generator",
       "LabelType": "example",
       "SourceLine": 2153,
-      "SourceOffset": 156496
+      "SourceOffset": 157969
     },
     {
       "Id": "subsec:Quotients_Of_Logoi",
       "LabelType": "subsection",
       "SourceLine": 2161,
-      "SourceOffset": 156943
+      "SourceOffset": 158416
     },
     {
       "Id": "def:Congruence",
       "LabelType": "definition",
       "SourceLine": 2166,
-      "SourceOffset": 157385
+      "SourceOffset": 158858
     },
     {
       "Id": "lem:Characterization_Left_Exact_Localizations",
       "LabelType": "lemma",
       "SourceLine": 2177,
-      "SourceOffset": 158243
+      "SourceOffset": 159716
     },
     {
       "Id": "cor:Left_Exact_Localization_Iff_Localization_At_Congruence",
       "LabelType": "corollary",
       "SourceLine": 2197,
-      "SourceOffset": 160530
+      "SourceOffset": 162003
     },
     {
       "Id": "def:Quotient_Logos",
       "LabelType": "definition",
       "SourceLine": 2218,
-      "SourceOffset": 162206
+      "SourceOffset": 163736
     },
     {
       "Id": "prop:Universal_Property_Quotient_Logos",
       "LabelType": "proposition",
       "SourceLine": 2229,
-      "SourceOffset": 162681
+      "SourceOffset": 164211
     },
     {
       "Id": "def:Quotient_Map",
       "LabelType": "definition",
       "SourceLine": 2248,
-      "SourceOffset": 163899
+      "SourceOffset": 165429
     },
     {
       "Id": "lem:Quotient_Maps_Of_Logoi_Are_Epimorphisms",
       "LabelType": "lemma",
       "SourceLine": 2255,
-      "SourceOffset": 164244
+      "SourceOffset": 165774
     },
     {
       "Id": "rem:Quotient_Maps_As_Monomorphisms_Of_Topoi",
       "LabelType": "remark",
       "SourceLine": 2268,
-      "SourceOffset": 165035
+      "SourceOffset": 166565
     },
     {
       "Id": "ex:Generated_Congruence",
       "LabelType": "example",
       "SourceLine": 2280,
-      "SourceOffset": 166400
+      "SourceOffset": 167930
     },
     {
       "Id": "ex:Preimage_Of_Congruence",
       "LabelType": "example",
       "SourceLine": 2285,
-      "SourceOffset": 167012
+      "SourceOffset": 168410
     },
     {
       "Id": "subsec:Presentations_Of_Logoi",
       "LabelType": "subsection",
       "SourceLine": 2298,
-      "SourceOffset": 167745
+      "SourceOffset": 169143
     },
     {
       "Id": "def:Logos_Presentation",
       "LabelType": "definition",
       "SourceLine": 2302,
-      "SourceOffset": 167913
+      "SourceOffset": 169311
     },
     {
       "Id": "lem:Universal_Property_Presentation_Logos",
       "LabelType": "lemma",
       "SourceLine": 2317,
-      "SourceOffset": 168779
+      "SourceOffset": 170177
     },
     {
       "Id": "prop:Presentation_Logos",
       "LabelType": "proposition",
       "SourceLine": 2328,
-      "SourceOffset": 169536
+      "SourceOffset": 170934
     },
     {
       "Id": "ex:Presentations_Of_Logoi",
       "LabelType": "example",
       "SourceLine": 2364,
-      "SourceOffset": 171466
+      "SourceOffset": 172864
     },
     {
       "Id": "it:Free_Logos",
       "LabelType": null,
       "SourceLine": 2371,
-      "SourceOffset": 171756
+      "SourceOffset": 173154
     },
     {
       "Id": "sec:Limits_And_Colimits_Of_Topoi",
       "LabelType": "section",
       "SourceLine": 2423,
-      "SourceOffset": 174975
+      "SourceOffset": 176373
     },
     {
       "Id": "thm:Limits_And_Colimits_Topoi",
       "LabelType": "theorem",
       "SourceLine": 2428,
-      "SourceOffset": 175607
+      "SourceOffset": 177005
     },
     {
       "Id": "rem:General_Limits_Of_Topoi_Are_Subtle",
       "LabelType": "remark",
       "SourceLine": 2442,
-      "SourceOffset": 176381
+      "SourceOffset": 177823
     },
     {
       "Id": "subsec:Limits_Of_Logoi",
       "LabelType": "subsection",
       "SourceLine": 2447,
-      "SourceOffset": 176684
+      "SourceOffset": 178126
     },
     {
       "Id": "prop:Limits_Of_Logoi_Computed_In_Categories",
       "LabelType": "proposition",
       "SourceLine": 2452,
-      "SourceOffset": 176819
+      "SourceOffset": 178261
     },
     {
       "Id": "subsec:Colimits_Of_Logoi",
       "LabelType": "subsection",
       "SourceLine": 2465,
-      "SourceOffset": 178105
+      "SourceOffset": 179547
     },
     {
       "Id": "prop:Colimits_Of_Logoi_Exist",
       "LabelType": "proposition",
       "SourceLine": 2470,
-      "SourceOffset": 178254
+      "SourceOffset": 179696
     },
     {
       "Id": "subsec:Filtered_Limits_Of_Topoi",
       "LabelType": "subsection",
       "SourceLine": 2512,
-      "SourceOffset": 181444
+      "SourceOffset": 182682
     },
     {
       "Id": "prop:Filtered_Limits_Of_Topoi_Computed_In_Categories",
       "LabelType": "proposition",
       "SourceLine": 2517,
-      "SourceOffset": 181630
+      "SourceOffset": 182868
     },
     {
       "Id": "subsec:Products_Of_Topoi",
       "LabelType": "subsection",
-      "SourceLine": 2536,
-      "SourceOffset": 184489
+      "SourceLine": 2539,
+      "SourceOffset": 186913
     },
     {
       "Id": "prop:Products_Of_Topoi_Are_Tensor_Products",
       "LabelType": "proposition",
-      "SourceLine": 2541,
-      "SourceOffset": 184666
+      "SourceLine": 2544,
+      "SourceOffset": 187090
     },
     {
       "Id": "ex:Tensors_And_Cotensors_Of_Topoi",
       "LabelType": "exercise",
-      "SourceLine": 2600,
-      "SourceOffset": 189078
+      "SourceLine": 2603,
+      "SourceOffset": 191520
     },
     {
       "Id": "sec:Etale_Morphisms",
       "LabelType": "section",
-      "SourceLine": 2609,
-      "SourceOffset": 189510
+      "SourceLine": 2612,
+      "SourceOffset": 191952
     },
     {
       "Id": "def:Etale_Morphism",
       "LabelType": "definition",
-      "SourceLine": 2614,
-      "SourceOffset": 190191
+      "SourceLine": 2617,
+      "SourceOffset": 192633
     },
     {
       "Id": "rem:Etale_Maps_Of_Spaces_And_Topoi",
       "LabelType": "remark",
-      "SourceLine": 2627,
-      "SourceOffset": 190831
+      "SourceLine": 2630,
+      "SourceOffset": 193273
     },
     {
       "Id": "prop:Characterization_Etale_Morphisms_By_Left_Adjoint",
       "LabelType": "proposition",
-      "SourceLine": 2634,
-      "SourceOffset": 191537
+      "SourceLine": 2637,
+      "SourceOffset": 193979
     },
     {
       "Id": "prop:Etale_Morphisms_Over_Topos",
       "LabelType": "proposition",
-      "SourceLine": 2662,
-      "SourceOffset": 193450
+      "SourceLine": 2665,
+      "SourceOffset": 195892
     },
     {
       "Id": "cor:Slices_Of_Top_Etale_Coherently",
       "LabelType": "corollary",
-      "SourceLine": 2732,
-      "SourceOffset": 197145
+      "SourceLine": 2735,
+      "SourceOffset": 199587
     },
     {
       "Id": "cor:Cancellation_Etale_Morphisms_Topoi",
       "LabelType": "corollary",
-      "SourceLine": 2752,
-      "SourceOffset": 198328
+      "SourceLine": 2755,
+      "SourceOffset": 200770
     },
     {
       "Id": "sec:Colimits_In_Top_Etale",
       "LabelType": "section",
-      "SourceLine": 2765,
-      "SourceOffset": 199152
+      "SourceLine": 2768,
+      "SourceOffset": 201594
     },
     {
       "Id": "thm:Colimits_Topos_Et",
       "LabelType": "theorem",
-      "SourceLine": 2770,
-      "SourceOffset": 199477
+      "SourceLine": 2773,
+      "SourceOffset": 201919
     },
     {
       "Id": "subsec:Univalent_Families",
       "LabelType": "subsection",
-      "SourceLine": 2781,
-      "SourceOffset": 201107
+      "SourceLine": 2784,
+      "SourceOffset": 203549
     },
     {
       "Id": "def:Univalent_Family",
       "LabelType": "definition",
-      "SourceLine": 2786,
-      "SourceOffset": 201772
+      "SourceLine": 2789,
+      "SourceOffset": 204214
     },
     {
       "Id": "lem:Family_Slice_Equivalent_To_Base_Slice",
       "LabelType": "lemma",
-      "SourceLine": 2807,
-      "SourceOffset": 202812
+      "SourceLine": 2810,
+      "SourceOffset": 205254
     },
     {
       "Id": "lem:Families_Closed_Under_Colimits",
       "LabelType": "lemma",
-      "SourceLine": 2820,
-      "SourceOffset": 203464
+      "SourceLine": 2823,
+      "SourceOffset": 205906
     },
     {
       "Id": "prop:Family_Category_Binary_Products",
       "LabelType": "proposition",
-      "SourceLine": 2831,
-      "SourceOffset": 204171
+      "SourceLine": 2834,
+      "SourceOffset": 206613
     },
     {
       "Id": "cor:Univalent_Families_Closed_Under_Sequential_Colimits",
       "LabelType": "corollary",
-      "SourceLine": 2865,
-      "SourceOffset": 207478
+      "SourceLine": 2868,
+      "SourceOffset": 209920
     },
     {
       "Id": "eq:Univalent_Families_Closed_Under_Sequential_Colimits",
       "LabelType": null,
-      "SourceLine": 2872,
-      "SourceOffset": 207859
+      "SourceLine": 2875,
+      "SourceOffset": 210301
     },
     {
       "Id": "prop:Univalent_Completion",
       "LabelType": "proposition",
-      "SourceLine": 2881,
-      "SourceOffset": 208439
+      "SourceLine": 2884,
+      "SourceOffset": 210881
     },
     {
       "Id": "rem:Univalent_Completion_As_Join_Construction",
       "LabelType": "remark",
-      "SourceLine": 2924,
-      "SourceOffset": 210769
+      "SourceLine": 2927,
+      "SourceOffset": 213211
     },
     {
       "Id": "subsec:Dependent_Products",
       "LabelType": "subsection",
-      "SourceLine": 2931,
-      "SourceOffset": 211344
+      "SourceLine": 2934,
+      "SourceOffset": 213786
     },
     {
       "Id": "def:Preservation_Of_Dependent_Products",
       "LabelType": "definition",
-      "SourceLine": 2940,
-      "SourceOffset": 211677
+      "SourceLine": 2943,
+      "SourceOffset": 214119
     },
     {
       "Id": "prop:Dependent_Product_Preserving_Morphisms_Closed_Under_Limits",
       "LabelType": "proposition",
-      "SourceLine": 2949,
-      "SourceOffset": 212143
+      "SourceLine": 2952,
+      "SourceOffset": 214585
     },
     {
       "Id": "def:Indexed_Left_Adjoint",
       "LabelType": "definition",
-      "SourceLine": 2958,
-      "SourceOffset": 213044
+      "SourceLine": 2961,
+      "SourceOffset": 215486
     },
     {
       "Id": "lem:Dependent_Products_Indexed_Left_Adjoint",
       "LabelType": "lemma",
-      "SourceLine": 2977,
-      "SourceOffset": 213804
+      "SourceLine": 2980,
+      "SourceOffset": 216246
     },
     {
       "Id": "lem:Dependent_Product_Functor_Preserves_Univalent_Families",
       "LabelType": "lemma",
-      "SourceLine": 3024,
-      "SourceOffset": 216858
+      "SourceLine": 3027,
+      "SourceOffset": 219300
     },
     {
       "Id": "subsec:Characterization_Of_Etale_Morphisms",
       "LabelType": "subsection",
-      "SourceLine": 3041,
-      "SourceOffset": 218210
+      "SourceLine": 3044,
+      "SourceOffset": 220652
     },
     {
       "Id": "def:Enough_Families_And_Object_Generation",
       "LabelType": "definition",
-      "SourceLine": 3046,
-      "SourceOffset": 218783
+      "SourceLine": 3049,
+      "SourceOffset": 221225
     },
     {
       "Id": "lem:Indexed_Left_Adjoint_Etale_Factorization",
       "LabelType": "lemma",
-      "SourceLine": 3056,
-      "SourceOffset": 219487
+      "SourceLine": 3059,
+      "SourceOffset": 221929
     },
     {
       "Id": "prop:Etale_Morphism_Characterization",
       "LabelType": "proposition",
-      "SourceLine": 3079,
-      "SourceOffset": 220951
+      "SourceLine": 3082,
+      "SourceOffset": 223393
     },
     {
       "Id": "prop:Coslice_Etale_Morphisms",
       "LabelType": "proposition",
-      "SourceLine": 3122,
-      "SourceOffset": 224020
+      "SourceLine": 3125,
+      "SourceOffset": 226462
     },
     {
       "Id": "subsec:Proof_Of_Colimits_Topoi_Etale",
       "LabelType": "subsection",
-      "SourceLine": 3141,
-      "SourceOffset": 225044
+      "SourceLine": 3144,
+      "SourceOffset": 227486
     },
     {
       "Id": "lem:Product_Projections_Etale",
       "LabelType": "lemma",
-      "SourceLine": 3146,
-      "SourceOffset": 225396
+      "SourceLine": 3149,
+      "SourceOffset": 227838
     },
     {
       "Id": "lem:Limit_Projections_Etale",
       "LabelType": "lemma",
-      "SourceLine": 3163,
-      "SourceOffset": 226090
+      "SourceLine": 3166,
+      "SourceOffset": 228532
     },
     {
       "Id": "prop:Wide_Subcategory_Colimit_Criterion",
       "LabelType": "proposition",
-      "SourceLine": 3223,
-      "SourceOffset": 231125
+      "SourceLine": 3226,
+      "SourceOffset": 233567
     },
     {
       "Id": "chap:Modalities_And_Congruences",
       "LabelType": "chapter",
-      "SourceLine": 3257,
-      "SourceOffset": 233788
+      "SourceLine": 3260,
+      "SourceOffset": 236230
     },
     {
       "Id": "def:Modality",
       "LabelType": "definition",
-      "SourceLine": 3274,
-      "SourceOffset": 236881
+      "SourceLine": 3277,
+      "SourceOffset": 239323
     },
     {
       "Id": "def:Acyclic_Class",
       "LabelType": "definition",
-      "SourceLine": 3279,
-      "SourceOffset": 237071
+      "SourceLine": 3282,
+      "SourceOffset": 239513
     },
     {
       "Id": "term:Modality_From_Left_Class",
       "LabelType": "terminology",
-      "SourceLine": 3286,
-      "SourceOffset": 237693
+      "SourceLine": 3289,
+      "SourceOffset": 240135
     },
     {
       "Id": "lem:Classes_In_Modality_Local",
       "LabelType": "lemma",
-      "SourceLine": 3291,
-      "SourceOffset": 238133
+      "SourceLine": 3294,
+      "SourceOffset": 240575
     },
     {
       "Id": "sec:Epimorphisms",
       "LabelType": "section",
-      "SourceLine": 3328,
-      "SourceOffset": 240681
+      "SourceLine": 3331,
+      "SourceOffset": 243123
     },
     {
       "Id": "subsec:Cotruncated_Maps_And_Epimorphisms",
       "LabelType": "subsection",
-      "SourceLine": 3333,
-      "SourceOffset": 240994
+      "SourceLine": 3336,
+      "SourceOffset": 243436
     },
     {
       "Id": "def:Cotruncated_Morphisms",
       "LabelType": "definition",
-      "SourceLine": 3338,
-      "SourceOffset": 241254
+      "SourceLine": 3341,
+      "SourceOffset": 243696
     },
     {
       "Id": "lem:Cotruncated_Morphisms_Form_Modality",
       "LabelType": "lemma",
-      "SourceLine": 3343,
-      "SourceOffset": 241673
+      "SourceLine": 3346,
+      "SourceOffset": 244115
     },
     {
       "Id": "def:Epimorphism",
       "LabelType": "definition",
-      "SourceLine": 3372,
-      "SourceOffset": 243710
+      "SourceLine": 3375,
+      "SourceOffset": 246152
     },
     {
       "Id": "ex:Effective_Epi_Not_Epi",
       "LabelType": "example",
-      "SourceLine": 3390,
-      "SourceOffset": 244674
+      "SourceLine": 3393,
+      "SourceOffset": 247116
     },
     {
       "Id": "prop:Epimorphisms_Are_Zero_Connected",
       "LabelType": "proposition",
-      "SourceLine": 3397,
-      "SourceOffset": 245076
+      "SourceLine": 3400,
+      "SourceOffset": 247518
     },
     {
       "Id": "lem:Mono_Plus_Epi_Is_Iso_In_Classical_Topos",
       "LabelType": "lemma",
-      "SourceLine": 3433,
-      "SourceOffset": 248034
+      "SourceLine": 3436,
+      "SourceOffset": 250476
     },
     {
       "Id": "subsec:Acyclic_Maps_And_Plus_Construction",
       "LabelType": "subsection",
-      "SourceLine": 3451,
-      "SourceOffset": 249716
+      "SourceLine": 3454,
+      "SourceOffset": 252158
     },
     {
       "Id": "lem:Local_Coefficients_Detect_Pi_Zero_And_Pi_One",
       "LabelType": "lemma",
-      "SourceLine": 3456,
-      "SourceOffset": 250075
+      "SourceLine": 3459,
+      "SourceOffset": 252517
     },
     {
       "Id": "lem:Whitehead_With_Local_Coefficients",
       "LabelType": "lemma",
-      "SourceLine": 3475,
-      "SourceOffset": 251261
+      "SourceLine": 3478,
+      "SourceOffset": 253703
     },
     {
       "Id": "prop:Epimorphisms_In_Animae",
       "LabelType": "proposition",
-      "SourceLine": 3497,
-      "SourceOffset": 252888
+      "SourceLine": 3500,
+      "SourceOffset": 255330
     },
     {
       "Id": "sec:Blakers_Massey",
       "LabelType": "section",
-      "SourceLine": 3548,
-      "SourceOffset": 256495
+      "SourceLine": 3551,
+      "SourceOffset": 258937
     },
     {
       "Id": "thm:Classical_Blakers_Massey",
       "LabelType": "theorem",
-      "SourceLine": 3553,
-      "SourceOffset": 256682
+      "SourceLine": 3556,
+      "SourceOffset": 259124
     },
     {
       "Id": "nota:Pushout_Product",
       "LabelType": "notation",
-      "SourceLine": 3562,
-      "SourceOffset": 257930
+      "SourceLine": 3565,
+      "SourceOffset": 260372
     },
     {
       "Id": "thm:Generalized_Blakers_Massey",
       "LabelType": "theorem",
-      "SourceLine": 3577,
-      "SourceOffset": 258769
+      "SourceLine": 3580,
+      "SourceOffset": 261211
     },
     {
       "Id": "lem:Connectivity_Of_Pushout_Products",
       "LabelType": "lemma",
-      "SourceLine": 3593,
-      "SourceOffset": 259397
+      "SourceLine": 3596,
+      "SourceOffset": 261839
     },
     {
       "Id": "cor:Blakers_Massey",
       "LabelType": "corollary",
-      "SourceLine": 3614,
-      "SourceOffset": 260666
+      "SourceLine": 3617,
+      "SourceOffset": 263108
     },
     {
       "Id": "rem:Dual_Blakers_Massey",
       "LabelType": "remark",
-      "SourceLine": 3623,
-      "SourceOffset": 261162
+      "SourceLine": 3626,
+      "SourceOffset": 263604
     },
     {
       "Id": "subsec:Modal_Descent",
       "LabelType": "subsection",
-      "SourceLine": 3639,
-      "SourceOffset": 261894
+      "SourceLine": 3642,
+      "SourceOffset": 264336
     },
     {
       "Id": "def:L_Cartesian_Square",
       "LabelType": "definition",
-      "SourceLine": 3644,
-      "SourceOffset": 262162
+      "SourceLine": 3647,
+      "SourceOffset": 264604
     },
     {
       "Id": "prop:Properties_L_Cartesian_Squares",
       "LabelType": "proposition",
-      "SourceLine": 3649,
-      "SourceOffset": 262379
+      "SourceLine": 3652,
+      "SourceOffset": 264821
     },
     {
       "Id": "lem:L_Cartesian_Gives_Pullback_Square",
       "LabelType": "lemma",
-      "SourceLine": 3677,
-      "SourceOffset": 263738
+      "SourceLine": 3680,
+      "SourceOffset": 266180
     },
     {
       "Id": "prop:Modal_Descent",
       "LabelType": "proposition",
-      "SourceLine": 3701,
-      "SourceOffset": 264759
+      "SourceLine": 3704,
+      "SourceOffset": 267201
     },
     {
       "Id": "subsec:Warn_Alternative_Proof",
       "LabelType": "subsection",
-      "SourceLine": 3857,
-      "SourceOffset": 278309
+      "SourceLine": 3860,
+      "SourceOffset": 280751
     },
     {
       "Id": "constr:Warn_Making_Leg_Cartesian",
       "LabelType": "construction",
-      "SourceLine": 3869,
-      "SourceOffset": 279065
+      "SourceLine": 3872,
+      "SourceOffset": 281507
     },
     {
       "Id": "lem:Warn_Cartesianization_Preserves_Pushouts",
       "LabelType": "lemma",
-      "SourceLine": 3891,
-      "SourceOffset": 279840
+      "SourceLine": 3894,
+      "SourceOffset": 282282
     },
     {
       "Id": "constr:Warn_Zigzag",
       "LabelType": "construction",
-      "SourceLine": 3908,
-      "SourceOffset": 280447
+      "SourceLine": 3911,
+      "SourceOffset": 282889
     },
     {
       "Id": "thm:Warn_Path_Spaces_Of_Pushouts",
       "LabelType": "theorem",
-      "SourceLine": 3922,
-      "SourceOffset": 281117
+      "SourceLine": 3925,
+      "SourceOffset": 283559
     },
     {
       "Id": "lem:Warn_First_Transition",
       "LabelType": "lemma",
-      "SourceLine": 3974,
-      "SourceOffset": 283851
+      "SourceLine": 3977,
+      "SourceOffset": 286293
     },
     {
       "Id": "lem:Warn_Propagation",
       "LabelType": "lemma",
-      "SourceLine": 4014,
-      "SourceOffset": 286659
+      "SourceLine": 4017,
+      "SourceOffset": 289101
     },
     {
       "Id": "sec:Congruences_Modalities",
       "LabelType": "section",
-      "SourceLine": 4069,
-      "SourceOffset": 289855
+      "SourceLine": 4072,
+      "SourceOffset": 292297
     },
     {
       "Id": "not:Posets_Of_Morphism_Classes",
       "LabelType": "notation",
-      "SourceLine": 4095,
-      "SourceOffset": 291659
+      "SourceLine": 4098,
+      "SourceOffset": 294101
     },
     {
       "Id": "not:Generated_Closure_Classes",
       "LabelType": "notation",
-      "SourceLine": 4104,
-      "SourceOffset": 292194
+      "SourceLine": 4107,
+      "SourceOffset": 294636
     },
     {
       "Id": "subsec:Generated_Acyclic_Classes_And_Modalities",
       "LabelType": "subsection",
-      "SourceLine": 4115,
-      "SourceOffset": 292831
+      "SourceLine": 4118,
+      "SourceOffset": 295273
     },
     {
       "Id": "prop:Generated_Modality_Is_Saturation_Of_Base_Changes",
       "LabelType": "proposition",
-      "SourceLine": 4120,
-      "SourceOffset": 293206
+      "SourceLine": 4123,
+      "SourceOffset": 295648
     },
     {
       "Id": "rem:Generated_Modality_And_Congruence_Adjunctions",
       "LabelType": "remark",
-      "SourceLine": 4141,
-      "SourceOffset": 295785
+      "SourceLine": 4144,
+      "SourceOffset": 298227
     },
     {
       "Id": "subsec:Characterizations_Of_Congruences",
       "LabelType": "subsection",
-      "SourceLine": 4146,
-      "SourceOffset": 296343
+      "SourceLine": 4149,
+      "SourceOffset": 298785
     },
     {
       "Id": "lem:Closure_Under_Finite_Limits_Implies_Left_Cancellation",
       "LabelType": "lemma",
-      "SourceLine": 4151,
-      "SourceOffset": 296630
+      "SourceLine": 4154,
+      "SourceOffset": 299072
     },
     {
       "Id": "prop:Characterization_Congruences",
       "LabelType": "proposition",
-      "SourceLine": 4182,
-      "SourceOffset": 298773
+      "SourceLine": 4185,
+      "SourceOffset": 301215
     },
     {
       "Id": "subsec:Decalage_And_Generated_Congruences",
       "LabelType": "subsection",
-      "SourceLine": 4204,
-      "SourceOffset": 300637
+      "SourceLine": 4207,
+      "SourceOffset": 303456
     },
     {
       "Id": "def:Decalage_Of_Modality",
       "LabelType": "definition",
-      "SourceLine": 4209,
-      "SourceOffset": 300962
+      "SourceLine": 4212,
+      "SourceOffset": 303781
     },
     {
       "Id": "lem:ABFJ_Lemma2",
       "LabelType": "proposition",
-      "SourceLine": 4218,
-      "SourceOffset": 301392
+      "SourceLine": 4221,
+      "SourceOffset": 304211
     },
     {
       "Id": "cor:Largest_Congruence_Inside_Modality",
       "LabelType": "corollary",
-      "SourceLine": 4258,
-      "SourceOffset": 303740
+      "SourceLine": 4261,
+      "SourceOffset": 307521
     },
     {
       "Id": "thm:ABFJ_Formula",
       "LabelType": "theorem",
-      "SourceLine": 4271,
-      "SourceOffset": 305043
+      "SourceLine": 4274,
+      "SourceOffset": 308824
     },
     {
       "Id": "rem:ABFJ_Formula_For_Classes",
       "LabelType": "remark",
-      "SourceLine": 4290,
-      "SourceOffset": 306271
+      "SourceLine": 4293,
+      "SourceOffset": 310052
     },
     {
       "Id": "warn:Congruence_Not_Strong_Saturation_Of_Base_Changes",
       "LabelType": "warning",
-      "SourceLine": 4295,
-      "SourceOffset": 306827
+      "SourceLine": 4298,
+      "SourceOffset": 310581
     },
     {
       "Id": "rmk:Generated_Congruence_Of_Small_Generation",
       "LabelType": "remark",
-      "SourceLine": 4300,
-      "SourceOffset": 307221
+      "SourceLine": 4303,
+      "SourceOffset": 310975
     },
     {
       "Id": "cor:Modality_Generated_By_Monomorphisms_Is_Congruence",
       "LabelType": "corollary",
-      "SourceLine": 4305,
-      "SourceOffset": 307589
+      "SourceLine": 4308,
+      "SourceOffset": 311343
     },
     {
       "Id": "Open_Closed_Immersions",
       "LabelType": "section",
-      "SourceLine": 4314,
-      "SourceOffset": 308153
+      "SourceLine": 4317,
+      "SourceOffset": 311907
     },
     {
       "Id": "def:Open_Immersion",
       "LabelType": "definition",
-      "SourceLine": 4319,
-      "SourceOffset": 308666
+      "SourceLine": 4322,
+      "SourceOffset": 312420
     },
     {
       "Id": "lem:Open_Immersion_Is_Slice_Over_-1_Truncated_Object",
       "LabelType": "lemma",
-      "SourceLine": 4324,
-      "SourceOffset": 308960
+      "SourceLine": 4327,
+      "SourceOffset": 312714
     },
     {
       "Id": "def:Closed_Complement_And_Closed_Immersion",
       "LabelType": "definition",
-      "SourceLine": 4335,
-      "SourceOffset": 309987
+      "SourceLine": 4338,
+      "SourceOffset": 313741
     },
     {
       "Id": "lem:Closed_Complement_Is_Topos",
       "LabelType": "lemma",
-      "SourceLine": 4344,
-      "SourceOffset": 310618
+      "SourceLine": 4347,
+      "SourceOffset": 314372
     },
     {
       "Id": "con:Recollement_From_Left_Exact_Functor",
       "LabelType": "construction",
-      "SourceLine": 4365,
-      "SourceOffset": 313126
+      "SourceLine": 4368,
+      "SourceOffset": 316880
     },
     {
       "Id": "lem:Recollement_Of_Topoi",
       "LabelType": "lemma",
-      "SourceLine": 4380,
-      "SourceOffset": 313963
+      "SourceLine": 4383,
+      "SourceOffset": 317717
     },
     {
       "Id": "sec:Structure_Theory",
       "LabelType": "section",
-      "SourceLine": 4410,
-      "SourceOffset": 315849
+      "SourceLine": 4413,
+      "SourceOffset": 319603
     },
     {
       "Id": "subsec:Monogenic_And_Epigenic_Modalities",
       "LabelType": "subsection",
-      "SourceLine": 4421,
-      "SourceOffset": 316834
+      "SourceLine": 4424,
+      "SourceOffset": 320588
     },
     {
       "Id": "def:Monogenic_Modality",
       "LabelType": "definition",
-      "SourceLine": 4424,
-      "SourceOffset": 316922
+      "SourceLine": 4427,
+      "SourceOffset": 320676
     },
     {
       "Id": "rem:Monogenic_And_Epigenic_Terminology",
       "LabelType": "remark",
-      "SourceLine": 4435,
-      "SourceOffset": 317494
+      "SourceLine": 4438,
+      "SourceOffset": 321248
     },
     {
       "Id": "lem:Modality_Closed_Under_Epi_Mono_Factorizations",
       "LabelType": "lemma",
-      "SourceLine": 4442,
-      "SourceOffset": 317943
+      "SourceLine": 4445,
+      "SourceOffset": 321697
     },
     {
       "Id": "cor:Epigenic_Part_Is_Modality",
       "LabelType": "corollary",
-      "SourceLine": 4455,
-      "SourceOffset": 319006
+      "SourceLine": 4458,
+      "SourceOffset": 322760
     },
     {
       "Id": "not:Epi_Mono_Factorization",
       "LabelType": "notation",
-      "SourceLine": 4466,
-      "SourceOffset": 320302
+      "SourceLine": 4469,
+      "SourceOffset": 324056
     },
     {
       "Id": "rem:Images_And_Coimages_Of_Modality",
       "LabelType": "remark",
-      "SourceLine": 4474,
-      "SourceOffset": 320734
+      "SourceLine": 4477,
+      "SourceOffset": 324488
     },
     {
       "Id": "lem:Monogenic_Part_Via_Images",
       "LabelType": "lemma",
-      "SourceLine": 4479,
-      "SourceOffset": 321048
+      "SourceLine": 4482,
+      "SourceOffset": 324802
     },
     {
       "Id": "cor:Congruence_Generated_By_Monomorphisms_Is_Monogenic",
       "LabelType": "corollary",
-      "SourceLine": 4496,
-      "SourceOffset": 323229
+      "SourceLine": 4499,
+      "SourceOffset": 326983
     },
     {
       "Id": "rmk:Monogenic_Versus_Grothendieck_Topology",
       "LabelType": "remark",
-      "SourceLine": 4505,
-      "SourceOffset": 323833
+      "SourceLine": 4508,
+      "SourceOffset": 327587
     },
     {
       "Id": "cor:Modality_Decomposes_Into_Epigenic_And_Monogenic_Parts",
       "LabelType": "corollary",
-      "SourceLine": 4510,
-      "SourceOffset": 324229
+      "SourceLine": 4513,
+      "SourceOffset": 327983
     },
     {
       "Id": "lem:Monogenic_Modalities_Are_Congruences",
       "LabelType": "lemma",
-      "SourceLine": 4523,
-      "SourceOffset": 324991
+      "SourceLine": 4526,
+      "SourceOffset": 328745
     },
     {
       "Id": "lem:Epigenic_Congruences_Are_Infinity_Connected",
       "LabelType": "lemma",
-      "SourceLine": 4532,
-      "SourceOffset": 325571
+      "SourceLine": 4535,
+      "SourceOffset": 329325
     },
     {
       "Id": "subsec:Quotient_Triple_Factorization",
       "LabelType": "subsection",
-      "SourceLine": 4541,
-      "SourceOffset": 326337
+      "SourceLine": 4544,
+      "SourceOffset": 330091
     },
     {
       "Id": "def:Quotient_Triple_Factorization_Classes",
       "LabelType": "definition",
-      "SourceLine": 4546,
-      "SourceOffset": 326568
+      "SourceLine": 4549,
+      "SourceOffset": 330322
     },
     {
       "Id": "not:Quotient_Triple_Factorization",
       "LabelType": "notation",
-      "SourceLine": 4557,
-      "SourceOffset": 327214
+      "SourceLine": 4560,
+      "SourceOffset": 330968
     },
     {
       "Id": "prop:Quotient_Triple_Factorization",
       "LabelType": "proposition",
-      "SourceLine": 4569,
-      "SourceOffset": 327891
+      "SourceLine": 4572,
+      "SourceOffset": 331645
     },
     {
       "Id": "rmk:Analogy_Triple_Factorization",
       "LabelType": "remark",
-      "SourceLine": 4594,
-      "SourceOffset": 330448
+      "SourceLine": 4597,
+      "SourceOffset": 334544
     },
     {
       "Id": "subsec:Hypercomplete_Congruences",
       "LabelType": "subsection",
-      "SourceLine": 4611,
-      "SourceOffset": 331404
+      "SourceLine": 4614,
+      "SourceOffset": 335500
     },
     {
       "Id": "def:Hypercompletion_Of_Congruence",
       "LabelType": "definition",
-      "SourceLine": 4614,
-      "SourceOffset": 331535
+      "SourceLine": 4617,
+      "SourceOffset": 335631
+    },
+    {
+      "Id": "lem:Epigenic_Quotients_Induce_Equivalence_On_Hypercompletions",
+      "LabelType": "lemma",
+      "SourceLine": 4626,
+      "SourceOffset": 336148
     },
     {
       "Id": "lem:Hypercompletion_Preserves_Monogenic_Part",
       "LabelType": "lemma",
-      "SourceLine": 4623,
-      "SourceOffset": 332052
+      "SourceLine": 4635,
+      "SourceOffset": 337010
     },
     {
       "Id": "subsec:Images",
       "LabelType": "subsection",
-      "SourceLine": 4655,
-      "SourceOffset": 334576
+      "SourceLine": 4667,
+      "SourceOffset": 339583
     },
     {
       "Id": "con:Image_Of_Logoi_Morphism",
       "LabelType": "construction",
-      "SourceLine": 4660,
-      "SourceOffset": 335013
+      "SourceLine": 4672,
+      "SourceOffset": 340020
     },
     {
       "Id": "prop:Image_Of_Logoi_Morphism_Is_Logos",
       "LabelType": "proposition",
-      "SourceLine": 4665,
-      "SourceOffset": 335358
+      "SourceLine": 4677,
+      "SourceOffset": 340365
     },
     {
       "Id": "rmk:Structure_Theory",
       "LabelType": "remark",
-      "SourceLine": 4680,
-      "SourceOffset": 336560
+      "SourceLine": 4692,
+      "SourceOffset": 343329
     },
     {
       "Id": "sec:Products_Of_Modalities",
       "LabelType": "section",
-      "SourceLine": 4703,
-      "SourceOffset": 337802
+      "SourceLine": 4715,
+      "SourceOffset": 344571
     },
     {
       "Id": "subsec:Acyclic_Product",
       "LabelType": "subsection",
-      "SourceLine": 4708,
-      "SourceOffset": 338272
+      "SourceLine": 4720,
+      "SourceOffset": 345041
     },
     {
       "Id": "def:Pushout_Product_Of_Morphisms",
       "LabelType": "definition",
-      "SourceLine": 4711,
-      "SourceOffset": 338342
+      "SourceLine": 4723,
+      "SourceOffset": 345111
     },
     {
       "Id": "def:Product_Of_Modalities",
       "LabelType": "definition",
-      "SourceLine": 4727,
-      "SourceOffset": 338930
+      "SourceLine": 4739,
+      "SourceOffset": 345699
     },
     {
       "Id": "lem:Product_Of_Modalities_Contained_In_Intersection",
       "LabelType": "lemma",
-      "SourceLine": 4736,
-      "SourceOffset": 339262
+      "SourceLine": 4748,
+      "SourceOffset": 346031
     },
     {
       "Id": "lem:Generators_Of_Product_Of_Modalities",
       "LabelType": "lemma",
-      "SourceLine": 4747,
-      "SourceOffset": 340032
+      "SourceLine": 4759,
+      "SourceOffset": 346801
+    },
+    {
+      "Id": "cor:Quotients_Preserve_Acyclic_Products",
+      "LabelType": "corollary",
+      "SourceLine": 4779,
+      "SourceOffset": 348847
     },
     {
       "Id": "prop:Acyclic_Classes_Form_Commutative_Algebra",
       "LabelType": "proposition",
-      "SourceLine": 4767,
-      "SourceOffset": 342126
+      "SourceLine": 4788,
+      "SourceOffset": 349719
     },
     {
       "Id": "cor:Product_Of_Monogenic_Modalities",
       "LabelType": "corollary",
-      "SourceLine": 4772,
-      "SourceOffset": 342417
+      "SourceLine": 4797,
+      "SourceOffset": 350679
     },
     {
       "Id": "cor:Monogenic_Modalities_Idempotent",
       "LabelType": "corollary",
-      "SourceLine": 4781,
-      "SourceOffset": 343160
+      "SourceLine": 4806,
+      "SourceOffset": 351422
     },
     {
       "Id": "subsec:Acyclic_Product_Examples",
       "LabelType": "subsection",
-      "SourceLine": 4790,
-      "SourceOffset": 344113
+      "SourceLine": 4815,
+      "SourceOffset": 352375
     },
     {
       "Id": "ex:Products_Of_Connected_Modalities",
       "LabelType": "example",
-      "SourceLine": 4795,
-      "SourceOffset": 344257
+      "SourceLine": 4820,
+      "SourceOffset": 352519
     },
     {
       "Id": "ex:Square_Of_Epimorphism_Modality",
       "LabelType": "example",
-      "SourceLine": 4809,
-      "SourceOffset": 345032
+      "SourceLine": 4834,
+      "SourceOffset": 353294
     },
     {
       "Id": "con:Internal_Hom_Of_Modalities",
       "LabelType": "construction",
-      "SourceLine": 4829,
-      "SourceOffset": 346140
+      "SourceLine": 4854,
+      "SourceOffset": 354402
     },
     {
       "Id": "ex:Cotruncated_Morphisms_As_Internal_Hom",
       "LabelType": "example",
-      "SourceLine": 4842,
-      "SourceOffset": 346638
+      "SourceLine": 4867,
+      "SourceOffset": 354953
     },
     {
       "Id": "subsec:Products_Of_Congruences",
       "LabelType": "subsection",
-      "SourceLine": 4850,
-      "SourceOffset": 346977
+      "SourceLine": 4875,
+      "SourceOffset": 355292
     },
     {
       "Id": "lem:Key_Lemma_Product_Congruences",
       "LabelType": "lemma",
-      "SourceLine": 4855,
-      "SourceOffset": 347233
+      "SourceLine": 4880,
+      "SourceOffset": 355548
     },
     {
       "Id": "cor:Product_With_EffEpi",
       "LabelType": "corollary",
-      "SourceLine": 4885,
-      "SourceOffset": 349076
+      "SourceLine": 4908,
+      "SourceOffset": 358032
     },
     {
       "Id": "thm:Product_Of_Congruences",
       "LabelType": "theorem",
-      "SourceLine": 4905,
-      "SourceOffset": 349960
+      "SourceLine": 4928,
+      "SourceOffset": 358916
     },
     {
       "Id": "sec:Goodwillie_Tower",
       "LabelType": "section",
-      "SourceLine": 4918,
-      "SourceOffset": 351441
+      "SourceLine": 4941,
+      "SourceOffset": 360397
     },
     {
       "Id": "subsec:Adic_Filtrations_And_Layers",
       "LabelType": "subsection",
-      "SourceLine": 4923,
-      "SourceOffset": 352033
+      "SourceLine": 4946,
+      "SourceOffset": 360989
     },
     {
       "Id": "con:K_Adic_Filtration",
       "LabelType": "construction",
-      "SourceLine": 4926,
-      "SourceOffset": 352117
+      "SourceLine": 4949,
+      "SourceOffset": 361073
     },
     {
       "Id": "def:Prestable_Category",
       "LabelType": "definition",
-      "SourceLine": 4950,
-      "SourceOffset": 353450
+      "SourceLine": 4973,
+      "SourceOffset": 362406
     },
     {
       "Id": "prop:Associated_Graded_Of_K_Adic_Filtration_Is_Stable",
       "LabelType": "proposition",
-      "SourceLine": 4955,
-      "SourceOffset": 353729
+      "SourceLine": 4978,
+      "SourceOffset": 362685
     },
     {
       "Id": "def:Goodwillie_Approximation_Of_Topos",
       "LabelType": "definition",
-      "SourceLine": 4972,
-      "SourceOffset": 355418
+      "SourceLine": 4995,
+      "SourceOffset": 364374
     },
     {
       "Id": "subsec:Excisive_Functors_Goodwillie_Comparison",
       "LabelType": "subsection",
-      "SourceLine": 4990,
-      "SourceOffset": 356154
+      "SourceLine": 5013,
+      "SourceOffset": 365110
     },
     {
       "Id": "con:Sheaf_Topos_From_Colimit_Quotient",
       "LabelType": "construction",
-      "SourceLine": 4995,
-      "SourceOffset": 356373
+      "SourceLine": 5018,
+      "SourceOffset": 365329
     },
     {
       "Id": "def:Excisive_Functor",
       "LabelType": "definition",
-      "SourceLine": 5022,
-      "SourceOffset": 358354
+      "SourceLine": 5045,
+      "SourceOffset": 367313
     },
     {
       "Id": "rem:Zero_Excisive_Functors_Are_Constant",
       "LabelType": "remark",
-      "SourceLine": 5031,
-      "SourceOffset": 359057
+      "SourceLine": 5054,
+      "SourceOffset": 368016
     },
     {
       "Id": "thm:Goodwillie_Tower_From_Adic_Filtration",
       "LabelType": "theorem",
-      "SourceLine": 5036,
-      "SourceOffset": 359382
+      "SourceLine": 5059,
+      "SourceOffset": 368341
     },
     {
       "Id": "lem:Classifying_Topos_For_Infinity_Connected_Objects",
       "LabelType": "lemma",
-      "SourceLine": 5072,
-      "SourceOffset": 362224
+      "SourceLine": 5095,
+      "SourceOffset": 371186
     },
     {
       "Id": "rem:Classifying_Topos_For_Pointed_Infinity_Connected_Objects",
       "LabelType": "remark",
-      "SourceLine": 5097,
-      "SourceOffset": 364435
+      "SourceLine": 5120,
+      "SourceOffset": 373397
     },
     {
       "Id": "prop:Linear_Excisive_Functors_As_Parametrized_Spectra",
       "LabelType": "proposition",
-      "SourceLine": 5104,
-      "SourceOffset": 364788
+      "SourceLine": 5127,
+      "SourceOffset": 373750
     },
     {
       "Id": "prop:Linear_Excisive_Functors_As_Parametrized_Spectral_Torsors",
       "LabelType": "proposition",
-      "SourceLine": 5116,
-      "SourceOffset": 365758
+      "SourceLine": 5139,
+      "SourceOffset": 374720
     },
     {
       "Id": "subsec:Goodwillie_Equivalences_Homogeneous_Layers",
       "LabelType": "subsection",
-      "SourceLine": 5129,
-      "SourceOffset": 366773
+      "SourceLine": 5152,
+      "SourceOffset": 375735
     },
     {
       "Id": "cor:Products_Of_Goodwillie_Equivalences",
       "LabelType": "corollary",
-      "SourceLine": 5138,
-      "SourceOffset": 367439
+      "SourceLine": 5161,
+      "SourceOffset": 376401
     },
     {
       "Id": "cor:Blakers_Massey_For_Goodwillie_Equivalences",
       "LabelType": "corollary",
-      "SourceLine": 5158,
-      "SourceOffset": 367976
+      "SourceLine": 5181,
+      "SourceOffset": 376938
     },
     {
       "Id": "def:Reduced_Functor",
       "LabelType": "definition",
-      "SourceLine": 5174,
-      "SourceOffset": 368738
+      "SourceLine": 5197,
+      "SourceOffset": 377700
     },
     {
       "Id": "cor:Goodwillie_Structure_Theorem",
       "LabelType": "corollary",
-      "SourceLine": 5183,
-      "SourceOffset": 369334
+      "SourceLine": 5206,
+      "SourceOffset": 378296
     },
     {
       "Id": "cor:Goodwillie_Layer_Delooping",
       "LabelType": "corollary",
-      "SourceLine": 5213,
-      "SourceOffset": 370834
+      "SourceLine": 5236,
+      "SourceOffset": 379796
     },
     {
       "Id": "cor:Stability_Of_Homogeneous_Functors",
       "LabelType": "corollary",
-      "SourceLine": 5233,
-      "SourceOffset": 371728
+      "SourceLine": 5256,
+      "SourceOffset": 380690
     },
     {
       "Id": "chap:Topics_Topos_Theory",
       "LabelType": "chapter",
-      "SourceLine": 5242,
-      "SourceOffset": 372527
+      "SourceLine": 5265,
+      "SourceOffset": 381489
     },
     {
       "Id": "sec:Sheaf_topoi",
       "LabelType": "section",
-      "SourceLine": 5255,
-      "SourceOffset": 375709
+      "SourceLine": 5278,
+      "SourceOffset": 384671
     },
     {
       "Id": "def:Sieve",
       "LabelType": "definition",
-      "SourceLine": 5260,
-      "SourceOffset": 376302
+      "SourceLine": 5283,
+      "SourceOffset": 385264
     },
     {
       "Id": "thm:Sheaves_Form_Topos",
       "LabelType": "theorem",
-      "SourceLine": 5265,
-      "SourceOffset": 376677
+      "SourceLine": 5288,
+      "SourceOffset": 385639
     },
     {
       "Id": "subsec:Grothendieck_Sites",
       "LabelType": "subsection",
-      "SourceLine": 5283,
-      "SourceOffset": 378906
+      "SourceLine": 5306,
+      "SourceOffset": 387868
     },
     {
       "Id": "def:Grothendieck_Topology",
       "LabelType": "definition",
-      "SourceLine": 5288,
-      "SourceOffset": 379292
+      "SourceLine": 5311,
+      "SourceOffset": 388254
     },
     {
       "Id": "rem:Morphisms_Of_Sheaf_Topoi",
       "LabelType": "remark",
-      "SourceLine": 5309,
-      "SourceOffset": 380749
+      "SourceLine": 5332,
+      "SourceOffset": 389711
     },
     {
       "Id": "not:Pullback_Of_Sieve",
       "LabelType": "notation",
-      "SourceLine": 5322,
-      "SourceOffset": 381963
+      "SourceLine": 5345,
+      "SourceOffset": 390925
     },
     {
       "Id": "def:Grothendieck_Topology_Site",
       "LabelType": "definition",
-      "SourceLine": 5327,
-      "SourceOffset": 382438
+      "SourceLine": 5350,
+      "SourceOffset": 391400
     },
     {
       "Id": "lem:Grothendieck_Topologies_On_Category_And_Presheaf_Topos",
       "LabelType": "lemma",
-      "SourceLine": 5338,
-      "SourceOffset": 383521
+      "SourceLine": 5361,
+      "SourceOffset": 392483
     },
     {
       "Id": "prop:Grothendieck_Topology_Monogenic_Congruence_Bijection",
       "LabelType": "proposition",
-      "SourceLine": 5359,
-      "SourceOffset": 387180
+      "SourceLine": 5382,
+      "SourceOffset": 396142
     },
     {
       "Id": "subsec:Sheaves_And_Cech_Descent",
       "LabelType": "subsection",
-      "SourceLine": 5422,
-      "SourceOffset": 393756
+      "SourceLine": 5445,
+      "SourceOffset": 402718
     },
     {
       "Id": "def:Sheaf_Topos",
       "LabelType": "definition",
-      "SourceLine": 5427,
-      "SourceOffset": 394019
+      "SourceLine": 5450,
+      "SourceOffset": 402981
     },
     {
       "Id": "ex:Open_Covering_Topology",
       "LabelType": "example",
-      "SourceLine": 5441,
-      "SourceOffset": 394459
+      "SourceLine": 5464,
+      "SourceOffset": 403421
     },
     {
       "Id": "def:Sheafified_Yoneda",
       "LabelType": "definition",
-      "SourceLine": 5449,
-      "SourceOffset": 394920
+      "SourceLine": 5472,
+      "SourceOffset": 403882
     },
     {
       "Id": "not:Sieve_Generated_By_Family",
       "LabelType": "notation",
-      "SourceLine": 5457,
-      "SourceOffset": 395158
+      "SourceLine": 5480,
+      "SourceOffset": 404120
     },
     {
       "Id": "def:Cech_Descent",
       "LabelType": "definition",
-      "SourceLine": 5476,
-      "SourceOffset": 396215
+      "SourceLine": 5499,
+      "SourceOffset": 405177
     },
     {
       "Id": "prop:Sheaves_Via_Cech_Descent",
       "LabelType": "proposition",
-      "SourceLine": 5495,
-      "SourceOffset": 397237
+      "SourceLine": 5518,
+      "SourceOffset": 406199
     },
     {
       "Id": "subsec:Effective_Epimorphisms_In_Sheaf_Topoi",
       "LabelType": "subsection",
-      "SourceLine": 5508,
-      "SourceOffset": 398265
+      "SourceLine": 5531,
+      "SourceOffset": 407227
     },
     {
       "Id": "def:Local_Sections",
       "LabelType": "definition",
-      "SourceLine": 5513,
-      "SourceOffset": 398521
+      "SourceLine": 5536,
+      "SourceOffset": 407483
     },
     {
       "Id": "lem:Effective_Epimorphism_Iff_Local_Sections",
       "LabelType": "lemma",
-      "SourceLine": 5524,
-      "SourceOffset": 399297
+      "SourceLine": 5547,
+      "SourceOffset": 408259
     },
     {
       "Id": "subsec:Morphisms_Of_Sites",
       "LabelType": "subsection",
-      "SourceLine": 5553,
-      "SourceOffset": 401916
+      "SourceLine": 5576,
+      "SourceOffset": 410878
     },
     {
       "Id": "def:Continuous_Functor",
       "LabelType": "definition",
-      "SourceLine": 5557,
-      "SourceOffset": 402306
+      "SourceLine": 5580,
+      "SourceOffset": 411268
     },
     {
       "Id": "rem:Continuous_Functor_With_Left_Adjoint_Is_Morphism_Of_Sites",
       "LabelType": "remark",
-      "SourceLine": 5570,
-      "SourceOffset": 403219
+      "SourceLine": 5593,
+      "SourceOffset": 412181
     },
     {
       "Id": "lem:Criterion_Continuous_Functor",
       "LabelType": "lemma",
-      "SourceLine": 5583,
-      "SourceOffset": 403924
+      "SourceLine": 5606,
+      "SourceOffset": 412886
     },
     {
       "Id": "cor:Left_Exact_Continuous_Functor_Defines_Morphism_Of_Sites",
       "LabelType": "corollary",
-      "SourceLine": 5601,
-      "SourceOffset": 405520
+      "SourceLine": 5624,
+      "SourceOffset": 414482
     },
     {
       "Id": "ex:From_Top_To_Topos",
       "LabelType": "example",
-      "SourceLine": 5615,
-      "SourceOffset": 406507
+      "SourceLine": 5638,
+      "SourceOffset": 415469
     },
     {
       "Id": "def:Cocontinuous_Morphism_Of_Sites",
       "LabelType": "definition",
-      "SourceLine": 5625,
-      "SourceOffset": 407178
+      "SourceLine": 5648,
+      "SourceOffset": 416140
     },
     {
       "Id": "not:Pullback_Of_Sieve_Along_Functor",
       "LabelType": "notation",
-      "SourceLine": 5644,
-      "SourceOffset": 408157
+      "SourceLine": 5667,
+      "SourceOffset": 417119
     },
     {
       "Id": "lem:Criterion_Cocontinuous_Morphism_Of_Sites",
       "LabelType": "lemma",
-      "SourceLine": 5656,
-      "SourceOffset": 408859
+      "SourceLine": 5679,
+      "SourceOffset": 417821
     },
     {
       "Id": "cor:Cocontinuous_Left_Adjoint_Implies_Morphism_Of_Sites",
       "LabelType": "corollary",
-      "SourceLine": 5671,
-      "SourceOffset": 410259
+      "SourceLine": 5694,
+      "SourceOffset": 419221
     },
     {
       "Id": "sec:Groupoid_Actions_Principal_Bundles",
       "LabelType": "section",
-      "SourceLine": 5680,
-      "SourceOffset": 411189
+      "SourceLine": 5703,
+      "SourceOffset": 420151
     },
     {
       "Id": "subsec:Actions_By_Groupoid_Objects",
       "LabelType": "subsection",
-      "SourceLine": 5687,
-      "SourceOffset": 411905
+      "SourceLine": 5710,
+      "SourceOffset": 420867
     },
     {
       "Id": "def:Groupoid_Action",
       "LabelType": "definition",
-      "SourceLine": 5692,
-      "SourceOffset": 412135
+      "SourceLine": 5715,
+      "SourceOffset": 421097
     },
     {
       "Id": "rmk:Identification_Action_Groupoid",
       "LabelType": "remark",
-      "SourceLine": 5703,
-      "SourceOffset": 412727
+      "SourceLine": 5726,
+      "SourceOffset": 421689
     },
     {
       "Id": "def:Classifying_Stack_And_Action_Quotient",
       "LabelType": "definition",
-      "SourceLine": 5720,
-      "SourceOffset": 413933
+      "SourceLine": 5743,
+      "SourceOffset": 422895
     },
     {
       "Id": "prop:Groupoid_Actions_Vs_Slice",
       "LabelType": "proposition",
-      "SourceLine": 5736,
-      "SourceOffset": 414836
+      "SourceLine": 5759,
+      "SourceOffset": 423798
     },
     {
       "Id": "subsec:Free_And_Transitive_Actions",
       "LabelType": "subsection",
-      "SourceLine": 5769,
-      "SourceOffset": 416434
+      "SourceLine": 5792,
+      "SourceOffset": 425396
     },
     {
       "Id": "def:Shear_Map",
       "LabelType": "definition",
-      "SourceLine": 5774,
-      "SourceOffset": 416717
+      "SourceLine": 5797,
+      "SourceOffset": 425679
     },
     {
       "Id": "def:Free_Transitive_Regular",
       "LabelType": "definition",
-      "SourceLine": 5812,
-      "SourceOffset": 418565
+      "SourceLine": 5835,
+      "SourceOffset": 427527
     },
     {
       "Id": "lem:Regular_Action_Iff_Trivial_Quotient",
       "LabelType": "lemma",
-      "SourceLine": 5825,
-      "SourceOffset": 419275
+      "SourceLine": 5848,
+      "SourceOffset": 428237
     },
     {
       "Id": "subsec:Principal_Bundles",
       "LabelType": "subsection",
-      "SourceLine": 5836,
-      "SourceOffset": 420757
+      "SourceLine": 5859,
+      "SourceOffset": 429719
     },
     {
       "Id": "def:Principal_Bundles",
       "LabelType": "definition",
-      "SourceLine": 5845,
-      "SourceOffset": 421643
+      "SourceLine": 5868,
+      "SourceOffset": 430605
     },
     {
       "Id": "rem:Pullback_Of_Principal_Bundle",
       "LabelType": "remark",
-      "SourceLine": 5863,
-      "SourceOffset": 422512
+      "SourceLine": 5886,
+      "SourceOffset": 431474
     },
     {
       "Id": "lem:Principal_Bundle_Iff_Trivial_Quotient",
       "LabelType": "lemma",
-      "SourceLine": 5868,
-      "SourceOffset": 422732
+      "SourceLine": 5891,
+      "SourceOffset": 431694
     },
     {
       "Id": "prop:Principal_Bundles_Vs_Actions_With_Fixed_Quotient",
       "LabelType": "proposition",
-      "SourceLine": 5882,
-      "SourceOffset": 423575
+      "SourceLine": 5905,
+      "SourceOffset": 432537
     },
     {
       "Id": "thm:Classification_Principal_Bundles",
       "LabelType": "theorem",
-      "SourceLine": 5904,
-      "SourceOffset": 425230
+      "SourceLine": 5927,
+      "SourceOffset": 434192
     },
     {
       "Id": "cor:Principal_Bundles_Form_Groupoid",
       "LabelType": "corollary",
-      "SourceLine": 5927,
-      "SourceOffset": 426434
+      "SourceLine": 5950,
+      "SourceOffset": 435396
     },
     {
       "Id": "sec:Hypercovers",
       "LabelType": "section",
-      "SourceLine": 5932,
-      "SourceOffset": 426653
+      "SourceLine": 5955,
+      "SourceOffset": 435615
     },
     {
       "Id": "thm:Hypercomplete_Iff_Hypercovers_Effective",
       "LabelType": "theorem",
-      "SourceLine": 5941,
-      "SourceOffset": 427992
+      "SourceLine": 5964,
+      "SourceOffset": 436954
     },
     {
       "Id": "subsec:Hypercovers_Matching_Objects",
       "LabelType": "subsection",
-      "SourceLine": 5952,
-      "SourceOffset": 428526
+      "SourceLine": 5975,
+      "SourceOffset": 437488
     },
     {
       "Id": "not:Skeleta_And_Coskeleta",
       "LabelType": "notation",
-      "SourceLine": 5955,
-      "SourceOffset": 428607
+      "SourceLine": 5978,
+      "SourceOffset": 437569
     },
     {
       "Id": "def:Hypercover",
       "LabelType": "definition",
-      "SourceLine": 5968,
-      "SourceOffset": 429720
+      "SourceLine": 5991,
+      "SourceOffset": 438682
     },
     {
       "Id": "rmk:Matching_Object_Finite_Limit",
       "LabelType": "remark",
-      "SourceLine": 5979,
-      "SourceOffset": 430266
+      "SourceLine": 6002,
+      "SourceOffset": 439228
     },
     {
       "Id": "ex:Cech_Nerve_Is_Hypercover",
       "LabelType": "example",
-      "SourceLine": 5998,
-      "SourceOffset": 431787
+      "SourceLine": 6021,
+      "SourceOffset": 440785
     },
     {
       "Id": "lem:Logos_Morphism_Preserves_Hypercovers",
       "LabelType": "lemma",
-      "SourceLine": 6005,
-      "SourceOffset": 432435
+      "SourceLine": 6028,
+      "SourceOffset": 441433
     },
     {
       "Id": "cor:Hypercover_In_Hypercompletion",
       "LabelType": "corollary",
-      "SourceLine": 6014,
-      "SourceOffset": 433062
+      "SourceLine": 6037,
+      "SourceOffset": 442060
     },
     {
       "Id": "lem:Constant_Simplicial_Object_Hypercover",
       "LabelType": "lemma",
-      "SourceLine": 6027,
-      "SourceOffset": 434264
+      "SourceLine": 6050,
+      "SourceOffset": 443262
     },
     {
       "Id": "subsec:Hypercover_Effectiveness_Hypercompleteness",
       "LabelType": "subsection",
-      "SourceLine": 6036,
-      "SourceOffset": 434895
+      "SourceLine": 6059,
+      "SourceOffset": 443893
     },
     {
       "Id": "lem:Coskeletal_Hypercover_Effective",
       "LabelType": "lemma",
-      "SourceLine": 6041,
-      "SourceOffset": 435250
+      "SourceLine": 6064,
+      "SourceOffset": 444248
     },
     {
       "Id": "lem:Truncated_Comparison_Connectivity",
       "LabelType": "lemma",
-      "SourceLine": 6056,
-      "SourceOffset": 437071
+      "SourceLine": 6079,
+      "SourceOffset": 447138
     },
     {
       "Id": "lem:Hypercover_Infty_Connected",
       "LabelType": "lemma",
-      "SourceLine": 6065,
-      "SourceOffset": 437673
+      "SourceLine": 6088,
+      "SourceOffset": 448445
     },
     {
       "Id": "rem:Testing_Hypercompleteness_With_Hypercovers",
       "LabelType": "remark",
-      "SourceLine": 6083,
-      "SourceOffset": 439726
+      "SourceLine": 6106,
+      "SourceOffset": 450498
     },
     {
       "Id": "sec:Postnikov_Completeness_And_Boundedness",
       "LabelType": "section",
-      "SourceLine": 6088,
-      "SourceOffset": 440405
+      "SourceLine": 6111,
+      "SourceOffset": 451177
     },
     {
       "Id": "subsec:Localic_Topoi",
       "LabelType": "subsection",
-      "SourceLine": 6109,
-      "SourceOffset": 442049
+      "SourceLine": 6132,
+      "SourceOffset": 452821
     },
     {
       "Id": "def:Localic_Topoi",
       "LabelType": "definition",
-      "SourceLine": 6114,
-      "SourceOffset": 442383
+      "SourceLine": 6137,
+      "SourceOffset": 453155
     },
     {
       "Id": "not:Categories_Of_Localic_Topoi",
       "LabelType": "notation",
-      "SourceLine": 6123,
-      "SourceOffset": 442718
+      "SourceLine": 6146,
+      "SourceOffset": 453490
     },
     {
       "Id": "prop:Localic_Reflection",
       "LabelType": "proposition",
-      "SourceLine": 6128,
-      "SourceOffset": 442910
+      "SourceLine": 6151,
+      "SourceOffset": 453682
     },
     {
       "Id": "ex:Localic_Reflection_Of_Anima_Slice",
       "LabelType": "example",
-      "SourceLine": 6153,
-      "SourceOffset": 444728
+      "SourceLine": 6176,
+      "SourceOffset": 455500
     },
     {
       "Id": "warn:Finite_Limits_Needed_For_Localic_Presheaf_Topos",
       "LabelType": "warning",
-      "SourceLine": 6165,
-      "SourceOffset": 445249
+      "SourceLine": 6188,
+      "SourceOffset": 456021
     },
     {
       "Id": "lem:Dense_Subcategory_Characterization",
       "LabelType": "lemma",
-      "SourceLine": 6176,
-      "SourceOffset": 446101
+      "SourceLine": 6199,
+      "SourceOffset": 456873
     },
     {
       "Id": "lem:Hypercompletion_Of_Localic_Reflection",
       "LabelType": "lemma",
-      "SourceLine": 6222,
-      "SourceOffset": 449060
+      "SourceLine": 6245,
+      "SourceOffset": 459832
     },
     {
       "Id": "subsec:Postnikov_Completeness",
       "LabelType": "subsection",
-      "SourceLine": 6246,
-      "SourceOffset": 451401
+      "SourceLine": 6269,
+      "SourceOffset": 462173
     },
     {
       "Id": "def:Postnikov_Completion",
       "LabelType": "definition",
-      "SourceLine": 6251,
-      "SourceOffset": 451853
+      "SourceLine": 6274,
+      "SourceOffset": 462625
     },
     {
       "Id": "rem:Postnikov_Completion_Adjunction",
       "LabelType": "remark",
-      "SourceLine": 6261,
-      "SourceOffset": 452395
+      "SourceLine": 6284,
+      "SourceOffset": 463167
     },
     {
       "Id": "prop:Postnikov_Completion_Is_Topos",
       "LabelType": "proposition",
-      "SourceLine": 6270,
-      "SourceOffset": 453164
+      "SourceLine": 6293,
+      "SourceOffset": 463936
     },
     {
       "Id": "lem:Postnikov_Complete_Implies_Hypercomplete",
       "LabelType": "lemma",
-      "SourceLine": 6302,
-      "SourceOffset": 455097
+      "SourceLine": 6325,
+      "SourceOffset": 465869
     },
     {
       "Id": "not:Postnikov_Complete_And_Hypercomplete_Topoi",
       "LabelType": "notation",
-      "SourceLine": 6311,
-      "SourceOffset": 456056
+      "SourceLine": 6334,
+      "SourceOffset": 466828
     },
     {
       "Id": "subsec:Bounded_Topoi",
       "LabelType": "subsection",
-      "SourceLine": 6316,
-      "SourceOffset": 456429
+      "SourceLine": 6339,
+      "SourceOffset": 467201
     },
     {
       "Id": "def:Bounded_Topos",
       "LabelType": "definition",
-      "SourceLine": 6321,
-      "SourceOffset": 456724
+      "SourceLine": 6344,
+      "SourceOffset": 467496
     },
     {
       "Id": "lem:Localic_Reflection_Preserves_Filtered_Limits",
       "LabelType": "lemma",
-      "SourceLine": 6326,
-      "SourceOffset": 457008
+      "SourceLine": 6349,
+      "SourceOffset": 467780
     },
     {
       "Id": "prop:Postnikov_And_Bounded_Reflections",
       "LabelType": "proposition",
-      "SourceLine": 6335,
-      "SourceOffset": 457599
+      "SourceLine": 6358,
+      "SourceOffset": 468371
     },
     {
       "Id": "sec:Dimension_Theory",
       "LabelType": "section",
-      "SourceLine": 6378,
-      "SourceOffset": 460216
+      "SourceLine": 6401,
+      "SourceOffset": 470988
     },
     {
       "Id": "subsec:Homotopy_Dimension_And_Examples",
       "LabelType": "subsection",
-      "SourceLine": 6383,
-      "SourceOffset": 460839
+      "SourceLine": 6406,
+      "SourceOffset": 471611
     },
     {
       "Id": "def:Dimension_Of_Topos_Morphism",
       "LabelType": "definition",
-      "SourceLine": 6386,
-      "SourceOffset": 460924
+      "SourceLine": 6409,
+      "SourceOffset": 471696
     },
     {
       "Id": "lem:Dimension_Iff_Connected_Objects_Have_Sections",
       "LabelType": "lemma",
-      "SourceLine": 6393,
-      "SourceOffset": 461363
+      "SourceLine": 6416,
+      "SourceOffset": 472135
     },
     {
       "Id": "def:Locally_Finite_Dimensional_Topos",
       "LabelType": "definition",
-      "SourceLine": 6412,
-      "SourceOffset": 463316
+      "SourceLine": 6435,
+      "SourceOffset": 474088
     },
     {
       "Id": "ex:Dimension_Of_Anima_Slice",
       "LabelType": "example",
-      "SourceLine": 6419,
-      "SourceOffset": 463724
+      "SourceLine": 6442,
+      "SourceOffset": 474496
     },
     {
       "Id": "ex:Presheaf_Topos_With_Terminal_Object_Dimension_Zero",
       "LabelType": "example",
-      "SourceLine": 6426,
-      "SourceOffset": 464390
+      "SourceLine": 6449,
+      "SourceOffset": 475162
     },
     {
       "Id": "ex:Presheaves_On_Natural_Numbers_Dimension_One",
       "LabelType": "example",
-      "SourceLine": 6431,
-      "SourceOffset": 464816
+      "SourceLine": 6454,
+      "SourceOffset": 475588
     },
     {
       "Id": "ex:Covering_Dimension_Bounds_Sheaf_Topos_Dimension",
       "LabelType": "example",
-      "SourceLine": 6440,
-      "SourceOffset": 465440
+      "SourceLine": 6463,
+      "SourceOffset": 476212
     },
     {
       "Id": "ex:Krull_Dimension_Bounds_Sheaf_Topos_Dimension",
       "LabelType": "example",
-      "SourceLine": 6451,
-      "SourceOffset": 465984
+      "SourceLine": 6474,
+      "SourceOffset": 476756
     },
     {
       "Id": "ex:Dimension_Bounds_For_Scheme_Sites",
       "LabelType": "example",
-      "SourceLine": 6456,
-      "SourceOffset": 466241
+      "SourceLine": 6479,
+      "SourceOffset": 477013
     },
     {
       "Id": "subsec:Dimension_And_Postnikov_Convergence",
       "LabelType": "subsection",
-      "SourceLine": 6465,
-      "SourceOffset": 466716
+      "SourceLine": 6488,
+      "SourceOffset": 477488
     },
     {
       "Id": "prop:Finite_Dimension_Implies_Postnikov_Properties",
       "LabelType": "proposition",
-      "SourceLine": 6470,
-      "SourceOffset": 467187
+      "SourceLine": 6493,
+      "SourceOffset": 477959
     },
     {
       "Id": "sec:Essential_Morphisms_Shape",
       "LabelType": "section",
-      "SourceLine": 6496,
-      "SourceOffset": 469482
+      "SourceLine": 6519,
+      "SourceOffset": 480254
     },
     {
       "Id": "subsec:Essential_Morphisms",
       "LabelType": "subsection",
-      "SourceLine": 6501,
-      "SourceOffset": 470121
+      "SourceLine": 6524,
+      "SourceOffset": 480893
     },
     {
       "Id": "def:Essential_Morphism",
       "LabelType": "definition",
-      "SourceLine": 6504,
-      "SourceOffset": 470214
+      "SourceLine": 6527,
+      "SourceOffset": 480986
     },
     {
       "Id": "ex:Etale_Morphisms_Are_Essential",
       "LabelType": "example",
-      "SourceLine": 6514,
-      "SourceOffset": 470734
+      "SourceLine": 6537,
+      "SourceOffset": 481506
     },
     {
       "Id": "ex:Presheaf_Topos_Essential",
       "LabelType": "example",
-      "SourceLine": 6519,
-      "SourceOffset": 471066
+      "SourceLine": 6542,
+      "SourceOffset": 481838
     },
     {
       "Id": "subsec:Pro_Left_Adjoints_And_Relative_Shape",
       "LabelType": "subsection",
-      "SourceLine": 6527,
-      "SourceOffset": 471693
+      "SourceLine": 6550,
+      "SourceOffset": 482465
     },
     {
       "Id": "prop:Pro_Left_Adjoint",
       "LabelType": "proposition",
-      "SourceLine": 6536,
-      "SourceOffset": 472488
+      "SourceLine": 6559,
+      "SourceOffset": 483260
     },
     {
       "Id": "def:Relative_Shape",
       "LabelType": "definition",
-      "SourceLine": 6576,
-      "SourceOffset": 474439
+      "SourceLine": 6599,
+      "SourceOffset": 485211
     },
     {
       "Id": "def:Shape",
       "LabelType": "definition",
-      "SourceLine": 6587,
-      "SourceOffset": 475043
+      "SourceLine": 6610,
+      "SourceOffset": 485815
     },
     {
       "Id": "ex:Shape_Presheaf_Topos",
       "LabelType": "example",
-      "SourceLine": 6596,
-      "SourceOffset": 475483
+      "SourceLine": 6619,
+      "SourceOffset": 486255
     },
     {
       "Id": "ex:Shape_Of_Sheaf_Topos",
       "LabelType": "example",
-      "SourceLine": 6605,
-      "SourceOffset": 475873
+      "SourceLine": 6628,
+      "SourceOffset": 486645
     },
     {
       "Id": "subsec:Local_Constancy_And_Essentialness",
       "LabelType": "subsection",
-      "SourceLine": 6610,
-      "SourceOffset": 476364
+      "SourceLine": 6633,
+      "SourceOffset": 487136
     },
     {
       "Id": "def:Locally_Constant_Shape",
       "LabelType": "definition",
-      "SourceLine": 6615,
-      "SourceOffset": 476627
+      "SourceLine": 6638,
+      "SourceOffset": 487399
     },
     {
       "Id": "prop:Essential_Vs_Locally_Constant_Shape",
       "LabelType": "proposition",
-      "SourceLine": 6630,
-      "SourceOffset": 477474
+      "SourceLine": 6653,
+      "SourceOffset": 488246
     },
     {
       "Id": "cor:Essential_Iff_Locally_Constant_Shape",
       "LabelType": "corollary",
-      "SourceLine": 6651,
-      "SourceOffset": 479137
+      "SourceLine": 6674,
+      "SourceOffset": 489909
     },
     {
       "Id": "lem:Essential_Preserves_Constant_Shape",
       "LabelType": "lemma",
-      "SourceLine": 6658,
-      "SourceOffset": 479387
+      "SourceLine": 6681,
+      "SourceOffset": 490159
     },
     {
       "Id": "cor:Essential_Preserves_Constant_Shape",
       "LabelType": "corollary",
-      "SourceLine": 6671,
-      "SourceOffset": 480308
+      "SourceLine": 6694,
+      "SourceOffset": 491080
     },
     {
       "Id": "sec:Coherence",
       "LabelType": "section",
-      "SourceLine": 6676,
-      "SourceOffset": 480601
+      "SourceLine": 6699,
+      "SourceOffset": 491373
     },
     {
       "Id": "subsec:Coherence_Overview",
       "LabelType": "subsection",
-      "SourceLine": 6681,
-      "SourceOffset": 481014
+      "SourceLine": 6704,
+      "SourceOffset": 491786
     },
     {
       "Id": "cor:Cohomology_Of_Coherent_Objects_Preserves_Filtered_Colimits",
       "LabelType": "corollary",
-      "SourceLine": 6691,
-      "SourceOffset": 481853
+      "SourceLine": 6714,
+      "SourceOffset": 492625
     },
     {
       "Id": "def:Locally_Coherent_Topos",
       "LabelType": "definition",
-      "SourceLine": 6702,
-      "SourceOffset": 482999
+      "SourceLine": 6725,
+      "SourceOffset": 493771
     },
     {
       "Id": "ex:Surjection_From_Set_Topos_Is_Conservative",
       "LabelType": "example",
-      "SourceLine": 6715,
-      "SourceOffset": 483945
+      "SourceLine": 6738,
+      "SourceOffset": 494717
     },
     {
       "Id": "ex:Kan_Fibrations_Are_Realization_Fibrations",
       "LabelType": "example",
-      "SourceLine": 6720,
-      "SourceOffset": 484200
+      "SourceLine": 6743,
+      "SourceOffset": 494972
     },
     {
       "Id": "subsec:Coherent_Objects",
       "LabelType": "subsection",
-      "SourceLine": 6730,
-      "SourceOffset": 485302
+      "SourceLine": 6753,
+      "SourceOffset": 496074
     },
     {
       "Id": "def:Quasi_Compact_Object_And_Topos",
       "LabelType": "definition",
-      "SourceLine": 6734,
-      "SourceOffset": 485469
+      "SourceLine": 6757,
+      "SourceOffset": 496241
     },
     {
       "Id": "def:Quasi_Separated_Object",
       "LabelType": "definition",
-      "SourceLine": 6743,
-      "SourceOffset": 486310
+      "SourceLine": 6766,
+      "SourceOffset": 497082
     },
     {
       "Id": "warn:Coherence_Terminology",
       "LabelType": "warning",
-      "SourceLine": 6754,
-      "SourceOffset": 488326
+      "SourceLine": 6777,
+      "SourceOffset": 499098
     },
     {
       "Id": "def:N_Coherent_Objects_And_Topoi",
       "LabelType": "definition",
-      "SourceLine": 6765,
-      "SourceOffset": 489602
+      "SourceLine": 6788,
+      "SourceOffset": 500374
     },
     {
       "Id": "ex:One_And_Two_Coherent_Topoi",
       "LabelType": "example",
-      "SourceLine": 6776,
-      "SourceOffset": 490453
+      "SourceLine": 6799,
+      "SourceOffset": 501225
     },
     {
       "Id": "def:Coherent_Objects_And_Topoi",
       "LabelType": "definition",
-      "SourceLine": 6781,
-      "SourceOffset": 490732
+      "SourceLine": 6804,
+      "SourceOffset": 501504
     },
     {
       "Id": "ex:Coherent_Animae",
       "LabelType": "example",
-      "SourceLine": 6791,
-      "SourceOffset": 491272
+      "SourceLine": 6814,
+      "SourceOffset": 502044
     },
     {
       "Id": "ex:Coherent_Locales",
       "LabelType": "example",
-      "SourceLine": 6796,
-      "SourceOffset": 491698
+      "SourceLine": 6819,
+      "SourceOffset": 502470
     },
     {
       "Id": "def:Relatively_N_Coherent_Morphism",
       "LabelType": "definition",
-      "SourceLine": 6803,
-      "SourceOffset": 492739
+      "SourceLine": 6826,
+      "SourceOffset": 503511
     },
     {
       "Id": "warn:Relative_Coherence_Differs_From_Slice_Coherence",
       "LabelType": "warning",
-      "SourceLine": 6808,
-      "SourceOffset": 492987
+      "SourceLine": 6831,
+      "SourceOffset": 503759
     },
     {
       "Id": "lem:Relative_Coherence_Over_Coherent_Base",
       "LabelType": "lemma",
-      "SourceLine": 6813,
-      "SourceOffset": 493179
+      "SourceLine": 6836,
+      "SourceOffset": 503951
     },
     {
       "Id": "prop:Characterization_Coherent_Objects",
       "LabelType": "proposition",
-      "SourceLine": 6818,
-      "SourceOffset": 493424
+      "SourceLine": 6841,
+      "SourceOffset": 504196
     },
     {
       "Id": "cor:Locally_Coherent_Characterization",
       "LabelType": "corollary",
-      "SourceLine": 6827,
-      "SourceOffset": 494127
+      "SourceLine": 6850,
+      "SourceOffset": 504899
     },
     {
       "Id": "rem:Coherent_Basis_Containing_Terminal_Object",
       "LabelType": "remark",
-      "SourceLine": 6838,
-      "SourceOffset": 494924
+      "SourceLine": 6861,
+      "SourceOffset": 505696
     },
     {
       "Id": "prop:Coherence_And_Connectivity",
       "LabelType": "proposition",
-      "SourceLine": 6843,
-      "SourceOffset": 495223
+      "SourceLine": 6866,
+      "SourceOffset": 505995
     },
     {
       "Id": "cor:Coherence_Truncation",
       "LabelType": "corollary",
-      "SourceLine": 6857,
-      "SourceOffset": 496591
+      "SourceLine": 6880,
+      "SourceOffset": 507363
     },
     {
       "Id": "cor:n_Localic_Coherent_Implies_Locally_Coherent",
       "LabelType": "corollary",
-      "SourceLine": 6870,
-      "SourceOffset": 497482
+      "SourceLine": 6893,
+      "SourceOffset": 508254
     },
     {
       "Id": "cor:Bounded_Coherent_Implies_Locally_Coherent",
       "LabelType": "corollary",
-      "SourceLine": 6881,
-      "SourceOffset": 498599
+      "SourceLine": 6904,
+      "SourceOffset": 509371
     },
     {
       "Id": "subsec:Finitary_Sites",
       "LabelType": "subsection",
-      "SourceLine": 6890,
-      "SourceOffset": 499497
+      "SourceLine": 6913,
+      "SourceOffset": 510269
     },
     {
       "Id": "def:Finitary_Site",
       "LabelType": "definition",
-      "SourceLine": 6893,
-      "SourceOffset": 499565
+      "SourceLine": 6916,
+      "SourceOffset": 510337
     },
     {
       "Id": "prop:Finitary_Sites_And_Coherence",
       "LabelType": "proposition",
-      "SourceLine": 6898,
-      "SourceOffset": 499851
+      "SourceLine": 6921,
+      "SourceOffset": 510623
     },
     {
       "Id": "subsec:Compactness_Theorem",
       "LabelType": "subsection",
-      "SourceLine": 6923,
-      "SourceOffset": 502695
+      "SourceLine": 6946,
+      "SourceOffset": 513494
     },
     {
       "Id": "thm:Compactness_Coherent_Objects",
       "LabelType": "theorem",
-      "SourceLine": 6927,
-      "SourceOffset": 502847
+      "SourceLine": 6950,
+      "SourceOffset": 513646
     },
     {
       "Id": "cor:Locally_n_Coherent_Compactly_Generated",
       "LabelType": "corollary",
-      "SourceLine": 6932,
-      "SourceOffset": 503107
+      "SourceLine": 6955,
+      "SourceOffset": 513906
     },
     {
       "Id": "warn:Coherent_Does_Not_Imply_Compact",
       "LabelType": "warning",
-      "SourceLine": 6937,
-      "SourceOffset": 503290
+      "SourceLine": 6960,
+      "SourceOffset": 514089
     },
     {
       "Id": "rem:Coherence_Analogous_To_Almost_Perfect",
       "LabelType": "remark",
-      "SourceLine": 6942,
-      "SourceOffset": 503457
+      "SourceLine": 6965,
+      "SourceOffset": 514256
     },
     {
       "Id": "subsec:Completeness_Theorem",
       "LabelType": "subsection",
-      "SourceLine": 6992,
-      "SourceOffset": 507412
+      "SourceLine": 7015,
+      "SourceOffset": 518211
     },
     {
       "Id": "thm:Completeness_Theorem",
       "LabelType": "theorem",
-      "SourceLine": 6997,
-      "SourceOffset": 507746
+      "SourceLine": 7020,
+      "SourceOffset": 518545
     },
     {
       "Id": "rem:Completeness_For_Locales_And_Classical_Topoi",
       "LabelType": "remark",
-      "SourceLine": 7002,
-      "SourceOffset": 507944
+      "SourceLine": 7025,
+      "SourceOffset": 518743
     },
     {
       "Id": "subsec:Boolean_Algebras",
       "LabelType": "subsubsection",
-      "SourceLine": 7038,
-      "SourceOffset": 511386
+      "SourceLine": 7061,
+      "SourceOffset": 522185
     },
     {
       "Id": "def:Boolean_Algebra",
       "LabelType": "definition",
-      "SourceLine": 7043,
-      "SourceOffset": 511526
+      "SourceLine": 7066,
+      "SourceOffset": 522325
     },
     {
       "Id": "prop:CBA_Has_Dimension_Zero",
       "LabelType": "proposition",
-      "SourceLine": 7048,
-      "SourceOffset": 511883
+      "SourceLine": 7071,
+      "SourceOffset": 522682
     },
     {
       "Id": "prop:CBA_Surjection_To_Locale",
       "LabelType": "proposition",
-      "SourceLine": 7063,
-      "SourceOffset": 513487
+      "SourceLine": 7086,
+      "SourceOffset": 524286
     },
     {
       "Id": "subsec:Diaconescu_Cover",
       "LabelType": "subsubsection",
-      "SourceLine": 7092,
-      "SourceOffset": 515315
+      "SourceLine": 7115,
+      "SourceOffset": 526114
     },
     {
       "Id": "prop:Diaconescu_Cover",
       "LabelType": "proposition",
-      "SourceLine": 7095,
-      "SourceOffset": 515407
+      "SourceLine": 7118,
+      "SourceOffset": 526206
     },
     {
       "Id": "cor:CBA_Surjection_To_Topos",
       "LabelType": "corollary",
-      "SourceLine": 7102,
-      "SourceOffset": 515706
+      "SourceLine": 7125,
+      "SourceOffset": 526505
     },
     {
       "Id": "subsec:Factorization_Through_Spectrum",
       "LabelType": "subsubsection",
-      "SourceLine": 7152,
-      "SourceOffset": 521563
+      "SourceLine": 7175,
+      "SourceOffset": 532362
     },
     {
       "Id": "lem:Finite_Effective_Epi_Preserved",
       "LabelType": "lemma",
-      "SourceLine": 7169,
-      "SourceOffset": 522610
+      "SourceLine": 7192,
+      "SourceOffset": 533409
     },
     {
       "Id": "subsec:Proof_Of_Completeness_Theorem",
       "LabelType": "subsubsection",
-      "SourceLine": 7192,
-      "SourceOffset": 524079
+      "SourceLine": 7215,
+      "SourceOffset": 534878
     },
     {
       "Id": "sec:Pretopoi",
       "LabelType": "section",
-      "SourceLine": 7220,
-      "SourceOffset": 526786
+      "SourceLine": 7243,
+      "SourceOffset": 537585
     },
     {
       "Id": "def:Local_Pretopos",
       "LabelType": "definition",
-      "SourceLine": 7225,
-      "SourceOffset": 527445
+      "SourceLine": 7248,
+      "SourceOffset": 538244
     },
     {
       "Id": "rem:Factorization_Systems_In_Local_Pretopos",
       "LabelType": "remark",
-      "SourceLine": 7236,
-      "SourceOffset": 527932
+      "SourceLine": 7259,
+      "SourceOffset": 538731
     },
     {
       "Id": "def:Effective_Epi_Topology",
       "LabelType": "definition",
-      "SourceLine": 7241,
-      "SourceOffset": 528258
+      "SourceLine": 7264,
+      "SourceOffset": 539057
     },
     {
       "Id": "prop:Coherent_Objects_Form_Pretopos",
       "LabelType": "proposition",
-      "SourceLine": 7248,
-      "SourceOffset": 528709
+      "SourceLine": 7271,
+      "SourceOffset": 539508
     },
     {
       "Id": "def:Prelogos",
       "LabelType": "definition",
-      "SourceLine": 7269,
-      "SourceOffset": 529878
+      "SourceLine": 7292,
+      "SourceOffset": 540677
     },
     {
       "Id": "def:Coherent_Morphisms",
       "LabelType": "definition",
-      "SourceLine": 7274,
-      "SourceOffset": 530294
+      "SourceLine": 7297,
+      "SourceOffset": 541093
     },
     {
       "Id": "def:Bounded_Hypercomplete_Pretopos",
       "LabelType": "definition",
-      "SourceLine": 7288,
-      "SourceOffset": 530793
+      "SourceLine": 7311,
+      "SourceOffset": 541592
     },
     {
       "Id": "thm:Pretopos_Topos_Equivalence",
       "LabelType": "theorem",
-      "SourceLine": 7299,
-      "SourceOffset": 531421
+      "SourceLine": 7322,
+      "SourceOffset": 542220
     },
     {
       "Id": "sec:Makkai_Completeness",
       "LabelType": "section",
-      "SourceLine": 7312,
-      "SourceOffset": 532127
+      "SourceLine": 7335,
+      "SourceOffset": 542926
     },
     {
       "Id": "quest:Recover_Topos_From_Category_Of_Points",
       "LabelType": "question",
-      "SourceLine": 7317,
-      "SourceOffset": 532534
+      "SourceLine": 7340,
+      "SourceOffset": 543333
     },
     {
       "Id": "def:Ultracategory",
       "LabelType": "definition",
-      "SourceLine": 7324,
-      "SourceOffset": 533165
+      "SourceLine": 7347,
+      "SourceOffset": 543964
     },
     {
       "Id": "thm:Makkai_Completeness",
       "LabelType": "theorem",
-      "SourceLine": 7337,
-      "SourceOffset": 534005
+      "SourceLine": 7360,
+      "SourceOffset": 544804
     },
     {
       "Id": "warn:Makkai_Reference_Classical",
       "LabelType": "warning",
-      "SourceLine": 7347,
-      "SourceOffset": 534224
+      "SourceLine": 7370,
+      "SourceOffset": 545023
     },
     {
       "Id": "rmk:Condensed_And_Ultra",
       "LabelType": "remark",
-      "SourceLine": 7352,
-      "SourceOffset": 534920
+      "SourceLine": 7375,
+      "SourceOffset": 545719
     },
     {
       "Id": "sec:Compactly_Assembled",
       "LabelType": "section",
-      "SourceLine": 7364,
-      "SourceOffset": 535258
+      "SourceLine": 7387,
+      "SourceOffset": 546057
     },
     {
       "Id": "subsec:Finitary_Functor_Topoi",
       "LabelType": "subsection",
-      "SourceLine": 7369,
-      "SourceOffset": 535870
+      "SourceLine": 7392,
+      "SourceOffset": 546669
     },
     {
       "Id": "prop:Finitary_Functor_Topos",
       "LabelType": "proposition",
-      "SourceLine": 7375,
-      "SourceOffset": 536227
+      "SourceLine": 7398,
+      "SourceOffset": 547026
     },
     {
       "Id": "rmk:Finitary_Functor_Universal_Property",
       "LabelType": "remark",
-      "SourceLine": 7399,
-      "SourceOffset": 538478
+      "SourceLine": 7422,
+      "SourceOffset": 549277
     },
     {
       "Id": "cor:Points_Functor_Adjoint",
       "LabelType": "corollary",
-      "SourceLine": 7408,
-      "SourceOffset": 539058
+      "SourceLine": 7431,
+      "SourceOffset": 549857
     },
     {
       "Id": "subsec:Compactly_Assembled_Categories",
       "LabelType": "subsection",
-      "SourceLine": 7416,
-      "SourceOffset": 539355
+      "SourceLine": 7439,
+      "SourceOffset": 550154
     },
     {
       "Id": "prop:Compactly_Assembled_Characterization",
       "LabelType": "proposition",
-      "SourceLine": 7421,
-      "SourceOffset": 539684
+      "SourceLine": 7444,
+      "SourceOffset": 550483
     },
     {
       "Id": "def:Compactly_Assembled",
       "LabelType": "definition",
-      "SourceLine": 7431,
-      "SourceOffset": 540492
+      "SourceLine": 7454,
+      "SourceOffset": 551291
     },
     {
       "Id": "cor:Compactly_Assembled_Retract",
       "LabelType": "corollary",
-      "SourceLine": 7463,
-      "SourceOffset": 542887
+      "SourceLine": 7486,
+      "SourceOffset": 553686
     },
     {
       "Id": "subsec:Classifying_Topoi_Compactly_Assembled",
       "LabelType": "subsection",
-      "SourceLine": 7468,
-      "SourceOffset": 543139
+      "SourceLine": 7491,
+      "SourceOffset": 553938
     },
     {
       "Id": "prop:Colimit_Preserving_Equivalence",
       "LabelType": "proposition",
-      "SourceLine": 7473,
-      "SourceOffset": 543468
+      "SourceLine": 7496,
+      "SourceOffset": 554267
     },
     {
       "Id": "cor:Logos_Functor_Equivalence",
       "LabelType": "corollary",
-      "SourceLine": 7502,
-      "SourceOffset": 545440
+      "SourceLine": 7525,
+      "SourceOffset": 556239
     },
     {
       "Id": "rmk:C_Valued_Sheaves",
       "LabelType": "remark",
-      "SourceLine": 7514,
-      "SourceOffset": 545821
+      "SourceLine": 7537,
+      "SourceOffset": 556620
     },
     {
       "Id": "prop:Classifying_Topos_Iff_Compactly_Assembled",
       "LabelType": "proposition",
-      "SourceLine": 7521,
-      "SourceOffset": 546430
+      "SourceLine": 7544,
+      "SourceOffset": 557229
     },
     {
       "Id": "rmk:Points_Of_Classifying_Topos",
       "LabelType": "remark",
-      "SourceLine": 7532,
-      "SourceOffset": 547884
+      "SourceLine": 7555,
+      "SourceOffset": 558683
     },
     {
       "Id": "lem:Classifying_Topos_Fully_Faithful",
       "LabelType": "lemma",
-      "SourceLine": 7541,
-      "SourceOffset": 548201
+      "SourceLine": 7564,
+      "SourceOffset": 559000
     },
     {
       "Id": "subsec:Exponentiable_Topoi",
       "LabelType": "subsection",
-      "SourceLine": 7550,
-      "SourceOffset": 548975
+      "SourceLine": 7573,
+      "SourceOffset": 559774
     },
     {
       "Id": "obs:Exponential_2_Categorical",
       "LabelType": "observation",
-      "SourceLine": 7560,
-      "SourceOffset": 549642
+      "SourceLine": 7583,
+      "SourceOffset": 560441
     },
     {
       "Id": "rmk:Points_Of_Exponential",
       "LabelType": "remark",
-      "SourceLine": 7572,
-      "SourceOffset": 550417
+      "SourceLine": 7595,
+      "SourceOffset": 561216
     },
     {
       "Id": "def:Exponentiable_Topos",
       "LabelType": "definition",
-      "SourceLine": 7577,
-      "SourceOffset": 550541
+      "SourceLine": 7600,
+      "SourceOffset": 561340
     },
     {
       "Id": "lem:Compact_Assembly_Tensor_Stability",
       "LabelType": "lemma",
-      "SourceLine": 7582,
-      "SourceOffset": 550705
+      "SourceLine": 7605,
+      "SourceOffset": 561504
     },
     {
       "Id": "lem:Topos_Pullback_Of_Presheaf_Topoi",
       "LabelType": "lemma",
-      "SourceLine": 7591,
-      "SourceOffset": 551441
+      "SourceLine": 7614,
+      "SourceOffset": 562240
     },
     {
       "Id": "thm:Exponentiable_Iff_Compactly_Assembled",
       "LabelType": "theorem",
-      "SourceLine": 7600,
-      "SourceOffset": 552245
+      "SourceLine": 7623,
+      "SourceOffset": 563044
     },
     {
       "Id": "sec:Categories_Of_Infty_Connected_Objects",
       "LabelType": "section",
-      "SourceLine": 7632,
-      "SourceOffset": 554234
+      "SourceLine": 7655,
+      "SourceOffset": 565033
     },
     {
       "Id": "subsec:An_Parametrized_Objects",
       "LabelType": "subsection",
-      "SourceLine": 7637,
-      "SourceOffset": 555180
+      "SourceLine": 7660,
+      "SourceOffset": 565979
     },
     {
       "Id": "def:An_Parametrized_Objects",
       "LabelType": "definition",
-      "SourceLine": 7640,
-      "SourceOffset": 555258
+      "SourceLine": 7663,
+      "SourceOffset": 566057
     },
     {
       "Id": "lem:Colimits_In_Parametrized_Objects",
       "LabelType": "lemma",
-      "SourceLine": 7659,
-      "SourceOffset": 556900
+      "SourceLine": 7682,
+      "SourceOffset": 567699
     },
     {
       "Id": "lem:Colimit_Left_Adjoint_To_Parametrized_Inclusion",
       "LabelType": "lemma",
-      "SourceLine": 7689,
-      "SourceOffset": 559957
+      "SourceLine": 7712,
+      "SourceOffset": 570756
     },
     {
       "Id": "lem:Parametrized_Objects_Adjunction",
       "LabelType": "lemma",
-      "SourceLine": 7702,
-      "SourceOffset": 560820
+      "SourceLine": 7725,
+      "SourceOffset": 571619
     },
     {
       "Id": "prop:Free_Anima_Cocompletion",
       "LabelType": "proposition",
-      "SourceLine": 7723,
-      "SourceOffset": 562165
+      "SourceLine": 7746,
+      "SourceOffset": 572964
     },
     {
       "Id": "subsec:Weakly_Contractible_Free_Cocompletion",
       "LabelType": "subsection",
-      "SourceLine": 7739,
-      "SourceOffset": 563129
+      "SourceLine": 7762,
+      "SourceOffset": 573928
     },
     {
       "Id": "prop:Free_Anima_Cocompletion_Has_Colimits",
       "LabelType": "proposition",
-      "SourceLine": 7744,
-      "SourceOffset": 563996
+      "SourceLine": 7767,
+      "SourceOffset": 574795
     },
     {
       "Id": "lem:Colimit_Preserving_Iff_Anima_Colimits_And_Weakly_Contractible_Colimits",
       "LabelType": "lemma",
-      "SourceLine": 7786,
-      "SourceOffset": 569474
+      "SourceLine": 7809,
+      "SourceOffset": 580273
     },
     {
       "Id": "prop:Parametrized_Objects_Universal_Property_2",
       "LabelType": "proposition",
-      "SourceLine": 7799,
-      "SourceOffset": 571197
+      "SourceLine": 7822,
+      "SourceOffset": 581996
     },
     {
       "Id": "subsec:Objects_Parametrized_By_Topoi",
       "LabelType": "subsection",
-      "SourceLine": 7823,
-      "SourceOffset": 572749
+      "SourceLine": 7846,
+      "SourceOffset": 583548
     },
     {
       "Id": "def:T_Parametrized_Objects",
       "LabelType": "definition",
-      "SourceLine": 7827,
-      "SourceOffset": 572928
+      "SourceLine": 7850,
+      "SourceOffset": 583727
     },
     {
       "Id": "cor:T_Parametrized_Objects_Universal_Property",
       "LabelType": "corollary",
-      "SourceLine": 7836,
-      "SourceOffset": 573428
+      "SourceLine": 7859,
+      "SourceOffset": 584227
     },
     {
       "Id": "prop:T_Parametrized_Objects_Bicartesian_Fibration",
       "LabelType": "proposition",
-      "SourceLine": 7851,
-      "SourceOffset": 575058
+      "SourceLine": 7874,
+      "SourceOffset": 585857
     },
     {
       "Id": "subsec:Loci",
       "LabelType": "subsection",
-      "SourceLine": 7877,
-      "SourceOffset": 576899
+      "SourceLine": 7900,
+      "SourceOffset": 587698
     },
     {
       "Id": "quest:When_Parametrized_Objects_Form_Topos",
       "LabelType": "question",
-      "SourceLine": 7882,
-      "SourceOffset": 577046
+      "SourceLine": 7905,
+      "SourceOffset": 587845
     },
     {
       "Id": "def:Locus",
       "LabelType": "definition",
-      "SourceLine": 7889,
-      "SourceOffset": 577411
+      "SourceLine": 7912,
+      "SourceOffset": 588210
     },
     {
       "Id": "lem:Conservative_Criterion_For_Locus",
       "LabelType": "lemma",
-      "SourceLine": 7894,
-      "SourceOffset": 577586
+      "SourceLine": 7917,
+      "SourceOffset": 588385
     },
     {
       "Id": "cor:Fibers_Of_Loci_Are_Loci",
       "LabelType": "corollary",
-      "SourceLine": 7910,
-      "SourceOffset": 578813
+      "SourceLine": 7933,
+      "SourceOffset": 589612
     },
     {
       "Id": "cor:Slices_And_Coslices_Of_Locus",
       "LabelType": "corollary",
-      "SourceLine": 7919,
-      "SourceOffset": 579548
+      "SourceLine": 7942,
+      "SourceOffset": 590347
     },
     {
       "Id": "ex:Excisive_Functor_Categories_Are_Loci",
       "LabelType": "example",
-      "SourceLine": 7928,
-      "SourceOffset": 579873
+      "SourceLine": 7951,
+      "SourceOffset": 590672
     },
     {
       "Id": "lem:Topos_Iff_Locus_With_Strict_Initial_Object",
       "LabelType": "lemma",
-      "SourceLine": 7942,
-      "SourceOffset": 580388
+      "SourceLine": 7965,
+      "SourceOffset": 591187
     },
     {
       "Id": "lem:Stable_Categories_Are_Loci",
       "LabelType": "lemma",
-      "SourceLine": 7951,
-      "SourceOffset": 581132
+      "SourceLine": 7974,
+      "SourceOffset": 591931
     },
     {
       "Id": "lem:Infinity_Connected_Objects_Form_Locus",
       "LabelType": "lemma",
-      "SourceLine": 7984,
-      "SourceOffset": 583032
+      "SourceLine": 8007,
+      "SourceOffset": 593831
     },
     {
       "Id": "thm:Topos_Of_Parametrized_Objects",
       "LabelType": "theorem",
-      "SourceLine": 7997,
-      "SourceOffset": 584017
+      "SourceLine": 8020,
+      "SourceOffset": 594816
     },
     {
       "Id": "rem:Loci_As_Nilpotent_Thickenings_Of_Point",
       "LabelType": "remark",
-      "SourceLine": 8013,
-      "SourceOffset": 584804
+      "SourceLine": 8036,
+      "SourceOffset": 595603
     },
     {
       "Id": "subsec:Generalized_Parametrized_Objects",
       "LabelType": "subsection",
-      "SourceLine": 8047,
-      "SourceOffset": 588942
+      "SourceLine": 8070,
+      "SourceOffset": 599741
     },
     {
       "Id": "nota:Relative_Cocompletion",
       "LabelType": "notation",
-      "SourceLine": 8052,
-      "SourceOffset": 589518
+      "SourceLine": 8075,
+      "SourceOffset": 600317
     },
     {
       "Id": "rmk:Relative_Cocompletion_As_Presheaves",
       "LabelType": "remark",
-      "SourceLine": 8061,
-      "SourceOffset": 589871
+      "SourceLine": 8084,
+      "SourceOffset": 600670
     },
     {
       "Id": "ex:Parametrized_Objects_As_Relative_Cocompletion",
       "LabelType": "example",
-      "SourceLine": 8072,
-      "SourceOffset": 590898
+      "SourceLine": 8095,
+      "SourceOffset": 601697
     },
     {
       "Id": "not:Complementary_Classes_Of_Categories",
       "LabelType": "notation",
-      "SourceLine": 8086,
-      "SourceOffset": 591935
+      "SourceLine": 8109,
+      "SourceOffset": 602734
     },
     {
       "Id": "warn:Complementarity_Not_Symmetric",
       "LabelType": "warning",
-      "SourceLine": 8097,
-      "SourceOffset": 592616
+      "SourceLine": 8120,
+      "SourceOffset": 603415
     },
     {
       "Id": "lem:Consequences_Of_Complementary_Classes",
       "LabelType": "lemma",
-      "SourceLine": 8102,
-      "SourceOffset": 592830
+      "SourceLine": 8125,
+      "SourceOffset": 603629
     },
     {
       "Id": "ex:Complementary_Classes_Of_Categories",
       "LabelType": "example",
-      "SourceLine": 8143,
-      "SourceOffset": 595294
+      "SourceLine": 8166,
+      "SourceOffset": 606093
     },
     {
       "Id": "quest:Relative_Cocompletion_Is_Topos",
       "LabelType": "question",
-      "SourceLine": 8157,
-      "SourceOffset": 595992
+      "SourceLine": 8180,
+      "SourceOffset": 606791
     },
     {
       "Id": "chap:Geometry",
       "LabelType": "chapter",
-      "SourceLine": 8172,
-      "SourceOffset": 597849
+      "SourceLine": 8195,
+      "SourceOffset": 608648
     },
     {
       "Id": "sec:Schemes",
       "LabelType": "section",
-      "SourceLine": 8187,
-      "SourceOffset": 601058
+      "SourceLine": 8210,
+      "SourceOffset": 611857
     },
     {
       "Id": "def:Ringed_Topos",
       "LabelType": "definition",
-      "SourceLine": 8192,
-      "SourceOffset": 601294
+      "SourceLine": 8215,
+      "SourceOffset": 612093
     },
     {
       "Id": "def:Zariski_Scheme",
       "LabelType": "definition",
-      "SourceLine": 8197,
-      "SourceOffset": 601599
+      "SourceLine": 8220,
+      "SourceOffset": 612398
     },
     {
       "Id": "def:Etale_Scheme",
       "LabelType": "definition",
-      "SourceLine": 8213,
-      "SourceOffset": 602739
+      "SourceLine": 8236,
+      "SourceOffset": 613538
     },
     {
       "Id": "ex:Schemes",
       "LabelType": "example",
-      "SourceLine": 8218,
-      "SourceOffset": 602966
+      "SourceLine": 8241,
+      "SourceOffset": 613765
     },
     {
       "Id": "rmk:Etale_Schemes_DM_Stacks",
       "LabelType": "remark",
-      "SourceLine": 8227,
-      "SourceOffset": 603343
+      "SourceLine": 8250,
+      "SourceOffset": 614142
     },
     {
       "Id": "def:Etale_Morphism_Schemes",
       "LabelType": "definition",
-      "SourceLine": 8252,
-      "SourceOffset": 604654
+      "SourceLine": 8275,
+      "SourceOffset": 615453
     },
     {
       "Id": "prop:Etale_Schemes_Is_Topos",
       "LabelType": "proposition",
-      "SourceLine": 8266,
-      "SourceOffset": 605387
+      "SourceLine": 8289,
+      "SourceOffset": 616186
     },
     {
       "Id": "obs:Factorization_In_Rings",
       "LabelType": "observation",
-      "SourceLine": 8276,
-      "SourceOffset": 606064
+      "SourceLine": 8299,
+      "SourceOffset": 616863
     },
     {
       "Id": "sec:Geometries",
       "LabelType": "section",
-      "SourceLine": 8308,
-      "SourceOffset": 608131
+      "SourceLine": 8331,
+      "SourceOffset": 618930
     },
     {
       "Id": "def:Admissibility_Structure",
       "LabelType": "definition",
-      "SourceLine": 8321,
-      "SourceOffset": 608776
+      "SourceLine": 8344,
+      "SourceOffset": 619575
     },
     {
       "Id": "def:Geometric_Site",
       "LabelType": "definition",
-      "SourceLine": 8331,
-      "SourceOffset": 609366
+      "SourceLine": 8354,
+      "SourceOffset": 620165
     },
     {
       "Id": "subsec:Zariski_Geometries",
       "LabelType": "subsection",
-      "SourceLine": 8340,
-      "SourceOffset": 609967
+      "SourceLine": 8363,
+      "SourceOffset": 620766
     },
     {
       "Id": "lem:Classical_Zariski_Geometry",
       "LabelType": "lemma",
-      "SourceLine": 8364,
-      "SourceOffset": 610893
+      "SourceLine": 8387,
+      "SourceOffset": 621692
     },
     {
       "Id": "subsec:Other_Geometries",
       "LabelType": "subsection",
-      "SourceLine": 8411,
-      "SourceOffset": 613343
+      "SourceLine": 8434,
+      "SourceOffset": 624142
     },
     {
       "Id": "subsec:Structured_Topoi",
       "LabelType": "subsection",
-      "SourceLine": 8423,
-      "SourceOffset": 614264
+      "SourceLine": 8446,
+      "SourceOffset": 625063
     },
     {
       "Id": "subsec:Local_Morphisms_Of_Structures",
       "LabelType": "subsection",
-      "SourceLine": 8476,
-      "SourceOffset": 617685
+      "SourceLine": 8499,
+      "SourceOffset": 628484
     },
     {
       "Id": "sec:Fractured_Topoi",
       "LabelType": "section",
-      "SourceLine": 8501,
-      "SourceOffset": 618989
+      "SourceLine": 8524,
+      "SourceOffset": 629788
     },
     {
       "Id": "def:Fractured_Topos",
       "LabelType": "definition",
-      "SourceLine": 8506,
-      "SourceOffset": 619522
+      "SourceLine": 8529,
+      "SourceOffset": 630321
     },
     {
       "Id": "prop:Basic_Properties_Fractured_Topos",
       "LabelType": "proposition",
-      "SourceLine": 8525,
-      "SourceOffset": 620538
+      "SourceLine": 8548,
+      "SourceOffset": 631337
     },
     {
       "Id": "subsec:Fractures_From_Geometries",
       "LabelType": "subsection",
-      "SourceLine": 8546,
-      "SourceOffset": 621389
+      "SourceLine": 8569,
+      "SourceOffset": 632188
     },
     {
       "Id": "constr:Fractured_From_Geometric_Site",
       "LabelType": "construction",
-      "SourceLine": 8549,
-      "SourceOffset": 621470
+      "SourceLine": 8572,
+      "SourceOffset": 632269
     },
     {
       "Id": "thm:Geometric_Site_Gives_Fractured",
       "LabelType": "theorem",
-      "SourceLine": 8558,
-      "SourceOffset": 622017
+      "SourceLine": 8581,
+      "SourceOffset": 632816
     },
     {
       "Id": "ex:Fractured_Topoi",
       "LabelType": "example",
-      "SourceLine": 8571,
-      "SourceOffset": 622490
+      "SourceLine": 8594,
+      "SourceOffset": 633289
     },
     {
       "Id": "def:Admissible_Morphism_Fractured",
       "LabelType": "definition",
-      "SourceLine": 8582,
-      "SourceOffset": 622952
+      "SourceLine": 8605,
+      "SourceOffset": 633751
     },
     {
       "Id": "def:Local_Admissibility_Structure",
       "LabelType": "definition",
-      "SourceLine": 8591,
-      "SourceOffset": 623382
+      "SourceLine": 8614,
+      "SourceOffset": 634181
     },
     {
       "Id": "thm:Fractured_Admissibility_Equivalence",
       "LabelType": "theorem",
-      "SourceLine": 8605,
-      "SourceOffset": 624330
+      "SourceLine": 8628,
+      "SourceOffset": 635129
     },
     {
       "Id": "subsec:Local_Maps",
       "LabelType": "subsection",
-      "SourceLine": 8617,
-      "SourceOffset": 625050
+      "SourceLine": 8640,
+      "SourceOffset": 635849
     },
     {
       "Id": "ex:Local_Maps_Ringed_Topoi",
       "LabelType": "example",
-      "SourceLine": 8633,
-      "SourceOffset": 625887
+      "SourceLine": 8656,
+      "SourceOffset": 636686
     },
     {
       "Id": "thm:Recovering_Schemes",
       "LabelType": "theorem",
-      "SourceLine": 8640,
-      "SourceOffset": 626528
+      "SourceLine": 8663,
+      "SourceOffset": 637327
     },
     {
       "Id": "subsec:Schemes",
       "LabelType": "subsection",
-      "SourceLine": 8662,
-      "SourceOffset": 627790
+      "SourceLine": 8685,
+      "SourceOffset": 638589
     },
     {
       "Id": "con:Geometry_Spectrum_Adjunction",
       "LabelType": "construction",
-      "SourceLine": 8667,
-      "SourceOffset": 628046
+      "SourceLine": 8690,
+      "SourceOffset": 638845
     },
     {
       "Id": "def:G_Schemes",
       "LabelType": "definition",
-      "SourceLine": 8684,
-      "SourceOffset": 628916
+      "SourceLine": 8707,
+      "SourceOffset": 639715
     },
     {
       "Id": "quest:G_Schemes_Depend_On_Site",
       "LabelType": "question",
-      "SourceLine": 8693,
-      "SourceOffset": 629345
+      "SourceLine": 8716,
+      "SourceOffset": 640144
     },
     {
       "Id": "sec:Six_Functor_Formalisms",
       "LabelType": "section",
-      "SourceLine": 8698,
-      "SourceOffset": 629586
+      "SourceLine": 8721,
+      "SourceOffset": 640385
     },
     {
       "Id": "subsec:D_Topology",
       "LabelType": "subsection",
-      "SourceLine": 8703,
-      "SourceOffset": 630052
+      "SourceLine": 8726,
+      "SourceOffset": 640851
     },
     {
       "Id": "def:Presentable_Six_Functor_Formalism",
       "LabelType": "definition",
-      "SourceLine": 8706,
-      "SourceOffset": 630116
+      "SourceLine": 8729,
+      "SourceOffset": 640915
     },
     {
       "Id": "def:D_Topology",
       "LabelType": "definition",
-      "SourceLine": 8714,
-      "SourceOffset": 630463
+      "SourceLine": 8737,
+      "SourceOffset": 641262
     },
     {
       "Id": "prop:D_Topology_Geometric_Site",
       "LabelType": "proposition",
-      "SourceLine": 8719,
-      "SourceOffset": 630905
+      "SourceLine": 8742,
+      "SourceOffset": 641704
     },
     {
       "Id": "cor:D_Topology_Fractured_Topos",
       "LabelType": "corollary",
-      "SourceLine": 8728,
-      "SourceOffset": 631431
+      "SourceLine": 8751,
+      "SourceOffset": 642230
     },
     {
       "Id": "subsec:Six_Functor_Passage_To_Sheaves",
       "LabelType": "subsection",
-      "SourceLine": 8737,
-      "SourceOffset": 631781
+      "SourceLine": 8760,
+      "SourceOffset": 642580
     },
     {
       "Id": "def:Representably_Admissible_Sheaf_Map",
       "LabelType": "definition",
-      "SourceLine": 8742,
-      "SourceOffset": 632123
+      "SourceLine": 8765,
+      "SourceOffset": 642922
     },
     {
       "Id": "prop:Six_Functor_Extension",
       "LabelType": "proposition",
-      "SourceLine": 8747,
-      "SourceOffset": 632569
+      "SourceLine": 8770,
+      "SourceOffset": 643368
     },
     {
       "Id": "rmk:Stronger_Six_Functor_Extension_Lecture",
       "LabelType": "remark",
-      "SourceLine": 8756,
-      "SourceOffset": 632945
+      "SourceLine": 8779,
+      "SourceOffset": 643744
     },
     {
       "Id": "subsec:Further_Congruence_Localization",
       "LabelType": "subsection",
-      "SourceLine": 8763,
-      "SourceOffset": 633882
+      "SourceLine": 8786,
+      "SourceOffset": 644681
     },
     {
       "Id": "con:Sigma_D_Localization",
       "LabelType": "construction",
-      "SourceLine": 8768,
-      "SourceOffset": 634177
+      "SourceLine": 8791,
+      "SourceOffset": 644976
     },
     {
       "Id": "rmk:Fractured_Localization",
       "LabelType": "remark",
-      "SourceLine": 8794,
-      "SourceOffset": 635536
+      "SourceLine": 8817,
+      "SourceOffset": 646335
     },
     {
       "Id": "lem:Six_Functor_Descends",
       "LabelType": "lemma",
-      "SourceLine": 8799,
-      "SourceOffset": 635864
+      "SourceLine": 8822,
+      "SourceOffset": 646663
     },
     {
       "Id": "rmk:D_Shriek_Iso_Implies_D_Star_Iso",
       "LabelType": "remark",
-      "SourceLine": 8811,
-      "SourceOffset": 636583
+      "SourceLine": 8834,
+      "SourceOffset": 647382
     },
     {
       "Id": "sec:Analytic_Stacks",
       "LabelType": "section",
-      "SourceLine": 8815,
-      "SourceOffset": 636925
+      "SourceLine": 8838,
+      "SourceOffset": 647724
     },
     {
       "Id": "def:Condensed_Anima",
       "LabelType": "definition",
-      "SourceLine": 8820,
-      "SourceOffset": 637111
+      "SourceLine": 8843,
+      "SourceOffset": 647910
     },
     {
       "Id": "def:Analytic_Ring",
       "LabelType": "definition",
-      "SourceLine": 8831,
-      "SourceOffset": 638015
+      "SourceLine": 8854,
+      "SourceOffset": 648814
     },
     {
       "Id": "ex:Analytic_Rings_From_Topological_Rings",
       "LabelType": "example",
-      "SourceLine": 8842,
-      "SourceOffset": 638897
+      "SourceLine": 8865,
+      "SourceOffset": 649696
     },
     {
       "Id": "rmk:Analytic_Rings_Light_Setting",
       "LabelType": "remark",
-      "SourceLine": 8847,
-      "SourceOffset": 639363
+      "SourceLine": 8870,
+      "SourceOffset": 650162
     },
     {
       "Id": "def:Map_Analytic_Rings",
       "LabelType": "definition",
-      "SourceLine": 8852,
-      "SourceOffset": 639840
+      "SourceLine": 8875,
+      "SourceOffset": 650639
     },
     {
       "Id": "def:Proper_Open_Shriekable",
       "LabelType": "definition",
-      "SourceLine": 8865,
-      "SourceOffset": 640527
+      "SourceLine": 8888,
+      "SourceOffset": 651326
     },
     {
       "Id": "lem:Shriekable_Factorization",
       "LabelType": "lemma",
-      "SourceLine": 8889,
-      "SourceOffset": 641424
+      "SourceLine": 8912,
+      "SourceOffset": 652223
     },
     {
       "Id": "prop:Six_Functor_Analytic_Rings",
       "LabelType": "proposition",
-      "SourceLine": 8898,
-      "SourceOffset": 642098
+      "SourceLine": 8921,
+      "SourceOffset": 652897
     },
     {
       "Id": "def:Analytic_Stacks",
       "LabelType": "definition",
-      "SourceLine": 8910,
-      "SourceOffset": 642822
+      "SourceLine": 8933,
+      "SourceOffset": 653621
     },
     {
       "Id": "sec:Gestalten",
       "LabelType": "section",
-      "SourceLine": 8919,
-      "SourceOffset": 643302
+      "SourceLine": 8942,
+      "SourceOffset": 654101
     },
     {
       "Id": "con:Higher_Pr",
       "LabelType": "construction",
-      "SourceLine": 8924,
-      "SourceOffset": 643925
+      "SourceLine": 8947,
+      "SourceOffset": 654724
     },
     {
       "Id": "def:Stefanich_Ring",
       "LabelType": "definition",
-      "SourceLine": 8933,
-      "SourceOffset": 644404
+      "SourceLine": 8956,
+      "SourceOffset": 655203
     },
     {
       "Id": "def:Gestalten",
       "LabelType": "definition",
-      "SourceLine": 8951,
-      "SourceOffset": 645108
+      "SourceLine": 8974,
+      "SourceOffset": 655907
     },
     {
       "Id": "thm:Gestalten_Topos",
       "LabelType": "theorem",
-      "SourceLine": 8959,
-      "SourceOffset": 645293
+      "SourceLine": 8982,
+      "SourceOffset": 656092
     },
     {
       "Id": "con:n_Affine_Embedding",
       "LabelType": "construction",
-      "SourceLine": 8974,
-      "SourceOffset": 646051
+      "SourceLine": 8997,
+      "SourceOffset": 656850
     },
     {
       "Id": "def:n_Affine_Gestalt",
       "LabelType": "definition",
-      "SourceLine": 8983,
-      "SourceOffset": 646497
+      "SourceLine": 9006,
+      "SourceOffset": 657296
     },
     {
       "Id": "ex:0_Affine_Gestalten",
       "LabelType": "example",
-      "SourceLine": 8988,
-      "SourceOffset": 646791
+      "SourceLine": 9011,
+      "SourceOffset": 657590
     },
     {
       "Id": "rmk:Relative_Affine_Gestalten",
       "LabelType": "remark",
-      "SourceLine": 9000,
-      "SourceOffset": 647160
+      "SourceLine": 9023,
+      "SourceOffset": 657959
     },
     {
       "Id": "subsec:Gestalten_Six_Functor",
       "LabelType": "subsection",
-      "SourceLine": 9009,
-      "SourceOffset": 647603
+      "SourceLine": 9032,
+      "SourceOffset": 658402
     },
     {
       "Id": "def:Kunneth",
       "LabelType": "definition",
-      "SourceLine": 9045,
-      "SourceOffset": 648797
+      "SourceLine": 9068,
+      "SourceOffset": 659596
     },
     {
       "Id": "ex:Analytic_Rings_Kunneth",
       "LabelType": "example",
-      "SourceLine": 9060,
-      "SourceOffset": 649466
+      "SourceLine": 9083,
+      "SourceOffset": 660265
     },
     {
       "Id": "prop:Gestalt_Functor_Pullbacks",
       "LabelType": "proposition",
-      "SourceLine": 9065,
-      "SourceOffset": 649683
+      "SourceLine": 9088,
+      "SourceOffset": 660482
     },
     {
       "Id": "prop:D_Cover_Effective_Epi",
       "LabelType": "proposition",
-      "SourceLine": 9078,
-      "SourceOffset": 650116
+      "SourceLine": 9101,
+      "SourceOffset": 660915
     },
     {
       "Id": "rmk:Sigma_D_Equality",
       "LabelType": "remark",
-      "SourceLine": 9103,
-      "SourceOffset": 651465
+      "SourceLine": 9126,
+      "SourceOffset": 662264
     },
     {
       "Id": "app:Factorization_Systems",
       "LabelType": "chapter",
-      "SourceLine": 9122,
-      "SourceOffset": 653093
+      "SourceLine": 9145,
+      "SourceOffset": 663892
     },
     {
       "Id": "sec:App_Factorization_Systems",
       "LabelType": "section",
-      "SourceLine": 9129,
-      "SourceOffset": 654100
+      "SourceLine": 9152,
+      "SourceOffset": 664899
     },
     {
       "Id": "def:Orthogonality",
       "LabelType": "definition",
-      "SourceLine": 9134,
-      "SourceOffset": 654225
+      "SourceLine": 9157,
+      "SourceOffset": 665024
     },
     {
       "Id": "def:factorization_system",
       "LabelType": "definition",
-      "SourceLine": 9153,
-      "SourceOffset": 655231
+      "SourceLine": 9176,
+      "SourceOffset": 666030
     },
     {
       "Id": "prop:FS_Closure_Properties",
       "LabelType": "proposition",
-      "SourceLine": 9168,
-      "SourceOffset": 655901
+      "SourceLine": 9191,
+      "SourceOffset": 666700
     },
     {
       "Id": "lem:Intersection_Is_Iso",
       "LabelType": "lemma",
-      "SourceLine": 9192,
-      "SourceOffset": 658215
+      "SourceLine": 9215,
+      "SourceOffset": 668984
     },
     {
       "Id": "lem:Cancellation_Properties_General",
       "LabelType": "lemma",
-      "SourceLine": 9208,
-      "SourceOffset": 658879
+      "SourceLine": 9231,
+      "SourceOffset": 669648
     },
     {
       "Id": "lem:FactorizationSystemOnSliceCategory",
       "LabelType": "lemma",
-      "SourceLine": 9225,
-      "SourceOffset": 659961
+      "SourceLine": 9248,
+      "SourceOffset": 670730
     },
     {
       "Id": "lem:Factorization_Provides_Adjoint",
       "LabelType": "lemma",
-      "SourceLine": 9234,
-      "SourceOffset": 660778
+      "SourceLine": 9257,
+      "SourceOffset": 671547
     },
     {
       "Id": "sec:Saturated_Classes",
       "LabelType": "section",
-      "SourceLine": 9259,
-      "SourceOffset": 662287
+      "SourceLine": 9282,
+      "SourceOffset": 673056
     },
     {
       "Id": "def:Saturated",
       "LabelType": "definition",
-      "SourceLine": 9264,
-      "SourceOffset": 662469
+      "SourceLine": 9287,
+      "SourceOffset": 673238
     },
     {
       "Id": "rmk:Factorization_System_Left_Class_Saturated",
       "LabelType": "remark",
-      "SourceLine": 9269,
-      "SourceOffset": 662799
+      "SourceLine": 9292,
+      "SourceOffset": 673568
     },
     {
       "Id": "def:Saturation",
       "LabelType": "definition",
-      "SourceLine": 9276,
-      "SourceOffset": 663176
+      "SourceLine": 9299,
+      "SourceOffset": 673945
     },
     {
       "Id": "prop:Saturated_Class_Gives_Factorization_System",
       "LabelType": "proposition",
-      "SourceLine": 9283,
-      "SourceOffset": 663687
+      "SourceLine": 9306,
+      "SourceOffset": 674456
     },
     {
       "Id": "sec:Strongly_Saturated_Classes",
       "LabelType": "section",
-      "SourceLine": 9288,
-      "SourceOffset": 663978
+      "SourceLine": 9324,
+      "SourceOffset": 676718
     },
     {
       "Id": "def:Strongly_Saturated",
       "LabelType": "definition",
-      "SourceLine": 9293,
-      "SourceOffset": 664155
+      "SourceLine": 9329,
+      "SourceOffset": 676895
     },
     {
       "Id": "def:Kernel",
       "LabelType": "definition",
-      "SourceLine": 9300,
-      "SourceOffset": 664696
+      "SourceLine": 9336,
+      "SourceOffset": 677436
     },
     {
       "Id": "prop:Class_Of_Inverted_Maps_Strongly_Saturated",
       "LabelType": "proposition",
-      "SourceLine": 9308,
-      "SourceOffset": 665123
+      "SourceLine": 9344,
+      "SourceOffset": 677863
     },
     {
       "Id": "prop:Strongly_Saturated_Is_Localization",
       "LabelType": "proposition",
-      "SourceLine": 9313,
-      "SourceOffset": 665455
+      "SourceLine": 9353,
+      "SourceOffset": 678879
+    },
+    {
+      "Id": "prop:Intersection_Of_Left_Exact_Localizations",
+      "LabelType": "proposition",
+      "SourceLine": 9374,
+      "SourceOffset": 680874
     },
     {
       "Id": "chap:Limits_And_Colimits_Of_Sections",
       "LabelType": "chapter",
-      "SourceLine": 9328,
-      "SourceOffset": 666334
+      "SourceLine": 9383,
+      "SourceOffset": 682700
     },
     {
       "Id": "prop:Pointwise_Limits_And_Colimits_In_Sections",
       "LabelType": "proposition",
-      "SourceLine": 9333,
-      "SourceOffset": 667068
+      "SourceLine": 9388,
+      "SourceOffset": 683434
     },
     {
       "Id": "app:Dense_Subcategories_Closed_Under_Finite_Limits",
       "LabelType": "chapter",
-      "SourceLine": 9376,
-      "SourceOffset": 670701
+      "SourceLine": 9431,
+      "SourceOffset": 687944
     },
     {
       "Id": "sec:Dense_Subcategories",
       "LabelType": "section",
-      "SourceLine": 9383,
-      "SourceOffset": 672036
+      "SourceLine": 9438,
+      "SourceOffset": 689279
     },
     {
       "Id": "def:Dense_Subcategory",
       "LabelType": "definition",
-      "SourceLine": 9386,
-      "SourceOffset": 672103
+      "SourceLine": 9441,
+      "SourceOffset": 689346
     },
     {
       "Id": "rem:Dense_Subcategory_Counit",
       "LabelType": "remark",
-      "SourceLine": 9395,
-      "SourceOffset": 672532
+      "SourceLine": 9450,
+      "SourceOffset": 689775
     },
     {
       "Id": "lem:Enlarging_Dense_Subcategories",
       "LabelType": "lemma",
-      "SourceLine": 9400,
-      "SourceOffset": 673041
+      "SourceLine": 9455,
+      "SourceOffset": 690284
     },
     {
       "Id": "sec:Finite_Limit_Closures",
       "LabelType": "section",
-      "SourceLine": 9428,
-      "SourceOffset": 675244
+      "SourceLine": 9483,
+      "SourceOffset": 692487
     },
     {
       "Id": "lem:Finite_Limit_Closure_Is_Small",
       "LabelType": "lemma",
-      "SourceLine": 9431,
-      "SourceOffset": 675308
+      "SourceLine": 9486,
+      "SourceOffset": 692551
     },
     {
       "Id": "sec:Dense_Subcategories_Of_Presentable_Categories",
       "LabelType": "section",
-      "SourceLine": 9440,
-      "SourceOffset": 676626
+      "SourceLine": 9495,
+      "SourceOffset": 694261
     },
     {
       "Id": "prop:Dense_Subcategory_Closed_Under_Finite_Limits",
       "LabelType": "proposition",
-      "SourceLine": 9443,
-      "SourceOffset": 676720
+      "SourceLine": 9498,
+      "SourceOffset": 694355
     },
     {
       "Id": "cor:Presentable_Left_Exact_Presentation",
       "LabelType": "corollary",
-      "SourceLine": 9454,
-      "SourceOffset": 678245
+      "SourceLine": 9509,
+      "SourceOffset": 696140
     },
     {
       "Id": "rem:Comparison_With_HTT_5_4_7_4",
       "LabelType": "remark",
-      "SourceLine": 9463,
-      "SourceOffset": 679151
+      "SourceLine": 9518,
+      "SourceOffset": 697046
+    },
+    {
+      "Id": "lem:Common_Compactness_Bound",
+      "LabelType": "lemma",
+      "SourceLine": 9525,
+      "SourceOffset": 697713
     }
   ],
   "FrontMatter": [
@@ -4187,7 +4211,7 @@
       "Number": "2",
       "Page": 4,
       "TocAnchor": "chapter.2",
-      "SourceOffset": 10575,
+      "SourceOffset": 10684,
       "SourceLine": 95,
       "Children": [
         {
@@ -4201,7 +4225,7 @@
           "Number": "2.1",
           "Page": 4,
           "TocAnchor": "section.2.1",
-          "SourceOffset": 12929,
+          "SourceOffset": 13038,
           "SourceLine": 110,
           "Children": [
             {
@@ -4215,7 +4239,7 @@
               "Number": "2.1.1",
               "Page": 8,
               "TocAnchor": "subsection.2.1.1",
-              "SourceOffset": 23343,
+              "SourceOffset": 23538,
               "SourceLine": 255,
               "Children": []
             },
@@ -4230,7 +4254,7 @@
               "Number": "2.1.2",
               "Page": 9,
               "TocAnchor": "subsection.2.1.2",
-              "SourceOffset": 27792,
+              "SourceOffset": 27987,
               "SourceLine": 328,
               "Children": []
             }
@@ -4247,7 +4271,7 @@
           "Number": "2.2",
           "Page": 10,
           "TocAnchor": "section.2.2",
-          "SourceOffset": 31265,
+          "SourceOffset": 31460,
           "SourceLine": 387,
           "Children": [
             {
@@ -4261,7 +4285,7 @@
               "Number": "2.2.1",
               "Page": 10,
               "TocAnchor": "subsection.2.2.1",
-              "SourceOffset": 32229,
+              "SourceOffset": 32424,
               "SourceLine": 399,
               "Children": []
             },
@@ -4276,7 +4300,7 @@
               "Number": "2.2.2",
               "Page": 12,
               "TocAnchor": "subsection.2.2.2",
-              "SourceOffset": 38509,
+              "SourceOffset": 38704,
               "SourceLine": 498,
               "Children": []
             },
@@ -4291,7 +4315,7 @@
               "Number": "2.2.3",
               "Page": 16,
               "TocAnchor": "subsection.2.2.3",
-              "SourceOffset": 52203,
+              "SourceOffset": 52398,
               "SourceLine": 693,
               "Children": []
             },
@@ -4306,7 +4330,7 @@
               "Number": "2.2.4",
               "Page": 17,
               "TocAnchor": "subsection.2.2.4",
-              "SourceOffset": 55323,
+              "SourceOffset": 55518,
               "SourceLine": 728,
               "Children": []
             }
@@ -4323,7 +4347,7 @@
           "Number": "2.3",
           "Page": 18,
           "TocAnchor": "section.2.3",
-          "SourceOffset": 58051,
+          "SourceOffset": 58246,
           "SourceLine": 779,
           "Children": [
             {
@@ -4337,7 +4361,7 @@
               "Number": "2.3.1",
               "Page": 18,
               "TocAnchor": "subsection.2.3.1",
-              "SourceOffset": 58527,
+              "SourceOffset": 58722,
               "SourceLine": 783,
               "Children": []
             },
@@ -4352,7 +4376,7 @@
               "Number": "2.3.2",
               "Page": 20,
               "TocAnchor": "subsection.2.3.2",
-              "SourceOffset": 66018,
+              "SourceOffset": 66213,
               "SourceLine": 895,
               "Children": []
             },
@@ -4367,7 +4391,7 @@
               "Number": "2.3.3",
               "Page": 22,
               "TocAnchor": "subsection.2.3.3",
-              "SourceOffset": 70761,
+              "SourceOffset": 70956,
               "SourceLine": 955,
               "Children": []
             }
@@ -4386,7 +4410,7 @@
       "Number": "3",
       "Page": 26,
       "TocAnchor": "chapter.3",
-      "SourceOffset": 80935,
+      "SourceOffset": 81130,
       "SourceLine": 1093,
       "Children": [
         {
@@ -4400,7 +4424,7 @@
           "Number": "3.1",
           "Page": 26,
           "TocAnchor": "section.3.1",
-          "SourceOffset": 83460,
+          "SourceOffset": 83655,
           "SourceLine": 1110,
           "Children": []
         },
@@ -4415,7 +4439,7 @@
           "Number": "3.2",
           "Page": 31,
           "TocAnchor": "section.3.2",
-          "SourceOffset": 100941,
+          "SourceOffset": 101136,
           "SourceLine": 1373,
           "Children": []
         },
@@ -4430,7 +4454,7 @@
           "Number": "3.3",
           "Page": 34,
           "TocAnchor": "section.3.3",
-          "SourceOffset": 109574,
+          "SourceOffset": 109869,
           "SourceLine": 1515,
           "Children": [
             {
@@ -4444,7 +4468,7 @@
               "Number": "3.3.1",
               "Page": 34,
               "TocAnchor": "subsection.3.3.1",
-              "SourceOffset": 110445,
+              "SourceOffset": 110740,
               "SourceLine": 1525,
               "Children": []
             },
@@ -4459,7 +4483,7 @@
               "Number": "3.3.2",
               "Page": 35,
               "TocAnchor": "subsection.3.3.2",
-              "SourceOffset": 112654,
+              "SourceOffset": 112949,
               "SourceLine": 1562,
               "Children": []
             },
@@ -4474,7 +4498,7 @@
               "Number": "3.3.3",
               "Page": 36,
               "TocAnchor": "subsection.3.3.3",
-              "SourceOffset": 116512,
+              "SourceOffset": 116807,
               "SourceLine": 1626,
               "Children": []
             }
@@ -4491,7 +4515,7 @@
           "Number": "3.4",
           "Page": 38,
           "TocAnchor": "section.3.4",
-          "SourceOffset": 125846,
+          "SourceOffset": 126141,
           "SourceLine": 1727,
           "Children": []
         },
@@ -4506,7 +4530,7 @@
           "Number": "3.5",
           "Page": 39,
           "TocAnchor": "section.3.5",
-          "SourceOffset": 131327,
+          "SourceOffset": 131558,
           "SourceLine": 1787,
           "Children": [
             {
@@ -4520,7 +4544,7 @@
               "Number": "3.5.1",
               "Page": 39,
               "TocAnchor": "subsection.3.5.1",
-              "SourceOffset": 131378,
+              "SourceOffset": 131609,
               "SourceLine": 1790,
               "Children": []
             },
@@ -4535,7 +4559,7 @@
               "Number": "3.5.2",
               "Page": 41,
               "TocAnchor": "subsection.3.5.2",
-              "SourceOffset": 136111,
+              "SourceOffset": 136342,
               "SourceLine": 1871,
               "Children": []
             }
@@ -4554,7 +4578,7 @@
       "Number": "4",
       "Page": 44,
       "TocAnchor": "chapter.4",
-      "SourceOffset": 144726,
+      "SourceOffset": 144957,
       "SourceLine": 1985,
       "Children": [
         {
@@ -4568,7 +4592,7 @@
           "Number": "4.1",
           "Page": 44,
           "TocAnchor": "section.4.1",
-          "SourceOffset": 147206,
+          "SourceOffset": 147437,
           "SourceLine": 2000,
           "Children": []
         },
@@ -4583,7 +4607,7 @@
           "Number": "4.2",
           "Page": 46,
           "TocAnchor": "section.4.2",
-          "SourceOffset": 152556,
+          "SourceOffset": 153236,
           "SourceLine": 2088,
           "Children": [
             {
@@ -4597,7 +4621,7 @@
               "Number": "4.2.1",
               "Page": 46,
               "TocAnchor": "subsection.4.2.1",
-              "SourceOffset": 153683,
+              "SourceOffset": 154363,
               "SourceLine": 2098,
               "Children": []
             },
@@ -4610,9 +4634,9 @@
               "Label": "subsec:Quotients_Of_Logoi",
               "LabelType": "subsection",
               "Number": "4.2.2",
-              "Page": 47,
+              "Page": 48,
               "TocAnchor": "subsection.4.2.2",
-              "SourceOffset": 156892,
+              "SourceOffset": 158365,
               "SourceLine": 2160,
               "Children": []
             },
@@ -4625,9 +4649,9 @@
               "Label": "subsec:Presentations_Of_Logoi",
               "LabelType": "subsection",
               "Number": "4.2.3",
-              "Page": 50,
+              "Page": 51,
               "TocAnchor": "subsection.4.2.3",
-              "SourceOffset": 167706,
+              "SourceOffset": 169104,
               "SourceLine": 2297,
               "Children": []
             }
@@ -4644,7 +4668,7 @@
           "Number": "4.3",
           "Page": 53,
           "TocAnchor": "section.4.3",
-          "SourceOffset": 174933,
+          "SourceOffset": 176331,
           "SourceLine": 2422,
           "Children": [
             {
@@ -4656,9 +4680,9 @@
               "Label": "subsec:Limits_Of_Logoi",
               "LabelType": "subsection",
               "Number": "4.3.1",
-              "Page": 53,
+              "Page": 54,
               "TocAnchor": "subsection.4.3.1",
-              "SourceOffset": 176630,
+              "SourceOffset": 178072,
               "SourceLine": 2446,
               "Children": []
             },
@@ -4673,7 +4697,7 @@
               "Number": "4.3.2",
               "Page": 54,
               "TocAnchor": "subsection.4.3.2",
-              "SourceOffset": 178051,
+              "SourceOffset": 179493,
               "SourceLine": 2464,
               "Children": []
             },
@@ -4688,7 +4712,7 @@
               "Number": "4.3.3",
               "Page": 55,
               "TocAnchor": "subsection.4.3.3",
-              "SourceOffset": 181403,
+              "SourceOffset": 182641,
               "SourceLine": 2511,
               "Children": []
             },
@@ -4701,10 +4725,10 @@
               "Label": "subsec:Products_Of_Topoi",
               "LabelType": "subsection",
               "Number": "4.3.4",
-              "Page": 55,
+              "Page": 56,
               "TocAnchor": "subsection.4.3.4",
-              "SourceOffset": 184455,
-              "SourceLine": 2535,
+              "SourceOffset": 186879,
+              "SourceLine": 2538,
               "Children": []
             }
           ]
@@ -4718,10 +4742,10 @@
           "Label": "sec:Etale_Morphisms",
           "LabelType": "section",
           "Number": "4.4",
-          "Page": 57,
+          "Page": 58,
           "TocAnchor": "section.4.4",
-          "SourceOffset": 189481,
-          "SourceLine": 2608,
+          "SourceOffset": 191923,
+          "SourceLine": 2611,
           "Children": []
         },
         {
@@ -4733,10 +4757,10 @@
           "Label": "sec:Colimits_In_Top_Etale",
           "LabelType": "section",
           "Number": "4.5",
-          "Page": 60,
+          "Page": 61,
           "TocAnchor": "section.4.5",
-          "SourceOffset": 199099,
-          "SourceLine": 2764,
+          "SourceOffset": 201541,
+          "SourceLine": 2767,
           "Children": [
             {
               "Kind": "subsection",
@@ -4747,10 +4771,10 @@
               "Label": "subsec:Univalent_Families",
               "LabelType": "subsection",
               "Number": "4.5.1",
-              "Page": 60,
+              "Page": 61,
               "TocAnchor": "subsection.4.5.1",
-              "SourceOffset": 201072,
-              "SourceLine": 2780,
+              "SourceOffset": 203514,
+              "SourceLine": 2783,
               "Children": []
             },
             {
@@ -4762,10 +4786,10 @@
               "Label": "subsec:Dependent_Products",
               "LabelType": "subsection",
               "Number": "4.5.2",
-              "Page": 63,
+              "Page": 64,
               "TocAnchor": "subsection.4.5.2",
-              "SourceOffset": 211309,
-              "SourceLine": 2930,
+              "SourceOffset": 213751,
+              "SourceLine": 2933,
               "Children": []
             },
             {
@@ -4777,10 +4801,10 @@
               "Label": "subsec:Characterization_Of_Etale_Morphisms",
               "LabelType": "subsection",
               "Number": "4.5.3",
-              "Page": 66,
+              "Page": 67,
               "TocAnchor": "subsection.4.5.3",
-              "SourceOffset": 218158,
-              "SourceLine": 3040,
+              "SourceOffset": 220600,
+              "SourceLine": 3043,
               "Children": []
             },
             {
@@ -4792,10 +4816,10 @@
               "Label": "subsec:Proof_Of_Colimits_Topoi_Etale",
               "LabelType": "subsection",
               "Number": "4.5.4",
-              "Page": 68,
+              "Page": 69,
               "TocAnchor": "subsection.4.5.4",
-              "SourceOffset": 225002,
-              "SourceLine": 3140,
+              "SourceOffset": 227444,
+              "SourceLine": 3143,
               "Children": []
             }
           ]
@@ -4811,10 +4835,10 @@
       "Label": "chap:Modalities_And_Congruences",
       "LabelType": "chapter",
       "Number": "5",
-      "Page": 71,
+      "Page": 72,
       "TocAnchor": "chapter.5",
-      "SourceOffset": 233764,
-      "SourceLine": 3256,
+      "SourceOffset": 236206,
+      "SourceLine": 3259,
       "Children": [
         {
           "Kind": "section",
@@ -4825,10 +4849,10 @@
           "Label": "sec:Epimorphisms",
           "LabelType": "section",
           "Number": "5.1",
-          "Page": 72,
+          "Page": 73,
           "TocAnchor": "section.5.1",
-          "SourceOffset": 240638,
-          "SourceLine": 3327,
+          "SourceOffset": 243080,
+          "SourceLine": 3330,
           "Children": [
             {
               "Kind": "subsection",
@@ -4839,10 +4863,10 @@
               "Label": "subsec:Cotruncated_Maps_And_Epimorphisms",
               "LabelType": "subsection",
               "Number": "5.1.1",
-              "Page": 72,
+              "Page": 73,
               "TocAnchor": "subsection.5.1.1",
-              "SourceOffset": 240944,
-              "SourceLine": 3332,
+              "SourceOffset": 243386,
+              "SourceLine": 3335,
               "Children": []
             },
             {
@@ -4854,10 +4878,10 @@
               "Label": "subsec:Acyclic_Maps_And_Plus_Construction",
               "LabelType": "subsection",
               "Number": "5.1.2",
-              "Page": 75,
+              "Page": 76,
               "TocAnchor": "subsection.5.1.2",
-              "SourceOffset": 249661,
-              "SourceLine": 3450,
+              "SourceOffset": 252103,
+              "SourceLine": 3453,
               "Children": []
             }
           ]
@@ -4871,10 +4895,10 @@
           "Label": "sec:Blakers_Massey",
           "LabelType": "section",
           "Number": "5.2",
-          "Page": 77,
+          "Page": 78,
           "TocAnchor": "section.5.2",
-          "SourceOffset": 256454,
-          "SourceLine": 3547,
+          "SourceOffset": 258896,
+          "SourceLine": 3550,
           "Children": [
             {
               "Kind": "subsection",
@@ -4885,10 +4909,10 @@
               "Label": "subsec:Modal_Descent",
               "LabelType": "subsection",
               "Number": "5.2.1",
-              "Page": 79,
+              "Page": 80,
               "TocAnchor": "subsection.5.2.1",
-              "SourceOffset": 261864,
-              "SourceLine": 3638,
+              "SourceOffset": 264306,
+              "SourceLine": 3641,
               "Children": []
             },
             {
@@ -4900,10 +4924,10 @@
               "Label": "subsec:Warn_Alternative_Proof",
               "LabelType": "subsection",
               "Number": "5.2.2",
-              "Page": 83,
+              "Page": 84,
               "TocAnchor": "subsection.5.2.2",
-              "SourceOffset": 278266,
-              "SourceLine": 3856,
+              "SourceOffset": 280708,
+              "SourceLine": 3859,
               "Children": []
             }
           ]
@@ -4917,10 +4941,10 @@
           "Label": "sec:Congruences_Modalities",
           "LabelType": "section",
           "Number": "5.3",
-          "Page": 87,
+          "Page": 88,
           "TocAnchor": "section.5.3",
-          "SourceOffset": 289795,
-          "SourceLine": 4068,
+          "SourceOffset": 292237,
+          "SourceLine": 4071,
           "Children": [
             {
               "Kind": "subsection",
@@ -4931,10 +4955,10 @@
               "Label": "subsec:Generated_Acyclic_Classes_And_Modalities",
               "LabelType": "subsection",
               "Number": "5.3.1",
-              "Page": 87,
+              "Page": 88,
               "TocAnchor": "subsection.5.3.1",
-              "SourceOffset": 292774,
-              "SourceLine": 4114,
+              "SourceOffset": 295216,
+              "SourceLine": 4117,
               "Children": []
             },
             {
@@ -4946,10 +4970,10 @@
               "Label": "subsec:Characterizations_Of_Congruences",
               "LabelType": "subsection",
               "Number": "5.3.2",
-              "Page": 88,
+              "Page": 89,
               "TocAnchor": "subsection.5.3.2",
-              "SourceOffset": 296294,
-              "SourceLine": 4145,
+              "SourceOffset": 298736,
+              "SourceLine": 4148,
               "Children": []
             },
             {
@@ -4961,10 +4985,10 @@
               "Label": "subsec:Decalage_And_Generated_Congruences",
               "LabelType": "subsection",
               "Number": "5.3.3",
-              "Page": 89,
+              "Page": 90,
               "TocAnchor": "subsection.5.3.3",
-              "SourceOffset": 300586,
-              "SourceLine": 4203,
+              "SourceOffset": 303405,
+              "SourceLine": 4206,
               "Children": []
             }
           ]
@@ -4978,10 +5002,10 @@
           "Label": "Open_Closed_Immersions",
           "LabelType": "section",
           "Number": "5.4",
-          "Page": 91,
+          "Page": 93,
           "TocAnchor": "section.5.4",
-          "SourceOffset": 308113,
-          "SourceLine": 4313,
+          "SourceOffset": 311867,
+          "SourceLine": 4316,
           "Children": []
         },
         {
@@ -4993,10 +5017,10 @@
           "Label": "sec:Structure_Theory",
           "LabelType": "section",
           "Number": "5.5",
-          "Page": 93,
+          "Page": 95,
           "TocAnchor": "section.5.5",
-          "SourceOffset": 315809,
-          "SourceLine": 4409,
+          "SourceOffset": 319563,
+          "SourceLine": 4412,
           "Children": [
             {
               "Kind": "subsection",
@@ -5007,10 +5031,10 @@
               "Label": "subsec:Monogenic_And_Epigenic_Modalities",
               "LabelType": "subsection",
               "Number": "5.5.1",
-              "Page": 94,
+              "Page": 95,
               "TocAnchor": "subsection.5.5.1",
-              "SourceOffset": 316779,
-              "SourceLine": 4420,
+              "SourceOffset": 320533,
+              "SourceLine": 4423,
               "Children": []
             },
             {
@@ -5022,10 +5046,10 @@
               "Label": "subsec:Quotient_Triple_Factorization",
               "LabelType": "subsection",
               "Number": "5.5.2",
-              "Page": 96,
+              "Page": 97,
               "TocAnchor": "subsection.5.5.2",
-              "SourceOffset": 326287,
-              "SourceLine": 4540,
+              "SourceOffset": 330041,
+              "SourceLine": 4543,
               "Children": []
             },
             {
@@ -5037,10 +5061,10 @@
               "Label": "subsec:Hypercomplete_Congruences",
               "LabelType": "subsection",
               "Number": "5.5.3",
-              "Page": 97,
+              "Page": 99,
               "TocAnchor": "subsection.5.5.3",
-              "SourceOffset": 331362,
-              "SourceLine": 4610,
+              "SourceOffset": 335458,
+              "SourceLine": 4613,
               "Children": []
             },
             {
@@ -5052,10 +5076,10 @@
               "Label": "subsec:Images",
               "LabelType": "subsection",
               "Number": "5.5.4",
-              "Page": 99,
+              "Page": 100,
               "TocAnchor": "subsection.5.5.4",
-              "SourceOffset": 334553,
-              "SourceLine": 4654,
+              "SourceOffset": 339560,
+              "SourceLine": 4666,
               "Children": []
             }
           ]
@@ -5069,10 +5093,10 @@
           "Label": "sec:Products_Of_Modalities",
           "LabelType": "section",
           "Number": "5.6",
-          "Page": 99,
+          "Page": 101,
           "TocAnchor": "section.5.6",
-          "SourceOffset": 337761,
-          "SourceLine": 4702,
+          "SourceOffset": 344530,
+          "SourceLine": 4714,
           "Children": [
             {
               "Kind": "subsection",
@@ -5083,10 +5107,10 @@
               "Label": "subsec:Acyclic_Product",
               "LabelType": "subsection",
               "Number": "5.6.1",
-              "Page": 100,
+              "Page": 101,
               "TocAnchor": "subsection.5.6.1",
-              "SourceOffset": 338236,
-              "SourceLine": 4707,
+              "SourceOffset": 345005,
+              "SourceLine": 4719,
               "Children": []
             },
             {
@@ -5098,10 +5122,10 @@
               "Label": "subsec:Acyclic_Product_Examples",
               "LabelType": "subsection",
               "Number": "5.6.2",
-              "Page": 101,
+              "Page": 103,
               "TocAnchor": "subsection.5.6.2",
-              "SourceOffset": 344075,
-              "SourceLine": 4789,
+              "SourceOffset": 352337,
+              "SourceLine": 4814,
               "Children": []
             },
             {
@@ -5113,10 +5137,10 @@
               "Label": "subsec:Products_Of_Congruences",
               "LabelType": "subsection",
               "Number": "5.6.3",
-              "Page": 102,
+              "Page": 104,
               "TocAnchor": "subsection.5.6.3",
-              "SourceOffset": 346937,
-              "SourceLine": 4849,
+              "SourceOffset": 355252,
+              "SourceLine": 4874,
               "Children": []
             }
           ]
@@ -5130,10 +5154,10 @@
           "Label": "sec:Goodwillie_Tower",
           "LabelType": "section",
           "Number": "5.7",
-          "Page": 103,
+          "Page": 106,
           "TocAnchor": "section.5.7",
-          "SourceOffset": 351396,
-          "SourceLine": 4917,
+          "SourceOffset": 360352,
+          "SourceLine": 4940,
           "Children": [
             {
               "Kind": "subsection",
@@ -5144,10 +5168,10 @@
               "Label": "subsec:Adic_Filtrations_And_Layers",
               "LabelType": "subsection",
               "Number": "5.7.1",
-              "Page": 104,
+              "Page": 106,
               "TocAnchor": "subsection.5.7.1",
-              "SourceOffset": 351983,
-              "SourceLine": 4922,
+              "SourceOffset": 360939,
+              "SourceLine": 4945,
               "Children": []
             },
             {
@@ -5159,10 +5183,10 @@
               "Label": "subsec:Excisive_Functors_Goodwillie_Comparison",
               "LabelType": "subsection",
               "Number": "5.7.2",
-              "Page": 105,
+              "Page": 107,
               "TocAnchor": "subsection.5.7.2",
-              "SourceOffset": 356090,
-              "SourceLine": 4989,
+              "SourceOffset": 365046,
+              "SourceLine": 5012,
               "Children": []
             },
             {
@@ -5174,10 +5198,10 @@
               "Label": "subsec:Goodwillie_Equivalences_Homogeneous_Layers",
               "LabelType": "subsection",
               "Number": "5.7.3",
-              "Page": 108,
+              "Page": 110,
               "TocAnchor": "subsection.5.7.3",
-              "SourceOffset": 366710,
-              "SourceLine": 5128,
+              "SourceOffset": 375672,
+              "SourceLine": 5151,
               "Children": []
             }
           ]
@@ -5193,10 +5217,10 @@
       "Label": "chap:Topics_Topos_Theory",
       "LabelType": "chapter",
       "Number": "6",
-      "Page": 111,
+      "Page": 113,
       "TocAnchor": "chapter.6",
-      "SourceOffset": 372491,
-      "SourceLine": 5241,
+      "SourceOffset": 381453,
+      "SourceLine": 5264,
       "Children": [
         {
           "Kind": "section",
@@ -5207,10 +5231,10 @@
           "Label": "sec:Sheaf_topoi",
           "LabelType": "section",
           "Number": "6.1",
-          "Page": 112,
+          "Page": 114,
           "TocAnchor": "section.6.1",
-          "SourceOffset": 375684,
-          "SourceLine": 5254,
+          "SourceOffset": 384646,
+          "SourceLine": 5277,
           "Children": [
             {
               "Kind": "subsection",
@@ -5221,10 +5245,10 @@
               "Label": "subsec:Grothendieck_Sites",
               "LabelType": "subsection",
               "Number": "6.1.1",
-              "Page": 112,
+              "Page": 114,
               "TocAnchor": "subsection.6.1.1",
-              "SourceOffset": 378871,
-              "SourceLine": 5282,
+              "SourceOffset": 387833,
+              "SourceLine": 5305,
               "Children": []
             },
             {
@@ -5236,10 +5260,10 @@
               "Label": "subsec:Sheaves_And_Cech_Descent",
               "LabelType": "subsection",
               "Number": "6.1.2",
-              "Page": 116,
+              "Page": 118,
               "TocAnchor": "subsection.6.1.2",
-              "SourceOffset": 393711,
-              "SourceLine": 5421,
+              "SourceOffset": 402673,
+              "SourceLine": 5444,
               "Children": []
             },
             {
@@ -5251,10 +5275,10 @@
               "Label": "subsec:Effective_Epimorphisms_In_Sheaf_Topoi",
               "LabelType": "subsection",
               "Number": "6.1.3",
-              "Page": 118,
+              "Page": 120,
               "TocAnchor": "subsection.6.1.3",
-              "SourceOffset": 398211,
-              "SourceLine": 5507,
+              "SourceOffset": 407173,
+              "SourceLine": 5530,
               "Children": []
             },
             {
@@ -5266,10 +5290,10 @@
               "Label": "subsec:Morphisms_Of_Sites",
               "LabelType": "subsection",
               "Number": "6.1.4",
-              "Page": 119,
+              "Page": 121,
               "TocAnchor": "subsection.6.1.4",
-              "SourceOffset": 401881,
-              "SourceLine": 5552,
+              "SourceOffset": 410843,
+              "SourceLine": 5575,
               "Children": []
             }
           ]
@@ -5283,10 +5307,10 @@
           "Label": "sec:Groupoid_Actions_Principal_Bundles",
           "LabelType": "section",
           "Number": "6.2",
-          "Page": 121,
+          "Page": 123,
           "TocAnchor": "section.6.2",
-          "SourceOffset": 411137,
-          "SourceLine": 5679,
+          "SourceOffset": 420099,
+          "SourceLine": 5702,
           "Children": [
             {
               "Kind": "subsection",
@@ -5297,10 +5321,10 @@
               "Label": "subsec:Actions_By_Groupoid_Objects",
               "LabelType": "subsection",
               "Number": "6.2.1",
-              "Page": 121,
+              "Page": 123,
               "TocAnchor": "subsection.6.2.1",
-              "SourceOffset": 411861,
-              "SourceLine": 5686,
+              "SourceOffset": 420823,
+              "SourceLine": 5709,
               "Children": []
             },
             {
@@ -5312,10 +5336,10 @@
               "Label": "subsec:Free_And_Transitive_Actions",
               "LabelType": "subsection",
               "Number": "6.2.2",
-              "Page": 123,
+              "Page": 125,
               "TocAnchor": "subsection.6.2.2",
-              "SourceOffset": 416390,
-              "SourceLine": 5768,
+              "SourceOffset": 425352,
+              "SourceLine": 5791,
               "Children": []
             },
             {
@@ -5327,10 +5351,10 @@
               "Label": "subsec:Principal_Bundles",
               "LabelType": "subsection",
               "Number": "6.2.3",
-              "Page": 124,
+              "Page": 126,
               "TocAnchor": "subsection.6.2.3",
-              "SourceOffset": 420723,
-              "SourceLine": 5835,
+              "SourceOffset": 429685,
+              "SourceLine": 5858,
               "Children": []
             }
           ]
@@ -5344,10 +5368,10 @@
           "Label": "sec:Hypercovers",
           "LabelType": "section",
           "Number": "6.3",
-          "Page": 126,
+          "Page": 128,
           "TocAnchor": "section.6.3",
-          "SourceOffset": 426628,
-          "SourceLine": 5931,
+          "SourceOffset": 435590,
+          "SourceLine": 5954,
           "Children": [
             {
               "Kind": "subsection",
@@ -5358,10 +5382,10 @@
               "Label": "subsec:Hypercovers_Matching_Objects",
               "LabelType": "subsection",
               "Number": "6.3.1",
-              "Page": 126,
+              "Page": 128,
               "TocAnchor": "subsection.6.3.1",
-              "SourceOffset": 428477,
-              "SourceLine": 5951,
+              "SourceOffset": 437439,
+              "SourceLine": 5974,
               "Children": []
             },
             {
@@ -5373,10 +5397,10 @@
               "Label": "subsec:Hypercover_Effectiveness_Hypercompleteness",
               "LabelType": "subsection",
               "Number": "6.3.2",
-              "Page": 128,
+              "Page": 130,
               "TocAnchor": "subsection.6.3.2",
-              "SourceOffset": 434843,
-              "SourceLine": 6035,
+              "SourceOffset": 443841,
+              "SourceLine": 6058,
               "Children": []
             }
           ]
@@ -5390,10 +5414,10 @@
           "Label": "sec:Postnikov_Completeness_And_Boundedness",
           "LabelType": "section",
           "Number": "6.4",
-          "Page": 129,
+          "Page": 132,
           "TocAnchor": "section.6.4",
-          "SourceOffset": 440337,
-          "SourceLine": 6087,
+          "SourceOffset": 451109,
+          "SourceLine": 6110,
           "Children": [
             {
               "Kind": "subsection",
@@ -5404,10 +5428,10 @@
               "Label": "subsec:Localic_Topoi",
               "LabelType": "subsection",
               "Number": "6.4.1",
-              "Page": 130,
+              "Page": 132,
               "TocAnchor": "subsection.6.4.1",
-              "SourceOffset": 442019,
-              "SourceLine": 6108,
+              "SourceOffset": 452791,
+              "SourceLine": 6131,
               "Children": []
             },
             {
@@ -5419,10 +5443,10 @@
               "Label": "subsec:Postnikov_Completeness",
               "LabelType": "subsection",
               "Number": "6.4.2",
-              "Page": 133,
+              "Page": 135,
               "TocAnchor": "subsection.6.4.2",
-              "SourceOffset": 451362,
-              "SourceLine": 6245,
+              "SourceOffset": 462134,
+              "SourceLine": 6268,
               "Children": []
             },
             {
@@ -5434,10 +5458,10 @@
               "Label": "subsec:Bounded_Topoi",
               "LabelType": "subsection",
               "Number": "6.4.3",
-              "Page": 134,
+              "Page": 137,
               "TocAnchor": "subsection.6.4.3",
-              "SourceOffset": 456399,
-              "SourceLine": 6315,
+              "SourceOffset": 467171,
+              "SourceLine": 6338,
               "Children": []
             }
           ]
@@ -5451,10 +5475,10 @@
           "Label": "sec:Dimension_Theory",
           "LabelType": "section",
           "Number": "6.5",
-          "Page": 135,
+          "Page": 138,
           "TocAnchor": "section.6.5",
-          "SourceOffset": 460186,
-          "SourceLine": 6377,
+          "SourceOffset": 470958,
+          "SourceLine": 6400,
           "Children": [
             {
               "Kind": "subsection",
@@ -5465,10 +5489,10 @@
               "Label": "subsec:Homotopy_Dimension_And_Examples",
               "LabelType": "subsection",
               "Number": "6.5.1",
-              "Page": 136,
+              "Page": 138,
               "TocAnchor": "subsection.6.5.1",
-              "SourceOffset": 460791,
-              "SourceLine": 6382,
+              "SourceOffset": 471563,
+              "SourceLine": 6405,
               "Children": []
             },
             {
@@ -5480,10 +5504,10 @@
               "Label": "subsec:Dimension_And_Postnikov_Convergence",
               "LabelType": "subsection",
               "Number": "6.5.2",
-              "Page": 137,
+              "Page": 140,
               "TocAnchor": "subsection.6.5.2",
-              "SourceOffset": 466661,
-              "SourceLine": 6464,
+              "SourceOffset": 477433,
+              "SourceLine": 6487,
               "Children": []
             }
           ]
@@ -5497,10 +5521,10 @@
           "Label": "sec:Essential_Morphisms_Shape",
           "LabelType": "section",
           "Number": "6.6",
-          "Page": 138,
+          "Page": 140,
           "TocAnchor": "section.6.6",
-          "SourceOffset": 469432,
-          "SourceLine": 6495,
+          "SourceOffset": 480204,
+          "SourceLine": 6518,
           "Children": [
             {
               "Kind": "subsection",
@@ -5511,10 +5535,10 @@
               "Label": "subsec:Essential_Morphisms",
               "LabelType": "subsection",
               "Number": "6.6.1",
-              "Page": 138,
+              "Page": 141,
               "TocAnchor": "subsection.6.6.1",
-              "SourceOffset": 470085,
-              "SourceLine": 6500,
+              "SourceOffset": 480857,
+              "SourceLine": 6523,
               "Children": []
             },
             {
@@ -5526,10 +5550,10 @@
               "Label": "subsec:Pro_Left_Adjoints_And_Relative_Shape",
               "LabelType": "subsection",
               "Number": "6.6.2",
-              "Page": 138,
+              "Page": 141,
               "TocAnchor": "subsection.6.6.2",
-              "SourceOffset": 471640,
-              "SourceLine": 6526,
+              "SourceOffset": 482412,
+              "SourceLine": 6549,
               "Children": []
             },
             {
@@ -5541,10 +5565,10 @@
               "Label": "subsec:Local_Constancy_And_Essentialness",
               "LabelType": "subsection",
               "Number": "6.6.3",
-              "Page": 140,
+              "Page": 142,
               "TocAnchor": "subsection.6.6.3",
-              "SourceOffset": 476315,
-              "SourceLine": 6609,
+              "SourceOffset": 487087,
+              "SourceLine": 6632,
               "Children": []
             }
           ]
@@ -5558,10 +5582,10 @@
           "Label": "sec:Coherence",
           "LabelType": "section",
           "Number": "6.7",
-          "Page": 141,
+          "Page": 144,
           "TocAnchor": "section.6.7",
-          "SourceOffset": 480578,
-          "SourceLine": 6675,
+          "SourceOffset": 491350,
+          "SourceLine": 6698,
           "Children": [
             {
               "Kind": "subsection",
@@ -5572,10 +5596,10 @@
               "Label": "subsec:Coherence_Overview",
               "LabelType": "subsection",
               "Number": "6.7.1",
-              "Page": 141,
+              "Page": 144,
               "TocAnchor": "subsection.6.7.1",
-              "SourceOffset": 480986,
-              "SourceLine": 6680,
+              "SourceOffset": 491758,
+              "SourceLine": 6703,
               "Children": []
             },
             {
@@ -5587,10 +5611,10 @@
               "Label": "subsec:Coherent_Objects",
               "LabelType": "subsection",
               "Number": "6.7.2",
-              "Page": 143,
+              "Page": 145,
               "TocAnchor": "subsection.6.7.2",
-              "SourceOffset": 485269,
-              "SourceLine": 6729,
+              "SourceOffset": 496041,
+              "SourceLine": 6752,
               "Children": []
             },
             {
@@ -5602,10 +5626,10 @@
               "Label": "subsec:Finitary_Sites",
               "LabelType": "subsection",
               "Number": "6.7.3",
-              "Page": 146,
+              "Page": 149,
               "TocAnchor": "subsection.6.7.3",
-              "SourceOffset": 499466,
-              "SourceLine": 6889,
+              "SourceOffset": 510238,
+              "SourceLine": 6912,
               "Children": []
             },
             {
@@ -5617,10 +5641,10 @@
               "Label": "subsec:Compactness_Theorem",
               "LabelType": "subsection",
               "Number": "6.7.4",
-              "Page": 147,
+              "Page": 149,
               "TocAnchor": "subsection.6.7.4",
-              "SourceOffset": 502647,
-              "SourceLine": 6922,
+              "SourceOffset": 513446,
+              "SourceLine": 6945,
               "Children": []
             },
             {
@@ -5632,10 +5656,10 @@
               "Label": "subsec:Completeness_Theorem",
               "LabelType": "subsection",
               "Number": "6.7.5",
-              "Page": 148,
+              "Page": 151,
               "TocAnchor": "subsection.6.7.5",
-              "SourceOffset": 507371,
-              "SourceLine": 6991,
+              "SourceOffset": 518170,
+              "SourceLine": 7014,
               "Children": [
                 {
                   "Kind": "subsubsection",
@@ -5646,10 +5670,10 @@
                   "Label": "subsec:Boolean_Algebras",
                   "LabelType": "subsubsection",
                   "Number": null,
-                  "Page": 150,
+                  "Page": 152,
                   "TocAnchor": "subsubsection*.2",
-                  "SourceOffset": 511350,
-                  "SourceLine": 7037,
+                  "SourceOffset": 522149,
+                  "SourceLine": 7060,
                   "Children": []
                 },
                 {
@@ -5661,10 +5685,10 @@
                   "Label": "subsec:Diaconescu_Cover",
                   "LabelType": "subsubsection",
                   "Number": null,
-                  "Page": 151,
+                  "Page": 153,
                   "TocAnchor": "subsubsection*.3",
-                  "SourceOffset": 515275,
-                  "SourceLine": 7091,
+                  "SourceOffset": 526074,
+                  "SourceLine": 7114,
                   "Children": []
                 },
                 {
@@ -5676,10 +5700,10 @@
                   "Label": "subsec:Factorization_Through_Spectrum",
                   "LabelType": "subsubsection",
                   "Number": null,
-                  "Page": 152,
+                  "Page": 155,
                   "TocAnchor": "subsubsection*.4",
-                  "SourceOffset": 521509,
-                  "SourceLine": 7151,
+                  "SourceOffset": 532308,
+                  "SourceLine": 7174,
                   "Children": []
                 },
                 {
@@ -5691,10 +5715,10 @@
                   "Label": "subsec:Proof_Of_Completeness_Theorem",
                   "LabelType": "subsubsection",
                   "Number": null,
-                  "Page": 153,
+                  "Page": 156,
                   "TocAnchor": "subsubsection*.5",
-                  "SourceOffset": 524026,
-                  "SourceLine": 7191,
+                  "SourceOffset": 534825,
+                  "SourceLine": 7214,
                   "Children": []
                 }
               ]
@@ -5710,10 +5734,10 @@
           "Label": "sec:Pretopoi",
           "LabelType": "section",
           "Number": "6.8",
-          "Page": 154,
+          "Page": 157,
           "TocAnchor": "section.6.8",
-          "SourceOffset": 526764,
-          "SourceLine": 7219,
+          "SourceOffset": 537563,
+          "SourceLine": 7242,
           "Children": []
         },
         {
@@ -5725,10 +5749,10 @@
           "Label": "sec:Makkai_Completeness",
           "LabelType": "section",
           "Number": "6.9",
-          "Page": 156,
+          "Page": 158,
           "TocAnchor": "section.6.9",
-          "SourceOffset": 532094,
-          "SourceLine": 7311,
+          "SourceOffset": 542893,
+          "SourceLine": 7334,
           "Children": []
         },
         {
@@ -5740,10 +5764,10 @@
           "Label": "sec:Compactly_Assembled",
           "LabelType": "section",
           "Number": "6.10",
-          "Page": 157,
+          "Page": 159,
           "TocAnchor": "section.6.10",
-          "SourceOffset": 535193,
-          "SourceLine": 7363,
+          "SourceOffset": 545992,
+          "SourceLine": 7386,
           "Children": [
             {
               "Kind": "subsection",
@@ -5754,10 +5778,10 @@
               "Label": "subsec:Finitary_Functor_Topoi",
               "LabelType": "subsection",
               "Number": "6.10.1",
-              "Page": 157,
+              "Page": 159,
               "TocAnchor": "subsection.6.10.1",
-              "SourceOffset": 535831,
-              "SourceLine": 7368,
+              "SourceOffset": 546630,
+              "SourceLine": 7391,
               "Children": []
             },
             {
@@ -5769,10 +5793,10 @@
               "Label": "subsec:Compactly_Assembled_Categories",
               "LabelType": "subsection",
               "Number": "6.10.2",
-              "Page": 158,
+              "Page": 160,
               "TocAnchor": "subsection.6.10.2",
-              "SourceOffset": 539308,
-              "SourceLine": 7415,
+              "SourceOffset": 550107,
+              "SourceLine": 7438,
               "Children": []
             },
             {
@@ -5784,10 +5808,10 @@
               "Label": "subsec:Classifying_Topoi_Compactly_Assembled",
               "LabelType": "subsection",
               "Number": "6.10.3",
-              "Page": 159,
+              "Page": 162,
               "TocAnchor": "subsection.6.10.3",
-              "SourceOffset": 543105,
-              "SourceLine": 7467,
+              "SourceOffset": 553904,
+              "SourceLine": 7490,
               "Children": []
             },
             {
@@ -5799,10 +5823,10 @@
               "Label": "subsec:Exponentiable_Topoi",
               "LabelType": "subsection",
               "Number": "6.10.4",
-              "Page": 161,
+              "Page": 163,
               "TocAnchor": "subsection.6.10.4",
-              "SourceOffset": 548939,
-              "SourceLine": 7549,
+              "SourceOffset": 559738,
+              "SourceLine": 7572,
               "Children": []
             }
           ]
@@ -5816,10 +5840,10 @@
           "Label": "sec:Categories_Of_Infty_Connected_Objects",
           "LabelType": "section",
           "Number": "6.11",
-          "Page": 162,
+          "Page": 165,
           "TocAnchor": "section.6.11",
-          "SourceOffset": 554191,
-          "SourceLine": 7631,
+          "SourceOffset": 564990,
+          "SourceLine": 7654,
           "Children": [
             {
               "Kind": "subsection",
@@ -5830,10 +5854,10 @@
               "Label": "subsec:An_Parametrized_Objects",
               "LabelType": "subsection",
               "Number": "6.11.1",
-              "Page": 162,
+              "Page": 165,
               "TocAnchor": "subsection.6.11.1",
-              "SourceOffset": 555102,
-              "SourceLine": 7636,
+              "SourceOffset": 565901,
+              "SourceLine": 7659,
               "Children": []
             },
             {
@@ -5845,10 +5869,10 @@
               "Label": "subsec:Weakly_Contractible_Free_Cocompletion",
               "LabelType": "subsection",
               "Number": "6.11.2",
-              "Page": 165,
+              "Page": 167,
               "TocAnchor": "subsection.6.11.2",
-              "SourceOffset": 563062,
-              "SourceLine": 7738,
+              "SourceOffset": 573861,
+              "SourceLine": 7761,
               "Children": []
             },
             {
@@ -5860,10 +5884,10 @@
               "Label": "subsec:Objects_Parametrized_By_Topoi",
               "LabelType": "subsection",
               "Number": "6.11.3",
-              "Page": 167,
+              "Page": 170,
               "TocAnchor": "subsection.6.11.3",
-              "SourceOffset": 572689,
-              "SourceLine": 7822,
+              "SourceOffset": 583488,
+              "SourceLine": 7845,
               "Children": []
             },
             {
@@ -5875,10 +5899,10 @@
               "Label": "subsec:Loci",
               "LabelType": "subsection",
               "Number": "6.11.4",
-              "Page": 168,
+              "Page": 171,
               "TocAnchor": "subsection.6.11.4",
-              "SourceOffset": 576878,
-              "SourceLine": 7876,
+              "SourceOffset": 587677,
+              "SourceLine": 7899,
               "Children": []
             },
             {
@@ -5890,10 +5914,10 @@
               "Label": "subsec:Generalized_Parametrized_Objects",
               "LabelType": "subsection",
               "Number": "6.11.5",
-              "Page": 172,
+              "Page": 175,
               "TocAnchor": "subsection.6.11.5",
-              "SourceOffset": 588882,
-              "SourceLine": 8046,
+              "SourceOffset": 599681,
+              "SourceLine": 8069,
               "Children": []
             }
           ]
@@ -5909,10 +5933,10 @@
       "Label": "chap:Geometry",
       "LabelType": "chapter",
       "Number": "7",
-      "Page": 175,
+      "Page": 178,
       "TocAnchor": "chapter.7",
-      "SourceOffset": 597827,
-      "SourceLine": 8171,
+      "SourceOffset": 608626,
+      "SourceLine": 8194,
       "Children": [
         {
           "Kind": "section",
@@ -5923,10 +5947,10 @@
           "Label": "sec:Schemes",
           "LabelType": "section",
           "Number": "7.1",
-          "Page": 176,
+          "Page": 179,
           "TocAnchor": "section.7.1",
-          "SourceOffset": 601037,
-          "SourceLine": 8186,
+          "SourceOffset": 611836,
+          "SourceLine": 8209,
           "Children": []
         },
         {
@@ -5938,10 +5962,10 @@
           "Label": "sec:Geometries",
           "LabelType": "section",
           "Number": "7.2",
-          "Page": 178,
+          "Page": 181,
           "TocAnchor": "section.7.2",
-          "SourceOffset": 608107,
-          "SourceLine": 8307,
+          "SourceOffset": 618906,
+          "SourceLine": 8330,
           "Children": [
             {
               "Kind": "subsection",
@@ -5952,10 +5976,10 @@
               "Label": "subsec:Zariski_Geometries",
               "LabelType": "subsection",
               "Number": "7.2.1",
-              "Page": 179,
+              "Page": 182,
               "TocAnchor": "subsection.7.2.1",
-              "SourceOffset": 609932,
-              "SourceLine": 8339,
+              "SourceOffset": 620731,
+              "SourceLine": 8362,
               "Children": []
             },
             {
@@ -5967,10 +5991,10 @@
               "Label": "subsec:Other_Geometries",
               "LabelType": "subsection",
               "Number": "7.2.2",
-              "Page": 180,
+              "Page": 183,
               "TocAnchor": "subsection.7.2.2",
-              "SourceOffset": 613312,
-              "SourceLine": 8410,
+              "SourceOffset": 624111,
+              "SourceLine": 8433,
               "Children": []
             },
             {
@@ -5982,10 +6006,10 @@
               "Label": "subsec:Structured_Topoi",
               "LabelType": "subsection",
               "Number": "7.2.3",
-              "Page": 180,
+              "Page": 183,
               "TocAnchor": "subsection.7.2.3",
-              "SourceOffset": 614231,
-              "SourceLine": 8422,
+              "SourceOffset": 625030,
+              "SourceLine": 8445,
               "Children": []
             },
             {
@@ -5997,10 +6021,10 @@
               "Label": "subsec:Local_Morphisms_Of_Structures",
               "LabelType": "subsection",
               "Number": "7.2.4",
-              "Page": 181,
+              "Page": 184,
               "TocAnchor": "subsection.7.2.4",
-              "SourceOffset": 617639,
-              "SourceLine": 8475,
+              "SourceOffset": 628438,
+              "SourceLine": 8498,
               "Children": []
             }
           ]
@@ -6014,10 +6038,10 @@
           "Label": "sec:Fractured_Topoi",
           "LabelType": "section",
           "Number": "7.3",
-          "Page": 182,
+          "Page": 185,
           "TocAnchor": "section.7.3",
-          "SourceOffset": 618960,
-          "SourceLine": 8500,
+          "SourceOffset": 629759,
+          "SourceLine": 8523,
           "Children": [
             {
               "Kind": "subsection",
@@ -6028,10 +6052,10 @@
               "Label": "subsec:Fractures_From_Geometries",
               "LabelType": "subsection",
               "Number": "7.3.1",
-              "Page": 183,
+              "Page": 186,
               "TocAnchor": "subsection.7.3.1",
-              "SourceOffset": 621347,
-              "SourceLine": 8545,
+              "SourceOffset": 632146,
+              "SourceLine": 8568,
               "Children": []
             },
             {
@@ -6043,10 +6067,10 @@
               "Label": "subsec:Local_Maps",
               "LabelType": "subsection",
               "Number": "7.3.2",
-              "Page": 184,
+              "Page": 187,
               "TocAnchor": "subsection.7.3.2",
-              "SourceOffset": 625023,
-              "SourceLine": 8616,
+              "SourceOffset": 635822,
+              "SourceLine": 8639,
               "Children": []
             },
             {
@@ -6058,10 +6082,10 @@
               "Label": "subsec:Schemes",
               "LabelType": "subsection",
               "Number": "7.3.3",
-              "Page": 185,
+              "Page": 188,
               "TocAnchor": "subsection.7.3.3",
-              "SourceOffset": 627766,
-              "SourceLine": 8661,
+              "SourceOffset": 638565,
+              "SourceLine": 8684,
               "Children": []
             }
           ]
@@ -6075,10 +6099,10 @@
           "Label": "sec:Six_Functor_Formalisms",
           "LabelType": "section",
           "Number": "7.4",
-          "Page": 186,
+          "Page": 189,
           "TocAnchor": "section.7.4",
-          "SourceOffset": 629534,
-          "SourceLine": 8697,
+          "SourceOffset": 640333,
+          "SourceLine": 8720,
           "Children": [
             {
               "Kind": "subsection",
@@ -6089,10 +6113,10 @@
               "Label": "subsec:D_Topology",
               "LabelType": "subsection",
               "Number": "7.4.1",
-              "Page": 186,
+              "Page": 189,
               "TocAnchor": "subsection.7.4.1",
-              "SourceOffset": 630021,
-              "SourceLine": 8702,
+              "SourceOffset": 640820,
+              "SourceLine": 8725,
               "Children": []
             },
             {
@@ -6104,10 +6128,10 @@
               "Label": "subsec:Six_Functor_Passage_To_Sheaves",
               "LabelType": "subsection",
               "Number": "7.4.2",
-              "Page": 186,
+              "Page": 189,
               "TocAnchor": "subsection.7.4.2",
-              "SourceOffset": 631746,
-              "SourceLine": 8736,
+              "SourceOffset": 642545,
+              "SourceLine": 8759,
               "Children": []
             },
             {
@@ -6119,10 +6143,10 @@
               "Label": "subsec:Further_Congruence_Localization",
               "LabelType": "subsection",
               "Number": "7.4.3",
-              "Page": 187,
+              "Page": 190,
               "TocAnchor": "subsection.7.4.3",
-              "SourceOffset": 633832,
-              "SourceLine": 8762,
+              "SourceOffset": 644631,
+              "SourceLine": 8785,
               "Children": []
             }
           ]
@@ -6136,10 +6160,10 @@
           "Label": "sec:Analytic_Stacks",
           "LabelType": "section",
           "Number": "7.5",
-          "Page": 188,
+          "Page": 191,
           "TocAnchor": "section.7.5",
-          "SourceOffset": 636896,
-          "SourceLine": 8814,
+          "SourceOffset": 647695,
+          "SourceLine": 8837,
           "Children": []
         },
         {
@@ -6151,10 +6175,10 @@
           "Label": "sec:Gestalten",
           "LabelType": "section",
           "Number": "7.6",
-          "Page": 190,
+          "Page": 193,
           "TocAnchor": "section.7.6",
-          "SourceOffset": 643279,
-          "SourceLine": 8918,
+          "SourceOffset": 654078,
+          "SourceLine": 8941,
           "Children": [
             {
               "Kind": "subsection",
@@ -6165,10 +6189,10 @@
               "Label": "subsec:Gestalten_Six_Functor",
               "LabelType": "subsection",
               "Number": "7.6.1",
-              "Page": 191,
+              "Page": 194,
               "TocAnchor": "subsection.7.6.1",
-              "SourceOffset": 647549,
-              "SourceLine": 9008,
+              "SourceOffset": 658348,
+              "SourceLine": 9031,
               "Children": []
             }
           ]
@@ -6184,10 +6208,10 @@
       "Label": "app:Factorization_Systems",
       "LabelType": "chapter",
       "Number": "A",
-      "Page": 194,
+      "Page": 197,
       "TocAnchor": "appendix.A",
-      "SourceOffset": 653036,
-      "SourceLine": 9121,
+      "SourceOffset": 663835,
+      "SourceLine": 9144,
       "Children": [
         {
           "Kind": "section",
@@ -6198,10 +6222,10 @@
           "Label": "sec:App_Factorization_Systems",
           "LabelType": "section",
           "Number": "A.1",
-          "Page": 194,
+          "Page": 197,
           "TocAnchor": "appendix.A.1",
-          "SourceOffset": 654065,
-          "SourceLine": 9128,
+          "SourceOffset": 664864,
+          "SourceLine": 9151,
           "Children": []
         },
         {
@@ -6213,10 +6237,10 @@
           "Label": "sec:Saturated_Classes",
           "LabelType": "section",
           "Number": "A.2",
-          "Page": 197,
+          "Page": 200,
           "TocAnchor": "appendix.A.2",
-          "SourceOffset": 662256,
-          "SourceLine": 9258,
+          "SourceOffset": 673025,
+          "SourceLine": 9281,
           "Children": []
         },
         {
@@ -6228,10 +6252,10 @@
           "Label": "sec:Strongly_Saturated_Classes",
           "LabelType": "section",
           "Number": "A.3",
-          "Page": 197,
+          "Page": 201,
           "TocAnchor": "appendix.A.3",
-          "SourceOffset": 663938,
-          "SourceLine": 9287,
+          "SourceOffset": 676678,
+          "SourceLine": 9323,
           "Children": []
         }
       ]
@@ -6245,10 +6269,10 @@
       "Label": "chap:Limits_And_Colimits_Of_Sections",
       "LabelType": "chapter",
       "Number": "B",
-      "Page": 199,
+      "Page": 203,
       "TocAnchor": "appendix.B",
-      "SourceOffset": 666275,
-      "SourceLine": 9327,
+      "SourceOffset": 682641,
+      "SourceLine": 9382,
       "Children": []
     },
     {
@@ -6260,10 +6284,10 @@
       "Label": "app:Dense_Subcategories_Closed_Under_Finite_Limits",
       "LabelType": "chapter",
       "Number": "C",
-      "Page": 201,
+      "Page": 205,
       "TocAnchor": "appendix.C",
-      "SourceOffset": 670641,
-      "SourceLine": 9375,
+      "SourceOffset": 687884,
+      "SourceLine": 9430,
       "Children": [
         {
           "Kind": "section",
@@ -6274,10 +6298,10 @@
           "Label": "sec:Dense_Subcategories",
           "LabelType": "section",
           "Number": "C.1",
-          "Page": 201,
+          "Page": 205,
           "TocAnchor": "appendix.C.1",
-          "SourceOffset": 672003,
-          "SourceLine": 9382,
+          "SourceOffset": 689246,
+          "SourceLine": 9437,
           "Children": []
         },
         {
@@ -6289,10 +6313,10 @@
           "Label": "sec:Finite_Limit_Closures",
           "LabelType": "section",
           "Number": "C.2",
-          "Page": 202,
+          "Page": 206,
           "TocAnchor": "appendix.C.2",
-          "SourceOffset": 675209,
-          "SourceLine": 9427,
+          "SourceOffset": 692452,
+          "SourceLine": 9482,
           "Children": []
         },
         {
@@ -6304,10 +6328,10 @@
           "Label": "sec:Dense_Subcategories_Of_Presentable_Categories",
           "LabelType": "section",
           "Number": "C.3",
-          "Page": 202,
+          "Page": 206,
           "TocAnchor": "appendix.C.3",
-          "SourceOffset": 676590,
-          "SourceLine": 9439,
+          "SourceOffset": 694225,
+          "SourceLine": 9494,
           "Children": []
         }
       ]

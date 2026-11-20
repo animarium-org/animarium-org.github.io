@@ -147,6 +147,10 @@
         {
           "Id": "prop:Acyclic_Classes_Form_Commutative_Algebra",
           "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-prop:Acyclic_Classes_Form_Commutative_Algebra-main",
+          "Kind": "proof"
         }
       ]
     },
@@ -1318,6 +1322,21 @@
       ]
     },
     {
+      "Path": "/entry/common-compactness-bound/",
+      "Kind": "entry",
+      "SourceId": "common-compactness-bound",
+      "Fragments": [
+        {
+          "Id": "lem:Common_Compactness_Bound",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-lem:Common_Compactness_Bound-main",
+          "Kind": "proof"
+        }
+      ]
+    },
+    {
       "Path": "/entry/compact-assembly-and-tensor-products/",
       "Kind": "entry",
       "SourceId": "compact-assembly-and-tensor-products",
@@ -2384,6 +2403,21 @@
         },
         {
           "Id": "proof-cor:Epigenic_Part_Is_Modality-main",
+          "Kind": "proof"
+        }
+      ]
+    },
+    {
+      "Path": "/entry/epigenic-quotients-and-hypercompletion/",
+      "Kind": "entry",
+      "SourceId": "epigenic-quotients-and-hypercompletion",
+      "Fragments": [
+        {
+          "Id": "lem:Epigenic_Quotients_Induce_Equivalence_On_Hypercompletions",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-lem:Epigenic_Quotients_Induce_Equivalence_On_Hypercompletions-main",
           "Kind": "proof"
         }
       ]
@@ -3948,6 +3982,21 @@
       ]
     },
     {
+      "Path": "/entry/intersection-of-left-exact-localizations/",
+      "Kind": "entry",
+      "SourceId": "intersection-of-left-exact-localizations",
+      "Fragments": [
+        {
+          "Id": "prop:Intersection_Of_Left_Exact_Localizations",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-prop:Intersection_Of_Left_Exact_Localizations-main",
+          "Kind": "proof"
+        }
+      ]
+    },
+    {
       "Path": "/entry/inverted-maps-form-strongly-saturated-class/",
       "Kind": "entry",
       "SourceId": "inverted-maps-form-strongly-saturated-class",
@@ -3955,6 +4004,10 @@
         {
           "Id": "prop:Class_Of_Inverted_Maps_Strongly_Saturated",
           "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-prop:Class_Of_Inverted_Maps_Strongly_Saturated-main",
+          "Kind": "proof"
         }
       ]
     },
@@ -5749,6 +5802,21 @@
       ]
     },
     {
+      "Path": "/entry/quotients-preserve-acyclic-products/",
+      "Kind": "entry",
+      "SourceId": "quotients-preserve-acyclic-products",
+      "Fragments": [
+        {
+          "Id": "cor:Quotients_Preserve_Acyclic_Products",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-cor:Quotients_Preserve_Acyclic_Products-main",
+          "Kind": "proof"
+        }
+      ]
+    },
+    {
       "Path": "/entry/recollement-from-a-left-exact-functor/",
       "Kind": "entry",
       "SourceId": "recollement-from-a-left-exact-functor",
@@ -5970,6 +6038,10 @@
         {
           "Id": "prop:Saturated_Class_Gives_Factorization_System",
           "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-prop:Saturated_Class_Gives_Factorization_System-main",
+          "Kind": "proof"
         }
       ]
     },
@@ -6396,6 +6468,10 @@
         {
           "Id": "prop:Strongly_Saturated_Is_Localization",
           "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-prop:Strongly_Saturated_Is_Localization-main",
+          "Kind": "proof"
         }
       ]
     },
@@ -7940,11 +8016,19 @@
           "Kind": "latex-label"
         },
         {
+          "Id": "lem:Common_Compactness_Bound",
+          "Kind": "latex-label"
+        },
+        {
           "Id": "proof-prop:Dense_Subcategory_Closed_Under_Finite_Limits-main",
           "Kind": "proof"
         },
         {
           "Id": "proof-cor:Presentable_Left_Exact_Presentation-main",
+          "Kind": "proof"
+        },
+        {
+          "Id": "proof-lem:Common_Compactness_Bound-main",
           "Kind": "proof"
         }
       ]
@@ -9695,11 +9779,23 @@
           "Kind": "latex-label"
         },
         {
+          "Id": "cor:Quotients_Preserve_Acyclic_Products",
+          "Kind": "latex-label"
+        },
+        {
           "Id": "proof-lem:Product_Of_Modalities_Contained_In_Intersection-main",
           "Kind": "proof"
         },
         {
           "Id": "proof-lem:Generators_Of_Product_Of_Modalities-main",
+          "Kind": "proof"
+        },
+        {
+          "Id": "proof-cor:Quotients_Preserve_Acyclic_Products-main",
+          "Kind": "proof"
+        },
+        {
+          "Id": "proof-prop:Acyclic_Classes_Form_Commutative_Algebra-main",
           "Kind": "proof"
         },
         {
@@ -9748,6 +9844,10 @@
         {
           "Id": "prop:Saturated_Class_Gives_Factorization_System",
           "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-prop:Saturated_Class_Gives_Factorization_System-main",
+          "Kind": "proof"
         }
       ]
     },
@@ -9965,6 +10065,22 @@
         {
           "Id": "prop:Strongly_Saturated_Is_Localization",
           "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Intersection_Of_Left_Exact_Localizations",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "proof-prop:Class_Of_Inverted_Maps_Strongly_Saturated-main",
+          "Kind": "proof"
+        },
+        {
+          "Id": "proof-prop:Strongly_Saturated_Is_Localization-main",
+          "Kind": "proof"
+        },
+        {
+          "Id": "proof-prop:Intersection_Of_Left_Exact_Localizations-main",
+          "Kind": "proof"
         }
       ]
     },
@@ -10062,6 +10178,10 @@
           "Kind": "latex-label"
         },
         {
+          "Id": "lem:Epigenic_Quotients_Induce_Equivalence_On_Hypercompletions",
+          "Kind": "latex-label"
+        },
+        {
           "Id": "proof-lem:Modality_Closed_Under_Epi_Mono_Factorizations-main",
           "Kind": "proof"
         },
@@ -10091,6 +10211,10 @@
         },
         {
           "Id": "proof-prop:Quotient_Triple_Factorization-main",
+          "Kind": "proof"
+        },
+        {
+          "Id": "proof-lem:Epigenic_Quotients_Induce_Equivalence_On_Hypercompletions-main",
           "Kind": "proof"
         },
         {
