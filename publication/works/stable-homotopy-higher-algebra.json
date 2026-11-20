@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "WorkId": "stable-homotopy-higher-algebra",
+  "SourceBundle": "../Notes/Text book SHT+HA/output/web",
+  "SourcePdf": "../Notes/Text book SHT+HA/output/web/book.pdf",
+  "EmbeddedPdf": "book.pdf",
+  "EntryTags": true,
+  "EntryTagStart": "0001",
+  "PublicDirectory": "stable-homotopy-higher-algebra",
+  "PublicPdf": "stable-homotopy-higher-algebra.pdf",
+  "PublicBase": "/stable-homotopy-higher-algebra/",
+  "Lockfile": "publication/locks/stable-homotopy-higher-algebra.json",
+  "Retirements": "publication/retirements/stable-homotopy-higher-algebra.json"
+}
