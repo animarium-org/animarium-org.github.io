@@ -1,0 +1,271 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rigid symmetric monoidal categories | Efimov K-theory</title><meta name="description" content="Rigidity, self-duality, and trace-class morphisms."><link rel="stylesheet" href="../../../_assets/content.css"><link rel="stylesheet" href="../../../_assets/style.css"><script>window.MathJax={loader:{paths:{fonts:'../../../_assets/mathjax/fonts'},load:['[tex]/mathtools','[tex]/boldsymbol']},tex:{packages:{'[+]':['ams','mathtools','boldsymbol']},macros:{"fpqc":"\\operatorname{fpqc}","KGL":"\\operatorname{KGL}","Nis":"\\operatorname{Nis}","Et":"\\operatorname{Et}","cdh":"\\operatorname{cdh}","vdim":"\\operatorname{vdim}","Krdim":"\\operatorname{Kr.dim}","qcqs":"\\operatorname{qcqs}","Sm":"\\operatorname{Sm}","SSeq":"\\operatorname{SSeq}","Sym":"\\operatorname{Sym}","KH":"\\operatorname{KH}","ssquare":"\\,\\square\\,","Aff":"\\operatorname{Aff}","Mono":"\\operatorname{Mono}","Gerb":"\\operatorname{Gerb}","hyp":"\\operatorname{hyp}","mono":"\\operatorname{mono}","cons":"\\operatorname{cons}","wcons":"\\operatorname{wcons}","quottext":"\\operatorname{quot}","epi":"\\operatorname{epi}","MonoCong":"\\operatorname{MonoCong}","EpiCong":"\\operatorname{EpiCong}","Cong":"\\operatorname{Cong}","HypCong":"\\operatorname{HypCong}","Mdl":"\\operatorname{Mdl}","Acyc":"\\operatorname{Acyc}","Sat":"\\operatorname{Sat}","SSat":"\\operatorname{SSat}","Conn":"\\operatorname{Conn}","EffEpi":"\\operatorname{EffEpi}","Epi":"\\operatorname{Epi}","Cotr":"\\operatorname{Cotr}","All":"\\operatorname{All}","Pos":"\\operatorname{Pos}","post":"\\operatorname{post}","El":"\\operatorname{El}","cocompl":"\\operatorname{cocompl}","Topos":"\\mathrm{Topos}","Logos":"\\mathrm{Logos}","bbCat":"\\bbC \\mathrm{at}","bbLog":"\\bbL \\mathrm{ogos}","bbTop":"\\bbT \\mathrm{opos}","Geom":"\\operatorname{Geom}","Pt":"\\operatorname{Pt}","im":"\\operatorname{im}","coim":"\\operatorname{coim}","Act":"\\operatorname{Act}","Bun":"\\operatorname{Bun}","Site":"\\operatorname{Site}","cont":"\\operatorname{cont}","cocont":"\\operatorname{cocont}","Cont":"\\operatorname{Cont}","wccolim":"\\operatorname{w.c.colim}","Atl":"\\operatorname{Atl}","DiffStk":"\\operatorname{DiffStk}","SepStk":"\\operatorname{SepStk}","H":"\\mathrm{H}","SH":"\\mathrm{SH}","htp":"\\operatorname{htp}","rep":"\\operatorname{rep}","Loc":"\\operatorname{Loc}","Thick":"\\operatorname{Thick}","modtext":"\\operatorname{mod}","absmod":["\\abs{#1}_{\\modtext}",1],"sep":"\\operatorname{sep}","PB":"\\operatorname{PB}","PF":"\\operatorname{PF}","NerveDiff":"\\operatorname{N^{\\mathrm{Diff}}}","Deltaalg":["\\Delta^{#1}_{\\mathrm{alg}}",1],"shear":"\\operatorname{shear}","Sph":"\\operatorname{Sph}","Sub":"\\operatorname{Sub}","Open":"\\operatorname{Open}","open":"\\operatorname{open}","Corr":"\\operatorname{Corr}","bbMap":"\\operatorname{\\mathbb{M} ap}","bbHom":"\\operatorname{\\mathbb{H} om}","gen":"\\operatorname{gen}","Bgl":"\\operatorname{B_{gl}}","PrnBdl":["\\mathrm{PrnBdl}_{#1}(#2)",2],"cFun":"\\Ff \\mathrm{un}","Tr":"\\operatorname{Tr}","tr":"\\operatorname{tr}","Shp":"\\operatorname{Shp}","THH":"\\operatorname{THH}","Assoc":"\\mathcal{A}\\mathit{ssoc}","Comm":"\\mathcal{C}\\!\\,\\mathit{omm}","Lie":"\\mathcal{L}\\mathit{ie}","Triv":"\\mathcal{T}\\!\\!\\mathit{riv}","oTens":"\\mathcal{T}\\!\\!\\mathit{ens}","oLMod":"\\mathcal{L}\\!\\mathcal{M}\\mathit{od}","oRMod":"\\mathcal{R}\\!\\mathcal{M}\\mathit{od}","oBMod":"\\mathcal{B}\\!\\mathcal{M}\\mathit{od}","oMod":"\\mathcal{M}\\mathit{od}","oAlg":"\\mathcal{A}\\mathit{lg}","oEnd":"\\mathcal{E}\\mathit{nd}","oCMon":"\\mathcal{C}\\!\\mathcal{M}\\mathit{on}","oCGrp":"\\mathcal{C}\\mathcal{G}\\mathit{rp}","oSp":"\\mathcal{S}\\mathit{p}","Mult":"\\mathcal{M}","oCat":"\\operatorname{\\mathcal{C}\\!\\mathit{at}}","oFun":"\\operatorname{\\mathcal{F}\\!\\mathit{un}}","Env":"\\operatorname{Env}","Op":"\\operatorname{Op}","AdTrip":"\\operatorname{AdTrip}","rev":"\\operatorname{rev}","tiso":"\\operatorname{iso}","oTw":"\\operatorname{\\overline{\\Tw}}","lax":"\\operatorname{lax}","NTw":"\\operatorname{NTw}","OpCocart":"\\Oo^{\\amalg}","OpCart":"\\Oo^{\\times}","Day":"\\operatorname{Day}","oDay":"\\mathcal{D}\\mathit{ay}","dlax":"\\mathrm{-lax}","textred":"\\mathrm{red}","exc":"\\mathrm{exc}","BiFun":"\\operatorname{BiFun}","BV":"\\operatorname{BV}","Bar":"\\mathrm{Bar}","dnil":"\\mathrm{-nil}","Ext":"\\operatorname{Ext}","Ex":"\\operatorname{Ex}","Tor":"\\operatorname{Tor}","enr":"\\mathrm{enr}","heart":"\\heartsuit","dsm":"\\mathrm{-sm}","Free":"\\operatorname{Free}","ku":"\\operatorname{ku}","KU":"\\operatorname{KU}","MU":"\\operatorname{MU}","MO":"\\operatorname{MO}","MSO":"\\operatorname{MSO}","BO":"\\operatorname{BO}","bGr":"\\operatorname{\\mathbf{Gr}}","BUP":"\\operatorname{BUP}","bBUP":"\\operatorname{\\mathbf{BUP}}","Th":"\\operatorname{Th}","Pic":"\\operatorname{Pic}","pic":"\\operatorname{pic}","pre":"\\operatorname{pre}","Line":"\\operatorname{Line}","PT":"\\operatorname{PT}","interiorsymb":[" {\\kern0pt#1}^{\\mathrm{o}}",1],"PSp":"\\mathrm{PSp}","Emb":"\\operatorname{Emb}","Ntop":"N^{\\mathrm{top}}","Homtop":"\\Hom^{\\mathrm{top}}","fw":"\\operatorname{fw}","Shift":"\\operatorname{Shift}","Der":"\\operatorname{Der}","Hom":"\\operatorname{Hom}","Aut":"\\operatorname{Aut}","End":"\\operatorname{End}","iHom":"\\operatorname{\\underline{\\operatorname{Hom}}}","ihom":"\\operatorname{\\underline{\\operatorname{hom}}}","uHom":"\\operatorname{\\underline{\\operatorname{Hom}}}","Map":"\\operatorname{Map}","map":"\\operatorname{map}","Path":"\\operatorname{Path}","Fun":"\\operatorname{Fun}","FunL":"\\Fun^{\\mathrm{L}}","FunR":"\\Fun^{\\mathrm R}","ulFun":"\\ul{\\Fun}","Nat":"\\operatorname{Nat}","Lift":"\\operatorname{Lift}","lift":"\\operatorname{lift}","cocart":"\\operatorname{cocart}","CoCart":"\\operatorname{CoCart}","Cocart":"\\operatorname{Cocart}","isCocart":"\\operatorname{\\texttt{isCocart}}","Cart":"\\operatorname{Cart}","RFib":"\\operatorname{RFib}","LFib":"\\operatorname{LFib}","Un":"\\operatorname{Un}","cart":"\\operatorname{cart}","dcart":"\\mathrm{-cart}","cc":"\\operatorname{cc}","ct":"\\operatorname{ct}","Str":"\\operatorname{Str}","el":"\\operatorname{el}","Spec":"\\operatorname{Spec}","QCoh":"\\operatorname{QCoh}","IndCoh":"\\operatorname{IndCoh}","Perf":"\\operatorname{Perf}","Proj":"\\operatorname{Proj}","Zar":"\\operatorname{Zar}","Sch":"\\operatorname{Sch}","ad":"\\mathrm{ad}","corp":"\\mathrm{corp}","loc":"\\mathrm{loc}","mot":"\\mathrm{mot}","ultra":"\\mathrm{ultra}","Ar":"\\operatorname{Ar}","BC":"\\operatorname{BC}","GL":"\\operatorname{GL}","Gr":"\\operatorname{Gr}","Ho":"\\operatorname{Ho}","Im":"\\operatorname{Im}","Ind":"\\operatorname{Ind}","Iso":"\\operatorname{Iso}","LConst":"\\operatorname{LConst}","Nm":"\\operatorname{Nm}","Pro":"\\operatorname{Pro}","Lan":"\\operatorname{Lan}","Ran":"\\operatorname{Ran}","Rex":"\\operatorname{Rex}","PSh":"\\operatorname{PSh}","Shape":"\\operatorname{Shape}","Shv":"\\operatorname{Shv}","bOmega":"{\\boldsymbol{\\Omega}}","Span":"\\operatorname{Span}","SpanTwo":"\\Span_2","SpanTwoP":["\\SpanTwo(#1,#2)_{#4,#3}",4],"NSpan":"\\operatorname{NSpan}","Tw":"\\operatorname{Tw}","LM":"\\operatorname{LM}","Re":"\\operatorname{Re}","Fact":"\\operatorname{Fact}","SD":"\\operatorname{SD}","PD":"\\operatorname{PD}","Suave":"\\operatorname{Suave}","Prim":"\\operatorname{Prim}","shift":"\\operatorname{shift}","act":"\\operatorname{act}","supp":"\\operatorname{supp}","ex":"\\operatorname{ex}","lex":"\\operatorname{lex}","rex":"\\operatorname{rex}","chain":"\\operatorname{chain}","sd":"\\operatorname{sd}","qc":"\\operatorname{qc}","Poly":"\\operatorname{Poly}","Mot":"\\operatorname{Mot}","can":"\\mathrm{can}","ho":"\\mathrm{ho}","nondeg":"\\mathrm{nondeg}","univ":"\\mathrm{univ}","prop":"\\mathrm{pr}","inv":"\\mathrm{inv}","ac":"\\operatorname{ac}","pb":"\\operatorname{pb}","fgt":"\\operatorname{fgt}","id":"\\operatorname{id}","pr":"\\operatorname{pr}","incl":"\\operatorname{incl}","const":"\\operatorname{const}","sk":"\\operatorname{sk}","cosk":"\\operatorname{cosk}","gl":"\\operatorname{gl}","grp":"\\operatorname{grp}","qis":"\\operatorname{qis}","cyl":"\\operatorname{cyl}","surj":"\\operatorname{surj}","et":"\\mathrm{ét}","coh":"\\mathrm{coh}","acc":"\\mathrm{acc}","small":"\\mathrm{small}","free":"\\operatorname{free}","fin":"\\operatorname{fin}","pt":"\\operatorname{pt}","aug":"\\operatorname{{aug}}","st":"\\operatorname{st}","dual":"\\operatorname{dual}","Calk":"\\operatorname{Calk}","idem":"\\operatorname{idem}","perf":"\\operatorname{perf}","rig":"\\mathrm{rig}","Nuc":"\\operatorname{Nuc}","cofib":"\\operatorname{cofib}","fib":"\\operatorname{fib}","colim":"\\operatorname{colim}","lim":"\\operatorname{lim}","coeq":"\\operatorname{coeq}","coker":"\\operatorname{coker}","ev":"\\mathrm{ev}","coev":"\\mathrm{coev}","res":"\\operatorname{res}","ind":"\\operatorname{ind}","coind":"\\operatorname{coind}","Set":"\\mathrm{Set}","An":"\\mathrm{An}","CondAn":"\\mathrm{CondAn}","Ab":"\\mathrm{Ab}","Alg":"\\mathrm{Alg}","CAlg":"\\mathrm{CAlg}","Cat":"\\mathrm{Cat}","CAT":"\\mathrm{CAT}","CRing":"\\mathrm{CRing}","qCat":"\\mathrm{qCat}","CGrp":"\\mathrm{CGrp}","CMon":"\\mathrm{CMon}","Fin":"\\mathrm{Fin}","FinGrpd":"\\mathrm{FinGrpd}","Grp":"\\mathrm{Grp}","Grpd":"\\mathrm{Grpd}","Mod":"\\mathrm{Mod}","coMod":"\\mathrm{coMod}","Mon":"\\mathrm{Mon}","LMod":"\\mathrm{LMod}","RMod":"\\mathrm{RMod}","BMod":"\\mathrm{BMod}","Rep":"\\mathrm{Rep}","Top":"\\mathrm{Top}","TopGrpd":"\\mathrm{TopGrpd}","bTopGrpd":"\\mathbf{TopGrpd}","Spc":"\\mathrm{Spc}","Sp":"\\mathrm{Sp}","Vect":"\\mathrm{Vect}","Orb":"\\mathrm{Orb}","Orbit":"\\mathrm{Orbit}","Glo":"\\mathrm{Glo}","sAn":"\\s\\An","dAn":"\\mathrm{d}\\An","bVect":"\\mathbf{V}\\mathrm{ect}","LCHaus":"\\mathrm{LCHaus}","CHaus":"\\mathrm{CHaus}","ProFin":"\\mathrm{ProFin}","AnRing":"\\mathrm{AnRing}","AnStck":"\\mathrm{AnStck}","Ring":"\\mathrm{Ring}","twoCAlg":"\\mathrm{2CAlg}","Idem":"\\mathrm{Idem}","coIdem":"\\mathrm{coIdem}","StRing":"\\mathrm{StRing}","PreStRing":"\\mathrm{PreStRing}","Gest":"\\mathrm{Gest}","RingGest":"\\mathrm{RingGest}","LieGrpd":"\\mathrm{LieGrpd}","sTop":"\\mathrm{sTop}","Diff":"\\mathrm{Diff}","sSet":"\\mathrm{sSet}","Poset":"\\mathrm{Poset}","Pr":"\\mathrm{Pr}","PrL":"\\mathrm{Pr}^{\\mathrm{L}}","PrR":"\\mathrm{Pr}^{\\mathrm{R}}","PrLst":"\\PrL_{\\st}","h":"\\mathrm{h}","CW":"\\mathrm{CW}","hocolim":"\\operatorname{hocolim}","holim":"\\operatorname{holim}","Exc":"\\operatorname{Exc}","s":"\\mathrm{s}","Sing":"\\operatorname{Sing}","Kan":"\\operatorname{Kan}","bKan":"\\mathbf{Kan}","bqCat":"\\mathbf{qCat}","Ch":"\\operatorname{\\mathrm{Ch}}","inj":"\\operatorname{inj}","all":"\\operatorname{all}","isotext":"\\operatorname{iso}","Cut":"\\operatorname{Cut}","LCut":"\\operatorname{LCut}","BCut":"\\operatorname{BCut}","Red":"\\operatorname{Red}","Segal":"\\operatorname{Segal}","Seg":"\\operatorname{Seg}","CSeg":"\\operatorname{CSeg}","add":"\\operatorname{add}","sadd":"\\operatorname{sadd}","Piinfty":["\\Pi_{\\infty}(#1)",1],"oplax":"\\operatorname{oplax}","quadtext":["\\quad\\textrm{#1}\\quad",1],"qquadtext":["\\qquad\\textrm{#1}\\qquad",1],"qin":"\\quad\\in\\quad","ul":["\\underline{#1}",1],"abs":["\\lvert #1 \\rvert",1],"geom":["\\| #1 \\|",1],"floor":["\\lfloor #1 \\rfloor",1],"catop":"^{\\mathrm{op}}","op":"\\operatorname{op}","blank":"{\\mathrm{ --}}","ceil":["\\lceil #1 \\rceil",1],"lra":["\\langle #1 \\rangle",1],"C":"\\operatorname{\\mathbb C}","F":"\\operatorname{\\mathbb F}","N":"\\operatorname{\\mathbb N}","P":"\\operatorname{\\mathbb P}","Q":"\\operatorname{\\mathbb Q}","R":"\\operatorname{\\mathbb R}","S":"\\operatorname{\\mathbb S}","Z":"\\operatorname{\\mathbb Z}","D":"\\operatorname{\\mathrm{D}}","phi":"\\varphi","epsilon":"\\varepsilon","aa":"\\mathfrak{a}","pp":"\\mathfrak{p}","fa":"\\mathfrak{a}","fb":"\\mathfrak{b}","fc":"\\mathfrak{c}","fm":"\\mathfrak{m}","mm":"\\mathfrak{m}","fn":"\\mathfrak{n}","fp":"\\mathfrak{p}","Aa":"\\mathcal{A}","Bb":"\\mathcal{B}","Cc":"\\mathcal{C}","Dd":"\\mathcal{D}","Ee":"\\mathcal{E}","Ff":"\\mathcal{F}","Gg":"\\mathcal{G}","Hh":"\\mathcal{H}","Ii":"\\mathcal{I}","Jj":"\\mathcal{J}","Kk":"\\mathcal{K}","Ll":"\\mathcal{L}","Mm":"\\mathcal{M}","Nn":"\\mathcal{N}","Oo":"\\mathcal{O}","Pp":"\\mathcal{P}","Qq":"\\mathcal{Q}","Rr":"\\mathcal{R}","Ss":"\\mathcal{S}","Tt":"\\mathcal{T}","Uu":"\\mathcal{U}","Vv":"\\mathcal{V}","Ww":"\\mathcal{W}","Xx":"\\mathcal{X}","Yy":"\\mathcal{Y}","Zz":"\\mathcal{Z}","bA":"\\mathbf{A}","bB":"\\mathbf{B}","bC":"\\mathbf{C}","bD":"\\mathbf{D}","bE":"\\mathbf{E}","bF":"\\mathbf{F}","bG":"\\mathbf{G}","bH":"\\mathbf{H}","bI":"\\mathbf{I}","bJ":"\\mathbf{J}","bK":"\\mathbf{K}","bL":"\\mathbf{L}","bM":"\\mathbf{M}","bN":"\\mathbf{N}","bO":"\\mathbf{O}","bP":"\\mathbf{P}","bQ":"\\mathbf{Q}","bR":"\\mathbf{R}","bS":"\\mathbf{S}","bT":"\\mathbf{T}","bU":"\\mathbf{U}","bV":"\\mathbf{V}","bW":"\\mathbf{W}","bX":"\\mathbf{X}","bY":"\\mathbf{Y}","bZ":"\\mathbf{Z}","bbA":"\\mathbb{A}","bbB":"\\mathbb{B}","bbC":"\\mathbb{C}","bbD":"\\mathbb{D}","bbE":"\\mathbb{E}","bbF":"\\mathbb{F}","bbG":"\\mathbb{G}","bbH":"\\mathbb{H}","bbI":"\\mathbb{I}","bbJ":"\\mathbb{J}","bbK":"\\mathbb{K}","bbL":"\\mathbb{L}","bbM":"\\mathbb{M}","bbN":"\\mathbb{N}","bbO":"\\mathbb{O}","bbP":"\\mathbb{P}","bbQ":"\\mathbb{Q}","bbR":"\\mathbb{R}","bbS":"\\mathbb{S}","bbT":"\\mathbb{T}","bbU":"\\mathbb{U}","bbV":"\\mathbb{V}","bbW":"\\mathbb{W}","bbX":"\\mathbb{X}","bbY":"\\mathbb{Y}","bbZ":"\\mathbb{Z}","quot":"/\\!\\!/","catname":["{\\mathrm{#1}}",1],"catnameb":["{\\textbf{#1}}",1],"bLieGrpd":"\\operatorname{\\textbf{LieGrpd}}","ulSp":"\\underline{\\Sp}","ulSpc":"\\underline{\\Spc}","ulOrbSp":"\\underline{\\Orb\\Sp}","ulOrbSpc":"\\underline{\\Orb\\Spc}","mapsfrom":"\\mathrel{\\unicode{x21A4}}","xrightrightarrows":["\\mathrel{\\overset{#1}{\\underset{#2}{\\rightrightarrows}}}",2],"xadjto":["\\mathrel{\\overset{#1}{\\underset{#2}{\\rightleftarrows}}}",2],"red":["{\\color{red}{\\textbf{#1}}}",1],"pullback":"\\mathrel{\\lrcorner\\,}","pullbackto":"\\mathrel{\\lrcorner\\,\\to}","pushout":"\\mathrel{\\ulcorner\\,}","pushoutto":"\\mathrel{\\ulcorner\\,\\to}","noloc":"\\mskip6mu{:}\\mskip2mu","pvto":["\\bigl(\\begin{smallmatrix}#1\\\\ \\downarrow\\\\ #2\\end{smallmatrix}\\bigr)",2],"puto":["\\bigl(\\begin{smallmatrix}#1\\\\ \\downarrow{\\scriptstyle #3}\\\\ #2\\end{smallmatrix}\\bigr)",3],"apvto":["\\pvto{#1}{#2}",2],"pwto":["\\bigl(\\begin{smallmatrix}#1\\\\ #2\\end{smallmatrix}\\bigr)",2],"rbox":["#3",3],"simp":"{\\boldsymbol{\\Delta}}","unit":"\\operatorname{\\mathbb{1}}","iso":"\\xrightarrow{\\sim}","bastiaan":["{\\color{blue}{\\text{[#1]}}}",1],"bastiaanlong":["{\\color{blue}{\\text{#1}}}",1],"Man":"\\operatorname{Man}","SS":"\\operatorname{SS}","Br":"\\mathrm{Br}","der":"\\mathrm{der}","one":"\\mathbb{1}","textupb":["{\\mathrm\\textbf{#1}}",1],"St":"\\operatorname{St}","Reedy":"\\operatorname{Reedy}","vectimes":["\\;\\vec{\\times}_{#1}\\;",1],"Nmadj":"\\operatorname{\\widetilde{\\Nm}}","quotcolim":"\\text{``}\\!\\colim\\!\\text{''}"}},options:{enableMenu:false}};</script><script defer src="../../../_assets/mathjax/tex-chtml.js"></script><script defer src="../../../_assets/reader.js" data-notes-reader="efimov-k-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba"></script>
+<script defer src="../../../_assets/proofs.js"></script><link rel="canonical" href="https://animarium.org/efimov-k-theory/section/rigidity-and-nuclear-objects/rigid-symmetric-monoidal-categories/"></head><body class="work-page section-page has-context-nav" data-proof-mode="displayed"><aside class="utility-dock" aria-label="Page tools"><div class="utility-item settings-item" data-utility-item data-open="false">
+      <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
+        <span class="utility-icon" aria-hidden="true">⚙</span>
+      </button>
+      <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
+        <h2 id="display-settings-heading">Proof display</h2>
+        <div class="preset-group" role="group" aria-label="Default proof display">
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
+        </div>
+        <h2>Page layout</h2>
+        <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
+      </section>
+    </div><div class="utility-item manuscript-item">
+      <a class="utility-trigger manuscript-trigger" href="/efimov-k-theory.pdf" title="View the entire manuscript as a PDF">
+        <span class="utility-expansion">View the entire manuscript as a PDF</span>
+        <span class="utility-icon book-icon" aria-hidden="true">📖</span>
+        <span class="sr-only">View the entire manuscript as a PDF</span>
+      </a>
+    </div></aside><header class="site-header work-header">
+<div class="reading-header-row"><div class="reader-heading">
+      <a class="collection-return" data-site-return href="/"><span aria-hidden="true">←</span> Animarium</a>
+      <p class="eyebrow"><a href="../../../index.html">Efimov K-theory</a> · <a href="../../../chapter/rigidity-and-nuclear-objects/index.html">Chapter 6</a> · Section 6.1</p>
+      <h1>Rigid symmetric monoidal categories</h1>
+    </div><nav class="page-turns" data-reading-navigation aria-label="Reading navigation"><a rel="prev" data-step="prev-chapter" href="../../../chapter/examples-of-dualizable-categories/index.html" title="Examples of dualizable categories" aria-label="Previous chapter: Chapter 5, Examples of dualizable categories"><span class="turn-direction">← Previous chapter</span><span class="turn-target">Chapter 5</span></a>
+<a rel="next" data-step="next-chapter" href="../../../chapter/calkin-categories-colimits-and-limits/index.html" title="Calkin categories, colimits and limits of dualizable categories" aria-label="Next chapter: Chapter 7, Calkin categories, colimits and limits of dualizable categories"><span class="turn-direction">→ Next chapter</span><span class="turn-target">Chapter 7</span></a>
+<a rel="prev" data-step="prev-section" href="../../examples-of-dualizable-categories/extensions-and-semiorthogonal-gluing/index.html" title="Extensions and semiorthogonal gluing" aria-label="Previous section: Section 5.4, Extensions and semiorthogonal gluing"><span class="turn-direction">← Previous section</span><span class="turn-target">Section 5.4</span></a>
+<a rel="next" data-step="next-section" href="../nuclear-modules-and-condensed-mathematics/index.html" title="Nuclear modules and condensed mathematics" aria-label="Next section: Section 6.2, Nuclear modules and condensed mathematics"><span class="turn-direction">→ Next section</span><span class="turn-target">Section 6.2</span></a></nav></div>
+</header><main class="reader-layout"><button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
+      <span aria-hidden="true">☰</span> Navigation
+    </button><article class="notes-page ">
+<p class="noindent"><span id="sec:Rigid_Categories"></span>
+</p><p class="noindent">A rich source of dualizable categories are <span class="ntx-Italic-tlf-t1-x-x-109">rigid </span>symmetric monoidal categories, introduced by
+Gaitsgory–Rozenblyum [<a class="citation" href="../../../references/index.html#bib-GaitsgoryRozenbluym2017StudyDAG">Gaitsgory and Rozenblyum (2017)</a>, Chapter 1, Section 9]. We have already met them in <a class="source-reference" href="../../../entry/rigid-categories-an-overview/index.html#def:Rigid_Category">Definition 1.4</a>; we now give a more detailed treatment.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2001r1"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/rigid-symmetric-monoidal-categories/index.html" title="Rigid symmetric monoidal categories">Definition 6.1 </a></span>([<a class="citation" href="../../../references/index.html#bib-GaitsgoryRozenbluym2017StudyDAG">Gaitsgory and Rozenblyum (2017)</a>, Chapter 1, Definition 9.1.2])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="def:Rigid_Category_Detailed"></span> Let \(C \in \CAlg (\PrL _{\st })\) be a presentably symmetric monoidal stable category, with unit \(\unit _C\) and multiplication \(\mu \colon C \otimes C \to C\).
+Then \(C\) is called <span class="ntx-Italic-tlf-t1-x-x-109">rigid </span>if
+     </p><dl class="enumerate"><dt class="enumerate">
+  (1) </dt><dd class="enumerate">
+     <p class="noindent">the unit \(\unit _C\) is compact in \(C\), or equivalently, the unit functor \(u\colon \Sp \to C\), \(\S \mapsto \unit _C\), is strongly continuous;
+     </p></dd><dt class="enumerate">
+  (2) </dt><dd class="enumerate">
+     <p class="noindent">the right adjoint \(\mu ^R\colon C \to C \otimes C\) preserves colimits, and its canonical lax \(C \otimes C\)-linear structure is strict; equivalently,
+     \(\mu \) admits a right adjoint in \(\Mod _{C \otimes C}(\PrL _{\st })\).</p></dd></dl>
+</div>
+
+                                                                                   
+                                                                                   
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2004r2"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/equivalent-definitions-of-rigidity/index.html" title="Equivalent definitions of rigidity">Remark 6.2.</a></span>  </span><span id="rem:Equivalent_Rigidity_Definitions"></span> The equivalence of the two formulations in (2) is a general fact about adjunctions
+internal to module categories: a right adjoint of a \(C \otimes C\)-linear functor inherits a lax \(C \otimes C\)-linear structure, and it
+is a right adjoint in \(\Mod _{C \otimes C}(\PrL _{\st })\) if and only if it preserves colimits and this lax structure is strict. <a class="source-reference" href="../../../entry/rigid-symmetric-monoidal-categories/index.html#def:Rigid_Category_Detailed">Definition 6.1</a> is the definition
+of Gaitsgory–Rozenblyum, and it agrees with Ramzi’s definition [<a class="citation" href="../../../references/index.html#bib-Ramzi_Locally_Rigid">Ramzi (2024b)</a>, Definitions 4.5 and 4.36] (Ramzi additionally requires \(C\) to
+be dualizable, which is automatic by <a class="source-reference" href="../../../entry/self-duality-of-rigid-categories/index.html#prop:Rigid_Self_Dual_Detailed">Proposition 6.3</a>). It is also equivalent to <a class="source-reference" href="../../../entry/rigid-categories-an-overview/index.html#def:Rigid_Category">Definition 1.4</a>, which asks that for every finite set \(I\)
+the multiplication \(\mu _I\colon C^{\otimes I} \to C\) admits a right adjoint in \(\Mod _{C^{\otimes I}}(\PrL _{\st })\). Indeed, for \(I = \emptyset \) the map \(\mu _{\emptyset }\) is the unit functor \(u\colon \Sp \to C\), and \(\Mod _{\Sp }(\PrL _{\st }) = \PrL _{\st }\), so this
+case is condition (1); the case \(|I| = 1\) is vacuous, and the case \(|I| = 2\) is condition (2). Conversely, if (2) holds,
+then by induction \(\mu _{I \sqcup \{*\}} = \mu \circ (\mu _I \otimes \id _C)\) is a composite of two functors admitting right adjoints in \(\Mod _{C^{\otimes I} \otimes C}(\PrL _{\st })\): for \(\mu _I \otimes \id _C\) this follows by
+tensoring the adjunction for \(\mu _I\) with \(C\), and for \(\mu \) by restricting the \(C \otimes C\)-linear adjunction along the algebra
+map \(\mu _I \otimes \id _C\colon C^{\otimes I} \otimes C \to C \otimes C\).
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2005r3"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/self-duality-of-rigid-categories/index.html" title="Self-duality of rigid categories">Proposition 6.3 </a></span>([<a class="citation" href="../../../references/index.html#bib-GaitsgoryRozenbluym2017StudyDAG">Gaitsgory and Rozenblyum (2017)</a>, Chapter 1, Section 9.2.1])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="prop:Rigid_Self_Dual_Detailed"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">be rigid. Then</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">is self-dual in</span> \(\PrL _{\st }\)<span class="ntx-Italic-tlf-t1-x-x-109">, with evaluation and coevaluation given by </span>\[ \ev \colon C \otimes C \xrightarrow {\mu } C \xrightarrow {\Gamma := \hom _C(\unit _C,-)} \Sp , \qquad \coev \colon \Sp \xrightarrow {u} C \xrightarrow {\mu ^R} C \otimes C. \]
+<span class="ntx-Italic-tlf-t1-x-x-109">In particular,</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">is dualizable.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-4">
+<p class="noindent">Note first that both functors preserve colimits: \(\Gamma \) preserves colimits since \(\unit _C\) is compact (and \(C\) is
+stable), and \(\mu ^R\) preserves colimits by assumption. Moreover, \(\Gamma \) is right adjoint to \(u\). Write \(\eta := \mu ^R(\unit _C) \in C \otimes C\), so that \(\coev \) is the
+colimit-preserving functor \(\Sp \to C \otimes C\) sending \(\S \) to \(\eta \). We verify the first triangle identity, i.e. that the composite
+\[ C \simeq \Sp \otimes C \xrightarrow {\coev \otimes C} C \otimes C \otimes C \xrightarrow {C \otimes \ev } C \otimes \Sp \simeq C \] is equivalent to the identity; the second one follows by symmetry. Since \(C \otimes \ev = (C \otimes \Gamma ) \circ (C \otimes \mu )\), the composite sends \(c \in C\) to \[ (C \otimes \Gamma )\big ((C \otimes \mu )(\eta \boxtimes c)\big ) \simeq (C \otimes \Gamma )\big (\eta \cdot (\unit _C \boxtimes c)\big ), \]
+where \(\cdot \) denotes the multiplication in \(C \otimes C\). Now we use the linearity of \(\mu ^R\): for \(a \in C \otimes C\) and \(x \in C\) we have \(\mu ^R(\mu (a) \otimes x) \simeq a \cdot \mu ^R(x)\). Taking \(a = \unit _C \boxtimes c\) and \(x = \unit _C\)
+gives \[ \eta \cdot (\unit _C \boxtimes c) = (\unit _C \boxtimes c) \cdot \mu ^R(\unit _C) \simeq \mu ^R(c). \] Hence the composite is \((C \otimes \Gamma ) \circ \mu ^R\colon C \to C\), naturally in \(c\) (as all functors involved preserve colimits, it suffices to
+identify the functors, which the above does naturally in \(c\)). Since \(C \otimes - \) is a functor of \((\infty ,2)\)-categories, \(C \otimes \Gamma \) is right
+adjoint to \(C \otimes u\colon C \to C \otimes C\), \(x \mapsto x \boxtimes \unit _C\). Hence \((C \otimes \Gamma ) \circ \mu ^R\) is right adjoint to \(\mu \circ (C \otimes u) \simeq \id _C\), and is therefore equivalent to the identity.                           □
+</p>
+</div></details>
+<p class="noindent">The linearity of the right adjoint to multiplication is what makes the triangle identity work. Trace-class
+morphisms express the corresponding duality data for individual morphisms.
+</p><p class="noindent">Next, we introduce trace-class morphisms, following Clausen–Scholze [<a class="citation" href="../../../references/index.html#bib-Scholze_Analytic_Geometry">Scholze (2026)</a>].
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2006r4"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/trace-class-morphisms/index.html" title="Trace-class morphisms">Definition 6.4.</a></span>  </span><span id="def:Trace_Class"></span> Let \(C\) be a symmetric monoidal category. A morphism \(f\colon x \to y\) in \(C\) is called <span class="ntx-Italic-tlf-t1-x-x-109">trace-class </span>if
+there exist an object \(z \in C\) and maps \(\alpha \colon \unit _C \to y \otimes z\) and \(\beta \colon z \otimes x \to \unit _C\) such that \(f\) is homotopic to the composite \[ x \simeq \unit _C \otimes x \xrightarrow {\alpha \otimes x} y \otimes z \otimes x \xrightarrow {y \otimes \beta } y \otimes \unit _C \simeq y. \]
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2007r5"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/trace-class-identities-and-dualizability/index.html" title="Trace-class identities and dualizability">Lemma 6.5.</a></span>  </span><span id="lem:Identity_Trace_Class">  </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span>  \(C\)  <span class="ntx-Italic-tlf-t1-x-x-109">be  a  symmetric  monoidal  category  whose  homotopy  category  is  idempotent
+complete; for instance,</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">stable and idempotent complete </span>[<a class="citation" href="../../../references/index.html#bib-lurie2016HA">Lurie (2017)</a>, Lemma 1.2.4.6]<span class="ntx-Italic-tlf-t1-x-x-109">. Then an object</span> \(x \in C\) <span class="ntx-Italic-tlf-t1-x-x-109">is dualizable if and only if</span>
+\(\id _x\) <span class="ntx-Italic-tlf-t1-x-x-109">is trace-class.</span>
+</p>
+</div>
+                                                                                   
+
+                                                                                   
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-3">
+<p class="noindent">If \(x\) is dualizable with dual \(x^{\vee }\), then the coevaluation and evaluation are a witness for \(\id _x\). Conversely,
+let \((z,\alpha ,\beta )\) be a witness for \(\id _x\), so that \(\alpha \colon \unit \to x \otimes z\) and \(\beta \colon z \otimes x \to \unit \) satisfy the first triangle identity \((x \otimes \beta )(\alpha \otimes x) \simeq \id _x\), but not necessarily the second
+one. Consider \[ e := (\beta \otimes z)(z \otimes \alpha )\colon z \to z \otimes x \otimes z \to z. \] Inserting the first triangle identity in the middle of \(e \circ e\) shows that \(e \circ e \simeq e\), and similarly \(\beta (e \otimes x) \simeq \beta \) and \((x \otimes e)\alpha \simeq \alpha \).
+As the homotopy category is idempotent complete, \(e\) splits: \(e \simeq sr\) with \(r\colon z \to z'\), \(s\colon z' \to z\) and \(rs \simeq \id _{z'}\). Put \(\alpha ' := (x \otimes r)\alpha \) and \(\beta ' := \beta (s \otimes x)\). Then \[ (x \otimes \beta ')(\alpha ' \otimes x) \simeq (x \otimes \beta )(x \otimes e \otimes x)(\alpha \otimes x) \simeq (x \otimes \beta )(\alpha \otimes x) \simeq \id _x \] and \((\beta ' \otimes z')(z' \otimes \alpha ') \simeq r e s \simeq rsrs \simeq \id _{z'}\). So \((\alpha ',\beta ')\)
+exhibits \(z'\) as a dual of \(x\); since dualizability can be checked in the homotopy category, \(x\) is dualizable.    □
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2008r6"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/properties-of-trace-class-morphisms/index.html" title="Properties of trace-class morphisms">Remark 6.6.</a></span>  </span><span id="rem:Trace_Class_Basics"></span>
+     </p><dl class="enumerate"><dt class="enumerate">
+  (1) </dt><dd class="enumerate">
+     <p class="noindent">If \(C\) is closed, write \(x^{\vee } := \iHom (x,\unit _C)\) for the <span class="ntx-Italic-tlf-t1-x-x-109">predual </span>of \(x\). Then \(f\) is trace-class if and only if the map \(\unit _C \to \iHom (x,y)\) classifying \(f\)
+     factors through the canonical map \(y \otimes x^{\vee } \to \iHom (x,y)\): given \((z,\alpha ,\beta )\) as above, \(\beta \) is adjoint to a map \(z \to x^{\vee }\), and composing \(\alpha \) with
+     it gives the desired factorization; conversely, given a factorization \(\unit _C \to y \otimes x^{\vee }\), take \(z = x^{\vee }\) and \(\beta \) the evaluation
+     map.
+     </p></dd><dt class="enumerate">
+  (2) </dt><dd class="enumerate">
+     <p class="noindent">Trace-class morphisms form a two-sided ideal: if \(f\) is trace-class with witness \((z,\alpha ,\beta )\), then \(hfk\) is trace-class
+     with witness \((z,(h \otimes z)\alpha ,\beta (z \otimes k))\).
+     </p></dd><dt class="enumerate">
+  (3) </dt><dd class="enumerate">
+     <p class="noindent">If \(C\) is stable and idempotent complete (for instance presentable and stable), then the identity of
+     \(x\) is trace-class if and only if \(x\) is dualizable, see <a class="source-reference" href="../../../entry/trace-class-identities-and-dualizability/index.html#lem:Identity_Trace_Class">Lemma 6.5</a>.
+                                                                                   
+                                                                                   
+     </p></dd><dt class="enumerate">
+  (4) </dt><dd class="enumerate">
+     <p class="noindent">A symmetric monoidal functor preserves trace-class morphisms, since it preserves the data \((z,\alpha ,\beta )\).</p></dd></dl>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2013r7"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/trace-class-morphisms-are-compact/index.html" title="Trace-class morphisms are compact">Lemma 6.7.</a></span>  </span><span id="lem:Trace_Class_Compact"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(C \in \CAlg (\PrL _{\st })\) <span class="ntx-Italic-tlf-t1-x-x-109">be such that</span> \(\unit _C\) <span class="ntx-Italic-tlf-t1-x-x-109">is compact. Then every trace-class morphism in</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">is compact in the
+sense of </span><a class="source-reference" href="../../../entry/compact-morphisms/index.html#def:Compact_Morphism">Definition 3.3</a><span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-2">
+<p class="noindent">Let \(f\colon x \to y\) be trace-class with witness \((z,\alpha ,\beta )\). We construct a factorization of \(f^*\colon \Map _C(y,\colim (-)) \to \Map _C(x,\colim (-))\) through \(\Map _{\Ind (C)}(y(x),-)\), naturally in \(W = \quotcolim _j w_j \in \Ind (C)\).
+Given \(g\colon y \to \colim _j w_j\), consider \[ (g \otimes z) \circ \alpha \colon \unit _C \to (\colim _j w_j) \otimes z \simeq \colim _j (w_j \otimes z). \] Since \(\unit _C\) is compact, this defines a point of \(\colim _j \Map _C(\unit _C,w_j \otimes z)\), and postcomposing with the natural map
+\[ \colim _j \Map _C(\unit _C,w_j \otimes z) \to \colim _j \Map _C(x,w_j), \qquad \gamma \mapsto (w_j \otimes \beta ) \circ (\gamma \otimes x), \] we obtain a point of \(\colim _j \Map _C(x,w_j) = \Map _{\Ind (C)}(y(x),W)\). All these maps are natural in \(W\), and the image of this point in \(\Map _C(x,\colim _j w_j)\) is \((\colim _j w_j \otimes \beta ) \circ ((g \otimes z)\alpha \otimes x) \simeq g \circ (y \otimes \beta ) \circ (\alpha \otimes x) \simeq gf\).                  □
+</p>
+</div></details>
+<p class="noindent">The converse holds for rigid categories; this is the main structural result about rigid categories. It was
+formulated in Clausen’s lectures as the <span class="ntx-Italic-tlf-t1-x-x-109">definition </span>of rigidity for dualizable symmetric monoidal
+categories.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2014r8"></a>
+                                                                                   
+                                                                                   
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/rigidity-via-trace-class-morphisms/index.html" title="Rigidity via trace-class morphisms">Theorem 6.8 </a></span>(Ramzi [<a class="citation" href="../../../references/index.html#bib-Ramzi_Locally_Rigid">Ramzi (2024b)</a>, Corollaries 2.6, 4.55 and 4.60, Example 2.9]; see also [<a class="citation" href="../../../references/index.html#bib-Efimov_Inverse_Limits">Efimov (2025)</a>, Propositions 1.6 and 1.7])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="thm:Rigid_Trace_Class"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(C \in \CAlg (\PrL _{\st })\)<span class="ntx-Italic-tlf-t1-x-x-109">. Then the following are equivalent:</span>
+     </p><dl class="enumerate"><dt class="enumerate">
+  (1) </dt><dd class="enumerate">
+     <p class="noindent">\(C\) <span class="ntx-Italic-tlf-t1-x-x-109">is rigid;</span>
+     </p></dd><dt class="enumerate">
+  (2) </dt><dd class="enumerate">
+     <p class="noindent">\(\unit _C\) <span class="ntx-Italic-tlf-t1-x-x-109">is compact, and</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">is generated under colimits by objects of the form</span> \(\colim (x_0 \to x_1 \to x_2 \to \cdots )\) <span class="ntx-Italic-tlf-t1-x-x-109">in which each map</span> \(x_n \to x_{n+1}\) <span class="ntx-Italic-tlf-t1-x-x-109">is
+     trace-class;</span>
+     </p></dd><dt class="enumerate">
+  (3) </dt><dd class="enumerate">
+     <p class="noindent">\(C\) <span class="ntx-Italic-tlf-t1-x-x-109">is dualizable, and a morphism in</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">is compact if and only if it is trace-class.</span></p></dd></dl>
+</div>
+<p class="noindent">We will not prove this theorem. Note however that some implications are formal given what we know: (1) \(\implies \)
+the first half of (3) is <a class="source-reference" href="../../../entry/self-duality-of-rigid-categories/index.html#prop:Rigid_Self_Dual_Detailed">Proposition 6.3</a>, and (3) \(\implies \) (2) follows from <a class="source-reference" href="../../../entry/compact-morphisms-via-the-finest-presentation/index.html#lem:Compact_Morphisms_Yhat">Lemma 3.5</a>(2), since \(\id _{\unit _C}\) is trace-class and hence compact, and
+<a class="source-reference" href="../../../entry/sequential-colimits-of-compact-morphisms/index.html#rem:Omega_1_Compact_Compact_Morphisms">Remark 3.21</a>, which shows that a dualizable category is generated by sequential colimits along compact
+morphisms. The hard part is that in a rigid category every compact morphism is trace-class [<a class="citation" href="../../../references/index.html#bib-Ramzi_Locally_Rigid">Ramzi (2024b)</a>, Corollary 4.55, Example 2.9 and Corollary 2.6],
+and that (2) implies (1) [<a class="citation" href="../../../references/index.html#bib-Ramzi_Locally_Rigid">Ramzi (2024b)</a>, Corollary 4.60]. Note that the dualizability hypothesis in (3) was not stated in the
+talk.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2018r9"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/strong-continuity-of-rigid-monoidal-functors/index.html" title="Strong continuity of rigid monoidal functors">Corollary 6.9.</a></span>  </span><span id="cor:Rigid_Functors_Strongly_Continuous"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(F\colon C \to D\) <span class="ntx-Italic-tlf-t1-x-x-109">be a colimit-preserving symmetric monoidal functor between rigid categories.
+Then</span> \(F\) <span class="ntx-Italic-tlf-t1-x-x-109">is strongly continuous. Consequently, the category</span> \(\mathrm {Rig}\) <span class="ntx-Italic-tlf-t1-x-x-109">of rigid symmetric monoidal categories
+and colimit-preserving symmetric monoidal functors is a full subcategory of</span> \(\CAlg (\Pr ^{\dual })\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-1">
+<p class="noindent">By <a class="source-reference" href="../../../entry/rigidity-via-trace-class-morphisms/index.html#thm:Rigid_Trace_Class">Theorem 6.8</a>, the compact morphisms in \(C\) are trace-class. Since \(F\) is symmetric monoidal, it preserves
+trace-class morphisms (<a class="source-reference" href="../../../entry/properties-of-trace-class-morphisms/index.html#rem:Trace_Class_Basics">Remark 6.6</a>(4)), and trace-class morphisms in \(D\) are compact by <a class="source-reference" href="../../../entry/trace-class-morphisms-are-compact/index.html#lem:Trace_Class_Compact">Lemma 6.7</a>. So \(F\) preserves compact
+morphisms, and hence is strongly continuous by <a class="source-reference" href="../../../entry/strong-continuity-via-compact-morphisms/index.html#prop:Strongly_Continuous_Compact_Morphisms">Proposition 3.22</a>.                                                                             □
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2019r10"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/strong-continuity-from-a-rigid-source/index.html" title="Strong continuity from a rigid source">Remark 6.10.</a></span>  </span><span id="rem:Strong_Continuity_From_Rigid_Source"></span> The argument shows more generally that a colimit-preserving symmetric monoidal
+functor \(F\colon C \to D\) with \(C\) rigid and \(D\) dualizable with compact unit is strongly continuous. In fact, the dualizability
+hypothesis on \(D\) can be removed [<a class="citation" href="../../../references/index.html#bib-Efimov_Inverse_Limits">Efimov (2025)</a>, Proposition 1.9].
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2020r11"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/compactly-generated-rigid-categories/index.html" title="Compactly generated rigid categories">Example 6.11.</a></span>  </span><span id="ex:Rigid_Compactly_Generated"></span> Let \(C \in \CAlg (\PrL _{\st })\) be compactly generated. Then \(C\) is rigid if and only if \(\unit _C\) is compact and every
+compact object of \(C\) is dualizable, if and only if the compact objects of \(C\) are precisely the dualizable
+objects [<a class="citation" href="../../../references/index.html#bib-GaitsgoryRozenbluym2017StudyDAG">Gaitsgory and Rozenblyum (2017)</a>, Chapter 1, Lemma 9.1.5 and Corollary 9.1.7]. Indeed, if \(\unit _C\) is compact, then dualizable objects are compact (as \(\Map (x,-) \simeq \Map (\unit _C,x^{\vee } \otimes -)\)), and conversely if all
+compact objects are dualizable, then \(C = \Ind (C^{\omega })\) is generated by objects whose identity is trace-class, so (2) of <a class="source-reference" href="../../../entry/rigidity-via-trace-class-morphisms/index.html#thm:Rigid_Trace_Class">Theorem 6.8</a>
+holds. Examples include \(\D (R)\) for a commutative ring \(R\), more generally \(\D _{\mathrm {qc}}(X)\) for a qcqs scheme \(X\), and \(\Sp \) itself.
+</p>
+</div>
+                                                                                   
+                                                                                   
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2021r12"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/rigidity-of-sheaves-on-compact-hausdorff-spaces/index.html" title="Rigidity of sheaves on compact Hausdorff spaces">Example 6.12.</a></span>  </span><span id="ex:Shv_Compact_Hausdorff_Rigid"></span> Let \(X\) be a compact Hausdorff space. Then \(\Shv (X;\Sp )\) is rigid; this can be seen as a manifestation
+of Verdier duality, see [<a class="citation" href="../../../references/index.html#bib-Efimov_Inverse_Limits">Efimov (2025)</a>, Example 1.4]. For instance, the unit (the constant sheaf) is compact since global sections
+\(\Gamma (X;-)\) commute with filtered colimits for compact \(X\) [<a class="citation" href="../../../references/index.html#bib-lurie2009HTT">Lurie (2009)</a>, Corollary 7.3.4.12]. In particular, \(\Shv (X;\Sp )\) is dualizable and self-dual. For every
+presentable stable category \(D\) we have \(\Shv (X;D) \simeq \Shv (X;\Sp ) \otimes D\) [<a class="citation" href="../../../references/index.html#bib-Krause_Nikolaus_Putzstuck_Sheaves">Krause et al. (2024)</a>, Proposition 2.8.7], so \(\Shv (X;D)\) is dualizable whenever \(D\) is. We will study these categories
+in detail in <a class="source-reference" href="/efimov-k-theory.pdf#nameddest=chapter.9">Chapter 9</a>.
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2022r13"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/local-rigidity-of-sheaf-categories/index.html" title="Local rigidity of sheaf categories">Example 6.13.</a></span>  </span><span id="ex:Locally_Rigid_Sheaf_Categories"></span> If \(X\) is merely locally compact Hausdorff and not compact, then \(\Shv (X;\Sp )\) is not rigid, since
+the unit is not compact. It is still dualizable, and even <span class="ntx-Italic-tlf-t1-x-x-109">locally rigid </span>in the sense of Ramzi [<a class="citation" href="../../../references/index.html#bib-Ramzi_Locally_Rigid">Ramzi (2024b)</a>, Definition 4.5 and Example 4.10] (see also
+[<a class="citation" href="../../../references/index.html#bib-Efimov_Inverse_Limits">Efimov (2025)</a>, Definition 1.36 and Example 1.38] and [<a class="citation" href="../../../references/index.html#bib-Krause_Nikolaus_Putzstuck_Sheaves">Krause et al. (2024)</a>, Example 4.2.9, Corollary 4.4.13]): it satisfies condition (2) of <a class="source-reference" href="../../../entry/rigid-symmetric-monoidal-categories/index.html#def:Rigid_Category_Detailed">Definition 6.1</a>. Indeed, for \(j\colon X \hookrightarrow X^+\) the one-point compactification, \(j_!\) identifies \(\Shv (X;\Sp )\) with a
+smashing ideal in the rigid category \(\Shv (X^+;\Sp )\).
+</p>
+</div>
+
+</article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Page navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../../preface/index.html"><span class="context-entry-heading">Preface</span><span class="context-entry-title"></span></a></li><li><a href="../../../chapter/introduction-and-overview/index.html"><span class="context-entry-heading">Chapter 1</span><span class="context-entry-title">Introduction and overview</span></a></li><li><a href="../../../chapter/stable-categories-and-localization-sequences/index.html"><span class="context-entry-heading">Chapter 2</span><span class="context-entry-title">Stable categories and localization sequences</span></a></li><li><a href="../../../chapter/compactly-assembled-and-dualizable-categories/index.html"><span class="context-entry-heading">Chapter 3</span><span class="context-entry-title">Compactly assembled and dualizable categories</span></a></li><li><a href="../../../chapter/compact-morphisms-and-ab6/index.html"><span class="context-entry-heading">Chapter 4</span><span class="context-entry-title">Compact morphisms and the axiom (AB6)</span></a></li><li><a href="../../../chapter/examples-of-dualizable-categories/index.html"><span class="context-entry-heading">Chapter 5</span><span class="context-entry-title">Examples of dualizable categories</span></a></li><li><a href="../../../chapter/rigidity-and-nuclear-objects/index.html" aria-current="page"><span class="context-entry-heading">Chapter 6</span><span class="context-entry-title">Rigidity and nuclear objects</span></a></li><li><a href="../../../chapter/calkin-categories-colimits-and-limits/index.html"><span class="context-entry-heading">Chapter 7</span><span class="context-entry-title">Calkin categories, colimits and limits of dualizable categories</span></a></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 8</span><span class="context-entry-title">Localizing invariants of dualizable categories</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 9</span><span class="context-entry-title">Sheaves on continuous posets and locally compact Hausdorff spaces</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 10</span><span class="context-entry-title">Dualizability and flatness</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 11</span><span class="context-entry-title">ℵ₁-presentability of Prᵈᵘᵃˡ</span></span></li><li><a href="../../../chapter/categorical-background/index.html"><span class="context-entry-heading">Appendix A</span><span class="context-entry-title">Categorical background</span></a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="index.html" aria-current="page"><span class="context-entry-heading">Section 6.1</span><span class="context-entry-title">Rigid symmetric monoidal categories</span></a></li><li><a href="../nuclear-modules-and-condensed-mathematics/index.html"><span class="context-entry-heading">Section 6.2</span><span class="context-entry-title">Nuclear modules and condensed mathematics</span></a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="true">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-named-results" aria-expanded="true">
+      <span>Named results</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-named-results" aria-label="Named results" data-ledger-key="named-results" data-default-collapsed="false" data-collapsed="false">
+      <ol class="context-entry-list"><li><a href="../../../entry/rigidity-via-trace-class-morphisms/index.html"><span class="context-entry-heading">Theorem 6.8</span><span class="context-entry-title">Rigidity via trace-class morphisms</span></a></li></ol>
+    </nav>
+  </section></div>
+  </aside></main><footer class="edition-footer">
+  <a href="/efimov-k-theory.pdf">PDF</a>
+  <p class="source-note">Generated from the LaTeX source.</p>
+</footer></body></html>

@@ -1,0 +1,1395 @@
+{
+  "chapters": [
+    {
+      "id": "introduction-and-overview",
+      "page": "chapter/introduction-and-overview/index.html",
+      "title": "Introduction and overview",
+      "heading": "Chapter 1",
+      "sections": [
+        {
+          "id": "why-change-the-input-of-k-theory",
+          "page": "section/introduction-and-overview/why-change-the-input-of-k-theory/index.html",
+          "title": "Why change the input of K-theory?",
+          "heading": "Section 1.1"
+        },
+        {
+          "id": "where-small-stable-categories-fall-short",
+          "page": "section/introduction-and-overview/where-small-stable-categories-fall-short/index.html",
+          "title": "Where small stable categories fall short",
+          "heading": "Section 1.2"
+        },
+        {
+          "id": "from-small-to-large-categories",
+          "page": "section/introduction-and-overview/from-small-to-large-categories/index.html",
+          "title": "From small to large categories",
+          "heading": "Section 1.3"
+        },
+        {
+          "id": "continuous-k-theory",
+          "page": "section/introduction-and-overview/continuous-k-theory/index.html",
+          "title": "Continuous K-theory",
+          "heading": "Section 1.4"
+        },
+        {
+          "id": "first-computations",
+          "page": "section/introduction-and-overview/first-computations/index.html",
+          "title": "First computations",
+          "heading": "Section 1.5"
+        },
+        {
+          "id": "overview-of-the-notes",
+          "page": "section/introduction-and-overview/overview-of-the-notes/index.html",
+          "title": "Overview of the notes",
+          "heading": "Section 1.6"
+        }
+      ]
+    },
+    {
+      "id": "stable-categories-and-localization-sequences",
+      "page": "chapter/stable-categories-and-localization-sequences/index.html",
+      "title": "Stable categories and localization sequences",
+      "heading": "Chapter 2",
+      "sections": [
+        {
+          "id": "verdier-sequences",
+          "page": "section/stable-categories-and-localization-sequences/verdier-sequences/index.html",
+          "title": "Verdier sequences",
+          "heading": "Section 2.1"
+        },
+        {
+          "id": "idempotent-completion-and-short-exact-sequences",
+          "page": "section/stable-categories-and-localization-sequences/idempotent-completion-and-short-exact-sequences/index.html",
+          "title": "Idempotent completion and short exact sequences",
+          "heading": "Section 2.2"
+        },
+        {
+          "id": "presentable-localization-sequences",
+          "page": "section/stable-categories-and-localization-sequences/presentable-localization-sequences/index.html",
+          "title": "Localization sequences of presentable stable categories",
+          "heading": "Section 2.3"
+        },
+        {
+          "id": "semiorthogonal-decompositions",
+          "page": "section/stable-categories-and-localization-sequences/semiorthogonal-decompositions/index.html",
+          "title": "Semiorthogonal decompositions",
+          "heading": "Section 2.4"
+        },
+        {
+          "id": "calkin-categories",
+          "page": "section/stable-categories-and-localization-sequences/calkin-categories/index.html",
+          "title": "Calkin categories",
+          "heading": "Section 2.5"
+        },
+        {
+          "id": "localizing-invariants",
+          "page": "section/stable-categories-and-localization-sequences/localizing-invariants/index.html",
+          "title": "Localizing invariants",
+          "heading": "Section 2.6"
+        }
+      ]
+    },
+    {
+      "id": "compactly-assembled-and-dualizable-categories",
+      "page": "chapter/compactly-assembled-and-dualizable-categories/index.html",
+      "title": "Compactly assembled and dualizable categories",
+      "heading": "Chapter 3",
+      "sections": [
+        {
+          "id": "compactly-assembled-categories",
+          "page": "section/compactly-assembled-and-dualizable-categories/compactly-assembled-categories/index.html",
+          "title": "Compactly assembled categories",
+          "heading": "Section 3.1"
+        },
+        {
+          "id": "dualizable-categories",
+          "page": "section/compactly-assembled-and-dualizable-categories/dualizable-categories/index.html",
+          "title": "Dualizable categories",
+          "heading": "Section 3.2"
+        },
+        {
+          "id": "localization-sequences-of-dualizable-categories",
+          "page": "section/compactly-assembled-and-dualizable-categories/localization-sequences-of-dualizable-categories/index.html",
+          "title": "Localization sequences of dualizable categories",
+          "heading": "Section 3.3"
+        },
+        {
+          "id": "omega-one-presentability",
+          "page": "section/compactly-assembled-and-dualizable-categories/omega-one-presentability/index.html",
+          "title": "ω₁-presentability",
+          "heading": "Section 3.4"
+        }
+      ]
+    },
+    {
+      "id": "compact-morphisms-and-ab6",
+      "page": "chapter/compact-morphisms-and-ab6/index.html",
+      "title": "Compact morphisms and the axiom (AB6)",
+      "heading": "Chapter 4",
+      "sections": [
+        {
+          "id": "weakly-compact-morphisms",
+          "page": "section/compact-morphisms-and-ab6/weakly-compact-morphisms/index.html",
+          "title": "Weakly compact morphisms",
+          "heading": "Section 4.1"
+        },
+        {
+          "id": "compactly-exhaustible-objects",
+          "page": "section/compact-morphisms-and-ab6/compactly-exhaustible-objects/index.html",
+          "title": "Compactly exhaustible objects",
+          "heading": "Section 4.2"
+        },
+        {
+          "id": "universal-property-of-the-finest-presentation",
+          "page": "section/compact-morphisms-and-ab6/universal-property-of-the-finest-presentation/index.html",
+          "title": "A universal property of ŷ",
+          "heading": "Section 4.3"
+        },
+        {
+          "id": "the-ab6-axiom",
+          "page": "section/compact-morphisms-and-ab6/the-ab6-axiom/index.html",
+          "title": "The axiom (AB6)",
+          "heading": "Section 4.4"
+        },
+        {
+          "id": "automatic-dualizability-and-images",
+          "page": "section/compact-morphisms-and-ab6/automatic-dualizability-and-images/index.html",
+          "title": "Automatic dualizability and images",
+          "heading": "Section 4.5"
+        }
+      ]
+    },
+    {
+      "id": "examples-of-dualizable-categories",
+      "page": "chapter/examples-of-dualizable-categories/index.html",
+      "title": "Examples of dualizable categories",
+      "heading": "Chapter 5",
+      "sections": [
+        {
+          "id": "kernels-of-homological-epimorphisms",
+          "page": "section/examples-of-dualizable-categories/kernels-of-homological-epimorphisms/index.html",
+          "title": "Kernels of homological epimorphisms",
+          "heading": "Section 5.1"
+        },
+        {
+          "id": "almost-ring-theory",
+          "page": "section/examples-of-dualizable-categories/almost-ring-theory/index.html",
+          "title": "Almost ring theory",
+          "heading": "Section 5.2"
+        },
+        {
+          "id": "continuous-posets",
+          "page": "section/examples-of-dualizable-categories/continuous-posets/index.html",
+          "title": "Continuous posets",
+          "heading": "Section 5.3"
+        },
+        {
+          "id": "extensions-and-semiorthogonal-gluing",
+          "page": "section/examples-of-dualizable-categories/extensions-and-semiorthogonal-gluing/index.html",
+          "title": "Extensions and semiorthogonal gluing",
+          "heading": "Section 5.4"
+        }
+      ]
+    },
+    {
+      "id": "rigidity-and-nuclear-objects",
+      "page": "chapter/rigidity-and-nuclear-objects/index.html",
+      "title": "Rigidity and nuclear objects",
+      "heading": "Chapter 6",
+      "sections": [
+        {
+          "id": "rigid-symmetric-monoidal-categories",
+          "page": "section/rigidity-and-nuclear-objects/rigid-symmetric-monoidal-categories/index.html",
+          "title": "Rigid symmetric monoidal categories",
+          "heading": "Section 6.1"
+        },
+        {
+          "id": "nuclear-modules-and-condensed-mathematics",
+          "page": "section/rigidity-and-nuclear-objects/nuclear-modules-and-condensed-mathematics/index.html",
+          "title": "Nuclear modules and condensed mathematics",
+          "heading": "Section 6.2"
+        }
+      ]
+    },
+    {
+      "id": "calkin-categories-colimits-and-limits",
+      "page": "chapter/calkin-categories-colimits-and-limits/index.html",
+      "title": "Calkin categories, colimits and limits of dualizable categories",
+      "heading": "Chapter 7",
+      "sections": [
+        {
+          "id": "colimits-of-dualizable-categories",
+          "page": "section/calkin-categories-colimits-and-limits/colimits-of-dualizable-categories/index.html",
+          "title": "Colimits of dualizable categories",
+          "heading": "Section 7.1"
+        },
+        {
+          "id": "continuous-calkin-categories",
+          "page": "section/calkin-categories-colimits-and-limits/continuous-calkin-categories/index.html",
+          "title": "Continuous Calkin categories",
+          "heading": "Section 7.2"
+        },
+        {
+          "id": "filtered-colimits-of-dualizable-categories",
+          "page": "section/calkin-categories-colimits-and-limits/filtered-colimits-of-dualizable-categories/index.html",
+          "title": "Filtered colimits of dualizable categories",
+          "heading": "Section 7.3"
+        },
+        {
+          "id": "finite-limits-of-dualizable-categories",
+          "page": "section/calkin-categories-colimits-and-limits/finite-limits-of-dualizable-categories/index.html",
+          "title": "Finite limits of dualizable categories",
+          "heading": "Section 7.4"
+        }
+      ]
+    },
+    {
+      "id": "categorical-background",
+      "page": "chapter/categorical-background/index.html",
+      "title": "Categorical background",
+      "heading": "Appendix A",
+      "sections": [
+        {
+          "id": "filtered-categories",
+          "page": "section/categorical-background/filtered-categories/index.html",
+          "title": "Filtered and κ-filtered categories",
+          "heading": "Section A.1"
+        },
+        {
+          "id": "accessible-and-presentable-categories",
+          "page": "section/categorical-background/accessible-and-presentable-categories/index.html",
+          "title": "Accessible and presentable categories",
+          "heading": "Section A.2"
+        },
+        {
+          "id": "idempotent-completeness",
+          "page": "section/categorical-background/idempotent-completeness/index.html",
+          "title": "Idempotent completeness",
+          "heading": "Section A.3"
+        },
+        {
+          "id": "mates",
+          "page": "section/categorical-background/mates/index.html",
+          "title": "Mates",
+          "heading": "Section A.4"
+        },
+        {
+          "id": "tensor-products-of-presentable-categories",
+          "page": "section/categorical-background/tensor-products-of-presentable-categories/index.html",
+          "title": "Tensor products of presentable categories",
+          "heading": "Section A.5"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "page": "entry/conventions-for-categories-and-k-theory/index.html",
+      "chapterId": "introduction-and-overview"
+    },
+    {
+      "page": "entry/dualizable-categories-an-overview/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "from-small-to-large-categories"
+    },
+    {
+      "page": "entry/examples-of-dualizable-categories/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "from-small-to-large-categories"
+    },
+    {
+      "page": "entry/rigid-categories-an-overview/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "from-small-to-large-categories"
+    },
+    {
+      "page": "entry/rigidity-of-ind-categories/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "from-small-to-large-categories"
+    },
+    {
+      "page": "entry/self-duality-of-rigid-categories-an-overview/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "from-small-to-large-categories"
+    },
+    {
+      "page": "entry/compact-objects-and-compact-morphisms/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "from-small-to-large-categories"
+    },
+    {
+      "page": "entry/dualizable-categories-and-strongly-continuous-functors/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "from-small-to-large-categories"
+    },
+    {
+      "page": "entry/continuous-extensions-of-localizing-invariants/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "continuous-k-theory"
+    },
+    {
+      "page": "entry/efimovs-continuous-extension-theorem/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "continuous-k-theory"
+    },
+    {
+      "page": "entry/topological-hochschild-homology-as-a-trace/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "continuous-k-theory"
+    },
+    {
+      "page": "entry/continuous-k-theory-of-sheaves/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "first-computations"
+    },
+    {
+      "page": "entry/continuous-k-theory-of-euclidean-sheaves/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "first-computations"
+    },
+    {
+      "page": "entry/continuous-k-theory-of-compact-operators/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "first-computations"
+    },
+    {
+      "page": "entry/continuous-k-theory-of-nuclear-modules/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "first-computations"
+    },
+    {
+      "page": "entry/analytic-descent-for-nuclear-modules/index.html",
+      "chapterId": "introduction-and-overview",
+      "sectionId": "first-computations"
+    },
+    {
+      "page": "entry/verdier-quotients/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "verdier-sequences"
+    },
+    {
+      "page": "entry/kernel-of-a-verdier-quotient/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "verdier-sequences"
+    },
+    {
+      "page": "entry/nullhomotopies-as-a-property/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "verdier-sequences"
+    },
+    {
+      "page": "entry/verdier-sequences/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "verdier-sequences"
+    },
+    {
+      "page": "entry/short-exact-sequences/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "idempotent-completion-and-short-exact-sequences"
+    },
+    {
+      "page": "entry/characterizing-short-exact-sequences/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "idempotent-completion-and-short-exact-sequences"
+    },
+    {
+      "page": "entry/verdier-and-karoubi-quotients/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "idempotent-completion-and-short-exact-sequences"
+    },
+    {
+      "page": "entry/mapping-spectra-in-verdier-quotients/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "idempotent-completion-and-short-exact-sequences"
+    },
+    {
+      "page": "entry/lifting-objects-from-quotients/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "idempotent-completion-and-short-exact-sequences"
+    },
+    {
+      "page": "entry/thomason-trobaugh-localization/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "idempotent-completion-and-short-exact-sequences"
+    },
+    {
+      "page": "entry/presentable-localization-sequences/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/constructing-presentable-localization-sequences/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/strong-continuity-in-localization-sequences/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/compact-generators-and-thick-closure/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/compact-objects-in-localization-sequences/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/homological-epimorphisms/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/thomason-neeman-theorem/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/karoubi-quotients-via-ind-categories/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/ind-completion-and-localization/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/kellers-smashing-localization/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "presentable-localization-sequences"
+    },
+    {
+      "page": "entry/semiorthogonal-decompositions/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "semiorthogonal-decompositions"
+    },
+    {
+      "page": "entry/two-term-semiorthogonal-decompositions/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "semiorthogonal-decompositions"
+    },
+    {
+      "page": "entry/recognizing-semiorthogonal-decompositions/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "semiorthogonal-decompositions"
+    },
+    {
+      "page": "entry/small-semiorthogonal-decompositions/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "semiorthogonal-decompositions"
+    },
+    {
+      "page": "entry/adjoints-and-split-exact-sequences/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "semiorthogonal-decompositions"
+    },
+    {
+      "page": "entry/calkin-categories/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "calkin-categories"
+    },
+    {
+      "page": "entry/mapping-spectra-in-calkin-categories/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "calkin-categories"
+    },
+    {
+      "page": "entry/calkin-category-of-perfect-complexes/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "calkin-categories"
+    },
+    {
+      "page": "entry/grothendieck-groups/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/localizing-invariants/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/localizing-invariants-and-verdier-sequences/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/verdier-versus-karoubi-invariants/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/finitary-localizing-invariants/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/localizing-invariants-are-additive/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/calkin-delooping/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/universal-property-of-algebraic-k-theory/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/filtered-colimits-in-the-universal-property/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/localizing-motives/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/corepresentability-of-k-theory/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/k-theory-as-the-day-convolution-unit/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/tammes-excision-theorem/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/localization-after-ind-completion/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/tammes-lax-pullback-proof/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/milnor-patching/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/milnor-patching-in-k-theory/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/milnor-squares-of-rings/index.html",
+      "chapterId": "stable-categories-and-localization-sequences",
+      "sectionId": "localizing-invariants"
+    },
+    {
+      "page": "entry/compactly-assembled-categories/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/compact-objects-and-the-finest-presentation/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/compact-morphisms/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/the-ideal-of-compact-morphisms/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/compact-morphisms-via-the-finest-presentation/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/compact-generation-implies-compact-assembly/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/continuous-posets-an-overview/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/compactly-assembled-categories-as-retracts/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/strongly-continuous-functors-between-compactly-assembled-categories/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/right-adjoints-and-strong-continuity/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "compactly-assembled-categories"
+    },
+    {
+      "page": "entry/dualizable-categories/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "dualizable-categories"
+    },
+    {
+      "page": "entry/duality-for-module-categories/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "dualizable-categories"
+    },
+    {
+      "page": "entry/strong-continuity-in-stable-categories/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "dualizable-categories"
+    },
+    {
+      "page": "entry/compactly-generated-categories-in-pr-dual/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "dualizable-categories"
+    },
+    {
+      "page": "entry/formal-properties-of-pr-dual/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "dualizable-categories"
+    },
+    {
+      "page": "entry/luries-characterization-of-dualizable-categories/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "dualizable-categories"
+    },
+    {
+      "page": "entry/further-characterizations-of-dualizable-categories/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "dualizable-categories"
+    },
+    {
+      "page": "entry/compact-morphisms-and-flatness-characterizations/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "dualizable-categories"
+    },
+    {
+      "page": "entry/localization-sequences-preserve-dualizability/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "localization-sequences-of-dualizable-categories"
+    },
+    {
+      "page": "entry/omega-one-presentability-of-compactly-assembled-categories/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "omega-one-presentability"
+    },
+    {
+      "page": "entry/sequential-colimits-of-compact-morphisms/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "omega-one-presentability"
+    },
+    {
+      "page": "entry/strong-continuity-via-compact-morphisms/index.html",
+      "chapterId": "compactly-assembled-and-dualizable-categories",
+      "sectionId": "omega-one-presentability"
+    },
+    {
+      "page": "entry/weakly-compact-morphisms/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/lifting-criterion-for-weakly-compact-morphisms/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/examples-of-weakly-compact-morphisms/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/characterizations-of-compact-morphisms/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/weak-compactness-in-small-ind-completions/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/factorization-of-compact-morphisms/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/rational-interpolation-of-morphisms/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/compact-interpolation-and-omega-one-compactness/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/stable-criterion-for-weak-compactness/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/alternative-definitions-of-compact-morphisms/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/comparing-stable-compactness-definitions/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/compact-objects-via-weakly-compact-identities/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "weakly-compact-morphisms"
+    },
+    {
+      "page": "entry/compactly-exhaustible-objects/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "compactly-exhaustible-objects"
+    },
+    {
+      "page": "entry/dualizability-via-compact-exhaustions/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "compactly-exhaustible-objects"
+    },
+    {
+      "page": "entry/compact-exhaustions-without-stability/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "compactly-exhaustible-objects"
+    },
+    {
+      "page": "entry/coreflection-onto-filtered-colimit-preserving-functors/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "universal-property-of-the-finest-presentation"
+    },
+    {
+      "page": "entry/universal-property-of-the-finest-presentation/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "universal-property-of-the-finest-presentation"
+    },
+    {
+      "page": "entry/the-ab6-axiom/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "the-ab6-axiom"
+    },
+    {
+      "page": "entry/ab6-for-sets-and-animae/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "the-ab6-axiom"
+    },
+    {
+      "page": "entry/products-in-ind-categories/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "the-ab6-axiom"
+    },
+    {
+      "page": "entry/dualizability-and-ab6/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "the-ab6-axiom"
+    },
+    {
+      "page": "entry/ab6-and-small-ind-completions/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "the-ab6-axiom"
+    },
+    {
+      "page": "entry/ab6-and-compact-assembly/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "the-ab6-axiom"
+    },
+    {
+      "page": "entry/automatic-strong-continuity/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "automatic-dualizability-and-images"
+    },
+    {
+      "page": "entry/dualizability-from-generating-functors/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "automatic-dualizability-and-images"
+    },
+    {
+      "page": "entry/products-of-dualizable-categories/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "automatic-dualizability-and-images"
+    },
+    {
+      "page": "entry/image-of-a-functor/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "automatic-dualizability-and-images"
+    },
+    {
+      "page": "entry/images-are-dualizable/index.html",
+      "chapterId": "compact-morphisms-and-ab6",
+      "sectionId": "automatic-dualizability-and-images"
+    },
+    {
+      "page": "entry/kernels-of-homological-epimorphisms/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "kernels-of-homological-epimorphisms"
+    },
+    {
+      "page": "entry/every-dualizable-category-is-a-kernel/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "kernels-of-homological-epimorphisms"
+    },
+    {
+      "page": "entry/h-unitality-and-homological-epimorphisms/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "kernels-of-homological-epimorphisms"
+    },
+    {
+      "page": "entry/examples-of-homological-epimorphisms/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "kernels-of-homological-epimorphisms"
+    },
+    {
+      "page": "entry/almost-modules/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "almost-ring-theory"
+    },
+    {
+      "page": "entry/examples-of-almost-modules/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "almost-ring-theory"
+    },
+    {
+      "page": "entry/derived-restriction-for-almost-modules/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "almost-ring-theory"
+    },
+    {
+      "page": "entry/essential-image-of-almost-restriction/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "almost-ring-theory"
+    },
+    {
+      "page": "entry/derived-categories-of-almost-modules/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "almost-ring-theory"
+    },
+    {
+      "page": "entry/almost-modules-without-flatness/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "almost-ring-theory"
+    },
+    {
+      "page": "entry/almost-categories-without-compact-objects/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "almost-ring-theory"
+    },
+    {
+      "page": "entry/almost-modules-over-the-completed-algebraic-closure/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "almost-ring-theory"
+    },
+    {
+      "page": "entry/hilbert-space-models-for-operator-ideals/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "almost-ring-theory"
+    },
+    {
+      "page": "entry/ind-completion-of-a-poset/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "continuous-posets"
+    },
+    {
+      "page": "entry/accessibility-of-small-posets/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "continuous-posets"
+    },
+    {
+      "page": "entry/continuous-posets/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "continuous-posets"
+    },
+    {
+      "page": "entry/way-below-relation/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "continuous-posets"
+    },
+    {
+      "page": "entry/properties-of-the-way-below-relation/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "continuous-posets"
+    },
+    {
+      "page": "entry/characterizing-continuous-posets/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "continuous-posets"
+    },
+    {
+      "page": "entry/the-extended-real-line-as-a-continuous-poset/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "continuous-posets"
+    },
+    {
+      "page": "entry/open-subsets-as-a-continuous-poset/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "continuous-posets"
+    },
+    {
+      "page": "entry/continuous-posets-and-sheaf-categories/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "continuous-posets"
+    },
+    {
+      "page": "entry/dualizability-and-semiorthogonal-decompositions/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "extensions-and-semiorthogonal-gluing"
+    },
+    {
+      "page": "entry/semiorthogonal-gluing/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "extensions-and-semiorthogonal-gluing"
+    },
+    {
+      "page": "entry/dualizability-of-gluings/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "extensions-and-semiorthogonal-gluing"
+    },
+    {
+      "page": "entry/semiorthogonal-decompositions-of-functor-categories/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "extensions-and-semiorthogonal-gluing"
+    },
+    {
+      "page": "entry/extensions-need-not-be-dualizable/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "extensions-and-semiorthogonal-gluing"
+    },
+    {
+      "page": "entry/extensions-and-tate-objects/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "extensions-and-semiorthogonal-gluing"
+    },
+    {
+      "page": "entry/classifying-exact-sequences-with-tate-objects/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "extensions-and-semiorthogonal-gluing"
+    },
+    {
+      "page": "entry/efimovs-nondualizable-extension/index.html",
+      "chapterId": "examples-of-dualizable-categories",
+      "sectionId": "extensions-and-semiorthogonal-gluing"
+    },
+    {
+      "page": "entry/rigid-symmetric-monoidal-categories/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/equivalent-definitions-of-rigidity/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/self-duality-of-rigid-categories/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/trace-class-morphisms/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/trace-class-identities-and-dualizability/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/properties-of-trace-class-morphisms/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/trace-class-morphisms-are-compact/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/rigidity-via-trace-class-morphisms/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/strong-continuity-of-rigid-monoidal-functors/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/strong-continuity-from-a-rigid-source/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/compactly-generated-rigid-categories/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/rigidity-of-sheaves-on-compact-hausdorff-spaces/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/local-rigidity-of-sheaf-categories/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "rigid-symmetric-monoidal-categories"
+    },
+    {
+      "page": "entry/nuclear-and-basic-nuclear-objects/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/interleaving-for-trace-class-morphisms/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/interleaving-in-nuclear-colimits/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/basic-properties-of-nuclear-objects/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/comparing-definitions-of-nuclearity/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/nuclear-objects-and-rigidification/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/rigidification-via-idempotent-ideals/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/nuclear-solid-modules-and-formal-schemes/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/banach-spaces-as-nuclear-modules/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/liquid-and-gaseous-modules/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/descent-for-nuclear-modules/index.html",
+      "chapterId": "rigidity-and-nuclear-objects",
+      "sectionId": "nuclear-modules-and-condensed-mathematics"
+    },
+    {
+      "page": "entry/colimits-of-strongly-continuous-functors/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "colimits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/colimits-of-dualizable-categories/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "colimits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/epimorphisms-are-localizations/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "colimits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/monomorphisms-are-fully-faithful/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "colimits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/continuous-calkin-category/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "continuous-calkin-categories"
+    },
+    {
+      "page": "entry/small-and-continuous-calkin-categories/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "continuous-calkin-categories"
+    },
+    {
+      "page": "entry/functoriality-of-continuous-calkin-categories/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "continuous-calkin-categories"
+    },
+    {
+      "page": "entry/short-exact-sequences-of-dualizable-categories/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "continuous-calkin-categories"
+    },
+    {
+      "page": "entry/calkin-categories-preserve-short-exact-sequences/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "continuous-calkin-categories"
+    },
+    {
+      "page": "entry/right-adjoints-and-filtered-colimits/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "filtered-colimits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/filtered-colimits-preserve-fully-faithful-functors/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "filtered-colimits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/filtered-unions-of-subcategories/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "filtered-colimits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/filtered-colimits-in-presentable-categories/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "filtered-colimits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/compact-objects-and-filtered-colimits/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "filtered-colimits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/rational-exhaustions/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "finite-limits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/largest-dualizable-subcategory/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "finite-limits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/dualizable-coreflection/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "finite-limits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/dualizable-kernel/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "finite-limits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/kernels-of-dualizable-categories/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "finite-limits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/dualizable-kernel-over-a-dvr/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "finite-limits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/pullbacks-of-dualizable-categories/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "finite-limits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/monomorphisms-of-dualizable-categories/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "finite-limits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/short-exact-sequences-are-fiber-and-cofiber-sequences/index.html",
+      "chapterId": "calkin-categories-colimits-and-limits",
+      "sectionId": "finite-limits-of-dualizable-categories"
+    },
+    {
+      "page": "entry/kappa-filtered-categories/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/kappa-compact-objects/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/commuting-filtered-colimits-and-small-limits/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/closure-properties-of-kappa-compact-objects/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/kappa-filtered-posets/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/omega-one-filtered-posets-via-chains/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/cofinal-maps-of-posets/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/cofinal-filtered-posets/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/colimits-over-countable-subposets/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/sequential-diagrams-and-their-coherences/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/retracts-as-telescopes/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/strictifying-maps-of-sequential-ind-objects/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/omega-one-compact-ind-objects/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "filtered-categories"
+    },
+    {
+      "page": "entry/kappa-ind-completion/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "accessible-and-presentable-categories"
+    },
+    {
+      "page": "entry/universal-property-of-kappa-ind-completion/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "accessible-and-presentable-categories"
+    },
+    {
+      "page": "entry/accessible-and-presentable-categories/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "accessible-and-presentable-categories"
+    },
+    {
+      "page": "entry/recollections-on-accessible-categories/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "accessible-and-presentable-categories"
+    },
+    {
+      "page": "entry/limits-of-accessible-categories/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "accessible-and-presentable-categories"
+    },
+    {
+      "page": "entry/adjoint-functor-theorem/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "accessible-and-presentable-categories"
+    },
+    {
+      "page": "entry/every-object-is-eventually-compact/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "accessible-and-presentable-categories"
+    },
+    {
+      "page": "entry/ind-completion-of-large-categories/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "accessible-and-presentable-categories"
+    },
+    {
+      "page": "entry/retracts-of-right-adjoints/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "idempotent-completeness"
+    },
+    {
+      "page": "entry/mates-of-natural-transformations/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "mates"
+    },
+    {
+      "page": "entry/conjugate-natural-transformations/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "mates"
+    },
+    {
+      "page": "entry/mates-and-conjugate-transformations/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "mates"
+    },
+    {
+      "page": "entry/adjoint-triples/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "mates"
+    },
+    {
+      "page": "entry/strong-continuity-via-right-adjoints/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "mates"
+    },
+    {
+      "page": "entry/luries-tensor-product-of-presentable-categories/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "tensor-products-of-presentable-categories"
+    },
+    {
+      "page": "entry/describing-the-presentable-tensor-product/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "tensor-products-of-presentable-categories"
+    },
+    {
+      "page": "entry/tensoring-with-ind-categories/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "tensor-products-of-presentable-categories"
+    },
+    {
+      "page": "entry/ind-categories-as-exact-functors/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "tensor-products-of-presentable-categories"
+    },
+    {
+      "page": "entry/duality-of-compactly-generated-stable-categories/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "tensor-products-of-presentable-categories"
+    },
+    {
+      "page": "entry/tensoring-with-a-compactly-generated-category/index.html",
+      "chapterId": "categorical-background",
+      "sectionId": "tensor-products-of-presentable-categories"
+    }
+  ]
+}

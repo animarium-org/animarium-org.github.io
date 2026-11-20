@@ -1,0 +1,312 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Weakly compact morphisms | Efimov K-theory</title><meta name="description" content="Elementwise compactness, interpolation, and the stable compactness criterion."><link rel="stylesheet" href="../../../_assets/content.css"><link rel="stylesheet" href="../../../_assets/style.css"><script>window.MathJax={loader:{paths:{fonts:'../../../_assets/mathjax/fonts'},load:['[tex]/mathtools','[tex]/boldsymbol']},tex:{packages:{'[+]':['ams','mathtools','boldsymbol']},macros:{"fpqc":"\\operatorname{fpqc}","KGL":"\\operatorname{KGL}","Nis":"\\operatorname{Nis}","Et":"\\operatorname{Et}","cdh":"\\operatorname{cdh}","vdim":"\\operatorname{vdim}","Krdim":"\\operatorname{Kr.dim}","qcqs":"\\operatorname{qcqs}","Sm":"\\operatorname{Sm}","SSeq":"\\operatorname{SSeq}","Sym":"\\operatorname{Sym}","KH":"\\operatorname{KH}","ssquare":"\\,\\square\\,","Aff":"\\operatorname{Aff}","Mono":"\\operatorname{Mono}","Gerb":"\\operatorname{Gerb}","hyp":"\\operatorname{hyp}","mono":"\\operatorname{mono}","cons":"\\operatorname{cons}","wcons":"\\operatorname{wcons}","quottext":"\\operatorname{quot}","epi":"\\operatorname{epi}","MonoCong":"\\operatorname{MonoCong}","EpiCong":"\\operatorname{EpiCong}","Cong":"\\operatorname{Cong}","HypCong":"\\operatorname{HypCong}","Mdl":"\\operatorname{Mdl}","Acyc":"\\operatorname{Acyc}","Sat":"\\operatorname{Sat}","SSat":"\\operatorname{SSat}","Conn":"\\operatorname{Conn}","EffEpi":"\\operatorname{EffEpi}","Epi":"\\operatorname{Epi}","Cotr":"\\operatorname{Cotr}","All":"\\operatorname{All}","Pos":"\\operatorname{Pos}","post":"\\operatorname{post}","El":"\\operatorname{El}","cocompl":"\\operatorname{cocompl}","Topos":"\\mathrm{Topos}","Logos":"\\mathrm{Logos}","bbCat":"\\bbC \\mathrm{at}","bbLog":"\\bbL \\mathrm{ogos}","bbTop":"\\bbT \\mathrm{opos}","Geom":"\\operatorname{Geom}","Pt":"\\operatorname{Pt}","im":"\\operatorname{im}","coim":"\\operatorname{coim}","Act":"\\operatorname{Act}","Bun":"\\operatorname{Bun}","Site":"\\operatorname{Site}","cont":"\\operatorname{cont}","cocont":"\\operatorname{cocont}","Cont":"\\operatorname{Cont}","wccolim":"\\operatorname{w.c.colim}","Atl":"\\operatorname{Atl}","DiffStk":"\\operatorname{DiffStk}","SepStk":"\\operatorname{SepStk}","H":"\\mathrm{H}","SH":"\\mathrm{SH}","htp":"\\operatorname{htp}","rep":"\\operatorname{rep}","Loc":"\\operatorname{Loc}","Thick":"\\operatorname{Thick}","modtext":"\\operatorname{mod}","absmod":["\\abs{#1}_{\\modtext}",1],"sep":"\\operatorname{sep}","PB":"\\operatorname{PB}","PF":"\\operatorname{PF}","NerveDiff":"\\operatorname{N^{\\mathrm{Diff}}}","Deltaalg":["\\Delta^{#1}_{\\mathrm{alg}}",1],"shear":"\\operatorname{shear}","Sph":"\\operatorname{Sph}","Sub":"\\operatorname{Sub}","Open":"\\operatorname{Open}","open":"\\operatorname{open}","Corr":"\\operatorname{Corr}","bbMap":"\\operatorname{\\mathbb{M} ap}","bbHom":"\\operatorname{\\mathbb{H} om}","gen":"\\operatorname{gen}","Bgl":"\\operatorname{B_{gl}}","PrnBdl":["\\mathrm{PrnBdl}_{#1}(#2)",2],"cFun":"\\Ff \\mathrm{un}","Tr":"\\operatorname{Tr}","tr":"\\operatorname{tr}","Shp":"\\operatorname{Shp}","THH":"\\operatorname{THH}","Assoc":"\\mathcal{A}\\mathit{ssoc}","Comm":"\\mathcal{C}\\!\\,\\mathit{omm}","Lie":"\\mathcal{L}\\mathit{ie}","Triv":"\\mathcal{T}\\!\\!\\mathit{riv}","oTens":"\\mathcal{T}\\!\\!\\mathit{ens}","oLMod":"\\mathcal{L}\\!\\mathcal{M}\\mathit{od}","oRMod":"\\mathcal{R}\\!\\mathcal{M}\\mathit{od}","oBMod":"\\mathcal{B}\\!\\mathcal{M}\\mathit{od}","oMod":"\\mathcal{M}\\mathit{od}","oAlg":"\\mathcal{A}\\mathit{lg}","oEnd":"\\mathcal{E}\\mathit{nd}","oCMon":"\\mathcal{C}\\!\\mathcal{M}\\mathit{on}","oCGrp":"\\mathcal{C}\\mathcal{G}\\mathit{rp}","oSp":"\\mathcal{S}\\mathit{p}","Mult":"\\mathcal{M}","oCat":"\\operatorname{\\mathcal{C}\\!\\mathit{at}}","oFun":"\\operatorname{\\mathcal{F}\\!\\mathit{un}}","Env":"\\operatorname{Env}","Op":"\\operatorname{Op}","AdTrip":"\\operatorname{AdTrip}","rev":"\\operatorname{rev}","tiso":"\\operatorname{iso}","oTw":"\\operatorname{\\overline{\\Tw}}","lax":"\\operatorname{lax}","NTw":"\\operatorname{NTw}","OpCocart":"\\Oo^{\\amalg}","OpCart":"\\Oo^{\\times}","Day":"\\operatorname{Day}","oDay":"\\mathcal{D}\\mathit{ay}","dlax":"\\mathrm{-lax}","textred":"\\mathrm{red}","exc":"\\mathrm{exc}","BiFun":"\\operatorname{BiFun}","BV":"\\operatorname{BV}","Bar":"\\mathrm{Bar}","dnil":"\\mathrm{-nil}","Ext":"\\operatorname{Ext}","Ex":"\\operatorname{Ex}","Tor":"\\operatorname{Tor}","enr":"\\mathrm{enr}","heart":"\\heartsuit","dsm":"\\mathrm{-sm}","Free":"\\operatorname{Free}","ku":"\\operatorname{ku}","KU":"\\operatorname{KU}","MU":"\\operatorname{MU}","MO":"\\operatorname{MO}","MSO":"\\operatorname{MSO}","BO":"\\operatorname{BO}","bGr":"\\operatorname{\\mathbf{Gr}}","BUP":"\\operatorname{BUP}","bBUP":"\\operatorname{\\mathbf{BUP}}","Th":"\\operatorname{Th}","Pic":"\\operatorname{Pic}","pic":"\\operatorname{pic}","pre":"\\operatorname{pre}","Line":"\\operatorname{Line}","PT":"\\operatorname{PT}","interiorsymb":[" {\\kern0pt#1}^{\\mathrm{o}}",1],"PSp":"\\mathrm{PSp}","Emb":"\\operatorname{Emb}","Ntop":"N^{\\mathrm{top}}","Homtop":"\\Hom^{\\mathrm{top}}","fw":"\\operatorname{fw}","Shift":"\\operatorname{Shift}","Der":"\\operatorname{Der}","Hom":"\\operatorname{Hom}","Aut":"\\operatorname{Aut}","End":"\\operatorname{End}","iHom":"\\operatorname{\\underline{\\operatorname{Hom}}}","ihom":"\\operatorname{\\underline{\\operatorname{hom}}}","uHom":"\\operatorname{\\underline{\\operatorname{Hom}}}","Map":"\\operatorname{Map}","map":"\\operatorname{map}","Path":"\\operatorname{Path}","Fun":"\\operatorname{Fun}","FunL":"\\Fun^{\\mathrm{L}}","FunR":"\\Fun^{\\mathrm R}","ulFun":"\\ul{\\Fun}","Nat":"\\operatorname{Nat}","Lift":"\\operatorname{Lift}","lift":"\\operatorname{lift}","cocart":"\\operatorname{cocart}","CoCart":"\\operatorname{CoCart}","Cocart":"\\operatorname{Cocart}","isCocart":"\\operatorname{\\texttt{isCocart}}","Cart":"\\operatorname{Cart}","RFib":"\\operatorname{RFib}","LFib":"\\operatorname{LFib}","Un":"\\operatorname{Un}","cart":"\\operatorname{cart}","dcart":"\\mathrm{-cart}","cc":"\\operatorname{cc}","ct":"\\operatorname{ct}","Str":"\\operatorname{Str}","el":"\\operatorname{el}","Spec":"\\operatorname{Spec}","QCoh":"\\operatorname{QCoh}","IndCoh":"\\operatorname{IndCoh}","Perf":"\\operatorname{Perf}","Proj":"\\operatorname{Proj}","Zar":"\\operatorname{Zar}","Sch":"\\operatorname{Sch}","ad":"\\mathrm{ad}","corp":"\\mathrm{corp}","loc":"\\mathrm{loc}","mot":"\\mathrm{mot}","ultra":"\\mathrm{ultra}","Ar":"\\operatorname{Ar}","BC":"\\operatorname{BC}","GL":"\\operatorname{GL}","Gr":"\\operatorname{Gr}","Ho":"\\operatorname{Ho}","Im":"\\operatorname{Im}","Ind":"\\operatorname{Ind}","Iso":"\\operatorname{Iso}","LConst":"\\operatorname{LConst}","Nm":"\\operatorname{Nm}","Pro":"\\operatorname{Pro}","Lan":"\\operatorname{Lan}","Ran":"\\operatorname{Ran}","Rex":"\\operatorname{Rex}","PSh":"\\operatorname{PSh}","Shape":"\\operatorname{Shape}","Shv":"\\operatorname{Shv}","bOmega":"{\\boldsymbol{\\Omega}}","Span":"\\operatorname{Span}","SpanTwo":"\\Span_2","SpanTwoP":["\\SpanTwo(#1,#2)_{#4,#3}",4],"NSpan":"\\operatorname{NSpan}","Tw":"\\operatorname{Tw}","LM":"\\operatorname{LM}","Re":"\\operatorname{Re}","Fact":"\\operatorname{Fact}","SD":"\\operatorname{SD}","PD":"\\operatorname{PD}","Suave":"\\operatorname{Suave}","Prim":"\\operatorname{Prim}","shift":"\\operatorname{shift}","act":"\\operatorname{act}","supp":"\\operatorname{supp}","ex":"\\operatorname{ex}","lex":"\\operatorname{lex}","rex":"\\operatorname{rex}","chain":"\\operatorname{chain}","sd":"\\operatorname{sd}","qc":"\\operatorname{qc}","Poly":"\\operatorname{Poly}","Mot":"\\operatorname{Mot}","can":"\\mathrm{can}","ho":"\\mathrm{ho}","nondeg":"\\mathrm{nondeg}","univ":"\\mathrm{univ}","prop":"\\mathrm{pr}","inv":"\\mathrm{inv}","ac":"\\operatorname{ac}","pb":"\\operatorname{pb}","fgt":"\\operatorname{fgt}","id":"\\operatorname{id}","pr":"\\operatorname{pr}","incl":"\\operatorname{incl}","const":"\\operatorname{const}","sk":"\\operatorname{sk}","cosk":"\\operatorname{cosk}","gl":"\\operatorname{gl}","grp":"\\operatorname{grp}","qis":"\\operatorname{qis}","cyl":"\\operatorname{cyl}","surj":"\\operatorname{surj}","et":"\\mathrm{ét}","coh":"\\mathrm{coh}","acc":"\\mathrm{acc}","small":"\\mathrm{small}","free":"\\operatorname{free}","fin":"\\operatorname{fin}","pt":"\\operatorname{pt}","aug":"\\operatorname{{aug}}","st":"\\operatorname{st}","dual":"\\operatorname{dual}","Calk":"\\operatorname{Calk}","idem":"\\operatorname{idem}","perf":"\\operatorname{perf}","rig":"\\mathrm{rig}","Nuc":"\\operatorname{Nuc}","cofib":"\\operatorname{cofib}","fib":"\\operatorname{fib}","colim":"\\operatorname{colim}","lim":"\\operatorname{lim}","coeq":"\\operatorname{coeq}","coker":"\\operatorname{coker}","ev":"\\mathrm{ev}","coev":"\\mathrm{coev}","res":"\\operatorname{res}","ind":"\\operatorname{ind}","coind":"\\operatorname{coind}","Set":"\\mathrm{Set}","An":"\\mathrm{An}","CondAn":"\\mathrm{CondAn}","Ab":"\\mathrm{Ab}","Alg":"\\mathrm{Alg}","CAlg":"\\mathrm{CAlg}","Cat":"\\mathrm{Cat}","CAT":"\\mathrm{CAT}","CRing":"\\mathrm{CRing}","qCat":"\\mathrm{qCat}","CGrp":"\\mathrm{CGrp}","CMon":"\\mathrm{CMon}","Fin":"\\mathrm{Fin}","FinGrpd":"\\mathrm{FinGrpd}","Grp":"\\mathrm{Grp}","Grpd":"\\mathrm{Grpd}","Mod":"\\mathrm{Mod}","coMod":"\\mathrm{coMod}","Mon":"\\mathrm{Mon}","LMod":"\\mathrm{LMod}","RMod":"\\mathrm{RMod}","BMod":"\\mathrm{BMod}","Rep":"\\mathrm{Rep}","Top":"\\mathrm{Top}","TopGrpd":"\\mathrm{TopGrpd}","bTopGrpd":"\\mathbf{TopGrpd}","Spc":"\\mathrm{Spc}","Sp":"\\mathrm{Sp}","Vect":"\\mathrm{Vect}","Orb":"\\mathrm{Orb}","Orbit":"\\mathrm{Orbit}","Glo":"\\mathrm{Glo}","sAn":"\\s\\An","dAn":"\\mathrm{d}\\An","bVect":"\\mathbf{V}\\mathrm{ect}","LCHaus":"\\mathrm{LCHaus}","CHaus":"\\mathrm{CHaus}","ProFin":"\\mathrm{ProFin}","AnRing":"\\mathrm{AnRing}","AnStck":"\\mathrm{AnStck}","Ring":"\\mathrm{Ring}","twoCAlg":"\\mathrm{2CAlg}","Idem":"\\mathrm{Idem}","coIdem":"\\mathrm{coIdem}","StRing":"\\mathrm{StRing}","PreStRing":"\\mathrm{PreStRing}","Gest":"\\mathrm{Gest}","RingGest":"\\mathrm{RingGest}","LieGrpd":"\\mathrm{LieGrpd}","sTop":"\\mathrm{sTop}","Diff":"\\mathrm{Diff}","sSet":"\\mathrm{sSet}","Poset":"\\mathrm{Poset}","Pr":"\\mathrm{Pr}","PrL":"\\mathrm{Pr}^{\\mathrm{L}}","PrR":"\\mathrm{Pr}^{\\mathrm{R}}","PrLst":"\\PrL_{\\st}","h":"\\mathrm{h}","CW":"\\mathrm{CW}","hocolim":"\\operatorname{hocolim}","holim":"\\operatorname{holim}","Exc":"\\operatorname{Exc}","s":"\\mathrm{s}","Sing":"\\operatorname{Sing}","Kan":"\\operatorname{Kan}","bKan":"\\mathbf{Kan}","bqCat":"\\mathbf{qCat}","Ch":"\\operatorname{\\mathrm{Ch}}","inj":"\\operatorname{inj}","all":"\\operatorname{all}","isotext":"\\operatorname{iso}","Cut":"\\operatorname{Cut}","LCut":"\\operatorname{LCut}","BCut":"\\operatorname{BCut}","Red":"\\operatorname{Red}","Segal":"\\operatorname{Segal}","Seg":"\\operatorname{Seg}","CSeg":"\\operatorname{CSeg}","add":"\\operatorname{add}","sadd":"\\operatorname{sadd}","Piinfty":["\\Pi_{\\infty}(#1)",1],"oplax":"\\operatorname{oplax}","quadtext":["\\quad\\textrm{#1}\\quad",1],"qquadtext":["\\qquad\\textrm{#1}\\qquad",1],"qin":"\\quad\\in\\quad","ul":["\\underline{#1}",1],"abs":["\\lvert #1 \\rvert",1],"geom":["\\| #1 \\|",1],"floor":["\\lfloor #1 \\rfloor",1],"catop":"^{\\mathrm{op}}","op":"\\operatorname{op}","blank":"{\\mathrm{ --}}","ceil":["\\lceil #1 \\rceil",1],"lra":["\\langle #1 \\rangle",1],"C":"\\operatorname{\\mathbb C}","F":"\\operatorname{\\mathbb F}","N":"\\operatorname{\\mathbb N}","P":"\\operatorname{\\mathbb P}","Q":"\\operatorname{\\mathbb Q}","R":"\\operatorname{\\mathbb R}","S":"\\operatorname{\\mathbb S}","Z":"\\operatorname{\\mathbb Z}","D":"\\operatorname{\\mathrm{D}}","phi":"\\varphi","epsilon":"\\varepsilon","aa":"\\mathfrak{a}","pp":"\\mathfrak{p}","fa":"\\mathfrak{a}","fb":"\\mathfrak{b}","fc":"\\mathfrak{c}","fm":"\\mathfrak{m}","mm":"\\mathfrak{m}","fn":"\\mathfrak{n}","fp":"\\mathfrak{p}","Aa":"\\mathcal{A}","Bb":"\\mathcal{B}","Cc":"\\mathcal{C}","Dd":"\\mathcal{D}","Ee":"\\mathcal{E}","Ff":"\\mathcal{F}","Gg":"\\mathcal{G}","Hh":"\\mathcal{H}","Ii":"\\mathcal{I}","Jj":"\\mathcal{J}","Kk":"\\mathcal{K}","Ll":"\\mathcal{L}","Mm":"\\mathcal{M}","Nn":"\\mathcal{N}","Oo":"\\mathcal{O}","Pp":"\\mathcal{P}","Qq":"\\mathcal{Q}","Rr":"\\mathcal{R}","Ss":"\\mathcal{S}","Tt":"\\mathcal{T}","Uu":"\\mathcal{U}","Vv":"\\mathcal{V}","Ww":"\\mathcal{W}","Xx":"\\mathcal{X}","Yy":"\\mathcal{Y}","Zz":"\\mathcal{Z}","bA":"\\mathbf{A}","bB":"\\mathbf{B}","bC":"\\mathbf{C}","bD":"\\mathbf{D}","bE":"\\mathbf{E}","bF":"\\mathbf{F}","bG":"\\mathbf{G}","bH":"\\mathbf{H}","bI":"\\mathbf{I}","bJ":"\\mathbf{J}","bK":"\\mathbf{K}","bL":"\\mathbf{L}","bM":"\\mathbf{M}","bN":"\\mathbf{N}","bO":"\\mathbf{O}","bP":"\\mathbf{P}","bQ":"\\mathbf{Q}","bR":"\\mathbf{R}","bS":"\\mathbf{S}","bT":"\\mathbf{T}","bU":"\\mathbf{U}","bV":"\\mathbf{V}","bW":"\\mathbf{W}","bX":"\\mathbf{X}","bY":"\\mathbf{Y}","bZ":"\\mathbf{Z}","bbA":"\\mathbb{A}","bbB":"\\mathbb{B}","bbC":"\\mathbb{C}","bbD":"\\mathbb{D}","bbE":"\\mathbb{E}","bbF":"\\mathbb{F}","bbG":"\\mathbb{G}","bbH":"\\mathbb{H}","bbI":"\\mathbb{I}","bbJ":"\\mathbb{J}","bbK":"\\mathbb{K}","bbL":"\\mathbb{L}","bbM":"\\mathbb{M}","bbN":"\\mathbb{N}","bbO":"\\mathbb{O}","bbP":"\\mathbb{P}","bbQ":"\\mathbb{Q}","bbR":"\\mathbb{R}","bbS":"\\mathbb{S}","bbT":"\\mathbb{T}","bbU":"\\mathbb{U}","bbV":"\\mathbb{V}","bbW":"\\mathbb{W}","bbX":"\\mathbb{X}","bbY":"\\mathbb{Y}","bbZ":"\\mathbb{Z}","quot":"/\\!\\!/","catname":["{\\mathrm{#1}}",1],"catnameb":["{\\textbf{#1}}",1],"bLieGrpd":"\\operatorname{\\textbf{LieGrpd}}","ulSp":"\\underline{\\Sp}","ulSpc":"\\underline{\\Spc}","ulOrbSp":"\\underline{\\Orb\\Sp}","ulOrbSpc":"\\underline{\\Orb\\Spc}","mapsfrom":"\\mathrel{\\unicode{x21A4}}","xrightrightarrows":["\\mathrel{\\overset{#1}{\\underset{#2}{\\rightrightarrows}}}",2],"xadjto":["\\mathrel{\\overset{#1}{\\underset{#2}{\\rightleftarrows}}}",2],"red":["{\\color{red}{\\textbf{#1}}}",1],"pullback":"\\mathrel{\\lrcorner\\,}","pullbackto":"\\mathrel{\\lrcorner\\,\\to}","pushout":"\\mathrel{\\ulcorner\\,}","pushoutto":"\\mathrel{\\ulcorner\\,\\to}","noloc":"\\mskip6mu{:}\\mskip2mu","pvto":["\\bigl(\\begin{smallmatrix}#1\\\\ \\downarrow\\\\ #2\\end{smallmatrix}\\bigr)",2],"puto":["\\bigl(\\begin{smallmatrix}#1\\\\ \\downarrow{\\scriptstyle #3}\\\\ #2\\end{smallmatrix}\\bigr)",3],"apvto":["\\pvto{#1}{#2}",2],"pwto":["\\bigl(\\begin{smallmatrix}#1\\\\ #2\\end{smallmatrix}\\bigr)",2],"rbox":["#3",3],"simp":"{\\boldsymbol{\\Delta}}","unit":"\\operatorname{\\mathbb{1}}","iso":"\\xrightarrow{\\sim}","bastiaan":["{\\color{blue}{\\text{[#1]}}}",1],"bastiaanlong":["{\\color{blue}{\\text{#1}}}",1],"Man":"\\operatorname{Man}","SS":"\\operatorname{SS}","Br":"\\mathrm{Br}","der":"\\mathrm{der}","one":"\\mathbb{1}","textupb":["{\\mathrm\\textbf{#1}}",1],"St":"\\operatorname{St}","Reedy":"\\operatorname{Reedy}","vectimes":["\\;\\vec{\\times}_{#1}\\;",1],"Nmadj":"\\operatorname{\\widetilde{\\Nm}}","quotcolim":"\\text{``}\\!\\colim\\!\\text{''}"}},options:{enableMenu:false}};</script><script defer src="../../../_assets/mathjax/tex-chtml.js"></script><script defer src="../../../_assets/reader.js" data-notes-reader="efimov-k-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba"></script>
+<script defer src="../../../_assets/proofs.js"></script><link rel="canonical" href="https://animarium.org/efimov-k-theory/section/compact-morphisms-and-ab6/weakly-compact-morphisms/"></head><body class="work-page section-page has-context-nav" data-proof-mode="displayed"><aside class="utility-dock" aria-label="Page tools"><div class="utility-item settings-item" data-utility-item data-open="false">
+      <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
+        <span class="utility-icon" aria-hidden="true">⚙</span>
+      </button>
+      <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
+        <h2 id="display-settings-heading">Proof display</h2>
+        <div class="preset-group" role="group" aria-label="Default proof display">
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
+        </div>
+        <h2>Page layout</h2>
+        <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
+      </section>
+    </div><div class="utility-item manuscript-item">
+      <a class="utility-trigger manuscript-trigger" href="/efimov-k-theory.pdf" title="View the entire manuscript as a PDF">
+        <span class="utility-expansion">View the entire manuscript as a PDF</span>
+        <span class="utility-icon book-icon" aria-hidden="true">📖</span>
+        <span class="sr-only">View the entire manuscript as a PDF</span>
+      </a>
+    </div></aside><header class="site-header work-header">
+<div class="reading-header-row"><div class="reader-heading">
+      <a class="collection-return" data-site-return href="/"><span aria-hidden="true">←</span> Animarium</a>
+      <p class="eyebrow"><a href="../../../index.html">Efimov K-theory</a> · <a href="../../../chapter/compact-morphisms-and-ab6/index.html">Chapter 4</a> · Section 4.1</p>
+      <h1>Weakly compact morphisms</h1>
+    </div><nav class="page-turns" data-reading-navigation aria-label="Reading navigation"><a rel="prev" data-step="prev-chapter" href="../../../chapter/compactly-assembled-and-dualizable-categories/index.html" title="Compactly assembled and dualizable categories" aria-label="Previous chapter: Chapter 3, Compactly assembled and dualizable categories"><span class="turn-direction">← Previous chapter</span><span class="turn-target">Chapter 3</span></a>
+<a rel="next" data-step="next-chapter" href="../../../chapter/examples-of-dualizable-categories/index.html" title="Examples of dualizable categories" aria-label="Next chapter: Chapter 5, Examples of dualizable categories"><span class="turn-direction">→ Next chapter</span><span class="turn-target">Chapter 5</span></a>
+<a rel="prev" data-step="prev-section" href="../../compactly-assembled-and-dualizable-categories/omega-one-presentability/index.html" title="ω₁-presentability" aria-label="Previous section: Section 3.4, ω₁-presentability"><span class="turn-direction">← Previous section</span><span class="turn-target">Section 3.4</span></a>
+<a rel="next" data-step="next-section" href="../compactly-exhaustible-objects/index.html" title="Compactly exhaustible objects" aria-label="Next section: Section 4.2, Compactly exhaustible objects"><span class="turn-direction">→ Next section</span><span class="turn-target">Section 4.2</span></a></nav></div>
+</header><main class="reader-layout"><button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
+      <span aria-hidden="true">☰</span> Navigation
+    </button><article class="notes-page ">
+<p class="noindent"><span id="sec:Weakly_Compact_Morphisms"></span>
+</p><p class="noindent">Our definition of compact morphisms (<a class="source-reference" href="../../../entry/compact-morphisms/index.html#def:Compact_Morphism">Definition 3.3</a>) asks for a factorization which is natural in the filtered diagram. In
+the talk, as in [<a class="citation" href="../../../references/index.html#bib-Efimov_Large_Categories">Efimov (2024)</a>, Definition 2.37], compact morphisms were instead defined by asking for such factorizations one map at a
+time. We now show that the two notions agree in compactly assembled categories, so that both definitions
+may be used interchangeably in these notes.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2001r1"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/weakly-compact-morphisms/index.html" title="Weakly compact morphisms">Definition 4.1 </a></span>([<a class="citation" href="../../../references/index.html#bib-Krause_Nikolaus_Putzstuck_Sheaves">Krause et al. (2024)</a>, Definition 2.2.3])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="def:Weakly_Compact_Morphism"></span> Let \(C\) be a category with filtered colimits. A morphism \(f\colon x \to x'\) in \(C\) is called <span class="ntx-Italic-tlf-t1-x-x-109">weakly compact</span>
+if for every filtered diagram \((z_i)_{i \in I}\) in \(C\) and every morphism \(g\colon x' \to \colim _i z_i\), the composite \(gf\colon x \to \colim _i z_i\) factors through the canonical
+map \(z_i \to \colim _i z_i\) for some \(i \in I\).
+</p>
+                                                                                   
+                                                                                   
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2002r2"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/lifting-criterion-for-weakly-compact-morphisms/index.html" title="A lifting criterion for weakly compact morphisms">Remark 4.2.</a></span>  </span><span id="rem:Weakly_Compact_Lifting"></span>  Since  \(y(x)\)  is  compact  in  \(\Ind (C)\),  maps  \(y(x) \to \quotcolim _i z_i\)  are  the  same  as  maps  \(x \to z_i\)  for  some  \(i\),  up  to  the  usual
+identifications. Hence \(f\) is weakly compact if and only if for every \(Z \in \Ind (C)\), every diagram of solid arrows <span class="diagram"><img src="../../../_assets/diagrams/tikzcd-3ca23a539fb87d1a7fb1.svg" alt="Lifting square with y(x) above y(x-prime) on the left, Z above y(colim Z) on the right, and a dashed lift from y(x) to Z. The vertical maps are y(f) and the adjunction unit." loading="lazy" width="141" height="58" style="width:141px"></span>
+admits a dashed arrow making the square commute. Here \(\eta _Z\) is the unit of the adjunction \(\colim \dashv y\) of <a class="source-reference" href="../../../entry/ind-completion-of-large-categories/index.html#constr:Ind_Large">Construction A.21</a>, and a
+map \(y(x') \to y(\colim Z)\) is the same as a map \(x' \to \colim Z\), since \(y\) is fully faithful.
+</p><p class="noindent">A compact morphism in the sense of <a class="source-reference" href="../../../entry/compact-morphisms/index.html#def:Compact_Morphism">Definition 3.3</a> is weakly compact: the factorization of \(f^*\) through \(\Map _{\Ind (C)}(y(x),-)\) provides, in
+particular, a lift of each point. In the terminology of [<a class="citation" href="../../../references/index.html#bib-Krause_Nikolaus_Putzstuck_Sheaves">Krause et al. (2024)</a>, Definition 2.2.4], compact morphisms in our sense are called
+<span class="ntx-Italic-tlf-t1-x-x-109">strongly compact</span>.
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2003r3"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/examples-of-weakly-compact-morphisms/index.html" title="Examples of weakly compact morphisms">Example 4.3.</a></span>  </span><span id="ex:Weakly_Compact_Basic"></span>
+     </p><dl class="enumerate"><dt class="enumerate">
+  (1) </dt><dd class="enumerate">
+     <p class="noindent">If \(x\) is compact, then \(\id _x\) is weakly compact. The converse holds for stable \(C\), see <a class="source-reference" href="../../../entry/compact-objects-via-weakly-compact-identities/index.html#cor:Compact_Iff_Identity_Weakly_Compact">Corollary 4.12</a> below.
+     </p></dd><dt class="enumerate">
+  (2) </dt><dd class="enumerate">
+     <p class="noindent">As in <a class="source-reference" href="../../../entry/the-ideal-of-compact-morphisms/index.html#rem:Compact_Morphisms_Ideal">Remark 3.4</a>, weakly compact morphisms form a two-sided ideal: if \(f\colon x \to x'\) is weakly compact and \(k\colon w \to x\), \(h\colon x' \to x''\) are
+     arbitrary, then for every \(g\colon x'' \to \colim _i z_i\) the composite \((gh)f\) factors through some \(z_i\), and hence so does \(ghfk\).
+     </p></dd><dt class="enumerate">
+  (3) </dt><dd class="enumerate">
+                                                                                   
+                                                                                   
+     <p class="noindent">In particular, every morphism which factors through a compact object is weakly compact.</p></dd></dl>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2007r4"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/characterizations-of-compact-morphisms/index.html" title="Characterizations of compact morphisms">Proposition 4.4 </a></span>([<a class="citation" href="../../../references/index.html#bib-Efimov_Large_Categories">Efimov (2024)</a>, Proposition 2.39], [<a class="citation" href="../../../references/index.html#bib-Krause_Nikolaus_Putzstuck_Sheaves">Krause et al. (2024)</a>, Proposition 2.4.1])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="prop:Compact_Morphism_Characterizations"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">be compactly assembled and let</span> \(f\colon x \to x'\) <span class="ntx-Italic-tlf-t1-x-x-109">be a morphism in</span> \(C\)<span class="ntx-Italic-tlf-t1-x-x-109">. Then the following are
+equivalent:</span>
+     </p><dl class="enumerate"><dt class="enumerate">
+  (1) </dt><dd class="enumerate">
+     <p class="noindent">\(f\) <span class="ntx-Italic-tlf-t1-x-x-109">is compact (in the sense of </span><a class="source-reference" href="../../../entry/compact-morphisms/index.html#def:Compact_Morphism">Definition 3.3</a><span class="ntx-Italic-tlf-t1-x-x-109">);</span>
+     </p></dd><dt class="enumerate">
+  (2) </dt><dd class="enumerate">
+     <p class="noindent">\(f\) <span class="ntx-Italic-tlf-t1-x-x-109">is weakly compact;</span>
+     </p></dd><dt class="enumerate">
+  (3) </dt><dd class="enumerate">
+     <p class="noindent">\(y(f)\colon y(x) \to y(x')\) <span class="ntx-Italic-tlf-t1-x-x-109">factors through</span> \(\varepsilon _{x'}\colon \hat {y}(x') \to y(x')\)<span class="ntx-Italic-tlf-t1-x-x-109">;</span>
+     </p></dd><dt class="enumerate">
+  (4) </dt><dd class="enumerate">
+     <p class="noindent">\(\hat {y}(f)\colon \hat {y}(x) \to \hat {y}(x')\) <span class="ntx-Italic-tlf-t1-x-x-109">factors through</span> \(\varepsilon _x\colon \hat {y}(x) \to y(x)\)<span class="ntx-Italic-tlf-t1-x-x-109">;</span>
+     </p></dd><dt class="enumerate">
+  (5) </dt><dd class="enumerate">
+     <p class="noindent">\(\hat {y}(f)\) <span class="ntx-Italic-tlf-t1-x-x-109">is a weakly compact morphism in</span> \(\Ind (C)\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span></p></dd></dl>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-6">
+                                                                                   
+
+                                                                                   
+<p class="noindent">We use repeatedly that maps \(\hat {y}(w) \to Z\) in \(\Ind (C)\) correspond, under the adjunction \(\hat {y} \dashv \colim \), to maps \(w \to \colim Z\); in particular,
+two maps \(\hat {y}(w) \to Z\) are homotopic as soon as their images under \(\colim \) are, where we identify \(\colim \hat {y}(w) \simeq w\). Similarly, two maps
+\(y(w) \to y(w')\) are homotopic as soon as their images under \(\colim \) are, since \(y\) is fully faithful. Recall also that \(\colim (\varepsilon _w) \simeq \id _w\).
+</p><p class="noindent">(1) \(\iff \) (3) is <a class="source-reference" href="../../../entry/compact-morphisms-via-the-finest-presentation/index.html#lem:Compact_Morphisms_Yhat">Lemma 3.5</a>(1), and (1) \(\implies \) (2) was observed in <a class="source-reference" href="../../../entry/lifting-criterion-for-weakly-compact-morphisms/index.html#rem:Weakly_Compact_Lifting">Remark 4.2</a>.
+</p><p class="noindent">(2) \(\implies \) (3): Write \(\hat {y}(x') \simeq \quotcolim _i z_i\). Then \(\colim _i z_i \simeq \colim \hat {y}(x') \simeq x'\). Applying weak compactness to the identity \(x' \to \colim _i z_i\), we find a map \(h\colon x \to z_i\) for some \(i\) such
+that the composite \(x \to z_i \to \colim _i z_i \simeq x'\) is homotopic to \(f\). Let \(g\colon y(x) \to \hat {y}(x')\) be the composite of \(y(h)\) with the canonical map \(y(z_i) \to \quotcolim _i z_i\). Then \(\colim (\varepsilon _{x'} g) \simeq \colim (g) \simeq f\), and
+hence \(\varepsilon _{x'}g \simeq y(f)\).
+</p><p class="noindent">(3) \(\implies \) (4): Let \(g\colon y(x) \to \hat {y}(x')\) with \(\varepsilon _{x'}g \simeq y(f)\). Then \(g\varepsilon _x\) and \(\hat {y}(f)\) are maps \(\hat {y}(x) \to \hat {y}(x')\) with \(\colim (g\varepsilon _x) \simeq \colim (g) \simeq f \simeq \colim (\hat {y}(f))\), so \(\hat {y}(f) \simeq g\varepsilon _x\).
+</p><p class="noindent">(4) \(\implies \) (5): The object \(y(x)\) is compact in \(\Ind (C)\), so this follows from <a class="source-reference" href="../../../entry/examples-of-weakly-compact-morphisms/index.html#ex:Weakly_Compact_Basic">Example 4.3</a>(3).
+</p><p class="noindent">(5) \(\implies \) (2): Let \(g\colon x' \to \colim _i z_i\) be a map in \(C\), and let \(Z = \quotcolim _i z_i = \colim _i y(z_i)\). By adjunction, \(g\) corresponds to a map \(\tilde {g}\colon \hat {y}(x') \to Z\) with \(\colim (\tilde {g}) \simeq g\). By (5), the composite
+\(\tilde {g}\hat {y}(f)\colon \hat {y}(x) \to \colim _i y(z_i)\) factors through some \(y(z_i)\), say as \(\hat {y}(x) \xrightarrow {u} y(z_i) \to Z\). Applying \(\colim \), we find that \(gf \simeq \colim (\tilde {g}\hat {y}(f))\) factors as \(x \xrightarrow {\colim (u)} z_i \to \colim _i z_i\).                                                  □
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2013r5"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/weak-compactness-in-small-ind-completions/index.html" title="Weak compactness in small Ind-completions">Remark 4.5.</a></span>  </span><span id="rem:Weak_Compactness_In_Small_Ind_Categories"></span> In (5), weak compactness in \(\Ind (C)\) may be replaced by weak compactness in \(\Ind (C^{\kappa })\), for any \(\kappa \) such
+that \(\hat {y}\) takes values in \(\Ind (C^{\kappa })\), by the same argument. In particular, if \(C\) is dualizable we may take \(\kappa = \omega _1\) (<a class="source-reference" href="../../../entry/omega-one-presentability-of-compactly-assembled-categories/index.html#thm:Compactly_Assembled_Omega_1">Theorem 3.20</a>), and then \(\Ind (C^{\omega _1})\)
+is compactly generated.
+</p>
+</div>
+<p class="noindent">From now on we simply speak of <span class="ntx-Italic-tlf-t1-x-x-109">compact morphisms </span>in compactly assembled categories, and use the
+characterizations of <a class="source-reference" href="../../../entry/characterizations-of-compact-morphisms/index.html#prop:Compact_Morphism_Characterizations">Proposition 4.4</a> freely. The following observation is fundamental; it says that compact morphisms can
+be “interpolated”.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2014r6"></a>
+                                                                                   
+                                                                                   
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/factorization-of-compact-morphisms/index.html" title="Factorization of compact morphisms">Corollary 4.6 </a></span>([<a class="citation" href="../../../references/index.html#bib-Efimov_Large_Categories">Efimov (2024)</a>, Corollary 2.40], [<a class="citation" href="../../../references/index.html#bib-Krause_Nikolaus_Putzstuck_Sheaves">Krause et al. (2024)</a>, Proposition 2.4.4])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="cor:Compact_Morphism_Factorization">  </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span>  \(C\)  <span class="ntx-Italic-tlf-t1-x-x-109">be  compactly  assembled.  Then  every  compact  morphism</span>  \(f\colon x \to x'\)  <span class="ntx-Italic-tlf-t1-x-x-109">factors  as  a
+composite</span> \(x \xrightarrow {f_1} w \xrightarrow {f_2} x'\) <span class="ntx-Italic-tlf-t1-x-x-109">of two compact morphisms.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-5">
+<p class="noindent">By <a class="source-reference" href="../../../entry/characterizations-of-compact-morphisms/index.html#prop:Compact_Morphism_Characterizations">Proposition 4.4</a>, there is \(g\colon y(x) \to \hat {y}(x')\) with \(\varepsilon _{x'}g \simeq y(f)\). Write \(\hat {y}(x') \simeq \quotcolim _i w_i\), so that \(x' \simeq \colim _i w_i\). Since \(\hat {y}\) preserves colimits, also \(\hat {y}(x') \simeq \colim _i \hat {y}(w_i)\) in \(\Ind (C)\). As \(y(x)\) is compact in \(\Ind (C)\), the
+map \(g\) factors as \[ y(x) \xrightarrow {h} \hat {y}(w_i) \xrightarrow {\hat {y}(f_2)} \hat {y}(x') \] for some \(i\), where \(f_2\colon w_i \to x'\) is the canonical map. Put \(w := w_i\) and \(f_1 := \colim (h)\colon x \to w\). Then \(\varepsilon _w h\) and \(y(f_1)\) have the same image
+under \(\colim \), so \(\varepsilon _w h \simeq y(f_1)\), and \(f_1\) is compact by <a class="source-reference" href="../../../entry/characterizations-of-compact-morphisms/index.html#prop:Compact_Morphism_Characterizations">Proposition 4.4</a>(3). The map \(y(w) \to \quotcolim _j w_j = \hat {y}(x')\) is a lift of \(y(f_2)\) along \(\varepsilon _{x'}\), since both become \(f_2\) after applying \(\colim \);
+so \(f_2\) is compact as well. Finally, \(f \simeq \colim (g) \simeq \colim (\hat {y}(f_2))\colim (h) \simeq f_2f_1\).                                                                                                          □
+</p>
+</div></details>
+<p class="noindent">By iterating <a class="source-reference" href="../../../entry/factorization-of-compact-morphisms/index.html#cor:Compact_Morphism_Factorization">Corollary 4.6</a>, a single compact morphism can be “interpolated” by a dense family of compact
+morphisms. Since this is also needed for other classes of morphisms (for instance trace-class
+morphisms, see <a class="source-reference" href="../../../entry/nuclear-objects-and-rigidification/index.html#prop:Nuclear_Rigid">Proposition 6.19</a>), we formulate it abstractly. We write \(\Q _{[0,1]} = \Q \cap [0,1]\) and \(\Q _{\geq 0} = \Q \cap [0,\infty )\), regarded as partially ordered
+sets.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2015r7"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/rational-interpolation-of-morphisms/index.html" title="Rational interpolation of morphisms">Lemma 4.7.</a></span>  </span><span id="lem:Interpolation"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(D\) <span class="ntx-Italic-tlf-t1-x-x-109">be a category, let</span> \(S\) <span class="ntx-Italic-tlf-t1-x-x-109">be a class of morphisms of</span> \(D\) <span class="ntx-Italic-tlf-t1-x-x-109">which is closed under homotopy and
+composition, and let</span> \(P\) <span class="ntx-Italic-tlf-t1-x-x-109">be a class of objects of</span> \(D\)<span class="ntx-Italic-tlf-t1-x-x-109">. Assume that every morphism in</span> \(S\) <span class="ntx-Italic-tlf-t1-x-x-109">is homotopic to a composite</span> \(x \to p \to x'\)
+<span class="ntx-Italic-tlf-t1-x-x-109">of two morphisms in</span> \(S\) <span class="ntx-Italic-tlf-t1-x-x-109">with</span> \(p \in P\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+     </p><dl class="enumerate"><dt class="enumerate">
+  (1) </dt><dd class="enumerate">
+     <p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">For every morphism</span> \(s\colon x \to x'\) <span class="ntx-Italic-tlf-t1-x-x-109">in</span> \(S\) <span class="ntx-Italic-tlf-t1-x-x-109">there is a functor</span> \(F\colon \Q _{[0,1]} \to D\) <span class="ntx-Italic-tlf-t1-x-x-109">with</span> \(F(0) = x\)<span class="ntx-Italic-tlf-t1-x-x-109">,</span> \(F(1) = x'\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(F(0 \leq 1) \simeq s\)<span class="ntx-Italic-tlf-t1-x-x-109">, such that</span> \(F(a \leq b) \in S\) <span class="ntx-Italic-tlf-t1-x-x-109">for all</span> \(a &lt; b\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(F(a) \in P\) <span class="ntx-Italic-tlf-t1-x-x-109">for all</span> \(0 &lt; a &lt; 1\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+                                                                                   
+
+                                                                                   
+     </p></dd><dt class="enumerate">
+  (2) </dt><dd class="enumerate">
+     <p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">For every sequence</span> \(x_0 \to x_1 \to x_2 \to \cdots \) <span class="ntx-Italic-tlf-t1-x-x-109">of morphisms in</span> \(S\) <span class="ntx-Italic-tlf-t1-x-x-109">there is a functor</span> \(F\colon \Q _{\geq 0} \to D\) <span class="ntx-Italic-tlf-t1-x-x-109">whose restriction to</span> \(\N \subseteq \Q _{\geq 0}\) <span class="ntx-Italic-tlf-t1-x-x-109">is equivalent to
+     the given sequence, such that</span> \(F(a \leq b) \in S\) <span class="ntx-Italic-tlf-t1-x-x-109">for all</span> \(a &lt; b\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(F(a) \in P\) <span class="ntx-Italic-tlf-t1-x-x-109">for all</span> \(a \notin \N \)<span class="ntx-Italic-tlf-t1-x-x-109">. If</span> \(D\) <span class="ntx-Italic-tlf-t1-x-x-109">admits sequential colimits, then</span> \(\colim _{\Q _{\geq 0}} F \simeq \colim _n x_n\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span></p></dd></dl>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-4">
+<p class="noindent">(1) The set \(T\) of dyadic rationals in \([0,1]\) is a countable dense totally ordered set with a smallest
+and a largest element, so it is order-isomorphic to \(\Q _{[0,1]}\) by Cantor’s back-and-forth argument; we may
+therefore replace \(\Q _{[0,1]}\) by \(T\), with \(0\) and \(1\) preserved. Let \(T_k = \{i/2^k \mid 0 \leq i \leq 2^k\}\), so that \(T = \bigcup _k T_k\) and hence \(N(T) = \bigcup _k N(T_k)\). Thus \(\Fun (T,D) \simeq \lim _k \Fun (T_k,D)\), and on cores this is a
+limit of a tower of animae. So it suffices to construct functors \(F_k\colon T_k \to D\), with \(F_k(a \leq b) \in S\) for \(a &lt; b\) and \(F_k(a) \in P\) for \(0 &lt; a &lt; 1\), together with
+equivalences \(F_{k+1}|_{T_k} \simeq F_k\). Indeed, a point of the limit of a tower of animae is specified by points at each stage
+and paths between their successive images; no separate higher compatibility choices are required. As
+in <a class="source-reference" href="../../../entry/sequential-diagrams-and-their-coherences/index.html#rem:Sequential_Diagrams">Remark A.10</a>, a functor out of a finite totally ordered set amounts to a composable sequence of morphisms, and
+two such functors are equivalent as soon as they agree on objects and their consecutive morphisms
+are homotopic. Let \(F_0\) be given by \(s\). Given \(F_k\), factor each morphism \(F_k(a \leq a')\) between consecutive elements \(a &lt; a'\) of \(T_k\)
+as a composite of two morphisms in \(S\) through an object of \(P\), and let \(F_{k+1}\) be the resulting functor on \(T_{k+1}\). Then
+\(F_{k+1}|_{T_k}\) and \(F_k\) agree on objects, and their consecutive morphisms are homotopic, so \(F_{k+1}|_{T_k} \simeq F_k\). Since \(S\) is closed under
+composition, every \(F_{k+1}(a \leq b)\) with \(a &lt; b\) is in \(S\).
+</p><p class="noindent">(2) Apply the construction of (1) simultaneously to all morphisms \(x_n \to x_{n+1}\): on the dyadic rationals in \([0,\infty )\), which
+are the union of the subsets \(2^{-k}\N \), we refine the given sequence on \(\N = 2^{0}\N \) by factoring consecutive morphisms
+as before. The set of dyadic rationals in \([0,\infty )\) is order-isomorphic to \(\Q _{\geq 0}\) by an isomorphism fixing \(\N \) (apply
+the back-and-forth argument to each interval \([n,n+1]\)). Finally, \(\N \subseteq \Q _{\geq 0}\) is cofinal, so the colimits agree by <a class="source-reference" href="../../../entry/cofinal-maps-of-posets/index.html#lem:Cofinality_Posets">Lemma A.7</a>.           □
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2018r8"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/compact-interpolation-and-omega-one-compactness/index.html" title="Compact interpolation and ω₁-compactness">Proposition 4.8 </a></span>([<a class="citation" href="../../../references/index.html#bib-Krause_Nikolaus_Putzstuck_Sheaves">Krause et al. (2024)</a>, Propositions 2.4.4 and 2.4.6])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="prop:Compact_Interpolation"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">be compactly assembled.</span>
+                                                                                   
+
+                                                                                   
+     </p><dl class="enumerate"><dt class="enumerate">
+  (1) </dt><dd class="enumerate">
+     <p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">Every compact morphism</span> \(f\colon x \to x'\) <span class="ntx-Italic-tlf-t1-x-x-109">factors as</span> \(x \to w \to x'\) <span class="ntx-Italic-tlf-t1-x-x-109">with both morphisms compact and</span> \(w\) <span class="ntx-Italic-tlf-t1-x-x-109">an</span> \(\omega _1\)<span class="ntx-Italic-tlf-t1-x-x-109">-compact object.</span>
+     </p></dd><dt class="enumerate">
+  (2) </dt><dd class="enumerate">
+     <p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">Every compact morphism</span> \(f\colon x \to x'\) <span class="ntx-Italic-tlf-t1-x-x-109">extends to a functor</span> \(F\colon \Q _{[0,1]} \to C\) <span class="ntx-Italic-tlf-t1-x-x-109">with</span> \(F(0 \leq 1) \simeq f\)<span class="ntx-Italic-tlf-t1-x-x-109">, such that</span> \(F(a \leq b)\) <span class="ntx-Italic-tlf-t1-x-x-109">is compact for all</span> \(a &lt; b\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(F(a)\) <span class="ntx-Italic-tlf-t1-x-x-109">is</span>
+     \(\omega _1\)<span class="ntx-Italic-tlf-t1-x-x-109">-compact for</span> \(0 &lt; a &lt; 1\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+     </p></dd><dt class="enumerate">
+  (3) </dt><dd class="enumerate">
+     <p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">An object of</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">is</span> \(\omega _1\)<span class="ntx-Italic-tlf-t1-x-x-109">-compact if and only if it is the colimit of a functor</span> \(F\colon \Q _{\geq 0} \to C\)<span class="ntx-Italic-tlf-t1-x-x-109">, or equivalently of a functor</span>
+     \(F\colon \Q \to C\)<span class="ntx-Italic-tlf-t1-x-x-109">, such that</span> \(F(a \leq b)\) <span class="ntx-Italic-tlf-t1-x-x-109">is compact for all</span> \(a &lt; b\)<span class="ntx-Italic-tlf-t1-x-x-109">. Moreover,</span> \(F\) <span class="ntx-Italic-tlf-t1-x-x-109">can be chosen to take values in</span> \(\omega _1\)<span class="ntx-Italic-tlf-t1-x-x-109">-compact objects.</span></p></dd></dl>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-3">
+<p class="noindent">(1) By <a class="source-reference" href="../../../entry/factorization-of-compact-morphisms/index.html#cor:Compact_Morphism_Factorization">Corollary 4.6</a>, applied twice, \(f\) factors as \(x \to x_0 \to x_0' \to x'\) with all three maps compact. By <a class="source-reference" href="../../../entry/omega-one-presentability-of-compactly-assembled-categories/index.html#thm:Compactly_Assembled_Omega_1">Theorem 3.20</a>(1), \(x_0'\) is a filtered colimit of
+\(\omega _1\)-compact objects, so the compact (hence weakly compact, by <a class="source-reference" href="../../../entry/characterizations-of-compact-morphisms/index.html#prop:Compact_Morphism_Characterizations">Proposition 4.4</a>) morphism \(x_0 \to x_0'\) factors as \(x_0 \to w \to x_0'\) with \(w\) \(\omega _1\)-compact.
+Since compact morphisms form an ideal, \(x \to x_0 \to w\) and \(w \to x_0' \to x'\) are compact.
+</p><p class="noindent">(2) Apply <a class="source-reference" href="../../../entry/rational-interpolation-of-morphisms/index.html#lem:Interpolation">Lemma 4.7</a>(1) to the class \(S\) of compact morphisms and the class \(P\) of \(\omega _1\)-compact objects, using (1).
+</p><p class="noindent">(3) By <a class="source-reference" href="../../../entry/omega-one-presentability-of-compactly-assembled-categories/index.html#thm:Compactly_Assembled_Omega_1">Theorem 3.20</a>(2), <a class="source-reference" href="../../../entry/sequential-colimits-of-compact-morphisms/index.html#rem:Omega_1_Compact_Compact_Morphisms">Remark 3.21</a> and <a class="source-reference" href="../../../entry/characterizations-of-compact-morphisms/index.html#prop:Compact_Morphism_Characterizations">Proposition 4.4</a>, an object \(x\) is \(\omega _1\)-compact if and only if \(x \simeq \colim _n x_n\) for a sequence of compact morphisms \(x_n \to x_{n+1}\). By
+(1), each \(x_n \to x_{n+1}\) factors as \(x_n \to w_n \to x_{n+1}\) through an \(\omega _1\)-compact \(w_n\), with both maps compact. The sequence \(w_0 \to w_1 \to \cdots \) of composites
+\(w_n \to x_{n+1} \to w_{n+1}\) again consists of compact morphisms between \(\omega _1\)-compact objects, and has colimit \(x\) by cofinality.
+Applying <a class="source-reference" href="../../../entry/rational-interpolation-of-morphisms/index.html#lem:Interpolation">Lemma 4.7</a>(2) to it (with \(P\) the \(\omega _1\)-compact objects) gives a functor \(F\colon \Q _{\geq 0} \to C\) with the required properties and
+colimit \(x\). Since \(\Q _{&gt; 0} \subseteq \Q _{\geq 0}\) is cofinal and \(\Q _{&gt; 0}\) is order-isomorphic to \(\Q \) (both are countable dense totally ordered sets
+without endpoints), we may equivalently use \(\Q \). Conversely, the colimit of such a functor is the colimit
+of its restriction to the cofinal subset \(\N \), which is \(\omega _1\)-compact by <a class="source-reference" href="../../../entry/omega-one-presentability-of-compactly-assembled-categories/index.html#thm:Compactly_Assembled_Omega_1">Theorem 3.20</a>(2).                                                      □
+</p>
+</div></details>
+<p class="noindent">For stable categories there is a useful reformulation of compactness, which only involves ind-objects with
+vanishing colimit. This is the definition of compact morphisms used by Clausen and Mathew.
+                                                                                   
+                                                                                   
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2022r9"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/stable-criterion-for-weak-compactness/index.html" title="A stable criterion for weak compactness">Proposition 4.9.</a></span>  </span><span id="prop:Compact_Morphisms_Stable"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">be a stable category with filtered colimits (e.g. </span>\(C \in \PrL _{\st }\)<span class="ntx-Italic-tlf-t1-x-x-109">), and let</span> \(f\colon x \to x'\) <span class="ntx-Italic-tlf-t1-x-x-109">be a morphism in</span> \(C\)<span class="ntx-Italic-tlf-t1-x-x-109">.
+Then</span> \(f\) <span class="ntx-Italic-tlf-t1-x-x-109">is weakly compact if and only if for every</span> \(Z \in \Ind (C)\) <span class="ntx-Italic-tlf-t1-x-x-109">with</span> \(\colim Z \simeq 0\)<span class="ntx-Italic-tlf-t1-x-x-109">, the map </span>\[ f^*\colon \pi _0\Map _{\Ind (C)}(y(x'),Z) \to \pi _0\Map _{\Ind (C)}(y(x),Z) \] <span class="ntx-Italic-tlf-t1-x-x-109">is zero. Explicitly, this means: for
+every filtered diagram</span> \((z_i)_{i \in I}\) <span class="ntx-Italic-tlf-t1-x-x-109">with</span> \(\colim _i z_i \simeq 0\) <span class="ntx-Italic-tlf-t1-x-x-109">and every map</span> \(g\colon x' \to z_i\)<span class="ntx-Italic-tlf-t1-x-x-109">, there is</span> \(i' \geq i\) <span class="ntx-Italic-tlf-t1-x-x-109">such that the composite</span> \(x \xrightarrow {f} x' \xrightarrow {g} z_i \to z_{i'}\) <span class="ntx-Italic-tlf-t1-x-x-109">is nullhomotopic.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-2">
+<p class="noindent">Note that \(\Ind (C)\) is stable, and that filtered colimits in \(C\) as well as the colimit functor \(\Ind (C) \to C\) are exact.
+</p><p class="noindent">Suppose that \(f\) is weakly compact, and let \(Z = \quotcolim _{i \in I} z_i\) with \(\colim _i z_i \simeq 0\); by <a class="source-reference" href="../../../entry/cofinal-filtered-posets/index.html#thm:Filtered_Posets_Cofinal">Theorem A.8</a> we may assume that \(I\) is a filtered partially ordered
+set. A map \(y(x') \to Z\) is represented by some \(g\colon x' \to z_{i_0}\). For \(i \geq i_0\) write \(g_i\colon x' \to z_i\) for the composite with the transition map, and \(w_i := \fib (g_i)\).
+As \(\{i \geq i_0\} \subseteq I\) is cofinal and filtered colimits are exact, the canonical map \[ \colim _{i \geq i_0} w_i \to \fib \big (x' \to \colim _{i \geq i_0} z_i\big ) \simeq x' \] is an equivalence. Applying weak
+compactness of \(f\) to the inverse of this equivalence, we find \(i \geq i_0\) and a map \(b\colon x \to w_i\) such that \(f\) is homotopic to the
+composite of \(b\) with \(w_i \to x'\). Hence \(g_if\) factors through \(g_i \circ (w_i \to x') \simeq 0\), so \(g_if \simeq 0\), and the image of our map under \(f^*\) vanishes.
+</p><p class="noindent">Conversely, suppose the condition holds, and let \(g\colon x' \to \colim _i z_i\). Put \(Z = \quotcolim _i z_i\), let \(\eta _Z\colon Z \to y(\colim Z)\) be the unit of \(\colim \dashv y\), and let \(W = \cofib (\eta _Z)\). Then \(\colim W \simeq \cofib (\colim (\eta _Z)) \simeq 0\), since \(\colim (\eta _Z)\) is
+an equivalence. In the exact sequence of abelian groups \[ \pi _0\Map (y(x),Z) \xrightarrow {(\eta _Z)_*} \pi _0\Map (y(x),y(\colim Z)) \to \pi _0\Map (y(x),W), \] the class of \(y(gf) = y(g)y(f)\) maps to the image under \(f^*\) of
+the class of the composite \(y(x') \xrightarrow {y(g)} y(\colim Z) \to W\), which vanishes by assumption. Hence \(y(gf) \simeq \eta _Z\psi \) for some \(\psi \colon y(x) \to Z\). Since \(y(x)\) is compact, \(\psi \) is
+represented by a map \(\psi _0\colon x \to z_i\) for some \(i\), and \(\eta _Z\psi \) is then \(y\) of the composite \(x \xrightarrow {\psi _0} z_i \to \colim _i z_i\). As \(y\) is fully faithful, \(gf\) is homotopic
+to this composite.                                                                                                                                □
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2023r10"></a>
+                                                                                   
+                                                                                   
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/alternative-definitions-of-compact-morphisms/index.html" title="Alternative definitions of compact morphisms">Remark 4.10.</a></span>  </span><span id="rem:Compact_Morphisms_Other_Definitions"></span>  In  the  literature  one  also  finds  weaker,  “elementwise”  definitions  of  compact
+morphisms. For instance, Clausen and Mathew call a morphism \(f\colon x \to x'\) in a presentable stable category
+compact if for every filtered diagram \((z_j)_j\) with \(\colim _j z_j \simeq 0\), every map \(x' \to z_j\) becomes nullhomotopic after precomposition
+with \(f\) and postcomposition with \(z_j \to z_{j'}\) for some \(j' \geq j\). In compactly assembled categories this agrees with <a class="source-reference" href="../../../entry/compact-morphisms/index.html#def:Compact_Morphism">Definition 3.3</a>, by
+<a class="source-reference" href="../../../entry/characterizations-of-compact-morphisms/index.html#prop:Compact_Morphism_Characterizations">Proposition 4.4</a>, <a class="source-reference" href="../../../entry/stable-criterion-for-weak-compactness/index.html#prop:Compact_Morphisms_Stable">Proposition 4.9</a>.
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2024r11"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/comparing-stable-compactness-definitions/index.html" title="Comparing stable compactness definitions">Remark 4.11.</a></span>  </span><span id="rem:Stable_Compact_Morphism_Definitions"></span> The vanishing-colimit test in <a class="source-reference" href="../../../entry/stable-criterion-for-weak-compactness/index.html#prop:Compact_Morphisms_Stable">Proposition 4.9</a> characterizes weak compactness in any stable category
+with filtered colimits. Compact assembly is used only to identify this with the natural factorization
+condition of <a class="source-reference" href="../../../entry/compact-morphisms/index.html#def:Compact_Morphism">Definition 3.3</a>, via <a class="source-reference" href="../../../entry/characterizations-of-compact-morphisms/index.html#prop:Compact_Morphism_Characterizations">Proposition 4.4</a>.
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-2025r12"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/compact-objects-via-weakly-compact-identities/index.html" title="Compact objects via weakly compact identities">Corollary 4.12 </a></span>(cf. [<a class="citation" href="../../../references/index.html#bib-Efimov_Large_Categories">Efimov (2024)</a>, Remark 2.38])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="cor:Compact_Iff_Identity_Weakly_Compact"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">be a stable category with filtered colimits. Then</span> \(x \in C\) <span class="ntx-Italic-tlf-t1-x-x-109">is compact if and only
+if</span> \(\id _x\) <span class="ntx-Italic-tlf-t1-x-x-109">is weakly compact.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-1">
+                                                                                   
+
+                                                                                   
+<p class="noindent">Suppose that \(\id _x\) is weakly compact. By <a class="source-reference" href="../../../entry/stable-criterion-for-weak-compactness/index.html#prop:Compact_Morphisms_Stable">Proposition 4.9</a>, we have \(\pi _0\Map _{\Ind (C)}(y(x),W) = 0\) for every \(W \in \Ind (C)\) with \(\colim W \simeq 0\). Applying this to all shifts of \(W\), we get
+\(\hom _{\Ind (C)}(y(x),W) \simeq 0\). For \(Z = \quotcolim _i z_i\), applying this to the fiber \(W\) of the unit \(\eta _Z\colon Z \to y(\colim Z)\) shows that \begin {align*}  \colim _i \hom _C(x,z_i) &amp;\simeq \hom _{\Ind (C)}(y(x),Z) \\ &amp;\to \hom _{\Ind (C)}(y(x),y(\colim Z)) \simeq \hom _C(x,\colim _i z_i)  \end {align*}
+</p><p class="noindent">is an equivalence, i.e. \(x\) is compact. The converse is <a class="source-reference" href="../../../entry/examples-of-weakly-compact-morphisms/index.html#ex:Weakly_Compact_Basic">Example 4.3</a>(1).                                                                    □
+</p>
+</div></details>
+
+</article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Page navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../../preface/index.html"><span class="context-entry-heading">Preface</span><span class="context-entry-title"></span></a></li><li><a href="../../../chapter/introduction-and-overview/index.html"><span class="context-entry-heading">Chapter 1</span><span class="context-entry-title">Introduction and overview</span></a></li><li><a href="../../../chapter/stable-categories-and-localization-sequences/index.html"><span class="context-entry-heading">Chapter 2</span><span class="context-entry-title">Stable categories and localization sequences</span></a></li><li><a href="../../../chapter/compactly-assembled-and-dualizable-categories/index.html"><span class="context-entry-heading">Chapter 3</span><span class="context-entry-title">Compactly assembled and dualizable categories</span></a></li><li><a href="../../../chapter/compact-morphisms-and-ab6/index.html" aria-current="page"><span class="context-entry-heading">Chapter 4</span><span class="context-entry-title">Compact morphisms and the axiom (AB6)</span></a></li><li><a href="../../../chapter/examples-of-dualizable-categories/index.html"><span class="context-entry-heading">Chapter 5</span><span class="context-entry-title">Examples of dualizable categories</span></a></li><li><a href="../../../chapter/rigidity-and-nuclear-objects/index.html"><span class="context-entry-heading">Chapter 6</span><span class="context-entry-title">Rigidity and nuclear objects</span></a></li><li><a href="../../../chapter/calkin-categories-colimits-and-limits/index.html"><span class="context-entry-heading">Chapter 7</span><span class="context-entry-title">Calkin categories, colimits and limits of dualizable categories</span></a></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 8</span><span class="context-entry-title">Localizing invariants of dualizable categories</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 9</span><span class="context-entry-title">Sheaves on continuous posets and locally compact Hausdorff spaces</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 10</span><span class="context-entry-title">Dualizability and flatness</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 11</span><span class="context-entry-title">ℵ₁-presentability of Prᵈᵘᵃˡ</span></span></li><li><a href="../../../chapter/categorical-background/index.html"><span class="context-entry-heading">Appendix A</span><span class="context-entry-title">Categorical background</span></a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="index.html" aria-current="page"><span class="context-entry-heading">Section 4.1</span><span class="context-entry-title">Weakly compact morphisms</span></a></li><li><a href="../compactly-exhaustible-objects/index.html"><span class="context-entry-heading">Section 4.2</span><span class="context-entry-title">Compactly exhaustible objects</span></a></li><li><a href="../universal-property-of-the-finest-presentation/index.html"><span class="context-entry-heading">Section 4.3</span><span class="context-entry-title">A universal property of ŷ</span></a></li><li><a href="../the-ab6-axiom/index.html"><span class="context-entry-heading">Section 4.4</span><span class="context-entry-title">The axiom (AB6)</span></a></li><li><a href="../automatic-dualizability-and-images/index.html"><span class="context-entry-heading">Section 4.5</span><span class="context-entry-title">Automatic dualizability and images</span></a></li></ol>
+    </nav>
+  </section></div>
+  </aside></main><footer class="edition-footer">
+  <a href="/efimov-k-theory.pdf">PDF</a>
+  <p class="source-note">Generated from the LaTeX source.</p>
+</footer></body></html>

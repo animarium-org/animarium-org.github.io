@@ -1,0 +1,3852 @@
+{
+  "SchemaVersion": 1,
+  "WorkId": "efimov-k-theory",
+  "CanonicalBase": "https://animarium.org/efimov-k-theory/",
+  "Routes": [
+    {
+      "Kind": "work",
+      "Path": "/",
+      "Fragments": []
+    },
+    {
+      "Kind": "frontmatter",
+      "Path": "/preface/",
+      "Fragments": []
+    },
+    {
+      "Kind": "chapter",
+      "Path": "/chapter/introduction-and-overview/",
+      "SourceId": "introduction-and-overview",
+      "Fragments": [
+        {
+          "Id": "chap:Introduction_And_Overview",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "con:Categories_And_K_Theory",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/introduction-and-overview/why-change-the-input-of-k-theory/",
+      "SourceId": "why-change-the-input-of-k-theory",
+      "Fragments": [
+        {
+          "Id": "sec:Why_Change_Input",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/introduction-and-overview/where-small-stable-categories-fall-short/",
+      "SourceId": "where-small-stable-categories-fall-short",
+      "Fragments": [
+        {
+          "Id": "sec:Small_Categories_Fall_Short",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/introduction-and-overview/from-small-to-large-categories/",
+      "SourceId": "from-small-to-large-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Small_To_Large",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Dualizable_Characterizations",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Dualizable_Categories",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Rigid_Category",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Rigid_Ind_Categories_Intro",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Rigid_Self_Dual",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Compact_Objects_And_Morphisms_Intro",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Cat_Dual",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/introduction-and-overview/continuous-k-theory/",
+      "SourceId": "continuous-k-theory",
+      "Fragments": [
+        {
+          "Id": "sec:Continuous_K_Theory_Intro",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Continuous_Extension",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Efimov_Continuous_Extension",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:THH_Categorical_Trace",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/introduction-and-overview/first-computations/",
+      "SourceId": "first-computations",
+      "Fragments": [
+        {
+          "Id": "sec:First_Computations",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Kcont_Sheaves",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Kcont_Euclidean_Sheaves",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Compact_Operators_Intro",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Kcont_Nuclear",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Nuclear_Analytic_Descent",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/introduction-and-overview/overview-of-the-notes/",
+      "SourceId": "overview-of-the-notes",
+      "Fragments": [
+        {
+          "Id": "sec:Overview",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/conventions-for-categories-and-k-theory/",
+      "SourceId": "conventions-for-categories-and-k-theory",
+      "Fragments": [
+        {
+          "Id": "con:Categories_And_K_Theory",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizable-categories-an-overview/",
+      "SourceId": "dualizable-categories-an-overview",
+      "Fragments": [
+        {
+          "Id": "thm:Dualizable_Characterizations",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/examples-of-dualizable-categories/",
+      "SourceId": "examples-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "ex:Dualizable_Categories",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/rigid-categories-an-overview/",
+      "SourceId": "rigid-categories-an-overview",
+      "Fragments": [
+        {
+          "Id": "def:Rigid_Category",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/rigidity-of-ind-categories/",
+      "SourceId": "rigidity-of-ind-categories",
+      "Fragments": [
+        {
+          "Id": "ex:Rigid_Ind_Categories_Intro",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/self-duality-of-rigid-categories-an-overview/",
+      "SourceId": "self-duality-of-rigid-categories-an-overview",
+      "Fragments": [
+        {
+          "Id": "prop:Rigid_Self_Dual",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-objects-and-compact-morphisms/",
+      "SourceId": "compact-objects-and-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "rem:Compact_Objects_And_Morphisms_Intro",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizable-categories-and-strongly-continuous-functors/",
+      "SourceId": "dualizable-categories-and-strongly-continuous-functors",
+      "Fragments": [
+        {
+          "Id": "def:Cat_Dual",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/continuous-extensions-of-localizing-invariants/",
+      "SourceId": "continuous-extensions-of-localizing-invariants",
+      "Fragments": [
+        {
+          "Id": "def:Continuous_Extension",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/efimovs-continuous-extension-theorem/",
+      "SourceId": "efimovs-continuous-extension-theorem",
+      "Fragments": [
+        {
+          "Id": "thm:Efimov_Continuous_Extension",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/topological-hochschild-homology-as-a-trace/",
+      "SourceId": "topological-hochschild-homology-as-a-trace",
+      "Fragments": [
+        {
+          "Id": "ex:THH_Categorical_Trace",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/continuous-k-theory-of-sheaves/",
+      "SourceId": "continuous-k-theory-of-sheaves",
+      "Fragments": [
+        {
+          "Id": "thm:Kcont_Sheaves",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/continuous-k-theory-of-euclidean-sheaves/",
+      "SourceId": "continuous-k-theory-of-euclidean-sheaves",
+      "Fragments": [
+        {
+          "Id": "ex:Kcont_Euclidean_Sheaves",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/continuous-k-theory-of-compact-operators/",
+      "SourceId": "continuous-k-theory-of-compact-operators",
+      "Fragments": [
+        {
+          "Id": "ex:Compact_Operators_Intro",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/continuous-k-theory-of-nuclear-modules/",
+      "SourceId": "continuous-k-theory-of-nuclear-modules",
+      "Fragments": [
+        {
+          "Id": "thm:Kcont_Nuclear",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/analytic-descent-for-nuclear-modules/",
+      "SourceId": "analytic-descent-for-nuclear-modules",
+      "Fragments": [
+        {
+          "Id": "thm:Nuclear_Analytic_Descent",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "chapter",
+      "Path": "/chapter/stable-categories-and-localization-sequences/",
+      "SourceId": "stable-categories-and-localization-sequences",
+      "Fragments": [
+        {
+          "Id": "chap:Localization_Sequences",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/stable-categories-and-localization-sequences/verdier-sequences/",
+      "SourceId": "verdier-sequences",
+      "Fragments": [
+        {
+          "Id": "sec:Verdier_Sequences",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Verdier_Quotient",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Kernel_Verdier_Quotient",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Nullhomotopies_Property",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Verdier_Sequence",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/stable-categories-and-localization-sequences/idempotent-completion-and-short-exact-sequences/",
+      "SourceId": "idempotent-completion-and-short-exact-sequences",
+      "Fragments": [
+        {
+          "Id": "sec:Karoubi_Sequences",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Short_Exact_Sequence",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Characterization_Short_Exact",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Verdier_Vs_Karoubi",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Mapping_Spectra_Quotient",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Lifting_Objects_Quotient",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Thomason_Trobaugh_Sequence",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/stable-categories-and-localization-sequences/presentable-localization-sequences/",
+      "SourceId": "presentable-localization-sequences",
+      "Fragments": [
+        {
+          "Id": "sec:Localization_Sequences_PrL",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Localization_Sequence_PrL",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Localization_Sequences_PrL",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Strong_Continuity_Localization_Sequence",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Compact_Generators_Thick_Closure",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Compact_Objects_Localization_Sequence",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Homological_Epimorphism",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Thomason_Neeman",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Karoubi_Quotient_Via_Ind",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Ind_Fully_Faithful_Localization",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Keller",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/stable-categories-and-localization-sequences/semiorthogonal-decompositions/",
+      "SourceId": "semiorthogonal-decompositions",
+      "Fragments": [
+        {
+          "Id": "sec:Semiorthogonal_Decompositions",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Semiorthogonal_Decomposition",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Two_Term_SOD",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:SOD_Characterization",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:SOD_Small",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:SOD_From_Short_Exact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/stable-categories-and-localization-sequences/calkin-categories/",
+      "SourceId": "calkin-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Calkin_Small",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Calkin_Small",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Calkin_Mapping_Spectra",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Calkin_Perf",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/stable-categories-and-localization-sequences/localizing-invariants/",
+      "SourceId": "localizing-invariants",
+      "Fragments": [
+        {
+          "Id": "sec:Localizing_Invariants",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:K_0",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Localizing_Invariant",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Localizing_Invariants_Verdier",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Verdier_Localizing_Not_Karoubi",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Finitary_Localizing_Invariants",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Localizing_Additive",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Localizing_Calkin",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:K_Universal_Property",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:K_Universal_Property_Literature",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Mot_Loc",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:K_Corepresentable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:K_Unit_Day_Convolution",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Tamme_Excision",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "warn:Excision_Requires_Ind_Localizations",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Tamme_Lax_Pullback_Proof",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Milnor_Patching",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Milnor_Patching_K_Theory",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Milnor_Square_Of_Rings",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/verdier-quotients/",
+      "SourceId": "verdier-quotients",
+      "Fragments": [
+        {
+          "Id": "thm:Verdier_Quotient",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/kernel-of-a-verdier-quotient/",
+      "SourceId": "kernel-of-a-verdier-quotient",
+      "Fragments": [
+        {
+          "Id": "lem:Kernel_Verdier_Quotient",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/nullhomotopies-as-a-property/",
+      "SourceId": "nullhomotopies-as-a-property",
+      "Fragments": [
+        {
+          "Id": "rem:Nullhomotopies_Property",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/verdier-sequences/",
+      "SourceId": "verdier-sequences",
+      "Fragments": [
+        {
+          "Id": "def:Verdier_Sequence",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/short-exact-sequences/",
+      "SourceId": "short-exact-sequences",
+      "Fragments": [
+        {
+          "Id": "def:Short_Exact_Sequence",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/characterizing-short-exact-sequences/",
+      "SourceId": "characterizing-short-exact-sequences",
+      "Fragments": [
+        {
+          "Id": "lem:Characterization_Short_Exact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/verdier-and-karoubi-quotients/",
+      "SourceId": "verdier-and-karoubi-quotients",
+      "Fragments": [
+        {
+          "Id": "rem:Verdier_Vs_Karoubi",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/mapping-spectra-in-verdier-quotients/",
+      "SourceId": "mapping-spectra-in-verdier-quotients",
+      "Fragments": [
+        {
+          "Id": "rem:Mapping_Spectra_Quotient",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/lifting-objects-from-quotients/",
+      "SourceId": "lifting-objects-from-quotients",
+      "Fragments": [
+        {
+          "Id": "rem:Lifting_Objects_Quotient",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/thomason-trobaugh-localization/",
+      "SourceId": "thomason-trobaugh-localization",
+      "Fragments": [
+        {
+          "Id": "ex:Thomason_Trobaugh_Sequence",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/presentable-localization-sequences/",
+      "SourceId": "presentable-localization-sequences",
+      "Fragments": [
+        {
+          "Id": "def:Localization_Sequence_PrL",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/constructing-presentable-localization-sequences/",
+      "SourceId": "constructing-presentable-localization-sequences",
+      "Fragments": [
+        {
+          "Id": "prop:Localization_Sequences_PrL",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/strong-continuity-in-localization-sequences/",
+      "SourceId": "strong-continuity-in-localization-sequences",
+      "Fragments": [
+        {
+          "Id": "lem:Strong_Continuity_Localization_Sequence",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-generators-and-thick-closure/",
+      "SourceId": "compact-generators-and-thick-closure",
+      "Fragments": [
+        {
+          "Id": "lem:Compact_Generators_Thick_Closure",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-objects-in-localization-sequences/",
+      "SourceId": "compact-objects-in-localization-sequences",
+      "Fragments": [
+        {
+          "Id": "lem:Compact_Objects_Localization_Sequence",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/homological-epimorphisms/",
+      "SourceId": "homological-epimorphisms",
+      "Fragments": [
+        {
+          "Id": "def:Homological_Epimorphism",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/thomason-neeman-theorem/",
+      "SourceId": "thomason-neeman-theorem",
+      "Fragments": [
+        {
+          "Id": "thm:Thomason_Neeman",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/karoubi-quotients-via-ind-categories/",
+      "SourceId": "karoubi-quotients-via-ind-categories",
+      "Fragments": [
+        {
+          "Id": "cor:Karoubi_Quotient_Via_Ind",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/ind-completion-and-localization/",
+      "SourceId": "ind-completion-and-localization",
+      "Fragments": [
+        {
+          "Id": "rem:Ind_Fully_Faithful_Localization",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/kellers-smashing-localization/",
+      "SourceId": "kellers-smashing-localization",
+      "Fragments": [
+        {
+          "Id": "ex:Keller",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/semiorthogonal-decompositions/",
+      "SourceId": "semiorthogonal-decompositions",
+      "Fragments": [
+        {
+          "Id": "def:Semiorthogonal_Decomposition",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/two-term-semiorthogonal-decompositions/",
+      "SourceId": "two-term-semiorthogonal-decompositions",
+      "Fragments": [
+        {
+          "Id": "prop:Two_Term_SOD",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/recognizing-semiorthogonal-decompositions/",
+      "SourceId": "recognizing-semiorthogonal-decompositions",
+      "Fragments": [
+        {
+          "Id": "prop:SOD_Characterization",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/small-semiorthogonal-decompositions/",
+      "SourceId": "small-semiorthogonal-decompositions",
+      "Fragments": [
+        {
+          "Id": "rem:SOD_Small",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/adjoints-and-split-exact-sequences/",
+      "SourceId": "adjoints-and-split-exact-sequences",
+      "Fragments": [
+        {
+          "Id": "prop:SOD_From_Short_Exact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/calkin-categories/",
+      "SourceId": "calkin-categories",
+      "Fragments": [
+        {
+          "Id": "def:Calkin_Small",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/mapping-spectra-in-calkin-categories/",
+      "SourceId": "mapping-spectra-in-calkin-categories",
+      "Fragments": [
+        {
+          "Id": "rem:Calkin_Mapping_Spectra",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/calkin-category-of-perfect-complexes/",
+      "SourceId": "calkin-category-of-perfect-complexes",
+      "Fragments": [
+        {
+          "Id": "ex:Calkin_Perf",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/grothendieck-groups/",
+      "SourceId": "grothendieck-groups",
+      "Fragments": [
+        {
+          "Id": "def:K_0",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/localizing-invariants/",
+      "SourceId": "localizing-invariants",
+      "Fragments": [
+        {
+          "Id": "def:Localizing_Invariant",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/localizing-invariants-and-verdier-sequences/",
+      "SourceId": "localizing-invariants-and-verdier-sequences",
+      "Fragments": [
+        {
+          "Id": "lem:Localizing_Invariants_Verdier",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/verdier-versus-karoubi-invariants/",
+      "SourceId": "verdier-versus-karoubi-invariants",
+      "Fragments": [
+        {
+          "Id": "rem:Verdier_Localizing_Not_Karoubi",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/finitary-localizing-invariants/",
+      "SourceId": "finitary-localizing-invariants",
+      "Fragments": [
+        {
+          "Id": "rem:Finitary_Localizing_Invariants",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/localizing-invariants-are-additive/",
+      "SourceId": "localizing-invariants-are-additive",
+      "Fragments": [
+        {
+          "Id": "ex:Localizing_Additive",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/calkin-delooping/",
+      "SourceId": "calkin-delooping",
+      "Fragments": [
+        {
+          "Id": "ex:Localizing_Calkin",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/universal-property-of-algebraic-k-theory/",
+      "SourceId": "universal-property-of-algebraic-k-theory",
+      "Fragments": [
+        {
+          "Id": "thm:K_Universal_Property",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/filtered-colimits-in-the-universal-property/",
+      "SourceId": "filtered-colimits-in-the-universal-property",
+      "Fragments": [
+        {
+          "Id": "rem:K_Universal_Property_Literature",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/localizing-motives/",
+      "SourceId": "localizing-motives",
+      "Fragments": [
+        {
+          "Id": "def:Mot_Loc",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/corepresentability-of-k-theory/",
+      "SourceId": "corepresentability-of-k-theory",
+      "Fragments": [
+        {
+          "Id": "thm:K_Corepresentable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/k-theory-as-the-day-convolution-unit/",
+      "SourceId": "k-theory-as-the-day-convolution-unit",
+      "Fragments": [
+        {
+          "Id": "thm:K_Unit_Day_Convolution",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/tammes-excision-theorem/",
+      "SourceId": "tammes-excision-theorem",
+      "Fragments": [
+        {
+          "Id": "thm:Tamme_Excision",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/localization-after-ind-completion/",
+      "SourceId": "localization-after-ind-completion",
+      "Fragments": [
+        {
+          "Id": "warn:Excision_Requires_Ind_Localizations",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/tammes-lax-pullback-proof/",
+      "SourceId": "tammes-lax-pullback-proof",
+      "Fragments": [
+        {
+          "Id": "rem:Tamme_Lax_Pullback_Proof",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/milnor-patching/",
+      "SourceId": "milnor-patching",
+      "Fragments": [
+        {
+          "Id": "ex:Milnor_Patching",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/milnor-patching-in-k-theory/",
+      "SourceId": "milnor-patching-in-k-theory",
+      "Fragments": [
+        {
+          "Id": "thm:Milnor_Patching_K_Theory",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/milnor-squares-of-rings/",
+      "SourceId": "milnor-squares-of-rings",
+      "Fragments": [
+        {
+          "Id": "ex:Milnor_Square_Of_Rings",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "chapter",
+      "Path": "/chapter/compactly-assembled-and-dualizable-categories/",
+      "SourceId": "compactly-assembled-and-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "chap:Compactly_Assembled_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/compactly-assembled-and-dualizable-categories/compactly-assembled-categories/",
+      "SourceId": "compactly-assembled-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Compactly_Assembled",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Compactly_Assembled",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Compact_Iff_Yhat_Is_Y",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Compact_Morphism",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Compact_Morphisms_Ideal",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Compact_Morphisms_Yhat",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Compactly_Generated_Compactly_Assembled",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Continuous_Posets",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Compactly_Assembled_Retract",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Strongly_Continuous_Compactly_Assembled",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Strongly_Continuous_Right_Adjoint",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/compactly-assembled-and-dualizable-categories/dualizable-categories/",
+      "SourceId": "dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Dualizable_Categories",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Dualizable_Category",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Dual_Of_Modules",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Strongly_Continuous_Stable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Compactly_Generated_In_Prdual",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Prdual_Formal_Properties",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Lurie_Dualizable_Characterization",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Dualizable_Further_Characterizations",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Further_Characterizations_Later",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/compactly-assembled-and-dualizable-categories/localization-sequences-of-dualizable-categories/",
+      "SourceId": "localization-sequences-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Localization_Sequences_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Localization_Sequence_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/compactly-assembled-and-dualizable-categories/omega-one-presentability/",
+      "SourceId": "omega-one-presentability",
+      "Fragments": [
+        {
+          "Id": "sec:Omega_1_Presentability",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Compactly_Assembled_Omega_1",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Omega_1_Compact_Compact_Morphisms",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Strongly_Continuous_Compact_Morphisms",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "eq:Mate_Compatible_Epsilon",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compactly-assembled-categories/",
+      "SourceId": "compactly-assembled-categories",
+      "Fragments": [
+        {
+          "Id": "def:Compactly_Assembled",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-objects-and-the-finest-presentation/",
+      "SourceId": "compact-objects-and-the-finest-presentation",
+      "Fragments": [
+        {
+          "Id": "lem:Compact_Iff_Yhat_Is_Y",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-morphisms/",
+      "SourceId": "compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "def:Compact_Morphism",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/the-ideal-of-compact-morphisms/",
+      "SourceId": "the-ideal-of-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "rem:Compact_Morphisms_Ideal",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-morphisms-via-the-finest-presentation/",
+      "SourceId": "compact-morphisms-via-the-finest-presentation",
+      "Fragments": [
+        {
+          "Id": "lem:Compact_Morphisms_Yhat",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-generation-implies-compact-assembly/",
+      "SourceId": "compact-generation-implies-compact-assembly",
+      "Fragments": [
+        {
+          "Id": "ex:Compactly_Generated_Compactly_Assembled",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/continuous-posets-an-overview/",
+      "SourceId": "continuous-posets-an-overview",
+      "Fragments": [
+        {
+          "Id": "ex:Continuous_Posets",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compactly-assembled-categories-as-retracts/",
+      "SourceId": "compactly-assembled-categories-as-retracts",
+      "Fragments": [
+        {
+          "Id": "thm:Compactly_Assembled_Retract",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/strongly-continuous-functors-between-compactly-assembled-categories/",
+      "SourceId": "strongly-continuous-functors-between-compactly-assembled-categories",
+      "Fragments": [
+        {
+          "Id": "def:Strongly_Continuous_Compactly_Assembled",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/right-adjoints-and-strong-continuity/",
+      "SourceId": "right-adjoints-and-strong-continuity",
+      "Fragments": [
+        {
+          "Id": "rem:Strongly_Continuous_Right_Adjoint",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizable-categories/",
+      "SourceId": "dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "def:Dualizable_Category",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/duality-for-module-categories/",
+      "SourceId": "duality-for-module-categories",
+      "Fragments": [
+        {
+          "Id": "ex:Dual_Of_Modules",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/strong-continuity-in-stable-categories/",
+      "SourceId": "strong-continuity-in-stable-categories",
+      "Fragments": [
+        {
+          "Id": "rem:Strongly_Continuous_Stable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compactly-generated-categories-in-pr-dual/",
+      "SourceId": "compactly-generated-categories-in-pr-dual",
+      "Fragments": [
+        {
+          "Id": "rem:Compactly_Generated_In_Prdual",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/formal-properties-of-pr-dual/",
+      "SourceId": "formal-properties-of-pr-dual",
+      "Fragments": [
+        {
+          "Id": "rem:Prdual_Formal_Properties",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/luries-characterization-of-dualizable-categories/",
+      "SourceId": "luries-characterization-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "thm:Lurie_Dualizable_Characterization",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/further-characterizations-of-dualizable-categories/",
+      "SourceId": "further-characterizations-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_Further_Characterizations",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-morphisms-and-flatness-characterizations/",
+      "SourceId": "compact-morphisms-and-flatness-characterizations",
+      "Fragments": [
+        {
+          "Id": "rem:Further_Characterizations_Later",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/localization-sequences-preserve-dualizability/",
+      "SourceId": "localization-sequences-preserve-dualizability",
+      "Fragments": [
+        {
+          "Id": "prop:Localization_Sequence_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/omega-one-presentability-of-compactly-assembled-categories/",
+      "SourceId": "omega-one-presentability-of-compactly-assembled-categories",
+      "Fragments": [
+        {
+          "Id": "thm:Compactly_Assembled_Omega_1",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/sequential-colimits-of-compact-morphisms/",
+      "SourceId": "sequential-colimits-of-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "rem:Omega_1_Compact_Compact_Morphisms",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/strong-continuity-via-compact-morphisms/",
+      "SourceId": "strong-continuity-via-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "prop:Strongly_Continuous_Compact_Morphisms",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "eq:Mate_Compatible_Epsilon",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "chapter",
+      "Path": "/chapter/compact-morphisms-and-ab6/",
+      "SourceId": "compact-morphisms-and-ab6",
+      "Fragments": [
+        {
+          "Id": "chap:Compact_Morphisms_AB6",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/compact-morphisms-and-ab6/weakly-compact-morphisms/",
+      "SourceId": "weakly-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "sec:Weakly_Compact_Morphisms",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Weakly_Compact_Morphism",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Weakly_Compact_Lifting",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Weakly_Compact_Basic",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Compact_Morphism_Characterizations",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Weak_Compactness_In_Small_Ind_Categories",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Compact_Morphism_Factorization",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Interpolation",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Compact_Interpolation",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Compact_Morphisms_Stable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Compact_Morphisms_Other_Definitions",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Stable_Compact_Morphism_Definitions",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Compact_Iff_Identity_Weakly_Compact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/compact-morphisms-and-ab6/compactly-exhaustible-objects/",
+      "SourceId": "compactly-exhaustible-objects",
+      "Fragments": [
+        {
+          "Id": "sec:Compactly_Exhaustible",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Compactly_Exhaustible",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Dualizable_Compactly_Exhaustible",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Compact_Exhaustions_In_Presentable_Categories",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/compact-morphisms-and-ab6/universal-property-of-the-finest-presentation/",
+      "SourceId": "universal-property-of-the-finest-presentation",
+      "Fragments": [
+        {
+          "Id": "sec:Universal_Property_Yhat",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Filtered_Coreflection",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Yhat_Universal_Property",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/compact-morphisms-and-ab6/the-ab6-axiom/",
+      "SourceId": "the-ab6-axiom",
+      "Fragments": [
+        {
+          "Id": "sec:AB6",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:AB6",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:AB6_Sets_And_Animae",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Products_In_Ind",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Dualizable_AB6",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:AB6_And_Small_Ind_Completions",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:AB6_And_Compact_Assembly",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/compact-morphisms-and-ab6/automatic-dualizability-and-images/",
+      "SourceId": "automatic-dualizability-and-images",
+      "Fragments": [
+        {
+          "Id": "sec:Automatic_Dualizability",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Automatic_Strong_Continuity",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Generation_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Products_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Image_Functor",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Image_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/weakly-compact-morphisms/",
+      "SourceId": "weakly-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "def:Weakly_Compact_Morphism",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/lifting-criterion-for-weakly-compact-morphisms/",
+      "SourceId": "lifting-criterion-for-weakly-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "rem:Weakly_Compact_Lifting",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/examples-of-weakly-compact-morphisms/",
+      "SourceId": "examples-of-weakly-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "ex:Weakly_Compact_Basic",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/characterizations-of-compact-morphisms/",
+      "SourceId": "characterizations-of-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "prop:Compact_Morphism_Characterizations",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/weak-compactness-in-small-ind-completions/",
+      "SourceId": "weak-compactness-in-small-ind-completions",
+      "Fragments": [
+        {
+          "Id": "rem:Weak_Compactness_In_Small_Ind_Categories",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/factorization-of-compact-morphisms/",
+      "SourceId": "factorization-of-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "cor:Compact_Morphism_Factorization",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/rational-interpolation-of-morphisms/",
+      "SourceId": "rational-interpolation-of-morphisms",
+      "Fragments": [
+        {
+          "Id": "lem:Interpolation",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-interpolation-and-omega-one-compactness/",
+      "SourceId": "compact-interpolation-and-omega-one-compactness",
+      "Fragments": [
+        {
+          "Id": "prop:Compact_Interpolation",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/stable-criterion-for-weak-compactness/",
+      "SourceId": "stable-criterion-for-weak-compactness",
+      "Fragments": [
+        {
+          "Id": "prop:Compact_Morphisms_Stable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/alternative-definitions-of-compact-morphisms/",
+      "SourceId": "alternative-definitions-of-compact-morphisms",
+      "Fragments": [
+        {
+          "Id": "rem:Compact_Morphisms_Other_Definitions",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/comparing-stable-compactness-definitions/",
+      "SourceId": "comparing-stable-compactness-definitions",
+      "Fragments": [
+        {
+          "Id": "rem:Stable_Compact_Morphism_Definitions",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-objects-via-weakly-compact-identities/",
+      "SourceId": "compact-objects-via-weakly-compact-identities",
+      "Fragments": [
+        {
+          "Id": "cor:Compact_Iff_Identity_Weakly_Compact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compactly-exhaustible-objects/",
+      "SourceId": "compactly-exhaustible-objects",
+      "Fragments": [
+        {
+          "Id": "def:Compactly_Exhaustible",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizability-via-compact-exhaustions/",
+      "SourceId": "dualizability-via-compact-exhaustions",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_Compactly_Exhaustible",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-exhaustions-without-stability/",
+      "SourceId": "compact-exhaustions-without-stability",
+      "Fragments": [
+        {
+          "Id": "rem:Compact_Exhaustions_In_Presentable_Categories",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/coreflection-onto-filtered-colimit-preserving-functors/",
+      "SourceId": "coreflection-onto-filtered-colimit-preserving-functors",
+      "Fragments": [
+        {
+          "Id": "prop:Filtered_Coreflection",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/universal-property-of-the-finest-presentation/",
+      "SourceId": "universal-property-of-the-finest-presentation",
+      "Fragments": [
+        {
+          "Id": "cor:Yhat_Universal_Property",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/the-ab6-axiom/",
+      "SourceId": "the-ab6-axiom",
+      "Fragments": [
+        {
+          "Id": "def:AB6",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/ab6-for-sets-and-animae/",
+      "SourceId": "ab6-for-sets-and-animae",
+      "Fragments": [
+        {
+          "Id": "ex:AB6_Sets_And_Animae",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/products-in-ind-categories/",
+      "SourceId": "products-in-ind-categories",
+      "Fragments": [
+        {
+          "Id": "lem:Products_In_Ind",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizability-and-ab6/",
+      "SourceId": "dualizability-and-ab6",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_AB6",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/ab6-and-small-ind-completions/",
+      "SourceId": "ab6-and-small-ind-completions",
+      "Fragments": [
+        {
+          "Id": "rem:AB6_And_Small_Ind_Completions",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/ab6-and-compact-assembly/",
+      "SourceId": "ab6-and-compact-assembly",
+      "Fragments": [
+        {
+          "Id": "rem:AB6_And_Compact_Assembly",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/automatic-strong-continuity/",
+      "SourceId": "automatic-strong-continuity",
+      "Fragments": [
+        {
+          "Id": "lem:Automatic_Strong_Continuity",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizability-from-generating-functors/",
+      "SourceId": "dualizability-from-generating-functors",
+      "Fragments": [
+        {
+          "Id": "prop:Generation_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/products-of-dualizable-categories/",
+      "SourceId": "products-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "rem:Products_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/image-of-a-functor/",
+      "SourceId": "image-of-a-functor",
+      "Fragments": [
+        {
+          "Id": "def:Image_Functor",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/images-are-dualizable/",
+      "SourceId": "images-are-dualizable",
+      "Fragments": [
+        {
+          "Id": "cor:Image_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "chapter",
+      "Path": "/chapter/examples-of-dualizable-categories/",
+      "SourceId": "examples-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "chap:Examples",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/examples-of-dualizable-categories/kernels-of-homological-epimorphisms/",
+      "SourceId": "kernels-of-homological-epimorphisms",
+      "Fragments": [
+        {
+          "Id": "sec:Homological_Epimorphisms",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Kernel_Homological_Epi",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Every_Dualizable_Kernel",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:H_Unital",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Homological_Epis",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/examples-of-dualizable-categories/almost-ring-theory/",
+      "SourceId": "almost-ring-theory",
+      "Fragments": [
+        {
+          "Id": "sec:Almost_Ring_Theory",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Almost_Modules",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Almost_Modules",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Almost_Restriction_FF",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Almost_Essential_Image",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Almost_Derived_Category",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Almost_General",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Almost_No_Compacts",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Almost_Modules_Over_Cp",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Operator_Ideal_Models",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/examples-of-dualizable-categories/continuous-posets/",
+      "SourceId": "continuous-posets",
+      "Fragments": [
+        {
+          "Id": "sec:Continuous_Posets",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Ind_Of_Poset",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Posets_Accessible",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Continuous_Poset",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "eq:Yhat_Poset",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Way_Below",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Way_Below_Basics",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Continuous_Poset_Characterization",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Continuous_Poset_Reals",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Continuous_Poset_Opens",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Continuous_Posets_Sheaves",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/examples-of-dualizable-categories/extensions-and-semiorthogonal-gluing/",
+      "SourceId": "extensions-and-semiorthogonal-gluing",
+      "Fragments": [
+        {
+          "Id": "sec:Extensions_And_Gluing",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:SOD_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "constr:Semiorthogonal_Gluing",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Gluing_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:SOD_Functor_Categories",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "warn:Extensions_Not_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Extension_Dualizable_Tate",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Tate_Classification_Of_Extensions",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Extension_Not_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/kernels-of-homological-epimorphisms/",
+      "SourceId": "kernels-of-homological-epimorphisms",
+      "Fragments": [
+        {
+          "Id": "prop:Kernel_Homological_Epi",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/every-dualizable-category-is-a-kernel/",
+      "SourceId": "every-dualizable-category-is-a-kernel",
+      "Fragments": [
+        {
+          "Id": "prop:Every_Dualizable_Kernel",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/h-unitality-and-homological-epimorphisms/",
+      "SourceId": "h-unitality-and-homological-epimorphisms",
+      "Fragments": [
+        {
+          "Id": "thm:H_Unital",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/examples-of-homological-epimorphisms/",
+      "SourceId": "examples-of-homological-epimorphisms",
+      "Fragments": [
+        {
+          "Id": "ex:Homological_Epis",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/almost-modules/",
+      "SourceId": "almost-modules",
+      "Fragments": [
+        {
+          "Id": "def:Almost_Modules",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/examples-of-almost-modules/",
+      "SourceId": "examples-of-almost-modules",
+      "Fragments": [
+        {
+          "Id": "ex:Almost_Modules",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/derived-restriction-for-almost-modules/",
+      "SourceId": "derived-restriction-for-almost-modules",
+      "Fragments": [
+        {
+          "Id": "lem:Almost_Restriction_FF",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/essential-image-of-almost-restriction/",
+      "SourceId": "essential-image-of-almost-restriction",
+      "Fragments": [
+        {
+          "Id": "lem:Almost_Essential_Image",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/derived-categories-of-almost-modules/",
+      "SourceId": "derived-categories-of-almost-modules",
+      "Fragments": [
+        {
+          "Id": "prop:Almost_Derived_Category",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/almost-modules-without-flatness/",
+      "SourceId": "almost-modules-without-flatness",
+      "Fragments": [
+        {
+          "Id": "rem:Almost_General",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/almost-categories-without-compact-objects/",
+      "SourceId": "almost-categories-without-compact-objects",
+      "Fragments": [
+        {
+          "Id": "prop:Almost_No_Compacts",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/almost-modules-over-the-completed-algebraic-closure/",
+      "SourceId": "almost-modules-over-the-completed-algebraic-closure",
+      "Fragments": [
+        {
+          "Id": "ex:Almost_Modules_Over_Cp",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/hilbert-space-models-for-operator-ideals/",
+      "SourceId": "hilbert-space-models-for-operator-ideals",
+      "Fragments": [
+        {
+          "Id": "prop:Operator_Ideal_Models",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/ind-completion-of-a-poset/",
+      "SourceId": "ind-completion-of-a-poset",
+      "Fragments": [
+        {
+          "Id": "lem:Ind_Of_Poset",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/accessibility-of-small-posets/",
+      "SourceId": "accessibility-of-small-posets",
+      "Fragments": [
+        {
+          "Id": "lem:Posets_Accessible",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/continuous-posets/",
+      "SourceId": "continuous-posets",
+      "Fragments": [
+        {
+          "Id": "def:Continuous_Poset",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/way-below-relation/",
+      "SourceId": "way-below-relation",
+      "Fragments": [
+        {
+          "Id": "def:Way_Below",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/properties-of-the-way-below-relation/",
+      "SourceId": "properties-of-the-way-below-relation",
+      "Fragments": [
+        {
+          "Id": "rem:Way_Below_Basics",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/characterizing-continuous-posets/",
+      "SourceId": "characterizing-continuous-posets",
+      "Fragments": [
+        {
+          "Id": "prop:Continuous_Poset_Characterization",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/the-extended-real-line-as-a-continuous-poset/",
+      "SourceId": "the-extended-real-line-as-a-continuous-poset",
+      "Fragments": [
+        {
+          "Id": "ex:Continuous_Poset_Reals",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/open-subsets-as-a-continuous-poset/",
+      "SourceId": "open-subsets-as-a-continuous-poset",
+      "Fragments": [
+        {
+          "Id": "ex:Continuous_Poset_Opens",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/continuous-posets-and-sheaf-categories/",
+      "SourceId": "continuous-posets-and-sheaf-categories",
+      "Fragments": [
+        {
+          "Id": "rem:Continuous_Posets_Sheaves",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizability-and-semiorthogonal-decompositions/",
+      "SourceId": "dualizability-and-semiorthogonal-decompositions",
+      "Fragments": [
+        {
+          "Id": "prop:SOD_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/semiorthogonal-gluing/",
+      "SourceId": "semiorthogonal-gluing",
+      "Fragments": [
+        {
+          "Id": "constr:Semiorthogonal_Gluing",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizability-of-gluings/",
+      "SourceId": "dualizability-of-gluings",
+      "Fragments": [
+        {
+          "Id": "prop:Gluing_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/semiorthogonal-decompositions-of-functor-categories/",
+      "SourceId": "semiorthogonal-decompositions-of-functor-categories",
+      "Fragments": [
+        {
+          "Id": "prop:SOD_Functor_Categories",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/extensions-need-not-be-dualizable/",
+      "SourceId": "extensions-need-not-be-dualizable",
+      "Fragments": [
+        {
+          "Id": "warn:Extensions_Not_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/extensions-and-tate-objects/",
+      "SourceId": "extensions-and-tate-objects",
+      "Fragments": [
+        {
+          "Id": "prop:Extension_Dualizable_Tate",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/classifying-exact-sequences-with-tate-objects/",
+      "SourceId": "classifying-exact-sequences-with-tate-objects",
+      "Fragments": [
+        {
+          "Id": "rem:Tate_Classification_Of_Extensions",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/efimovs-nondualizable-extension/",
+      "SourceId": "efimovs-nondualizable-extension",
+      "Fragments": [
+        {
+          "Id": "ex:Extension_Not_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "chapter",
+      "Path": "/chapter/rigidity-and-nuclear-objects/",
+      "SourceId": "rigidity-and-nuclear-objects",
+      "Fragments": [
+        {
+          "Id": "chap:Rigidity_And_Nuclear_Objects",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/rigidity-and-nuclear-objects/rigid-symmetric-monoidal-categories/",
+      "SourceId": "rigid-symmetric-monoidal-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Rigid_Categories",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Rigid_Category_Detailed",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Equivalent_Rigidity_Definitions",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Rigid_Self_Dual_Detailed",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Trace_Class",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Identity_Trace_Class",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Trace_Class_Basics",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Trace_Class_Compact",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Rigid_Trace_Class",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Rigid_Functors_Strongly_Continuous",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Strong_Continuity_From_Rigid_Source",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Rigid_Compactly_Generated",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Shv_Compact_Hausdorff_Rigid",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Locally_Rigid_Sheaf_Categories",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/rigidity-and-nuclear-objects/nuclear-modules-and-condensed-mathematics/",
+      "SourceId": "nuclear-modules-and-condensed-mathematics",
+      "Fragments": [
+        {
+          "Id": "sec:Nuclear_Modules",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Nuclear",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Trace_Class_Interleaving",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Nuclear_Colimit_Interleaving",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Nuclear_Basics",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Nuclear_Definition_Pi0",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Nuclear_Rigid",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Rigidification_Via_Idempotent_Ideals",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Nuclear_Solid",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Nuclear_Banach",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Nuclear_Liquid_Gaseous",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Nuclear_Descent",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/rigid-symmetric-monoidal-categories/",
+      "SourceId": "rigid-symmetric-monoidal-categories",
+      "Fragments": [
+        {
+          "Id": "def:Rigid_Category_Detailed",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/equivalent-definitions-of-rigidity/",
+      "SourceId": "equivalent-definitions-of-rigidity",
+      "Fragments": [
+        {
+          "Id": "rem:Equivalent_Rigidity_Definitions",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/self-duality-of-rigid-categories/",
+      "SourceId": "self-duality-of-rigid-categories",
+      "Fragments": [
+        {
+          "Id": "prop:Rigid_Self_Dual_Detailed",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/trace-class-morphisms/",
+      "SourceId": "trace-class-morphisms",
+      "Fragments": [
+        {
+          "Id": "def:Trace_Class",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/trace-class-identities-and-dualizability/",
+      "SourceId": "trace-class-identities-and-dualizability",
+      "Fragments": [
+        {
+          "Id": "lem:Identity_Trace_Class",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/properties-of-trace-class-morphisms/",
+      "SourceId": "properties-of-trace-class-morphisms",
+      "Fragments": [
+        {
+          "Id": "rem:Trace_Class_Basics",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/trace-class-morphisms-are-compact/",
+      "SourceId": "trace-class-morphisms-are-compact",
+      "Fragments": [
+        {
+          "Id": "lem:Trace_Class_Compact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/rigidity-via-trace-class-morphisms/",
+      "SourceId": "rigidity-via-trace-class-morphisms",
+      "Fragments": [
+        {
+          "Id": "thm:Rigid_Trace_Class",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/strong-continuity-of-rigid-monoidal-functors/",
+      "SourceId": "strong-continuity-of-rigid-monoidal-functors",
+      "Fragments": [
+        {
+          "Id": "cor:Rigid_Functors_Strongly_Continuous",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/strong-continuity-from-a-rigid-source/",
+      "SourceId": "strong-continuity-from-a-rigid-source",
+      "Fragments": [
+        {
+          "Id": "rem:Strong_Continuity_From_Rigid_Source",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compactly-generated-rigid-categories/",
+      "SourceId": "compactly-generated-rigid-categories",
+      "Fragments": [
+        {
+          "Id": "ex:Rigid_Compactly_Generated",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/rigidity-of-sheaves-on-compact-hausdorff-spaces/",
+      "SourceId": "rigidity-of-sheaves-on-compact-hausdorff-spaces",
+      "Fragments": [
+        {
+          "Id": "ex:Shv_Compact_Hausdorff_Rigid",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/local-rigidity-of-sheaf-categories/",
+      "SourceId": "local-rigidity-of-sheaf-categories",
+      "Fragments": [
+        {
+          "Id": "ex:Locally_Rigid_Sheaf_Categories",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/nuclear-and-basic-nuclear-objects/",
+      "SourceId": "nuclear-and-basic-nuclear-objects",
+      "Fragments": [
+        {
+          "Id": "def:Nuclear",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/interleaving-for-trace-class-morphisms/",
+      "SourceId": "interleaving-for-trace-class-morphisms",
+      "Fragments": [
+        {
+          "Id": "lem:Trace_Class_Interleaving",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/interleaving-in-nuclear-colimits/",
+      "SourceId": "interleaving-in-nuclear-colimits",
+      "Fragments": [
+        {
+          "Id": "lem:Nuclear_Colimit_Interleaving",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/basic-properties-of-nuclear-objects/",
+      "SourceId": "basic-properties-of-nuclear-objects",
+      "Fragments": [
+        {
+          "Id": "prop:Nuclear_Basics",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/comparing-definitions-of-nuclearity/",
+      "SourceId": "comparing-definitions-of-nuclearity",
+      "Fragments": [
+        {
+          "Id": "rem:Nuclear_Definition_Pi0",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/nuclear-objects-and-rigidification/",
+      "SourceId": "nuclear-objects-and-rigidification",
+      "Fragments": [
+        {
+          "Id": "prop:Nuclear_Rigid",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/rigidification-via-idempotent-ideals/",
+      "SourceId": "rigidification-via-idempotent-ideals",
+      "Fragments": [
+        {
+          "Id": "rem:Rigidification_Via_Idempotent_Ideals",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/nuclear-solid-modules-and-formal-schemes/",
+      "SourceId": "nuclear-solid-modules-and-formal-schemes",
+      "Fragments": [
+        {
+          "Id": "ex:Nuclear_Solid",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/banach-spaces-as-nuclear-modules/",
+      "SourceId": "banach-spaces-as-nuclear-modules",
+      "Fragments": [
+        {
+          "Id": "ex:Nuclear_Banach",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/liquid-and-gaseous-modules/",
+      "SourceId": "liquid-and-gaseous-modules",
+      "Fragments": [
+        {
+          "Id": "ex:Nuclear_Liquid_Gaseous",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/descent-for-nuclear-modules/",
+      "SourceId": "descent-for-nuclear-modules",
+      "Fragments": [
+        {
+          "Id": "rem:Nuclear_Descent",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "chapter",
+      "Path": "/chapter/calkin-categories-colimits-and-limits/",
+      "SourceId": "calkin-categories-colimits-and-limits",
+      "Fragments": [
+        {
+          "Id": "chap:Calkin_Limits_Colimits",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/calkin-categories-colimits-and-limits/colimits-of-dualizable-categories/",
+      "SourceId": "colimits-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Colimits_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:PrLL_Colimits",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Prdual_Colimits",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Epimorphisms_Localizations",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Monomorphisms_Fully_Faithful",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/calkin-categories-colimits-and-limits/continuous-calkin-categories/",
+      "SourceId": "continuous-calkin-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Continuous_Calkin",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Calkin_Continuous",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Calkin_Small_Vs_Continuous",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "constr:Calkin_Functoriality",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Short_Exact_Sequence_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Calkin_Short_Exact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/calkin-categories-colimits-and-limits/filtered-colimits-of-dualizable-categories/",
+      "SourceId": "filtered-colimits-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Filtered_Colimits_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Filtered_Colimits_PrL",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Filtered_Colimits_Fully_Faithful",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Filtered_Union_Subcategories",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Filtered_Colimits_Fail_PrL",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "eq:Compacts_Of_Kernel",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Compact_Objects_Filtered_Colimits",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/calkin-categories-colimits-and-limits/finite-limits-of-dualizable-categories/",
+      "SourceId": "finite-limits-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Finite_Limits_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Q_Exhaustion",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Largest_Dualizable_Subcategory",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Dualizable_Coreflection",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Dualizable_Kernel",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Dualizable_Kernel",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "ex:Dualizable_Kernel_DVR",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Dualizable_Pullbacks",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Monomorphisms_Prdual",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Short_Exact_Fiber_Cofiber",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/colimits-of-strongly-continuous-functors/",
+      "SourceId": "colimits-of-strongly-continuous-functors",
+      "Fragments": [
+        {
+          "Id": "prop:PrLL_Colimits",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/colimits-of-dualizable-categories/",
+      "SourceId": "colimits-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "prop:Prdual_Colimits",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/epimorphisms-are-localizations/",
+      "SourceId": "epimorphisms-are-localizations",
+      "Fragments": [
+        {
+          "Id": "prop:Epimorphisms_Localizations",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/monomorphisms-are-fully-faithful/",
+      "SourceId": "monomorphisms-are-fully-faithful",
+      "Fragments": [
+        {
+          "Id": "rem:Monomorphisms_Fully_Faithful",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/continuous-calkin-category/",
+      "SourceId": "continuous-calkin-category",
+      "Fragments": [
+        {
+          "Id": "def:Calkin_Continuous",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/small-and-continuous-calkin-categories/",
+      "SourceId": "small-and-continuous-calkin-categories",
+      "Fragments": [
+        {
+          "Id": "rem:Calkin_Small_Vs_Continuous",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/functoriality-of-continuous-calkin-categories/",
+      "SourceId": "functoriality-of-continuous-calkin-categories",
+      "Fragments": [
+        {
+          "Id": "constr:Calkin_Functoriality",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/short-exact-sequences-of-dualizable-categories/",
+      "SourceId": "short-exact-sequences-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "def:Short_Exact_Sequence_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/calkin-categories-preserve-short-exact-sequences/",
+      "SourceId": "calkin-categories-preserve-short-exact-sequences",
+      "Fragments": [
+        {
+          "Id": "prop:Calkin_Short_Exact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/right-adjoints-and-filtered-colimits/",
+      "SourceId": "right-adjoints-and-filtered-colimits",
+      "Fragments": [
+        {
+          "Id": "lem:Filtered_Colimits_PrL",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/filtered-colimits-preserve-fully-faithful-functors/",
+      "SourceId": "filtered-colimits-preserve-fully-faithful-functors",
+      "Fragments": [
+        {
+          "Id": "prop:Filtered_Colimits_Fully_Faithful",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/filtered-unions-of-subcategories/",
+      "SourceId": "filtered-unions-of-subcategories",
+      "Fragments": [
+        {
+          "Id": "cor:Filtered_Union_Subcategories",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/filtered-colimits-in-presentable-categories/",
+      "SourceId": "filtered-colimits-in-presentable-categories",
+      "Fragments": [
+        {
+          "Id": "rem:Filtered_Colimits_Fail_PrL",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/compact-objects-and-filtered-colimits/",
+      "SourceId": "compact-objects-and-filtered-colimits",
+      "Fragments": [
+        {
+          "Id": "prop:Compact_Objects_Filtered_Colimits",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/rational-exhaustions/",
+      "SourceId": "rational-exhaustions",
+      "Fragments": [
+        {
+          "Id": "prop:Q_Exhaustion",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/largest-dualizable-subcategory/",
+      "SourceId": "largest-dualizable-subcategory",
+      "Fragments": [
+        {
+          "Id": "lem:Largest_Dualizable_Subcategory",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizable-coreflection/",
+      "SourceId": "dualizable-coreflection",
+      "Fragments": [
+        {
+          "Id": "rem:Dualizable_Coreflection",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizable-kernel/",
+      "SourceId": "dualizable-kernel",
+      "Fragments": [
+        {
+          "Id": "def:Dualizable_Kernel",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/kernels-of-dualizable-categories/",
+      "SourceId": "kernels-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_Kernel",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/dualizable-kernel-over-a-dvr/",
+      "SourceId": "dualizable-kernel-over-a-dvr",
+      "Fragments": [
+        {
+          "Id": "ex:Dualizable_Kernel_DVR",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/pullbacks-of-dualizable-categories/",
+      "SourceId": "pullbacks-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_Pullbacks",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/monomorphisms-of-dualizable-categories/",
+      "SourceId": "monomorphisms-of-dualizable-categories",
+      "Fragments": [
+        {
+          "Id": "cor:Monomorphisms_Prdual",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/short-exact-sequences-are-fiber-and-cofiber-sequences/",
+      "SourceId": "short-exact-sequences-are-fiber-and-cofiber-sequences",
+      "Fragments": [
+        {
+          "Id": "rem:Short_Exact_Fiber_Cofiber",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "chapter",
+      "Path": "/chapter/categorical-background/",
+      "SourceId": "categorical-background",
+      "Fragments": [
+        {
+          "Id": "app:Categorical_Background",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/categorical-background/filtered-categories/",
+      "SourceId": "filtered-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Filtered_Categories",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Kappa_Filtered",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Kappa_Compact",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Filtered_Colimits_Commute_With_Small_Limits",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Kappa_Small_Colimits_Of_Kappa_Compacts",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Kappa_Filtered_Posets",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Omega_1_Filtered_Via_Chains",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Cofinality_Posets",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Filtered_Posets_Cofinal",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Colimits_Over_Countable_Subposets",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Sequential_Diagrams",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Retract_As_Telescope",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Strictification_Sequential_Maps",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Omega_1_Compact_In_Ind",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/categorical-background/accessible-and-presentable-categories/",
+      "SourceId": "accessible-and-presentable-categories",
+      "Fragments": [
+        {
+          "Id": "sec:Accessible_Presentable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Ind_Kappa",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Ind_Kappa_Universal_Property",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "def:Accessible",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Accessible_Recollections",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Limits_Of_Accessible_Categories",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Adjoint_Functor_Theorem",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Accessible_Objects_Lambda_Compact",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "constr:Ind_Large",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/categorical-background/idempotent-completeness/",
+      "SourceId": "idempotent-completeness",
+      "Fragments": [
+        {
+          "Id": "sec:Idempotent_Completeness",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Retract_Left_Adjoint",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/categorical-background/mates/",
+      "SourceId": "mates",
+      "Fragments": [
+        {
+          "Id": "sec:Mates",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "constr:Mates",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Conjugate_Transformations",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Mates_Conjugates",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "lem:Adjoint_Triples",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Strongly_Continuous_Via_Right_Adjoint",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "section",
+      "Path": "/section/categorical-background/tensor-products-of-presentable-categories/",
+      "SourceId": "tensor-products-of-presentable-categories",
+      "Fragments": [
+        {
+          "Id": "sec:PrL_Tensor_Products",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "thm:Lurie_Tensor_Product",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Tensor_Product_Description",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "prop:Tensor_With_Ind",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Ind_As_Exact_Functors",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "cor:Compactly_Generated_Dualizable",
+          "Kind": "latex-label"
+        },
+        {
+          "Id": "rem:Tensor_With_Compactly_Generated",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/kappa-filtered-categories/",
+      "SourceId": "kappa-filtered-categories",
+      "Fragments": [
+        {
+          "Id": "def:Kappa_Filtered",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/kappa-compact-objects/",
+      "SourceId": "kappa-compact-objects",
+      "Fragments": [
+        {
+          "Id": "def:Kappa_Compact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/commuting-filtered-colimits-and-small-limits/",
+      "SourceId": "commuting-filtered-colimits-and-small-limits",
+      "Fragments": [
+        {
+          "Id": "thm:Filtered_Colimits_Commute_With_Small_Limits",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/closure-properties-of-kappa-compact-objects/",
+      "SourceId": "closure-properties-of-kappa-compact-objects",
+      "Fragments": [
+        {
+          "Id": "cor:Kappa_Small_Colimits_Of_Kappa_Compacts",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/kappa-filtered-posets/",
+      "SourceId": "kappa-filtered-posets",
+      "Fragments": [
+        {
+          "Id": "lem:Kappa_Filtered_Posets",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/omega-one-filtered-posets-via-chains/",
+      "SourceId": "omega-one-filtered-posets-via-chains",
+      "Fragments": [
+        {
+          "Id": "lem:Omega_1_Filtered_Via_Chains",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/cofinal-maps-of-posets/",
+      "SourceId": "cofinal-maps-of-posets",
+      "Fragments": [
+        {
+          "Id": "lem:Cofinality_Posets",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/cofinal-filtered-posets/",
+      "SourceId": "cofinal-filtered-posets",
+      "Fragments": [
+        {
+          "Id": "thm:Filtered_Posets_Cofinal",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/colimits-over-countable-subposets/",
+      "SourceId": "colimits-over-countable-subposets",
+      "Fragments": [
+        {
+          "Id": "prop:Colimits_Over_Countable_Subposets",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/sequential-diagrams-and-their-coherences/",
+      "SourceId": "sequential-diagrams-and-their-coherences",
+      "Fragments": [
+        {
+          "Id": "rem:Sequential_Diagrams",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/retracts-as-telescopes/",
+      "SourceId": "retracts-as-telescopes",
+      "Fragments": [
+        {
+          "Id": "lem:Retract_As_Telescope",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/strictifying-maps-of-sequential-ind-objects/",
+      "SourceId": "strictifying-maps-of-sequential-ind-objects",
+      "Fragments": [
+        {
+          "Id": "lem:Strictification_Sequential_Maps",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/omega-one-compact-ind-objects/",
+      "SourceId": "omega-one-compact-ind-objects",
+      "Fragments": [
+        {
+          "Id": "prop:Omega_1_Compact_In_Ind",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/kappa-ind-completion/",
+      "SourceId": "kappa-ind-completion",
+      "Fragments": [
+        {
+          "Id": "def:Ind_Kappa",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/universal-property-of-kappa-ind-completion/",
+      "SourceId": "universal-property-of-kappa-ind-completion",
+      "Fragments": [
+        {
+          "Id": "thm:Ind_Kappa_Universal_Property",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/accessible-and-presentable-categories/",
+      "SourceId": "accessible-and-presentable-categories",
+      "Fragments": [
+        {
+          "Id": "def:Accessible",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/recollections-on-accessible-categories/",
+      "SourceId": "recollections-on-accessible-categories",
+      "Fragments": [
+        {
+          "Id": "thm:Accessible_Recollections",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/limits-of-accessible-categories/",
+      "SourceId": "limits-of-accessible-categories",
+      "Fragments": [
+        {
+          "Id": "thm:Limits_Of_Accessible_Categories",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/adjoint-functor-theorem/",
+      "SourceId": "adjoint-functor-theorem",
+      "Fragments": [
+        {
+          "Id": "thm:Adjoint_Functor_Theorem",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/every-object-is-eventually-compact/",
+      "SourceId": "every-object-is-eventually-compact",
+      "Fragments": [
+        {
+          "Id": "lem:Accessible_Objects_Lambda_Compact",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/ind-completion-of-large-categories/",
+      "SourceId": "ind-completion-of-large-categories",
+      "Fragments": [
+        {
+          "Id": "constr:Ind_Large",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/retracts-of-right-adjoints/",
+      "SourceId": "retracts-of-right-adjoints",
+      "Fragments": [
+        {
+          "Id": "lem:Retract_Left_Adjoint",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/mates-of-natural-transformations/",
+      "SourceId": "mates-of-natural-transformations",
+      "Fragments": [
+        {
+          "Id": "constr:Mates",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/conjugate-natural-transformations/",
+      "SourceId": "conjugate-natural-transformations",
+      "Fragments": [
+        {
+          "Id": "lem:Conjugate_Transformations",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/mates-and-conjugate-transformations/",
+      "SourceId": "mates-and-conjugate-transformations",
+      "Fragments": [
+        {
+          "Id": "lem:Mates_Conjugates",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/adjoint-triples/",
+      "SourceId": "adjoint-triples",
+      "Fragments": [
+        {
+          "Id": "lem:Adjoint_Triples",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/strong-continuity-via-right-adjoints/",
+      "SourceId": "strong-continuity-via-right-adjoints",
+      "Fragments": [
+        {
+          "Id": "prop:Strongly_Continuous_Via_Right_Adjoint",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/luries-tensor-product-of-presentable-categories/",
+      "SourceId": "luries-tensor-product-of-presentable-categories",
+      "Fragments": [
+        {
+          "Id": "thm:Lurie_Tensor_Product",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/describing-the-presentable-tensor-product/",
+      "SourceId": "describing-the-presentable-tensor-product",
+      "Fragments": [
+        {
+          "Id": "rem:Tensor_Product_Description",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/tensoring-with-ind-categories/",
+      "SourceId": "tensoring-with-ind-categories",
+      "Fragments": [
+        {
+          "Id": "prop:Tensor_With_Ind",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/ind-categories-as-exact-functors/",
+      "SourceId": "ind-categories-as-exact-functors",
+      "Fragments": [
+        {
+          "Id": "cor:Ind_As_Exact_Functors",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/duality-of-compactly-generated-stable-categories/",
+      "SourceId": "duality-of-compactly-generated-stable-categories",
+      "Fragments": [
+        {
+          "Id": "cor:Compactly_Generated_Dualizable",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "entry",
+      "Path": "/entry/tensoring-with-a-compactly-generated-category/",
+      "SourceId": "tensoring-with-a-compactly-generated-category",
+      "Fragments": [
+        {
+          "Id": "rem:Tensor_With_Compactly_Generated",
+          "Kind": "latex-label"
+        }
+      ]
+    },
+    {
+      "Kind": "references",
+      "Path": "/references/",
+      "Fragments": []
+    }
+  ]
+}

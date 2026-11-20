@@ -5,6 +5,7 @@ repositories own the source, converter, and validated candidate for each work.
 
 | Work ID | Source build |
 |---|---|
+| `efimov-k-theory` | `web/build-web.ps1` in `Notes/Efimov K-theory` |
 | `stable-homotopy-higher-algebra` | `build-web.ps1` in `Notes/Text book SHT+HA` |
 | `topos-theory` | `build-layered-notes.ps1` in `Notes/Topos theory` |
 | `synthetic-category-theory` | `build-web.ps1` in `Synthetic Category Theory/Web/library-edition` |

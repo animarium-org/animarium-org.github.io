@@ -1,0 +1,256 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Almost ring theory | Efimov K-theory</title><meta name="description" content="Derived almost module categories and examples without nonzero compact objects."><link rel="stylesheet" href="../../../_assets/content.css"><link rel="stylesheet" href="../../../_assets/style.css"><script>window.MathJax={loader:{paths:{fonts:'../../../_assets/mathjax/fonts'},load:['[tex]/mathtools','[tex]/boldsymbol']},tex:{packages:{'[+]':['ams','mathtools','boldsymbol']},macros:{"fpqc":"\\operatorname{fpqc}","KGL":"\\operatorname{KGL}","Nis":"\\operatorname{Nis}","Et":"\\operatorname{Et}","cdh":"\\operatorname{cdh}","vdim":"\\operatorname{vdim}","Krdim":"\\operatorname{Kr.dim}","qcqs":"\\operatorname{qcqs}","Sm":"\\operatorname{Sm}","SSeq":"\\operatorname{SSeq}","Sym":"\\operatorname{Sym}","KH":"\\operatorname{KH}","ssquare":"\\,\\square\\,","Aff":"\\operatorname{Aff}","Mono":"\\operatorname{Mono}","Gerb":"\\operatorname{Gerb}","hyp":"\\operatorname{hyp}","mono":"\\operatorname{mono}","cons":"\\operatorname{cons}","wcons":"\\operatorname{wcons}","quottext":"\\operatorname{quot}","epi":"\\operatorname{epi}","MonoCong":"\\operatorname{MonoCong}","EpiCong":"\\operatorname{EpiCong}","Cong":"\\operatorname{Cong}","HypCong":"\\operatorname{HypCong}","Mdl":"\\operatorname{Mdl}","Acyc":"\\operatorname{Acyc}","Sat":"\\operatorname{Sat}","SSat":"\\operatorname{SSat}","Conn":"\\operatorname{Conn}","EffEpi":"\\operatorname{EffEpi}","Epi":"\\operatorname{Epi}","Cotr":"\\operatorname{Cotr}","All":"\\operatorname{All}","Pos":"\\operatorname{Pos}","post":"\\operatorname{post}","El":"\\operatorname{El}","cocompl":"\\operatorname{cocompl}","Topos":"\\mathrm{Topos}","Logos":"\\mathrm{Logos}","bbCat":"\\bbC \\mathrm{at}","bbLog":"\\bbL \\mathrm{ogos}","bbTop":"\\bbT \\mathrm{opos}","Geom":"\\operatorname{Geom}","Pt":"\\operatorname{Pt}","im":"\\operatorname{im}","coim":"\\operatorname{coim}","Act":"\\operatorname{Act}","Bun":"\\operatorname{Bun}","Site":"\\operatorname{Site}","cont":"\\operatorname{cont}","cocont":"\\operatorname{cocont}","Cont":"\\operatorname{Cont}","wccolim":"\\operatorname{w.c.colim}","Atl":"\\operatorname{Atl}","DiffStk":"\\operatorname{DiffStk}","SepStk":"\\operatorname{SepStk}","H":"\\mathrm{H}","SH":"\\mathrm{SH}","htp":"\\operatorname{htp}","rep":"\\operatorname{rep}","Loc":"\\operatorname{Loc}","Thick":"\\operatorname{Thick}","modtext":"\\operatorname{mod}","absmod":["\\abs{#1}_{\\modtext}",1],"sep":"\\operatorname{sep}","PB":"\\operatorname{PB}","PF":"\\operatorname{PF}","NerveDiff":"\\operatorname{N^{\\mathrm{Diff}}}","Deltaalg":["\\Delta^{#1}_{\\mathrm{alg}}",1],"shear":"\\operatorname{shear}","Sph":"\\operatorname{Sph}","Sub":"\\operatorname{Sub}","Open":"\\operatorname{Open}","open":"\\operatorname{open}","Corr":"\\operatorname{Corr}","bbMap":"\\operatorname{\\mathbb{M} ap}","bbHom":"\\operatorname{\\mathbb{H} om}","gen":"\\operatorname{gen}","Bgl":"\\operatorname{B_{gl}}","PrnBdl":["\\mathrm{PrnBdl}_{#1}(#2)",2],"cFun":"\\Ff \\mathrm{un}","Tr":"\\operatorname{Tr}","tr":"\\operatorname{tr}","Shp":"\\operatorname{Shp}","THH":"\\operatorname{THH}","Assoc":"\\mathcal{A}\\mathit{ssoc}","Comm":"\\mathcal{C}\\!\\,\\mathit{omm}","Lie":"\\mathcal{L}\\mathit{ie}","Triv":"\\mathcal{T}\\!\\!\\mathit{riv}","oTens":"\\mathcal{T}\\!\\!\\mathit{ens}","oLMod":"\\mathcal{L}\\!\\mathcal{M}\\mathit{od}","oRMod":"\\mathcal{R}\\!\\mathcal{M}\\mathit{od}","oBMod":"\\mathcal{B}\\!\\mathcal{M}\\mathit{od}","oMod":"\\mathcal{M}\\mathit{od}","oAlg":"\\mathcal{A}\\mathit{lg}","oEnd":"\\mathcal{E}\\mathit{nd}","oCMon":"\\mathcal{C}\\!\\mathcal{M}\\mathit{on}","oCGrp":"\\mathcal{C}\\mathcal{G}\\mathit{rp}","oSp":"\\mathcal{S}\\mathit{p}","Mult":"\\mathcal{M}","oCat":"\\operatorname{\\mathcal{C}\\!\\mathit{at}}","oFun":"\\operatorname{\\mathcal{F}\\!\\mathit{un}}","Env":"\\operatorname{Env}","Op":"\\operatorname{Op}","AdTrip":"\\operatorname{AdTrip}","rev":"\\operatorname{rev}","tiso":"\\operatorname{iso}","oTw":"\\operatorname{\\overline{\\Tw}}","lax":"\\operatorname{lax}","NTw":"\\operatorname{NTw}","OpCocart":"\\Oo^{\\amalg}","OpCart":"\\Oo^{\\times}","Day":"\\operatorname{Day}","oDay":"\\mathcal{D}\\mathit{ay}","dlax":"\\mathrm{-lax}","textred":"\\mathrm{red}","exc":"\\mathrm{exc}","BiFun":"\\operatorname{BiFun}","BV":"\\operatorname{BV}","Bar":"\\mathrm{Bar}","dnil":"\\mathrm{-nil}","Ext":"\\operatorname{Ext}","Ex":"\\operatorname{Ex}","Tor":"\\operatorname{Tor}","enr":"\\mathrm{enr}","heart":"\\heartsuit","dsm":"\\mathrm{-sm}","Free":"\\operatorname{Free}","ku":"\\operatorname{ku}","KU":"\\operatorname{KU}","MU":"\\operatorname{MU}","MO":"\\operatorname{MO}","MSO":"\\operatorname{MSO}","BO":"\\operatorname{BO}","bGr":"\\operatorname{\\mathbf{Gr}}","BUP":"\\operatorname{BUP}","bBUP":"\\operatorname{\\mathbf{BUP}}","Th":"\\operatorname{Th}","Pic":"\\operatorname{Pic}","pic":"\\operatorname{pic}","pre":"\\operatorname{pre}","Line":"\\operatorname{Line}","PT":"\\operatorname{PT}","interiorsymb":[" {\\kern0pt#1}^{\\mathrm{o}}",1],"PSp":"\\mathrm{PSp}","Emb":"\\operatorname{Emb}","Ntop":"N^{\\mathrm{top}}","Homtop":"\\Hom^{\\mathrm{top}}","fw":"\\operatorname{fw}","Shift":"\\operatorname{Shift}","Der":"\\operatorname{Der}","Hom":"\\operatorname{Hom}","Aut":"\\operatorname{Aut}","End":"\\operatorname{End}","iHom":"\\operatorname{\\underline{\\operatorname{Hom}}}","ihom":"\\operatorname{\\underline{\\operatorname{hom}}}","uHom":"\\operatorname{\\underline{\\operatorname{Hom}}}","Map":"\\operatorname{Map}","map":"\\operatorname{map}","Path":"\\operatorname{Path}","Fun":"\\operatorname{Fun}","FunL":"\\Fun^{\\mathrm{L}}","FunR":"\\Fun^{\\mathrm R}","ulFun":"\\ul{\\Fun}","Nat":"\\operatorname{Nat}","Lift":"\\operatorname{Lift}","lift":"\\operatorname{lift}","cocart":"\\operatorname{cocart}","CoCart":"\\operatorname{CoCart}","Cocart":"\\operatorname{Cocart}","isCocart":"\\operatorname{\\texttt{isCocart}}","Cart":"\\operatorname{Cart}","RFib":"\\operatorname{RFib}","LFib":"\\operatorname{LFib}","Un":"\\operatorname{Un}","cart":"\\operatorname{cart}","dcart":"\\mathrm{-cart}","cc":"\\operatorname{cc}","ct":"\\operatorname{ct}","Str":"\\operatorname{Str}","el":"\\operatorname{el}","Spec":"\\operatorname{Spec}","QCoh":"\\operatorname{QCoh}","IndCoh":"\\operatorname{IndCoh}","Perf":"\\operatorname{Perf}","Proj":"\\operatorname{Proj}","Zar":"\\operatorname{Zar}","Sch":"\\operatorname{Sch}","ad":"\\mathrm{ad}","corp":"\\mathrm{corp}","loc":"\\mathrm{loc}","mot":"\\mathrm{mot}","ultra":"\\mathrm{ultra}","Ar":"\\operatorname{Ar}","BC":"\\operatorname{BC}","GL":"\\operatorname{GL}","Gr":"\\operatorname{Gr}","Ho":"\\operatorname{Ho}","Im":"\\operatorname{Im}","Ind":"\\operatorname{Ind}","Iso":"\\operatorname{Iso}","LConst":"\\operatorname{LConst}","Nm":"\\operatorname{Nm}","Pro":"\\operatorname{Pro}","Lan":"\\operatorname{Lan}","Ran":"\\operatorname{Ran}","Rex":"\\operatorname{Rex}","PSh":"\\operatorname{PSh}","Shape":"\\operatorname{Shape}","Shv":"\\operatorname{Shv}","bOmega":"{\\boldsymbol{\\Omega}}","Span":"\\operatorname{Span}","SpanTwo":"\\Span_2","SpanTwoP":["\\SpanTwo(#1,#2)_{#4,#3}",4],"NSpan":"\\operatorname{NSpan}","Tw":"\\operatorname{Tw}","LM":"\\operatorname{LM}","Re":"\\operatorname{Re}","Fact":"\\operatorname{Fact}","SD":"\\operatorname{SD}","PD":"\\operatorname{PD}","Suave":"\\operatorname{Suave}","Prim":"\\operatorname{Prim}","shift":"\\operatorname{shift}","act":"\\operatorname{act}","supp":"\\operatorname{supp}","ex":"\\operatorname{ex}","lex":"\\operatorname{lex}","rex":"\\operatorname{rex}","chain":"\\operatorname{chain}","sd":"\\operatorname{sd}","qc":"\\operatorname{qc}","Poly":"\\operatorname{Poly}","Mot":"\\operatorname{Mot}","can":"\\mathrm{can}","ho":"\\mathrm{ho}","nondeg":"\\mathrm{nondeg}","univ":"\\mathrm{univ}","prop":"\\mathrm{pr}","inv":"\\mathrm{inv}","ac":"\\operatorname{ac}","pb":"\\operatorname{pb}","fgt":"\\operatorname{fgt}","id":"\\operatorname{id}","pr":"\\operatorname{pr}","incl":"\\operatorname{incl}","const":"\\operatorname{const}","sk":"\\operatorname{sk}","cosk":"\\operatorname{cosk}","gl":"\\operatorname{gl}","grp":"\\operatorname{grp}","qis":"\\operatorname{qis}","cyl":"\\operatorname{cyl}","surj":"\\operatorname{surj}","et":"\\mathrm{ét}","coh":"\\mathrm{coh}","acc":"\\mathrm{acc}","small":"\\mathrm{small}","free":"\\operatorname{free}","fin":"\\operatorname{fin}","pt":"\\operatorname{pt}","aug":"\\operatorname{{aug}}","st":"\\operatorname{st}","dual":"\\operatorname{dual}","Calk":"\\operatorname{Calk}","idem":"\\operatorname{idem}","perf":"\\operatorname{perf}","rig":"\\mathrm{rig}","Nuc":"\\operatorname{Nuc}","cofib":"\\operatorname{cofib}","fib":"\\operatorname{fib}","colim":"\\operatorname{colim}","lim":"\\operatorname{lim}","coeq":"\\operatorname{coeq}","coker":"\\operatorname{coker}","ev":"\\mathrm{ev}","coev":"\\mathrm{coev}","res":"\\operatorname{res}","ind":"\\operatorname{ind}","coind":"\\operatorname{coind}","Set":"\\mathrm{Set}","An":"\\mathrm{An}","CondAn":"\\mathrm{CondAn}","Ab":"\\mathrm{Ab}","Alg":"\\mathrm{Alg}","CAlg":"\\mathrm{CAlg}","Cat":"\\mathrm{Cat}","CAT":"\\mathrm{CAT}","CRing":"\\mathrm{CRing}","qCat":"\\mathrm{qCat}","CGrp":"\\mathrm{CGrp}","CMon":"\\mathrm{CMon}","Fin":"\\mathrm{Fin}","FinGrpd":"\\mathrm{FinGrpd}","Grp":"\\mathrm{Grp}","Grpd":"\\mathrm{Grpd}","Mod":"\\mathrm{Mod}","coMod":"\\mathrm{coMod}","Mon":"\\mathrm{Mon}","LMod":"\\mathrm{LMod}","RMod":"\\mathrm{RMod}","BMod":"\\mathrm{BMod}","Rep":"\\mathrm{Rep}","Top":"\\mathrm{Top}","TopGrpd":"\\mathrm{TopGrpd}","bTopGrpd":"\\mathbf{TopGrpd}","Spc":"\\mathrm{Spc}","Sp":"\\mathrm{Sp}","Vect":"\\mathrm{Vect}","Orb":"\\mathrm{Orb}","Orbit":"\\mathrm{Orbit}","Glo":"\\mathrm{Glo}","sAn":"\\s\\An","dAn":"\\mathrm{d}\\An","bVect":"\\mathbf{V}\\mathrm{ect}","LCHaus":"\\mathrm{LCHaus}","CHaus":"\\mathrm{CHaus}","ProFin":"\\mathrm{ProFin}","AnRing":"\\mathrm{AnRing}","AnStck":"\\mathrm{AnStck}","Ring":"\\mathrm{Ring}","twoCAlg":"\\mathrm{2CAlg}","Idem":"\\mathrm{Idem}","coIdem":"\\mathrm{coIdem}","StRing":"\\mathrm{StRing}","PreStRing":"\\mathrm{PreStRing}","Gest":"\\mathrm{Gest}","RingGest":"\\mathrm{RingGest}","LieGrpd":"\\mathrm{LieGrpd}","sTop":"\\mathrm{sTop}","Diff":"\\mathrm{Diff}","sSet":"\\mathrm{sSet}","Poset":"\\mathrm{Poset}","Pr":"\\mathrm{Pr}","PrL":"\\mathrm{Pr}^{\\mathrm{L}}","PrR":"\\mathrm{Pr}^{\\mathrm{R}}","PrLst":"\\PrL_{\\st}","h":"\\mathrm{h}","CW":"\\mathrm{CW}","hocolim":"\\operatorname{hocolim}","holim":"\\operatorname{holim}","Exc":"\\operatorname{Exc}","s":"\\mathrm{s}","Sing":"\\operatorname{Sing}","Kan":"\\operatorname{Kan}","bKan":"\\mathbf{Kan}","bqCat":"\\mathbf{qCat}","Ch":"\\operatorname{\\mathrm{Ch}}","inj":"\\operatorname{inj}","all":"\\operatorname{all}","isotext":"\\operatorname{iso}","Cut":"\\operatorname{Cut}","LCut":"\\operatorname{LCut}","BCut":"\\operatorname{BCut}","Red":"\\operatorname{Red}","Segal":"\\operatorname{Segal}","Seg":"\\operatorname{Seg}","CSeg":"\\operatorname{CSeg}","add":"\\operatorname{add}","sadd":"\\operatorname{sadd}","Piinfty":["\\Pi_{\\infty}(#1)",1],"oplax":"\\operatorname{oplax}","quadtext":["\\quad\\textrm{#1}\\quad",1],"qquadtext":["\\qquad\\textrm{#1}\\qquad",1],"qin":"\\quad\\in\\quad","ul":["\\underline{#1}",1],"abs":["\\lvert #1 \\rvert",1],"geom":["\\| #1 \\|",1],"floor":["\\lfloor #1 \\rfloor",1],"catop":"^{\\mathrm{op}}","op":"\\operatorname{op}","blank":"{\\mathrm{ --}}","ceil":["\\lceil #1 \\rceil",1],"lra":["\\langle #1 \\rangle",1],"C":"\\operatorname{\\mathbb C}","F":"\\operatorname{\\mathbb F}","N":"\\operatorname{\\mathbb N}","P":"\\operatorname{\\mathbb P}","Q":"\\operatorname{\\mathbb Q}","R":"\\operatorname{\\mathbb R}","S":"\\operatorname{\\mathbb S}","Z":"\\operatorname{\\mathbb Z}","D":"\\operatorname{\\mathrm{D}}","phi":"\\varphi","epsilon":"\\varepsilon","aa":"\\mathfrak{a}","pp":"\\mathfrak{p}","fa":"\\mathfrak{a}","fb":"\\mathfrak{b}","fc":"\\mathfrak{c}","fm":"\\mathfrak{m}","mm":"\\mathfrak{m}","fn":"\\mathfrak{n}","fp":"\\mathfrak{p}","Aa":"\\mathcal{A}","Bb":"\\mathcal{B}","Cc":"\\mathcal{C}","Dd":"\\mathcal{D}","Ee":"\\mathcal{E}","Ff":"\\mathcal{F}","Gg":"\\mathcal{G}","Hh":"\\mathcal{H}","Ii":"\\mathcal{I}","Jj":"\\mathcal{J}","Kk":"\\mathcal{K}","Ll":"\\mathcal{L}","Mm":"\\mathcal{M}","Nn":"\\mathcal{N}","Oo":"\\mathcal{O}","Pp":"\\mathcal{P}","Qq":"\\mathcal{Q}","Rr":"\\mathcal{R}","Ss":"\\mathcal{S}","Tt":"\\mathcal{T}","Uu":"\\mathcal{U}","Vv":"\\mathcal{V}","Ww":"\\mathcal{W}","Xx":"\\mathcal{X}","Yy":"\\mathcal{Y}","Zz":"\\mathcal{Z}","bA":"\\mathbf{A}","bB":"\\mathbf{B}","bC":"\\mathbf{C}","bD":"\\mathbf{D}","bE":"\\mathbf{E}","bF":"\\mathbf{F}","bG":"\\mathbf{G}","bH":"\\mathbf{H}","bI":"\\mathbf{I}","bJ":"\\mathbf{J}","bK":"\\mathbf{K}","bL":"\\mathbf{L}","bM":"\\mathbf{M}","bN":"\\mathbf{N}","bO":"\\mathbf{O}","bP":"\\mathbf{P}","bQ":"\\mathbf{Q}","bR":"\\mathbf{R}","bS":"\\mathbf{S}","bT":"\\mathbf{T}","bU":"\\mathbf{U}","bV":"\\mathbf{V}","bW":"\\mathbf{W}","bX":"\\mathbf{X}","bY":"\\mathbf{Y}","bZ":"\\mathbf{Z}","bbA":"\\mathbb{A}","bbB":"\\mathbb{B}","bbC":"\\mathbb{C}","bbD":"\\mathbb{D}","bbE":"\\mathbb{E}","bbF":"\\mathbb{F}","bbG":"\\mathbb{G}","bbH":"\\mathbb{H}","bbI":"\\mathbb{I}","bbJ":"\\mathbb{J}","bbK":"\\mathbb{K}","bbL":"\\mathbb{L}","bbM":"\\mathbb{M}","bbN":"\\mathbb{N}","bbO":"\\mathbb{O}","bbP":"\\mathbb{P}","bbQ":"\\mathbb{Q}","bbR":"\\mathbb{R}","bbS":"\\mathbb{S}","bbT":"\\mathbb{T}","bbU":"\\mathbb{U}","bbV":"\\mathbb{V}","bbW":"\\mathbb{W}","bbX":"\\mathbb{X}","bbY":"\\mathbb{Y}","bbZ":"\\mathbb{Z}","quot":"/\\!\\!/","catname":["{\\mathrm{#1}}",1],"catnameb":["{\\textbf{#1}}",1],"bLieGrpd":"\\operatorname{\\textbf{LieGrpd}}","ulSp":"\\underline{\\Sp}","ulSpc":"\\underline{\\Spc}","ulOrbSp":"\\underline{\\Orb\\Sp}","ulOrbSpc":"\\underline{\\Orb\\Spc}","mapsfrom":"\\mathrel{\\unicode{x21A4}}","xrightrightarrows":["\\mathrel{\\overset{#1}{\\underset{#2}{\\rightrightarrows}}}",2],"xadjto":["\\mathrel{\\overset{#1}{\\underset{#2}{\\rightleftarrows}}}",2],"red":["{\\color{red}{\\textbf{#1}}}",1],"pullback":"\\mathrel{\\lrcorner\\,}","pullbackto":"\\mathrel{\\lrcorner\\,\\to}","pushout":"\\mathrel{\\ulcorner\\,}","pushoutto":"\\mathrel{\\ulcorner\\,\\to}","noloc":"\\mskip6mu{:}\\mskip2mu","pvto":["\\bigl(\\begin{smallmatrix}#1\\\\ \\downarrow\\\\ #2\\end{smallmatrix}\\bigr)",2],"puto":["\\bigl(\\begin{smallmatrix}#1\\\\ \\downarrow{\\scriptstyle #3}\\\\ #2\\end{smallmatrix}\\bigr)",3],"apvto":["\\pvto{#1}{#2}",2],"pwto":["\\bigl(\\begin{smallmatrix}#1\\\\ #2\\end{smallmatrix}\\bigr)",2],"rbox":["#3",3],"simp":"{\\boldsymbol{\\Delta}}","unit":"\\operatorname{\\mathbb{1}}","iso":"\\xrightarrow{\\sim}","bastiaan":["{\\color{blue}{\\text{[#1]}}}",1],"bastiaanlong":["{\\color{blue}{\\text{#1}}}",1],"Man":"\\operatorname{Man}","SS":"\\operatorname{SS}","Br":"\\mathrm{Br}","der":"\\mathrm{der}","one":"\\mathbb{1}","textupb":["{\\mathrm\\textbf{#1}}",1],"St":"\\operatorname{St}","Reedy":"\\operatorname{Reedy}","vectimes":["\\;\\vec{\\times}_{#1}\\;",1],"Nmadj":"\\operatorname{\\widetilde{\\Nm}}","quotcolim":"\\text{``}\\!\\colim\\!\\text{''}"}},options:{enableMenu:false}};</script><script defer src="../../../_assets/mathjax/tex-chtml.js"></script><script defer src="../../../_assets/reader.js" data-notes-reader="efimov-k-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba"></script>
+<script defer src="../../../_assets/proofs.js"></script><link rel="canonical" href="https://animarium.org/efimov-k-theory/section/examples-of-dualizable-categories/almost-ring-theory/"></head><body class="work-page section-page has-context-nav" data-proof-mode="displayed"><aside class="utility-dock" aria-label="Page tools"><div class="utility-item settings-item" data-utility-item data-open="false">
+      <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
+        <span class="utility-icon" aria-hidden="true">⚙</span>
+      </button>
+      <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
+        <h2 id="display-settings-heading">Proof display</h2>
+        <div class="preset-group" role="group" aria-label="Default proof display">
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
+        </div>
+        <h2>Page layout</h2>
+        <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
+      </section>
+    </div><div class="utility-item manuscript-item">
+      <a class="utility-trigger manuscript-trigger" href="/efimov-k-theory.pdf" title="View the entire manuscript as a PDF">
+        <span class="utility-expansion">View the entire manuscript as a PDF</span>
+        <span class="utility-icon book-icon" aria-hidden="true">📖</span>
+        <span class="sr-only">View the entire manuscript as a PDF</span>
+      </a>
+    </div></aside><header class="site-header work-header">
+<div class="reading-header-row"><div class="reader-heading">
+      <a class="collection-return" data-site-return href="/"><span aria-hidden="true">←</span> Animarium</a>
+      <p class="eyebrow"><a href="../../../index.html">Efimov K-theory</a> · <a href="../../../chapter/examples-of-dualizable-categories/index.html">Chapter 5</a> · Section 5.2</p>
+      <h1>Almost ring theory</h1>
+    </div><nav class="page-turns" data-reading-navigation aria-label="Reading navigation"><a rel="prev" data-step="prev-chapter" href="../../../chapter/compact-morphisms-and-ab6/index.html" title="Compact morphisms and the axiom (AB6)" aria-label="Previous chapter: Chapter 4, Compact morphisms and the axiom (AB6)"><span class="turn-direction">← Previous chapter</span><span class="turn-target">Chapter 4</span></a>
+<a rel="next" data-step="next-chapter" href="../../../chapter/rigidity-and-nuclear-objects/index.html" title="Rigidity and nuclear objects" aria-label="Next chapter: Chapter 6, Rigidity and nuclear objects"><span class="turn-direction">→ Next chapter</span><span class="turn-target">Chapter 6</span></a>
+<a rel="prev" data-step="prev-section" href="../kernels-of-homological-epimorphisms/index.html" title="Kernels of homological epimorphisms" aria-label="Previous section: Section 5.1, Kernels of homological epimorphisms"><span class="turn-direction">← Previous section</span><span class="turn-target">Section 5.1</span></a>
+<a rel="next" data-step="next-section" href="../continuous-posets/index.html" title="Continuous posets" aria-label="Next section: Section 5.3, Continuous posets"><span class="turn-direction">→ Next section</span><span class="turn-target">Section 5.3</span></a></nav></div>
+</header><main class="reader-layout"><button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
+      <span aria-hidden="true">☰</span> Navigation
+    </button><article class="notes-page ">
+<p class="noindent"><span id="sec:Almost_Ring_Theory"></span>
+</p><p class="noindent">Almost ring theory (Faltings, Gabber–Ramero [<a class="citation" href="../../../references/index.html#bib-Gabber_Ramero_Almost">Gabber and Ramero (2003)</a>]) provides one of the most natural sources of dualizable
+categories which are not compactly generated. Throughout this section, let \(A\) be an (associative, unital) ring
+and let \(I \subseteq A\) be a two-sided ideal such that </p>
+     <ul class="itemize1">
+     <li class="itemize">\(I^2 = I\), and
+     </li>
+     <li class="itemize">\(I\) is flat as a right \(A\)-module.</li></ul>
+<p class="noindent">We work with left \(A\)-modules, and write \(A\text {-}\Mod \) for the abelian category of left \(A\)-modules and \(\D (A)\) for its derived
+category.
+</p><p class="noindent">The forgetful functor \((A/I)\text {-}\Mod \hookrightarrow A\text {-}\Mod \) is fully faithful, with essential image the \(A\)-modules \(M\) with \(IM = 0\). Since \(I^2 = I\), this subcategory is
+closed under extensions: if \(0 \to M' \to M \to M'' \to 0\) is exact with \(IM' = 0 = IM''\), then \(IM = I^2M \subseteq I M' = 0\). As it is clearly closed under subobjects and quotients, it is a
+<span class="ntx-Italic-tlf-t1-x-x-109">Serre subcategory</span>.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-3001r5"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/almost-modules/index.html" title="Almost modules">Definition 5.5.</a></span>  </span><span id="def:Almost_Modules"></span> The category of \((A,I)\)<span class="ntx-Italic-tlf-t1-x-x-109">-almost modules </span>is the Serre quotient \[ (A,I)^a\text {-}\Mod := A\text {-}\Mod /(A/I)\text {-}\Mod . \]
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-3002r6"></a>
+                                                                                   
+                                                                                   
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/examples-of-almost-modules/index.html" title="Examples of almost modules">Example 5.6.</a></span>  </span><span id="ex:Almost_Modules"></span>
+     </p><dl class="enumerate"><dt class="enumerate">
+  (1) </dt><dd class="enumerate">
+     <p class="noindent">If \(I = A\), then \((A/I)\text {-}\Mod = 0\) and \((A,A)^a\text {-}\Mod = A\text {-}\Mod \).
+     </p></dd><dt class="enumerate">
+  (2) </dt><dd class="enumerate">
+     <p class="noindent">The motivating examples come from non-discrete valuation rings: let \(A\) be a valuation ring of
+     rank one whose value group is not discrete, e.g. \(A = \Oo _{\C _p}\), and let \(I = \mm \) be its maximal ideal. Then \(\mm ^2 = \mm \), since
+     every element of \(\mm \) is a product of two elements of \(\mm \), and \(\mm \) is flat since it is torsion-free over a
+     valuation ring. An \(A\)-module is called <span class="ntx-Italic-tlf-t1-x-x-109">almost zero </span>if it is killed by \(\mm \); for instance, the residue field
+     \(A/\mm \) becomes zero in the almost category. This is the setting of Faltings’ almost purity theorem in
+     \(p\)-adic Hodge theory.</p></dd></dl>
+</div>
+
+<h4 class="likesubsectionHead" id="the-derived-picture"><a id="x1-4000"></a>The derived picture</h4>
+<p class="noindent">We have an adjoint triple <span class="diagram"><img src="../../../_assets/diagrams/tikzcd-7f8cb95e8cbdb4916ebf.svg" alt="Adjoint triple between the derived categories of A and A/I: L and R point from D(A) to D(A/I), while restriction of scalars points back." loading="lazy" width="130" height="36" style="width:130px"></span> where \(\res \) denotes restriction of scalars, \(L = A/I \otimes ^{\bL }_A -\) and \(R = \bR \Hom _A(A/I,-)\).
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-4001r7"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/derived-restriction-for-almost-modules/index.html" title="Derived restriction for almost modules">Lemma 5.7.</a></span>  </span><span id="lem:Almost_Restriction_FF"> </span><span class="ntx-Italic-tlf-t1-x-x-109">The functor</span> \(\res \colon \D (A/I) \to \D (A)\) <span class="ntx-Italic-tlf-t1-x-x-109">is fully faithful. In particular,</span> \(L\) <span class="ntx-Italic-tlf-t1-x-x-109">is a localization and</span> \(A \to A/I\) <span class="ntx-Italic-tlf-t1-x-x-109">is a homological
+epimorphism.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-5">
+<p class="noindent">As explained at the beginning of <a class="source-reference" href="../kernels-of-homological-epimorphisms/index.html#sec:Homological_Epimorphisms">Section 5.1</a>, it suffices to show that the multiplication map \(A/I \otimes ^{\bL }_A A/I \to A/I\) is an equivalence.
+Using the short exact sequence \(0 \to I \to A \to A/I \to 0\) of right \(A\)-modules, we find \begin {align*}  \mathrm {Tor}^A_0(A/I,A/I) &amp;= A/I, \\ \mathrm {Tor}^A_1(A/I,A/I) &amp;\cong I/I^2 = 0, \\ \mathrm {Tor}^A_k(A/I,A/I) &amp;\cong \mathrm {Tor}^A_{k-1}(I,A/I) = 0 \quad \text {for } k \geq 2,  \end {align*}
+</p><p class="noindent">where the last vanishing uses flatness of \(I\) as a right \(A\)-module.                                                            □
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-4002r8"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/essential-image-of-almost-restriction/index.html" title="The essential image of almost restriction">Lemma 5.8.</a></span>  </span><span id="lem:Almost_Essential_Image"> </span><span class="ntx-Italic-tlf-t1-x-x-109">The essential image of</span> \(\res \colon \D (A/I) \hookrightarrow \D (A)\) <span class="ntx-Italic-tlf-t1-x-x-109">is the full subcategory </span>\[ \D _{(A/I)\text {-}\Mod }(A) := \{X \in \D (A) \mid IH_n(X) = 0 \text { for all } n \in \Z \} \] <span class="ntx-Italic-tlf-t1-x-x-109">of complexes whose homology lies in
+the Serre subcategory</span> \((A/I)\text {-}\Mod \)<span class="ntx-Italic-tlf-t1-x-x-109">. Moreover, the kernel of</span> \(L\) <span class="ntx-Italic-tlf-t1-x-x-109">consists of those</span> \(X \in \D (A)\) <span class="ntx-Italic-tlf-t1-x-x-109">with</span> \(X \simeq I \otimes ^{\bL }_A X\)<span class="ntx-Italic-tlf-t1-x-x-109">, and</span> \(I \otimes ^{\bL }_A X \in \ker (L)\) <span class="ntx-Italic-tlf-t1-x-x-109">for every</span> \(X \in \D (A)\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-4">
+<p class="noindent">Since \(\res \) is fully faithful with left adjoint \(L\), its essential image consists of those \(X\) for which the
+unit \(X \to \res L(X)\) is an equivalence. Tensoring the short exact sequence \(0 \to I \to A \to A/I \to 0\) of \(A\)-bimodules with \(X\) gives a cofiber
+sequence \[ I \otimes ^{\bL }_A X \to X \to \res L(X), \] so \(X\) lies in the essential image if and only if \(I \otimes ^{\bL }_A X \simeq 0\). Since \(I\) is flat as a right module, \(H_n(I \otimes ^{\bL }_A X) \cong I \otimes _A H_n(X)\). Finally, for
+a left \(A\)-module \(M\), we have \(I \otimes _A M = 0\) if and only if \(IM = 0\): the multiplication map \(I \otimes _A M \to IM\) is surjective, and conversely if \(IM = 0\) then
+\(M\) is an \(A/I\)-module and \(I \otimes _A M \cong (I \otimes _A A/I) \otimes _{A/I} M \cong I/I^2 \otimes _{A/I} M = 0\).
+</p><p class="noindent">For the second statement, \(L(I \otimes ^{\bL }_A X) \simeq (A/I \otimes ^{\bL }_A I) \otimes ^{\bL }_A X\), and \(A/I \otimes ^{\bL }_A I \simeq \fib (A/I \to A/I \otimes ^{\bL }_A A/I) \simeq 0\) by <a class="source-reference" href="../../../entry/derived-restriction-for-almost-modules/index.html#lem:Almost_Restriction_FF">Lemma 5.7</a>. The characterization of \(\ker (L)\) follows from the cofiber sequence
+above.                                                                                                                                                  □
+                                                                                   
+                                                                                   
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-4003r9"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/derived-categories-of-almost-modules/index.html" title="Derived categories of almost modules">Proposition 5.9.</a></span>  </span><span id="prop:Almost_Derived_Category"> </span><span class="ntx-Italic-tlf-t1-x-x-109">There is an equivalence </span>\[ \D ((A,I)^a\text {-}\Mod ) \simeq \ker \big (L\colon \D (A) \to \D (A/I)\big ), \] <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(\ker (L) = \D (A \to A/I)\) <span class="ntx-Italic-tlf-t1-x-x-109">is dualizable. More precisely,</span> \(\D ((A,I)^a\text {-}\Mod ) \hookrightarrow \D (A) \xrightarrow {L} \D (A/I)\) <span class="ntx-Italic-tlf-t1-x-x-109">is a strongly continuous
+localization sequence, and</span> \(\D ((A,I)^a\text {-}\Mod )\) <span class="ntx-Italic-tlf-t1-x-x-109">is also the kernel of</span> \(L\) <span class="ntx-Italic-tlf-t1-x-x-109">computed in</span> \(\Pr ^{\dual }\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-3">
+<p class="noindent">Since  \((A/I)\text {-}\Mod \subseteq A\text {-}\Mod \)  is  a  Serre  subcategory  of  a  Grothendieck  abelian  category  which  is  closed  under
+colimits, the derived category of the Serre quotient is the Verdier quotient \[ \D ((A,I)^a\text {-}\Mod ) \simeq \D (A)/\D _{(A/I)\text {-}\Mod }(A). \] Indeed, the quotient
+functor \(A\text {-}\Mod \to (A,I)^a\text {-}\Mod \) is exact and has a fully faithful right adjoint, and for such functors this identification is
+proved in [<a class="citation" href="../../../references/index.html#bib-Krause_Localization">Krause (2010)</a>, Section 7.7]; see also [<a class="citation" href="../../../references/index.html#bib-Efimov_Large_Categories">Efimov (2024)</a>, Example 2.26]. It thus remains to identify the Verdier quotient \(\D (A)/\D _{(A/I)\text {-}\Mod }(A)\) with \(\ker (L)\). Consider the functor \(q := I \otimes ^{\bL }_A -\colon \D (A) \to \ker (L)\),
+which lands in \(\ker (L)\) by <a class="source-reference" href="../../../entry/essential-image-of-almost-restriction/index.html#lem:Almost_Essential_Image">Lemma 5.8</a>. For \(K \in \ker (L)\) and \(X \in \D (A)\), applying \(\Map (K,-)\) to the cofiber sequence \(I \otimes ^{\bL }_A X \to X \to \res L(X)\) and using \(\Map (K,\res L X) \simeq \Map (LK,LX) \simeq *\) shows that \(\Map (K,qX) \iso \Map (K,X)\). So \(q\) is right
+adjoint to the fully faithful inclusion \(\ker (L) \hookrightarrow \D (A)\), and hence \(q\) exhibits \(\ker (L)\) as the localization of \(\D (A)\) at the morphisms
+inverted by \(q\) [<a class="citation" href="../../../references/index.html#bib-lurie2009HTT">Lurie (2009)</a>, Proposition 5.2.7.12]. Since \(q\) is exact, these are the morphisms whose cofiber lies in \(\ker (q)\), which is \(\D _{(A/I)\text {-}\Mod }(A)\) by <a class="source-reference" href="../../../entry/essential-image-of-almost-restriction/index.html#lem:Almost_Essential_Image">Lemma 5.8</a>. Hence \(\ker (L) \simeq \D (A)/\D _{(A/I)\text {-}\Mod }(A)\).
+</p><p class="noindent">By <a class="source-reference" href="../../../entry/kernels-of-homological-epimorphisms/index.html#prop:Kernel_Homological_Epi">Proposition 5.1</a> and <a class="source-reference" href="../../../entry/derived-restriction-for-almost-modules/index.html#lem:Almost_Restriction_FF">Lemma 5.7</a>, \(\ker (L)\) is dualizable and its inclusion into \(\D (A)\) is strongly continuous; explicitly, its right adjoint is \(X \mapsto I \otimes ^{\bL }_A X\)
+by <a class="source-reference" href="../../../entry/essential-image-of-almost-restriction/index.html#lem:Almost_Essential_Image">Lemma 5.8</a>. To see that \(\ker (L)\) is also the kernel in \(\Pr ^{\dual }\), let \(E\) be dualizable and \(F\colon E \to \D (A)\) strongly continuous with \(LF \simeq 0\). Then \(F\) factors
+uniquely through a colimit-preserving functor \(F'\colon E \to \ker (L)\), and \(F'\) is strongly continuous since its right adjoint is
+the composite of the colimit-preserving functors \(\ker (L) \hookrightarrow \D (A) \xrightarrow {F^R} E\).                                                                             □
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-4004r10"></a>
+                                                                                   
+                                                                                   
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/almost-modules-without-flatness/index.html" title="Almost modules without flatness">Remark 5.10.</a></span>  </span><span id="rem:Almost_General"></span> In the talk, the last part of <a class="source-reference" href="../../../entry/derived-categories-of-almost-modules/index.html#prop:Almost_Derived_Category">Proposition 5.9</a> was deduced from the general fact that the inclusion
+\(\Pr ^{\dual } \hookrightarrow \PrL _{\st }\) preserves pullbacks along localizations (<a class="source-reference" href="../../../entry/pullbacks-of-dualizable-categories/index.html#prop:Dualizable_Pullbacks">Proposition 7.21</a>(2)). Efimov [<a class="citation" href="../../../references/index.html#bib-Efimov_Large_Categories">Efimov (2024)</a>, Example 2.26] shows that \(\D ((A,I)^a\text {-}\Mod )\) is dualizable even without any
+flatness assumption on \(I\): in general, \(\D (A) \to \D _{(A/I)\text {-}\Mod }(A)\) is still a strongly continuous localization, identified with \(B \otimes _A -\) for a
+connective DG ring \(B\) with \(H_0(B) = A/I\), and \(B = A/I\) if \(I\) is flat as a right or left \(A\)-module.
+</p>
+</div>
+<p class="noindent">The following is a special case of Keller’s example (<a class="source-reference" href="../../../entry/kellers-smashing-localization/index.html#ex:Keller">Example 2.20</a>), and shows that almost module categories are typically
+very far from being compactly generated.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-4005r11"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/almost-categories-without-compact-objects/index.html" title="Almost categories without nonzero compact objects">Proposition 5.11.</a></span>  </span><span id="prop:Almost_No_Compacts"> </span><span class="ntx-Italic-tlf-t1-x-x-109">If</span> \(I \subseteq \mathrm {Jac}(A)\) <span class="ntx-Italic-tlf-t1-x-x-109">is contained in the Jacobson radical of</span> \(A\)<span class="ntx-Italic-tlf-t1-x-x-109">, then</span> \(\D ((A,I)^a\text {-}\Mod )\) <span class="ntx-Italic-tlf-t1-x-x-109">has no nonzero compact objects.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-2">
+<p class="noindent">By <a class="source-reference" href="../../../entry/derived-categories-of-almost-modules/index.html#prop:Almost_Derived_Category">Proposition 5.9</a>, the inclusion \(\ker (L) \hookrightarrow \D (A)\) is strongly continuous and hence preserves compact objects. So it suffices
+to show: if \(P \in \Perf (A)\) satisfies \(A/I \otimes ^{\bL }_A P \simeq 0\), then \(P \simeq 0\).
+</p><p class="noindent">Suppose \(P \neq 0\) and let \(n\) be minimal with \(H_n(P) \neq 0\). We may represent \(P\) by a bounded complex of finitely generated
+projective modules concentrated in homological degrees \(\geq n\): starting from any bounded complex \(P_\bullet \) of
+finitely generated projectives, if \(a &lt; n\) is the lowest degree with \(P_a \neq 0\), then \(P_{a+1} \to P_a\) is surjective as \(H_a(P) = 0\), hence split, and we
+may replace \(P_{a+1}\) by its kernel (again finitely generated projective) and remove \(P_a\). In this representation, \(H_n(P) = \coker (P_{n+1} \to P_n)\)
+is a finitely generated \(A\)-module, and by right exactness of the tensor product \[ 0 = H_n(A/I \otimes ^{\bL }_A P) \cong A/I \otimes _A H_n(P) \cong H_n(P)/IH_n(P). \] So \(H_n(P) = IH_n(P) \subseteq \mathrm {Jac}(A)H_n(P)\), and Nakayama’s
+lemma implies \(H_n(P) = 0\), a contradiction.                                                                                                         □
+</p>
+                                                                                   
+                                                                                   
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-4006r12"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/almost-modules-over-the-completed-algebraic-closure/index.html" title="Almost modules over the completed algebraic closure">Example 5.12.</a></span>  </span><span id="ex:Almost_Modules_Over_Cp"></span> In the situation of <a class="source-reference" href="../../../entry/examples-of-almost-modules/index.html#ex:Almost_Modules">Example 5.6</a>(2), \(A = \Oo _{\C _p}\) is local with maximal ideal \(\mm = \mathrm {Jac}(A)\). Hence \(\D ((\Oo _{\C _p},\mm )^a\text {-}\Mod )\) is a dualizable category
+without nonzero compact objects.
+</p>
+</div>
+
+<h4 class="likesubsectionHead" id="hilbertspace-models-for-operator-ideals"><a id="x1-5000"></a>Hilbert-space models for operator ideals</h4>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-5001r13"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/hilbert-space-models-for-operator-ideals/index.html" title="Hilbert-space models for operator ideals">Proposition 5.13.</a></span>  </span><span id="prop:Operator_Ideal_Models"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(A = B(\Hh )\) <span class="ntx-Italic-tlf-t1-x-x-109">for a separable infinite-dimensional complex Hilbert space, and let</span> \(J\) <span class="ntx-Italic-tlf-t1-x-x-109">be either</span>
+\(\Kk (\Hh )\) <span class="ntx-Italic-tlf-t1-x-x-109">or</span> \(S_{0+} = \bigcap _{p&gt;0} S_p(\Hh )\)<span class="ntx-Italic-tlf-t1-x-x-109">. Let</span> \(E\) <span class="ntx-Italic-tlf-t1-x-x-109">be the additive category of separable complex Hilbert spaces and bounded linear maps,
+with the split exact structure, and put</span> \(D = \Ind (\D ^b(E))\)<span class="ntx-Italic-tlf-t1-x-x-109">. Then</span> \(A \to A/J\) <span class="ntx-Italic-tlf-t1-x-x-109">is a homological epimorphism. Under Morita theory,
+its kernel identifies with the full stable subcategory</span> \(C_J \subseteq D\) <span class="ntx-Italic-tlf-t1-x-x-109">generated under colimits by sequences of Hilbert
+spaces whose transition maps belong to</span> \(J\)<span class="ntx-Italic-tlf-t1-x-x-109">. Here membership in</span> \(J\) <span class="ntx-Italic-tlf-t1-x-x-109">means compactness, respectively
+membership in every Schatten class, also for operators between different Hilbert spaces.</span>
+</p><p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">The completed Hilbert tensor product restricts to a symmetric monoidal structure on</span> \(C_J\) <span class="ntx-Italic-tlf-t1-x-x-109">whose unit
+and multiplication functors are strongly continuous. In particular,</span> \(C_J \in \CAlg (\Pr ^{\dual })\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+</p>
+</div>
+<p class="noindent"> The proof separates the algebraic and categorical steps. Positive operators provide cofinal principal left
+ideals and root factorizations; these establish flatness and idempotence and identify the kernel by
+telescopes. The last step checks strong continuity of the restricted tensor product through its right adjoint.
+
+                                                                                   
+                                                                                   
+</p>
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-1">
+<p class="noindent">We  use  right  \(A\)-modules  in  this  proof.  Every  separable  Hilbert  space  is  a  retract  of  \(\Hh \),  and
+every bounded idempotent has closed image. Hence \(V \mapsto \Hom _E(\Hh ,V)\) identifies \(E\) with the finitely generated projective
+right \(A\)-modules, and \(D\) with their unbounded derived category. To recover our left-module convention,
+choose a conjugation \(c\) on \(\Hh \): the complex-linear transpose \(a \mapsto ca^*c\) identifies \(A\catop \) with \(A\) and preserves both ideals.
+The intrinsic category \(C_J\) itself does not require this choice.
+</p><p class="noindent">We first record a factorization fact: given countably many \(a_n \in J\), there is a positive injective \(d \in J\) with \(a_n \in dA\) for
+every \(n\). Include a fixed positive injective operator in \(J\) among the \(a_n\), and choose \(\lambda _n &gt; 0\) sufficiently small
+that \[ s = \sum _n \lambda _n a_na_n^* \] converges in operator norm and, when \(J = S_{0+}\), in every Schatten quasi-norm \(\|{-}\|_{1/m}\), \(m \geq 1\). Such a choice is
+possible by imposing the first \(n\) quasi-norm bounds on the \(n\)th summand, with summable bounds in the
+corresponding quasi-norm metrics. Then \(s\) is positive and injective and belongs to \(J\), as does \(d=s^{1/2}\). Since \(a_na_n^* \leq \lambda _n^{-1}s\),
+the map \(dx \mapsto a_n^*x\) is bounded on the dense image of \(d\). Extending it to \(\Hh \) and taking adjoints gives \(a_n = db_n\) with \(b_n \in A\).
+</p><p class="noindent">Consequently, \(J\) is the directed union of the right ideals \(dA\) with \(d \in J\) positive and injective. Each \(dA\) is a free
+right module of rank one, so \(J\) is flat on the right. Also \(J^2=J\): polar decomposition writes \(a=u|a|^{1/2}|a|^{1/2}\) with both factors
+in \(J\). Both ideals are closed under positive square roots; for \(S_{0+}\) this follows directly from the definition
+by singular values. The Tor calculation in <a class="source-reference" href="../../../entry/derived-restriction-for-almost-modules/index.html#lem:Almost_Restriction_FF">Lemma 5.7</a> now shows that \(A \to A/J\) is a homological epimorphism.
+</p><p class="noindent">For a positive injective \(d \in J\), put \[ T_d = \bigcup _{n\geq 0} d^{1/2^n}A \subseteq J. \] Under the identifications \(d^{1/2^n}A \cong A\), this is the sequential colimit of free modules
+with transition maps given by left multiplication by \(d^{1/2^{n+1}} \in J\). The family of submodules \(T_d\) is directed: apply the
+factorization fact to all the roots of two given operators to obtain \(e\) with both submodules contained
+in \(eA \subseteq T_e\). It covers \(J\), so \(J\) is a filtered colimit of such telescopes.
+</p><p class="noindent">Let \(L = - \otimes _A^{\bL } A/J\), and let \(C = \ker (L)\). Its inclusion \(i\colon C \to D\) has the colimit-preserving right adjoint \(r(M)=M\otimes _A^{\bL }J\). This follows by tensoring the
+fiber sequence \(J \to A \to A/J\) with \(M\) and using that \(L\) is a localization. Since \(D\) is generated as a stable category under
+colimits by \(A\), the category \(C\) is generated in the same sense by \(r(A)=J\). Every \(J\)-transition telescope lies in \(C\),
+because applying \(L\) gives a sequence with zero transition maps, whose colimit is zero. Conversely,
+the preceding expression for \(J\) as a filtered colimit of the \(T_d\) puts \(J\) in the stable subcategory generated by
+these telescopes. Thus \(C=C_J\).
+</p><p class="noindent">The completed Hilbert tensor product extends to a colimit-preserving multiplication \(\mu _D\colon D\otimes D\to D\). It preserves
+compact objects: it sends pairs of Hilbert spaces to Hilbert spaces, and compact objects are obtained
+from these by finite stable operations and retracts.  Thus \(\mu _D^R\) preserves colimits.  Tensor products of
+two \(J\)-transition telescopes again have \(J\)-transitions, using the cofinal diagonal in \(\N \times \N \). For \(S_{0+}\), the relevant
+assertion follows from \[ \sum _{i,j}(s_i(a)s_j(b))^p =\left (\sum _i s_i(a)^p\right )\left (\sum _j s_j(b)^p\right )&lt;\infty \] for every \(p&gt;0\); for compact operators it follows by finite-rank approximation.
+Hence the tensor product restricts to \(C_J\). The unit \(\C \) belongs to \(C_J\), since its identity has finite rank, and is
+                                                                                   
+                                                                                   
+compact there because it is compact in \(D\) and the inclusion preserves colimits.
+</p><p class="noindent">Finally, \(i\otimes i\) has right adjoint \(r\otimes r\): the adjunction \(i\dashv r\) is an adjunction between colimit-preserving functors,
+so it can be tensored. The restricted multiplication has right adjoint \[ \mu _{C_J}^R = (r\otimes r)\mu _D^R i, \] as follows by applying these
+adjunctions to mapping spectra. All three functors preserve colimits. The unit functor is strongly
+continuous by compactness of \(\C \), and \(C_J\) is dualizable by <a class="source-reference" href="../../../entry/kernels-of-homological-epimorphisms/index.html#prop:Kernel_Homological_Epi">Proposition 5.1</a>. This proves the last assertion.                      □
+</p>
+</div></details>
+
+</article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Page navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../../preface/index.html"><span class="context-entry-heading">Preface</span><span class="context-entry-title"></span></a></li><li><a href="../../../chapter/introduction-and-overview/index.html"><span class="context-entry-heading">Chapter 1</span><span class="context-entry-title">Introduction and overview</span></a></li><li><a href="../../../chapter/stable-categories-and-localization-sequences/index.html"><span class="context-entry-heading">Chapter 2</span><span class="context-entry-title">Stable categories and localization sequences</span></a></li><li><a href="../../../chapter/compactly-assembled-and-dualizable-categories/index.html"><span class="context-entry-heading">Chapter 3</span><span class="context-entry-title">Compactly assembled and dualizable categories</span></a></li><li><a href="../../../chapter/compact-morphisms-and-ab6/index.html"><span class="context-entry-heading">Chapter 4</span><span class="context-entry-title">Compact morphisms and the axiom (AB6)</span></a></li><li><a href="../../../chapter/examples-of-dualizable-categories/index.html" aria-current="page"><span class="context-entry-heading">Chapter 5</span><span class="context-entry-title">Examples of dualizable categories</span></a></li><li><a href="../../../chapter/rigidity-and-nuclear-objects/index.html"><span class="context-entry-heading">Chapter 6</span><span class="context-entry-title">Rigidity and nuclear objects</span></a></li><li><a href="../../../chapter/calkin-categories-colimits-and-limits/index.html"><span class="context-entry-heading">Chapter 7</span><span class="context-entry-title">Calkin categories, colimits and limits of dualizable categories</span></a></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 8</span><span class="context-entry-title">Localizing invariants of dualizable categories</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 9</span><span class="context-entry-title">Sheaves on continuous posets and locally compact Hausdorff spaces</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 10</span><span class="context-entry-title">Dualizability and flatness</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 11</span><span class="context-entry-title">ℵ₁-presentability of Prᵈᵘᵃˡ</span></span></li><li><a href="../../../chapter/categorical-background/index.html"><span class="context-entry-heading">Appendix A</span><span class="context-entry-title">Categorical background</span></a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../kernels-of-homological-epimorphisms/index.html"><span class="context-entry-heading">Section 5.1</span><span class="context-entry-title">Kernels of homological epimorphisms</span></a></li><li><a href="index.html" aria-current="page"><span class="context-entry-heading">Section 5.2</span><span class="context-entry-title">Almost ring theory</span></a></li><li><a href="../continuous-posets/index.html"><span class="context-entry-heading">Section 5.3</span><span class="context-entry-title">Continuous posets</span></a></li><li><a href="../extensions-and-semiorthogonal-gluing/index.html"><span class="context-entry-heading">Section 5.4</span><span class="context-entry-title">Extensions and semiorthogonal gluing</span></a></li></ol>
+    </nav>
+  </section></div>
+  </aside></main><footer class="edition-footer">
+  <a href="/efimov-k-theory.pdf">PDF</a>
+  <p class="source-note">Generated from the LaTeX source.</p>
+</footer></body></html>

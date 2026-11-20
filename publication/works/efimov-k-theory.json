@@ -1,0 +1,13 @@
+{
+  "SchemaVersion": 1,
+  "WorkId": "efimov-k-theory",
+  "SourceBundle": "../Notes/Efimov K-theory/output/web",
+  "SourcePdf": "../Notes/Efimov K-theory/output/web/book.pdf",
+  "EmbeddedPdf": "book.pdf",
+  "EntryTags": true,
+  "PublicDirectory": "efimov-k-theory",
+  "PublicPdf": "efimov-k-theory.pdf",
+  "PublicBase": "/efimov-k-theory/",
+  "Lockfile": "publication/locks/efimov-k-theory.json",
+  "Retirements": "publication/retirements/efimov-k-theory.json"
+}

@@ -1,0 +1,4352 @@
+{
+  "SchemaVersion": 1,
+  "WorkId": "efimov-k-theory",
+  "PublicBase": "/efimov-k-theory/",
+  "CandidateContractSha256": "a4f7baf15a2c7c8496a72b0669202d1782b280dc4f7c02ce82f75e936db7e657",
+  "Routes": [
+    {
+      "Path": "/efimov-k-theory/",
+      "Kind": "work",
+      "Status": "live",
+      "Fragments": []
+    },
+    {
+      "Path": "/efimov-k-theory/chapter/calkin-categories-colimits-and-limits/",
+      "Kind": "chapter",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "chap:Calkin_Limits_Colimits",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/chapter/categorical-background/",
+      "Kind": "chapter",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "app:Categorical_Background",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/chapter/compact-morphisms-and-ab6/",
+      "Kind": "chapter",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "chap:Compact_Morphisms_AB6",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/chapter/compactly-assembled-and-dualizable-categories/",
+      "Kind": "chapter",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "chap:Compactly_Assembled_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/chapter/examples-of-dualizable-categories/",
+      "Kind": "chapter",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "chap:Examples",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/chapter/introduction-and-overview/",
+      "Kind": "chapter",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "chap:Introduction_And_Overview",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "con:Categories_And_K_Theory",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/chapter/rigidity-and-nuclear-objects/",
+      "Kind": "chapter",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "chap:Rigidity_And_Nuclear_Objects",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/chapter/stable-categories-and-localization-sequences/",
+      "Kind": "chapter",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "chap:Localization_Sequences",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/ab6-and-compact-assembly/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:AB6_And_Compact_Assembly",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/ab6-and-small-ind-completions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:AB6_And_Small_Ind_Completions",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/ab6-for-sets-and-animae/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:AB6_Sets_And_Animae",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/accessibility-of-small-posets/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Posets_Accessible",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/accessible-and-presentable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Accessible",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/adjoint-functor-theorem/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Adjoint_Functor_Theorem",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/adjoint-triples/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Adjoint_Triples",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/adjoints-and-split-exact-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:SOD_From_Short_Exact",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/almost-categories-without-compact-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Almost_No_Compacts",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/almost-modules-over-the-completed-algebraic-closure/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Almost_Modules_Over_Cp",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/almost-modules-without-flatness/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Almost_General",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/almost-modules/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Almost_Modules",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/alternative-definitions-of-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Compact_Morphisms_Other_Definitions",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/analytic-descent-for-nuclear-modules/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Nuclear_Analytic_Descent",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/automatic-strong-continuity/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Automatic_Strong_Continuity",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/banach-spaces-as-nuclear-modules/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Nuclear_Banach",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/basic-properties-of-nuclear-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Nuclear_Basics",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/calkin-categories-preserve-short-exact-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Calkin_Short_Exact",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/calkin-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Calkin_Small",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/calkin-category-of-perfect-complexes/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Calkin_Perf",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/calkin-delooping/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Localizing_Calkin",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/characterizations-of-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Compact_Morphism_Characterizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/characterizing-continuous-posets/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Continuous_Poset_Characterization",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/characterizing-short-exact-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Characterization_Short_Exact",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/classifying-exact-sequences-with-tate-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Tate_Classification_Of_Extensions",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/closure-properties-of-kappa-compact-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Kappa_Small_Colimits_Of_Kappa_Compacts",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/cofinal-filtered-posets/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Filtered_Posets_Cofinal",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/cofinal-maps-of-posets/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Cofinality_Posets",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/colimits-of-dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Prdual_Colimits",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/colimits-of-strongly-continuous-functors/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:PrLL_Colimits",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/colimits-over-countable-subposets/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Colimits_Over_Countable_Subposets",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/commuting-filtered-colimits-and-small-limits/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Filtered_Colimits_Commute_With_Small_Limits",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-exhaustions-without-stability/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Compact_Exhaustions_In_Presentable_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-generation-implies-compact-assembly/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Compactly_Generated_Compactly_Assembled",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-generators-and-thick-closure/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Compact_Generators_Thick_Closure",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-interpolation-and-omega-one-compactness/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Compact_Interpolation",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-morphisms-and-flatness-characterizations/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Further_Characterizations_Later",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-morphisms-via-the-finest-presentation/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Compact_Morphisms_Yhat",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Compact_Morphism",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-objects-and-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Compact_Objects_And_Morphisms_Intro",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-objects-and-filtered-colimits/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Compact_Objects_Filtered_Colimits",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-objects-and-the-finest-presentation/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Compact_Iff_Yhat_Is_Y",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-objects-in-localization-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Compact_Objects_Localization_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compact-objects-via-weakly-compact-identities/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Compact_Iff_Identity_Weakly_Compact",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compactly-assembled-categories-as-retracts/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Compactly_Assembled_Retract",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compactly-assembled-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Compactly_Assembled",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compactly-exhaustible-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Compactly_Exhaustible",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compactly-generated-categories-in-pr-dual/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Compactly_Generated_In_Prdual",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/compactly-generated-rigid-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Rigid_Compactly_Generated",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/comparing-definitions-of-nuclearity/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Nuclear_Definition_Pi0",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/comparing-stable-compactness-definitions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Stable_Compact_Morphism_Definitions",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/conjugate-natural-transformations/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Conjugate_Transformations",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/constructing-presentable-localization-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Localization_Sequences_PrL",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/continuous-calkin-category/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Calkin_Continuous",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/continuous-extensions-of-localizing-invariants/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Continuous_Extension",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/continuous-k-theory-of-compact-operators/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Compact_Operators_Intro",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/continuous-k-theory-of-euclidean-sheaves/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Kcont_Euclidean_Sheaves",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/continuous-k-theory-of-nuclear-modules/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Kcont_Nuclear",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/continuous-k-theory-of-sheaves/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Kcont_Sheaves",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/continuous-posets-an-overview/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Continuous_Posets",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/continuous-posets-and-sheaf-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Continuous_Posets_Sheaves",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/continuous-posets/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Continuous_Poset",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/conventions-for-categories-and-k-theory/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "con:Categories_And_K_Theory",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/coreflection-onto-filtered-colimit-preserving-functors/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Filtered_Coreflection",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/corepresentability-of-k-theory/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:K_Corepresentable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/derived-categories-of-almost-modules/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Almost_Derived_Category",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/derived-restriction-for-almost-modules/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Almost_Restriction_FF",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/descent-for-nuclear-modules/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Nuclear_Descent",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/describing-the-presentable-tensor-product/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Tensor_Product_Description",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/duality-for-module-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Dual_Of_Modules",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/duality-of-compactly-generated-stable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Compactly_Generated_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizability-and-ab6/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_AB6",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizability-and-semiorthogonal-decompositions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:SOD_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizability-from-generating-functors/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Generation_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizability-of-gluings/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Gluing_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizability-via-compact-exhaustions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_Compactly_Exhaustible",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizable-categories-an-overview/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Dualizable_Characterizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizable-categories-and-strongly-continuous-functors/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Cat_Dual",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Dualizable_Category",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizable-coreflection/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Dualizable_Coreflection",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizable-kernel-over-a-dvr/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Dualizable_Kernel_DVR",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/dualizable-kernel/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Dualizable_Kernel",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/efimovs-continuous-extension-theorem/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Efimov_Continuous_Extension",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/efimovs-nondualizable-extension/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Extension_Not_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/epimorphisms-are-localizations/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Epimorphisms_Localizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/equivalent-definitions-of-rigidity/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Equivalent_Rigidity_Definitions",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/essential-image-of-almost-restriction/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Almost_Essential_Image",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/every-dualizable-category-is-a-kernel/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Every_Dualizable_Kernel",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/every-object-is-eventually-compact/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Accessible_Objects_Lambda_Compact",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/examples-of-almost-modules/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Almost_Modules",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/examples-of-dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Dualizable_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/examples-of-homological-epimorphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Homological_Epis",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/examples-of-weakly-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Weakly_Compact_Basic",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/extensions-and-tate-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Extension_Dualizable_Tate",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/extensions-need-not-be-dualizable/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "warn:Extensions_Not_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/factorization-of-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Compact_Morphism_Factorization",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/filtered-colimits-in-presentable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Filtered_Colimits_Fail_PrL",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/filtered-colimits-in-the-universal-property/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:K_Universal_Property_Literature",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/filtered-colimits-preserve-fully-faithful-functors/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Filtered_Colimits_Fully_Faithful",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/filtered-unions-of-subcategories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Filtered_Union_Subcategories",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/finitary-localizing-invariants/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Finitary_Localizing_Invariants",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/formal-properties-of-pr-dual/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Prdual_Formal_Properties",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/functoriality-of-continuous-calkin-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "constr:Calkin_Functoriality",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/further-characterizations-of-dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_Further_Characterizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/grothendieck-groups/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:K_0",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/h-unitality-and-homological-epimorphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:H_Unital",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/hilbert-space-models-for-operator-ideals/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Operator_Ideal_Models",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/homological-epimorphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Homological_Epimorphism",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/image-of-a-functor/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Image_Functor",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/images-are-dualizable/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Image_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/ind-categories-as-exact-functors/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Ind_As_Exact_Functors",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/ind-completion-and-localization/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Ind_Fully_Faithful_Localization",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/ind-completion-of-a-poset/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Ind_Of_Poset",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/ind-completion-of-large-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "constr:Ind_Large",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/interleaving-for-trace-class-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Trace_Class_Interleaving",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/interleaving-in-nuclear-colimits/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Nuclear_Colimit_Interleaving",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/k-theory-as-the-day-convolution-unit/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:K_Unit_Day_Convolution",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/kappa-compact-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Kappa_Compact",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/kappa-filtered-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Kappa_Filtered",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/kappa-filtered-posets/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Kappa_Filtered_Posets",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/kappa-ind-completion/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Ind_Kappa",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/karoubi-quotients-via-ind-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Karoubi_Quotient_Via_Ind",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/kellers-smashing-localization/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Keller",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/kernel-of-a-verdier-quotient/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Kernel_Verdier_Quotient",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/kernels-of-dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_Kernel",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/kernels-of-homological-epimorphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Kernel_Homological_Epi",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/largest-dualizable-subcategory/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Largest_Dualizable_Subcategory",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/lifting-criterion-for-weakly-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Weakly_Compact_Lifting",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/lifting-objects-from-quotients/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Lifting_Objects_Quotient",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/limits-of-accessible-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Limits_Of_Accessible_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/liquid-and-gaseous-modules/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Nuclear_Liquid_Gaseous",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/local-rigidity-of-sheaf-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Locally_Rigid_Sheaf_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/localization-after-ind-completion/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "warn:Excision_Requires_Ind_Localizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/localization-sequences-preserve-dualizability/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Localization_Sequence_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/localizing-invariants-and-verdier-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Localizing_Invariants_Verdier",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/localizing-invariants-are-additive/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Localizing_Additive",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/localizing-invariants/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Localizing_Invariant",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/localizing-motives/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Mot_Loc",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/luries-characterization-of-dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Lurie_Dualizable_Characterization",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/luries-tensor-product-of-presentable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Lurie_Tensor_Product",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/mapping-spectra-in-calkin-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Calkin_Mapping_Spectra",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/mapping-spectra-in-verdier-quotients/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Mapping_Spectra_Quotient",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/mates-and-conjugate-transformations/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Mates_Conjugates",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/mates-of-natural-transformations/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "constr:Mates",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/milnor-patching-in-k-theory/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Milnor_Patching_K_Theory",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/milnor-patching/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Milnor_Patching",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/milnor-squares-of-rings/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Milnor_Square_Of_Rings",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/monomorphisms-are-fully-faithful/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Monomorphisms_Fully_Faithful",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/monomorphisms-of-dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Monomorphisms_Prdual",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/nuclear-and-basic-nuclear-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Nuclear",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/nuclear-objects-and-rigidification/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Nuclear_Rigid",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/nuclear-solid-modules-and-formal-schemes/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Nuclear_Solid",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/nullhomotopies-as-a-property/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Nullhomotopies_Property",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/omega-one-compact-ind-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Omega_1_Compact_In_Ind",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/omega-one-filtered-posets-via-chains/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Omega_1_Filtered_Via_Chains",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/omega-one-presentability-of-compactly-assembled-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Compactly_Assembled_Omega_1",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/open-subsets-as-a-continuous-poset/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Continuous_Poset_Opens",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/presentable-localization-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Localization_Sequence_PrL",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/products-in-ind-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Products_In_Ind",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/products-of-dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Products_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/properties-of-the-way-below-relation/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Way_Below_Basics",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/properties-of-trace-class-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Trace_Class_Basics",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/pullbacks-of-dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Dualizable_Pullbacks",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/rational-exhaustions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Q_Exhaustion",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/rational-interpolation-of-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Interpolation",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/recognizing-semiorthogonal-decompositions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:SOD_Characterization",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/recollections-on-accessible-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Accessible_Recollections",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/retracts-as-telescopes/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Retract_As_Telescope",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/retracts-of-right-adjoints/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Retract_Left_Adjoint",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/right-adjoints-and-filtered-colimits/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Filtered_Colimits_PrL",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/right-adjoints-and-strong-continuity/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Strongly_Continuous_Right_Adjoint",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/rigid-categories-an-overview/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Rigid_Category",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/rigid-symmetric-monoidal-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Rigid_Category_Detailed",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/rigidification-via-idempotent-ideals/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Rigidification_Via_Idempotent_Ideals",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/rigidity-of-ind-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Rigid_Ind_Categories_Intro",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/rigidity-of-sheaves-on-compact-hausdorff-spaces/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Shv_Compact_Hausdorff_Rigid",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/rigidity-via-trace-class-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Rigid_Trace_Class",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/self-duality-of-rigid-categories-an-overview/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Rigid_Self_Dual",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/self-duality-of-rigid-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Rigid_Self_Dual_Detailed",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/semiorthogonal-decompositions-of-functor-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:SOD_Functor_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/semiorthogonal-decompositions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Semiorthogonal_Decomposition",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/semiorthogonal-gluing/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "constr:Semiorthogonal_Gluing",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/sequential-colimits-of-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Omega_1_Compact_Compact_Morphisms",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/sequential-diagrams-and-their-coherences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Sequential_Diagrams",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/short-exact-sequences-are-fiber-and-cofiber-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Short_Exact_Fiber_Cofiber",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/short-exact-sequences-of-dualizable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Short_Exact_Sequence_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/short-exact-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Short_Exact_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/small-and-continuous-calkin-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Calkin_Small_Vs_Continuous",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/small-semiorthogonal-decompositions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:SOD_Small",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/stable-criterion-for-weak-compactness/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Compact_Morphisms_Stable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/strictifying-maps-of-sequential-ind-objects/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Strictification_Sequential_Maps",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/strong-continuity-from-a-rigid-source/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Strong_Continuity_From_Rigid_Source",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/strong-continuity-in-localization-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Strong_Continuity_Localization_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/strong-continuity-in-stable-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Strongly_Continuous_Stable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/strong-continuity-of-rigid-monoidal-functors/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Rigid_Functors_Strongly_Continuous",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/strong-continuity-via-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "eq:Mate_Compatible_Epsilon",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Strongly_Continuous_Compact_Morphisms",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/strong-continuity-via-right-adjoints/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Strongly_Continuous_Via_Right_Adjoint",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/strongly-continuous-functors-between-compactly-assembled-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Strongly_Continuous_Compactly_Assembled",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/tammes-excision-theorem/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Tamme_Excision",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/tammes-lax-pullback-proof/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Tamme_Lax_Pullback_Proof",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/tensoring-with-a-compactly-generated-category/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Tensor_With_Compactly_Generated",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/tensoring-with-ind-categories/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Tensor_With_Ind",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/the-ab6-axiom/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:AB6",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/the-extended-real-line-as-a-continuous-poset/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Continuous_Poset_Reals",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/the-ideal-of-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Compact_Morphisms_Ideal",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/thomason-neeman-theorem/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Thomason_Neeman",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/thomason-trobaugh-localization/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Thomason_Trobaugh_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/topological-hochschild-homology-as-a-trace/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:THH_Categorical_Trace",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/trace-class-identities-and-dualizability/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Identity_Trace_Class",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/trace-class-morphisms-are-compact/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Trace_Class_Compact",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/trace-class-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Trace_Class",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/two-term-semiorthogonal-decompositions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Two_Term_SOD",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/universal-property-of-algebraic-k-theory/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:K_Universal_Property",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/universal-property-of-kappa-ind-completion/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Ind_Kappa_Universal_Property",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/universal-property-of-the-finest-presentation/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Yhat_Universal_Property",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/verdier-and-karoubi-quotients/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Verdier_Vs_Karoubi",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/verdier-quotients/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "thm:Verdier_Quotient",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/verdier-sequences/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Verdier_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/verdier-versus-karoubi-invariants/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Verdier_Localizing_Not_Karoubi",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/way-below-relation/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Way_Below",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/weak-compactness-in-small-ind-completions/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "rem:Weak_Compactness_In_Small_Ind_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/entry/weakly-compact-morphisms/",
+      "Kind": "entry",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Weakly_Compact_Morphism",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/preface/",
+      "Kind": "frontmatter",
+      "Status": "live",
+      "Fragments": []
+    },
+    {
+      "Path": "/efimov-k-theory/references/",
+      "Kind": "references",
+      "Status": "live",
+      "Fragments": []
+    },
+    {
+      "Path": "/efimov-k-theory/section/calkin-categories-colimits-and-limits/colimits-of-dualizable-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Epimorphisms_Localizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Prdual_Colimits",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:PrLL_Colimits",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Monomorphisms_Fully_Faithful",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Colimits_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/calkin-categories-colimits-and-limits/continuous-calkin-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "constr:Calkin_Functoriality",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Calkin_Continuous",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Short_Exact_Sequence_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Calkin_Short_Exact",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Calkin_Small_Vs_Continuous",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Continuous_Calkin",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/calkin-categories-colimits-and-limits/filtered-colimits-of-dualizable-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Filtered_Union_Subcategories",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "eq:Compacts_Of_Kernel",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Filtered_Colimits_PrL",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Compact_Objects_Filtered_Colimits",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Filtered_Colimits_Fully_Faithful",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Filtered_Colimits_Fail_PrL",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Filtered_Colimits_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/calkin-categories-colimits-and-limits/finite-limits-of-dualizable-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Monomorphisms_Prdual",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Dualizable_Kernel",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Dualizable_Kernel_DVR",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Largest_Dualizable_Subcategory",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Dualizable_Kernel",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Dualizable_Pullbacks",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Q_Exhaustion",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Dualizable_Coreflection",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Short_Exact_Fiber_Cofiber",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Finite_Limits_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/categorical-background/accessible-and-presentable-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "constr:Ind_Large",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Accessible",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Ind_Kappa",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Accessible_Objects_Lambda_Compact",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Accessible_Presentable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Accessible_Recollections",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Adjoint_Functor_Theorem",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Ind_Kappa_Universal_Property",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Limits_Of_Accessible_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/categorical-background/filtered-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Kappa_Small_Colimits_Of_Kappa_Compacts",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Kappa_Compact",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Kappa_Filtered",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Cofinality_Posets",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Kappa_Filtered_Posets",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Omega_1_Filtered_Via_Chains",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Retract_As_Telescope",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Strictification_Sequential_Maps",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Colimits_Over_Countable_Subposets",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Omega_1_Compact_In_Ind",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Sequential_Diagrams",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Filtered_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Filtered_Colimits_Commute_With_Small_Limits",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Filtered_Posets_Cofinal",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/categorical-background/idempotent-completeness/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "lem:Retract_Left_Adjoint",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Idempotent_Completeness",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/categorical-background/mates/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "constr:Mates",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Adjoint_Triples",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Conjugate_Transformations",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Mates_Conjugates",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Strongly_Continuous_Via_Right_Adjoint",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Mates",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/categorical-background/tensor-products-of-presentable-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Compactly_Generated_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "cor:Ind_As_Exact_Functors",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Tensor_With_Ind",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Tensor_Product_Description",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Tensor_With_Compactly_Generated",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:PrL_Tensor_Products",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Lurie_Tensor_Product",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/compact-morphisms-and-ab6/automatic-dualizability-and-images/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Image_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Image_Functor",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Automatic_Strong_Continuity",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Generation_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Products_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Automatic_Dualizability",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/compact-morphisms-and-ab6/compactly-exhaustible-objects/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Compactly_Exhaustible",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Dualizable_Compactly_Exhaustible",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Compact_Exhaustions_In_Presentable_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Compactly_Exhaustible",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/compact-morphisms-and-ab6/the-ab6-axiom/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:AB6",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:AB6_Sets_And_Animae",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Products_In_Ind",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Dualizable_AB6",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:AB6_And_Compact_Assembly",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:AB6_And_Small_Ind_Completions",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:AB6",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/compact-morphisms-and-ab6/universal-property-of-the-finest-presentation/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Yhat_Universal_Property",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Filtered_Coreflection",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Universal_Property_Yhat",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/compact-morphisms-and-ab6/weakly-compact-morphisms/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Compact_Iff_Identity_Weakly_Compact",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "cor:Compact_Morphism_Factorization",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Weakly_Compact_Morphism",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Weakly_Compact_Basic",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Interpolation",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Compact_Interpolation",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Compact_Morphism_Characterizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Compact_Morphisms_Stable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Compact_Morphisms_Other_Definitions",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Stable_Compact_Morphism_Definitions",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Weak_Compactness_In_Small_Ind_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Weakly_Compact_Lifting",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Weakly_Compact_Morphisms",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/compactly-assembled-and-dualizable-categories/compactly-assembled-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Compact_Morphism",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Compactly_Assembled",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Strongly_Continuous_Compactly_Assembled",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Compactly_Generated_Compactly_Assembled",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Continuous_Posets",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Compact_Iff_Yhat_Is_Y",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Compact_Morphisms_Yhat",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Compact_Morphisms_Ideal",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Strongly_Continuous_Right_Adjoint",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Compactly_Assembled",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Compactly_Assembled_Retract",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/compactly-assembled-and-dualizable-categories/dualizable-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Dualizable_Category",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Dual_Of_Modules",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Dualizable_Further_Characterizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Compactly_Generated_In_Prdual",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Further_Characterizations_Later",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Prdual_Formal_Properties",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Strongly_Continuous_Stable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Dualizable_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Lurie_Dualizable_Characterization",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/compactly-assembled-and-dualizable-categories/localization-sequences-of-dualizable-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "prop:Localization_Sequence_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Localization_Sequences_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/compactly-assembled-and-dualizable-categories/omega-one-presentability/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "eq:Mate_Compatible_Epsilon",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Strongly_Continuous_Compact_Morphisms",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Omega_1_Compact_Compact_Morphisms",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Omega_1_Presentability",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Compactly_Assembled_Omega_1",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/examples-of-dualizable-categories/almost-ring-theory/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Almost_Modules",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Almost_Modules",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Almost_Modules_Over_Cp",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Almost_Essential_Image",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Almost_Restriction_FF",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Almost_Derived_Category",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Almost_No_Compacts",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Operator_Ideal_Models",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Almost_General",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Almost_Ring_Theory",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/examples-of-dualizable-categories/continuous-posets/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Continuous_Poset",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Way_Below",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "eq:Yhat_Poset",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Continuous_Poset_Opens",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Continuous_Poset_Reals",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Ind_Of_Poset",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Posets_Accessible",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Continuous_Poset_Characterization",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Continuous_Posets_Sheaves",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Way_Below_Basics",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Continuous_Posets",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/examples-of-dualizable-categories/extensions-and-semiorthogonal-gluing/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "constr:Semiorthogonal_Gluing",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Extension_Not_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Extension_Dualizable_Tate",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Gluing_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:SOD_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:SOD_Functor_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Tate_Classification_Of_Extensions",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Extensions_And_Gluing",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "warn:Extensions_Not_Dualizable",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/examples-of-dualizable-categories/kernels-of-homological-epimorphisms/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Homological_Epis",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Every_Dualizable_Kernel",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Kernel_Homological_Epi",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Homological_Epimorphisms",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:H_Unital",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/introduction-and-overview/continuous-k-theory/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Continuous_Extension",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:THH_Categorical_Trace",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Continuous_K_Theory_Intro",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Efimov_Continuous_Extension",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/introduction-and-overview/first-computations/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "ex:Compact_Operators_Intro",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Kcont_Euclidean_Sheaves",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:First_Computations",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Kcont_Nuclear",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Kcont_Sheaves",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Nuclear_Analytic_Descent",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/introduction-and-overview/from-small-to-large-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Cat_Dual",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Rigid_Category",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Dualizable_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Rigid_Ind_Categories_Intro",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Rigid_Self_Dual",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Compact_Objects_And_Morphisms_Intro",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Small_To_Large",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Dualizable_Characterizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/introduction-and-overview/overview-of-the-notes/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "sec:Overview",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/introduction-and-overview/where-small-stable-categories-fall-short/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "sec:Small_Categories_Fall_Short",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/introduction-and-overview/why-change-the-input-of-k-theory/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "sec:Why_Change_Input",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/rigidity-and-nuclear-objects/nuclear-modules-and-condensed-mathematics/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Nuclear",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Nuclear_Banach",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Nuclear_Liquid_Gaseous",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Nuclear_Solid",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Nuclear_Colimit_Interleaving",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Trace_Class_Interleaving",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Nuclear_Basics",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Nuclear_Rigid",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Nuclear_Definition_Pi0",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Nuclear_Descent",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Rigidification_Via_Idempotent_Ideals",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Nuclear_Modules",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/rigidity-and-nuclear-objects/rigid-symmetric-monoidal-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Rigid_Functors_Strongly_Continuous",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Rigid_Category_Detailed",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Trace_Class",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Locally_Rigid_Sheaf_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Rigid_Compactly_Generated",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Shv_Compact_Hausdorff_Rigid",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Identity_Trace_Class",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Trace_Class_Compact",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Rigid_Self_Dual_Detailed",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Equivalent_Rigidity_Definitions",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Strong_Continuity_From_Rigid_Source",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Trace_Class_Basics",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Rigid_Categories",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Rigid_Trace_Class",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/stable-categories-and-localization-sequences/calkin-categories/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Calkin_Small",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Calkin_Perf",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Calkin_Mapping_Spectra",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Calkin_Small",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/stable-categories-and-localization-sequences/idempotent-completion-and-short-exact-sequences/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Short_Exact_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Thomason_Trobaugh_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Characterization_Short_Exact",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Lifting_Objects_Quotient",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Mapping_Spectra_Quotient",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Verdier_Vs_Karoubi",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Karoubi_Sequences",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/stable-categories-and-localization-sequences/localizing-invariants/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:K_0",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Localizing_Invariant",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Mot_Loc",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Localizing_Additive",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Localizing_Calkin",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Milnor_Patching",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Milnor_Square_Of_Rings",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Localizing_Invariants_Verdier",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Finitary_Localizing_Invariants",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:K_Universal_Property_Literature",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Tamme_Lax_Pullback_Proof",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Verdier_Localizing_Not_Karoubi",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Localizing_Invariants",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:K_Corepresentable",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:K_Unit_Day_Convolution",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:K_Universal_Property",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Milnor_Patching_K_Theory",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Tamme_Excision",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "warn:Excision_Requires_Ind_Localizations",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/stable-categories-and-localization-sequences/presentable-localization-sequences/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "cor:Karoubi_Quotient_Via_Ind",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Homological_Epimorphism",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "def:Localization_Sequence_PrL",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "ex:Keller",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Compact_Generators_Thick_Closure",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Compact_Objects_Localization_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Strong_Continuity_Localization_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Localization_Sequences_PrL",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Ind_Fully_Faithful_Localization",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Localization_Sequences_PrL",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Thomason_Neeman",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/stable-categories-and-localization-sequences/semiorthogonal-decompositions/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Semiorthogonal_Decomposition",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:SOD_Characterization",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:SOD_From_Short_Exact",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "prop:Two_Term_SOD",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:SOD_Small",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Semiorthogonal_Decompositions",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    },
+    {
+      "Path": "/efimov-k-theory/section/stable-categories-and-localization-sequences/verdier-sequences/",
+      "Kind": "section",
+      "Status": "live",
+      "Fragments": [
+        {
+          "Id": "def:Verdier_Sequence",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "lem:Kernel_Verdier_Quotient",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "rem:Nullhomotopies_Property",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "sec:Verdier_Sequences",
+          "Kind": "latex-label",
+          "Status": "live"
+        },
+        {
+          "Id": "thm:Verdier_Quotient",
+          "Kind": "latex-label",
+          "Status": "live"
+        }
+      ]
+    }
+  ],
+  "SourceBundleSha256": "f64c45d69612f74744c1bece13fd1564669ac01996fb03d9a6b1248b70af9a1c",
+  "SourcePdfSha256": "61e81f3d69a4cdd4d455fcbd6208bbc6647f7c2d90b4618801cbf50fca41de48",
+  "PublishedBundleSha256": "37f8f6719c66c5f08cd9f8d501555ff9f3d512271598c736c71671b36b582912",
+  "PublishedPdfSha256": "61e81f3d69a4cdd4d455fcbd6208bbc6647f7c2d90b4618801cbf50fca41de48"
+}

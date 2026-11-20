@@ -1,0 +1,290 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Localizing invariants | Efimov K-theory</title><meta name="description" content="Localizing invariants, algebraic K-theory, and excision."><link rel="stylesheet" href="../../../_assets/content.css"><link rel="stylesheet" href="../../../_assets/style.css"><script>window.MathJax={loader:{paths:{fonts:'../../../_assets/mathjax/fonts'},load:['[tex]/mathtools','[tex]/boldsymbol']},tex:{packages:{'[+]':['ams','mathtools','boldsymbol']},macros:{"fpqc":"\\operatorname{fpqc}","KGL":"\\operatorname{KGL}","Nis":"\\operatorname{Nis}","Et":"\\operatorname{Et}","cdh":"\\operatorname{cdh}","vdim":"\\operatorname{vdim}","Krdim":"\\operatorname{Kr.dim}","qcqs":"\\operatorname{qcqs}","Sm":"\\operatorname{Sm}","SSeq":"\\operatorname{SSeq}","Sym":"\\operatorname{Sym}","KH":"\\operatorname{KH}","ssquare":"\\,\\square\\,","Aff":"\\operatorname{Aff}","Mono":"\\operatorname{Mono}","Gerb":"\\operatorname{Gerb}","hyp":"\\operatorname{hyp}","mono":"\\operatorname{mono}","cons":"\\operatorname{cons}","wcons":"\\operatorname{wcons}","quottext":"\\operatorname{quot}","epi":"\\operatorname{epi}","MonoCong":"\\operatorname{MonoCong}","EpiCong":"\\operatorname{EpiCong}","Cong":"\\operatorname{Cong}","HypCong":"\\operatorname{HypCong}","Mdl":"\\operatorname{Mdl}","Acyc":"\\operatorname{Acyc}","Sat":"\\operatorname{Sat}","SSat":"\\operatorname{SSat}","Conn":"\\operatorname{Conn}","EffEpi":"\\operatorname{EffEpi}","Epi":"\\operatorname{Epi}","Cotr":"\\operatorname{Cotr}","All":"\\operatorname{All}","Pos":"\\operatorname{Pos}","post":"\\operatorname{post}","El":"\\operatorname{El}","cocompl":"\\operatorname{cocompl}","Topos":"\\mathrm{Topos}","Logos":"\\mathrm{Logos}","bbCat":"\\bbC \\mathrm{at}","bbLog":"\\bbL \\mathrm{ogos}","bbTop":"\\bbT \\mathrm{opos}","Geom":"\\operatorname{Geom}","Pt":"\\operatorname{Pt}","im":"\\operatorname{im}","coim":"\\operatorname{coim}","Act":"\\operatorname{Act}","Bun":"\\operatorname{Bun}","Site":"\\operatorname{Site}","cont":"\\operatorname{cont}","cocont":"\\operatorname{cocont}","Cont":"\\operatorname{Cont}","wccolim":"\\operatorname{w.c.colim}","Atl":"\\operatorname{Atl}","DiffStk":"\\operatorname{DiffStk}","SepStk":"\\operatorname{SepStk}","H":"\\mathrm{H}","SH":"\\mathrm{SH}","htp":"\\operatorname{htp}","rep":"\\operatorname{rep}","Loc":"\\operatorname{Loc}","Thick":"\\operatorname{Thick}","modtext":"\\operatorname{mod}","absmod":["\\abs{#1}_{\\modtext}",1],"sep":"\\operatorname{sep}","PB":"\\operatorname{PB}","PF":"\\operatorname{PF}","NerveDiff":"\\operatorname{N^{\\mathrm{Diff}}}","Deltaalg":["\\Delta^{#1}_{\\mathrm{alg}}",1],"shear":"\\operatorname{shear}","Sph":"\\operatorname{Sph}","Sub":"\\operatorname{Sub}","Open":"\\operatorname{Open}","open":"\\operatorname{open}","Corr":"\\operatorname{Corr}","bbMap":"\\operatorname{\\mathbb{M} ap}","bbHom":"\\operatorname{\\mathbb{H} om}","gen":"\\operatorname{gen}","Bgl":"\\operatorname{B_{gl}}","PrnBdl":["\\mathrm{PrnBdl}_{#1}(#2)",2],"cFun":"\\Ff \\mathrm{un}","Tr":"\\operatorname{Tr}","tr":"\\operatorname{tr}","Shp":"\\operatorname{Shp}","THH":"\\operatorname{THH}","Assoc":"\\mathcal{A}\\mathit{ssoc}","Comm":"\\mathcal{C}\\!\\,\\mathit{omm}","Lie":"\\mathcal{L}\\mathit{ie}","Triv":"\\mathcal{T}\\!\\!\\mathit{riv}","oTens":"\\mathcal{T}\\!\\!\\mathit{ens}","oLMod":"\\mathcal{L}\\!\\mathcal{M}\\mathit{od}","oRMod":"\\mathcal{R}\\!\\mathcal{M}\\mathit{od}","oBMod":"\\mathcal{B}\\!\\mathcal{M}\\mathit{od}","oMod":"\\mathcal{M}\\mathit{od}","oAlg":"\\mathcal{A}\\mathit{lg}","oEnd":"\\mathcal{E}\\mathit{nd}","oCMon":"\\mathcal{C}\\!\\mathcal{M}\\mathit{on}","oCGrp":"\\mathcal{C}\\mathcal{G}\\mathit{rp}","oSp":"\\mathcal{S}\\mathit{p}","Mult":"\\mathcal{M}","oCat":"\\operatorname{\\mathcal{C}\\!\\mathit{at}}","oFun":"\\operatorname{\\mathcal{F}\\!\\mathit{un}}","Env":"\\operatorname{Env}","Op":"\\operatorname{Op}","AdTrip":"\\operatorname{AdTrip}","rev":"\\operatorname{rev}","tiso":"\\operatorname{iso}","oTw":"\\operatorname{\\overline{\\Tw}}","lax":"\\operatorname{lax}","NTw":"\\operatorname{NTw}","OpCocart":"\\Oo^{\\amalg}","OpCart":"\\Oo^{\\times}","Day":"\\operatorname{Day}","oDay":"\\mathcal{D}\\mathit{ay}","dlax":"\\mathrm{-lax}","textred":"\\mathrm{red}","exc":"\\mathrm{exc}","BiFun":"\\operatorname{BiFun}","BV":"\\operatorname{BV}","Bar":"\\mathrm{Bar}","dnil":"\\mathrm{-nil}","Ext":"\\operatorname{Ext}","Ex":"\\operatorname{Ex}","Tor":"\\operatorname{Tor}","enr":"\\mathrm{enr}","heart":"\\heartsuit","dsm":"\\mathrm{-sm}","Free":"\\operatorname{Free}","ku":"\\operatorname{ku}","KU":"\\operatorname{KU}","MU":"\\operatorname{MU}","MO":"\\operatorname{MO}","MSO":"\\operatorname{MSO}","BO":"\\operatorname{BO}","bGr":"\\operatorname{\\mathbf{Gr}}","BUP":"\\operatorname{BUP}","bBUP":"\\operatorname{\\mathbf{BUP}}","Th":"\\operatorname{Th}","Pic":"\\operatorname{Pic}","pic":"\\operatorname{pic}","pre":"\\operatorname{pre}","Line":"\\operatorname{Line}","PT":"\\operatorname{PT}","interiorsymb":[" {\\kern0pt#1}^{\\mathrm{o}}",1],"PSp":"\\mathrm{PSp}","Emb":"\\operatorname{Emb}","Ntop":"N^{\\mathrm{top}}","Homtop":"\\Hom^{\\mathrm{top}}","fw":"\\operatorname{fw}","Shift":"\\operatorname{Shift}","Der":"\\operatorname{Der}","Hom":"\\operatorname{Hom}","Aut":"\\operatorname{Aut}","End":"\\operatorname{End}","iHom":"\\operatorname{\\underline{\\operatorname{Hom}}}","ihom":"\\operatorname{\\underline{\\operatorname{hom}}}","uHom":"\\operatorname{\\underline{\\operatorname{Hom}}}","Map":"\\operatorname{Map}","map":"\\operatorname{map}","Path":"\\operatorname{Path}","Fun":"\\operatorname{Fun}","FunL":"\\Fun^{\\mathrm{L}}","FunR":"\\Fun^{\\mathrm R}","ulFun":"\\ul{\\Fun}","Nat":"\\operatorname{Nat}","Lift":"\\operatorname{Lift}","lift":"\\operatorname{lift}","cocart":"\\operatorname{cocart}","CoCart":"\\operatorname{CoCart}","Cocart":"\\operatorname{Cocart}","isCocart":"\\operatorname{\\texttt{isCocart}}","Cart":"\\operatorname{Cart}","RFib":"\\operatorname{RFib}","LFib":"\\operatorname{LFib}","Un":"\\operatorname{Un}","cart":"\\operatorname{cart}","dcart":"\\mathrm{-cart}","cc":"\\operatorname{cc}","ct":"\\operatorname{ct}","Str":"\\operatorname{Str}","el":"\\operatorname{el}","Spec":"\\operatorname{Spec}","QCoh":"\\operatorname{QCoh}","IndCoh":"\\operatorname{IndCoh}","Perf":"\\operatorname{Perf}","Proj":"\\operatorname{Proj}","Zar":"\\operatorname{Zar}","Sch":"\\operatorname{Sch}","ad":"\\mathrm{ad}","corp":"\\mathrm{corp}","loc":"\\mathrm{loc}","mot":"\\mathrm{mot}","ultra":"\\mathrm{ultra}","Ar":"\\operatorname{Ar}","BC":"\\operatorname{BC}","GL":"\\operatorname{GL}","Gr":"\\operatorname{Gr}","Ho":"\\operatorname{Ho}","Im":"\\operatorname{Im}","Ind":"\\operatorname{Ind}","Iso":"\\operatorname{Iso}","LConst":"\\operatorname{LConst}","Nm":"\\operatorname{Nm}","Pro":"\\operatorname{Pro}","Lan":"\\operatorname{Lan}","Ran":"\\operatorname{Ran}","Rex":"\\operatorname{Rex}","PSh":"\\operatorname{PSh}","Shape":"\\operatorname{Shape}","Shv":"\\operatorname{Shv}","bOmega":"{\\boldsymbol{\\Omega}}","Span":"\\operatorname{Span}","SpanTwo":"\\Span_2","SpanTwoP":["\\SpanTwo(#1,#2)_{#4,#3}",4],"NSpan":"\\operatorname{NSpan}","Tw":"\\operatorname{Tw}","LM":"\\operatorname{LM}","Re":"\\operatorname{Re}","Fact":"\\operatorname{Fact}","SD":"\\operatorname{SD}","PD":"\\operatorname{PD}","Suave":"\\operatorname{Suave}","Prim":"\\operatorname{Prim}","shift":"\\operatorname{shift}","act":"\\operatorname{act}","supp":"\\operatorname{supp}","ex":"\\operatorname{ex}","lex":"\\operatorname{lex}","rex":"\\operatorname{rex}","chain":"\\operatorname{chain}","sd":"\\operatorname{sd}","qc":"\\operatorname{qc}","Poly":"\\operatorname{Poly}","Mot":"\\operatorname{Mot}","can":"\\mathrm{can}","ho":"\\mathrm{ho}","nondeg":"\\mathrm{nondeg}","univ":"\\mathrm{univ}","prop":"\\mathrm{pr}","inv":"\\mathrm{inv}","ac":"\\operatorname{ac}","pb":"\\operatorname{pb}","fgt":"\\operatorname{fgt}","id":"\\operatorname{id}","pr":"\\operatorname{pr}","incl":"\\operatorname{incl}","const":"\\operatorname{const}","sk":"\\operatorname{sk}","cosk":"\\operatorname{cosk}","gl":"\\operatorname{gl}","grp":"\\operatorname{grp}","qis":"\\operatorname{qis}","cyl":"\\operatorname{cyl}","surj":"\\operatorname{surj}","et":"\\mathrm{ét}","coh":"\\mathrm{coh}","acc":"\\mathrm{acc}","small":"\\mathrm{small}","free":"\\operatorname{free}","fin":"\\operatorname{fin}","pt":"\\operatorname{pt}","aug":"\\operatorname{{aug}}","st":"\\operatorname{st}","dual":"\\operatorname{dual}","Calk":"\\operatorname{Calk}","idem":"\\operatorname{idem}","perf":"\\operatorname{perf}","rig":"\\mathrm{rig}","Nuc":"\\operatorname{Nuc}","cofib":"\\operatorname{cofib}","fib":"\\operatorname{fib}","colim":"\\operatorname{colim}","lim":"\\operatorname{lim}","coeq":"\\operatorname{coeq}","coker":"\\operatorname{coker}","ev":"\\mathrm{ev}","coev":"\\mathrm{coev}","res":"\\operatorname{res}","ind":"\\operatorname{ind}","coind":"\\operatorname{coind}","Set":"\\mathrm{Set}","An":"\\mathrm{An}","CondAn":"\\mathrm{CondAn}","Ab":"\\mathrm{Ab}","Alg":"\\mathrm{Alg}","CAlg":"\\mathrm{CAlg}","Cat":"\\mathrm{Cat}","CAT":"\\mathrm{CAT}","CRing":"\\mathrm{CRing}","qCat":"\\mathrm{qCat}","CGrp":"\\mathrm{CGrp}","CMon":"\\mathrm{CMon}","Fin":"\\mathrm{Fin}","FinGrpd":"\\mathrm{FinGrpd}","Grp":"\\mathrm{Grp}","Grpd":"\\mathrm{Grpd}","Mod":"\\mathrm{Mod}","coMod":"\\mathrm{coMod}","Mon":"\\mathrm{Mon}","LMod":"\\mathrm{LMod}","RMod":"\\mathrm{RMod}","BMod":"\\mathrm{BMod}","Rep":"\\mathrm{Rep}","Top":"\\mathrm{Top}","TopGrpd":"\\mathrm{TopGrpd}","bTopGrpd":"\\mathbf{TopGrpd}","Spc":"\\mathrm{Spc}","Sp":"\\mathrm{Sp}","Vect":"\\mathrm{Vect}","Orb":"\\mathrm{Orb}","Orbit":"\\mathrm{Orbit}","Glo":"\\mathrm{Glo}","sAn":"\\s\\An","dAn":"\\mathrm{d}\\An","bVect":"\\mathbf{V}\\mathrm{ect}","LCHaus":"\\mathrm{LCHaus}","CHaus":"\\mathrm{CHaus}","ProFin":"\\mathrm{ProFin}","AnRing":"\\mathrm{AnRing}","AnStck":"\\mathrm{AnStck}","Ring":"\\mathrm{Ring}","twoCAlg":"\\mathrm{2CAlg}","Idem":"\\mathrm{Idem}","coIdem":"\\mathrm{coIdem}","StRing":"\\mathrm{StRing}","PreStRing":"\\mathrm{PreStRing}","Gest":"\\mathrm{Gest}","RingGest":"\\mathrm{RingGest}","LieGrpd":"\\mathrm{LieGrpd}","sTop":"\\mathrm{sTop}","Diff":"\\mathrm{Diff}","sSet":"\\mathrm{sSet}","Poset":"\\mathrm{Poset}","Pr":"\\mathrm{Pr}","PrL":"\\mathrm{Pr}^{\\mathrm{L}}","PrR":"\\mathrm{Pr}^{\\mathrm{R}}","PrLst":"\\PrL_{\\st}","h":"\\mathrm{h}","CW":"\\mathrm{CW}","hocolim":"\\operatorname{hocolim}","holim":"\\operatorname{holim}","Exc":"\\operatorname{Exc}","s":"\\mathrm{s}","Sing":"\\operatorname{Sing}","Kan":"\\operatorname{Kan}","bKan":"\\mathbf{Kan}","bqCat":"\\mathbf{qCat}","Ch":"\\operatorname{\\mathrm{Ch}}","inj":"\\operatorname{inj}","all":"\\operatorname{all}","isotext":"\\operatorname{iso}","Cut":"\\operatorname{Cut}","LCut":"\\operatorname{LCut}","BCut":"\\operatorname{BCut}","Red":"\\operatorname{Red}","Segal":"\\operatorname{Segal}","Seg":"\\operatorname{Seg}","CSeg":"\\operatorname{CSeg}","add":"\\operatorname{add}","sadd":"\\operatorname{sadd}","Piinfty":["\\Pi_{\\infty}(#1)",1],"oplax":"\\operatorname{oplax}","quadtext":["\\quad\\textrm{#1}\\quad",1],"qquadtext":["\\qquad\\textrm{#1}\\qquad",1],"qin":"\\quad\\in\\quad","ul":["\\underline{#1}",1],"abs":["\\lvert #1 \\rvert",1],"geom":["\\| #1 \\|",1],"floor":["\\lfloor #1 \\rfloor",1],"catop":"^{\\mathrm{op}}","op":"\\operatorname{op}","blank":"{\\mathrm{ --}}","ceil":["\\lceil #1 \\rceil",1],"lra":["\\langle #1 \\rangle",1],"C":"\\operatorname{\\mathbb C}","F":"\\operatorname{\\mathbb F}","N":"\\operatorname{\\mathbb N}","P":"\\operatorname{\\mathbb P}","Q":"\\operatorname{\\mathbb Q}","R":"\\operatorname{\\mathbb R}","S":"\\operatorname{\\mathbb S}","Z":"\\operatorname{\\mathbb Z}","D":"\\operatorname{\\mathrm{D}}","phi":"\\varphi","epsilon":"\\varepsilon","aa":"\\mathfrak{a}","pp":"\\mathfrak{p}","fa":"\\mathfrak{a}","fb":"\\mathfrak{b}","fc":"\\mathfrak{c}","fm":"\\mathfrak{m}","mm":"\\mathfrak{m}","fn":"\\mathfrak{n}","fp":"\\mathfrak{p}","Aa":"\\mathcal{A}","Bb":"\\mathcal{B}","Cc":"\\mathcal{C}","Dd":"\\mathcal{D}","Ee":"\\mathcal{E}","Ff":"\\mathcal{F}","Gg":"\\mathcal{G}","Hh":"\\mathcal{H}","Ii":"\\mathcal{I}","Jj":"\\mathcal{J}","Kk":"\\mathcal{K}","Ll":"\\mathcal{L}","Mm":"\\mathcal{M}","Nn":"\\mathcal{N}","Oo":"\\mathcal{O}","Pp":"\\mathcal{P}","Qq":"\\mathcal{Q}","Rr":"\\mathcal{R}","Ss":"\\mathcal{S}","Tt":"\\mathcal{T}","Uu":"\\mathcal{U}","Vv":"\\mathcal{V}","Ww":"\\mathcal{W}","Xx":"\\mathcal{X}","Yy":"\\mathcal{Y}","Zz":"\\mathcal{Z}","bA":"\\mathbf{A}","bB":"\\mathbf{B}","bC":"\\mathbf{C}","bD":"\\mathbf{D}","bE":"\\mathbf{E}","bF":"\\mathbf{F}","bG":"\\mathbf{G}","bH":"\\mathbf{H}","bI":"\\mathbf{I}","bJ":"\\mathbf{J}","bK":"\\mathbf{K}","bL":"\\mathbf{L}","bM":"\\mathbf{M}","bN":"\\mathbf{N}","bO":"\\mathbf{O}","bP":"\\mathbf{P}","bQ":"\\mathbf{Q}","bR":"\\mathbf{R}","bS":"\\mathbf{S}","bT":"\\mathbf{T}","bU":"\\mathbf{U}","bV":"\\mathbf{V}","bW":"\\mathbf{W}","bX":"\\mathbf{X}","bY":"\\mathbf{Y}","bZ":"\\mathbf{Z}","bbA":"\\mathbb{A}","bbB":"\\mathbb{B}","bbC":"\\mathbb{C}","bbD":"\\mathbb{D}","bbE":"\\mathbb{E}","bbF":"\\mathbb{F}","bbG":"\\mathbb{G}","bbH":"\\mathbb{H}","bbI":"\\mathbb{I}","bbJ":"\\mathbb{J}","bbK":"\\mathbb{K}","bbL":"\\mathbb{L}","bbM":"\\mathbb{M}","bbN":"\\mathbb{N}","bbO":"\\mathbb{O}","bbP":"\\mathbb{P}","bbQ":"\\mathbb{Q}","bbR":"\\mathbb{R}","bbS":"\\mathbb{S}","bbT":"\\mathbb{T}","bbU":"\\mathbb{U}","bbV":"\\mathbb{V}","bbW":"\\mathbb{W}","bbX":"\\mathbb{X}","bbY":"\\mathbb{Y}","bbZ":"\\mathbb{Z}","quot":"/\\!\\!/","catname":["{\\mathrm{#1}}",1],"catnameb":["{\\textbf{#1}}",1],"bLieGrpd":"\\operatorname{\\textbf{LieGrpd}}","ulSp":"\\underline{\\Sp}","ulSpc":"\\underline{\\Spc}","ulOrbSp":"\\underline{\\Orb\\Sp}","ulOrbSpc":"\\underline{\\Orb\\Spc}","mapsfrom":"\\mathrel{\\unicode{x21A4}}","xrightrightarrows":["\\mathrel{\\overset{#1}{\\underset{#2}{\\rightrightarrows}}}",2],"xadjto":["\\mathrel{\\overset{#1}{\\underset{#2}{\\rightleftarrows}}}",2],"red":["{\\color{red}{\\textbf{#1}}}",1],"pullback":"\\mathrel{\\lrcorner\\,}","pullbackto":"\\mathrel{\\lrcorner\\,\\to}","pushout":"\\mathrel{\\ulcorner\\,}","pushoutto":"\\mathrel{\\ulcorner\\,\\to}","noloc":"\\mskip6mu{:}\\mskip2mu","pvto":["\\bigl(\\begin{smallmatrix}#1\\\\ \\downarrow\\\\ #2\\end{smallmatrix}\\bigr)",2],"puto":["\\bigl(\\begin{smallmatrix}#1\\\\ \\downarrow{\\scriptstyle #3}\\\\ #2\\end{smallmatrix}\\bigr)",3],"apvto":["\\pvto{#1}{#2}",2],"pwto":["\\bigl(\\begin{smallmatrix}#1\\\\ #2\\end{smallmatrix}\\bigr)",2],"rbox":["#3",3],"simp":"{\\boldsymbol{\\Delta}}","unit":"\\operatorname{\\mathbb{1}}","iso":"\\xrightarrow{\\sim}","bastiaan":["{\\color{blue}{\\text{[#1]}}}",1],"bastiaanlong":["{\\color{blue}{\\text{#1}}}",1],"Man":"\\operatorname{Man}","SS":"\\operatorname{SS}","Br":"\\mathrm{Br}","der":"\\mathrm{der}","one":"\\mathbb{1}","textupb":["{\\mathrm\\textbf{#1}}",1],"St":"\\operatorname{St}","Reedy":"\\operatorname{Reedy}","vectimes":["\\;\\vec{\\times}_{#1}\\;",1],"Nmadj":"\\operatorname{\\widetilde{\\Nm}}","quotcolim":"\\text{``}\\!\\colim\\!\\text{''}"}},options:{enableMenu:false}};</script><script defer src="../../../_assets/mathjax/tex-chtml.js"></script><script defer src="../../../_assets/reader.js" data-notes-reader="efimov-k-theory" data-reader-revision="reader-shell-v1-28664c2c2f6fbdba"></script>
+<script defer src="../../../_assets/proofs.js"></script><link rel="canonical" href="https://animarium.org/efimov-k-theory/section/stable-categories-and-localization-sequences/localizing-invariants/"></head><body class="work-page section-page has-context-nav" data-proof-mode="displayed"><aside class="utility-dock" aria-label="Page tools"><div class="utility-item settings-item" data-utility-item data-open="false">
+      <button class="utility-trigger" id="display-settings-trigger" type="button" data-utility-trigger aria-controls="display-settings-panel" aria-expanded="false" aria-label="Reader settings" title="Reader settings">
+        <span class="utility-icon" aria-hidden="true">⚙</span>
+      </button>
+      <section class="utility-panel settings-panel" id="display-settings-panel" aria-labelledby="display-settings-heading">
+        <h2 id="display-settings-heading">Proof display</h2>
+        <div class="preset-group" role="group" aria-label="Default proof display">
+          <button type="button" data-proof-mode="displayed">Proofs displayed</button>
+          <button type="button" data-proof-mode="collapsed">Proofs collapsed</button>
+        </div>
+        <h2>Page layout</h2>
+        <label class="settings-check"><input type="checkbox" data-navigation-visibility checked> Show navigation panel</label>
+      </section>
+    </div><div class="utility-item manuscript-item">
+      <a class="utility-trigger manuscript-trigger" href="/efimov-k-theory.pdf" title="View the entire manuscript as a PDF">
+        <span class="utility-expansion">View the entire manuscript as a PDF</span>
+        <span class="utility-icon book-icon" aria-hidden="true">📖</span>
+        <span class="sr-only">View the entire manuscript as a PDF</span>
+      </a>
+    </div></aside><header class="site-header work-header">
+<div class="reading-header-row"><div class="reader-heading">
+      <a class="collection-return" data-site-return href="/"><span aria-hidden="true">←</span> Animarium</a>
+      <p class="eyebrow"><a href="../../../index.html">Efimov K-theory</a> · <a href="../../../chapter/stable-categories-and-localization-sequences/index.html">Chapter 2</a> · Section 2.6</p>
+      <h1>Localizing invariants</h1>
+    </div><nav class="page-turns" data-reading-navigation aria-label="Reading navigation"><a rel="prev" data-step="prev-chapter" href="../../../chapter/introduction-and-overview/index.html" title="Introduction and overview" aria-label="Previous chapter: Chapter 1, Introduction and overview"><span class="turn-direction">← Previous chapter</span><span class="turn-target">Chapter 1</span></a>
+<a rel="next" data-step="next-chapter" href="../../../chapter/compactly-assembled-and-dualizable-categories/index.html" title="Compactly assembled and dualizable categories" aria-label="Next chapter: Chapter 3, Compactly assembled and dualizable categories"><span class="turn-direction">→ Next chapter</span><span class="turn-target">Chapter 3</span></a>
+<a rel="prev" data-step="prev-section" href="../calkin-categories/index.html" title="Calkin categories" aria-label="Previous section: Section 2.5, Calkin categories"><span class="turn-direction">← Previous section</span><span class="turn-target">Section 2.5</span></a>
+<a rel="next" data-step="next-section" href="../../compactly-assembled-and-dualizable-categories/compactly-assembled-categories/index.html" title="Compactly assembled categories" aria-label="Next section: Section 3.1, Compactly assembled categories"><span class="turn-direction">→ Next section</span><span class="turn-target">Section 3.1</span></a></nav></div>
+</header><main class="reader-layout"><button class="context-nav-toggle" type="button" id="context-navigation-toggle" data-context-nav-toggle aria-controls="context-navigation" aria-expanded="false">
+      <span aria-hidden="true">☰</span> Navigation
+    </button><article class="notes-page ">
+<p class="noindent"><span id="sec:Localizing_Invariants"></span>
+                                                                                   
+                                                                                   
+</p><p class="noindent">We start with some recollections on the functor \(K\colon \Cat _{\st } \to \Sp \).
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7001r29"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/grothendieck-groups/index.html" title="Grothendieck groups">Definition 2.29.</a></span>  </span><span id="def:K_0"></span> The <span class="ntx-Italic-tlf-t1-x-x-109">Grothendieck group</span> \(K_0(A)\) of a small stable category \(A\) is the free abelian group on
+the equivalence classes \([x]\) of objects \(x \in A\), modulo the relations \([x] = [x'] + [x'']\) for every cofiber sequence \(x' \to x \to x''\) in \(A\).
+</p>
+</div>
+<p class="noindent">Nonconnective algebraic K-theory is a spectrum-valued refinement \(K\colon \Cat _{\st } \to \Sp \) of this construction, satisfying \(\pi _0K(A) \cong K_0(A)\) for \(A\)
+idempotent complete. Its fundamental property is that it is a localizing invariant in the following
+sense.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7002r30"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/localizing-invariants/index.html" title="Localizing invariants">Definition 2.30.</a></span>  </span><span id="def:Localizing_Invariant"></span> Let \(\Ee \) be a stable category. A functor \(F\colon \Cat _{\perf } \to \Ee \) is called a <span class="ntx-Italic-tlf-t1-x-x-109">localizing invariant </span>if \(F(0) \simeq 0\) and \(F\) sends
+short  exact  sequences  (<a class="source-reference" href="../../../entry/short-exact-sequences/index.html#def:Short_Exact_Sequence">Definition 2.5</a>)  to  fiber  sequences.  We  extend  \(F\)  to  \(\Cat _{\st }\)  by  setting  \(F(A) := F(A^{\idem })\).  We  denote  by  \(\Fun _{\loc }(\Cat _{\st },\Ee )\)  the  full
+subcategory of localizing invariants.
+</p>
+</div>
+<p class="noindent">By <a class="source-reference" href="../../../entry/thomason-neeman-theorem/index.html#thm:Thomason_Neeman">Theorem 2.17</a>, a sequence \(A \to B \to C\) in \(\Cat _{\perf }\) is short exact if and only if \(\Ind (A) \to \Ind (B) \to \Ind (C)\) is a strongly continuous localization sequence in
+\(\PrL _{\st }\).
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7003r31"></a>
+                                                                                   
+                                                                                   
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/localizing-invariants-and-verdier-sequences/index.html" title="Localizing invariants and Verdier sequences">Lemma 2.31.</a></span>  </span><span id="lem:Localizing_Invariants_Verdier"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(\Ee \) <span class="ntx-Italic-tlf-t1-x-x-109">be stable and let</span> \(F\colon \Cat _{\st } \to \Ee \) <span class="ntx-Italic-tlf-t1-x-x-109">satisfy</span> \(F(0) \simeq 0\)<span class="ntx-Italic-tlf-t1-x-x-109">. Consider the following conditions:</span>
+     </p><dl class="enumerate"><dt class="enumerate">
+  (1) </dt><dd class="enumerate">
+     <p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">For every Verdier sequence</span> \(A \hookrightarrow B \to B/A\) <span class="ntx-Italic-tlf-t1-x-x-109">in the sense of </span><a class="source-reference" href="../../../entry/verdier-sequences/index.html#def:Verdier_Sequence">Definition 2.4</a><span class="ntx-Italic-tlf-t1-x-x-109">,</span> \(F\) <span class="ntx-Italic-tlf-t1-x-x-109">takes this sequence to a fiber sequence.</span>
+     </p></dd><dt class="enumerate">
+  (2) </dt><dd class="enumerate">
+     <p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">Each sequence</span> \(A \hookrightarrow B \to C\) <span class="ntx-Italic-tlf-t1-x-x-109">with</span> \(A \to B\) <span class="ntx-Italic-tlf-t1-x-x-109">fully faithful and inducing an equivalence</span> \((B/A)^{\idem } \iso C^{\idem }\) <span class="ntx-Italic-tlf-t1-x-x-109">is sent to a fiber sequence
+     under</span> \(F\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span></p></dd></dl>
+<p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">Then (2) implies (1), and (2) holds if and only if</span> \(F\) <span class="ntx-Italic-tlf-t1-x-x-109">satisfies (1) and inverts the maps</span> \(A \to A^{\idem }\)<span class="ntx-Italic-tlf-t1-x-x-109">. In this case,</span> \(F\) <span class="ntx-Italic-tlf-t1-x-x-109">is (the
+extension of) a localizing invariant in the sense of </span><a class="source-reference" href="../../../entry/localizing-invariants/index.html#def:Localizing_Invariant">Definition 2.30</a><span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-3">
+<p class="noindent">The sequences in (1) are among those of (2). Suppose that \(F\) satisfies (1) and inverts idempotent
+completions. For a sequence as in (2), the fully faithful functor \(A^{\idem } \hookrightarrow B^{\idem }\) has thick image, so \[ A^{\idem } \hookrightarrow B^{\idem } \to B^{\idem }/A^{\idem } \] is a Verdier
+sequence.  Moreover,  \((B^{\idem }/A^{\idem })^{\idem } \simeq (B/A)^{\idem } \simeq C^{\idem }\),  by  the  universal  property  of  the  idempotent  complete  quotient.  Applying
+(1)  and  idempotent  invariance  therefore  gives  (2).  Conversely,  (2)  applied  to  \(0 \to A \to A^{\idem }\)  shows  that  \(F(A) \to F(A^{\idem })\)  is  an
+isomorphism.                                                                                                                                      □
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7006r32"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/verdier-versus-karoubi-invariants/index.html" title="Verdier versus Karoubi invariants">Remark 2.32.</a></span>  </span><span id="rem:Verdier_Localizing_Not_Karoubi"></span>  Condition  (1)  of  <a class="source-reference" href="../../../entry/localizing-invariants-and-verdier-sequences/index.html#lem:Localizing_Invariants_Verdier">Lemma 2.31</a>  alone  does  not  imply  that  \(F\)  inverts  \(A \to A^{\idem }\).  For  instance,  connective
+                                                                                   
+                                                                                   
+algebraic K-theory satisfies (1) (see the proof of [<a class="citation" href="../../../references/index.html#bib-Hermitian_II">Calmès et al. (2020)</a>, Corollary 4.4.15]), but \(K_0(A) \to K_0(A^{\idem })\) is in general not surjective. This is why
+localizing invariants are defined on idempotent complete categories.
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7007r33"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/finitary-localizing-invariants/index.html" title="Finitary localizing invariants">Remark 2.33.</a></span>  </span><span id="rem:Finitary_Localizing_Invariants"></span> One frequently additionally requires that \(\Ee \) is presentable and that \(F\) preserves filtered
+colimits (or at least \(\kappa \)-filtered colimits for some regular cardinal \(\kappa \)). Algebraic K-theory and \(\THH \) are examples
+of localizing invariants preserving filtered colimits. Topological cyclic homology \(\mathrm {TC}\) is localizing, but
+does not in general preserve filtered colimits.
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7008r34"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/localizing-invariants-are-additive/index.html" title="Localizing invariants are additive">Example 2.34.</a></span>  </span><span id="ex:Localizing_Additive"></span> Let \(B = \lra {C,D}\) be a semiorthogonal decomposition in \(\Cat _{\perf }\) (<a class="source-reference" href="../../../entry/small-semiorthogonal-decompositions/index.html#rem:SOD_Small">Remark 2.24</a>). Then every localizing invariant \(F\)
+sends the short exact sequence \(D \to B \to C\) to a fiber sequence \(F(D) \to F(B) \to F(C)\), which is split by \(F(i_C)\). Hence \[ F(B) \simeq F(C) \oplus F(D). \] Functors \(F\colon \Cat _{\perf } \to \Ee \) with this
+property are called <span class="ntx-Italic-tlf-t1-x-x-109">additive</span>.
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7009r35"></a>
+                                                                                   
+                                                                                   
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/calkin-delooping/index.html" title="Delooping through Calkin categories">Example 2.35.</a></span>  </span><span id="ex:Localizing_Calkin"></span> Let \(A \in \Cat _{\perf }\) and let \(F\) be a localizing invariant. The short exact sequence \(A \to \Ind (A)^{\omega _1} \to \Calk _{\omega _1}(A)\) of <a class="source-reference" href="../../../entry/calkin-categories/index.html#def:Calkin_Small">Definition 2.26</a> gives a fiber
+sequence \[ F(A) \to F(\Ind (A)^{\omega _1}) \to F(\Calk _{\omega _1}(A)). \] Since \(\Ind (A)^{\omega _1}\) admits countable coproducts, the middle term vanishes by an Eilenberg swindle:
+for \(T = \bigoplus _{\N }\colon \Ind (A)^{\omega _1} \to \Ind (A)^{\omega _1}\) we have \(\id \oplus T \simeq T\), and additivity gives \(F(\id ) + F(T) = F(T)\), so \(F(\id ) = 0\). Hence \[ F(A) \simeq \Omega F(\Calk _{\omega _1}(A)). \] This is the formula that will be used to extend \(F\) to
+dualizable categories, see <a class="source-reference" href="../../../entry/continuous-extensions-of-localizing-invariants/index.html#def:Continuous_Extension">Definition 1.9</a>.
+</p>
+</div>
+<p class="noindent">The most fundamental localizing invariant is nonconnective algebraic K-theory, as made precise by the
+following universal property.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7010r36"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/universal-property-of-algebraic-k-theory/index.html" title="The universal property of algebraic K-theory">Theorem 2.36.</a></span>  </span><span id="thm:K_Universal_Property"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Nonconnective algebraic K-theory</span> \(K\colon \Cat _{\perf } \to \Sp \) <span class="ntx-Italic-tlf-t1-x-x-109">is the initial localizing invariant equipped with
+a natural transformation</span> \((-)^{\simeq } \to \Omega ^{\infty }K(-)\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span>
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7011r37"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/filtered-colimits-in-the-universal-property/index.html" title="Filtered colimits in the universal property">Remark 2.37.</a></span>  </span><span id="rem:K_Universal_Property_Literature"></span> In the literature, <a class="source-reference" href="../../../entry/universal-property-of-algebraic-k-theory/index.html#thm:K_Universal_Property">Theorem 2.36</a> is usually stated for localizing invariants preserving filtered colimits,
+see [<a class="citation" href="../../../references/index.html#bib-BGT2013Universal">Blumberg et al. (2013)</a>] and also [<a class="citation" href="../../../references/index.html#bib-Barwick_Higher_K_Theory">Barwick (2016)</a>]. The version without this condition is explicitly stated in [<a class="citation" href="../../../references/index.html#bib-Ramzi_Thesis">Ramzi (2024c)</a>, page 115, footnote 19]. That footnote does not
+supply a proof of the additional generality.
+</p>
+</div>
+
+                                                                                   
+                                                                                   
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7012r38"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/localizing-motives/index.html" title="Localizing motives">Definition 2.38 </a></span>([<a class="citation" href="../../../references/index.html#bib-BGT2013Universal">Blumberg et al. (2013)</a>])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="def:Mot_Loc"></span> The category of <span class="ntx-Italic-tlf-t1-x-x-109">localizing motives</span> \(\mathrm {Mot}_{\loc }\) is the presentable stable category equipped
+with a localizing invariant \[ U_{\loc }\colon \Cat _{\perf } \to \mathrm {Mot}_{\loc } \] preserving filtered colimits, characterized as follows: for every presentable
+stable category \(\Ee \), precomposition with \(U_{\loc }\) induces an equivalence between colimit-preserving functors
+\(\mathrm {Mot}_{\loc }\to \Ee \) and localizing invariants \(\Cat _{\perf }\to \Ee \) preserving filtered colimits. We fix a universe for the small categories
+in \(\Cat _{\perf }\) and use a larger universe for functor categories; these size conventions are suppressed in the
+notation.
+</p>
+</div>
+<p class="noindent">Although \(\mathrm {Mot}_{\loc }\) is defined by a universal property, it can be constructed explicitly as a localization of a category
+of spectral presheaves on a suitable small subcategory of \(\Cat _{\perf }\). This is the <span class="ntx-Italic-tlf-t1-x-x-109">finitary </span>category of motives. It is not
+asserted to classify all the localizing invariants of <a class="source-reference" href="../../../entry/localizing-invariants/index.html#def:Localizing_Invariant">Definition 2.30</a>.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7013r39"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/corepresentability-of-k-theory/index.html" title="Corepresentability of K-theory">Theorem 2.39 </a></span>([<a class="citation" href="../../../references/index.html#bib-BGT2013Universal">Blumberg et al. (2013)</a>, Theorem 9.8])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="thm:K_Corepresentable"> </span><span class="ntx-Italic-tlf-t1-x-x-109">For all</span> \(A \in \Cat _{\perf }\) <span class="ntx-Italic-tlf-t1-x-x-109">there is a natural equivalence </span>\[ \hom _{\mathrm {Mot}_{\loc }}\big (U_{\loc }(\Sp ^{\omega }),U_{\loc }(A)\big ) \simeq K(A). \]
+</p>
+</div>
+<p class="noindent">Marc formulated the universal property of K-theory as follows.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7014r40"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/k-theory-as-the-day-convolution-unit/index.html" title="K-theory as the Day convolution unit">Theorem 2.40 </a></span>(Theorem/definition, cf. [<a class="citation" href="../../../references/index.html#bib-BGT2013Universal">Blumberg et al. (2013)</a>])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="thm:K_Unit_Day_Convolution"></span> \(K\) <span class="ntx-Italic-tlf-t1-x-x-109">is the unit for the Day convolution operad structure on</span>
+\(\Fun _{\loc }(\Cat _{\perf },\Sp )\)<span class="ntx-Italic-tlf-t1-x-x-109">, where localizing invariants are not required to preserve filtered colimits.</span>
+                                                                                   
+
+                                                                                   
+</p>
+</div>
+
+<details class="proof" open><summary>Explanation from Theorem 2.36.</summary><div class="proof-content" id="proof-2">
+<p class="noindent"> The Day convolution unit on the full functor category is \(Y(A)=\Sigma ^{\infty }_+\Map (\Sp ^{\omega },A)\simeq \Sigma ^{\infty }_+(A^{\simeq })\). By <a class="source-reference" href="../../../entry/universal-property-of-algebraic-k-theory/index.html#thm:K_Universal_Property">Theorem 2.36</a>, its canonical map
+to \(K\) induces an isomorphism on mapping animae into every localizing invariant. The same assertion
+applies in any variable of a Day multimorphism: with all other input categories fixed, its target has the
+form \(A\mapsto H(A\otimes B_1\otimes \cdots \otimes B_r)\), which is localizing because tensoring small idempotent complete stable categories preserves
+exact sequences. Taking the ends that express naturality in the remaining variables therefore shows
+that replacing a \(Y\)-input by \(K\) induces an isomorphism on multimorphism animae. This is the operadic
+unit property for \(K\). This argument uses the non-finitary universal property, not the universal property
+of \(\mathrm {Mot}_{\loc }\).                                                                                                                                                       □
+</p>
+</div></details>
+<p class="noindent">Equivalently, one can work on \(\Cat _{\st }\) by extending each invariant along idempotent completion; in that
+formulation the unlocalized Day unit is corepresented by the finite spectra. No claim that the non-finitary
+category of invariants is presentable is needed here.
+</p>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7015r41"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/tammes-excision-theorem/index.html" title="Tamme’s excision theorem">Theorem 2.41 </a></span>(Tamme, before Efimov, [<a class="citation" href="../../../references/index.html#bib-Tamme_Excision">Tamme (2018)</a>, Theorem 18])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="thm:Tamme_Excision">  </span><span class="ntx-Italic-tlf-t1-x-x-109">Consider  a  square</span>  \(Q\)  <span class="ntx-Italic-tlf-t1-x-x-109">in</span>  \(\Cat _{\st }\)  <span class="ntx-Italic-tlf-t1-x-x-109">of  the  form  </span><span class="diagram"><img src="../../../_assets/diagrams/tikzcd-b85d91c1cf48f1bdf171.svg" alt="Commutative square with A mapping to B by f, C mapping to D by g, and vertical maps from A to C and B to D." loading="lazy" width="68" height="65" style="width:68px"></span>  <span class="ntx-Italic-tlf-t1-x-x-109">Assume  that</span>  \(\Ind (Q)\)  <span class="ntx-Italic-tlf-t1-x-x-109">is
+cartesian, and that</span> \(\Ind (f)\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(\Ind (g)\) <span class="ntx-Italic-tlf-t1-x-x-109">are localizations. Then every localizing invariant</span> \(F\) <span class="ntx-Italic-tlf-t1-x-x-109">sends</span> \(Q\) <span class="ntx-Italic-tlf-t1-x-x-109">to a cartesian
+square.</span>
+</p>
+</div>
+
+<details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-1">
+<p class="noindent">Write \(h\colon B \to D\) for the right vertical functor and form the lax pullback \(P = B \times _D^{\to } C\). Its objects are triples \((b,c,\varphi )\) with \(\varphi \colon h(b) \to g(c)\).
+There is a split exact sequence \(C \to P \to B\), and hence \(F(P) \simeq F(C) \oplus F(B)\), by [<a class="citation" href="../../../references/index.html#bib-Tamme_Excision">Tamme (2018)</a>, Proposition 10]. The hypotheses make \(Q\) an excisive square in the sense
+of [<a class="citation" href="../../../references/index.html#bib-Tamme_Excision">Tamme (2018)</a>, Definition 14]; in fact only \(\Ind (g)\) needs to be a localization. By [<a class="citation" href="../../../references/index.html#bib-Tamme_Excision">Tamme (2018)</a>, Theorem 15], the functor \((b,c,\varphi ) \mapsto \cofib (\varphi )\) fits into an exact sequence \[ A \to P \to D. \] Here and
+in the split sequence, we may pass to idempotent completions before applying \(F\). Under the splitting,
+the map \(F(P) \to F(D)\) is \((-F(h),F(g))\): on \((b,0,h(b)\to 0)\) it is suspension followed by \(h\), and on \((0,c,0\to g(c))\) it is \(g\). Thus \(F(A)\) is the fiber of \(F(B)\oplus F(C) \xrightarrow {-F(h)+F(g)} F(D)\), compatibly with
+the maps of \(Q\). This is precisely the assertion that \(F(Q)\) is cartesian.                                                           □
+</p>
+</div></details>
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7016r42"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/localization-after-ind-completion/index.html" title="Localization after ind-completion">Warning 2.42.</a></span>  </span><span id="warn:Excision_Requires_Ind_Localizations"></span> One cannot replace the lax-pullback argument by simply applying \(F\) to the common
+kernel of \(f\) and \(g\). The hypotheses say that \(\Ind (f)\) and \(\Ind (g)\) are localizations; they do not say that \(f\) and \(g\) are Karoubi
+projections. Their small kernels therefore need not give short exact sequences to which \(F\) applies.
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7017r43"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/tammes-lax-pullback-proof/index.html" title="Tamme’s proof through lax pullbacks">Remark 2.43.</a></span>  </span><span id="rem:Tamme_Lax_Pullback_Proof"></span>  The  proof  above  is  Tamme’s  lax-pullback  argument  and  predates  continuous
+K-theory.  It  applies  to  localizing  invariants  valued  in  any  stable  category,  without  assuming
+preservation  of  filtered  colimits.  A  later  proof  using  continuous  invariants  identifies  the  kernels
+                                                                                   
+                                                                                   
+of \(\Ind (f)\) and \(\Ind (g)\) and applies the continuous extension to the resulting localization sequences. See [<a class="citation" href="../../../references/index.html#bib-Land_Tamme_Pullbacks">Land and Tamme (2019)</a>] for a
+generalization to arbitrary pullbacks of ring spectra.
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7018r44"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/milnor-patching/index.html" title="Milnor patching">Example 2.44 </a></span>(Milnor patching, [<a class="citation" href="../../../references/index.html#bib-Milnor_Intro_K_Theory">Milnor (1971)</a>])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="ex:Milnor_Patching"></span> Consider a pullback square of \(\bbE _1\)-rings: <span class="diagram"><img src="../../../_assets/diagrams/tikzcd-2cf5bca67d75989b3bef.svg" alt="Pullback square of rings with A and A-prime on top and B and B-prime below." loading="lazy" width="66" height="54" style="width:66px"></span> and assume that \(A' \otimes _A A' \iso A'\). Then
+the induced square <span class="diagram"><img src="../../../_assets/diagrams/tikzcd-69b293eb7917664da422.svg" alt="Square of module categories induced by the ring square: modules over A and A-prime on top, modules over B and B-prime below." loading="lazy" width="112" height="56" style="width:112px"></span> is also a pullback square, and \(\Mod _B \to \Mod _{B'}\) is a localization [<a class="citation" href="../../../references/index.html#bib-Tamme_Excision">Tamme (2018)</a>, Lemma 23 and Theorem 26]. In particular, we deduce:
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7019r45"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/milnor-patching-in-k-theory/index.html" title="Milnor patching in K-theory">Theorem 2.45 </a></span>([<a class="citation" href="../../../references/index.html#bib-Tamme_Excision">Tamme (2018)</a>, Theorem 28]; see also [<a class="citation" href="../../../references/index.html#bib-Land_Tamme_Pullbacks">Land and Tamme (2019)</a>])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="thm:Milnor_Patching_K_Theory"> </span><span class="ntx-Italic-tlf-t1-x-x-109">In the above situation, there is a pullback square </span><span class="diagram"><img src="../../../_assets/diagrams/tikzcd-fd091d6aadb2c1b35acd.svg" alt="Pullback square in algebraic K-theory with K(A) and K(A-prime) on top and K(B) and K(B-prime) below." loading="lazy" width="111" height="58" style="width:111px"></span>
+</p>
+</div>
+
+<div class="newtheorem">
+<p class="noindent"><span class="head">
+<a id="x1-7020r46"></a>
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/milnor-squares-of-rings/index.html" title="Milnor squares of rings">Example 2.46.</a></span>  </span><span id="ex:Milnor_Square_Of_Rings"></span> Given a map of rings \(A \to B\) that sends an ideal \(I \subseteq A\) isomorphically to the induced ideal \(IB \subseteq B\), the
+induced square <span class="diagram"><img src="../../../_assets/diagrams/tikzcd-4f6dc76c92439df4c62e.svg" alt="Pullback square of rings with A mapping to A/I, B mapping to B/IB, and vertical maps induced by A to B." loading="lazy" width="83" height="58" style="width:83px"></span> is a pullback of \(\bbE _1\)-rings.
+                                                                                   
+                                                                                   
+</p>
+</div>
+
+ 
+</article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Page navigation">
+    <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-chapters" aria-expanded="false">
+      <span>Chapters</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-chapters" aria-label="Chapters" data-ledger-key="chapters" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../../../preface/index.html"><span class="context-entry-heading">Preface</span><span class="context-entry-title"></span></a></li><li><a href="../../../chapter/introduction-and-overview/index.html"><span class="context-entry-heading">Chapter 1</span><span class="context-entry-title">Introduction and overview</span></a></li><li><a href="../../../chapter/stable-categories-and-localization-sequences/index.html" aria-current="page"><span class="context-entry-heading">Chapter 2</span><span class="context-entry-title">Stable categories and localization sequences</span></a></li><li><a href="../../../chapter/compactly-assembled-and-dualizable-categories/index.html"><span class="context-entry-heading">Chapter 3</span><span class="context-entry-title">Compactly assembled and dualizable categories</span></a></li><li><a href="../../../chapter/compact-morphisms-and-ab6/index.html"><span class="context-entry-heading">Chapter 4</span><span class="context-entry-title">Compact morphisms and the axiom (AB6)</span></a></li><li><a href="../../../chapter/examples-of-dualizable-categories/index.html"><span class="context-entry-heading">Chapter 5</span><span class="context-entry-title">Examples of dualizable categories</span></a></li><li><a href="../../../chapter/rigidity-and-nuclear-objects/index.html"><span class="context-entry-heading">Chapter 6</span><span class="context-entry-title">Rigidity and nuclear objects</span></a></li><li><a href="../../../chapter/calkin-categories-colimits-and-limits/index.html"><span class="context-entry-heading">Chapter 7</span><span class="context-entry-title">Calkin categories, colimits and limits of dualizable categories</span></a></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 8</span><span class="context-entry-title">Localizing invariants of dualizable categories</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 9</span><span class="context-entry-title">Sheaves on continuous posets and locally compact Hausdorff spaces</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 10</span><span class="context-entry-title">Dualizability and flatness</span></span></li><li><span class="planned-navigation-item"><span class="context-entry-heading">Chapter 11</span><span class="context-entry-title">ℵ₁-presentability of Prᵈᵘᵃˡ</span></span></li><li><a href="../../../chapter/categorical-background/index.html"><span class="context-entry-heading">Appendix A</span><span class="context-entry-title">Categorical background</span></a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="false">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-sections" aria-expanded="false">
+      <span>Sections</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-sections" aria-label="Sections" data-ledger-key="sections" data-default-collapsed="true" data-collapsed="true">
+      <ol class="context-entry-list"><li><a href="../verdier-sequences/index.html"><span class="context-entry-heading">Section 2.1</span><span class="context-entry-title">Verdier sequences</span></a></li><li><a href="../idempotent-completion-and-short-exact-sequences/index.html"><span class="context-entry-heading">Section 2.2</span><span class="context-entry-title">Idempotent completion and short exact sequences</span></a></li><li><a href="../presentable-localization-sequences/index.html"><span class="context-entry-heading">Section 2.3</span><span class="context-entry-title">Localization sequences of presentable stable categories</span></a></li><li><a href="../semiorthogonal-decompositions/index.html"><span class="context-entry-heading">Section 2.4</span><span class="context-entry-title">Semiorthogonal decompositions</span></a></li><li><a href="../calkin-categories/index.html"><span class="context-entry-heading">Section 2.5</span><span class="context-entry-title">Calkin categories</span></a></li><li><a href="index.html" aria-current="page"><span class="context-entry-heading">Section 2.6</span><span class="context-entry-title">Localizing invariants</span></a></li></ol>
+    </nav>
+  </section><section class="contents-ledger" data-contents-ledger data-open="true">
+    <h2 class="contents-heading"><button class="contents-toggle" type="button" data-contents-toggle aria-controls="contents-named-results" aria-expanded="true">
+      <span>Named results</span><span class="contents-chevron" aria-hidden="true"></span>
+    </button></h2>
+    <nav class="contents" id="contents-named-results" aria-label="Named results" data-ledger-key="named-results" data-default-collapsed="false" data-collapsed="false">
+      <ol class="context-entry-list"><li><a href="../../../entry/tammes-excision-theorem/index.html"><span class="context-entry-heading">Theorem 2.41</span><span class="context-entry-title">Tamme’s excision theorem</span></a></li><li><a href="../../../entry/milnor-patching/index.html"><span class="context-entry-heading">Example 2.44</span><span class="context-entry-title">Milnor patching</span></a></li></ol>
+    </nav>
+  </section></div>
+  </aside></main><footer class="edition-footer">
+  <a href="/efimov-k-theory.pdf">PDF</a>
+  <p class="source-note">Generated from the LaTeX source.</p>
+</footer></body></html>

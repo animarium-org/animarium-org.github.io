@@ -1,0 +1,17 @@
+{
+  "SchemaVersion": 1,
+  "Sources": {
+    "Efimov K-theory Notes.tex": "917a144bf048f42c570d3d6ced5b2abb61e63fdab32da8f4c15b1d7f8f8f3b53",
+    "Chapters/01_Introduction.tex": "2fbd69f0354c854ecb136a26308bb09c48e99e3113d5466ada71db21084961c3",
+    "Chapters/02_Localization_Sequences.tex": "6fbcee72f88e4ca60829c667b24e2ec2cbe12fa9101009e28adb4d20b60acba1",
+    "Chapters/03_Dualizable_Categories.tex": "d3c1374e8896f293bc21e7ba2c0e0e5f1d1fa1b5474d79983ade833502dceea9",
+    "Chapters/04_Compact_Morphisms.tex": "ccf25cef2803f5eb02d17a9f7c79ffbf2e24bd71f9607f034cde47e96dcc58bd",
+    "Chapters/05_Examples.tex": "034b90e85644e1c39714bfd338368be7d055cfdbf7d38949009c8044f13bce8e",
+    "Chapters/06_Rigidity_Nuclear.tex": "f3c8be08f3d26d87741749413bdd162cf0aa25258a522cf038f705cf50c9e773",
+    "Chapters/07_Calkin_Limits_Colimits.tex": "827db27b5a6b88624927d202a527ec88f3c1d30ab0262e7132d6398d7acceb0e",
+    "Chapters/A_Categorical_Background.tex": "b30a2acabaa30e09228adf34b01e6a2156e2b71a8920a61591b21cf4723eabac",
+    "preamble.tex": "1956bb8a3f63d9b28f3786b73ad1376fceaf10fcd4b19b8b9d70cc35e2c53d74",
+    "preamble.sty": "32f24a7e5d099fa44e9593b71b092735fa1fe357bf0886091864fc8666f7983a",
+    "web/book.json": "475029a5013142002189d0578233f6392a546759e603fa651550cdbe5d89ce20"
+  }
+}
