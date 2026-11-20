@@ -59,16 +59,18 @@
 \(Y_0 \xrightarrow {f_0} Y_1 \xrightarrow {f_1} Y_2 \to \dots \) <span class='ntx-Italic-tlf-t1-x-x-109'>be a sequential diagram in</span> \(C\)<span class='ntx-Italic-tlf-t1-x-x-109'>. Write</span> \(\iota _k\colon Y_k \to \bigoplus _{j \geq 0} Y_j\) <span class='ntx-Italic-tlf-t1-x-x-109'>for the inclusion of the</span> \(k\)<span class='ntx-Italic-tlf-t1-x-x-109'>-th summand. Then there is an exact
 sequence </span>\[ \bigoplus _{k \geq 0} Y_k \xrightarrow {\ \id - f\ } \bigoplus _{k \geq 0} Y_k \longrightarrow \colim _k Y_k, \] <span class='ntx-Italic-tlf-t1-x-x-109'>where</span> \(\id - f\) <span class='ntx-Italic-tlf-t1-x-x-109'>restricts on the</span> \(k\)<span class='ntx-Italic-tlf-t1-x-x-109'>-th summand to the difference</span> \(\iota _k - \iota _{k+1} \circ f_k\)<span class='ntx-Italic-tlf-t1-x-x-109'>.</span>
 </p>
-</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-04-4" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-04-4">
+</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-04-3" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-04-3">
 <p class='noindent'><span class='head'>
-<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span>  The  natural  isomorphism  \(\Sigma ^{\infty }(\Sigma X)\cong (\Sigma ^{\infty }X)[1]\)  gives  suspension  isomorphisms  \[ \widetilde E_{k+1}(\Sigma X)=\pi _{k+1}((\Sigma ^{\infty }X\otimes E)[1])\cong \pi _k(\Sigma ^{\infty }X\otimes E)=\widetilde E_k(X). \]  Both  \(\Sigma ^{\infty }\)  and  \(-\otimes E\)  preserve  cofiber
-sequences. Exactness therefore follows from the long exact sequence of homotopy groups in <a class="source-reference" data-label="prop:LES_Homotopy_Groups_Spectra" href="../long-exact-sequence-of-homotopy-groups-of-spectra/index.html#prop:LES_Homotopy_Groups_Spectra">Proposition 4.4.30</a>.
-</p><p class='noindent'>It  remains  to  verify  the  wedge  axiom.  The  functor  \(\Sigma ^{\infty }(-)\otimes E\)  preserves  coproducts,  and  each  \(\pi _k\colon \Sp \to \Ab \)  preserves
-coproducts by <a class="source-reference" data-label="lem:Homotopy_Groups_Preserve_Coproducts" href="../homotopy-groups-preserve-coproducts/index.html#lem:Homotopy_Groups_Preserve_Coproducts">Lemma 4.4.29</a>. Thus \[ \bigoplus _{i\in I}\widetilde E_k(X_i)\xrightarrow {\cong }\widetilde E_k\left (\bigvee _{i\in I}X_i\right ), \] as required.                                                                                                      □
+<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> By <a class="source-reference" data-label="lem:Sequential_Colimits_As_Pushouts" href="../sequential-colimits-as-pushouts/index.html#lem:Sequential_Colimits_As_Pushouts">Lemma 2.4.29</a>, the colimit \(\colim _kY_k\) is the pushout of the two maps from \(\bigoplus _kY_k\) to the coproducts of the even and odd
+
+
+terms. In a stable \(\infty \)-category, the pushout of a span \(B \xleftarrow {a} A \xrightarrow {b} C\) is the cofiber of \[ (a,-b)\colon A \longrightarrow B \oplus C. \] After identifying the coproduct
+of the even and odd terms with \(\bigoplus _k Y_k\) and changing the signs on the odd source summands, this map
+becomes \(\id -f\).                                                                                                                                            □
 </p>
 </div></div>
 <footer class="edition-footer">
-  <span>Last updated 20 November 2026</span>
+  <span>Last updated 21 November 2026</span>
   <a href="/stable-homotopy-higher-algebra.pdf">PDF</a>
   <a href="mailto:bastiaan.cnossen@ur.de?subject=Stable%20Homotopy%20Theory%20and%20Higher%20Algebra%3A%20Mapping%20telescope%20in%20a%20stable%20%E2%88%9E-category&amp;body=Page%3A%20https%3A%2F%2Fanimarium.org%2Fstable-homotopy-higher-algebra%2Fentry%2Fmapping-telescope-in-a-stable-infinity-category%2F%0A%0ADescribe%20the%20error%20(and%2C%20if%20possible%2C%20the%20correction)%3A%0A%0A">Report an error</a>
 </footer></article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">

@@ -68,26 +68,15 @@
 
 
 
-</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-02-9" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-02-9">
+</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-02-8" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-02-8">
 <p class='noindent'><span class='head'>
-
-
-<span class='ntx-Italic-tlf-t1-x-x-109'>Proof of claim:</span> </span> To construct an inverse, consider a diagram \(z \leftarrow x \rightarrow y\) in \(C\), and consider the following pullback
-diagram (ignoring the dashed morphisms):</p><div class="diagram-row"><figure class="diagram"><img src="../../_assets/diagrams/tikzcd-a07acd88771d.svg" alt="Commutative diagram involving Omega x, Omega z, 0, Omega y, a, b, c, x, y, z, and further objects." width="203" height="149" loading="lazy"></figure></div><p class='noindent'>Note that each of the pullbacks that appear here may
-be obtained as a fiber, hence is assumed to exist in \(C\). More explicitly, starting from the span \(z \leftarrow x \to y\), set \[ b := \fib (x \to y), \qquad c := \fib (x \to z). \]
-Then define \(a\) as the fiber of the composite \(b \to x \to z\). The nullhomotopy of \(a \to b \to x \to z\) induces a map \(a \to c\), and the square</p><div class="diagram-row"><figure class="diagram"><img src="../../_assets/diagrams/tikzcd-3951fe3e4a9c.svg" alt="Commutative square with maps a to b, c to x, a to c, b to x." width="61" height="50" loading="lazy"></figure></div><p class='noindent'>is a pullback by the pasting law. The other displayed pullback squares are obtained in the same way
-from the fiber sequences \(b \to x \to y\), \(c \to x \to z\), and \(a \to b \to z\). The construction is functorial in the input span because each step
-is obtained by applying the fiber construction to a functorially specified morphism, together with
-the universal maps in its defining pullback square. Thus a morphism of spans induces compatible
-morphisms of all the objects in the displayed diagram. We now claim that an inverse to the restriction
-functor is given by</p><div class="diagram-row"><figure class="diagram"><img src="../../_assets/diagrams/tikzcd-2ea8287ee51b.svg" alt="Commutative triangle with vertices x, y, z." width="58" height="52" loading="lazy"></figure><figure class="diagram"><img src="../../_assets/diagrams/tikzcd-bf73bd713a19.svg" alt="Commutative square with maps Omega x to Omega y, Omega z to a, Omega x to Omega z, Omega y to a." width="76" height="56" loading="lazy"></figure></div><p class='noindent'>Note that this functor does indeed land in \(P\) since the equivalence \(\Omega ^{-1}\colon C \iso C\) preserves
-pullback squares. Furthermore, it provides an extension of the original diagram, hence defines a
-right inverse. Finally, if we start with any pullback square, we may rewrite it in the form</p><div class="diagram-row"><figure class="diagram"><img src="../../_assets/diagrams/tikzcd-deb693114e3d.svg" alt="Commutative square with maps x to y, z to Omega -1 a, x to z, y to Omega -1 a." width="84" height="58" loading="lazy"></figure></div><p class='noindent'>and we see
-that the above procedure recovers the original pullback square, showing that it is also a left inverse.
-This finishes the proof of the claim.                                                                                                   □</p>
+<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> Since \(C\) and \(D\) are pointed, it is clear that \(F\) is pointed in each of the three cases. The argument
+from <a class="source-reference" data-label="thm:Characterization_Stable_Categories" href="../characterizations-of-stable-infinity-categories/index.html#thm:Characterization_Stable_Categories">Theorem 4.2.2</a> shows that a pointed functor preserves exact sequences if and only if it preserves pushout
+squares if and only if it preserves pullback squares.                                                                           □
+</p>
 </div></div>
 <footer class="edition-footer">
-  <span>Last updated 20 November 2026</span>
+  <span>Last updated 21 November 2026</span>
   <a href="/stable-homotopy-higher-algebra.pdf">PDF</a>
   <a href="mailto:bastiaan.cnossen@ur.de?subject=Stable%20Homotopy%20Theory%20and%20Higher%20Algebra%3A%20Exact%20functors%20between%20stable%20%E2%88%9E-categories&amp;body=Page%3A%20https%3A%2F%2Fanimarium.org%2Fstable-homotopy-higher-algebra%2Fentry%2Fexact-functors-between-stable-infinity-categories%2F%0A%0ADescribe%20the%20error%20(and%2C%20if%20possible%2C%20the%20correction)%3A%0A%0A">Report an error</a>
 </footer></article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">

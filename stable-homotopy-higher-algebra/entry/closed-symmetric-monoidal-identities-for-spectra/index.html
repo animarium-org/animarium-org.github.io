@@ -57,15 +57,21 @@
 <a id='x1-4002r17'></a>
 <span class='ntx-Bold-tlf-t1-x-x-109'>Lemma 4.4.17.</span>  </span><span id='lem:Closed_Symmetric_Monoidal_Identities_For_Spectra'> </span><span class='ntx-Italic-tlf-t1-x-x-109'>For spectra</span> \(X,Y,Z \in \Sp \)<span class='ntx-Italic-tlf-t1-x-x-109'>, there are natural isomorphisms of spectra </span>\[ \S \otimes X \cong X \cong X \otimes \S , \qquad X \otimes Y \cong Y \otimes X \qquad (X \otimes Y) \otimes Z \cong X \otimes (Y \otimes Z) \] <span class='ntx-Italic-tlf-t1-x-x-109'>and </span>\[ \hom (Y,\hom (X,Z)) \cong \hom (X \otimes Y, Z) \cong \hom (X,\hom (Y,Z)). \]
 </p>
-</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-04-12" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-04-12">
+</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-04-11" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-04-11">
 <p class='noindent'><span class='head'>
-<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> Currying and two applications of <a class="source-reference" data-label="thm:Universal_Property_Spectra" href="../universal-property-of-spectra/index.html#thm:Universal_Property_Spectra">Theorem 4.4.14</a> give equivalences \[ \Fun ^{\colim ,\colim }(\Sp \times \Sp ,\Sp ) \simeq \Fun ^{\colim }(\Sp ,\Fun ^{\colim }(\Sp ,\Sp )) \simeq \Fun ^{\colim }(\Sp ,\Sp ) \simeq \Sp , \] where the intermediate functor category
-is stable and admits small colimits computed pointwise. Under this equivalence, a functor is sent to
-its value on \((\S ,\S )\). The sphere spectrum therefore uniquely determines the required functor.                   □
+
+
+
+<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> For the first row, each of these expressions define functors that are colimit-preserving in
+each of their arguments. By <a class="source-reference" data-label="thm:Universal_Property_Spectra" href="../universal-property-of-spectra/index.html#thm:Universal_Property_Spectra">Theorem 4.4.14</a>, it thus suffices to produce such isomorphisms after evaluation at the
+sphere spectrum, where they are immediate consequences of the isomorphism \(\S \otimes \S \cong \S \).
+</p><p class='noindent'>For the second row, we may fix \(Z\) and regard these expressions as functors \(\Sp \catop \times \Sp \catop \to \Sp \) that preserve limits in both
+variables, or equivalently as functors \(\Sp \times \Sp \to \Sp \catop \) preserving colimits in both variables. It then again suffices to
+prove they are isomorphic after setting \(X = Y = \S \), which follows from the natural isomorphism \(\hom (\S ,Z) \cong Z\) from <a class="source-reference" data-label="lem:Map_Out_Of_Sphere_Spectrum" href="../maps-out-of-the-sphere-spectrum/index.html#lem:Map_Out_Of_Sphere_Spectrum">Lemma 4.4.8</a>.         □
 </p>
 </div></div>
 <footer class="edition-footer">
-  <span>Last updated 20 November 2026</span>
+  <span>Last updated 21 November 2026</span>
   <a href="/stable-homotopy-higher-algebra.pdf">PDF</a>
   <a href="mailto:bastiaan.cnossen@ur.de?subject=Stable%20Homotopy%20Theory%20and%20Higher%20Algebra%3A%20Closed%20symmetric%20monoidal%20identities%20for%20spectra&amp;body=Page%3A%20https%3A%2F%2Fanimarium.org%2Fstable-homotopy-higher-algebra%2Fentry%2Fclosed-symmetric-monoidal-identities-for-spectra%2F%0A%0ADescribe%20the%20error%20(and%2C%20if%20possible%2C%20the%20correction)%3A%0A%0A">Report an error</a>
 </footer></article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">

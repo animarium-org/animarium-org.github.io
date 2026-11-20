@@ -58,15 +58,25 @@
 <span class='ntx-Bold-tlf-t1-x-x-109'>Proposition 4.3.13.</span>  </span><span id='prop:Self_Equivalence_Omega_3_Trivial'> </span><span class='ntx-Italic-tlf-t1-x-x-109'>For any pointed</span> \(\infty \)<span class='ntx-Italic-tlf-t1-x-x-109'>-category</span> \(D\) <span class='ntx-Italic-tlf-t1-x-x-109'>with finite limits, the composite map </span>\[ \Omega ^3X \simeq \Omega ^2(\Omega X) \xrightarrow {\cong } \Omega (\Omega ^2X) \simeq \Omega ^3X \] <span class='ntx-Italic-tlf-t1-x-x-109'>admits an
 identification with the identity map on</span> \(\Omega ^3X\)<span class='ntx-Italic-tlf-t1-x-x-109'>, natural in</span> \(X \in D\)<span class='ntx-Italic-tlf-t1-x-x-109'>.</span>
 </p>
-</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-03-16" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-03-16">
+</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-03-15" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-03-15">
 <p class='noindent'><span class='head'>
-<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> Precomposition with \((-)_+\colon \An ^{\fin }\to \An _*^{\fin }\) defines a functor \[ \Fun ^{\lex }((\An _*^{\fin })\catop ,D) \longrightarrow \Fun ^{\lex }((\An ^{\fin })\catop ,D). \] An inverse sends \(F\) to the functor \[ (Y,y)\longmapsto \fib (F(Y)\to F(*)). \] This is pointed
-and left exact. The two inverse identities follow from \(Y_+=Y\sqcup *\) and from the pushout \(Y_+\sqcup _{S^0}*\simeq (Y,y)\). The result now follows
-from <a class="source-reference" data-label="prop:Free_K_Cocompletion" href="../universal-property-of-finite-animae/index.html#prop:Free_K_Cocompletion">Proposition 4.3.11</a>.                                                                                                                                                   □
+
+
+
+<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> Given \(X\in D\), <a class="source-reference" data-label="lem:Universal_Property_Finite_Pointed_Animae" href="../universal-property-of-finite-pointed-animae/index.html#lem:Universal_Property_Finite_Pointed_Animae">Lemma 4.3.12</a> gives a pointed left exact functor \[ X^{(-)}\colon (\An _*^{\fin })\catop \to D \] satisfying \(X^{S^0}\simeq X\). Since \(X^{(-)}\) sends pushouts in \(\An _*^{\fin }\) to pullbacks in
+\(D\), we have \[ X^{S^{n+1}} \simeq X^{\Sigma S^n} \simeq \Omega X^{S^n} \] for every \(n\geq 0\). Thus the resulting automorphism of \(\Omega ^3X\) is induced by the analogous automorphism
+of \(S^3\) in \(\An _*^{\fin }\).
+</p><p class='noindent'>It remains to prove the claim in \(\An _*^{\fin }\) for the generator \(X = S^0\). We must show that the composite \[ \tau \colon S^3 \simeq \Sigma (\Sigma ^2S^0) \xrightarrow {\cong } \Sigma ^2(\Sigma S^0) \simeq S^3 \] can be identified
+with the identity as a pointed map. By <a class="source-reference" data-label="rmk:Degree_Self_Maps_Spheres" href="../degree-of-self-maps-of-spheres/index.html#rmk:Degree_Self_Maps_Spheres">Remark 2.4.20</a>, it suffices to show that \(\tau \) has degree \(1\). Using the swap map
+\(\sigma _{X,Y}\) from <a class="source-reference" data-label="def:Smash_Product_Animae" href="../smash-product-of-pointed-animae/index.html#def:Smash_Product_Animae">Definition 2.4.10</a>, we may identify \(\tau \) with \(\sigma _{S^1,S^2}\). The isomorphism \(S^2 \cong S^1 \wedge S^1\) from <a class="source-reference" data-label="lem:Smash_Product_Basics" href="../basic-properties-of-smash-products/index.html#lem:Smash_Product_Basics">Lemma 2.4.16</a> then gives a decomposition \[ S^3 \simeq S^1\wedge S^1\wedge S^1 \xrightarrow {\id \wedge \sigma _{S^1,S^1}} S^1\wedge S^1\wedge S^1 \xrightarrow {\sigma _{S^1,S^1}\wedge \id } S^1\wedge S^1\wedge S^1 \simeq S^3. \] Both maps
+in this decomposition are suspensions of \(\sigma _{S^1,S^1}\), up to the natural identifications of smash products with
+suspensions. Their degrees are therefore equal to that of \(\sigma _{S^1,S^1}\) by <a class="source-reference" data-label="rmk:Degree_Self_Maps_Spheres" href="../degree-of-self-maps-of-spheres/index.html#rmk:Degree_Self_Maps_Spheres">Remark 2.4.20</a>. Since this swap map is an isomorphism,
+its degree is \(\pm 1\). We conclude that \[ \deg (\tau )=\deg (\id \wedge \sigma _{S^1,S^1})\cdot \deg (\sigma _{S^1,S^1}\wedge \id )=\deg (\sigma _{S^1,S^1})^2=1, \] as desired. The construction is natural in \(X\), since the map is induced
+by the automorphism \(\tau \) of \(S^3\) under the equivalence of <a class="source-reference" data-label="lem:Universal_Property_Finite_Pointed_Animae" href="../universal-property-of-finite-pointed-animae/index.html#lem:Universal_Property_Finite_Pointed_Animae">Lemma 4.3.12</a>.                                                                          □
 </p>
 </div></div>
 <footer class="edition-footer">
-  <span>Last updated 20 November 2026</span>
+  <span>Last updated 21 November 2026</span>
   <a href="/stable-homotopy-higher-algebra.pdf">PDF</a>
   <a href="mailto:bastiaan.cnossen@ur.de?subject=Stable%20Homotopy%20Theory%20and%20Higher%20Algebra%3A%20The%20canonical%20self-map%20of%20triple%20loop%20objects&amp;body=Page%3A%20https%3A%2F%2Fanimarium.org%2Fstable-homotopy-higher-algebra%2Fentry%2Fcanonical-self-map-of-triple-loop-objects%2F%0A%0ADescribe%20the%20error%20(and%2C%20if%20possible%2C%20the%20correction)%3A%0A%0A">Report an error</a>
 </footer></article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">

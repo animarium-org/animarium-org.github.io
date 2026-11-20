@@ -58,30 +58,13 @@
 <span class='ntx-Bold-tlf-t1-x-x-109'>Corollary 4.3.15.</span>  </span><span id='cor:Suspension_Is_Shift'>  </span><span class='ntx-Italic-tlf-t1-x-x-109'>The  suspension  functor  on</span>  \(\Sp (C)\)  <span class='ntx-Italic-tlf-t1-x-x-109'>is  naturally  isomorphic  to  the  shift  functor.  In
 particular, for every spectrum</span> \(X\) <span class='ntx-Italic-tlf-t1-x-x-109'>and all</span> \(m,n \geq 0\)<span class='ntx-Italic-tlf-t1-x-x-109'>, there is a natural isomorphism </span>\[ (X[n])_m \cong X_{m+n}. \]
 </p>
-</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-03-14" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-03-14">
+</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-03-13" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-03-13">
 <p class='noindent'><span class='head'>
-<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> By <a class="source-reference" data-label="lem:Limits_And_Colimits_Of_Prespectra" href="../limits-and-colimits-of-prespectra/index.html#lem:Limits_And_Colimits_Of_Prespectra">Lemma 4.3.8</a>, finite limits in \(\PSp (C)\) are computed pointwise. Since \(\Omega \) preserves finite limits, the full subcategory
-\(\Sp (C) \subseteq \PSp (C)\) is closed under finite limits. It is also pointed: the constant zero prespectrum is both initial and
-terminal, since the zero object of \(C_*\) is both initial and terminal.
-</p><p class='noindent'>It remains, by <a class="source-reference" data-label="thm:Characterization_Stable_Categories" href="../characterizations-of-stable-infinity-categories/index.html#thm:Characterization_Stable_Categories">Theorem 4.2.2</a>, to show that the loop functor on \(\Sp (C)\) is an equivalence. Define the shift functor \[ \shift \colon \Sp (C) \to \Sp (C), \qquad \shift (X)_n:=X_{n+1}, \] with
-structure maps inherited from \(X\). This functor is an equivalence: an inverse sends \(X\) to the spectrum \(\shift ^{-1}X\)
-with \[ (\shift ^{-1}X)_0:=\Omega X_0 \quad \qquadtext {and}\quad (\shift ^{-1}X)_n:=X_{n-1}\quad (n\geq 1), \] whose structure map in degree \(0\) is the identity of \(\Omega X_0\), and whose structure map in degree \(n\geq 1\) is \(\sigma ^X_{n-1}\).
-</p><p class='noindent'>We claim that there is a natural isomorphism \[ \alpha \colon X \xrightarrow {\cong } \Omega (\shift X). \] By <a class="source-reference" data-label="lem:Stabilization_As_Limit_Over_Loops_Squared" href="../stabilization-via-double-loops/index.html#lem:Stabilization_As_Limit_Over_Loops_Squared">Lemma 4.3.9</a>, it suffices to construct this map after passing
-
-
-to the even-level model. There we set \[ \alpha _{2k}:=\sigma ^X_{2k}\colon X_{2k} \xrightarrow {\cong } \Omega X_{2k+1} = \Omega (\shift X)_{2k}. \] We must check compatibility with the two-step structure
-maps. For \(X\), the relevant structure map is \[ \widetilde {\sigma }^X_k = \left (X_{2k}\xrightarrow {\sigma ^X_{2k}}\Omega X_{2k+1} \xrightarrow {\Omega (\sigma ^X_{2k+1})}\Omega ^2X_{2k+2}\right ). \] For \(\Omega (\shift X)\), finite limits are computed pointwise, but its two-step
-structure map is not obtained by merely writing down the same composite with an extra \(\Omega \) in front.
-After precomposing with \(\alpha _{2k}=\sigma ^X_{2k}\), the first composite in the compatibility square is \[ X_{2k} \xrightarrow {\sigma ^X_{2k}} \Omega X_{2k+1} \xrightarrow {\Omega (\sigma ^X_{2k+1})} \Omega ^2X_{2k+2} \xrightarrow {\Omega (\Omega (\sigma ^X_{2k+2}))} \Omega (\Omega ^2X_{2k+3}) \xrightarrow {\cong } \Omega ^2(\Omega X_{2k+3}), \] where the final arrow is
-the canonical isomorphism coming from the fact that \(\Omega ^2\) preserves loop objects. The other composite
-in the compatibility square is \[ X_{2k} \xrightarrow {\sigma ^X_{2k}} \Omega X_{2k+1} \xrightarrow {\Omega (\sigma ^X_{2k+1})} \Omega ^2X_{2k+2} \xrightarrow {\Omega ^2(\sigma ^X_{2k+2})} \Omega ^2(\Omega X_{2k+3}). \] Thus the two composites whose equality is required differ only by
-the resulting automorphism of \(\Omega ^3X_{2k+3}\). This automorphism is the identity by <a class="source-reference" data-label="prop:Self_Equivalence_Omega_3_Trivial" href="../canonical-self-map-of-triple-loop-objects/index.html#prop:Self_Equivalence_Omega_3_Trivial">Proposition 4.3.13</a>. Hence \(\alpha \) is an isomorphism of
-spectra.
-</p><p class='noindent'>Consequently \(\id _{\Sp (C)}\simeq \Omega \circ \shift \). Since \(\shift \) is an equivalence, \(\Omega \) is an equivalence as well.                                                  □
+<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> The proof of <a class="source-reference" data-label="thm:Stabilization_Is_Stable" href="../spectrum-objects-form-a-stable-infinity-category/index.html#thm:Stabilization_Is_Stable">Theorem 4.3.14</a> gives a natural isomorphism \(\id _{\Sp (C)} \cong \Omega \circ \shift \). Since \(\Sigma \) is inverse to \(\Omega \), this identifies \(\Sigma \) with \(\shift \).       □
 </p>
 </div></div>
 <footer class="edition-footer">
-  <span>Last updated 20 November 2026</span>
+  <span>Last updated 21 November 2026</span>
   <a href="/stable-homotopy-higher-algebra.pdf">PDF</a>
   <a href="mailto:bastiaan.cnossen@ur.de?subject=Stable%20Homotopy%20Theory%20and%20Higher%20Algebra%3A%20Suspension%20is%20the%20shift%20on%20spectrum%20objects&amp;body=Page%3A%20https%3A%2F%2Fanimarium.org%2Fstable-homotopy-higher-algebra%2Fentry%2Fsuspension-is-the-shift-on-spectrum-objects%2F%0A%0ADescribe%20the%20error%20(and%2C%20if%20possible%2C%20the%20correction)%3A%0A%0A">Report an error</a>
 </footer></article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">

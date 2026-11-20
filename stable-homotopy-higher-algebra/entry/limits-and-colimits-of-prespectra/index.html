@@ -62,16 +62,22 @@
    </p></dd><dt class='enumerate'>
 <span class='ntx-Italic-tlf-t1-x-x-109'>(2)</span> </dt><dd class='enumerate'>
    <p class='noindent'><span class='ntx-Italic-tlf-t1-x-x-109'>If</span> \(C_*\) <span class='ntx-Italic-tlf-t1-x-x-109'>admits</span> \(I\)<span class='ntx-Italic-tlf-t1-x-x-109'>-indexed colimits, then</span> \(\PSp (C)\) <span class='ntx-Italic-tlf-t1-x-x-109'>admits</span> \(I\)<span class='ntx-Italic-tlf-t1-x-x-109'>-indexed colimits and the projection</span> \(\PSp (C) \to C_*^{\N }\) <span class='ntx-Italic-tlf-t1-x-x-109'>creates them.</span></p></dd></dl>
-</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-03-20" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-03-20">
+</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-03-19" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-03-19">
 <p class='noindent'><span class='head'>
-<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> This is just the definition of \(\PSp (C)\) as the lax equalizer of \(\id \) and \(\Omega \sh \). Indeed, a morphism \(X\to Y\) in \(\PSp (C)\) is a map of
+<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> For limits, let \(X\colon I \to \PSp (C)\) be a diagram and write \(\overline {X}\colon I \to C_*^{\N }\) for the underlying diagram of sequences. Since \(C_*\) has
+\(I\)-indexed limits and \(\Omega \) preserves limits, the endofunctor \(\Omega \sh \) preserves \(I\)-indexed limits. Hence the limit \(L := \lim _i \overline {X}_i\) in
+\(C_*^{\N }\) inherits a structure map \[ L \simeq \lim _i \overline {X}_i \to \lim _i \Omega \sh (\overline {X}_i) \simeq \Omega \sh (L), \] which makes it the limit in \(\PSp (C)\).
+</p><p class='noindent'>For colimits, let \(D := \colim _i \overline {X}_i\) in \(C_*^{\N }\). For every \(i\), the composite \[ \overline {X}_i \xrightarrow {\sigma ^{X_i}} \Omega \sh (\overline {X}_i) \to \Omega \sh (D) \] is compatible with the diagram, and therefore induces
+a structure map \(D \to \Omega \sh (D)\). We claim that the resulting prespectrum is the colimit. Indeed, for any prespectrum \(Y\)
+the hom anima \(\Hom _{\PSp (C)}(D,Y)\) is the equalizer of the two maps \[ \Hom _{C_*^{\N }}(D,Y) \rightrightarrows \Hom _{C_*^{\N }}(D,\Omega \sh Y) \] given by postcomposition with \(\sigma ^Y\) and precomposition
+with the structure map of \(D\), by <a class="source-reference" data-label="lem:Hom_Prespectra_Equalizer" href="../mapping-animae-of-prespectra/index.html#lem:Hom_Prespectra_Equalizer">Lemma 4.3.7</a>. Since \(D\) is the colimit of the \(\overline {X}_i\) in \(C_*^{\N }\), and since limits commute with limits
+in \(\An \), this equalizer identifies with \[ \lim _i \Hom _{\PSp (C)}(X_i,Y), \] which is the desired universal property.                                        □
 
 
-the underlying sequences together with an identification making the square commute</p><div class="diagram-row"><figure class="diagram"><img src="../../_assets/diagrams/tikzcd-bd0618a173e2.svg" alt="Commutative square with maps X to Y labeled f, Omegash X to Omegash Y labeled Omegash(f), X to Omegash X labeled sigma X, Y to Omegash Y labeled sigma Y." width="116" height="60" loading="lazy"></figure></div><p class='noindent'>Equivalently,
-it is a point of the stated equalizer.                                                                                                      □</p>
+</p>
 </div></div>
 <footer class="edition-footer">
-  <span>Last updated 20 November 2026</span>
+  <span>Last updated 21 November 2026</span>
   <a href="/stable-homotopy-higher-algebra.pdf">PDF</a>
   <a href="mailto:bastiaan.cnossen@ur.de?subject=Stable%20Homotopy%20Theory%20and%20Higher%20Algebra%3A%20Limits%20and%20colimits%20of%20prespectra&amp;body=Page%3A%20https%3A%2F%2Fanimarium.org%2Fstable-homotopy-higher-algebra%2Fentry%2Flimits-and-colimits-of-prespectra%2F%0A%0ADescribe%20the%20error%20(and%2C%20if%20possible%2C%20the%20correction)%3A%0A%0A">Report an error</a>
 </footer></article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">

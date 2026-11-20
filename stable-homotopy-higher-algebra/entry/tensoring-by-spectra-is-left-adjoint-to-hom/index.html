@@ -58,29 +58,14 @@
 <span class='ntx-Bold-tlf-t1-x-x-109'>Corollary 4.4.10.</span>  </span><span id='cor:Tensoring_As_Left_Adjoint_To_hom'> </span><span class='ntx-Italic-tlf-t1-x-x-109'>Let</span> \(C\) <span class='ntx-Italic-tlf-t1-x-x-109'>be a stable</span> \(\infty \)<span class='ntx-Italic-tlf-t1-x-x-109'>-category with small colimits. For every object</span> \(Y \in C\)<span class='ntx-Italic-tlf-t1-x-x-109'>, the functor</span> \(\hom _C(Y,-)\colon C \to \Sp \)
 <span class='ntx-Italic-tlf-t1-x-x-109'>admits a left adjoint </span>\[ - \otimes Y\colon \Sp \to C. \]
 </p>
-</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-04-19" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-04-19">
+</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-04-18" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-04-18">
 <p class='noindent'><span class='head'>
-<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> The uniqueness of \(X \otimes Y\) is clear from the stable Yoneda lemma, <a class="source-reference" data-label="cor:Stable_Yoneda_Lemma" href="../stable-yoneda-lemma/index.html#cor:Stable_Yoneda_Lemma">Corollary 4.4.6</a>. For existence, we need to show
-that for every \(Y \in C\) the functor \[ \Phi \colon \Sp \catop \to \Fun (C,\Sp ), \qquad \Phi (X) := \hom _{\Sp }(X,\hom _C(Y,-)) \] lands in the full subcategory \(C\catop \hookrightarrow \Fun (C,\Sp )\) of corepresentable functors, i.e. functors of
-the form \(\hom _C(W,-)\) for some \(W \in C\).
-</p><p class='noindent'><span class='ntx-Italic-tlf-t1-x-x-109'>Step 1: </span>We first show that \(\Phi (X)\) is corepresentable whenever \(X = \S [X']\) is an unreduced suspension spectrum for
-some anima \(X' \in \An \). To this end, recall from <a class="source-reference" data-label="thm:Colimit_Preserving_Extension" href="../colimit-preserving-extension-from-presheaves/index.html#thm:Colimit_Preserving_Extension">Theorem 1.8.10</a> that evaluation at \(*\) induces an equivalence \[ \Fun ^{\colim }(\An , C) \quad \iso \quad C. \] We let \(- \otimes Y\colon \An \to C\) denote the
-unique colimit-preserving functor satisfying \(* \otimes Y \cong Y\). We then claim that there exists a natural isomorphism
-\[ \Phi (\S [X']) \quad \cong \quad \hom _C(X' \otimes Y, -) \] of functors \(C \to \Sp \) for every \(X' \in \An \). For this, note that both sides define colimit-preserving functors \(\An \to \Fun (C,\Sp )\catop \) by varying
-\(X'\). Indeed, on either side a colimit in \(X'\) becomes a limit in \(\Fun (C,\Sp )\) (that is, a colimit in \(\Fun (C,\Sp )\catop \)), because the relevant
-mapping-spectrum functor is contravariant in the variable determined by \(X'\). It therefore suffices to
-produce an isomorphism for \(X'= *\). And indeed, in that case both sides evaluate to \(\hom _C(Y,-)\) by <a class="source-reference" data-label="lem:Map_Out_Of_Sphere_Spectrum" href="../maps-out-of-the-sphere-spectrum/index.html#lem:Map_Out_Of_Sphere_Spectrum">Lemma 4.4.8</a> and the given
-isomorphism \(* \otimes Y \cong Y\).
-</p><p class='noindent'><span class='ntx-Italic-tlf-t1-x-x-109'>Step 2: </span>We now show the claim for an arbitrary spectrum \(X\). Observe that the functor \(\Phi \) is exact and
-sends colimits of spectra to limits in the functor category. Also observe that the corepresentable
-functors in \(\Fun (C,\Sp )\) are closed under limits and shifts. It thus remains to show that every spectrum \(X\) can be
-built from unreduced suspension spectra using shifts, cofibers and colimits. By <a class="source-reference" data-label="cor:Standard_Presentation_Spectrum" href="../standard-presentation-of-a-spectrum/index.html#cor:Standard_Presentation_Spectrum">Corollary 4.3.30</a>, every spectrum
-is a colimit of shifts of reduced suspension spectra. Moreover, <a class="source-reference" data-label="rmk:Unreduced_Suspension_Spectrum" href="../reduced-and-unreduced-suspension-spectra/index.html#rmk:Unreduced_Suspension_Spectrum">Remark 4.4.3</a> writes every reduced suspension
-spectrum \(\Sigma ^{\infty }(Z,z)\) as the cofiber of a map \(\S \to \S [Z]\) between unreduced suspension spectra.                                       □
+<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> Applying \(\Omega ^{\infty }\) to the natural isomorphism from <a class="source-reference" data-label="prop:Tensoring_By_Spectra" href="../tensoring-stable-infinity-categories-by-spectra/index.html#prop:Tensoring_By_Spectra">Proposition 4.4.9</a> provides the adjunction equivalence \[ \Hom _C(X \otimes Y, Z) \quad \cong \quad \Hom _{\Sp }(X, \hom _C(Y,Z)) \] for \(X \in \Sp \) and
+\(Z \in C\).                                                                                                                                                           □
 </p>
 </div></div>
 <footer class="edition-footer">
-  <span>Last updated 20 November 2026</span>
+  <span>Last updated 21 November 2026</span>
   <a href="/stable-homotopy-higher-algebra.pdf">PDF</a>
   <a href="mailto:bastiaan.cnossen@ur.de?subject=Stable%20Homotopy%20Theory%20and%20Higher%20Algebra%3A%20Tensoring%20by%20spectra%20is%20left%20adjoint%20to%20hom&amp;body=Page%3A%20https%3A%2F%2Fanimarium.org%2Fstable-homotopy-higher-algebra%2Fentry%2Ftensoring-by-spectra-is-left-adjoint-to-hom%2F%0A%0ADescribe%20the%20error%20(and%2C%20if%20possible%2C%20the%20correction)%3A%0A%0A">Report an error</a>
 </footer></article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">

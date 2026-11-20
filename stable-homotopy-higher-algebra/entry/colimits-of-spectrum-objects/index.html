@@ -62,20 +62,15 @@
 and assume that</span> \(\Omega \colon C_* \to C_*\) <span class='ntx-Italic-tlf-t1-x-x-109'>preserves sequential colimits. If</span> \(C_*\) <span class='ntx-Italic-tlf-t1-x-x-109'>admits</span> \(I\)<span class='ntx-Italic-tlf-t1-x-x-109'>-indexed colimits for some</span> \(\infty \)<span class='ntx-Italic-tlf-t1-x-x-109'>-category</span> \(I\)<span class='ntx-Italic-tlf-t1-x-x-109'>, then</span>
 \(\Sp (C)\) <span class='ntx-Italic-tlf-t1-x-x-109'>admits</span> \(I\)<span class='ntx-Italic-tlf-t1-x-x-109'>-indexed colimits.</span>
 </p>
-</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-03-9" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-03-9">
+</div><div class='proof'><button class="proof-toggle" type="button" data-proof-toggle aria-controls="proof-chapter-spectra-and-stable-infinity-categories-section-03-8" aria-expanded="true" aria-label="Collapse proof"><span>Proof</span><span class="proof-chevron" aria-hidden="true"></span></button><div class="proof-content" id="proof-chapter-spectra-and-stable-infinity-categories-section-03-8">
 <p class='noindent'><span class='head'>
-<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> The endofunctor \(\Omega \sh \) of \(C_*^{\N }\) induces an endofunctor, still denoted \(\Omega \sh \), of \(\PSp (C)\) by \[ (\Omega \sh X)_n := \Omega X_{n+1}, \] with structure maps \(\Omega (\sigma ^X_{n+1})\colon \Omega X_{n+1} \to \Omega ^2X_{n+2}\).
-The structure maps of \(X\) define a natural map \(\eta _X\colon X \to \Omega \sh X\). Since \(\sh \) preserves colimits and \(\Omega \) preserves sequential
-colimits, the endofunctor \(\Omega \sh \) preserves sequential colimits of prespectra.
-</p><p class='noindent'>For a prespectrum \(X\), define \[ X^{\mathrm {sp}} := \colim \left ( X \xrightarrow {\eta _X} \Omega \sh X \xrightarrow {\Omega \sh (\eta _X)} (\Omega \sh )^2X \to \cdots \right ) \] in \(\PSp (C)\). Then \[ \Omega \sh (X^{\mathrm {sp}}) \simeq \colim _{k \geq 0} (\Omega \sh )^{k+1}X \simeq \colim _{k \geq 0} (\Omega \sh )^kX = X^{\mathrm {sp}}, \] where the second isomorphism uses that the successor map \(k \mapsto k+1\) is
-cofinal in \(\N \). Under this isomorphism, the structure map of \(X^{\mathrm {sp}}\) is an isomorphism, so \(X^{\mathrm {sp}}\) is a spectrum.
-</p><p class='noindent'>It remains to prove the universal property. Let \(Y\) be a spectrum. Since \(\eta _Y\colon Y \to \Omega \sh Y\) is an isomorphism, composition
-with \(\eta _X\) induces an equivalence \[ \Hom _{\PSp (C)}(\Omega \sh X,Y) \iso \Hom _{\PSp (C)}(X,Y); \] an inverse sends a map \(f\colon X \to Y\) to the composite \(\Omega \sh X \xrightarrow {\Omega \sh (f)} \Omega \sh Y \xrightarrow {\eta _Y^{-1}} Y\). Therefore \[ \Hom _{\Sp (C)}(X^{\mathrm {sp}},Y) \simeq \lim _k \Hom _{\PSp (C)}((\Omega \sh )^kX,Y) \simeq \Hom _{\PSp (C)}(X,Y), \] which is the
-desired adjunction.                                                                                                                              □
+<span class='ntx-Italic-tlf-t1-x-x-109'>Proof.</span> </span> Let \(X\colon I \to \Sp (C)\) be a diagram. Compute its colimit in \(\PSp (C)\), where colimits are pointwise by <a class="source-reference" data-label="lem:Limits_And_Colimits_Of_Prespectra" href="../limits-and-colimits-of-prespectra/index.html#lem:Limits_And_Colimits_Of_Prespectra">Lemma 4.3.8</a>, and then apply
+spectrification. Since spectrification is left adjoint to the inclusion \(\Sp (C) \hookrightarrow \PSp (C)\), the resulting spectrum has the
+universal property of the colimit in \(\Sp (C)\).                                                                                                   □
 </p>
 </div></div>
 <footer class="edition-footer">
-  <span>Last updated 20 November 2026</span>
+  <span>Last updated 21 November 2026</span>
   <a href="/stable-homotopy-higher-algebra.pdf">PDF</a>
   <a href="mailto:bastiaan.cnossen@ur.de?subject=Stable%20Homotopy%20Theory%20and%20Higher%20Algebra%3A%20Colimits%20of%20spectrum%20objects&amp;body=Page%3A%20https%3A%2F%2Fanimarium.org%2Fstable-homotopy-higher-algebra%2Fentry%2Fcolimits-of-spectrum-objects%2F%0A%0ADescribe%20the%20error%20(and%2C%20if%20possible%2C%20the%20correction)%3A%0A%0A">Report an error</a>
 </footer></article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Result navigation">
