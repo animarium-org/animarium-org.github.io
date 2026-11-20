@@ -1,12 +1,20 @@
-html {
-  color-scheme: light dark;
-  background: #f8f7f1;
-  color: #222c29;
+/* Match the palette in publication/reader-shell-v1/style.css. */
+:root {
+  color-scheme: light;
+  --ink: #20251f;
+  --rule: #d9ded5;
+  --accent: #315f4c;
+  --page-background: #f3f1e9;
+  --page-gradient-top: #e8eee8;
+  background: var(--page-background);
 }
 
 body {
+  min-height: 100vh;
   margin: 0;
-  font: 1.125rem / 1.6 Georgia, serif;
+  background: linear-gradient(180deg, var(--page-gradient-top) 0, var(--page-background) 20rem);
+  color: var(--ink);
+  font: 1.125rem / 1.62 Georgia, "Times New Roman", serif;
 }
 
 main {
@@ -15,29 +23,31 @@ main {
   padding: clamp(1.5rem, 6vw, 5rem) clamp(1rem, 4vw, 2rem);
 }
 
-header, section, article, footer { margin-block: 2rem; }
-h1, h2, h3 { line-height: 1.15; }
+header, footer { margin-block: 2rem; }
+h1 { line-height: 1.15; }
 h1 { font-size: clamp(2.8rem, 9vw, 5rem); font-weight: 500; margin: 0 0 0.3em; }
-h2 { font-size: 1.55rem; font-weight: 500; }
-h3 { font-size: 1.25rem; margin: 0; }
 p { margin: 0.6em 0; }
 
-a { color: #205d57; text-underline-offset: 0.17em; }
+a { color: var(--accent); text-underline-offset: 0.17em; }
 a:hover { text-decoration-thickness: 2px; }
 a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
 
-.site-logo { display: block; width: min(100%, 27rem); height: auto; }
-.intro { max-width: 36rem; font-size: 1.25rem; }
-.draft, .work-links, footer { font: 0.9rem / 1.55 system-ui, sans-serif; }
-.draft { color: #4f5955; }
-.work-links, footer { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; }
-article, footer { border-top: 1px solid #a5b4ad; padding-top: 1.1rem; }
-.skip { position: absolute; transform: translateY(-200%); }
-.skip:focus { transform: translateY(0); left: 1rem; top: 0.6rem; }
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1.1rem;
+  font: 0.9rem / 1.55 system-ui, sans-serif;
+}
 
 @media (prefers-color-scheme: dark) {
-  html { background: #1e2926; color: #e1e9de; }
-  a { color: #a1d4c1; }
-  .draft { color: #b6c6bd; }
-  article, footer { border-color: #6d8179; }
+  :root {
+    color-scheme: dark;
+    --ink: #e2e5de;
+    --rule: #323a34;
+    --accent: #8cc4a6;
+    --page-background: #121513;
+    --page-gradient-top: #18201b;
+  }
 }

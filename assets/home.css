@@ -1,0 +1,46 @@
+.site-logo {
+  display: block;
+  width: min(100%, 27rem);
+  height: auto;
+}
+
+.about-link {
+  margin: 0.65rem 0 0;
+  font-size: 0.95rem;
+}
+
+.skip-link:focus {
+  z-index: 1;
+  inset: 1rem auto auto 1rem;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0.45rem 0.75rem;
+  clip: auto;
+  overflow: visible;
+  background: var(--paper);
+}
+
+.chapter-card {
+  min-height: 0;
+}
+
+.chapter-card > p:not(.section-card-meta) {
+  margin: 0.45rem 0 0;
+}
+
+.citation-note {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+}
+
+.citation-note p {
+  margin-bottom: 0;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+}
