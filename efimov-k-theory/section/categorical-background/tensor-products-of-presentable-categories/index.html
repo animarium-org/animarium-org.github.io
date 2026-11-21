@@ -31,6 +31,8 @@
       <span aria-hidden="true">☰</span> Navigation
     </button><article class="notes-page ">
 <p class="noindent"><span id="sec:PrL_Tensor_Products"></span>
+                                                                                   
+                                                                                   
 </p><p class="noindent">We denote by \(\PrL \subseteq \widehat {\Cat }\) the subcategory of presentable categories and colimit-preserving functors, and by \(\PrR \subseteq \widehat {\Cat }\) the
 subcategory of presentable categories and accessible limit-preserving functors. By <a class="source-reference" href="../../../entry/adjoint-functor-theorem/index.html#thm:Adjoint_Functor_Theorem">Theorem A.19</a>, passing to adjoints
 gives an equivalence \((\PrL )\catop \simeq \PrR \) [<a class="citation" href="../../../references/index.html#bib-lurie2009HTT">Lurie (2009)</a>, Corollary 5.5.3.4]. Both \(\PrL \) and \(\PrR \) admit small limits, computed in \(\widehat {\Cat }\) [<a class="citation" href="../../../references/index.html#bib-lurie2009HTT">Lurie (2009)</a>, Proposition 5.5.3.13 and Theorem 5.5.3.18]; in particular, colimits in \(\PrL \) may be
@@ -40,14 +42,13 @@ computed as limits in \(\widehat {\Cat }\) along the right adjoints.
 <p class="noindent"><span class="head">
 <a id="x1-6001r28"></a>
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/luries-tensor-product-of-presentable-categories/index.html" title="Lurie’s tensor product of presentable categories">Theorem A.28 </a></span>([<a class="citation" href="../../../references/index.html#bib-lurie2016HA">Lurie (2017)</a>, Section 4.8.1])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="thm:Lurie_Tensor_Product"> </span><span class="ntx-Italic-tlf-t1-x-x-109">The category</span> \(\PrL \) <span class="ntx-Italic-tlf-t1-x-x-109">admits a symmetric monoidal structure</span> \(- \otimes -\) <span class="ntx-Italic-tlf-t1-x-x-109">with unit</span> \(\An \)<span class="ntx-Italic-tlf-t1-x-x-109">, characterized
-by the property that colimit-preserving functors</span> \(C \otimes D \to E\) <span class="ntx-Italic-tlf-t1-x-x-109">correspond to functors</span> \(C \times D \to E\) <span class="ntx-Italic-tlf-t1-x-x-109">preserving colimits in each
-variable separately: </span>\[ \Fun ^{\colim }(C \otimes D, E) \simeq \Fun ^{\colim }(C,\Fun ^{\colim }(D,E)). \] <span class="ntx-Italic-tlf-t1-x-x-109">In particular,</span> \(\PrL \) <span class="ntx-Italic-tlf-t1-x-x-109">is closed, with internal hom given by</span> \(\Fun ^{\colim }(-,-)\)<span class="ntx-Italic-tlf-t1-x-x-109">. Moreover, there is a
-natural  equivalence  </span>\[ C \otimes D \simeq \Fun ^{\lim }(C\catop ,D), \]  <span class="ntx-Italic-tlf-t1-x-x-109">where  the  right-hand  side  denotes  the  full  subcategory  of</span>  \(\Fun (C\catop ,D)\)  <span class="ntx-Italic-tlf-t1-x-x-109">spanned  by  the
-functors preserving small limits.</span>
+by  the  property  that  colimit-preserving  functors</span>  \(C \otimes D \to E\)  <span class="ntx-Italic-tlf-t1-x-x-109">correspond  to  functors</span>  \(C \times D \to E\)  <span class="ntx-Italic-tlf-t1-x-x-109">preserving  colimits  in
+each variable separately: </span>\[ \Fun ^{\colim }(C \otimes D, E) \simeq \Fun ^{\colim }(C,\Fun ^{\colim }(D,E)). \] <span class="ntx-Italic-tlf-t1-x-x-109">In particular,</span> \(\PrL \) <span class="ntx-Italic-tlf-t1-x-x-109">is closed, with internal hom given by</span> \(\Fun ^{\colim }(-,-)\)<span class="ntx-Italic-tlf-t1-x-x-109">. Moreover, there
+is a natural equivalence </span>\[ C \otimes D \simeq \Fun ^{\lim }(C\catop ,D), \] <span class="ntx-Italic-tlf-t1-x-x-109">where the right-hand side denotes the full subcategory of</span> \(\Fun (C\catop ,D)\) <span class="ntx-Italic-tlf-t1-x-x-109">spanned by
+the functors preserving small limits. For a construction of</span> \(C\otimes D\) <span class="ntx-Italic-tlf-t1-x-x-109">by localizing a presheaf category and
+verifying the universal property for functors preserving colimits separately, see </span><a href="https://animarium.org/tag/015C/">Stable Homotopy
+Theory and Higher Algebra<span class="ntx-Italic-tlf-t1-x-x-109">, Proposition 18.1.5</span></a><span class="ntx-Italic-tlf-t1-x-x-109">.</span>
 </p>
-                                                                                   
-
-                                                                                   
 </div>
 
 <div class="newtheorem">
@@ -61,12 +62,16 @@ then one computes that \[ \Fun ^{\colim }(\Fun ^{\lim }(C\catop ,D),E) \simeq \F
 symmetric monoidal category with unit \(\Sp \); moreover, a presentable category \(C\) is stable if and only if the map \(C \to \Sp \otimes C\)
 is an equivalence [<a class="citation" href="../../../references/index.html#bib-lurie2016HA">Lurie (2017)</a>, Section 4.8.2].
 </p>
+                                                                                   
+                                                                                   
 <div class="newtheorem">
 <p class="noindent"><span class="head">
 <a id="x1-6003r30"></a>
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/tensoring-with-ind-categories/index.html" title="Tensoring with ind-categories">Proposition A.30.</a></span>  </span><span id="prop:Tensor_With_Ind"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(C_0\) <span class="ntx-Italic-tlf-t1-x-x-109">be a small category with finite colimits and let</span> \(D\) <span class="ntx-Italic-tlf-t1-x-x-109">be a presentable category.
 There is an equivalence, natural in</span> \(D\)<span class="ntx-Italic-tlf-t1-x-x-109">, </span>\[ \Ind (C_0) \otimes D \simeq \Fun ^{\lex }(C_0\catop ,D), \] <span class="ntx-Italic-tlf-t1-x-x-109">where the right-hand side denotes the full subcategory of</span> \(\Fun (C_0\catop ,D)\)
-<span class="ntx-Italic-tlf-t1-x-x-109">spanned by the functors preserving finite limits. If</span> \(C_0\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(D\) <span class="ntx-Italic-tlf-t1-x-x-109">are stable, this gives natural equivalences </span>\[ \Ind (C_0) \otimes D \simeq \Fun ^{\ex }(C_0\catop ,D) \simeq \Fun ^{\colim }(\Ind (C_0\catop ),D). \]
+<span class="ntx-Italic-tlf-t1-x-x-109">spanned by the functors preserving finite limits. If</span> \(C_0\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(D\) <span class="ntx-Italic-tlf-t1-x-x-109">are stable, this gives natural equivalences</span>
+\[ \Ind (C_0) \otimes D \simeq \Fun ^{\ex }(C_0\catop ,D) \simeq \Fun ^{\colim }(\Ind (C_0\catop ),D). \] <span class="ntx-Italic-tlf-t1-x-x-109">Taking</span>  \(D=\An \)  <span class="ntx-Italic-tlf-t1-x-x-109">recovers  the  description  of</span>  \(\Ind (C_0)\)  <span class="ntx-Italic-tlf-t1-x-x-109">by  left  exact  presheaves  in  </span><a href="https://animarium.org/tag/1128/">Synthetic  Category  Theory<span class="ntx-Italic-tlf-t1-x-x-109">,
+Remark 18.2.7</span></a><span class="ntx-Italic-tlf-t1-x-x-109">.</span>
 </p>
 </div>
 
@@ -95,9 +100,6 @@ colimits) and the cocomplete category \(D\) gives \(\Fun ^{\ex }(C_0\catop ,D) \
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/duality-of-compactly-generated-stable-categories/index.html" title="Duality of compactly generated stable categories">Corollary A.32.</a></span>  </span><span id="cor:Compactly_Generated_Dualizable"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(C_0\) <span class="ntx-Italic-tlf-t1-x-x-109">be a small stable category. Then</span> \(C = \Ind (C_0)\) <span class="ntx-Italic-tlf-t1-x-x-109">is dualizable in</span> \(\PrL _{\st }\)<span class="ntx-Italic-tlf-t1-x-x-109">, with dual </span>\[ C^{\vee } = \Ind (C_0\catop ). \] <span class="ntx-Italic-tlf-t1-x-x-109">The evaluation
 map</span> \(\Ind (C_0\catop ) \otimes \Ind (C_0) \to \Sp \) <span class="ntx-Italic-tlf-t1-x-x-109">is the colimit-preserving functor which restricts to the mapping spectrum functor </span>\[ \hom _{C_0}\colon C_0\catop \times C_0 \to \Sp , \] <span class="ntx-Italic-tlf-t1-x-x-109">and the
 coevaluation</span> \(\Sp \to \Ind (C_0) \otimes \Ind (C_0\catop ) \simeq \Fun ^{\ex }(C_0,\Ind (C_0))\) <span class="ntx-Italic-tlf-t1-x-x-109">sends the sphere spectrum to the Yoneda embedding</span> \(C_0 \hookrightarrow \Ind (C_0)\)<span class="ntx-Italic-tlf-t1-x-x-109">.</span>
-                                                                                   
-
-                                                                                   
 </p>
 </div>
 
@@ -111,6 +113,8 @@ the equivalence of <a class="source-reference" href="../../../entry/tensoring-wi
 dualizable with dual \(\Ind (C_0\catop )\) and evaluation as stated. The coevaluation corresponds, under \(\iHom (X,X) \simeq X \otimes X^{\vee }\), to the identity
 of \(X\), which under \(\Fun ^{\colim }(\Ind (C_0),\Ind (C_0)) \simeq \Fun ^{\ex }(C_0,\Ind (C_0))\) corresponds to the Yoneda embedding.                                                                  □
 </p>
+                                                                                   
+                                                                                   
 </div></details>
 <div class="newtheorem">
 <p class="noindent"><span class="head">
