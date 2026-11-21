@@ -41,6 +41,8 @@
       <span aria-hidden="true">☰</span> Navigation
     </button><article class="notes-page "><div class="newtheorem">
 <p class="noindent"><span class="head">
+                                                                                   
+                                                                                   
 <a id="x1-4001r22"></a>
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="index.html" title="Retracts of right adjoints">Lemma A.22.</a></span>  </span><span id="lem:Retract_Left_Adjoint"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(g\colon C \to D\) <span class="ntx-Italic-tlf-t1-x-x-109">be a retract of</span> \(g'\colon C' \to D'\) <span class="ntx-Italic-tlf-t1-x-x-109">in</span> \(\Fun (\Delta ^1,\widehat {\Cat })\)<span class="ntx-Italic-tlf-t1-x-x-109">, where</span> \(C,C',D,D'\) <span class="ntx-Italic-tlf-t1-x-x-109">are locally small. Suppose that</span> \(g'\) <span class="ntx-Italic-tlf-t1-x-x-109">has a left adjoint</span> \(f'\)
 <span class="ntx-Italic-tlf-t1-x-x-109">and that</span> \(C\) <span class="ntx-Italic-tlf-t1-x-x-109">is idempotent complete. Then</span> \(g\) <span class="ntx-Italic-tlf-t1-x-x-109">has a left adjoint.</span>
@@ -49,8 +51,6 @@
 <p class="noindent">Consider a retract diagram <span class="diagram"><img src="../../_assets/diagrams/tikzcd-d9780d29f5377187fb64.svg" alt="Retract diagram with rows C to C-prime to C and D to D-prime to D, horizontal functors u, v and their hatted counterparts, and vertical functors g, g-prime, g." loading="lazy" width="133" height="57" style="width:133px"></span> with \(vu \simeq \id _C\) and \(\hat {v}\hat {u} \simeq \id _D\), compatibly with the squares. By [<a class="citation" href="../../references/index.html#bib-lurie2009HTT">Lurie (2009)</a>, Proposition 5.2.4.2], it suffices to show
 that for every \(d \in D\) the functor \(F_d = \Map _D(d,g(-))\colon C \to \An \) is corepresentable. Since \(C\) is idempotent complete, it suffices to exhibit \(F_d\) as
 a retract of the corepresentable functor \(\Map _C(x,-)\), where \(x = vf'\hat {u}(d)\). Denote by \(\eta \) the unit of the adjunction \(f' \dashv g'\) and by \(\phi \mapsto \phi ^{\flat }\) the
-                                                                                   
-                                                                                   
 adjunction bijection \(\Map _{D'}(e,g'(c')) \simeq \Map _{C'}(f'(e),c')\). We define natural transformations \[ F_d \xrightarrow {\;i\;} \Map _C(x,-) \xrightarrow {\;p\;} F_d \] as follows. For \(c \in C\) and \(\phi \colon d \to g(c)\), let \(i(\phi )\) be the composite \[ x = vf'\hat {u}(d) \xrightarrow {v((\hat {u}\phi )^{\flat })} vu(c) \simeq c, \]
 where \(\hat {u}\phi \colon \hat {u}(d) \to \hat {u}g(c) \simeq g'u(c)\). For \(\chi \colon x \to c\), let \(p(\chi )\) be the composite \[ d \simeq \hat {v}\hat {u}(d) \xrightarrow {\hat {v}(\eta _{\hat {u}d})} \hat {v}g'f'\hat {u}(d) \simeq gvf'\hat {u}(d) = g(x) \xrightarrow {g(\chi )} g(c). \] Both constructions are natural in \(c\). Using \(gv \simeq \hat {v}g'\) and the triangle identity
 \(g'((\hat u \phi )^{\flat }) \circ \eta _{\hat {u}d} = \hat {u}\phi \), we compute \[ p(i(\phi )) = gv((\hat u\phi )^{\flat }) \circ \hat {v}(\eta _{\hat u d}) \simeq \hat {v}\big (g'((\hat u\phi )^{\flat })\circ \eta _{\hat u d}\big ) = \hat {v}\hat {u}(\phi ) \simeq \phi , \] so \(pi \simeq \id \). Hence \(F_d\) is a retract of \(\Map _C(x,-)\), as desired.                                                                         □

@@ -48,6 +48,8 @@ sequence</span> \(c_0 \to c_1 \to c_2 \to \dots \) <span class="ntx-Italic-tlf-t
 </div><details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-1">
 <p class="noindent">If \(X\) is a sequential colimit of representables, then \(X\) is a countable colimit of compact objects,
 hence \(\omega _1\)-compact by <a class="source-reference" href="../closure-properties-of-kappa-compact-objects/index.html#cor:Kappa_Small_Colimits_Of_Kappa_Compacts">Corollary A.4</a>.
+                                                                                   
+                                                                                   
 </p><p class="noindent">Conversely, let \(X\) be \(\omega _1\)-compact. By definition of \(\Ind (C)\) and <a class="source-reference" href="../cofinal-filtered-posets/index.html#thm:Filtered_Posets_Cofinal">Theorem A.8</a>, we may write \(X = \colim _{p \in P} y(c_p)\) for a filtered partially ordered set
 \(P\). By <a class="source-reference" href="../colimits-over-countable-subposets/index.html#prop:Colimits_Over_Countable_Subposets">Proposition A.9</a>, we have \(X \simeq \colim _{Q \in \Sigma } X_Q\) with \(X_Q = \colim _{q \in Q} y(c_q)\) and \(\Sigma \) \(\omega _1\)-filtered. As \(X\) is \(\omega _1\)-compact, \(\Map (X,X) \simeq \colim _{Q} \Map (X,X_Q)\), so the identity of \(X\) factors as \(X \xrightarrow {s} X_Q \xrightarrow {r} X\) for some \(Q \in \Sigma \). By <a class="source-reference" href="../cofinal-maps-of-posets/index.html#lem:Cofinality_Posets">Lemma A.7</a>(2),
 \(X_Q\) is a sequential colimit \(Y = \colim _n y(a_n)\) of representables. By <a class="source-reference" href="../retracts-as-telescopes/index.html#lem:Retract_As_Telescope">Lemma A.11</a>, \(X \simeq \colim (Y \xrightarrow {e} Y \xrightarrow {e} \dots )\) with \(e = sr\).
@@ -56,8 +58,6 @@ with horizontal maps the transition maps of \(a_{\bullet }\) and vertical maps \
 sequence \(a_{\bullet } \to a_{f(\bullet )} \to a_{f^2(\bullet )} \to \dots \) of whiskerings of \(\eta \). Since each \(f^k\) is cofinal, \(\colim _n y\Phi (k,n) \simeq Y\), and under these identifications the induced
 map in the \(k\)-direction is \(\colim \eta \simeq e\). Hence \[ X \simeq \colim _k \colim _n y\Phi (k,n) \simeq \colim _{(k,n) \in \N \times \N } y\Phi (k,n) \simeq \colim _n y\Phi (n,n), \] where the last equivalence uses cofinality of the diagonal (<a class="source-reference" href="../cofinal-maps-of-posets/index.html#lem:Cofinality_Posets">Lemma A.7</a>(3)). So \(X\)
 is a sequential colimit of representables.                                                                                            □
-                                                                                   
-                                                                                   
 </p>
 </div></details></article><aside class="context-nav manuscript-contents-nav" id="context-navigation" data-context-nav data-open="false" aria-label="Page navigation">
     <div class="contents-ledgers"><section class="contents-ledger" data-contents-ledger data-open="false">

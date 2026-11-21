@@ -37,11 +37,15 @@ only concern natural transformations up to homotopy.
 </p>
 <div class="newtheorem">
 <p class="noindent"><span class="head">
+                                                                                   
+                                                                                   
 <a id="x1-5001r23"></a>
-<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/mates-of-natural-transformations/index.html" title="Mates of natural transformations">Construction A.23.</a></span>  </span><span id="constr:Mates"></span> Consider a square of categories <span class="diagram"><img src="../../../_assets/diagrams/tikzcd-551e012e64050a2fb2ad.svg" alt="Square of categories with G from A to B, G-prime from A-prime to B-prime, and vertical functors U and V." loading="lazy" width="80" height="64" style="width:80px"></span> commuting via a natural isomorphism \(\alpha \colon VG \simeq G'U\), and
-suppose that \(G\) and \(G'\) admit left adjoints \(F\) and \(F'\), with units \(\eta ,\eta '\) and counits \(\varepsilon ,\varepsilon '\). The <span class="ntx-Italic-tlf-t1-x-x-109">mate </span>of \(\alpha \) is the natural
-transformation \(\beta \colon F'V \to UF\) given by the composite \[ F'V \xrightarrow {F'V\eta } F'VGF \overset {\alpha }{\simeq } F'G'UF \xrightarrow {\varepsilon ' UF} UF. \] If instead \(U\) and \(V\) admit right adjoints \(U^R\) and \(V^R\), the <span class="ntx-Italic-tlf-t1-x-x-109">vertical mate</span>
-of \(\alpha \) is the natural transformation \(\gamma \colon GU^R \to V^RG'\) given by \[ GU^R \to V^RVGU^R \overset {\alpha }{\simeq } V^RG'UU^R \to V^RG'. \]
+<span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/mates-of-natural-transformations/index.html" title="Mates of natural transformations">Construction A.23.</a></span>  </span><span id="constr:Mates"></span>  Consider  a  square  of  categories  <span class="diagram"><img src="../../../_assets/diagrams/tikzcd-551e012e64050a2fb2ad.svg" alt="Square of categories with G from A to B, G-prime from A-prime to B-prime, and vertical functors U and V." loading="lazy" width="80" height="64" style="width:80px"></span>  commuting  via  a  natural  isomorphism  \(\alpha \colon VG \simeq G'U\),
+and  suppose  that  \(G\)  and  \(G'\)  admit  left  adjoints  \(F\)  and  \(F'\),  with  units  \(\eta ,\eta '\)  and  counits  \(\varepsilon ,\varepsilon '\).  The  <span class="ntx-Italic-tlf-t1-x-x-109">mate  </span>of  \(\alpha \)  is  the
+natural  transformation  \(\beta \colon F'V \to UF\)  given  by  the  composite  \[ F'V \xrightarrow {F'V\eta } F'VGF \overset {\alpha }{\simeq } F'G'UF \xrightarrow {\varepsilon ' UF} UF. \]  If  instead  \(U\)  and  \(V\)  admit  right  adjoints  \(U^R\)  and  \(V^R\),  the
+<span class="ntx-Italic-tlf-t1-x-x-109">vertical mate </span>of \(\alpha \) is the natural transformation \(\gamma \colon GU^R \to V^RG'\) given by \[ GU^R \to V^RVGU^R \overset {\alpha }{\simeq } V^RG'UU^R \to V^RG'. \] For a pullback square, the first formula
+gives  the  Beck–Chevalley  transformation  used  in  <a href="https://animarium.org/tag/010G/"><span class="ntx-Italic-tlf-t1-x-x-109">Stable  Homotopy  Theory  and  Higher  Algebra</span>,
+Definition 15.1.1</a>. Left adjointability there requires this mate to be invertible.
 </p>
 </div>
 
@@ -49,9 +53,6 @@ of \(\alpha \) is the natural transformation \(\gamma \colon GU^R \to V^RG'\) gi
 <p class="noindent"><span class="head">
 <a id="x1-5002r24"></a>
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/conjugate-natural-transformations/index.html" title="Conjugate natural transformations">Lemma A.24 </a></span>(Conjugate transformations)<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="lem:Conjugate_Transformations"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(F_1 \dashv G_1\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(F_2 \dashv G_2\) <span class="ntx-Italic-tlf-t1-x-x-109">be adjunctions between categories</span> \(A\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(B\)<span class="ntx-Italic-tlf-t1-x-x-109">, with</span>
-                                                                                   
-
-                                                                                   
 \(F_i\colon A \to B\)<span class="ntx-Italic-tlf-t1-x-x-109">. For every natural transformation</span> \(\phi \colon F_1 \to F_2\) <span class="ntx-Italic-tlf-t1-x-x-109">there is a unique natural transformation</span> \(\phi ^{\vee }\colon G_2 \to G_1\)<span class="ntx-Italic-tlf-t1-x-x-109">, its </span>conjugate<span class="ntx-Italic-tlf-t1-x-x-109">, such that
 the square </span><span class="diagram"><img src="../../../_assets/diagrams/tikzcd-fc50b9e95e3d3b47a543.svg" alt="Square defining conjugate transformations: precomposition by phi on mapping animae in B corresponds under the adjunction isomorphisms to postcomposition by phi-dual on mapping animae in A." loading="lazy" width="202" height="66" style="width:202px"></span> <span class="ntx-Italic-tlf-t1-x-x-109">commutes naturally in</span> \(a\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(b\)<span class="ntx-Italic-tlf-t1-x-x-109">. Moreover,</span> \(\phi \) <span class="ntx-Italic-tlf-t1-x-x-109">is an isomorphism if and only if</span> \(\phi ^{\vee }\) <span class="ntx-Italic-tlf-t1-x-x-109">is.</span>
 </p>
@@ -63,6 +64,8 @@ which by the Yoneda lemma is induced by a unique natural transformation \(\phi ^
 lemma, \(\phi \) is an isomorphism if and only if \(\phi ^*\) is an isomorphism for all \(a,b\), if and only if \((\phi ^{\vee })_*\) is an isomorphism
 for all \(a,b\), if and only if \(\phi ^{\vee }\) is an isomorphism.                                                                                           □
 </p>
+                                                                                   
+                                                                                   
 </div></details>
 <div class="newtheorem">
 <p class="noindent"><span class="head">
@@ -76,9 +79,6 @@ In particular,</span> \(\beta \) <span class="ntx-Italic-tlf-t1-x-x-109">is an i
 <div class="newtheorem">
 <p class="noindent"><span class="head">
 <a id="x1-5004r26"></a>
-                                                                                   
-
-                                                                                   
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/adjoint-triples/index.html" title="Adjoint triples">Lemma A.26 </a></span>(Adjoint triples)<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="lem:Adjoint_Triples"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(F \dashv G \dashv H\) <span class="ntx-Italic-tlf-t1-x-x-109">be an adjoint triple, with</span> \(F,H\colon A \to B\) <span class="ntx-Italic-tlf-t1-x-x-109">and</span> \(G\colon B \to A\)<span class="ntx-Italic-tlf-t1-x-x-109">. Then</span> \(F\) <span class="ntx-Italic-tlf-t1-x-x-109">is fully faithful if and
 only if</span> \(H\) <span class="ntx-Italic-tlf-t1-x-x-109">is fully faithful.</span>
 </p>
@@ -90,6 +90,8 @@ its conjugate is the counit \(\varepsilon \colon GH \to \id _A\) of \(G \dashv H
 to  postcomposition  with  \(\varepsilon _{a'}\),  by  the  triangle  identities.  Now  \(F\)  is  fully  faithful  if  and  only  if  \(\eta \)  is  an
 isomorphism, and \(H\) is fully faithful if and only if \(\varepsilon \) is an isomorphism, so the claim follows from <a class="source-reference" href="../../../entry/conjugate-natural-transformations/index.html#lem:Conjugate_Transformations">Lemma A.24</a>.    □
 </p>
+                                                                                   
+                                                                                   
 </div></details>
 <p class="noindent">The following was used in the definition of strongly continuous functors between compactly assembled
 categories, see <a class="source-reference" href="../../../entry/strongly-continuous-functors-between-compactly-assembled-categories/index.html#def:Strongly_Continuous_Compactly_Assembled">Definition 3.9</a> and <a class="source-reference" href="../../../entry/right-adjoints-and-strong-continuity/index.html#rem:Strongly_Continuous_Right_Adjoint">Remark 3.10</a>.
@@ -104,9 +106,6 @@ colimit functors, and let</span> \(f\colon C \to D\) <span class="ntx-Italic-tlf
 </div>
 
 <details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-1">
-                                                                                   
-
-                                                                                   
 <p class="noindent">Applying \(\Ind \) to the unit and counit of \(f \dashv g\) shows that \(\Ind (f) \dashv \Ind (g)\). By <a class="source-reference" href="../../../entry/mates-and-conjugate-transformations/index.html#lem:Mates_Conjugates">Lemma A.25</a>, \(\beta \) is an isomorphism if and only if the
 vertical mate \[ \gamma \colon \colim _C\Ind (g) \to gf\colim _C\Ind (g) \simeq g\colim _D\Ind (f)\Ind (g) \to g\colim _D \] is an isomorphism. Evaluating at an object \(\quotcolim _i d_i \in \Ind (D)\), the map \(\gamma \) becomes \[ \colim _i g(d_i) \to gf\big (\colim _i g(d_i)\big ) \simeq g\big (\colim _i fg(d_i)\big ) \to g\big (\colim _i d_i\big ), \] whose restriction
 to each \(g(d_j)\) is \(g(d_j) \to gfg(d_j) \to g(d_j)\) followed by the canonical map \(g(d_j) \to g(\colim _i d_i)\). By the triangle identity, \(\gamma \) is therefore the canonical
