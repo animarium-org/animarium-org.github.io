@@ -489,6 +489,22 @@ function materializeRetirements(stageRoot, ledger, currentRoutes, contract, publ
   }
 }
 
+function installImpressumLinks(stageRoot) {
+  const link = '<a href="/impressum.html">Impressum</a>';
+  for (const entry of fs.readdirSync(stageRoot, { recursive: true, withFileTypes: true })) {
+    if (!entry.isFile() || !entry.name.endsWith(".html")) continue;
+    const file = path.join(entry.parentPath, entry.name);
+    const html = fs.readFileSync(file, "utf8");
+    const footer = html.match(/<footer\b[^>]*>[\s\S]*?<\/footer>/i)?.[0];
+    if (footer?.includes(link)) continue;
+    if (!html.includes("</body>")) throw new Error(`Missing closing body in ${file}.`);
+    const updated = html.includes("</footer>")
+      ? html.replace("</footer>", `  ${link}\n</footer>`)
+      : html.replace("</body>", `  <footer>${link}</footer>\n</body>`);
+    fs.writeFileSync(file, updated);
+  }
+}
+
 function validateLedgerFiles(stageRoot, ledger, publicBase) {
   for (const route of ledger.Routes) {
     const documentPath = routeDocument(stageRoot, relativeRoute(publicBase, route.Path));
@@ -688,6 +704,7 @@ export function publishWork(configPath, { checkOnly = false, websiteRoot = defau
     fs.mkdirSync(path.dirname(stagedPdf), { recursive: true });
     fs.copyFileSync(sourcePdf, stagedPdf);
     materializeRetirements(stageRoot, ledger, currentRoutes, contract, publicBase);
+    installImpressumLinks(stageRoot);
     if (entryTags?.length) installEntryLinks(stageRoot, contract.CanonicalBase, entryTags);
     validateLedgerFiles(stageRoot, ledger, publicBase);
     ledger.PublishedBundleSha256 = directoryHash(stageRoot);

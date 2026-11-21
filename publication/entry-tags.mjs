@@ -94,6 +94,7 @@ function renderTagPage(tag, target) {
     <h1>Tag ${tag}</h1>
     <p>${body}</p>
   </main>
+  <footer><a href="/impressum.html">Impressum</a></footer>
 </body>
 </html>
 `;
