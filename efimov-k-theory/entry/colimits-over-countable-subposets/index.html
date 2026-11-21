@@ -51,6 +51,8 @@ with filtered colimits, there is a natural equivalence </span>\[ \colim _{p \in 
 one element of \(P\) if the family is empty), and inductively let \(U_{k+1} \supseteq U_k\) be obtained by adding a chosen common
 upper bound in \(P\) for every pair of elements of \(U_k\). Then \(U = \bigcup _k U_k\) is countable, and any two elements of \(U\) have an
 upper bound in \(U\); hence \(U \in \Sigma \) by <a class="source-reference" href="../kappa-filtered-posets/index.html#lem:Kappa_Filtered_Posets">Lemma A.5</a>, and \(U\) is an upper bound of the \(Q_n\). So \(\Sigma \) is \(\omega _1\)-filtered by <a class="source-reference" href="../kappa-filtered-posets/index.html#lem:Kappa_Filtered_Posets">Lemma A.5</a>.
+                                                                                   
+                                                                                   
 </p><p class="noindent">Consider the partially ordered set \(E = \{(Q,q) \mid Q \in \Sigma , q \in Q\}\), with \((Q,q) \leq (Q',q')\) if \(Q \subseteq Q'\) and \(q \leq q'\), together with the projections \(\pi \colon E \to \Sigma \) and \(\rho \colon E \to P\). The map \(\rho \) is
 cofinal by <a class="source-reference" href="../cofinal-maps-of-posets/index.html#lem:Cofinality_Posets">Lemma A.7</a>: for \(p \in P\), the subset \(\{(Q,q) \mid p \leq q\}\) is non-empty, and it is filtered since two elements \((Q,q),(Q',q')\) are bounded by \((Q'',q'')\) where
 \(q''\) is an upper bound of \(q,q'\) and \(Q'' \in \Sigma \) contains \(Q \cup Q' \cup \{q''\}\). Hence \(\colim _P F \simeq \colim _E F\rho \simeq \colim _{\Sigma } \pi _!(F\rho )\), where \(\pi _!\) denotes left Kan extension along \(\pi \). All indexing

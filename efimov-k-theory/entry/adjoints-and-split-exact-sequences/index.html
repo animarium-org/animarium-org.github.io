@@ -41,6 +41,8 @@
       <span aria-hidden="true">☰</span> Navigation
     </button><article class="notes-page "><div class="newtheorem">
 <p class="noindent"><span class="head">
+                                                                                   
+                                                                                   
 <a id="x1-5015r25"></a>
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="index.html" title="Adjoints and split exact sequences">Proposition 2.25.</a></span>  </span><span id="prop:SOD_From_Short_Exact"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(A \xrightarrow {i} B \xrightarrow {p} C\) <span class="ntx-Italic-tlf-t1-x-x-109">be a short exact sequence in</span> \(\Cat _{\perf }\)<span class="ntx-Italic-tlf-t1-x-x-109">. Then</span> \(i\) <span class="ntx-Italic-tlf-t1-x-x-109">admits a right adjoint</span> \(i^R\) <span class="ntx-Italic-tlf-t1-x-x-109">if and only if</span> \(p\) <span class="ntx-Italic-tlf-t1-x-x-109">admits a
 right adjoint</span> \(p^R\)<span class="ntx-Italic-tlf-t1-x-x-109">. In this case:</span>
@@ -59,14 +61,14 @@ inclusion. Moreover, \(L(b) \simeq 0\) if and only if \(b \simeq ii^Rb\) lies in
 \(L\) is a reflective localization, it exhibits \(A^{\perp }\) as the localization of \(B\) at these maps [<a class="citation" href="../../references/index.html#bib-lurie2009HTT">Lurie (2009)</a>, Proposition 5.2.7.12], so \(B/A \simeq A^{\perp }\). As \(A^{\perp }\) is closed under
 retracts in the idempotent complete category \(B\), it is idempotent complete, so \(C \simeq (B/A)^{\idem } \simeq A^{\perp }\), with \(p\) corresponding to
 \(L\). Hence \(p\) admits the fully faithful right adjoint \(A^{\perp } \hookrightarrow B\).
-                                                                                   
-                                                                                   
 </p><p class="noindent">Conversely, assume that \(p^R\) exists. For \(a \in A\) and \(c \in C\) we have \(\hom _B(ia,p^Rc) \simeq \hom _C(pia,c) \simeq 0\), so \(p^R\) lands in \(A^{\perp }\). Every \(x \in A^{\perp }\) is local with respect to the
 maps \(s\colon b' \to b\) with \(\cofib (s) \in A\), i.e. \(s^*\colon \hom _B(b,x) \to \hom _B(b',x)\) is an equivalence. Hence \(\hom _{B/A}(qb,qx) \simeq \hom _B(b,x)\) for all \(b \in B\) and \(x \in A^{\perp }\) (for instance by <a class="source-reference" href="../mapping-spectra-in-verdier-quotients/index.html#rem:Mapping_Spectra_Quotient">Remark 2.8</a>, applied to \(B\catop \)). Applying
 this to \(x = p^Rc\), we find that the composite \[ \hom _B(b,p^Rc) \to \hom _C(pb,pp^Rc) \to \hom _C(pb,c), \] whose second map is induced by the counit, is the adjunction
 equivalence. Its first map is an equivalence as well: since the functor \(B/A \to C\) induced by \(p\) is fully faithful, it is
 identified with the equivalence \(\hom _B(b,p^Rc) \simeq \hom _{B/A}(qb,qp^Rc)\). Hence so is the second map, i.e. the counit \(pp^Rc \to c\) induces an equivalence
 on \(\hom _C(pb,-)\) for all \(b \in B\). Since every object of \(C\) is a retract of an object of the form \(pb\), the counit is an equivalence,
+                                                                                   
+                                                                                   
 i.e. \(p^R\) is fully faithful. For \(b \in B\), let \(f \to b \to p^Rpb\) be the fiber sequence of the unit. Then \(p(f) \simeq 0\), so \(f\) lies in \(A\), and for \(a \in A\) we get \(\hom _B(ia,f) \simeq \hom _B(ia,b)\)
 since \(\hom _B(ia,p^Rpb) \simeq 0\). Hence \(b \mapsto f\) is right adjoint to \(i\).
 </p><p class="noindent">It remains to prove (1)–(3). For (1), it remains to show that every \(x \in A^{\perp }\) lies in the image of \(p^R\). The fiber \(f\) of

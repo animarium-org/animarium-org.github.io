@@ -31,13 +31,13 @@
       <span aria-hidden="true">☰</span> Navigation
     </button><article class="notes-page ">
 <p class="noindent"><span id="sec:Localizing_Invariants"></span>
-                                                                                   
-                                                                                   
 </p><p class="noindent">We start with some recollections on the functor \(K\colon \Cat _{\st } \to \Sp \).
 </p>
 <div class="newtheorem">
 <p class="noindent"><span class="head">
 <a id="x1-7001r29"></a>
+                                                                                   
+                                                                                   
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/grothendieck-groups/index.html" title="Grothendieck groups">Definition 2.29.</a></span>  </span><span id="def:K_0"></span> The <span class="ntx-Italic-tlf-t1-x-x-109">Grothendieck group</span> \(K_0(A)\) of a small stable category \(A\) is the free abelian group on
 the equivalence classes \([x]\) of objects \(x \in A\), modulo the relations \([x] = [x'] + [x'']\) for every cofiber sequence \(x' \to x \to x''\) in \(A\).
 </p>
@@ -60,12 +60,13 @@ subcategory of localizing invariants.
 <div class="newtheorem">
 <p class="noindent"><span class="head">
 <a id="x1-7003r31"></a>
-                                                                                   
-                                                                                   
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/localizing-invariants-and-verdier-sequences/index.html" title="Localizing invariants and Verdier sequences">Lemma 2.31.</a></span>  </span><span id="lem:Localizing_Invariants_Verdier"> </span><span class="ntx-Italic-tlf-t1-x-x-109">Let</span> \(\Ee \) <span class="ntx-Italic-tlf-t1-x-x-109">be stable and let</span> \(F\colon \Cat _{\st } \to \Ee \) <span class="ntx-Italic-tlf-t1-x-x-109">satisfy</span> \(F(0) \simeq 0\)<span class="ntx-Italic-tlf-t1-x-x-109">. Consider the following conditions:</span>
      </p><dl class="enumerate"><dt class="enumerate">
   (1) </dt><dd class="enumerate">
      <p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">For every Verdier sequence</span> \(A \hookrightarrow B \to B/A\) <span class="ntx-Italic-tlf-t1-x-x-109">in the sense of </span><a class="source-reference" href="../../../entry/verdier-sequences/index.html#def:Verdier_Sequence">Definition 2.4</a><span class="ntx-Italic-tlf-t1-x-x-109">,</span> \(F\) <span class="ntx-Italic-tlf-t1-x-x-109">takes this sequence to a fiber sequence.</span>
+                                                                                   
+
+                                                                                   
      </p></dd><dt class="enumerate">
   (2) </dt><dd class="enumerate">
      <p class="noindent"><span class="ntx-Italic-tlf-t1-x-x-109">Each sequence</span> \(A \hookrightarrow B \to C\) <span class="ntx-Italic-tlf-t1-x-x-109">with</span> \(A \to B\) <span class="ntx-Italic-tlf-t1-x-x-109">fully faithful and inducing an equivalence</span> \((B/A)^{\idem } \iso C^{\idem }\) <span class="ntx-Italic-tlf-t1-x-x-109">is sent to a fiber sequence
@@ -87,13 +88,13 @@ isomorphism.                                                                    
 <p class="noindent"><span class="head">
 <a id="x1-7006r32"></a>
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/verdier-versus-karoubi-invariants/index.html" title="Verdier versus Karoubi invariants">Remark 2.32.</a></span>  </span><span id="rem:Verdier_Localizing_Not_Karoubi"></span>  Condition  (1)  of  <a class="source-reference" href="../../../entry/localizing-invariants-and-verdier-sequences/index.html#lem:Localizing_Invariants_Verdier">Lemma 2.31</a>  alone  does  not  imply  that  \(F\)  inverts  \(A \to A^{\idem }\).  For  instance,  connective
-                                                                                   
-                                                                                   
 algebraic K-theory satisfies (1) (see the proof of [<a class="citation" href="../../../references/index.html#bib-Hermitian_II">Calmès et al. (2020)</a>, Corollary 4.4.15]), but \(K_0(A) \to K_0(A^{\idem })\) is in general not surjective. This is why
 localizing invariants are defined on idempotent complete categories.
 </p>
 </div>
 
+                                                                                   
+                                                                                   
 <div class="newtheorem">
 <p class="noindent"><span class="head">
 <a id="x1-7007r33"></a>
@@ -116,12 +117,12 @@ property are called <span class="ntx-Italic-tlf-t1-x-x-109">additive</span>.
 <div class="newtheorem">
 <p class="noindent"><span class="head">
 <a id="x1-7009r35"></a>
-                                                                                   
-                                                                                   
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/calkin-delooping/index.html" title="Delooping through Calkin categories">Example 2.35.</a></span>  </span><span id="ex:Localizing_Calkin"></span> Let \(A \in \Cat _{\perf }\) and let \(F\) be a localizing invariant. The short exact sequence \(A \to \Ind (A)^{\omega _1} \to \Calk _{\omega _1}(A)\) of <a class="source-reference" href="../../../entry/calkin-categories/index.html#def:Calkin_Small">Definition 2.26</a> gives a fiber
 sequence \[ F(A) \to F(\Ind (A)^{\omega _1}) \to F(\Calk _{\omega _1}(A)). \] Since \(\Ind (A)^{\omega _1}\) admits countable coproducts, the middle term vanishes by an Eilenberg swindle:
 for \(T = \bigoplus _{\N }\colon \Ind (A)^{\omega _1} \to \Ind (A)^{\omega _1}\) we have \(\id \oplus T \simeq T\), and additivity gives \(F(\id ) + F(T) = F(T)\), so \(F(\id ) = 0\). Hence \[ F(A) \simeq \Omega F(\Calk _{\omega _1}(A)). \] This is the formula that will be used to extend \(F\) to
 dualizable categories, see <a class="source-reference" href="../../../entry/continuous-extensions-of-localizing-invariants/index.html#def:Continuous_Extension">Definition 1.9</a>.
+                                                                                   
+                                                                                   
 </p>
 </div>
 <p class="noindent">The most fundamental localizing invariant is nonconnective algebraic K-theory, as made precise by the
@@ -144,11 +145,11 @@ supply a proof of the additional generality.
 </p>
 </div>
 
-                                                                                   
-                                                                                   
 <div class="newtheorem">
 <p class="noindent"><span class="head">
 <a id="x1-7012r38"></a>
+                                                                                   
+                                                                                   
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/localizing-motives/index.html" title="Localizing motives">Definition 2.38 </a></span>([<a class="citation" href="../../../references/index.html#bib-BGT2013Universal">Blumberg et al. (2013)</a>])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="def:Mot_Loc"></span> The category of <span class="ntx-Italic-tlf-t1-x-x-109">localizing motives</span> \(\mathrm {Mot}_{\loc }\) is the presentable stable category equipped
 with a localizing invariant \[ U_{\loc }\colon \Cat _{\perf } \to \mathrm {Mot}_{\loc } \] preserving filtered colimits, characterized as follows: for every presentable
 stable category \(\Ee \), precomposition with \(U_{\loc }\) induces an equivalence between colimit-preserving functors
@@ -174,9 +175,6 @@ asserted to classify all the localizing invariants of <a class="source-reference
 <a id="x1-7014r40"></a>
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/k-theory-as-the-day-convolution-unit/index.html" title="K-theory as the Day convolution unit">Theorem 2.40 </a></span>(Theorem/definition, cf. [<a class="citation" href="../../../references/index.html#bib-BGT2013Universal">Blumberg et al. (2013)</a>])<span class="ntx-Bold-tlf-t1-x-x-109">.</span>  </span><span id="thm:K_Unit_Day_Convolution"></span> \(K\) <span class="ntx-Italic-tlf-t1-x-x-109">is the unit for the Day convolution operad structure on</span>
 \(\Fun _{\loc }(\Cat _{\perf },\Sp )\)<span class="ntx-Italic-tlf-t1-x-x-109">, where localizing invariants are not required to preserve filtered colimits.</span>
-                                                                                   
-
-                                                                                   
 </p>
 </div>
 
@@ -205,6 +203,9 @@ square.</span>
 </div>
 
 <details class="proof" open><summary>Proof.</summary><div class="proof-content" id="proof-1">
+                                                                                   
+
+                                                                                   
 <p class="noindent">Write \(h\colon B \to D\) for the right vertical functor and form the lax pullback \(P = B \times _D^{\to } C\). Its objects are triples \((b,c,\varphi )\) with \(\varphi \colon h(b) \to g(c)\).
 There is a split exact sequence \(C \to P \to B\), and hence \(F(P) \simeq F(C) \oplus F(B)\), by [<a class="citation" href="../../../references/index.html#bib-Tamme_Excision">Tamme (2018)</a>, Proposition 10]. The hypotheses make \(Q\) an excisive square in the sense
 of [<a class="citation" href="../../../references/index.html#bib-Tamme_Excision">Tamme (2018)</a>, Definition 14]; in fact only \(\Ind (g)\) needs to be a localization. By [<a class="citation" href="../../../references/index.html#bib-Tamme_Excision">Tamme (2018)</a>, Theorem 15], the functor \((b,c,\varphi ) \mapsto \cofib (\varphi )\) fits into an exact sequence \[ A \to P \to D. \] Here and
@@ -228,11 +229,11 @@ projections. Their small kernels therefore need not give short exact sequences t
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/tammes-lax-pullback-proof/index.html" title="Tamme’s proof through lax pullbacks">Remark 2.43.</a></span>  </span><span id="rem:Tamme_Lax_Pullback_Proof"></span>  The  proof  above  is  Tamme’s  lax-pullback  argument  and  predates  continuous
 K-theory.  It  applies  to  localizing  invariants  valued  in  any  stable  category,  without  assuming
 preservation  of  filtered  colimits.  A  later  proof  using  continuous  invariants  identifies  the  kernels
-                                                                                   
-                                                                                   
 of \(\Ind (f)\) and \(\Ind (g)\) and applies the continuous extension to the resulting localization sequences. See [<a class="citation" href="../../../references/index.html#bib-Land_Tamme_Pullbacks">Land and Tamme (2019)</a>] for a
 generalization to arbitrary pullbacks of ring spectra.
 </p>
+                                                                                   
+                                                                                   
 </div>
 
 <div class="newtheorem">
@@ -255,8 +256,6 @@ the induced square <span class="diagram"><img src="../../../_assets/diagrams/tik
 <a id="x1-7020r46"></a>
 <span class="ntx-Bold-tlf-t1-x-x-109"><a href="../../../entry/milnor-squares-of-rings/index.html" title="Milnor squares of rings">Example 2.46.</a></span>  </span><span id="ex:Milnor_Square_Of_Rings"></span> Given a map of rings \(A \to B\) that sends an ideal \(I \subseteq A\) isomorphically to the induced ideal \(IB \subseteq B\), the
 induced square <span class="diagram"><img src="../../../_assets/diagrams/tikzcd-4f6dc76c92439df4c62e.svg" alt="Pullback square of rings with A mapping to A/I, B mapping to B/IB, and vertical maps induced by A to B." loading="lazy" width="83" height="58" style="width:83px"></span> is a pullback of \(\bbE _1\)-rings.
-                                                                                   
-                                                                                   
 </p>
 </div>
 
