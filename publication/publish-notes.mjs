@@ -2,6 +2,7 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { installRelatedResult } from "./related-results.mjs";
 import { installEntryLinks, loadPublicationTags } from "./entry-tags.mjs";
 import { validateReaderShell } from "./reader-shell-v1/install.mjs";
 
@@ -706,6 +707,7 @@ export function publishWork(configPath, { checkOnly = false, websiteRoot = defau
     materializeRetirements(stageRoot, ledger, currentRoutes, contract, publicBase);
     installImpressumLinks(stageRoot);
     if (entryTags?.length) installEntryLinks(stageRoot, contract.CanonicalBase, entryTags);
+    for (const note of config.RelatedResults ?? []) installRelatedResult(root, stageRoot, contract, note);
     validateLedgerFiles(stageRoot, ledger, publicBase);
     ledger.PublishedBundleSha256 = directoryHash(stageRoot);
     ledger.PublishedPdfSha256 = fileHash(stagedPdf);
