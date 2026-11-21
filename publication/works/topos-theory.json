@@ -4,6 +4,14 @@
   "SourceBundle": "../Notes/Topos theory/output/web",
   "SourcePdf": "../Notes/Topos theory/output/pdf/Notes higher topos theory.pdf",
   "EntryTags": true,
+  "RelatedResults": [
+    {
+      "source": "026K",
+      "target": "11BQ",
+      "label": "Efimov, Construction 5.24",
+      "text": "For the same gluing by triples along an accessible exact functor between presentable stable categories, see"
+    }
+  ],
   "EntryTagStart": "0200",
   "PublicDirectory": "topos-theory",
   "PublicPdf": "topos-theory.pdf",

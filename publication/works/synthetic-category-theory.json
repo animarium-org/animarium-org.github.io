@@ -5,6 +5,14 @@
   "SourcePdf": "../Synthetic Category Theory/Web/library-edition/output/web/book.pdf",
   "EmbeddedPdf": "book.pdf",
   "EntryTags": true,
+  "RelatedResults": [
+    {
+      "source": "1155",
+      "target": "118H",
+      "label": "Efimov, Corollary 2.18",
+      "text": "Taking compact objects in this category of presheaves gives the idempotent completion of the Verdier quotient. See"
+    }
+  ],
   "EntryTagStart": "1000",
   "PublicDirectory": "synthetic-category-theory",
   "PublicPdf": "synthetic-category-theory.pdf",

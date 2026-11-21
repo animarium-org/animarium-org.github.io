@@ -2,8 +2,8 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { installEntryLinks, loadPublicationTags } from "./entry-tags.mjs";
 import { installRelatedResult } from "./related-results.mjs";
+import { installEntryLinks, loadPublicationTags } from "./entry-tags.mjs";
 import { validateReaderShell } from "./reader-shell-v1/install.mjs";
 
 const moduleDirectory = path.dirname(fileURLToPath(import.meta.url));
