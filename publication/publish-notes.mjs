@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { installEntryLinks, loadPublicationTags } from "./entry-tags.mjs";
+import { installRelatedResult } from "./related-results.mjs";
 import { validateReaderShell } from "./reader-shell-v1/install.mjs";
 
 const moduleDirectory = path.dirname(fileURLToPath(import.meta.url));
@@ -490,13 +491,18 @@ function materializeRetirements(stageRoot, ledger, currentRoutes, contract, publ
 }
 
 function installImpressumLinks(stageRoot) {
-  const link = '<a href="/impressum.html">Impressum</a>';
+  const link = '<a href="/impressum.html">Impressum &amp; Datenschutz</a>';
+  const previousLink = '<a href="/impressum.html">Impressum</a>';
   for (const entry of fs.readdirSync(stageRoot, { recursive: true, withFileTypes: true })) {
     if (!entry.isFile() || !entry.name.endsWith(".html")) continue;
     const file = path.join(entry.parentPath, entry.name);
     const html = fs.readFileSync(file, "utf8");
     const footer = html.match(/<footer\b[^>]*>[\s\S]*?<\/footer>/i)?.[0];
     if (footer?.includes(link)) continue;
+    if (footer?.includes(previousLink)) {
+      fs.writeFileSync(file, html.replace(footer, () => footer.replace(previousLink, link)));
+      continue;
+    }
     if (!html.includes("</body>")) throw new Error(`Missing closing body in ${file}.`);
     const updated = html.includes("</footer>")
       ? html.replace("</footer>", `  ${link}\n</footer>`)
@@ -706,6 +712,7 @@ export function publishWork(configPath, { checkOnly = false, websiteRoot = defau
     materializeRetirements(stageRoot, ledger, currentRoutes, contract, publicBase);
     installImpressumLinks(stageRoot);
     if (entryTags?.length) installEntryLinks(stageRoot, contract.CanonicalBase, entryTags);
+    for (const note of config.RelatedResults ?? []) installRelatedResult(root, stageRoot, contract, note);
     validateLedgerFiles(stageRoot, ledger, publicBase);
     ledger.PublishedBundleSha256 = directoryHash(stageRoot);
     ledger.PublishedPdfSha256 = fileHash(stagedPdf);
