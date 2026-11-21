@@ -21,6 +21,22 @@
   background: var(--paper);
 }
 
+.opening-chapter.record-list {
+  margin-bottom: 1.2rem;
+}
+
+.opening-chapter a {
+  padding: 1.2rem clamp(1.25rem, 5vw, 4.25rem);
+  border-radius: 0.6rem;
+}
+
+.opening-chapter h2 {
+  margin: 0.35rem 0 0;
+  color: var(--ink);
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
 .chapter-card {
   min-height: 0;
 }

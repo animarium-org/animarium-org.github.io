@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An opening chapter on animae, identifications, and the works in Animarium.">
+  <link rel="canonical" href="https://animarium.org/animae-and-identifications.html">
+  <link rel="icon" href="/assets/brand/site-favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/assets/brand/site-favicon.svg" sizes="any" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/brand/site-apple-touch-icon.png">
+  <link rel="stylesheet" href="/publication/reader-shell-v1/style.css">
+  <title>Animae and identifications | Animarium</title>
+</head>
+<body>
+  <header class="site-header">
+    <a class="collection-return" href="/"><span aria-hidden="true">←</span> Animarium</a>
+    <p class="eyebrow">Opening chapter</p>
+    <h1>Animae and identifications</h1>
+  </header>
+  <main class="notes-page">
+    <p>
+      In everyday mathematics, we encounter various forms of identifications between mathematical
+      objects: diffeomorphisms between smooth manifolds, group isomorphisms, equivalences of categories. Establishing
+      such identifications allows us to infer properties of one object from studying the other one.
+    </p>
+    <p>
+      In homotopy theory, we are also interested in identifications between <em>maps</em> between
+      mathematical objects. For example, a homotopy between two continuous maps
+      <math><mi>f</mi></math> and <math><mi>g</mi></math> gives a particular way of identifying
+      them. In homological algebra, we have the analogous notion of a chain homotopy between two chain maps.
+    </p>
+    <p>
+      In these examples, we usually care about the specific choice of identification, not just
+      its existence. If we want to transfer a ring structure along an isomorphism of abelian groups,
+      the resulting multiplicative unit depends on the choice of isomorphism. We may also require
+      the chosen identifications to satisfy further compatibility requirements: think of the naturality
+      conditions in a natural isomorphism of functors, or of diagrams of topological spaces in which the
+      various choices of homotopies of each of the faces are themselves compatible up to higher homotopy.
+    </p>
+    <p>
+      This leads to the <strong>fundamental principle of homotopy theory</strong>: Identifications are mathematical data. In other words, when talking about equality, we always keep track of the identification witnessing it. All the works in Animarium take this as the guiding principle.
+    </p>
+
+    <section aria-labelledby="from-sets-to-animae">
+      <h2 id="from-sets-to-animae">From sets to animae</h2>
+      <p>
+        There is some intrinsic tension between the fundamental principle of homotopy theory and set theory,
+        the theory on which the foundations of mathematics are typically built. In a set,
+        the question of whether two elements are equal has a mere yes or no answer; we cannot
+        meaningfully talk about <em>how</em> two elements are identified. This causes some
+        friction in homotopy theory: there are several fundamental notions that are conceptually
+        simple but require a substantial amount of theory to make precise
+        within set theory.
+      </p>
+      <p>
+        The approach taken in Animarium is to adopt a foundational language that respects the
+        fundamental principle of homotopy theory from the very start. This in particular entails
+        replacing sets by collections in which identifications between elements are mathematical
+        structures that can be reasoned about. Such a
+        collection is called an <em>anima</em>, plural <em>animae</em>. Animae are also known as
+        ∞-groupoids or homotopy types.
+      </p>
+      <p>
+        For two elements <math><mi>x</mi><mo>,</mo><mi>y</mi></math> of an anima
+        <math><mi>X</mi></math>, there is another anima of identifications between them, denoted <math><mo>(</mo><mi>x</mi><msub><mo>=</mo><mi>X</mi></msub><mi>y</mi><mo>)</mo></math>. If <math><mi>α</mi></math> and
+        <math><mi>β</mi></math> are two points of
+        <math><mo>(</mo><mi>x</mi><msub><mo>=</mo><mi>X</mi></msub><mi>y</mi><mo>)</mo></math>,
+        we can in turn ask for an identification between <math><mi>α</mi></math> and
+        <math><mi>β</mi></math>. This process continues ad infinitum. We may still talk about sets within this
+        theory: Every set gives rise to an anima in which
+        <math><mo>(</mo><mi>x</mi><msub><mo>=</mo><mi>X</mi></msub><mi>y</mi><mo>)</mo></math>
+        is empty for distinct elements and contractible for equal ones.
+      </p>
+      <p>
+        In the classical literature, animae are usually modeled as topological spaces. Every
+        topological space <math><mi>X</mi></math> gives rise to an anima whose elements are points of
+        <math><mi>X</mi></math>, identifications come from paths in <math><mi>X</mi></math> from
+        <math><mi>x</mi></math> to <math><mi>y</mi></math>, identifications between identifications
+        come from homotopies of paths fixing <math><mi>x</mi></math> and <math><mi>y</mi></math>,
+        and so on. In Animarium, we treat topological spaces as distinct from their underlying
+        animae; a detailed discussion of their relation may be found in
+        <a href="/stable-homotopy-higher-algebra/chapter/animae-as-spaces/">Chapter 2 of Stable Homotopy Theory and Higher Algebra</a>.
+        The underlying anima of a topological space only remembers its “homotopical spirit”; this
+        is also the reason for the word <em>anima</em>, which is Latin for “soul.”
+      </p>
+    </section>
+
+    <section aria-labelledby="higher-categories">
+      <h2 id="higher-categories">From animae to categories</h2>
+      <p>
+        In practice, collections of mathematical objects often come equipped not only with a notion
+        of identification, but also with noninvertible maps: Groups have homomorphisms, topological
+        spaces have continuous maps, and categories have functors. The concept of a
+        <em>category</em> captures this idea. Following the fundamental principle, we should allow
+        for identifications between two such noninvertible maps. This leads to an
+        <em>(∞,1)-category</em>: its objects form an anima, and for each pair of objects there is a
+        hom anima of morphisms between them.
+      </p>
+      <p>
+        In this setting, composition of morphisms brings in additional layers of structure. The two ways of composing three morphisms are related by an identification expressing associativity. Given four morphisms, these associativity identifications must themselves fit together in a suitable way. This problem recurs at higher levels, making it hard to specify all structure directly. We may circumvent this by working in synthetic foundations in which ∞-categories are taken as primitive objects and in which we state the basic operations and the coherence they satisfy.
+      </p>
+      <p>
+        In Animarium, we will generally use the phrase <em>category</em> to refer to
+        (∞,1)-categories. The only exception is in
+        <a href="/stable-homotopy-higher-algebra/">Stable Homotopy Theory and Higher Algebra</a>,
+        where we say <em>∞-category</em>.
+      </p>
+    </section>
+
+    <section aria-labelledby="works">
+      <h2 id="works">The works in Animarium</h2>
+      <p>
+        Animarium is still in flux and might see significant revisions. It currently contains the following works:
+      </p>
+      <p>
+        <strong>Synthetic Category Theory</strong> develops the full synthetic foundations. It begins with categories, functors, and identifications, and spells out the axioms governing their behavior. It then develops the foundations of category theory: limits and colimits,
+        directed univalence, the Yoneda embedding, straightening and unstraightening,
+        Kan extensions, and presentability.
+        <a href="/synthetic-category-theory/">Read Synthetic Category Theory</a>
+      </p>
+      <p>
+        <strong>Stable Homotopy Theory and Higher Algebra</strong> begins with a brief overview of those
+        foundations and uses the same language to develop stable homotopy theory and higher algebra.
+        The first part treats spectra and stable ∞-categories, with applications to generalized
+        cohomology, complex K-theory, bordism theory, and duality in topology. The second part develops the theory of
+        ∞-operads and the higher algebra of monoidal categories, algebras, and modules.
+        <a href="/stable-homotopy-higher-algebra/">Read Stable Homotopy Theory and Higher Algebra</a>
+      </p>
+      <p>
+        <strong>Lectures on Topos Theory</strong> grew out of Marc Hoyois’s course in Regensburg. It studies ∞-topoi as a setting for studying objects which can be described locally and glued
+        by descent. Topics discussed are the Giraud axioms, truncation and connectivity, the
+        categories of topoi and logoi, modalities, hypercompletion, and applications to geometry.
+        <a href="/topos-theory/">Read Lectures on Topos Theory</a>
+      </p>
+      <p>
+        <strong>Efimov K-theory</strong> grew out of the Regensburg seminar in Winter 2026/27. The notes ask
+        how algebraic K-theory, usually applied to small stable categories, extends to dualizable
+        presentable stable categories. They develop the tools for Efimov’s continuous K-theory,
+        including localization sequences, compact assembly, compact morphisms, and continuous
+        Calkin categories.
+        <a href="/efimov-k-theory/">Read Efimov K-theory</a>
+      </p>
+    </section>
+  </main>
+  <footer><a href="https://bastiaancnossen.com/impressum.html">Impressum &amp; privacy</a></footer>
+</body>
+</html>
