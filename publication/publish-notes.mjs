@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { installRelatedResult } from "./related-results.mjs";
 import { installEntryLinks, loadPublicationTags } from "./entry-tags.mjs";
 import { validateReaderShell } from "./reader-shell-v1/install.mjs";
+import { withSiteFooter } from "./site-footer.mjs";
 
 const moduleDirectory = path.dirname(fileURLToPath(import.meta.url));
 const defaultWebsiteRoot = path.resolve(moduleDirectory, "..");
@@ -490,24 +491,13 @@ function materializeRetirements(stageRoot, ledger, currentRoutes, contract, publ
   }
 }
 
-function installImpressumLinks(stageRoot) {
-  const link = '<a href="/impressum.html">Impressum &amp; Datenschutz</a>';
-  const previousLink = '<a href="/impressum.html">Impressum</a>';
+function installSiteFooters(stageRoot) {
   for (const entry of fs.readdirSync(stageRoot, { recursive: true, withFileTypes: true })) {
     if (!entry.isFile() || !entry.name.endsWith(".html")) continue;
     const file = path.join(entry.parentPath, entry.name);
     const html = fs.readFileSync(file, "utf8");
-    const footer = html.match(/<footer\b[^>]*>[\s\S]*?<\/footer>/i)?.[0];
-    if (footer?.includes(link)) continue;
-    if (footer?.includes(previousLink)) {
-      fs.writeFileSync(file, html.replace(footer, () => footer.replace(previousLink, link)));
-      continue;
-    }
-    if (!html.includes("</body>")) throw new Error(`Missing closing body in ${file}.`);
-    const updated = html.includes("</footer>")
-      ? html.replace("</footer>", `  ${link}\n</footer>`)
-      : html.replace("</body>", `  <footer>${link}</footer>\n</body>`);
-    fs.writeFileSync(file, updated);
+    const updated = withSiteFooter(html);
+    if (updated !== html) fs.writeFileSync(file, updated);
   }
 }
 
@@ -710,7 +700,7 @@ export function publishWork(configPath, { checkOnly = false, websiteRoot = defau
     fs.mkdirSync(path.dirname(stagedPdf), { recursive: true });
     fs.copyFileSync(sourcePdf, stagedPdf);
     materializeRetirements(stageRoot, ledger, currentRoutes, contract, publicBase);
-    installImpressumLinks(stageRoot);
+    installSiteFooters(stageRoot);
     if (entryTags?.length) installEntryLinks(stageRoot, contract.CanonicalBase, entryTags);
     for (const note of config.RelatedResults ?? []) installRelatedResult(root, stageRoot, contract, note);
     validateLedgerFiles(stageRoot, ledger, publicBase);

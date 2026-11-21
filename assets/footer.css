@@ -1,0 +1,12 @@
+@media screen {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+
+  footer > a[href="/impressum.html"] {
+    margin-inline-start: auto;
+    text-align: end;
+  }
+}

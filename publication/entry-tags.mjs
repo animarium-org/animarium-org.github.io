@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { renderEntryLinks } from "./reader-shell-v1/entry-links.mjs";
+import { withSiteFooter } from "./site-footer.mjs";
 
 const publicationRoot = path.dirname(fileURLToPath(import.meta.url));
 const registryPath = "publication/entry-tags.json";
@@ -81,7 +82,7 @@ function renderTagPage(tag, target) {
   <script>location.replace(${JSON.stringify(target)} + location.search + location.hash);</script>
   <noscript><meta http-equiv="refresh" content="0; url=${target}"></noscript>` : "";
   const body = live ? `<a href="${target}">Open the entry for tag ${tag}</a>.` : escapeHtml(target.Retired);
-  return `<!doctype html>
+  return withSiteFooter(`<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -94,10 +95,9 @@ function renderTagPage(tag, target) {
     <h1>Tag ${tag}</h1>
     <p>${body}</p>
   </main>
-  <footer><a href="/impressum.html">Impressum &amp; Datenschutz</a></footer>
 </body>
 </html>
-`;
+`);
 }
 
 function validateTagFile(root, tag, target) {
